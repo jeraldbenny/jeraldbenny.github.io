@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+ops/logs/
+*.log
+
+# Scratch space
+scratch/
+script_0.js
+
+# Virtual environment (if any)
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo

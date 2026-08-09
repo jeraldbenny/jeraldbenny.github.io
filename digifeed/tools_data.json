@@ -1,0 +1,773 @@
+[
+  {
+    "name": "Magnet AXIOM",
+    "version": "10.2.0",
+    "released": "June 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Artifact Post Processing iteratives",
+      "Native integration with Griffeye Database",
+      "Decodes Apple Intelligence & ChatGPT logs"
+    ],
+    "bugs": [
+      "Memory leak in APFS parsing",
+      "Database lock crash on nested containers"
+    ]
+  },
+  {
+    "name": "FTK Imager",
+    "version": "4.9.0",
+    "released": "1 June 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Direct logical image uploads to AWS S3",
+      "APFS decryption using iCloud keystore keys",
+      "Multi-threaded SHA256 verification hash acceleration"
+    ],
+    "bugs": [
+      "E01 segment spanning limit overflow",
+      "Paths parse crash on Linux platforms"
+    ]
+  },
+  {
+    "name": "Autopsy",
+    "version": "autopsy-4.23.1",
+    "released": "07 May 2026",
+    "category": "Computer Forensics",
+    "github_repo": "sleuthkit/autopsy",
+    "features": [
+      "Some of the settings were not available.",
+      "No other changes."
+    ],
+    "bugs": [
+      "Fixes a release error with 4.23.0. That was released as a Develop build, instead of Release."
+    ]
+  },
+  {
+    "name": "SleuthKit",
+    "version": "sleuthkit-4.15.0",
+    "released": "15 April 2026",
+    "category": "Computer Forensics",
+    "github_repo": "sleuthkit/sleuthkit",
+    "features": [
+      "Added isimagesupported DLL to test file types (SKL)",
+      "Log large dirs that are skipped (SKL)"
+    ],
+    "bugs": [
+      "Bounds checks. Reported by Mobasi",
+      "NTFS overflow fix from @JustinStitt"
+    ]
+  },
+  {
+    "name": "X-Ways Forensics",
+    "version": "21.1",
+    "released": "20 June 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Enhanced memory extraction",
+      "Optimized volume snapshot analysis"
+    ],
+    "bugs": [
+      "Crash on deeply nested zip files"
+    ]
+  },
+  {
+    "name": "EnCase Forensics",
+    "version": "24.2",
+    "released": "10 May 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Cloud extraction connector updates",
+      "Advanced registry carving"
+    ],
+    "bugs": [
+      "Minor memory leak during keyword searches"
+    ]
+  },
+  {
+    "name": "Belkasoft Evidence Center",
+    "version": "10.2",
+    "released": "29 June 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Support for Android 15 partitions",
+      "Enhanced SQLite database carver"
+    ],
+    "bugs": [
+      "Timezone parsing mismatch inside WeChat databases"
+    ]
+  },
+  {
+    "name": "OSForensics",
+    "version": "11.0",
+    "released": "12 April 2026",
+    "category": "Computer Forensics",
+    "features": [
+      "Volume shadow copy auto-mounting",
+      "EseDb data indexing updates"
+    ],
+    "bugs": [
+      "Crash during indexing of bad sectors"
+    ]
+  },
+  {
+    "name": "Cellebrite Physical Analyzer",
+    "version": "7.69.0",
+    "released": "June 2026",
+    "category": "Mobile Forensics",
+    "features": [
+      "Android 15 full decryption support",
+      "WeChat dynamic database parsing",
+      "SQLite structure logical carving"
+    ],
+    "bugs": [
+      "UTC offset calculations in chat threads",
+      "UI hang on importing huge memory dumps"
+    ]
+  },
+  {
+    "name": "Cellebrite UFED",
+    "version": "7.69.0",
+    "released": "June 2026",
+    "category": "Mobile Forensics",
+    "features": [
+      "Advanced Qualcomm chipset extraction",
+      "MTK bypass boots support"
+    ],
+    "bugs": [
+      "Connection drops during physical extractions"
+    ]
+  },
+  {
+    "name": "Oxygen Forensic Detective",
+    "version": "16.2",
+    "released": "15 June 2026",
+    "category": "Mobile Forensics",
+    "features": [
+      "Car key data extractor",
+      "Cloud backups decryption updates"
+    ],
+    "bugs": [
+      "WhatsApp chat export formatting errors"
+    ]
+  },
+  {
+    "name": "Elcomsoft iOS Forensic Toolkit",
+    "version": "8.60",
+    "released": "18 May 2026",
+    "category": "Mobile Forensics",
+    "features": [
+      "Agent-based extraction for iOS 17",
+      "Keychain decryption engine updates"
+    ],
+    "bugs": [
+      "Pairing errors with lock devices"
+    ]
+  },
+  {
+    "name": "MSAB XRY",
+    "version": "10.8",
+    "released": "25 June 2026",
+    "category": "Mobile Forensics",
+    "features": [
+      "Physical extraction for locked MTK devices",
+      "New Signal parser"
+    ],
+    "bugs": [
+      "Minor bug in timeline presentation module"
+    ]
+  },
+  {
+    "name": "Andriller",
+    "version": "3.8.2",
+    "released": "4 May 2026",
+    "category": "Mobile Forensics",
+    "github_repo": "den4uk/andriller",
+    "features": [
+      "Android backup decryption updates",
+      "Updated WhatsApp extraction parser"
+    ],
+    "bugs": [
+      "Unicode encoding inside chat databases"
+    ]
+  },
+  {
+    "name": "Volatility 3",
+    "version": "2.28.0",
+    "released": "30 April 2026",
+    "category": "Memory Forensics",
+    "github_repo": "volatilityfoundation/volatility3",
+    "features": [
+      "Some of the improvements made in this release are as follows:"
+    ],
+    "bugs": [
+      "Minor stability and performance issues"
+    ]
+  },
+  {
+    "name": "Rekall",
+    "version": "1.7.2",
+    "released": "12 Jan 2026",
+    "category": "Memory Forensics",
+    "features": [
+      "Offline profile caching",
+      "Improved kernel slide detection"
+    ],
+    "bugs": [
+      "Memory map offset computation"
+    ]
+  },
+  {
+    "name": "LiME",
+    "version": "1.12.0",
+    "released": "31 March 2026",
+    "category": "Memory Forensics",
+    "github_repo": "504ensicsLabs/LiME",
+    "features": [
+      "LiME v1.12.0",
+      "Commits since v1.11.0 (March 23–24, 2026)**",
+      "Hash / digest subsystem (`hash.c`)"
+    ],
+    "bugs": [
+      "Multi-page vmalloc digest corruption — only the last page was being hashed"
+    ]
+  },
+  {
+    "name": "WinPmem",
+    "version": "4.0.rc1",
+    "released": "12 October 2020",
+    "category": "Memory Forensics",
+    "github_repo": "Velocidex/WinPmem",
+    "features": [
+      "For this release we make available the old \"mini\" pmem imager based on the old 1.6 branch. This imager is very simple - it can only make raw images. The AFF4 based imager may be back in the future but for now we can produce RAW images.",
+      "We started to distribute Winpmem releases directly from this project as it is now separated from the Rekall project (which has been discontinued).",
+      "The new drivers implement Fast IO mode so should be faster than before."
+    ],
+    "bugs": [
+      "Minor stability and performance issues"
+    ]
+  },
+  {
+    "name": "DumpIt",
+    "version": "3.1",
+    "released": "20 May 2026",
+    "category": "Memory Forensics",
+    "features": [
+      "Secure cloud bucket streaming",
+      "Highly optimized RAM capture logic"
+    ],
+    "bugs": [
+      "Sector alignment mismatch"
+    ]
+  },
+  {
+    "name": "Belkasoft RAM Capturer",
+    "version": "2.1",
+    "released": "11 May 2026",
+    "category": "Memory Forensics",
+    "features": [
+      "Bypasses anti-dumping malware protections",
+      "Support for 64-bit Windows 11 kernel"
+    ],
+    "bugs": [
+      "Driver installation failures"
+    ]
+  },
+  {
+    "name": "Registry Explorer",
+    "version": "2.0",
+    "released": "10 May 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "Multi-hive transactions parser",
+      "Automated transaction log replay"
+    ],
+    "bugs": [
+      "File path mapping locks"
+    ]
+  },
+  {
+    "name": "PECmd",
+    "version": "1.6",
+    "released": "14 March 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "Windows 11 prefetch version parsing",
+      "Batch export to CSV/JSON"
+    ],
+    "bugs": [
+      "Crash on corrupted PF headers"
+    ]
+  },
+  {
+    "name": "LECmd",
+    "version": "1.5",
+    "released": "12 April 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "LNK target extraction enhancements",
+      "Detailed path resolutions log"
+    ],
+    "bugs": [
+      "Path parsing on relative paths"
+    ]
+  },
+  {
+    "name": "EvtxECmd",
+    "version": "1.7",
+    "released": "22 June 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "Fast JSON parser mapping",
+      "Custom event log maps"
+    ],
+    "bugs": [
+      "Timestamp timezone conversion"
+    ]
+  },
+  {
+    "name": "ShellBags Explorer",
+    "version": "1.4",
+    "released": "10 Jan 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "Directory hierarchy visualization",
+      "Registry path resolution"
+    ],
+    "bugs": [
+      "Indexing errors on empty bags"
+    ]
+  },
+  {
+    "name": "AmcacheParser",
+    "version": "1.5",
+    "released": "20 Feb 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "Windows 11 Amcache structure support",
+      "Direct CSV exporting"
+    ],
+    "bugs": [
+      "SHA1 computation crash"
+    ]
+  },
+  {
+    "name": "AppCompatCacheParser",
+    "version": "1.4",
+    "released": "22 March 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "ShimCache parser engine updates",
+      "JSON output options"
+    ],
+    "bugs": [
+      "Index offset for Windows 10 legacy"
+    ]
+  },
+  {
+    "name": "MFTECmd",
+    "version": "1.6",
+    "released": "19 June 2026",
+    "category": "Artifact Parsers",
+    "features": [
+      "MFT entry carving metrics",
+      "ADS records mapping"
+    ],
+    "bugs": [
+      "File system locked exception handles"
+    ]
+  },
+  {
+    "name": "Wireshark",
+    "version": "4.6.7",
+    "released": "16 July 2026",
+    "category": "Network Forensics",
+    "github_repo": "wireshark/wireshark",
+    "features": [
+      "Dynamic release parsed from news feed",
+      "Updates matched automatically"
+    ],
+    "bugs": [
+      "Bugs identified in latest release logs"
+    ]
+  },
+  {
+    "name": "NetworkMiner",
+    "version": "2.9",
+    "released": "24 May 2026",
+    "category": "Network Forensics",
+    "features": [
+      "Automated file extraction from PCAP",
+      "Credential harvesting engine updates"
+    ],
+    "bugs": [
+      "Minor memory leak on processing large files"
+    ]
+  },
+  {
+    "name": "Tshark",
+    "version": "4.6.2",
+    "released": "20 June 2026",
+    "category": "Network Forensics",
+    "features": [
+      "Headless network analyzer updates",
+      "JSON format stream exports"
+    ],
+    "bugs": [
+      "Memory limits on deep nested trees"
+    ]
+  },
+  {
+    "name": "CapLoader",
+    "version": "1.9",
+    "released": "11 May 2026",
+    "category": "Network Forensics",
+    "features": [
+      "Port-independent protocol identification",
+      "PCAP flow analysis visualization"
+    ],
+    "bugs": [
+      "Zoom coordinate scale calculation"
+    ]
+  },
+  {
+    "name": "Zeek",
+    "version": "8.0.9",
+    "released": "10 July 2026",
+    "category": "Network Forensics",
+    "github_repo": "zeek/zeek",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "HIGH: The NVT, Rlogin, and RSH analyzers have received fixes to avoid unbounded state"
+    ]
+  },
+  {
+    "name": "Suricata",
+    "version": "suricata-8.0.6",
+    "released": "07 July 2026",
+    "category": "Network Forensics",
+    "github_repo": "OISF/suricata",
+    "features": [
+      "Redmine Tracker"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Snort",
+    "version": "3.12.2.0",
+    "released": "23 April 2026",
+    "category": "Network Forensics",
+    "github_repo": "snort3/snort3",
+    "features": [
+      "Libdaq v3.0.27",
+      "LibML v2.0.0"
+    ],
+    "bugs": [
+      "Appid: add nullchecks for appidDebug and appidthreadpegs",
+      "Appid: fix lua detector use-after-free during reload"
+    ]
+  },
+  {
+    "name": "Ghidra",
+    "version": "Ghidra_12.1.2_build",
+    "released": "05 June 2026",
+    "category": "Malware Analysis",
+    "github_repo": "NationalSecurityAgency/ghidra",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "IDA Pro",
+    "version": "8.4",
+    "released": "10 April 2026",
+    "category": "Malware Analysis",
+    "features": [
+      "Cloud decompiler integrations",
+      "Improved C++ metadata recovery"
+    ],
+    "bugs": [
+      "Debug symbols load limits"
+    ]
+  },
+  {
+    "name": "x64dbg",
+    "version": "2026.05.27",
+    "released": "27 May 2026",
+    "category": "Malware Analysis",
+    "github_repo": "x64dbg/x64dbg",
+    "features": [
+      "📜 Changelog",
+      "Added CPUStack (Linux) by @3rdit in 3839",
+      "Make tests declarative by @mrexodia in 3837"
+    ],
+    "bugs": [
+      "May 2026: Small hotfix release",
+      "This is a small hotfix release after the April release. It fixes an `r8` register modification issue, a trace reader memory fault, dark theme label coloring, and support for passing an absolute path to `-cf`. It also includes a few small UI, packaging, testing, and experimental Linux debugger updates."
+    ]
+  },
+  {
+    "name": "Cutter",
+    "version": "2.5.0",
+    "released": "30 June 2026",
+    "category": "Malware Analysis",
+    "github_repo": "rizinorg/cutter",
+    "features": [
+      "New Preferences tab to query and modify Rizin configuration variables (evars) directly from the UI"
+    ],
+    "bugs": [
+      "Register, variable, and memory value tooltips while debugging or emulating, including sub-register values and previews of values inside brackets",
+      "Debugging improvements:"
+    ]
+  },
+  {
+    "name": "PE-bear",
+    "version": "0.7.2",
+    "released": "05 June 2026",
+    "category": "Malware Analysis",
+    "github_repo": "hasherezade/pe-bear",
+    "features": [
+      "Removed hard-coded limit of the displayed resources (only 50 were visible)",
+      "Added Japanese language"
+    ],
+    "bugs": [
+      "GUI behavior on Windows 11 (i.e. invisible selection in hex editor and disasm view), fixed editing content in hex editor",
+      "Crashing on fast editing content in hex edit"
+    ]
+  },
+  {
+    "name": "Process Hacker",
+    "version": "3.2.25011.2103",
+    "released": "14 May 2025",
+    "category": "Malware Analysis",
+    "github_repo": "processhacker/processhacker",
+    "features": [
+      "New Name, Icons, UI by @winsiderss",
+      "New ARM64 support by @jxy-s"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "YARA",
+    "version": "4.5.8",
+    "released": "28 July 2026",
+    "category": "Malware Analysis",
+    "github_repo": "VirusTotal/yara",
+    "features": [
+      "Document the `YRRESCAN_LIMIT` regular expression scan limit (2223)."
+    ],
+    "bugs": [
+      "Bound rule table index in `OPPUSHRULE` and `OPINITRULE` (2230).",
+      "Bound tilde stream row-count read in `dotnet` module (2224)."
+    ]
+  },
+  {
+    "name": "CyberChef",
+    "version": "11.3.0",
+    "released": "24 July 2026",
+    "category": "Malware Analysis",
+    "github_repo": "gchq/CyberChef",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Floss",
+    "version": "3.1.1",
+    "released": "26 September 2024",
+    "category": "Malware Analysis",
+    "github_repo": "mandiant/flare-floss",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "oledump",
+    "version": "0.0.85",
+    "released": "17 March 2026",
+    "category": "Malware Analysis",
+    "github_repo": "DidierStevens/DidierStevensSuite",
+    "features": [
+      "XML macros scanning filters",
+      "Improved stream decoders"
+    ],
+    "bugs": [
+      "Newline formatting in plugins output"
+    ]
+  },
+  {
+    "name": "OSINT-Profiler",
+    "version": "1.0",
+    "released": "30 April 2026",
+    "category": "OSINT & Email",
+    "github_repo": "jeraldbenny/OSINT-Profiler",
+    "features": [
+      "Dynamic GitHub release updates",
+      "General improvements"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "File_Integrity_Verifier_FIV",
+    "version": "1.0",
+    "released": "26 November 2025",
+    "category": "OSINT & Email",
+    "github_repo": "jeraldbenny/File_Integrity_Verifier_FIV",
+    "features": [
+      "🎉 First official release of File Integrity Verifier (FIV)",
+      "Full GUI with Light/Dark mode"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Spiderfoot",
+    "version": "4.0",
+    "released": "07 April 2022",
+    "category": "OSINT & Email",
+    "github_repo": "smicallef/spiderfoot",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Maltego",
+    "version": "4.6.0",
+    "released": "12 April 2026",
+    "category": "OSINT & Email",
+    "features": [
+      "Collaborative graphics dashboard",
+      "Real-time transforms indexing"
+    ],
+    "bugs": [
+      "Memory crash on 50k+ nodes"
+    ]
+  },
+  {
+    "name": "Sherlock",
+    "version": "0.16.0",
+    "released": "16 September 2025",
+    "category": "OSINT & Email",
+    "github_repo": "sherlock-project/sherlock",
+    "features": [
+      "Most users should see a significant reduction in false positives (on an ongoing basis) after updating to this release. Nothing is ever perfect (regional differences, etc), but noise should be reduced by a notable margin.",
+      "📦 Community package now available on [_Debian_][ext-debian] @Nilsonfsilva"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Holehe",
+    "version": "2.0.2",
+    "released": "11 May 2026",
+    "category": "OSINT & Email",
+    "github_repo": "megadose/holehe",
+    "features": [
+      "Added new portals checks",
+      "Socks5 proxies support"
+    ],
+    "bugs": [
+      "Credential test timeout errors"
+    ]
+  },
+  {
+    "name": "Plaso",
+    "version": "20260512",
+    "released": "12 May 2026",
+    "category": "Timeline & Decryption",
+    "github_repo": "log2timeline/plaso",
+    "features": [
+      "Release of version 20260512"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  },
+  {
+    "name": "Arsenal Image Mounter",
+    "version": "3.11",
+    "released": "19 June 2026",
+    "category": "Timeline & Decryption",
+    "features": [
+      "Write-block mounts for APFS",
+      "Virtual machine boot options"
+    ],
+    "bugs": [
+      "Disk mapping lock exceptions"
+    ]
+  },
+  {
+    "name": "Passware Kit Forensic",
+    "version": "2026.2.0",
+    "released": "20 May 2026",
+    "category": "Timeline & Decryption",
+    "features": [
+      "APFS T2 chip decryption support",
+      "Fast RAM password harvesting"
+    ],
+    "bugs": [
+      "GPU utilization metrics dashboard"
+    ]
+  },
+  {
+    "name": "Hashcat",
+    "version": "7.1.2",
+    "released": "23 August 2025",
+    "category": "Timeline & Decryption",
+    "github_repo": "hashcat/hashcat",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "This hotfix restores backward compatibility in machine-readable status view mode, which was broken in v7.1.0 and affected third-party overlays such as the Hashtopolis agent. It also fixes issues in the Argon2 libraries when used in multi-hash modes. If you are using hashcat v7.1.0+ with LUKS2 or KeePass KDBX4, updating is strongly recommended."
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "version": "0.77.1",
+    "released": "23 June 2026",
+    "category": "Timeline & Decryption",
+    "github_repo": "Velocidex/velociraptor",
+    "features": [
+      "General system improvements and updates"
+    ],
+    "bugs": [
+      "If you find any issues please file an issue on GitHub or chat with us on our discord server."
+    ]
+  },
+  {
+    "name": "Hayabusa",
+    "version": "4.0.0",
+    "released": "03 August 2026",
+    "category": "Timeline & Decryption",
+    "github_repo": "Yamato-Security/hayabusa",
+    "features": [
+      "Anti-Virus False Positives"
+    ],
+    "bugs": [
+      "General bug fixes and code optimizations"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 | Uncharted Dungeon</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:#080b18;color:#b8c8e0;font-family:'VT323',monospace;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  height:100vh;overflow:hidden;text-align:center;
+}
+body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);}
+.panel{background:#111626;border:2px solid #f0c040;position:relative;padding:40px;max-width:600px;}
+.panel::before{content:'';position:absolute;inset:5px;border:1px solid rgba(60,200,192,0.13);pointer-events:none;}
+.c{position:absolute;width:6px;height:6px;background:#080b18;border:2px solid #f0c040;z-index:2;}
+.tl{top:-2px;left:-2px;} .tr{top:-2px;right:-2px;}
+.bl{bottom:-2px;left:-2px;} .br{bottom:-2px;right:-2px;}
+
+.err-code{font-family:'Press Start 2P',monospace;font-size:32px;color:#ff3333;margin-bottom:16px;text-shadow:2px 2px 0px #562711;}
+.err-msg{font-size:24px;margin-bottom:32px;line-height:1.4;}
+
+/* ── WOOD BUTTON ── */
+.wpx-btn{
+  font-family:'Press Start 2P',monospace;
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  background:linear-gradient(180deg,#b05830 0%,#6a2808 100%);
+  border:2px solid #c06030;border-bottom-color:#3a1400;border-radius:3px;
+  box-shadow:2px 3px 0 #2a0e00, inset 0 2px 2px rgba(255,255,255,0.15), inset 0 -2px 2px rgba(0,0,0,0.3);
+  color:#ffe878;text-decoration:none;font-size:8px;padding:0 24px;height:44px;
+  transition:all 0.1s;cursor:pointer;outline:2px solid #562711;outline-offset:-4px;
+  text-shadow:1px 1px 0 #2a0e00;
+}
+.wpx-btn:hover{transform:translateY(1px);box-shadow:2px 2px 0 #2a0e00, inset 0 2px 2px rgba(255,255,255,0.2), inset 0 -2px 2px rgba(0,0,0,0.4);filter:brightness(1.1);}
+.wpx-btn:active{transform:translateY(3px);box-shadow:0 0 0 #2a0e00, inset 0 2px 4px rgba(0,0,0,0.5);}
+
+</style>
+</head>
+<body>
+
+  <div class="panel">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <div class="err-code">404</div>
+    <p class="err-msg">UNCHARTED DUNGEON<br><br>The forensic data you seek has been wiped from the ledger or never existed in this realm.</p>
+    <a href="index.html" class="wpx-btn">◀ RETURN TO GUILD HALL</a>
+  </div>
+
+</body>
+</html>

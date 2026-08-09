@@ -1,0 +1,864 @@
+[
+  {
+    "timestamp": "2026-07-09T15:14:04.042388+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 2,
+    "new_articles_count": 52,
+    "total_articles": 5947,
+    "runtime": "1 min 13 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "BleepingComputer",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-09T15:17:00.982865+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 2,
+    "new_articles_count": 8,
+    "total_articles": 5955,
+    "runtime": "1 min 12 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "HTTPSConnectionPool(host='www.dfir.training', port=443): Read timed out. (read timeout=15)"
+      },
+      {
+        "name": "BleepingComputer",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-09T15:19:08.841584+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 5,
+    "sources_failed": 0,
+    "new_articles_count": 72,
+    "total_articles": 6027,
+    "runtime": "43 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-07-09T15:57:59.575067+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 10,
+    "sources_failed": 1,
+    "new_articles_count": 56,
+    "total_articles": 6083,
+    "runtime": "1 min 0 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-09T16:10:41.782033+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 16,
+    "sources_failed": 1,
+    "new_articles_count": 46,
+    "total_articles": 6129,
+    "runtime": "1 min 6 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-09T16:20:30.403820+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 2,
+    "new_articles_count": 44,
+    "total_articles": 6173,
+    "runtime": "1 min 14 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "BleepingComputer",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-09T16:31:34.414170+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 2,
+    "new_articles_count": 2,
+    "total_articles": 6175,
+    "runtime": "46 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "BleepingComputer",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T07:58:10.368747+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 19,
+    "sources_failed": 3,
+    "new_articles_count": 50,
+    "total_articles": 6225,
+    "runtime": "1 min 2 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "This Week in 4n6",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      {
+        "name": "Didier Stevens",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T07:59:56.177184+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 19,
+    "sources_failed": 3,
+    "new_articles_count": 0,
+    "total_articles": 6225,
+    "runtime": "32 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "This Week in 4n6",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      {
+        "name": "Didier Stevens",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T08:01:22.841376+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 19,
+    "sources_failed": 3,
+    "new_articles_count": 0,
+    "total_articles": 6225,
+    "runtime": "33 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "This Week in 4n6",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      {
+        "name": "Didier Stevens",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T08:16:05.678981+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 21,
+    "sources_failed": 1,
+    "new_articles_count": 5,
+    "total_articles": 6230,
+    "runtime": "47 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T12:18:22.536366+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 21,
+    "sources_failed": 1,
+    "new_articles_count": 26,
+    "total_articles": 6256,
+    "runtime": "45 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-11T13:59:59.140378+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 21,
+    "sources_failed": 1,
+    "new_articles_count": 19,
+    "total_articles": 6275,
+    "runtime": "1 min 6 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-12T08:47:57.607314+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 21,
+    "sources_failed": 1,
+    "new_articles_count": 28,
+    "total_articles": 6303,
+    "runtime": "51 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-12T08:50:08.209105+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 21,
+    "sources_failed": 1,
+    "new_articles_count": 1,
+    "total_articles": 6304,
+    "runtime": "44 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-12T09:13:45.701793+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 6,
+    "sources_failed": 0,
+    "new_articles_count": 50,
+    "total_articles": 6354,
+    "runtime": "50 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-07-12T09:40:57.484638+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 10,
+    "sources_failed": 0,
+    "new_articles_count": 58,
+    "total_articles": 6412,
+    "runtime": "1 min 0 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-07-12T09:55:05.439846+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 15,
+    "sources_failed": 0,
+    "new_articles_count": 51,
+    "total_articles": 6463,
+    "runtime": "1 min 1 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-07-12T10:05:58.122980+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 0,
+    "new_articles_count": 43,
+    "total_articles": 6506,
+    "runtime": "1 min 6 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-07-14T16:53:01.511252+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 19,
+    "sources_failed": 1,
+    "new_articles_count": 65,
+    "total_articles": 6571,
+    "runtime": "1 min 31 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T17:03:42.745108+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 23,
+    "sources_failed": 1,
+    "new_articles_count": 53,
+    "total_articles": 6606,
+    "runtime": "1 min 24 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-14T17:14:10.858515+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 26,
+    "sources_failed": 2,
+    "new_articles_count": 49,
+    "total_articles": 6640,
+    "runtime": "1 min 36 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-15T16:59:09.808600+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 25,
+    "sources_failed": 1,
+    "new_articles_count": 70,
+    "total_articles": 6702,
+    "runtime": "1 min 43 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-15T17:03:14.739933+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 27,
+    "sources_failed": 2,
+    "new_articles_count": 42,
+    "total_articles": 6737,
+    "runtime": "1 min 26 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-15T19:13:10.870084+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 31,
+    "sources_failed": 3,
+    "new_articles_count": 65,
+    "total_articles": 6790,
+    "runtime": "1 min 54 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-16T16:04:13.885085+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 20,
+    "sources_failed": 1,
+    "new_articles_count": 65,
+    "total_articles": 6841,
+    "runtime": "2 min 27 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-16T16:35:48.773827+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 71,
+    "sources_failed": 3,
+    "new_articles_count": 352,
+    "total_articles": 7166,
+    "runtime": "6 min 36 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-18T06:30:46.975031+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 71,
+    "sources_failed": 3,
+    "new_articles_count": 280,
+    "total_articles": 7293,
+    "runtime": "7 min 0 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-18T06:57:23.921500+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 71,
+    "sources_failed": 3,
+    "new_articles_count": 202,
+    "total_articles": 7317,
+    "runtime": "5 min 23 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-18T07:18:23.564489+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 71,
+    "sources_failed": 3,
+    "new_articles_count": 172,
+    "total_articles": 7345,
+    "runtime": "4 min 31 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-09T10:18:05.746141+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 62,
+    "sources_failed": 12,
+    "new_articles_count": 326,
+    "total_articles": 7605,
+    "runtime": "6 min 52 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "This Week in 4n6",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Didier Stevens",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Black Hills InfoSec",
+        "error": "404 Client Error: Not Found for url: https://www.blackhillsinfosec.com/feed/"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Google Threat Intel",
+        "error": "<unknown>:2:0: syntax error"
+      },
+      {
+        "name": "Howard Oakley",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Craig Ball",
+        "error": "403 Forbidden - WAF Block"
+      },
+      {
+        "name": "Forensic Toxicology",
+        "error": "<unknown>:15:4: not well-formed (invalid token)"
+      },
+      {
+        "name": "Intl Journal of Legal Medicine",
+        "error": "<unknown>:15:4: not well-formed (invalid token)"
+      },
+      {
+        "name": "FS, Medicine and Pathology",
+        "error": "<unknown>:15:4: not well-formed (invalid token)"
+      },
+      {
+        "name": "Egyptian Journal of FS",
+        "error": "<unknown>:15:4: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-09T10:42:51.049818+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 287,
+    "total_articles": 7698,
+    "runtime": "7 min 0 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-08-09T10:43:42.751269+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 286,
+    "total_articles": 7719,
+    "runtime": "6 min 26 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-08-09T11:04:18.295742+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 257,
+    "total_articles": 7772,
+    "runtime": "7 min 29 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  },
+  {
+    "timestamp": "2026-08-09T11:17:48.078793+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 205,
+    "total_articles": 7877,
+    "runtime": "5 min 47 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
+  }
+]
