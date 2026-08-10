@@ -179,16 +179,15 @@
   },
   {
     "name": "Andriller",
-    "version": "3.8.2",
-    "released": "4 May 2026",
+    "version": "3.6.3",
+    "released": "30 April 2022",
     "category": "Mobile Forensics",
     "github_repo": "den4uk/andriller",
     "features": [
-      "Android backup decryption updates",
-      "Updated WhatsApp extraction parser"
+      "Support for Python 3.10"
     ],
     "bugs": [
-      "Unicode encoding inside chat databases"
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -201,7 +200,7 @@
       "Some of the improvements made in this release are as follows:"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -244,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {

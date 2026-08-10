@@ -1,11 +1,11 @@
 {
-  "last_update": "09 Aug 2026, 11:17 UTC",
-  "sources_healthy": 74,
-  "sources_failed": 0,
-  "articles_today": 105,
-  "duplicates_discarded": 100,
-  "articles_total": 7877,
-  "runtime": "5 min 47 sec",
+  "last_update": "10 Aug 2026, 02:42 UTC",
+  "sources_healthy": 65,
+  "sources_failed": 9,
+  "articles_today": 116,
+  "duplicates_discarded": 89,
+  "articles_total": 7993,
+  "runtime": "2 min 29 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -14,5 +14,42 @@
     "arXiv": "✔",
     "MalwareBazaar": "✔"
   },
-  "errors_list": []
+  "errors_list": [
+    {
+      "name": "Forensic Focus",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "DFRWS",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "SANS Stormcast",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "Malwarebytes Labs",
+      "error": "<unknown>:2:5: not well-formed (invalid token)"
+    },
+    {
+      "name": "MSAB Blog",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "ESET Research",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "Journal of Forensic Sciences",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "WIREs Forensic Science",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "ScienceDaily Forensics",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    }
+  ]
 }
