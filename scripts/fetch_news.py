@@ -1973,25 +1973,33 @@ def fetch_all():
             all_candidates.append(a)
             seen_cand_titles.add(t)
 
+    today_str = datetime.now(timezone.utc).strftime("%d %b %Y")
+
+    # Combine newly fetched candidates with any articles collected today from existing archive
+    today_articles = list(all_candidates)
+    seen_today_ids = {a["id"] for a in today_articles}
+    seen_today_titles = {a["title"] for a in today_articles}
+
+    for a in existing:
+        if a.get("collected_date") == today_str and a["id"] not in seen_today_ids and a.get("title") not in seen_today_titles:
+            today_articles.append(a)
+            seen_today_ids.add(a["id"])
+            seen_today_titles.add(a.get("title"))
+
     # Group candidates by category
     grouped_cands = {cat: [] for cat in ALLOWED_CATEGORIES}
-    for a in all_candidates:
+    for a in today_articles:
         grouped_cands[a["category_tag"]].append(a)
 
-    # Build final dispatches (backfilling from archive if intraday candidates for a category are fewer than 15)
+    # Build final dispatches (strictly articles collected TODAY, no backfilling from past days)
     final_dispatches = []
     for cat in ALLOWED_CATEGORIES:
         cat_list = grouped_cands[cat]
-        if len(cat_list) < 15:
-            existing_ids = {x["id"] for x in cat_list}
-            existing_for_cat = [a for a in existing if a.get("category_tag") == cat and a.get("id") not in existing_ids]
-            cat_list.extend(existing_for_cat[:(15 - len(cat_list))])
         cat_list.sort(key=lambda x: (-x.get("forensic_score", 0), x.get("published", "")))
         final_dispatches.extend(cat_list)
 
-    # Save Archive logic (using strictly deduped daily candidates)
-    archive_articles = final_dispatches + existing
-    # Remove strict duplicates by id
+    # Save Archive logic (using strictly deduped articles)
+    archive_articles = today_articles + existing
     seen = set()
     dedup_archive = []
     for a in archive_articles:
