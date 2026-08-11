@@ -1,11 +1,11 @@
 {
-  "last_update": "10 Aug 2026, 02:42 UTC",
+  "last_update": "11 Aug 2026, 02:35 UTC",
   "sources_healthy": 65,
   "sources_failed": 9,
-  "articles_today": 116,
-  "duplicates_discarded": 89,
-  "articles_total": 7993,
-  "runtime": "2 min 29 sec",
+  "articles_today": 99,
+  "duplicates_discarded": 109,
+  "articles_total": 8092,
+  "runtime": "2 min 23 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Malwarebytes Labs",
-      "error": "<unknown>:2:5: not well-formed (invalid token)"
+      "error": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
       "name": "MSAB Blog",
@@ -41,11 +41,11 @@
     },
     {
       "name": "Journal of Forensic Sciences",
-      "error": "<unknown>:2:0: not well-formed (invalid token)"
+      "error": "403 Forbidden - WAF Block"
     },
     {
       "name": "WIREs Forensic Science",
-      "error": "<unknown>:2:0: not well-formed (invalid token)"
+      "error": "403 Forbidden - WAF Block"
     },
     {
       "name": "ScienceDaily Forensics",
