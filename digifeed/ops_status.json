@@ -1,11 +1,11 @@
 {
-  "last_update": "14 Aug 2026, 03:07 UTC",
-  "sources_healthy": 65,
-  "sources_failed": 9,
-  "articles_today": 135,
-  "duplicates_discarded": 79,
-  "articles_total": 8459,
-  "runtime": "2 min 29 sec",
+  "last_update": "15 Aug 2026, 01:58 UTC",
+  "sources_healthy": 67,
+  "sources_failed": 7,
+  "articles_today": 142,
+  "duplicates_discarded": 86,
+  "articles_total": 8601,
+  "runtime": "4 min 1 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -21,7 +21,7 @@
     },
     {
       "name": "DFRWS",
-      "error": "<unknown>:2:0: not well-formed (invalid token)"
+      "error": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
       "name": "SANS Stormcast",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Malwarebytes Labs",
-      "error": "<unknown>:2:0: syntax error"
+      "error": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
       "name": "MSAB Blog",
@@ -38,14 +38,6 @@
     {
       "name": "ESET Research",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
-    },
-    {
-      "name": "Journal of Forensic Sciences",
-      "error": "403 Forbidden - WAF Block"
-    },
-    {
-      "name": "WIREs Forensic Science",
-      "error": "403 Forbidden - WAF Block"
     },
     {
       "name": "ScienceDaily Forensics",
