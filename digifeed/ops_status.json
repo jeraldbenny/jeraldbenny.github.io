@@ -1,11 +1,11 @@
 {
-  "last_update": "16 Aug 2026, 02:05 UTC",
-  "sources_healthy": 67,
-  "sources_failed": 7,
-  "articles_today": 132,
+  "last_update": "17 Aug 2026, 02:02 UTC",
+  "sources_healthy": 66,
+  "sources_failed": 8,
+  "articles_today": 135,
   "duplicates_discarded": 66,
-  "articles_total": 8733,
-  "runtime": "4 min 4 sec",
+  "articles_total": 8868,
+  "runtime": "2 min 25 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -18,6 +18,10 @@
     {
       "name": "Forensic Focus",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "AboutDFIR",
+      "error": "<unknown>:94:2: mismatched tag"
     },
     {
       "name": "DFRWS",
@@ -33,7 +37,7 @@
     },
     {
       "name": "MSAB Blog",
-      "error": "<unknown>:2:0: not well-formed (invalid token)"
+      "error": "<unknown>:94:2: mismatched tag"
     },
     {
       "name": "ESET Research",
