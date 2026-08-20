@@ -431,15 +431,16 @@
   },
   {
     "name": "Zeek",
-    "version": "8.0.9",
-    "released": "10 July 2026",
+    "version": "8.0.10",
+    "released": "19 August 2026",
     "category": "Network Forensics",
     "github_repo": "zeek/zeek",
     "features": [
-      "General system improvements and updates"
+      "(@J-Gras), Eldon Koyle (@ekoyle), Kara Zaffarano and Kyle Elliott of Trail of Bits in",
+      "Collaboration with OpenAI, AdaLogics in collaboration with Anthropic, and the Canadian"
     ],
     "bugs": [
-      "HIGH: The NVT, Rlogin, and RSH analyzers have received fixes to avoid unbounded state"
+      "HIGH: SMB: Chains of AndX messages can crash Zeek"
     ]
   },
   {
