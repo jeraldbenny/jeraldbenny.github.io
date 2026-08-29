@@ -544,16 +544,16 @@
   },
   {
     "name": "Process Hacker",
-    "version": "3.2.25011.2103",
-    "released": "14 May 2025",
+    "version": "4.0.26241.138",
+    "released": "29 August 2026",
     "category": "Malware Analysis",
     "github_repo": "processhacker/processhacker",
     "features": [
-      "New Name, Icons, UI by @winsiderss",
-      "New ARM64 support by @jxy-s"
+      "System Informer 4.0",
+      "Process Monitor (Tools menu): a driver-backed live log of process, thread, image, registry, file, handle and silo events with filtering, access-mask decoding, and configurable look-back."
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "The first 4.0 release: a new kernel/user transport, a Process Monitor, Hybrid Analysis integration, a JSON settings store, a rewritten installer, and a year of fixes across the app, driver, plugins, and phnt headers."
     ]
   },
   {

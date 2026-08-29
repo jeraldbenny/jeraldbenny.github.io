@@ -1,11 +1,11 @@
 {
-  "last_update": "28 Aug 2026, 11:37 UTC",
+  "last_update": "29 Aug 2026, 07:15 UTC",
   "sources_healthy": 67,
   "sources_failed": 7,
-  "articles_today": 167,
-  "duplicates_discarded": 74,
-  "articles_total": 10617,
-  "runtime": "2 min 48 sec",
+  "articles_today": 175,
+  "duplicates_discarded": 62,
+  "articles_total": 10792,
+  "runtime": "2 min 57 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Malwarebytes Labs",
-      "error": "<unknown>:2:0: syntax error"
+      "error": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
       "name": "MSAB Blog",
