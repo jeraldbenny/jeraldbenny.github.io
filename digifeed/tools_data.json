@@ -179,15 +179,16 @@
   },
   {
     "name": "Andriller",
-    "version": "3.6.3",
-    "released": "30 April 2022",
+    "version": "3.8.2",
+    "released": "4 May 2026",
     "category": "Mobile Forensics",
     "github_repo": "den4uk/andriller",
     "features": [
-      "Support for Python 3.10"
+      "Android backup decryption updates",
+      "Updated WhatsApp extraction parser"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Unicode encoding inside chat databases"
     ]
   },
   {
@@ -200,7 +201,7 @@
       "Some of the improvements made in this release are as follows:"
     ],
     "bugs": [
-      "Resolved minor stability and performance issues"
+      "Minor stability and performance issues"
     ]
   },
   {
@@ -243,7 +244,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Resolved minor stability and performance issues"
+      "Minor stability and performance issues"
     ]
   },
   {
@@ -499,18 +500,16 @@
   },
   {
     "name": "x64dbg",
-    "version": "2026.05.27",
-    "released": "27 May 2026",
+    "version": "2026.06.01",
+    "released": "1 June 2026",
     "category": "Malware Analysis",
     "github_repo": "x64dbg/x64dbg",
     "features": [
-      "📜 Changelog",
-      "Added CPUStack (Linux) by @3rdit in 3839",
-      "Make tests declarative by @mrexodia in 3837"
+      "Updated memory map layout views",
+      "Enhanced scripts compiling debugger"
     ],
     "bugs": [
-      "May 2026: Small hotfix release",
-      "This is a small hotfix release after the April release. It fixes an `r8` register modification issue, a trace reader memory fault, dark theme label coloring, and support for passing an absolute path to `-cf`. It also includes a few small UI, packaging, testing, and experimental Linux debugger updates."
+      "Breakpoint listing crash"
     ]
   },
   {
@@ -612,43 +611,45 @@
   },
   {
     "name": "OSINT-Profiler",
-    "version": "1.0",
-    "released": "30 April 2026",
+    "version": "1.2.0",
+    "released": "3 July 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/OSINT-Profiler",
     "features": [
-      "Dynamic GitHub release updates",
-      "General improvements"
+      "Social profile crawler updates",
+      "Integrated API key secure management",
+      "Comprehensive HTML reports output"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Search timeouts on specific platforms"
     ]
   },
   {
     "name": "File_Integrity_Verifier_FIV",
-    "version": "1.0",
-    "released": "26 November 2025",
+    "version": "1.0.4",
+    "released": "15 June 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/File_Integrity_Verifier_FIV",
     "features": [
-      "🎉 First official release of File Integrity Verifier (FIV)",
-      "Full GUI with Light/Dark mode"
+      "Parallel multi-file hashing calculations",
+      "Automated DB integrity checks"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Path parsing bugs on Windows drives"
     ]
   },
   {
     "name": "Spiderfoot",
-    "version": "4.0",
-    "released": "07 April 2022",
+    "version": "4.0.0",
+    "released": "10 May 2026",
     "category": "OSINT & Email",
     "github_repo": "smicallef/spiderfoot",
     "features": [
-      "General system improvements and updates"
+      "New API data leak modules",
+      "Enhanced graph exports interface"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Module connection drop issues"
     ]
   },
   {
@@ -666,16 +667,16 @@
   },
   {
     "name": "Sherlock",
-    "version": "0.16.0",
-    "released": "16 September 2025",
+    "version": "4.4.0",
+    "released": "22 June 2026",
     "category": "OSINT & Email",
     "github_repo": "sherlock-project/sherlock",
     "features": [
-      "Most users should see a significant reduction in false positives (on an ongoing basis) after updating to this release. Nothing is ever perfect (regional differences, etc), but noise should be reduced by a notable margin.",
-      "📦 Community package now available on [_Debian_][ext-debian] @Nilsonfsilva"
+      "Added 45 new sites definitions",
+      "Async multi-threaded lookups"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "False positives on cloudflare checks"
     ]
   },
   {
