@@ -1,11 +1,11 @@
 {
-  "last_update": "30 Aug 2026, 05:39 UTC",
-  "sources_healthy": 41,
-  "sources_failed": 33,
-  "articles_today": 82,
-  "duplicates_discarded": 61,
-  "articles_total": 10874,
-  "runtime": "4 min 54 sec",
+  "last_update": "31 Aug 2026, 05:53 UTC",
+  "sources_healthy": 65,
+  "sources_failed": 9,
+  "articles_today": 145,
+  "duplicates_discarded": 59,
+  "articles_total": 11019,
+  "runtime": "2 min 52 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -20,24 +20,8 @@
       "error": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
-      "name": "DFIR.Training",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22DFIR+Training%22+OR+%22dfir.training%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "This Week in 4n6",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:thisweekin4n6.com+OR+%22thisweekin4n6%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Didier Stevens",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Didier+Stevens%22+malware&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
       "name": "DFRWS",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
-    },
-    {
-      "name": "NIST Cybersecurity",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:nist.gov+cybersecurity&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "SANS Stormcast",
@@ -48,104 +32,24 @@
       "error": "<unknown>:2:1: not well-formed (invalid token)"
     },
     {
-      "name": "Black Hills InfoSec",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:blackhillsinfosec.com&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
       "name": "MSAB Blog",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
-    },
-    {
-      "name": "Mandiant Blog",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Mandiant%22+cybersecurity&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google Threat Intel",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Google+Threat+Intelligence%22+OR+%22Mandiant%22&hl=en-US&gl=US&ceid=US:en"
     },
     {
       "name": "ESET Research",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
-      "name": "Howard Oakley",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:eclecticlight.co&hl=en-US&gl=US&ceid=US:en"
+      "name": "Journal of Forensic Sciences",
+      "error": "403 Forbidden - WAF Block"
     },
     {
-      "name": "Craig Ball",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:craigball.net&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Forensic Toxicology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Forensic+Toxicology%22+journal&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Intl Journal of Legal Medicine",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22International+Journal+of+Legal+Medicine%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "FS, Medicine and Pathology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Egyptian Journal of FS",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "NIST Forensic Science",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en"
+      "name": "WIREs Forensic Science",
+      "error": "403 Forbidden - WAF Block"
     },
     {
       "name": "ScienceDaily Forensics",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
-    },
-    {
-      "name": "The Forensic Science Society",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22Chartered+Society+of+Forensic+Sciences%22+OR+site:csofs.org&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Biology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Toxicology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+toxicology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Chemistry",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+chemistry%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: DNA Profiling",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22dna+profiling%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Latent Prints",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22latent+prints%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Bloodstain Pattern",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22bloodstain+pattern%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Pathology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+pathology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Trace Evidence",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22trace+evidence%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Anthropology",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+anthropology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Google News: Forensic Science",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22forensic+science%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "MDPI – Forensic Sciences",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:mdpi.com/journal/forensicsci+OR+%22MDPI+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }
