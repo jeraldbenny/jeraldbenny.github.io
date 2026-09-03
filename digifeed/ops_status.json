@@ -1,11 +1,11 @@
 {
-  "last_update": "02 Sep 2026, 04:51 UTC",
+  "last_update": "03 Sep 2026, 04:50 UTC",
   "sources_healthy": 67,
   "sources_failed": 7,
-  "articles_today": 169,
-  "duplicates_discarded": 59,
-  "articles_total": 11350,
-  "runtime": "2 min 35 sec",
+  "articles_today": 222,
+  "duplicates_discarded": 44,
+  "articles_total": 11572,
+  "runtime": "2 min 52 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -21,7 +21,7 @@
     },
     {
       "name": "DFRWS",
-      "error": "<unknown>:2:0: not well-formed (invalid token)"
+      "error": "<unknown>:2:2: not well-formed (invalid token)"
     },
     {
       "name": "SANS Stormcast",
