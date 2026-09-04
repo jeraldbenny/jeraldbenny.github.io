@@ -662,11 +662,6 @@ def generate():
   }});
 }})();
 
-toggleToolTracker = function(btn) {{
-  document.getElementById('archiveExplorer').classList.add('hidden-pane');
-  origToggleToolTracker(btn);
-}};
-
 </script>
 '''
 
@@ -825,7 +820,7 @@ toggleToolTracker = function(btn) {{
         
         <!-- Archive Search Bar -->
         <div class="search-wrap" style="margin-bottom:20px; position:sticky; top:152px; z-index:10; background:var(--bg); padding-top:10px; padding-bottom: 10px;">
-          <input type="text" id="archiveSearchInput" placeholder="Search archives..." onkeyup="filterArchive()" aria-label="Search archives" autocomplete="off">
+          <input type="text" id="archiveSearchInput" placeholder="Search archives..." oninput="filterArchive()" onkeyup="filterArchive()" aria-label="Search archives" autocomplete="off">
         </div>
 
         <!-- Archive Stats + Pie Chart Panel (replaces Daily Brief when Archive tab is active) -->
@@ -1420,11 +1415,6 @@ new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 }})(window,document,'script','dataLayer','GTM-TB8BSMQF');
-toggleToolTracker = function(btn) {{
-  document.getElementById('archiveExplorer').classList.add('hidden-pane');
-  origToggleToolTracker(btn);
-}};
-
 </script>
 <!-- End Google Tag Manager -->
 <title>DigiFeed | Daily Digital Forensics & Cybersecurity News</title>
@@ -2143,6 +2133,12 @@ function toggleToolTracker(btn) {{
   document.getElementById('searchInput').parentElement.classList.add('hidden-pane');
   document.getElementById('loadMoreWrap').classList.add('hidden-pane');
   
+  var arch = document.getElementById('archiveExplorer');
+  if (arch) arch.classList.add('hidden-pane');
+  
+  var briefPanel = document.getElementById('mainDailyBriefing');
+  if (briefPanel) briefPanel.classList.remove('hidden-pane');
+  
   document.getElementById('toolTrackerGrid').classList.remove('hidden-pane');
   
   scrollToVisibleContent();
@@ -2151,8 +2147,15 @@ function toggleToolTracker(btn) {{
 // ── FILTER
 var activeCategory = 'ALL';
 function filterNews(btn) {{
+  if (btn.dataset.cat === 'ARCHIVE') return; // Handled by toggleArchive
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
+  
+  var arch = document.getElementById('archiveExplorer');
+  if (arch) arch.classList.add('hidden-pane');
+  
+  var briefPanel = document.getElementById('mainDailyBriefing');
+  if (briefPanel) briefPanel.classList.remove('hidden-pane');
   
   document.getElementById('newsGrid').classList.remove('hidden-pane');
   document.getElementById('searchInput').parentElement.classList.remove('hidden-pane');
@@ -2354,26 +2357,6 @@ function showArchiveDate(dateStr, btn) {{
     card.style.animationPlayState = 'running';
   }});
 }}
-
-// Intercept original filterNews to hide archive explorer and restore briefing
-const origFilterNews = filterNews;
-filterNews = function(btn) {{
-  if (btn.dataset.cat === 'ARCHIVE') return; // Handled by toggleArchive
-  document.getElementById('archiveExplorer').classList.add('hidden-pane');
-  
-  // Restore the daily briefing panel
-  var briefPanel = document.getElementById('mainDailyBriefing');
-  if (briefPanel) briefPanel.classList.remove('hidden-pane');
-  
-  origFilterNews(btn);
-}};
-
-// Intercept tool tracker toggle to hide archive explorer
-const origToggleToolTracker = toggleToolTracker;
-toggleToolTracker = function(btn) {{
-  document.getElementById('archiveExplorer').classList.add('hidden-pane');
-  origToggleToolTracker(btn);
-}};
 
 </script>
 <script src="../intel_bot.js"></script>
@@ -3042,11 +3025,6 @@ function switchTab(btn, tabId){{
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
   document.getElementById(tabId).classList.remove('hidden-pane');
 }}
-
-toggleToolTracker = function(btn) {{
-  document.getElementById('archiveExplorer').classList.add('hidden-pane');
-  origToggleToolTracker(btn);
-}};
 
 </script>
 </body>

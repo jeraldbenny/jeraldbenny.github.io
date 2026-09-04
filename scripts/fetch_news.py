@@ -91,7 +91,7 @@ TOOLS_FILE    = "digifeed/tools_data.json"
 TECH_IMAGE_POOL = [
     "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80", # green binary code
     "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80", # cyber tech circuit board
-    "https://images.unsplash.com/photo-1601597111158-2fceff270190?w=600&q=80", # digital lock cyber
+    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80", # laptop code work
     "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80", # code terminal
     "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80", # abstract tech security
     "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80", # hardware tech dev
@@ -102,7 +102,7 @@ TECH_IMAGE_POOL = [
     "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80", # python programming code
     "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80", # server stacks cloud
     "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80", # hardware diagnostics laboratory
-    "https://images.unsplash.com/photo-1526374865447-781939b5016c?w=600&q=80", # cyber green matrix code
+    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80", # cyber green matrix code
     "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80", # tech coding work
     "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80"  # abstract tech device
 ]
@@ -216,7 +216,7 @@ SEED_ARTICLES = [
         "link": "https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/",
         "source": "SANS Institute",
         "source_icon": "🔬",
-        "image": "https://images.unsplash.com/photo-1601597111158-2fceff270190?w=600&q=80",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
         "published": "2026-07-08T03:00:00Z",
         "published_fmt": "08 Jul 2026",
         "plain_summary": "Step-by-step guide to malware disassembly and behavior analysis. Covers dissecting malicious code and monitoring runtime actions.",

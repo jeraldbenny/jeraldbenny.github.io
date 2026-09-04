@@ -44,10 +44,15 @@
     `;
 
     // Append to body on load
-    document.addEventListener("DOMContentLoaded", () => {
+    if (document.readyState === 'loading') {
+        document.addEventListener("DOMContentLoaded", () => {
+            document.body.insertAdjacentHTML('beforeend', botHTML);
+            initBot();
+        });
+    } else {
         document.body.insertAdjacentHTML('beforeend', botHTML);
         initBot();
-    });
+    }
 
     function initBot() {
         const toggleBtn = document.getElementById('jb-intel-bot-toggle');
