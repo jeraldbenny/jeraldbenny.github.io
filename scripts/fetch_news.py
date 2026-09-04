@@ -2267,18 +2267,14 @@ def fetch_all():
         json.dump(history, f, indent=2, ensure_ascii=False)
 
     # Save daily briefing stats (only digital forensics, excluding physical forensics)
-    digital_forensic_articles = [a for a in new_articles if a.get("category_tag") not in ["Forensics", "FORENSIC SCIENCE"]]
+    digital_forensic_articles = [a for a in final_dispatches if a.get("category_tag") not in ["Forensics", "FORENSIC SCIENCE"]]
     
     crit_cve_count = sum(1 for a in digital_forensic_articles if a.get("category_tag") == "CVE & Vulnerabilities" and "critical" in a.get("title", "").lower())
     known_exp_count = sum(1 for a in digital_forensic_articles if a.get("category_tag") == "CVE & Vulnerabilities" and "kev" in a.get("title", "").lower())
     tool_rel_count = sum(1 for a in digital_forensic_articles if a.get("category_tag") == "GitHub Releases")
     threat_rep_count = sum(1 for a in digital_forensic_articles if a.get("category_tag") in ["Malware Intelligence", "IOC Feed"])
 
-    # Fallback to realistic numbers if current run has no new articles to show brief populated
-    crit_cve_count = crit_cve_count or 6
-    known_exp_count = known_exp_count or 2
-    tool_rel_count = tool_rel_count or 4
-    threat_rep_count = threat_rep_count or 8
+    total_sources_monitored = len(SOURCES) + len(api_health)
     
     # Helper to clean titles
     def clean_reads_title(t):
@@ -2310,8 +2306,8 @@ def fetch_all():
         recommended_reads.append({"title": cleaned_title, "link": a["link"]})
 
     briefing_data = {
-        "sources_checked": 62,
-        "new_articles": len(digital_forensic_articles) or 48,
+        "sources_checked": total_sources_monitored,
+        "new_articles": len(digital_forensic_articles),
         "critical_cves": crit_cve_count,
         "known_exploited": known_exp_count,
         "new_tool_releases": tool_rel_count,
