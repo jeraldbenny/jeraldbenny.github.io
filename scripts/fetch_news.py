@@ -600,25 +600,25 @@ SOURCES = [
     {"name": "Elcomsoft", "url": "https://blog.elcomsoft.com/feed/", "category": "Mobile Forensics", "icon": "🔑"},
     {"name": "Swift Forensics", "url": "http://www.swiftforensics.com/feeds/posts/default", "category": "Digital Forensics", "icon": "🔬"},
     {"name": "Windows Incident Response", "url": "https://windowsir.blogspot.blogspot.com/feeds/posts/default" if False else "https://windowsir.blogspot.com/feeds/posts/default", "category": "Digital Forensics", "icon": "🕵"},
-    {"name": "Forensic Focus", "url": "https://forensicfocus.com/feed/", "category": "Digital Forensics", "icon": "🔬"},
+    {"name": "Forensic Focus", "url": "https://news.google.com/rss/search?q=site:forensicfocus.com&hl=en-US&gl=US&ceid=US:en", "category": "Digital Forensics", "icon": "🔬"},
     {"name": "DFIR.Training", "url": "https://news.google.com/rss/search?q=%22DFIR+Training%22+OR+%22dfir.training%22&hl=en-US&gl=US&ceid=US:en", "category": "Digital Forensics", "icon": "🎓"},
     {"name": "AboutDFIR", "url": "https://aboutdfir.com/feed/", "category": "Digital Forensics", "icon": "📋"},
     {"name": "This Week in 4n6", "url": "https://news.google.com/rss/search?q=site:thisweekin4n6.com+OR+%22thisweekin4n6%22&hl=en-US&gl=US&ceid=US:en", "category": "Digital Forensics", "icon": "📆"},
     {"name": "DFIR Madness", "url": "https://dfirmadness.com/feed/", "category": "Digital Forensics", "icon": "🧠"},
     {"name": "Didier Stevens", "url": "https://news.google.com/rss/search?q=%22Didier+Stevens%22+malware&hl=en-US&gl=US&ceid=US:en", "category": "Research", "icon": "🧪"},
-    {"name": "DFRWS", "url": "https://dfrws.org/feed/", "category": "Research", "icon": "🏆"},
+    {"name": "DFRWS", "url": "https://news.google.com/rss/search?q=%22DFRWS%22+forensics&hl=en-US&gl=US&ceid=US:en", "category": "Research", "icon": "🏆"},
     {"name": "CISA Alerts", "url": "https://www.cisa.gov/news.xml", "category": "SOP & Policy", "icon": "🏛️"},
     {"name": "NIST Cybersecurity", "url": "https://news.google.com/rss/search?q=site:nist.gov+cybersecurity&hl=en-US&gl=US&ceid=US:en", "category": "SOP & Policy", "icon": "🏢"},
     {"name": "NCSC UK Threat Reports", "url": "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml", "category": "SOP & Policy", "icon": "🇬🇧"},
     {"name": "Europol News", "url": "https://www.europol.europa.eu/rss.xml", "category": "Specialized", "icon": "🇪🇺"},
-    {"name": "SANS Stormcast", "url": "https://isc.sans.edu/rssfeed_full.xml", "category": "Threat Intel", "icon": "📡"},
-    {"name": "Malwarebytes Labs", "url": "https://blog.malwarebytes.com/feed/", "category": "Malware Analysis", "icon": "🦠"},
+    {"name": "SANS Stormcast", "url": "https://news.google.com/rss/search?q=site:isc.sans.edu+OR+%22SANS+Internet+Storm+Center%22&hl=en-US&gl=US&ceid=US:en", "category": "Threat Intel", "icon": "📡"},
+    {"name": "Malwarebytes Labs", "url": "https://news.google.com/rss/search?q=site:malwarebytes.com/blog&hl=en-US&gl=US&ceid=US:en", "category": "Malware Analysis", "icon": "🦠"},
     {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "Investigations", "icon": "🕵️"},
     {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "category": "Cyber Threats", "icon": "💻"},
     {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "category": "Incidents", "icon": "🚨"},
     {"name": "Black Hills InfoSec", "url": "https://news.google.com/rss/search?q=site:blackhillsinfosec.com&hl=en-US&gl=US&ceid=US:en", "category": "Specialized", "icon": "⛰️"},
     {"name": "MITRE ATT&CK", "url": "https://medium.com/feed/mitre-attack", "category": "MALWARE INTELLIGENCE", "icon": "🛡️"},
-    {"name": "MSAB Blog", "url": "https://www.msab.com/feed/", "category": "DFIR ARTICLES", "icon": "📱"},
+    {"name": "MSAB Blog", "url": "https://news.google.com/rss/search?q=site:msab.com&hl=en-US&gl=US&ceid=US:en", "category": "DFIR ARTICLES", "icon": "📱"},
     {"name": "The DFIR Report", "url": "https://thedfirreport.com/feed/", "category": "DFIR ARTICLES", "icon": "📝"},
     {"name": "Velociraptor Blog", "url": "https://docs.velociraptor.app/blog/index.xml", "category": "DFIR ARTICLES", "icon": "🦖"},
     {"name": "Mandiant Blog", "url": "https://news.google.com/rss/search?q=%22Mandiant%22+cybersecurity&hl=en-US&gl=US&ceid=US:en", "category": "DFIR ARTICLES", "icon": "🔥"},
@@ -626,7 +626,7 @@ SOURCES = [
     {"name": "Securelist", "url": "https://securelist.com/feed/", "category": "MALWARE INTELLIGENCE", "icon": "🦠"},
     {"name": "Cisco Talos Blog", "url": "https://blog.talosintelligence.com/rss/", "category": "MALWARE INTELLIGENCE", "icon": "🛡️"},
     {"name": "Google Threat Intel", "url": "https://news.google.com/rss/search?q=%22Google+Threat+Intelligence%22+OR+%22Mandiant%22&hl=en-US&gl=US&ceid=US:en", "category": "MALWARE INTELLIGENCE", "icon": "🌐"},
-    {"name": "ESET Research", "url": "https://www.welivesecurity.com/feed/", "category": "MALWARE INTELLIGENCE", "icon": "🦠"},
+    {"name": "ESET Research", "url": "https://news.google.com/rss/search?q=site:welivesecurity.com&hl=en-US&gl=US&ceid=US:en", "category": "MALWARE INTELLIGENCE", "icon": "🦠"},
     {"name": "Unit 42", "url": "https://unit42.paloaltonetworks.com/feed/", "category": "MALWARE INTELLIGENCE", "icon": "🔍"},
     {"name": "Eric Zimmerman's Blog", "url": "https://binaryforay.blogspot.com/feeds/posts/default", "category": "DFIR ARTICLES", "icon": "🪟"},
     {"name": "Howard Oakley", "url": "https://news.google.com/rss/search?q=site:eclecticlight.co&hl=en-US&gl=US&ceid=US:en", "category": "DFIR ARTICLES", "icon": "🍏"},
@@ -647,14 +647,14 @@ SOURCES = [
     {"name": "Journal of Forensic & Legal Medicine", "url": "https://rss.sciencedirect.com/publication/science/1752928X", "category": "FORENSIC SCIENCE", "icon": "⚖️"},
     {"name": "Forensic Imaging", "url": "https://rss.sciencedirect.com/publication/science/26662256", "category": "FORENSIC SCIENCE", "icon": "🩻"},
     {"name": "Forensic Chemistry", "url": "https://rss.sciencedirect.com/publication/science/24681709", "category": "FORENSIC SCIENCE", "icon": "🧪"},
-    {"name": "Journal of Forensic Sciences", "url": "https://onlinelibrary.wiley.com/feed/15564029/most-recent", "category": "FORENSIC SCIENCE", "icon": "🔬"},
-    {"name": "WIREs Forensic Science", "url": "https://onlinelibrary.wiley.com/feed/25739468/most-recent", "category": "FORENSIC SCIENCE", "icon": "🔬"},
+    {"name": "Journal of Forensic Sciences", "url": "https://news.google.com/rss/search?q=%22Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🔬"},
+    {"name": "WIREs Forensic Science", "url": "https://news.google.com/rss/search?q=%22WIREs+Forensic+Science%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🔬"},
     {"name": "Forensic Toxicology", "url": "https://news.google.com/rss/search?q=%22Forensic+Toxicology%22+journal&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🧪"},
     {"name": "Intl Journal of Legal Medicine", "url": "https://news.google.com/rss/search?q=%22International+Journal+of+Legal+Medicine%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "⚖️"},
     {"name": "FS, Medicine and Pathology", "url": "https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🔬"},
     {"name": "Egyptian Journal of FS", "url": "https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🔬"},
     {"name": "NIST Forensic Science", "url": "https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🏛️"},
-    {"name": "ScienceDaily Forensics", "url": "https://www.sciencedaily.com/rss/matter_energy/forensics.xml", "category": "FORENSIC SCIENCE", "icon": "📰"},
+    {"name": "ScienceDaily Forensics", "url": "https://news.google.com/rss/search?q=site:sciencedaily.com+forensics&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "📰"},
     {"name": "Phys.org Forensics", "url": "https://phys.org/rss-feed/science-news/forensics/", "category": "FORENSIC SCIENCE", "icon": "📰"},
     {"name": "The Forensic Science Society", "url": "https://news.google.com/rss/search?q=%22Chartered+Society+of+Forensic+Sciences%22+OR+site:csofs.org&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🎓"},
     {"name": "Google News: Forensic Biology", "url": "https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en", "category": "FORENSIC SCIENCE", "icon": "🧬"},
@@ -861,7 +861,97 @@ def parse_date(entry):
         if raw:
             try: return dateparser.parse(raw).astimezone(timezone.utc)
             except Exception: pass
-    return datetime.now(timezone.utc)
+    for struct_field in ["published_parsed", "updated_parsed", "created_parsed"]:
+        raw_struct = getattr(entry, struct_field, None)
+        if raw_struct:
+            try:
+                import calendar
+                ts = calendar.timegm(raw_struct)
+                return datetime.fromtimestamp(ts, tz=timezone.utc)
+            except Exception: pass
+    return None
+
+
+CASE_STUDY_PATTERN = re.compile(
+    r'\b(?:case\s+stud(?:y|ies)|case\s+report[s]?|case\s+\d+|triage\s+disk\s+analysis\s+case)\b',
+    re.IGNORECASE
+)
+
+CONFERENCE_EVENT_PATTERN = re.compile(
+    r'(?<!video\s)(?<!tele)\b(?:conference[s]?|symposium[s]?|summit[s]?|webinar[s]?|annual\s+meeting|workshop[s]?|call\s+for\s+papers|\bcfp\b|registration\s+(?:open|now)|register\s+now|call\s+for\s+presentations)\b',
+    re.IGNORECASE
+)
+
+def is_excluded_article(title, summary=""):
+    t = title or ""
+    if CASE_STUDY_PATTERN.search(t):
+        return True, "Case study article excluded"
+    if CONFERENCE_EVENT_PATTERN.search(t):
+        if "video conference" not in t.lower() and "teleconference" not in t.lower():
+            return True, "Conference / event article excluded"
+    return False, ""
+
+def is_article_fresh(pub_dt, category_tag):
+    if not pub_dt:
+        return False, "Missing publication date"
+    now = datetime.now(timezone.utc)
+    if pub_dt > now + timedelta(days=1):
+        return False, "Future publication date"
+    age_seconds = (now - pub_dt).total_seconds()
+    if category_tag in ["Research Papers", "GitHub Releases"]:
+        if age_seconds > 7 * 86400:
+            return False, f"Older than 7 days ({int(age_seconds // 86400)}d)"
+    else:
+        if age_seconds > 3 * 86400:
+            return False, f"Older than 72 hours ({int(age_seconds // 86400)}d)"
+    return True, "Fresh"
+
+def extract_dynamic_trending_topics(articles):
+    from collections import Counter
+    STOP_WORDS = {
+        "dfir", "forensics", "forensic", "security", "cybersecurity", "article", "articles", 
+        "research", "paper", "papers", "science", "news", "update", "updates", "release", 
+        "releases", "github", "threat", "threats", "intel", "intelligence", "analysis",
+        "investigation", "today", "daily", "general", "systems", "system", "various", "tool",
+        "cve", "ioc", "threatfox", "nvd", "urlhaus", "feed", "threat intel", "high severity",
+        "critical severity", "medium severity", "low severity"
+    }
+    topic_scores = Counter()
+    CURATED_THEMES = [
+        "Ransomware", "Infostealer", "Spyware", "Trojan", "Phishing", "Zero-Day", 
+        "Rootkit", "Botnet", "Privilege Escalation", "Remote Code Execution",
+        "Memory Forensics", "Mobile Forensics", "Cloud Forensics", "Network Forensics",
+        "Linux Forensics", "Windows Forensics", "Incident Response", "Threat Hunting",
+        "Credential Theft", "Deepfake", "Supply Chain", "Kernel Exploit", "Active Directory",
+        "Malware Analysis", "Reverse Engineering", "Registry Analysis", "C2 Infrastructure",
+        "Data Exfiltration", "Living off the Land", "EDR Bypass", "Firmware Security"
+    ]
+    for a in articles:
+        text = (a.get("title", "") + " " + a.get("plain_summary", "")).lower()
+        for theme in CURATED_THEMES:
+            if theme.lower() in text:
+                topic_scores[theme] += 3
+        cves = re.findall(r'\bcve-\d{4}-\d{4,7}\b', text, re.I)
+        for cve in cves:
+            topic_scores[cve.upper()] += 4
+        for t in a.get("tags", []):
+            clean_t = t.lstrip("#").strip()
+            if clean_t.lower() not in STOP_WORDS and len(clean_t) > 2:
+                formatted = clean_t.replace("-", " ").replace("_", " ").title()
+                if formatted.lower() not in STOP_WORDS:
+                    topic_scores[formatted] += 2
+    filtered_topics = [
+        (t, count) for t, count in topic_scores.most_common(20)
+        if t.lower() not in STOP_WORDS and len(t) >= 3
+    ]
+    top_3 = [t[0] for t in filtered_topics[:3]]
+    fallbacks = ["Ransomware", "Memory Forensics", "Zero-Day Exploits", "Cloud Security"]
+    for fb in fallbacks:
+        if len(top_3) >= 3:
+            break
+        if fb not in top_3:
+            top_3.append(fb)
+    return top_3
 
 
 def calculate_forensic_score(title, summary):
@@ -1257,7 +1347,11 @@ def fetch_github_releases():
                 bugs = gh_data["bugs"]
                 
                 try: pub_dt = dateparser.parse(released).astimezone(timezone.utc)
-                except Exception: pub_dt = datetime.now(timezone.utc)
+                except Exception: pub_dt = None
+                
+                is_fr, _ = is_article_fresh(pub_dt, "GitHub Releases")
+                if not is_fr:
+                    continue
                 
                 aid = article_id(f"github-release-{repo}-{version}")
                 img_idx = int(aid, 16) % len(TECH_IMAGE_POOL)
@@ -1333,6 +1427,13 @@ def fetch_arxiv_research_papers():
                     clean_summary = clean_html(raw_summary)
                     clean_summary = re.sub(r'\s+', ' ', clean_summary)
                     clean_summary = re.sub(r'\$([^$]+)\$', r'\1', clean_summary)
+
+                    is_ex, _ = is_excluded_article(raw_title, clean_summary)
+                    if is_ex:
+                        continue
+                    is_fr, _ = is_article_fresh(pub_dt, "Research Papers")
+                    if not is_fr:
+                        continue
                     
                     aid = article_id("arxiv-" + link)
                     img_idx = (int(aid, 16) % 5) + 1
@@ -1403,6 +1504,13 @@ def fetch_arxiv_research_papers():
                     pub_dt = parse_date(entry)
                     raw_summary = entry.get("summary", "") or entry.get("description", "")
                     clean_summary = clean_html(raw_summary)
+
+                    is_ex, _ = is_excluded_article(raw_title, clean_summary)
+                    if is_ex:
+                        continue
+                    is_fr, _ = is_article_fresh(pub_dt, "Research Papers")
+                    if not is_fr:
+                        continue
                     aid = article_id(link)
                     img_idx = (int(aid, 16) % 5) + 1
                     
@@ -1762,9 +1870,19 @@ def fetch_all():
                 continue
 
             raw = entry.get("summary", "") or entry.get("description", "")
-            print(f"  [+] {title[:70]}")
 
-            pub_dt   = parse_date(entry)
+            is_ex, ex_reason = is_excluded_article(title, raw)
+            if is_ex:
+                print(f"  [Skip Exclusion] {ex_reason}: {title[:60]}")
+                continue
+
+            pub_dt = parse_date(entry)
+            is_fr, fr_reason = is_article_fresh(pub_dt, source["category"])
+            if not is_fr:
+                print(f"  [Skip Stale] {fr_reason}: {title[:60]}")
+                continue
+
+            print(f"  [+] {title[:70]}")
             img_url  = extract_image(entry, link, source["name"], source["category"])
             clean_text = clean_html(raw)
 
@@ -1981,6 +2099,16 @@ def fetch_all():
     seen_today_titles = {a["title"] for a in today_articles}
 
     for a in existing:
+        is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""))
+        if is_ex:
+            continue
+        try:
+            pub_dt_ex = dateparser.parse(a.get("published", "")).astimezone(timezone.utc)
+            if not is_article_fresh(pub_dt_ex, a.get("category_tag", ""))[0]:
+                continue
+        except Exception:
+            continue
+
         if a.get("collected_date") == today_str and a["id"] not in seen_today_ids and a.get("title") not in seen_today_titles:
             today_articles.append(a)
             seen_today_ids.add(a["id"])
@@ -2004,7 +2132,9 @@ def fetch_all():
     dedup_archive = []
     for a in archive_articles:
         if a["id"] not in seen:
-            dedup_archive.append(a)
+            is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""))
+            if not is_ex:
+                dedup_archive.append(a)
             seen.add(a["id"])
     
     dedup_archive.sort(key=lambda x: x.get("published", ""), reverse=True)
@@ -2188,7 +2318,7 @@ def fetch_all():
         "threat_reports": threat_rep_count,
         "top_story": top_story_title,
         "top_story_link": top_story_link,
-        "trending_topics": ["Ransomware", "Linux Forensics", "Browser Credential Theft"],
+        "trending_topics": extract_dynamic_trending_topics(final_dispatches),
         "recommended_reads": recommended_reads
     }
     with open("digifeed/briefing.json", "w", encoding="utf-8") as f:

@@ -40,39 +40,52 @@ FALLBACK_IMG = "https://images.unsplash.com/photo-1518770660439-4636190af475?w=6
 
 
 def get_trending_topics(day_articles):
-    from collections import defaultdict
-    tag_counts = defaultdict(int)
+    from collections import Counter
+    import re
+    STOP_WORDS = {
+        "dfir", "forensics", "forensic", "security", "cybersecurity", "article", "articles", 
+        "research", "paper", "papers", "science", "news", "update", "updates", "release", 
+        "releases", "github", "threat", "threats", "intel", "intelligence", "analysis",
+        "investigation", "today", "daily", "general", "systems", "system", "various", "tool",
+        "cve", "ioc", "threatfox", "nvd", "urlhaus", "feed", "threat intel", "high severity",
+        "critical severity", "medium severity", "low severity"
+    }
+    topic_scores = Counter()
+    CURATED_THEMES = [
+        "Ransomware", "Infostealer", "Spyware", "Trojan", "Phishing", "Zero-Day", 
+        "Rootkit", "Botnet", "Privilege Escalation", "Remote Code Execution",
+        "Memory Forensics", "Mobile Forensics", "Cloud Forensics", "Network Forensics",
+        "Linux Forensics", "Windows Forensics", "Incident Response", "Threat Hunting",
+        "Credential Theft", "Deepfake", "Supply Chain", "Kernel Exploit", "Active Directory",
+        "Malware Analysis", "Reverse Engineering", "Registry Analysis", "C2 Infrastructure",
+        "Data Exfiltration", "Living off the Land", "EDR Bypass", "Firmware Security"
+    ]
     for a in day_articles:
+        text = (a.get("title", "") + " " + a.get("plain_summary", "")).lower()
+        for theme in CURATED_THEMES:
+            if theme.lower() in text:
+                topic_scores[theme] += 3
+        cves = re.findall(r'\bcve-\d{4}-\d{4,7}\b', text, re.I)
+        for cve in cves:
+            topic_scores[cve.upper()] += 4
         for t in a.get("tags", []):
-            clean_t = t.replace("#", "").strip().title()
-            if clean_t:
-                tag_counts[clean_t] += 1
-    
-    kw_counts = defaultdict(int)
-    keywords = ["Ransomware", "Malware", "Phishing", "Zero-Day", "Credential Theft", "Cloud Security", "Linux Forensics", "Windows Forensics", "Mobile Forensics", "Spyware", "Exploit", "Vulnerability", "Botnet"]
-    for a in day_articles:
-        title_lower = a.get("title", "").lower()
-        for kw in keywords:
-            if kw.lower() in title_lower:
-                kw_counts[kw] += 2
-                
-    combined = defaultdict(int)
-    for k, v in tag_counts.items():
-        combined[k] += v
-    for k, v in kw_counts.items():
-        combined[k] += v
-        
-    sorted_topics = sorted(combined.items(), key=lambda x: -x[1])
-    topics = [t[0] for t in sorted_topics[:3]]
-    
-    fallbacks = ["Ransomware", "Linux Forensics", "Credential Theft"]
+            clean_t = t.lstrip("#").strip()
+            if clean_t.lower() not in STOP_WORDS and len(clean_t) > 2:
+                formatted = clean_t.replace("-", " ").replace("_", " ").title()
+                if formatted.lower() not in STOP_WORDS:
+                    topic_scores[formatted] += 2
+    filtered_topics = [
+        (t, count) for t, count in topic_scores.most_common(20)
+        if t.lower() not in STOP_WORDS and len(t) >= 3
+    ]
+    top_3 = [t[0] for t in filtered_topics[:3]]
+    fallbacks = ["Ransomware", "Memory Forensics", "Zero-Day Exploits", "Cloud Security"]
     for fb in fallbacks:
-        if len(topics) >= 3:
+        if len(top_3) >= 3:
             break
-        if fb not in topics:
-            topics.append(fb)
-            
-    return topics
+        if fb not in top_3:
+            top_3.append(fb)
+    return top_3
 
 
 def cat_color(tag):

@@ -22,6 +22,13 @@ STATIC_KNOWLEDGE = [
         "category": "Forensics",
         "content": "Digital Forensics is the field of recovering and investigating material found in digital devices, often in relation to computer crime. Key steps include identification, preservation, analysis, and documentation of digital evidence. Common tools include Autopsy, Magnet AXIOM, Volatility, and Wireshark.",
         "date": "2026-07-20"
+    },
+    {
+        "id": "static-digibot-update-schedule",
+        "title": "DigiBot Ingestion and Update Schedule",
+        "category": "System",
+        "content": "JB:INTEL-BOT and DigiFeed are synchronized daily with real-time cybersecurity dispatches, threat intelligence, actively exploited vulnerabilities (CISA KEV), CVEs from NVD, tool releases, and digital forensics research. The platform ingests fresh intelligence every day, ensuring access to the latest security threats, malware analyses, and forensics methodologies.",
+        "date": "2026-09-04"
     }
 ]
 

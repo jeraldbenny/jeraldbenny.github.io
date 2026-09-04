@@ -2,7 +2,7 @@ name: Daily DigiFeed RAG Ingestion
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    - cron: '0 1 * * *' # Runs daily at 01:00 UTC (after daily fetch-news sync)
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
@@ -23,9 +23,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pinecone
 
-    - name: Run Pinecone Backfill Script
+    - name: Run Daily Pinecone Ingest Script
       env:
         PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
       run: |
-        python scripts/backfill_pinecone.py
+        python scripts/daily_ingest.py
