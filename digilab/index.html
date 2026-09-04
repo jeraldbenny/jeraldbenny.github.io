@@ -616,7 +616,10 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
 <body>
 
 <nav>
-  <a href="../index.html" class="nav-logo">JB:<span>FORENSICS</span></a>
+  <div style="display:flex;align-items:center;gap:6px;flex-shrink:0;">
+    <a href="../index.html" class="nav-logo">JB:<span>FORENSICS</span></a>
+    <button id="audio-toggle" aria-label="Toggle Ambient Audio" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;margin-top:2px;" title="Toggle Ambient Audio">🔇</button>
+  </div>
   <div class="nav-links">
     <a href="../digifeed/index.html" class="nav-btn">DIGIFEED</a>
     <a href="../digiplay/index.html" class="nav-btn">DIGIPLAY</a>
@@ -1103,12 +1106,69 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
     <a href="https://github.com/jeraldbenny" target="_blank" rel="noopener">GITHUB</a> | 
     <a href="https://www.linkedin.com/in/jerald-benny-8b9a6a36a" target="_blank" rel="noopener">LINKEDIN</a>
   </p>
+  <audio id="bg-audio" loop>
+    <source src="../ambilofi.mp3" type="audio/mpeg">
+  </audio>
 </footer>
 
 <!-- DIGIBOT WIDGET INTEGRATION -->
 <script src="../intel_bot.js"></script>
 
 <script>
+// Ambient Audio Toggle Logic
+(function(){
+  const audioBtn = document.getElementById('audio-toggle');
+  const bgAudio = document.getElementById('bg-audio');
+  if(audioBtn && bgAudio) {
+    const savedState = localStorage.getItem('ambient-audio');
+    if (savedState === 'playing') {
+      bgAudio.volume = 0.3;
+      bgAudio.play().then(() => {
+        audioBtn.innerHTML = '🔊';
+        audioBtn.style.opacity = '1';
+      }).catch(() => {
+        bgAudio.pause();
+        audioBtn.innerHTML = '🔇';
+        audioBtn.style.opacity = '0.6';
+      });
+    } else {
+      bgAudio.pause();
+      audioBtn.innerHTML = '🔇';
+      audioBtn.style.opacity = '0.6';
+    }
+
+    audioBtn.addEventListener('click', () => {
+      if(bgAudio.paused) {
+        bgAudio.volume = 0.3; 
+        bgAudio.play().catch(()=>{});
+        audioBtn.innerHTML = '🔊';
+        audioBtn.style.opacity = '1';
+        localStorage.setItem('ambient-audio', 'playing');
+      } else {
+        bgAudio.pause();
+        audioBtn.innerHTML = '🔇';
+        audioBtn.style.opacity = '0.6';
+        localStorage.setItem('ambient-audio', 'paused');
+      }
+    });
+
+    window.addEventListener('storage', (e) => {
+      if (e.key === 'ambient-audio') {
+        if (e.newValue === 'playing' && bgAudio.paused) {
+          bgAudio.volume = 0.3;
+          bgAudio.play().catch(()=>{});
+          audioBtn.innerHTML = '🔊';
+          audioBtn.style.opacity = '1';
+        } else if (e.newValue === 'paused' && !bgAudio.paused) {
+          bgAudio.pause();
+          audioBtn.innerHTML = '🔇';
+          audioBtn.style.opacity = '0.6';
+        }
+      }
+    });
+  }
+})();
+
 // Automatically unregister any legacy service workers
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.getRegistrations().then(registrations => {
