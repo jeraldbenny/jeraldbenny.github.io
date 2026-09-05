@@ -68,10 +68,12 @@ RECENT HEADLINES SUMMARY:
 {headlines_text}
 """
 
-    status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS:
+    status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS & CURRENT DATE:
+- CURRENT DATE TODAY: {current_date_str}
 - LAST SYNCHRONIZED DATE: {current_date_str}
 - DATABASE STATUS: Active, fully updated with {len(articles)} fresh daily dispatches and 1000+ historical archives up to {current_date_str}.
 - INTELLIGENCE SCOPE: Real-time digital forensics dispatches, CISA KEV alerts, NVD vulnerabilities, malware analysis, incident response methodologies, and open-source tool releases.
+- QUERY ANCHORS: date, date?, what date, current date, today's date, when were you last updated, latest update date, status.
 """
 
     return [
@@ -80,7 +82,7 @@ RECENT HEADLINES SUMMARY:
             "title": f"Today's News & Daily Intelligence Briefing ({current_date_str})",
             "category": "Daily Intelligence Briefing",
             "date": current_date_str,
-            "plain_summary": f"Today's cybersecurity intelligence briefing for {current_date_str} covering top stories, CVEs, malware, and tool releases.",
+            "plain_summary": f"Today's cybersecurity intelligence briefing for {current_date_str}. Top digital forensic news today, top forensic news of today, active CVEs, malware threats, and tool releases for {current_date_str}.",
             "content": briefing_content
         },
         {
@@ -88,7 +90,7 @@ RECENT HEADLINES SUMMARY:
             "title": f"DigiBot Live Intelligence Status & Archive Synchronization ({current_date_str})",
             "category": "System Status",
             "date": current_date_str,
-            "plain_summary": f"DigiBot status: Synchronized as of {current_date_str}.",
+            "plain_summary": f"DigiBot live system status and current date: {current_date_str}. Database synchronized with fresh dispatches up to {current_date_str}.",
             "content": status_content
         }
     ]
