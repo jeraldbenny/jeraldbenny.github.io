@@ -6,29 +6,22 @@ STATIC_KNOWLEDGE = [
         "id": "static-about-jerald",
         "title": "About Jerald Benny",
         "category": "Biography",
-        "content": "Jerald Benny is a digital forensics & cybersecurity analyst. He built this platform to curate and analyze the latest articles, research papers, threats, and tools in the DFIR (Digital Forensics and Incident Response) space.",
-        "date": "2026-07-20"
+        "content": "Jerald Benny is a digital forensics & cybersecurity analyst and researcher. He built DigiFeed and DigiLab to aggregate, curate, and analyze the latest articles, research papers, threat reports, CVE disclosures, and open-source tools in the DFIR (Digital Forensics and Incident Response) and cybersecurity space.",
+        "date": "Continuous"
     },
     {
         "id": "static-chatbot-purpose",
-        "title": "JB:INTEL-BOT Purpose",
+        "title": "DIGIBOT / JB:INTEL-BOT Purpose",
         "category": "System",
-        "content": "JB:INTEL-BOT is an AI assistant embedded within the page. It's database containing thousands of curated digital forensics articles, IOCs, and malware intelligence reports. It is designed to answer questions about these articles and digital forensics in general.",
-        "date": "2026-07-20"
+        "content": "DIGIBOT (JB:INTEL-BOT) is an AI intelligence assistant built by Jerald Benny. Its vector database is continuously updated with curated digital forensics dispatches, IOCs, malware analyses, tool releases, and CVE disclosures from DigiFeed. It is designed to provide real-time, context-aware answers about cybersecurity dispatches, today's news, forensics investigations, and security research.",
+        "date": "Continuous"
     },
     {
         "id": "static-forensics-basics",
         "title": "Digital Forensics Basics",
         "category": "Forensics",
-        "content": "Digital Forensics is the field of recovering and investigating material found in digital devices, often in relation to computer crime. Key steps include identification, preservation, analysis, and documentation of digital evidence. Common tools include Autopsy, Magnet AXIOM, Volatility, and Wireshark.",
-        "date": "2026-07-20"
-    },
-    {
-        "id": "static-digibot-update-schedule",
-        "title": "DigiBot Ingestion and Update Schedule",
-        "category": "System",
-        "content": "JB:INTEL-BOT and DigiFeed are synchronized daily with real-time cybersecurity dispatches, threat intelligence, actively exploited vulnerabilities (CISA KEV), CVEs from NVD, tool releases, and digital forensics research. The platform ingests fresh intelligence every day, ensuring access to the latest security threats, malware analyses, and forensics methodologies.",
-        "date": "2026-09-04"
+        "content": "Digital Forensics is the field of recovering, preserving, and investigating material found in digital devices, often in relation to computer crime. Key phases include Identification, Preservation (forensic disk imaging and write-blocking), Analysis (artifact extraction, timeline reconstruction, memory forensics), and Reporting/Documentation of digital evidence. Common tools include Autopsy, Magnet AXIOM, Volatility 3, FTK Imager, KAPE, and Wireshark.",
+        "date": "Continuous"
     }
 ]
 

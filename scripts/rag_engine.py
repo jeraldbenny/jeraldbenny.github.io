@@ -3,24 +3,49 @@ import time
 import requests
 from pinecone import Pinecone, ServerlessSpec
 
+# Disable symlinks warning from huggingface_hub on Windows
+os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
+
 # Constants
 INDEX_NAME = "digifeed-rag"
-HF_EMBEDDING_MODELS = [
+MODEL_NAME = "BAAI/bge-small-en-v1.5"
+HF_FALLBACK_MODELS = [
     "BAAI/bge-small-en-v1.5",
     "sentence-transformers/all-MiniLM-L6-v2"
 ]
 
-def get_hf_embeddings(texts, hf_token, retries=4):
+# Global cache for local embedding model
+_LOCAL_MODEL = None
+
+def get_local_embeddings(texts):
     """
-    Get 384-dimensional embeddings using Hugging Face Inference API with fallback models & retry logic.
+    Generate 384-dimensional embeddings locally using fastembed ONNX runtime (ultra-fast, 0 API calls).
+    """
+    global _LOCAL_MODEL
+    try:
+        from fastembed import TextEmbedding
+        if _LOCAL_MODEL is None:
+            print(f"[FastEmbed] Loading local ONNX embedding model '{MODEL_NAME}'...")
+            _LOCAL_MODEL = TextEmbedding(model_name=MODEL_NAME)
+        
+        embeddings = list(_LOCAL_MODEL.embed(texts))
+        return [list(map(float, vec)) for vec in embeddings]
+    except Exception as e:
+        print(f"[FastEmbed] Local embedding failed/not available: {e}")
+        return None
+
+def get_hf_embeddings(texts, hf_token=None, retries=3):
+    """
+    Get 384-dimensional embeddings using Hugging Face Inference API as fallback.
     """
     headers = {
-        "Authorization": f"Bearer {hf_token}",
         "x-use-pipeline": "feature-extraction"
     }
-    last_error = None
+    if hf_token:
+        headers["Authorization"] = f"Bearer {hf_token}"
 
-    for model in HF_EMBEDDING_MODELS:
+    last_error = None
+    for model in HF_FALLBACK_MODELS:
         urls = [
             f"https://router.huggingface.co/hf-inference/models/{model}",
             f"https://api-inference.huggingface.co/models/{model}"
@@ -32,11 +57,11 @@ def get_hf_embeddings(texts, hf_token, retries=4):
                         api_url,
                         headers=headers,
                         json={"inputs": texts, "options": {"wait_for_model": True, "use_cache": True}},
-                        timeout=60
+                        timeout=45
                     )
                     if response.status_code == 200:
                         res_json = response.json()
-                        # Handle 3D token array pooling if returned by token-level feature extraction
+                        # Handle 3D token array pooling if returned
                         if isinstance(res_json, list) and len(res_json) > 0 and isinstance(res_json[0], list) and len(res_json[0]) > 0 and isinstance(res_json[0][0], list):
                             pooled = []
                             for item in res_json:
@@ -44,33 +69,39 @@ def get_hf_embeddings(texts, hf_token, retries=4):
                                 vec = [sum(token[k] for token in item) / len(item) for k in range(dim)]
                                 pooled.append(vec)
                             return pooled
-                        # Handle standard 2D list of vectors
                         elif isinstance(res_json, list) and len(res_json) > 0 and isinstance(res_json[0], (int, float)):
-                            # Single vector returned
                             return [res_json]
                         return res_json
                     elif response.status_code == 503:
-                        wait_sec = 10 * (attempt + 1)
-                        print(f"HF API Model loading ({model}), waiting {wait_sec}s...")
-                        time.sleep(wait_sec)
+                        time.sleep(5 * (attempt + 1))
                     elif response.status_code == 429:
-                        wait_sec = 15 * (attempt + 1)
-                        print(f"HF Rate limit reached, cooling down {wait_sec}s...")
-                        time.sleep(wait_sec)
+                        time.sleep(10 * (attempt + 1))
                     else:
-                        print(f"HF API ({api_url}) Status {response.status_code}: {response.text[:200]}")
                         last_error = f"Status {response.status_code}: {response.text[:200]}"
-                        time.sleep(3)
+                        time.sleep(2)
                 except Exception as e:
-                    print(f"Connection attempt {attempt + 1} failed for {api_url}: {e}")
                     last_error = str(e)
-                    time.sleep(3 * (attempt + 1))
+                    time.sleep(2 * (attempt + 1))
 
-    raise Exception(f"Failed to get embeddings from Hugging Face API. Last error: {last_error}")
+    raise Exception(f"Failed to get embeddings from Hugging Face API fallback. Last error: {last_error}")
+
+def generate_embeddings(texts, hf_token=None):
+    """
+    Primary: Fast local ONNX engine.
+    Secondary: Hugging Face Inference API.
+    """
+    # Try Tier 1: Local ONNX
+    embeddings = get_local_embeddings(texts)
+    if embeddings is not None and len(embeddings) == len(texts):
+        return embeddings
+
+    # Try Tier 2: Hugging Face API
+    print("[RAG] Falling back to Hugging Face Inference API...")
+    return get_hf_embeddings(texts, hf_token=hf_token)
 
 def init_pinecone(pinecone_api_key):
     """
-    Initialize Pinecone and create the index if it doesn't exist.
+    Initialize Pinecone and create index if it doesn't exist.
     """
     pc = Pinecone(api_key=pinecone_api_key)
     
@@ -79,14 +110,13 @@ def init_pinecone(pinecone_api_key):
         print(f"Creating Pinecone index '{INDEX_NAME}'...")
         pc.create_index(
             name=INDEX_NAME,
-            dimension=384, # dimension for bge-small-en-v1.5 and all-MiniLM-L6-v2
+            dimension=384,
             metric="cosine",
             spec=ServerlessSpec(
                 cloud="aws",
                 region="us-east-1"
             )
         )
-        # Wait for index to be ready
         while not pc.describe_index(INDEX_NAME).status['ready']:
             time.sleep(1)
             
@@ -94,81 +124,74 @@ def init_pinecone(pinecone_api_key):
 
 def prune_index_if_needed(index, max_vectors=40000):
     """
-    Keep the index under max_vectors.
+    Check index stats.
     """
     try:
         stats = index.describe_index_stats()
         total_vectors = stats.get('total_vector_count', 0)
-        print(f"Current vectors in Pinecone: {total_vectors}")
-        if total_vectors > max_vectors:
-            print("Approaching max limit, pruning would be necessary in a real production environment with full state.")
+        print(f"Current vectors in Pinecone index '{INDEX_NAME}': {total_vectors}")
     except Exception as e:
         print(f"Index stats check: {e}")
 
-def upsert_articles(articles, pinecone_api_key, hf_token):
+def upsert_articles(articles, pinecone_api_key, hf_token=None, batch_size=40):
     """
     Embed and upsert articles into Pinecone in safe batches.
-    articles format: [{"id": "...", "title": "...", "content": "...", "date": "...", "category": "..."}]
     """
     if not articles:
         return
 
-    print(f"Initializing Pinecone and upserting {len(articles)} articles...")
+    print(f"Initializing Pinecone and preparing {len(articles)} articles for upsert...")
     index = init_pinecone(pinecone_api_key)
-    
-    # Prune check
     prune_index_if_needed(index)
     
-    # Use smaller batch size (25) to avoid HF API timeout and payload limits
-    batch_size = 25
     total_batches = (len(articles) + batch_size - 1) // batch_size
     
     for i in range(0, len(articles), batch_size):
         batch = articles[i:i+batch_size]
         batch_num = (i // batch_size) + 1
         
-        # Prepare text for embedding
         texts = []
         for item in batch:
             title = item.get('title', '')
             cat = item.get('category') or item.get('category_tag') or 'Unknown'
             content = item.get('content') or item.get('plain_summary') or item.get('deep_lore') or ''
-            # Truncate text snippet to 1000 chars for optimal embedding performance
-            snippet = f"Title: {title}\nCategory: {cat}\nContent: {content[:1000]}"
+            date = item.get('date') or item.get('collected_date') or item.get('published_fmt') or ''
+            # Enhanced rich prefix for high-precision semantic & temporal matching
+            snippet = f"Title: {title}\nDate: {date}\nCategory: {cat}\nContent: {content[:1200]}"
             texts.append(snippet)
         
         print(f"Generating embeddings for batch {batch_num}/{total_batches} ({len(batch)} items)...")
-        embeddings = get_hf_embeddings(texts, hf_token)
+        embeddings = generate_embeddings(texts, hf_token=hf_token)
         
-        # Prepare vectors for pinecone: (id, values, metadata)
         vectors = []
         for j, item in enumerate(batch):
             title = item.get('title', '')
             cat = item.get('category') or item.get('category_tag') or ''
             content = item.get('content') or item.get('plain_summary') or item.get('deep_lore') or ''
             date = item.get('date') or item.get('collected_date') or item.get('published_fmt') or ''
+            link = item.get('link') or item.get('url') or ''
             
             metadata = {
                 "title": title[:500],
                 "date": date,
                 "category": cat,
-                # Truncate content to 2000 chars to comfortably fit inside Pinecone metadata limit (40KB)
+                "link": link[:500],
                 "content": content[:2000]
             }
             vectors.append((item['id'], embeddings[j], metadata))
             
         print(f"Upserting batch {batch_num}/{total_batches} to Pinecone...")
         index.upsert(vectors=vectors)
+        time.sleep(0.3)
         
-        # Brief pause between batches to be gentle on free-tier APIs
-        time.sleep(1)
-        
-    print("[SUCCESS] Upsert complete.")
+    print(f"[SUCCESS] Upserted {len(articles)} items into Pinecone.")
 
 if __name__ == "__main__":
     pc_key = os.environ.get("PINECONE_API_KEY")
     hf_key = os.environ.get("HF_TOKEN")
-    if pc_key and hf_key:
-        print("Ready for ingestion.")
+    if pc_key:
+        print("Pinecone API key detected. Testing local embedding...")
+        test_vecs = generate_embeddings(["Test intelligence query"])
+        print(f"Success. Vector dimension: {len(test_vecs[0])}")
     else:
-        print("Missing API keys for Pinecone or Hugging Face.")
+        print("Run with PINECONE_API_KEY to execute ingestion.")

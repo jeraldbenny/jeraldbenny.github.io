@@ -1,38 +1,157 @@
 import os
 import sys
 import json
+from datetime import datetime, timezone
 
 # Ensure scripts directory is in path
-if os.path.dirname(os.path.abspath(__file__)) not in sys.path:
-    sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+scripts_dir = os.path.dirname(os.path.abspath(__file__))
+if scripts_dir not in sys.path:
+    sys.path.append(scripts_dir)
 
 import rag_engine
 from ingest_static import STATIC_KNOWLEDGE
+
+def build_today_briefing(articles, current_date_str):
+    """
+    Construct rich dynamic briefing records for today's news and system status.
+    Ensures DigiBot accurately answers queries about today's news, latest CVEs, and update dates.
+    """
+    top_stories = []
+    cves = []
+    threats = []
+    tools = []
+    headlines = []
+
+    for a in articles:
+        title = a.get("title", "").strip()
+        cat = a.get("category_tag") or a.get("category") or ""
+        summary = a.get("plain_summary") or a.get("deep_lore") or ""
+        
+        if not title:
+            continue
+            
+        headlines.append(f"• {title}")
+        
+        if "CVE" in cat or "Vulnerabilities" in cat or "CVE-" in title:
+            cves.append(f"• {title}: {summary[:200]}")
+        elif "Malware" in cat or "IOC" in cat or "Threat" in title or "Ransomware" in title:
+            threats.append(f"• {title}: {summary[:200]}")
+        elif "GitHub" in cat or "Release" in cat or "Tool" in cat:
+            tools.append(f"• {title}: {summary[:200]}")
+        else:
+            if len(top_stories) < 6:
+                top_stories.append(f"• {title}: {summary[:200]}")
+
+    cves_text = "\n".join(cves[:5]) if cves else "• No critical zero-days reported today."
+    threats_text = "\n".join(threats[:5]) if threats else "• Standard background threat monitoring active."
+    tools_text = "\n".join(tools[:5]) if tools else "• No new tool releases today."
+    top_stories_text = "\n".join(top_stories[:6]) if top_stories else "• Active daily monitoring of DFIR sources."
+    headlines_text = "\n".join(headlines[:15])
+
+    briefing_content = f"""TODAY'S CYBERSECURITY & FORENSICS INTELLIGENCE BRIEFING ({current_date_str}):
+CURRENT DATE: {current_date_str}
+LAST UPDATE STATUS: Fresh dispatches collected and synchronized for {current_date_str}.
+
+TOP STORIES & FORENSICS HEADLINES TODAY:
+{top_stories_text}
+
+ACTIVE CVES & VULNERABILITIES DETECTED TODAY:
+{cves_text}
+
+THREAT INTELLIGENCE & MALWARE DISPATCHES:
+{threats_text}
+
+NEW TOOLS & ARTIFACT EXTRACTORS:
+{tools_text}
+
+RECENT HEADLINES SUMMARY:
+{headlines_text}
+"""
+
+    status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS:
+- LAST SYNCHRONIZED DATE: {current_date_str}
+- DATABASE STATUS: Active, fully updated with {len(articles)} fresh daily dispatches and 1000+ historical archives up to {current_date_str}.
+- INTELLIGENCE SCOPE: Real-time digital forensics dispatches, CISA KEV alerts, NVD vulnerabilities, malware analysis, incident response methodologies, and open-source tool releases.
+"""
+
+    return [
+        {
+            "id": "system-today-briefing",
+            "title": f"Today's News & Daily Intelligence Briefing ({current_date_str})",
+            "category": "Daily Intelligence Briefing",
+            "date": current_date_str,
+            "plain_summary": f"Today's cybersecurity intelligence briefing for {current_date_str} covering top stories, CVEs, malware, and tool releases.",
+            "content": briefing_content
+        },
+        {
+            "id": "system-latest-status",
+            "title": f"DigiBot Live Intelligence Status & Archive Synchronization ({current_date_str})",
+            "category": "System Status",
+            "date": current_date_str,
+            "plain_summary": f"DigiBot status: Synchronized as of {current_date_str}.",
+            "content": status_content
+        }
+    ]
 
 def main():
     pc_key = os.environ.get('PINECONE_API_KEY')
     hf_key = os.environ.get('HF_TOKEN')
     
-    if not pc_key or not hf_key:
-        print('ERROR: Missing PINECONE_API_KEY or HF_TOKEN.')
+    if not pc_key:
+        print('ERROR: Missing PINECONE_API_KEY.')
         sys.exit(1)
 
-    data_path = os.path.join(os.path.dirname(__file__), '..', 'digifeed', 'data.json')
-    if not os.path.exists(data_path):
-        print(f'Warning: {data_path} not found.')
-        data_articles = []
-    else:
+    base_dir = os.path.join(os.path.dirname(__file__), '..', 'digifeed')
+    data_path = os.path.join(base_dir, 'data.json')
+    archive_path = os.path.join(base_dir, 'archive.json')
+
+    data_articles = []
+    if os.path.exists(data_path):
         with open(data_path, 'r', encoding='utf-8') as f:
             data_articles = json.load(f).get('articles', [])
 
-    print(f'Ingesting static knowledge ({len(STATIC_KNOWLEDGE)} items)...')
-    rag_engine.upsert_articles(STATIC_KNOWLEDGE, pc_key, hf_key)
+    archive_articles = []
+    if os.path.exists(archive_path):
+        with open(archive_path, 'r', encoding='utf-8') as f:
+            archive_articles = json.load(f).get('articles', [])
 
+    # Format current date string
+    now = datetime.now(timezone.utc)
+    current_date_str = now.strftime('%d %b %Y')
+
+    # If data.json has articles, use the latest published date if available
     if data_articles:
-        print(f'Ingesting active dispatches from data.json ({len(data_articles)} items)...')
-        rag_engine.upsert_articles(data_articles, pc_key, hf_key)
+        latest_pub = data_articles[0].get('published_fmt')
+        if latest_pub:
+            current_date_str = latest_pub
 
-    print('[SUCCESS] Daily DigiFeed RAG ingestion completed.')
+    print(f"Building intelligence context for date: {current_date_str}...")
+    system_records = build_today_briefing(data_articles, current_date_str)
+
+    # Aggregate all items with deduplication by ID
+    all_items = {}
+    
+    # 1. Static knowledge
+    for item in STATIC_KNOWLEDGE:
+        all_items[item['id']] = item
+
+    # 2. Historical archive dispatches
+    for item in archive_articles:
+        all_items[item['id']] = item
+
+    # 3. Active today dispatches (overwrite older version if present)
+    for item in data_articles:
+        all_items[item['id']] = item
+
+    # 4. System status & Today briefing records (highest priority)
+    for item in system_records:
+        all_items[item['id']] = item
+
+    items_list = list(all_items.values())
+    print(f"Total unique intelligence items to upsert: {len(items_list)} ({len(data_articles)} active dispatches, {len(archive_articles)} archive, {len(system_records)} system records, {len(STATIC_KNOWLEDGE)} static)...")
+
+    rag_engine.upsert_articles(items_list, pc_key, hf_token=hf_key, batch_size=40)
+    print(f"[SUCCESS] DigiBot RAG ingestion completed for {current_date_str}.")
 
 if __name__ == '__main__':
     main()

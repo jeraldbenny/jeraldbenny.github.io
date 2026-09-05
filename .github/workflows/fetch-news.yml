@@ -40,6 +40,12 @@ jobs:
       - name: "🏗️ Generate Hub HTML"
         run: python scripts/generate_hub.py
 
+      - name: "🤖 Ingest fresh dispatches into Pinecone (DigiBot RAG)"
+        env:
+          PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/daily_ingest.py
+
       - name: "✅ Commit & push updated hub"
         run: |
           git config user.name  "DigiFeed-Bot"
