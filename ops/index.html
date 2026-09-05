@@ -1024,10 +1024,10 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
 
       <!-- Quick Stats Bar -->
       <div class="stats-grid" style="margin-bottom:18px;">
-        <div class="stat-box"><div class="stat-val" id="digilabStatTotal">7 / 7</div><div class="stat-lbl">DEPENDENCIES MONITORED</div></div>
-        <div class="stat-box"><div class="stat-val" id="digilabStatOnline" style="color:#40d060;">--</div><div class="stat-lbl">SERVICES OPERATIONAL</div></div>
-        <div class="stat-box"><div class="stat-val" id="digilabStatLatency" style="color:var(--teal);">-- ms</div><div class="stat-lbl">AVERAGE LATENCY</div></div>
-        <div class="stat-box"><div class="stat-val" id="digilabStatIssues" style="color:#e04848;">--</div><div class="stat-lbl">OUTAGES / DEGRADED</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatTotal">7 / 7</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">DEPENDENCIES MONITORED</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatOnline" style="color:#40d060;">--</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">SERVICES OPERATIONAL</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatLatency" style="color:var(--teal);">-- ms</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">AVERAGE LATENCY</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatIssues" style="color:#e04848;">--</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">OUTAGES / DEGRADED</div></div>
       </div>
 
       <!-- Live Service Status Table -->
@@ -1582,8 +1582,9 @@ const DIGILAB_SERVICES = [
     id: "rdap_whois",
     name: "RDAP / WHOIS Service",
     module: "Tool 4 / Mod 2 (Domain Recon)",
-    endpoint: "rdap.org/domain/...",
-    url: "https://rdap.org/domain/example.com",
+    endpoint: "rdap.org / verisign-rdap",
+    url: "https://rdap.org/domain/google.com",
+    fallbackUrl: "https://rdap.verisign.com/com/v1/domain/google.com",
     options: {},
     role: "Domain registrar, creation/expiry timestamps, registrant data"
   },
@@ -1654,7 +1655,7 @@ async function runDigilabHealthCheck() {
         </td>
         <td style="padding:8px 10px; color:var(--subtext);">${s.module}</td>
         <td style="padding:8px 10px; color:var(--teal); font-family:'JetBrains Mono',monospace; font-size:12px;">${s.endpoint}</td>
-        <td style="padding:8px 10px; text-align:right; color:var(--gold); font-family:'Press Start 2P',monospace; font-size:6px;">PROBING...</td>
+        <td style="padding:8px 10px; text-align:right; color:var(--gold); font-family:'Press Start 2P',monospace; font-size:6.5px;">PROBING...</td>
       </tr>
     `).join('');
   }
@@ -1673,31 +1674,40 @@ async function runDigilabHealthCheck() {
 
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 6000);
-      const resp = await fetch(s.url, { ...s.options, signal: controller.signal });
+      const timeoutId = setTimeout(() => controller.abort(), 9000);
+      let resp;
+      try {
+        resp = await fetch(s.url, { ...s.options, signal: controller.signal });
+      } catch (firstErr) {
+        if (s.fallbackUrl) {
+          resp = await fetch(s.fallbackUrl, { ...s.options, signal: controller.signal });
+        } else {
+          throw firstErr;
+        }
+      }
       clearTimeout(timeoutId);
       const duration = Math.round(performance.now() - startTime);
 
-      if (resp.ok || resp.type === 'opaque') {
+      if (resp && (resp.ok || resp.type === 'opaque')) {
         isOk = true;
         onlineCount++;
         totalLatency += duration;
         successfulLatencyCount++;
-        statusHtml = `<span style="color:#40d060; font-family:'Press Start 2P',monospace; font-size:6px;">✔ ONLINE (${duration}ms)</span>`;
-      } else if (resp.status === 429) {
+        statusHtml = `<span style="color:#40d060; font-family:'Press Start 2P',monospace; font-size:6.5px;">✔ ONLINE (${duration}ms)</span>`;
+      } else if (resp && resp.status === 429) {
         issueCount++;
-        statusHtml = `<span style="color:#f0c040; font-family:'Press Start 2P',monospace; font-size:6px;">⚠️ RATE LIMITED (429)</span>`;
+        statusHtml = `<span style="color:#f0c040; font-family:'Press Start 2P',monospace; font-size:6.5px;">⚠️ RATE LIMITED (429)</span>`;
         errDetail = `HTTP 429 Rate Limit hit on ${s.name}`;
       } else {
         issueCount++;
-        statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6px;">✖ HTTP ${resp.status}</span>`;
-        errDetail = `HTTP ${resp.status} on ${s.name}`;
+        statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6.5px;">✖ HTTP ${resp ? resp.status : 'ERR'}</span>`;
+        errDetail = `HTTP ${resp ? resp.status : 'ERR'} on ${s.name}`;
       }
     } catch (err) {
       issueCount++;
       const isTimeout = err.name === 'AbortError';
-      const msg = isTimeout ? 'TIMEOUT (6s)' : 'OFFLINE / BLOCKED';
-      statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6px;">✖ ${msg}</span>`;
+      const msg = isTimeout ? 'TIMEOUT (9s)' : 'OFFLINE / BLOCKED';
+      statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6.5px;">✖ ${msg}</span>`;
       errDetail = `${s.name}: ${err.message}`;
     }
 
