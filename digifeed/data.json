@@ -1,47 +1,47 @@
 {
-  "last_updated": "04 September 2026, 04:51 UTC",
-  "total": 71,
+  "last_updated": "05 September 2026, 04:44 UTC",
+  "total": 66,
   "articles": [
     {
-      "id": "e103f91582397fe7405cb2560bb0214e",
-      "title": "Digital fraud in a connected world: how it works and how to prevent it",
-      "link": "https://www.magnetforensics.com/blog/digital-fraud-in-a-connected-world-how-it-works-and-how-to-prevent-it/",
-      "source": "Magnet Forensics",
-      "source_icon": "🧲",
-      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/09/MF_Blog_DigitalFraudInAConnectedWorld_PromotionalAssets.webp",
-      "published": "2026-09-03T19:14:52Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Digital fraud is a growing threat. Learn how scammers operate and the key habits that help prevent fraud before it happens. The post Digital fraud in a connected world: how it works and how to prevent it appeared first on Magnet Forensics .",
+      "id": "df604ba634b8537b4a037190a07edec2",
+      "title": "Ministry of Justice Reviews National Digital Forensic Center Expansion - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQS1WNXU2UkhNS1Y5NDRNWnZqZTNiNW12bDVFN3V0dE9mTVNQV0FtaTk0RGxMeE1vWnBEVXlFZ0hFb2JUV2RqLXpMOTV5M2xzRTVIeWFZbUJRNDZxcThhampObUNOUUZnZVl1WEpvdXgzSFJhWDFxOE92cTAzeDdNOHYtTmN3eVI5?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-05T04:06:11Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "Ministry of Justice Reviews National Digital Forensic Center Expansion 조선일보",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
-        "#dfir",
-        "#analysis"
+        "#forensics",
+        "#science"
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "47dc96701c31b765ff86a1e3f37aad1a",
-          "title": "Organisational use of Enterprise Connected Devices"
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
         },
         {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         }
       ]
     },
     {
-      "id": "fc2cead720038fcf2fef4c84386a3d44",
-      "title": "French hospital fined €500,000 after breach exposes data of 727,000",
-      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+      "id": "3686b9476b91457a29c37016f0a8814f",
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-09-03T22:01:37Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-04T16:56:45Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,58 +50,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "1d9c669e130edbe233c991b17ba9bf9e",
-          "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         },
         {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
+          "id": "2325137e88a69dfb6d0f9af123369951",
+          "title": "Microsoft says some users can’t open the Teams desktop client"
         }
       ]
     },
     {
-      "id": "a12de290e3e2a076d7eabe63eb1924ba",
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-09-03T20:04:24Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "124ca218e78c5fc67699c66193fcc12a",
-          "title": "CISA Joins Australia and Others to Publish Guidance to Isolate Operational Technology and Enabling Systems in Critical Infrastructure"
-        },
-        {
-          "id": "e291a7309b70bee3d2680d589231ace8",
-          "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity"
-        }
-      ]
-    },
-    {
-      "id": "01407d9e4c56bc527da8dd29defd558a",
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1600/threats-main.jpg",
-      "published": "2026-09-03T18:02:47Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoD4eMYuhLT8HvcHbYe8A4hkhmDH1f4pIWTIm5AXKueqdpY1NS8yNiTtlzS4mdIS8PLY8_zM1uQDNpO1U49HCUoJT8nn2Bpb6krpcYpOSQ3H3Z6fUsm-UkoFvj8fk8oShK0eUhO6px8hox_ZzlnX8tu0pJKpJ3UAF2Vcb3XyBXjCt_8uD8OOkMMgUjv8Pc/s1600/emails.jpg",
+      "published": "2026-09-04T15:57:15Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -110,58 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "e94e854835d9970266dae3cf2b91ab29",
-          "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
+          "id": "2325137e88a69dfb6d0f9af123369951",
+          "title": "Microsoft says some users can’t open the Teams desktop client"
         }
       ]
     },
     {
-      "id": "8d92f98a78d75c183375833761c1dd74",
-      "title": "The story behind the intelligence",
-      "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/09/threat_source.jpg",
-      "published": "2026-09-03T18:00:13Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        },
-        {
-          "id": "92e107d1493ba540cbe97190aff6d12e",
-          "title": "Vehicle forensics: a practical guide"
-        }
-      ]
-    },
-    {
-      "id": "ff8ee9e73df29862d3929f0fcec8773c",
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+      "id": "2325137e88a69dfb6d0f9af123369951",
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-09-03T15:22:33Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
+      "image": "images/dfir_5.png",
+      "published": "2026-09-04T14:30:15Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -170,28 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "92e107d1493ba540cbe97190aff6d12e",
-          "title": "Vehicle forensics: a practical guide"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         }
       ]
     },
     {
-      "id": "559e784577290e7875f4b501e12f9b47",
-      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+      "id": "853587f8485bb577487f2ee666404cee",
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_4.png",
-      "published": "2026-09-03T15:13:29Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+      "image": "images/dfir_5.png",
+      "published": "2026-09-04T14:01:11Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -200,28 +140,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "0dbd01701cc4de13ddce8f80dbe12742",
-          "title": "Anthropic confirms Claude is down, multiple models affected"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "419ea6783bddb90d585e4c9635fc0d73",
-          "title": "AI Drawing Programs: ChatGPT Versus PlaygroundAI - craigball.net"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         }
       ]
     },
     {
-      "id": "0dbd01701cc4de13ddce8f80dbe12742",
-      "title": "Anthropic confirms Claude is down, multiple models affected",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+      "id": "b25be51613dfb121f6ef417f130e3fad",
+      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-09-03T15:02:52Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-04T12:22:30Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -230,28 +170,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "559e784577290e7875f4b501e12f9b47",
-          "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         }
       ]
     },
     {
-      "id": "1d9c669e130edbe233c991b17ba9bf9e",
-      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-      "link": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "id": "f864325c514dceb474aef1b4f738232f",
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg",
-      "published": "2026-09-03T14:39:05Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbaZmLqqSMfwaOmjs47_PEd97T29HeDX_1dAOZn0Qzo0HuloopzzhZ7pnQzlsHvXvIAwzMWq1tbza325niZMSgjTMn0z5MyT-CWb7NfoprOWz2L_cj6tosVDyyp2ZbV4s59p-khE64lXWULLOW8zVMCv720iwDwCYUEuAHYkV8m2diDsyzFKwvNifzq-oT/s1600/gpt6.jpg",
+      "published": "2026-09-04T06:47:52Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold under its Preparedness Framework.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -260,208 +200,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "fc2cead720038fcf2fef4c84386a3d44",
-          "title": "French hospital fined €500,000 after breach exposes data of 727,000"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "7f84bd1499248c9d9a3cae60776d7ea4",
-          "title": "Google Mandiant warns of exposed serverless functions as attack vector - SC Media"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         }
       ]
     },
     {
-      "id": "9499b328da1334a50a93b5a7c63aec7d",
-      "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?",
-      "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-09-03T13:50:59Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "19ac039d5aad3c10bff1fe6ddb393c00",
-          "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means"
-        },
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        }
-      ]
-    },
-    {
-      "id": "e94e854835d9970266dae3cf2b91ab29",
-      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-      "link": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_OZ4yHwsQM1Z9se2g-uJPuSkiSNpmyWCCi_a9dKpH9jnTuFYyts16e2gdkB45YknrA-nuzp6-mbEi-1adV92N-7aBjfYL69ECPlWOV7a5xb5rG6kqsMzc3WJ0-lXLBMO86aB3WTJ6MFLR0N0YbC8TElIg0-Jh6SIDe8mc3nCyzoE6zugVDFHFfjPEGkI/s1600/targets.jpg",
-      "published": "2026-09-03T11:58:00Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "01407d9e4c56bc527da8dd29defd558a",
-          "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories"
-        },
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        }
-      ]
-    },
-    {
-      "id": "19ac039d5aad3c10bff1fe6ddb393c00",
-      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-      "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1600/Shai-Hulud.gif",
-      "published": "2026-09-03T10:36:39Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous Deployment (CI/CD) tooling, cloud configurations, and even AI tool configs.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "9499b328da1334a50a93b5a7c63aec7d",
-          "title": "Your Employee’s Password Appeared in an Infostealer Log. Now What?"
-        },
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        }
-      ]
-    },
-    {
-      "id": "03ddc66d568f5fb908944f4f20033861",
-      "title": "Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America",
-      "link": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/",
-      "source": "Unit 42",
-      "source_icon": "🔍",
-      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/AdobeStock_768915868-2-1.jpg",
-      "published": "2026-09-03T10:00:58Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Explore how attackers targeting Latin American entities use AI for data exfiltration and how basic OpSec errors allow defenders to disrupt operations.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "e56253daa2f0a26f536daad1d021d06e",
-          "title": "Google AI Threat Defense targets attackers using AI to find flaws faster - Help Net Security"
-        },
-        {
-          "id": "e291a7309b70bee3d2680d589231ace8",
-          "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity"
-        }
-      ]
-    },
-    {
-      "id": "e2a536fb93a8e3b8ac6767b20fd8f974",
-      "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-      "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaEvtAyNP-TiY3M6wMUFNKymiK_BeQH_MEIzeFf79X0fNFV0gyV3MiegzULqTG6bC-20nprEpTHySkf3Hf0N72sLy-oVN6_ndqU4OwSm37Cx0OYrr2MbzpiII3ly4tEv891mjYhbSV18Eg94BBSitXG8XnON3QjpRqGkErk15L1FoeYT94R8WGlK8xUuJt/s1600/iphone-exploit.jpg",
-      "published": "2026-09-03T08:43:17Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        },
-        {
-          "id": "92e107d1493ba540cbe97190aff6d12e",
-          "title": "Vehicle forensics: a practical guide"
-        }
-      ]
-    },
-    {
-      "id": "1a6bafaa92f6d3e837b99af3bc10d35a",
-      "title": "Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants",
-      "link": "https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/",
-      "source": "Securelist",
-      "source_icon": "🦠",
-      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/08/10125346/trueconf-head-mare-ics-cert-featured-image.jpg",
-      "published": "2026-08-11T12:00:55Z",
-      "published_fmt": "11 Aug 2026",
-      "plain_summary": "Kaspersky experts have discovered malicious TrueConf software installers.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "b26af40504ee5d2b9ee0936af838d3bc",
-          "title": "Vulnerabilities - National Institute of Standards and Technology (.gov)"
-        },
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        }
-      ]
-    },
-    {
-      "id": "99b0d03461d693925a03fe164fcf1036",
-      "title": "Week 32 – 2026 - This Week In 4n6",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13RVJuekthX3FnNjZoTU1jbmFSQ1didWVMNXBjakYwOEdOaTVNUzIzUjFDSkUzOGkyaFV3UW1XVS10ZGM3MWgydjdobmdZaXZlT1hSZDZOcFNRV0ZXUkt3?oc=5",
-      "source": "This Week in 4n6",
-      "source_icon": "📆",
+      "id": "f838f8aae7bde1f8327868c88bfee1ee",
+      "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52V04za2hwZDlQTWppcnJmMzk5RVE0djN0OGQ3VlNNaC1ORHpacEVzZU1zT1NyY0lNc1VtQ0N6OG9RWnVBTkd2WGJpMWtIVjlsQ0E?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-08-09T07:00:00Z",
-      "published_fmt": "09 Aug 2026",
-      "plain_summary": "Week 32 – 2026 This Week In 4n6",
+      "published": "2026-09-04T03:02:07Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Daily Network Security News Summary; Cyber Security Podcast SANS Internet Storm Center",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -470,58 +230,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "52ada5a571cd2a17a24099e7b94c2711",
-          "title": "Week 26 – 2026 - This Week In 4n6"
+          "id": "3686b9476b91457a29c37016f0a8814f",
+          "title": "IDScan sued over alleged data breach affecting 153 million drivers"
         },
         {
-          "id": "2e2a316228af44bfd84eabb33d4c1cb0",
-          "title": "Week 19 – 2026 - This Week In 4n6"
+          "id": "1cfde22ab47c4b6945e8ce82311a9f46",
+          "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters"
         }
       ]
     },
     {
-      "id": "a56222983badef3e7696f324f61987fd",
-      "title": "178: Ubiquiti",
-      "link": "https://darknetdiaries.com/episode/178/",
-      "source": "Darknet Diaries",
-      "source_icon": "🎙️",
-      "image": "https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/7057/e5c784a5-d775-435a-bbb4-cdb885fbf87a/darknet-diaries-ep178-ubiquiti.mp3",
-      "published": "2026-08-04T07:00:00Z",
-      "published_fmt": "04 Aug 2026",
-      "plain_summary": "Nickolas Sharp worked for Ubiquiti, a company that makes networking equipment. He noticed that there were some security problems at work. He tried to point them out, but didn't feel like he was being listened to enough.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "8d96428b42dd9e0e753e5bc6cf6a1539",
-          "title": "Triage Disk Analysis Case 001"
-        },
-        {
-          "id": "92e107d1493ba540cbe97190aff6d12e",
-          "title": "Vehicle forensics: a practical guide"
-        }
-      ]
-    },
-    {
-      "id": "2729612f60020c73333ee905fa7b203f",
-      "title": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis - Eurasia Review",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNE9KSzUwTFBFQXdLRW5wb1FrcGhVc19BSDVuZ3lIMHNjTmp5U0FzdWxrNnlkLTZhSExkYzRiclFHSjZ0XzZfd0pQekZPVF9Bd1B0anV1MlM5TjBVUlpmYTJqSk1ReWtnRF9oal9uWFlINUVGbV9LSVI2TzdONFZtdHJNSHNKbjFXLWRVOXZMMV9KaThEMWo5NXIzTEttTExMOHh3SV9EakhpdkNheG9lUUtIYmpGb29uTmJWelZ2NENPazZRYjBhaWc1cnhpYmIwXzhSYWlUVVY?oc=5",
+      "id": "d13094f5d51929e0002e64f6e2c76ef4",
+      "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeEhYQjdxRThQaDdJaU40OXNyeUl4d19IVzZlRGtJUVB4NkZSNEdVNWtiNFdnbEQxRU9JNTQ3UDQzS1BSR0drM2hPc3dZeHlOZUpuUDZYQmZLVHZiTi1Vb2NBVlJZOXRLZHo3ejVXbkxCdGkzME9Gc0RlQlVnRmVKLXRLdWxsU2dJRjZyaWhIam9SMUZSNmVOb2s5bVpSTlVTUGFDNURhWVFiR0Mwa0xzOHlZTjE2V25ubTdLT1FqMnRfTF8wc3R3R29YVQ?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
       "image": "images/forensics_3.png",
-      "published": "2026-09-04T00:45:01Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis Eurasia Review",
+      "published": "2026-09-03T10:15:24Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime Diálogo Americas",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -530,118 +260,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 40,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "7a7103c84728298f860c77d3036b5bb1",
-          "title": "What Bloodstain Pattern Analysis can tell forensic specialists - HTX | Home Team Science and Technology Agency"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         },
         {
-          "id": "a3acad8b16ffe6421fa01cd62f094c7f",
-          "title": "Rethinking “Touch DNA”: Why Forensic Science Should Move Away from Activity-Based Terms in Court - Springer Nature Link"
+          "id": "4e82f76ecbc288fcdb4b040117b48fc8",
+          "title": "How Dr Yaseen Bismilla is revolutionising forensic pathology education on TikTok - Cape Times"
         }
       ]
     },
     {
-      "id": "0ae950a4703cbb966fbc0c2c383db78c",
-      "title": "Judicial declarations of presumed death and forensic reliability in high-risk human identification: A risk-stratified model",
-      "link": "https://www.sciencedirect.com/science/article/pii/S1752928X26001459?dgcid=rss_sd_all",
-      "source": "Journal of Forensic & Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-04T04:50:50Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "Publication date: August 2026 Source: Journal of Forensic and Legal Medicine, Volume 122 Author(s): Emilio Nuzzolese, Albert Felix Cosnita",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
-        },
-        {
-          "id": "c945e89cdaf59641420c76ca1408b8d1",
-          "title": "Death, Decomposition, and the Domes: Making Specimens for Forensic Toxicology in British India - The University of Chicago Press: Journals"
-        }
-      ]
-    },
-    {
-      "id": "31f211df4869f56946fbccc1ba02545b",
-      "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcGJHaUM0ZUVSN19DNlBaNU1yMnpoTW9XME1CbFpadlVyb19PNUlpMEZBTlNxZWJyeGxxSC1pZGpyZ002eTgwa0JhdFhlUUpBOU82d0hGcHl1TENVaE5sZ25TdDB2QzdfeEE0eXNTbk1MNGJQcHRpYWRhVEhpM0lFU1laN2ZNT1NuNkF3bkZOd0ZFd2lwSUV1RGp4cTRWU05XeG9GbHlFUkVnU2tOQWRtRE44cllaNjk1dWtrYjYxV3NTVTjSAcgBQVVfeXFMTlFGYjhfLTN3bUhERWRfRkRZaFBaS3FsTWxZWm42dV9qMG01TEhSYWRhM3VSSndteXY2NEY2RDFRaU8zMnlKcnZaU3VSSk1vQ1ExQkFreXh0em9NX1lQLUJWWEJMbXdmcXdZYmsxS0M2Y29NQ0lCUkNrNVFoWGlZQUkzUVFMdy1BYVVpcDh3RjFRbjRodG9ULWoweDBpRXlZOERUSEdqVmg0Q3FnQi1VcktYY2paTFZfamFrYnpRdmgwTm5HdHRoMWc?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_4.png",
-      "published": "2026-09-04T02:49:17Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... Bhaskar English",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-          "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today"
-        },
-        {
-          "id": "6665bf20f2e73aa5248448dff2d9e202",
-          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - The Tribune"
-        }
-      ]
-    },
-    {
-      "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-      "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSjkwQlZCWnV2eWJNYjFiRGRYZGpqSmcwREFBYldrRVhTeXRtNHhTVGUtVTU4RnVKV1N0bFB4eTczYkU4ZkNsLVREOE9GaU1VaDRzSG9IWmxPWWc5QmpLRUFBNmRVZjhQTWsxeTdwTDRpLUJWVWV0LUx5REhHbjNLZXRDdXcxLUowcU5hNWlZQWNpMncxWXFTWEdHVU9qSDc0U1JqX1lMWU8xcUxDUmVFLU0tNUdqNmoyTzBnSTdUZHJHa25nbW9lN2pkTWZhWUMzMzBz0gHYAUFVX3lxTE1rT0lzM0dxZ2NPRDVoTlJhenJlTlpONlNvNVMzYXNxRFVqN1lXeTRJZkVHdmtxWV9kRE43ZkIzNktXR3M5WEVwNlkxRHdMSEFQMUZKelIwU2Z6WDV2UHQyemNSVEZES1M4RmZvdlhWSlB6UWYtOGJVUHJ3Q2pMWjJiNjExTkZ4ZjZfNjd1SURrcFp1T2o5dTFvc2VZcUl1QkprYmd4ekZwbE8telJLS29sLXFiRFJ5dEgxa0xiS3l2alVlcW5PaENFQUJiZW9BaW9pVXh1NmlTQw?oc=5",
+      "id": "c23acde45169988b8df718ba6cec994c",
+      "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRjNtelMydHBuZHpVNEJLZmI4YjBheHFLeHloZFZkX0dCSUI0akJNblNSNGpYUFpzSGxxc0tFZmV1NTJvRUFXMXhpNDRFSXdxV3B1ZVFDdUJTOHUtOUczNmE4WTljUlNITXFTZFp1XzZOTFc5cGZVR08zMVF0RWE1STNDUmRXNmhYVFIybGpNNzJ4TDhJLVJUNDI1cnlYWUhTNUxuSm5mTV9HaEpxWV9CbTd0MmJtY2haSG5Z0gG7AUFVX3lxTE9GM216UzJ0cG5kelU0QktmYjhiMGF4cUt4eWhkVmRfR0JJQjRqQk1uU1I0alhQWnNIbHFzS0VmZXU1Mm9FQVcxeGk0NEVJd3FXcHVlUUN1QlM4dS05RzM2YThZOWNSU0hNcVNkWnVfNk5MVzlwZlVHTzMxUXRFYTVJM0NSZFc2aFhUUjJsak03MnhMOEktUlQ0MjVyeVhZSFM1TG5KbmZNX0doSnFZX0JtN3QyYm1jaFpIblk?oc=5",
       "source": "Google News: DNA Profiling",
       "source_icon": "🧬",
       "image": "images/forensics_5.png",
-      "published": "2026-09-03T22:53:09Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "India opens forensic labs to identify Nepal flood victims through DNA profiling India Today",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
-        },
-        {
-          "id": "6665bf20f2e73aa5248448dff2d9e202",
-          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - The Tribune"
-        }
-      ]
-    },
-    {
-      "id": "6665bf20f2e73aa5248448dff2d9e202",
-      "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - The Tribune",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcHg1eFdaaXlTZUN1cl9vMTd3eWs3Q05ITTFrQWVXbWdVZjhNM0ZDTkk0ekZJcUswaHdwMlFTek9UdEp4RmYxNHhkN0VsNW1jY3c0ZWRMam9Xek9RdnFvdVpxQUhfQ2toRFRYTE5DVzhoUXdKUkt3RlJqcHBSVXRqbUp0elc2MFg4c1Q2NE9OU0FMYUJsY1EzOUVyRHBWS2JpTUlDZVhweHdCbHFmaUpQT1hGOEdlUjU3NVZybXFUREtQVm1vTGxDeUpkVVk1QkJiaFBQUXVvSdIB1wFBVV95cUxQcHg1eFdaaXlTZUN1cl9vMTd3eWs3Q05ITTFrQWVXbWdVZjhNM0ZDTkk0ekZJcUswaHdwMlFTek9UdEp4RmYxNHhkN0VsNW1jY3c0ZWRMam9Xek9RdnFvdVpxQUhfQ2toRFRYTE5DVzhoUXdKUkt3RlJqcHBSVXRqbUp0elc2MFg4c1Q2NE9OU0FMYUJsY1EzOUVyRHBWS2JpTUlDZVhweHdCbHFmaUpQT1hGOEdlUjU3NVZybXFUREtQVm1vTGxDeUpkVVk1QkJiaFBQUXVvSQ?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_3.png",
       "published": "2026-09-03T19:13:21Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin The Tribune",
+      "plain_summary": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin tribuneindia.com",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -650,58 +290,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-          "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today"
+          "id": "283e1c4d9cd993be07f9ee11e958a324",
+          "title": "India to provide DNA profiling services to families of Indians missing in Nepal floods - Babushahi.com"
         },
         {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
+          "id": "904b9ca6d42d0a8194422c0c0b76d221",
+          "title": "India To Offer DNA Profiling Support For Nepal Flood Victims' Relatives - NDTV"
         }
       ]
     },
     {
-      "id": "e683ab931a73aa17367d096089959793",
-      "title": "Could modern forensic science solve a 13th-century Highland mystery? - The Herald",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY0t0R2xIQzlmRUY0R1BRdU5naXY1NWlac29fRFRYZ3MwaDlIdWx3RWdmckxHRkotTzZoMUVvbW5DbFZ1MXh1UDVkTmc3alRBWXZxNGlaNmFmdUctaGNFdWZ6eEVFNnZJem9FVjFQT3JKSkFhYTYxNFZPRGQ5VlBQZkdQNVlldm1OWFdZNFhNaWVwbllfSk5yTWFXU2dsd3M?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-09-03T17:01:09Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Could modern forensic science solve a 13th-century Highland mystery? The Herald",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "2729612f60020c73333ee905fa7b203f",
-          "title": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis - Eurasia Review"
-        },
-        {
-          "id": "7a7103c84728298f860c77d3036b5bb1",
-          "title": "What Bloodstain Pattern Analysis can tell forensic specialists - HTX | Home Team Science and Technology Agency"
-        }
-      ]
-    },
-    {
-      "id": "e164b274fd68acf93d5aa6dfff258c78",
-      "title": "How forensic experts identify Nepal-Tibet flood victims - ABC News & Headlines – Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeGpWa2dEalREUW94NmxycHBjWmtRODV1ZG91UUF1OS1xTXlsR3RXT0hUVmVjT1dIY1RWUjFja3g3c0tHZm0xUlJVX0VabGNZY3Y3VEplcG5sTzczdC03WEtKdG9Bby1lNU9qMjhtMnA3ZFZiNTBVWHJwbXJiOTBCWVFTTzk4R1pyWGh0RDlRR3Y3dDVWQklBRTNfQ1FnRHk5VHpENUpNTE14R240QVlwdGJwbDVNT19DNkpCbEoybS0xaUZxdlRZ?oc=5",
+      "id": "4e82f76ecbc288fcdb4b040117b48fc8",
+      "title": "How Dr Yaseen Bismilla is revolutionising forensic pathology education on TikTok - Cape Times",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN3hwX1dFZzhubzRZb012NW14dVZiNGpCTGZiMkFSNm81VTY1Z1p4TXVUcnA1X3VSYjZsenNKT0NfTjQ2cGw1aE9zRVRwZC1admRlMXQ4aDI1VHR6MzZQYWZ5Yko3VVROZ21KREEyejZvUHluQ1d4NFliVjkxVjYwTlVJSTVxYWxnbDlYYWZ6Zm9mYnBGNk5tRS1kcTZSVW9VVFZHTkZPNG5QWGtkaHM4dk92aHZDZTBqSWc1ZUdDNEVwZzJpSXI5Q0thQ3cxQQ?oc=5",
       "source": "Google News: Forensic Pathology",
       "source_icon": "🔬",
       "image": "images/forensics_2.png",
-      "published": "2026-09-02T20:30:00Z",
+      "published": "2026-09-02T20:19:01Z",
       "published_fmt": "02 Sep 2026",
-      "plain_summary": "How forensic experts identify Nepal-Tibet flood victims ABC News & Headlines – Australian Broadcasting Corporation",
+      "plain_summary": "How Dr Yaseen Bismilla is revolutionising forensic pathology education on TikTok Cape Times",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -710,88 +320,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-          "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today"
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
         },
         {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         }
       ]
     },
     {
-      "id": "dbea35dcda8b44f7fb16451c1993039e",
-      "title": "Transparent Performance Characterization of Measurement Systems in Forensics and Biology - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DSnkxY1plSFIzbktSZ3BDd201dVNQaWx0cWg0Zm5BdHZoNTZPNUJrbjZtSElBaGFIVmprYTFQVlFiR0J6eWtGZlRQSzBzWmw0VjFad1VuN2RkbUh5UjdjU3MwbWZaYUE?oc=5",
-      "source": "NIST Forensic Science",
-      "source_icon": "🏛️",
-      "image": "images/forensics_1.png",
-      "published": "2026-09-02T17:52:48Z",
-      "published_fmt": "02 Sep 2026",
-      "plain_summary": "Transparent Performance Characterization of Measurement Systems in Forensics and Biology National Institute of Standards and Technology (.gov)",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "c3554f6ecd2f5d4146d41f825f331fe5",
-          "title": "OSAC's Wildlife Forensic Biology Subcommittee Develops Process Map - National Institute of Standards and Technology (.gov)"
-        },
-        {
-          "id": "5a0967fdefb415ea8413e283287024aa",
-          "title": "Trace Evidence Collection App is Available Now - National Institute of Standards and Technology (.gov)"
-        }
-      ]
-    },
-    {
-      "id": "c945e89cdaf59641420c76ca1408b8d1",
-      "title": "Death, Decomposition, and the Domes: Making Specimens for Forensic Toxicology in British India - The University of Chicago Press: Journals",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SRjB4YThUNGFJZ3dFWWJjcVZtWHJ5aDFrVVowQUVYWk95UU5xcnhLazh1eG8wUk84Ml9OeUhkamZYMmo4U1owZG9xN0Y4ejc5VUM4aC1mSlUwU0dVRVNrbEkxbWpsbGs?oc=5",
-      "source": "Forensic Toxicology",
-      "source_icon": "🧪",
-      "image": "images/forensics_5.png",
-      "published": "2026-09-01T07:00:00Z",
-      "published_fmt": "01 Sep 2026",
-      "plain_summary": "Death, Decomposition, and the Domes: Making Specimens for Forensic Toxicology in British India The University of Chicago Press: Journals",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
-        },
-        {
-          "id": "97be1c4b306c937e84e2113ffc398621",
-          "title": "Ohio’s First Forensic Toxicology Master’s Program Opens for Enrollment - Forensic Mag"
-        }
-      ]
-    },
-    {
-      "id": "e8b7e9f6d7973cbb6d0be87f5a6d3466",
-      "title": "Comparison of photogrammetry and structured light scanning for imaging remains at various stages of decomposition using domestic pigs: A pilot project",
-      "link": "https://www.sciencedirect.com/science/article/pii/S2666225626001697?dgcid=rss_sd_all",
-      "source": "Forensic Imaging",
-      "source_icon": "🩻",
-      "image": "images/forensics_5.png",
-      "published": "2026-09-04T04:50:52Z",
+      "id": "daf1e333e3e2cf947d2fbd2192840d9c",
+      "title": "Evidence-based approach shows de-escalation is a learnable police skill",
+      "link": "https://phys.org/news/2026-09-evidence-based-approach-de-escalation.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-close-up-of-the-side.jpg",
+      "published": "2026-09-04T16:00:05Z",
       "published_fmt": "04 Sep 2026",
-      "plain_summary": "Publication date: September 2026 Source: Forensic Imaging, Volume 46 Author(s): Isabella Crebert, Victoria Berezowski, Lucy Melocco-Cook, Dilan Seckiner, Ray Nickson, Xanthe Weston",
+      "plain_summary": "A three-year research collaboration between Florida State University's College of Criminology and Criminal Justice and the Leon County Sheriff's Office (LCSO) has produced one of the most comprehensive real-world studies on police de-escalation to date.",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -800,118 +350,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "3d737e2a5b99dec990690fdb326683e3",
-          "title": "Age prediction of hematoma using hyperspectral imaging - Springer Nature Link"
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
         },
         {
-          "id": "c945e89cdaf59641420c76ca1408b8d1",
-          "title": "Death, Decomposition, and the Domes: Making Specimens for Forensic Toxicology in British India - The University of Chicago Press: Journals"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         }
       ]
     },
     {
-      "id": "e4111bcdc543267488bd1dde055b6efa",
-      "title": "Environmental heat as a hidden risk factor in deaths in custody: Expanding the multifactorial model",
-      "link": "https://www.sciencedirect.com/science/article/pii/S1752928X26001642?dgcid=rss_sd_all",
-      "source": "Journal of Forensic & Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-04T04:50:49Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "Publication date: August 2026 Source: Journal of Forensic and Legal Medicine, Volume 122 Author(s): Andrea Cioffi, Camilla Cecannecchia",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "224d98a4c239fc2b12cf2d601bdcd85a",
-          "title": "Test Recovers Fingerprints from Fired Ammunition Casings Despite Intense Heat - Forensic Mag"
-        },
-        {
-          "id": "0ae950a4703cbb966fbc0c2c383db78c",
-          "title": "Judicial declarations of presumed death and forensic reliability in high-risk human identification: A risk-stratified model"
-        }
-      ]
-    },
-    {
-      "id": "48f36e060e2bc15fe5be382dedeb7a1c",
-      "title": "Sexual violence against men: Addressing an overlooked issue in Brazil and Indonesia",
-      "link": "https://www.sciencedirect.com/science/article/pii/S1752928X26001502?dgcid=rss_sd_all",
-      "source": "Journal of Forensic & Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-04T04:50:49Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "Publication date: August 2026 Source: Journal of Forensic and Legal Medicine, Volume 122 Author(s): Aga Natalis",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "2729612f60020c73333ee905fa7b203f",
-          "title": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis - Eurasia Review"
-        },
-        {
-          "id": "9de3b436ffbecddac0247fa1782f50fa",
-          "title": "CSFS Student Conference - The Future of Forensic Science: AI, Innovation, Ethics, and Your Career - The Chartered Society of Forensic Sciences"
-        }
-      ]
-    },
-    {
-      "id": "5b7234a65958f1897aa242847934542e",
-      "title": "Incorporation of methoxyphenamine into white hair in the early stage after intake: Effect of hair pigmentation on drug distribution in the hair root",
-      "link": "https://www.sciencedirect.com/science/article/pii/S0379073826003087?dgcid=rss_sd_all",
-      "source": "Forensic Science International",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-09-04T04:50:39Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "Publication date: December 2026 Source: Forensic Science International, Volume 389 Author(s): Atsushi Nitta, Keiko Sasaki, Hiroe Kamata, Hiroshi Nishioka, Munehiro Katagi, Takako Sato, Noriaki Shima",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "2729612f60020c73333ee905fa7b203f",
-          "title": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis - Eurasia Review"
-        },
-        {
-          "id": "9de3b436ffbecddac0247fa1782f50fa",
-          "title": "CSFS Student Conference - The Future of Forensic Science: AI, Innovation, Ethics, and Your Career - The Chartered Society of Forensic Sciences"
-        }
-      ]
-    },
-    {
-      "id": "57bb628505c6bad60ac6329886b94d3e",
-      "title": "Centre to offer DNA profiling of relatives to identify missing victims in Nepal floods - The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOHY5TjZFYjJfNWFRWkYySUNYUkw1bngwS2RKbjJScXRGNHZZeDlGT2RWZjA2blFHekRQY3h3X05WUzFVMERBcERaQ3JtYVE1XzB3VzUzVlJCVkY0T2ZBOUpsaHV6QzdWNkVJNzhqeXpfdDNUeDVqUGZVa1p2eFZWVTFpWVNTQXRpQ3hTNng5dmZjc1VRMmNlVmJVQmNqRDhScVhIZEVsVDg2OThPcU9XbzJWU2ZkaFFzaml2Qms1RU5jLWNCU3RBbGJNOXRGTlNZVmNj0gHgAUFVX3lxTE9USng2SUdaWjhlN2V5QUJJVFFGclhBV0ZBLWhac1dJSHUxMG5HX01zaldGQVRSeU9kbTFVS19KOFpPU0FQQUNVcnBQbjBPQ1QwNmlMU2F1UkpNTlk5aFprRVZuTEhhMVQyV2YxZlBrZ0pHSmRSb2hVXzRBV1lEakVhRHYtMTVXWUR4TmhTZWhERUh6OWRNVGQ3MkgyVXRJc25oUUhVVDFDRS0zRzY5X01TZmtmUUQ1bGduZTRkazljeHNLcU5lT3NaYkcxNEZBdERLSW9zR3lCLUtjbFN6SEpT?oc=5",
+      "id": "34b721d5373c480e499f445d7162029a",
+      "title": "Karnataka to collect DNA samples of kin of missing Nepal tourists - Deccan Herald",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY0d4cnRHLU9VcXlXQWV5RFk4bEJhLVE3SXluQkNEYkM3azdJUTRIZXNnMFlhbTZYTDh2ZDI0ZW1fQko5NTBoUjFpcV9VeDBfckI1RUY0TERCN0VIVnpyUVB3TldmbGZLLTFGMkVlc21iTXdCdk96NnJDOVZCUk5Rclc2b1lqTjlnNUMxWm1fSW1LT1BwWmtlTGIwd2R6MlBEZG5DeDM0ZzJKLUZUTkxlbzRsQ0g1VmRseW5sRVZ1LV9BakxBSl9ra3VvZFc?oc=5",
       "source": "Google News: DNA Profiling",
       "source_icon": "🧬",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-04T03:34:13Z",
+      "image": "images/forensics_5.png",
+      "published": "2026-09-04T22:38:00Z",
       "published_fmt": "04 Sep 2026",
-      "plain_summary": "Centre to offer DNA profiling of relatives to identify missing victims in Nepal floods The New Indian Express",
+      "plain_summary": "Karnataka to collect DNA samples of kin of missing Nepal tourists Deccan Herald",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -920,28 +380,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "54629ab0f9e8ab2b496671be2712253b",
-          "title": "Nepal floods: Centre to offer DNA profiling services for first-degree relatives of missing persons - The Economic Times"
+          "id": "ac5feaabd8386600a434474c56e5d2cb",
+          "title": "Bowring Hospital designated nodal centre for DNA profiling of Karnataka victims missing in Nepal - The Hindu"
         },
         {
-          "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-          "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today"
+          "id": "613ae8d07b03f95799f4da1ee08b57a3",
+          "title": "Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missing Persons In Nepal Floods - Deccan Chronicle"
         }
       ]
     },
     {
-      "id": "54629ab0f9e8ab2b496671be2712253b",
-      "title": "Nepal floods: Centre to offer DNA profiling services for first-degree relatives of missing persons - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOSWNyalVFbHhRTUZLVEdoc1VUWWlOaGpYenVjaVFNZFo5MUR5R0h6T1kwWGM2bzlweDZwZjUwTVFsZEoycE1xY3lWcTZzazQ5ckFjdWN3a21BWGdJZjd4dVlwMnd1SjNCOTBvdkhWekhjWmtNRktOYTdlTzl6NWU2SHprM2RWVFduSUFTckw2aTA3LXZkNjk3VUhnWWlIU3VJVjFneFNFMlQ2Ylp0Nk85SE5wbDRsd3VXOWplUTBxQ2ZST3hjUkdXT2JHSXVOd1ZuUmhFNF9iU1ZhNG8zXzA2VG9NVTZVMnJ0X1VhTEZKYmtqYzdvZzY1S0NiRGZkbW9Z0gH6AUFVX3lxTE5wdHdJWEJZOXdmQ3c0Q2ZTQWo2R1RhaU1BZzZ4MVllU0hNNHl3Ulo4czN6SmVibElvS0d6d1drSkVxUGJfb1NGNGFQd2JJOEVMRG5kZFBUN25RM01hbmJSdDNsZ0tPbUstSk5hcUdJSndiV21MSjd2V21nZE5INkJBRVdLcEpUSzhsd19QSUQyT1oyelZ1eXg3R1FNTnVnX3ZhaUxtVG9XbjZZVzBoLVNMWTd4anU3N2poVGYyMmtLRzNsWEhDc252X1doTkxyUV92Tkw0ZENYS1FZNTRhNjczTTk4b3RDODNmbXNCeXRRUjM5YzNZUXpodGc?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_5.png",
-      "published": "2026-09-04T03:01:17Z",
+      "id": "9f5b443729a59d91fcfa0828b2c70f0e",
+      "title": "Study reveals pupils most at risk of school suspension and what may help them",
+      "link": "https://phys.org/news/2026-09-reveals-pupils-school-suspension.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/student-suspension.jpg",
+      "published": "2026-09-04T21:20:01Z",
       "published_fmt": "04 Sep 2026",
-      "plain_summary": "Nepal floods: Centre to offer DNA profiling services for first-degree relatives of missing persons The Economic Times",
+      "plain_summary": "School suspensions are associated with a complex combination of socioeconomic disadvantage, special educational needs, peer relationships and students' experiences of school, according to new research from The University of Manchester.",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -950,28 +410,298 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "57bb628505c6bad60ac6329886b94d3e",
-          "title": "Centre to offer DNA profiling of relatives to identify missing victims in Nepal floods - The New Indian Express"
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
         },
         {
-          "id": "beed819e166d50eba3ac6f916199a00d",
-          "title": "Nepal floods: India offers DNA tests for immediate relatives of missing people - Firstpost"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         }
       ]
     },
     {
-      "id": "beed819e166d50eba3ac6f916199a00d",
-      "title": "Nepal floods: India offers DNA tests for immediate relatives of missing people - Firstpost",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZC1hMjZmNTZiUC1sZkNjR1c1UjVVcHQxVDVuYmtOd2RHd29SZXpsQ2lKZnpOazhFbEJZbEU4dW9wQnhqWGlMY0ZsZFBuT24tYkNzeExDMEZWNC1RbW5TaW1weXpQWTdYbjhJM3VNSVp1b2hXMENvOVc4NTZuQ3NEVGFWMTM5Snl4MktYajhaOGt5Q21sMmZ5OHFUNnA2TDljY3dHeXl1NjFRbUFfS21EUy13V014QVAyUEZoaVl6SkLSAcYBQVVfeXFMUFE1NTlYclZUSkJfUDlYcXBfRFA3Nm10S0FwbWxPcWhfS2FtQTV0UjVhNHVwQXpMNm85MXVqSU1XaHNoSG5DV3AwUjVSczhjSWlHajlaUTJhX0hBazVjTURsc0dvb2NCVS1kbjhfblB2VURpUmVSSGo5cVU1YnhXMlR2YXR1MmNaUXdZRXBHazFSdE9jeWdEaEJUS0J2Z0I5TVNfbkQ0WG93R1dLSmV6cVJORzJDbUJTZ1dpUWV2MkNGendaYmNR?oc=5",
+      "id": "ac5feaabd8386600a434474c56e5d2cb",
+      "title": "Bowring Hospital designated nodal centre for DNA profiling of Karnataka victims missing in Nepal - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbVlIYzZDMFNzNFB1V2Z5ZS1KUVAtM2FTYmRnUjN1cl9zb3ZPTG00SWxRTGJQNE1oQzE5WUZKWndMaHBUcThfTi00X0R2QkQ3RXFzNUtIbW9naHdQclhEM0FoaWZaSm9HT3ZqTUFGRUVJM1lJSExXTWRoN3FWT3Z5ZG1YQ0dLaXVGUzlwaW9DSHFzX05qT0RKWU15bzljMWh3ZEdmaFpzQ1VhdXppMXlSV2ZVM1QtXzdDQXRUZFhMalFSY3RUWThhN3FxWHBRM05xSDBwdUcwcTg3a0hsSWVVU1IyNXRnSlhiLVpHemdJcjVyWjJ3WFNjNtIB_wFBVV95cUxPalZxVFlwWndCUWx0NWJMNWZTeHlCY2Iyc1hIQ1dyeVpBVkdyRGxENFFwNDB6YnJHdDF6dDg2YlBmTW5SaDFtR3Z3RlpvWTYwMGJHaXRXSEExU2hBVlJKYUJoN2RaOUJYR0hROVAxYXJUQXZZRi1nYmRMUFpjd2NOWXlReGwwSUk5N3BJbjZXZERka0loMkY1SHluTDlvR2ZlbHpiOU5aUGpjbjhjRVlOeE5mcFo3VV96VjEzdXlIdGRPZlI4LTh5RWJhZS15V1BaenhZUTZWVGFWa1p3QzFSUjRVR3UtWmlPLUhYT3EtN0pnQlVkSUhaMHhPeUJCUFk?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-04T17:45:04Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Bowring Hospital designated nodal centre for DNA profiling of Karnataka victims missing in Nepal The Hindu",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "34b721d5373c480e499f445d7162029a",
+          "title": "Karnataka to collect DNA samples of kin of missing Nepal tourists - Deccan Herald"
+        },
+        {
+          "id": "613ae8d07b03f95799f4da1ee08b57a3",
+          "title": "Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missing Persons In Nepal Floods - Deccan Chronicle"
+        }
+      ]
+    },
+    {
+      "id": "613ae8d07b03f95799f4da1ee08b57a3",
+      "title": "Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missing Persons In Nepal Floods - Deccan Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYTdsNmM0WEI5ck9xQXF1TkptSncybjdVbENsRjJXZnpWaV8ySzVHLWhQdlhDZVBhTUZsclhYT3h0WllZaV83bjhOQnBFelJZajBKUlZnVkFsMWNlb0EwVEZyd1Jsa0RWZUpjTXM1MWZOam9DaEJmaGwwanNIcGx0RVdzOHdLNHpNS0FxUkJvUGJ0d2xHNmYzaUxUcjFkdVF6SWdOS0RvUFBiWlNKNVNFNkVwSmJXQzU2ZTFYOEdPNjU2ZnN0N05mUjJUdUg3QWRtX1Y4QmIxT0NGMWJHcThPUFVVSi05S05uQUZuNUIwUEw5NFXSAfgBQVVfeXFMTXlzX1dhZjBPVUs4UjByR3lfYlFXTm9sN0NxdmtNTFdLbkFQdVdnbDg2b1VkQ3VhaURvN1kyVkR0OXhVU21iaXg0dHJodGhJMXpFUWlsdTExS3BCNjlTM21abWFlckh2ZGZibWRsTjdUcFZ5NDRma2xoeFlCem53bS1NZDlzellKS19TVHpUNG1tRzg0UU55bDJuVUw5RGlVekVVendhUGVzejlORmtLQkpHRW1RZDlLcWdmMTNZTFVZSWthM3gtM2oyTXRaZ0VRM2lpc1ozeElIbVpISjVoN2NGM2IzMk5adnhIX1RqUzJrYi1Fb0lRNVI?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_3.png",
+      "published": "2026-09-04T17:20:31Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missing Persons In Nepal Floods Deccan Chronicle",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "283e1c4d9cd993be07f9ee11e958a324",
+          "title": "India to provide DNA profiling services to families of Indians missing in Nepal floods - Babushahi.com"
+        },
+        {
+          "id": "34b721d5373c480e499f445d7162029a",
+          "title": "Karnataka to collect DNA samples of kin of missing Nepal tourists - Deccan Herald"
+        }
+      ]
+    },
+    {
+      "id": "6a4f9f9d947301950f7b2bf58a4cb1d4",
+      "title": "Do games make children more attentive or more distractible?",
+      "link": "https://phys.org/news/2026-09-games-children-attentive-distractible.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/children-preschool.jpg",
+      "published": "2026-09-04T16:40:05Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "A study of preschool children found that brief digital or traditional gameplay improved performance on tasks requiring quick responses but reduced performance on tasks demanding greater concentration and self-control.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "e344a9ae7bc870e9117c3298ba097d4e",
+          "title": "Students with lower grades earn degrees more often when they belong to an academic major's majority group"
+        },
+        {
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
+        }
+      ]
+    },
+    {
+      "id": "8befeecc578232b966866aac81104022",
+      "title": "AI helps reveal the immersive sensory experiences of ancient Etruscan tombs",
+      "link": "https://phys.org/news/2026-09-ai-reveal-immersive-sensory-ancient.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ai-helps-reveal-the-im-3.jpg",
+      "published": "2026-09-04T16:20:06Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "The Etruscan painted tombs in Tarquinia, Italy, date to the first millennium BCE and are known for their vivid scenes of music, feasting, processions and the afterlife.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "aa885af557eb9e6acf2f8c161a0ba28b",
+          "title": "Same-sex marriages surged before Bolsonaro took office, Brazil data reveal"
+        },
+        {
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
+        }
+      ]
+    },
+    {
+      "id": "e344a9ae7bc870e9117c3298ba097d4e",
+      "title": "Students with lower grades earn degrees more often when they belong to an academic major's majority group",
+      "link": "https://phys.org/news/2026-09-students-grades-degrees-academic-major.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/students.jpg",
+      "published": "2026-09-04T15:20:01Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Despite efforts to encourage broader participation, women earn about 25% of undergraduate engineering degrees and 18% of undergraduate computer science degrees—and men remain a small minority among people earning nursing and education degrees.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "6a4f9f9d947301950f7b2bf58a4cb1d4",
+          "title": "Do games make children more attentive or more distractible?"
+        },
+        {
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
+        }
+      ]
+    },
+    {
+      "id": "aa885af557eb9e6acf2f8c161a0ba28b",
+      "title": "Same-sex marriages surged before Bolsonaro took office, Brazil data reveal",
+      "link": "https://phys.org/news/2026-09-sex-marriages-surged-bolsonaro-office.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/same-sex-marriage.jpg",
+      "published": "2026-09-04T15:00:04Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "A new study has shown that the election of Jair Bolsonaro, known for his homophobic views, as president of Brazil in 2018 caused a temporary surge in the number of same-sex marriages.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "8befeecc578232b966866aac81104022",
+          "title": "AI helps reveal the immersive sensory experiences of ancient Etruscan tombs"
+        },
+        {
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
+        }
+      ]
+    },
+    {
+      "id": "4f012718dcb1427031cb8215d5a06f15",
+      "title": "Shoppers buying online while drunk is big business—but who is responsible?",
+      "link": "https://phys.org/news/2026-09-shoppers-buying-online-drunk-big.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/buying-online.jpg",
+      "published": "2026-09-04T11:20:02Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "One Sunday morning, Juliet* woke up to a delivery driver with a large package that she had no recollection of ordering.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "d13094f5d51929e0002e64f6e2c76ef4",
+          "title": "From Evidence to Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Diálogo Americas"
+        },
+        {
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
+        }
+      ]
+    },
+    {
+      "id": "283e1c4d9cd993be07f9ee11e958a324",
+      "title": "India to provide DNA profiling services to families of Indians missing in Nepal floods - Babushahi.com",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WdF9wb0hSM2hBVExCeHY3QklWNjZLV2RLR1N4cERfRmltT0stdmZMRHloVDJ1WGlrLXZlSUlVdGpXeGFfU3hIWUh1bGVyekplN19TbVBQNnJpcVBfZ0E?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_5.png",
+      "published": "2026-09-04T10:37:00Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "India to provide DNA profiling services to families of Indians missing in Nepal floods Babushahi.com",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "613ae8d07b03f95799f4da1ee08b57a3",
+          "title": "Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missing Persons In Nepal Floods - Deccan Chronicle"
+        },
+        {
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
+        }
+      ]
+    },
+    {
+      "id": "904b9ca6d42d0a8194422c0c0b76d221",
+      "title": "India To Offer DNA Profiling Support For Nepal Flood Victims' Relatives - NDTV",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWVRqa0o1bm1GM1V0WjBPQVh4eVFEb3pvVlhZc1pBcjcxODhOTHZ6enpraW9TZUdRTzcxTWY4Z2RsWU5jMjQ4ak54NFpvOE9OV04xQzhSRnZ3ZkpRamlIektEbWpFdm9PbHVWb25BM0V0Qm1kNHQ5NUxPaFdJUGwxM0NYMG43dDJUYWx2TXZER0lWdjZmMlBzVUNWZHh2RUQ4dGFaSFhHNTQyVEJMSmFqVjUwOEd1V09KOXFwSDdiMlU4OUVuWlFGLVl30gHKAUFVX3lxTE1ZVGprSjVubUYzVXRaME9BWHh5UURvem9WWFlzWkFyNzE4OE5Mdnp6emtpb1NlR1FPNzFNZjhnZGxZTmMyNDhqTng0Wm84T05XTjFDOFJGdndmSlFqaUh6S0RtakV2b09sdVZvbkEzRXRCbWQ0dDk1TE9oV0lQbDEzQ1gwbjd0MlRhbHZNdkRHSVZ2NmYyUHNVQ1ZkeHZFRDh0YVpIWEc1NDJUQkxKYWpWNTA4R3VXT0o5cXBIN2IyVTg5RW5aUUYtWXc?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-04T07:45:50Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "India To Offer DNA Profiling Support For Nepal Flood Victims' Relatives NDTV",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
+        },
+        {
+          "id": "ac5feaabd8386600a434474c56e5d2cb",
+          "title": "Bowring Hospital designated nodal centre for DNA profiling of Karnataka victims missing in Nepal - The Hindu"
+        }
+      ]
+    },
+    {
+      "id": "f9f2e76e32b194ef69083d83d25c7569",
+      "title": "Nepal floods: How DNA identification of bodies works - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZmNiUGEzc0FjdFlBNlQwWHpTaHZ1SE1OTG9VNW5zTmZkemt4dnZLdk9NX2RFdTJKOGQxVTlXbFZZM3lyajZDeVY0MjVlOEZkYXJFa1UwZmRQSFZYazVXNGtzT0NId1BITC1NdnAtU25NTEdjTWNtZlNQeDlibFRVcHRCSHZwS2hyaWJKWW5TamZQaUljNm1PQ0tBa9IBoAFBVV95cUxPYmNPUXlrdWhGNzBsbElObHo4Q2ZKbmdhbkx3TTZ0dWphcVF2NmlKV05Kb3JwMU9ENUxacUJybmttLVRFaXdhYzBxaEVRVlhmaUNNMWJPQjc5aHRVd21aTVhKSl9zYldEaXo5b1NZbGJZQkFlQkM1WHlVbjZpRkE4czRYTWp1YUM1YVBuUXdjU0hyaXJIY0JBWDNoNE04NjZI?oc=5",
       "source": "Google News: DNA Profiling",
       "source_icon": "🧬",
       "image": "images/forensics_4.png",
-      "published": "2026-09-04T01:55:57Z",
+      "published": "2026-09-04T07:01:38Z",
       "published_fmt": "04 Sep 2026",
-      "plain_summary": "Nepal floods: India offers DNA tests for immediate relatives of missing people Firstpost",
+      "plain_summary": "Nepal floods: How DNA identification of bodies works Al Jazeera",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -980,327 +710,123 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "54629ab0f9e8ab2b496671be2712253b",
-          "title": "Nepal floods: Centre to offer DNA profiling services for first-degree relatives of missing persons - The Economic Times"
+          "id": "c23acde45169988b8df718ba6cec994c",
+          "title": "Nepal flashflood: India opens forensic labs for DNA profiling of victims’ kin - tribuneindia.com"
         },
         {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
+          "id": "34b721d5373c480e499f445d7162029a",
+          "title": "Karnataka to collect DNA samples of kin of missing Nepal tourists - Deccan Herald"
         }
       ]
     },
     {
-      "id": "40bc9551f9f71f7072d3b14a5b14285a",
-      "title": "Parliamentary motions show growing AI use, with no disclosure from MPs",
-      "link": "https://phys.org/news/2026-09-parliamentary-motions-ai-disclosure-mps.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/mps-are-using-ai-to-he.jpg",
-      "published": "2026-09-03T18:40:01Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "The two research teams have developed and used AI detectors trained on thousands of political motions in Sweden and the UK.",
+      "id": "435dc86a3f8cc61324ce2ef660bd093c",
+      "title": "[Research Paper] Evidence-Guided Detection, Localization and Explanation for Text-Centric Image Forensics",
+      "link": "https://arxiv.org/abs/2609.02097v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_3.png",
+      "published": "2026-09-02T04:37:32Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "The rapid progress of AIGC has made text-centric image manipulation increasingly accessible, creating new forensic challenges that require not only authenticity detection but also spatial grounding and evidence-based explanation.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "Research Papers",
       "tags": [
-        "#forensics",
-        "#science"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "forensic_score": 140,
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "2729612f60020c73333ee905fa7b203f",
-          "title": "From Evidence To Intelligence: Forensic Science Strengthens Fight Against Transnational Crime - Analysis - Eurasia Review"
+          "id": "e5b356b10e8cf16e683d92258484d12c",
+          "title": "[Research Paper] Swin Meets EfficientNet: Lightweight Architectures for GAN-Based Face Forensics"
         },
         {
-          "id": "9de3b436ffbecddac0247fa1782f50fa",
-          "title": "CSFS Student Conference - The Future of Forensic Science: AI, Innovation, Ethics, and Your Career - The Chartered Society of Forensic Sciences"
+          "id": "24f7d89241f86bbe04c9fef3865b22f8",
+          "title": "[Research Paper] From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images"
         }
       ]
     },
     {
-      "id": "1f8f74556838d60a39b706f2360c8aa9",
-      "title": "Even second graders can reason like scientists—if we ask them the right way",
-      "link": "https://phys.org/news/2026-09-graders-scientists.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/even-second-graders-ca.jpg",
-      "published": "2026-09-03T17:40:04Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "When a child asks \"Why does a blowfish puff up?\" we often jump in with facts.",
+      "id": "f9222e4a52cac2e838e9123104d5f985",
+      "title": "[KEV Active Exploit] CVE-2026-85046 in Google Chromium V8",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-09-04T00:00:00Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#forensics",
-        "#science"
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#google"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "b96a9773f1ade7a0025da055b42df459",
+          "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day"
+        },
+        {
+          "id": "0e8e879cd2ed44b7d75428d11d970796",
+          "title": "Google warns of new Chrome zero-day flaw exploited in attacks"
+        }
+      ]
+    },
+    {
+      "id": "df4b80d3b8a2b2c000c33c1a1d326271",
+      "title": "[Research Paper] Agent Memory Is a Surface for Endogenous Authorization Laundering",
+      "link": "https://arxiv.org/abs/2609.01836v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-09-01T20:12:08Z",
+      "published_fmt": "01 Sep 2026",
+      "plain_summary": "Long-running LLM agents rely on persistent memory to carry state across interactions, including permissions, restrictions, and revocations.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#malware-analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "forensic_score": 85,
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "7a7103c84728298f860c77d3036b5bb1",
-          "title": "What Bloodstain Pattern Analysis can tell forensic specialists - HTX | Home Team Science and Technology Agency"
+          "id": "435dc86a3f8cc61324ce2ef660bd093c",
+          "title": "[Research Paper] Evidence-Guided Detection, Localization and Explanation for Text-Centric Image Forensics"
         },
         {
-          "id": "a4be1aa21381aa11774e76074876f36c",
-          "title": "Beyond the 'Great Divide': What we really know about political polarization"
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
         }
       ]
     },
     {
-      "id": "a4be1aa21381aa11774e76074876f36c",
-      "title": "Beyond the 'Great Divide': What we really know about political polarization",
-      "link": "https://phys.org/news/2026-09-great-political-polarization.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/political-polarization-1.jpg",
-      "published": "2026-09-03T17:20:01Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Americans are deeply divided. At least that's what we've been told for years. But how divided are we really? A new review suggests the answer may depend on how researchers ask the question.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "3c38003ee8b3faae73103f84943c2ae9",
-          "title": "What Police Officers Need to Know About Palm Prints - Police Chief Magazine"
-        },
-        {
-          "id": "7a7103c84728298f860c77d3036b5bb1",
-          "title": "What Bloodstain Pattern Analysis can tell forensic specialists - HTX | Home Team Science and Technology Agency"
-        }
-      ]
-    },
-    {
-      "id": "6c6d65576138aa9d1bbb4bc5e362fe21",
-      "title": "Ig Nobel Prize winners reveal why babies smell better than teenagers",
-      "link": "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ig-nobel-prize-winners.jpg",
-      "published": "2026-09-03T17:10:06Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Babies smell wonderful—at least to their parents.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "a3acad8b16ffe6421fa01cd62f094c7f",
-          "title": "Rethinking “Touch DNA”: Why Forensic Science Should Move Away from Activity-Based Terms in Court - Springer Nature Link"
-        },
-        {
-          "id": "3583524c396562ddb0a8ec55c1beb260",
-          "title": "Traces of nearly 4 million coins reveal how Rome achieved economic integration"
-        }
-      ]
-    },
-    {
-      "id": "3583524c396562ddb0a8ec55c1beb260",
-      "title": "Traces of nearly 4 million coins reveal how Rome achieved economic integration",
-      "link": "https://phys.org/news/2026-09-million-coins-reveal-rome-economic.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/traces-of-nearly-four.jpg",
-      "published": "2026-09-03T17:10:01Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "For centuries, the study of ancient history relied primarily on interpreting classical texts and examining inscriptions and archaeological remains at their sites of origin or in museums.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "54629ab0f9e8ab2b496671be2712253b",
-          "title": "Nepal floods: Centre to offer DNA profiling services for first-degree relatives of missing persons - The Economic Times"
-        },
-        {
-          "id": "6c6d65576138aa9d1bbb4bc5e362fe21",
-          "title": "Ig Nobel Prize winners reveal why babies smell better than teenagers"
-        }
-      ]
-    },
-    {
-      "id": "1ade103880c02d2d11aa2c6403a72d87",
-      "title": "'Empty nest' can trigger loneliness and loss in older parents, study finds",
-      "link": "https://phys.org/news/2026-09-trigger-loneliness-loss-older-parents.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/old-couple.jpg",
-      "published": "2026-09-03T16:20:06Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Older parents can experience loneliness, emotional distress and a loss of purpose when their children leave home, according to a new pilot study by the University of Hertfordshire.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "7a7103c84728298f860c77d3036b5bb1",
-          "title": "What Bloodstain Pattern Analysis can tell forensic specialists - HTX | Home Team Science and Technology Agency"
-        },
-        {
-          "id": "60b0f7a13dca2f901802d4ad7317dc25",
-          "title": "WCU forensic anthropology students aid Durham police in search that finds remains - WLOS"
-        }
-      ]
-    },
-    {
-      "id": "beb77b3c82dc2be32da96d4d9b6affbf",
-      "title": "Rapid simulation of heat propagation through multiple rods",
-      "link": "https://phys.org/news/2026-09-rapid-simulation-propagation-multiple-rods.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rapid-simulation-of-he.jpg",
-      "published": "2026-09-03T16:00:01Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "There is an elegant mathematical equation behind many different natural phenomena. From the fractal pattern of a romanesco cauliflower sitting on a grocery store shelf to the flow of rivers, they all have underlying mathematical properties.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "224d98a4c239fc2b12cf2d601bdcd85a",
-          "title": "Test Recovers Fingerprints from Fired Ammunition Casings Despite Intense Heat - Forensic Mag"
-        },
-        {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
-        }
-      ]
-    },
-    {
-      "id": "20d0b7c70197dc734053f2f61400171f",
-      "title": "Why purpose doesn't always pay: The career cost of workplace climate activism",
-      "link": "https://phys.org/news/2026-09-purpose-doesnt-pay-career-workplace.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/workplace-4.jpg",
-      "published": "2026-09-03T15:00:09Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Employees advocating for climate action are most likely to be rewarded when their efforts support business goals, while purpose-led activism often goes unrecognized",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "9de3b436ffbecddac0247fa1782f50fa",
-          "title": "CSFS Student Conference - The Future of Forensic Science: AI, Innovation, Ethics, and Your Career - The Chartered Society of Forensic Sciences"
-        },
-        {
-          "id": "a3acad8b16ffe6421fa01cd62f094c7f",
-          "title": "Rethinking “Touch DNA”: Why Forensic Science Should Move Away from Activity-Based Terms in Court - Springer Nature Link"
-        }
-      ]
-    },
-    {
-      "id": "fe36cddc9d422691a3f3bd83025b9536",
-      "title": "DNA Profiling Intensified for Identification of Flood Victims - Ratopati",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNczdZandvQlhoWEFnWjlXUmRxcUl1QWN1WkNZeFczQmpJaS1FTTFvQUxCTUhoVWhOcGxZMUdSaHRNeFJONTQ3NjA4cHRXblJHcDAxQ0FKYTVkM2hFaHlValZMbXdKaUxaN242dUw3MmhHWTBacmlaV3h3WGFYU0JXZ3Zybw?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-03T11:23:52Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "DNA Profiling Intensified for Identification of Flood Victims Ratopati",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "5f8efe223083b8c0a581c0e9bdfb2f56",
-          "title": "India opens forensic labs to identify Nepal flood victims through DNA profiling - India Today"
-        },
-        {
-          "id": "31f211df4869f56946fbccc1ba02545b",
-          "title": "India offers DNA profiling to identify Nepal flood victims: Support extended through forensic labs as death... - Bhaskar English"
-        }
-      ]
-    },
-    {
-      "id": "38979d931e155c222dae4e4c96b779d0",
-      "title": "DeKalb Medical Examiner launches historic HBCU pathology fellowship - FOX 5 Atlanta",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWl90YTI4dld5WXZfODZLTUMyUkFJMWJERi1BNDBrbXplVklmdVNhOGd0X3NqbWJvNS01NHhBXy1ESVNRXzhsSFpja0hrMHgzLW12YTZsS01jWVUyVy1IQUFOR1hTMGJtME5QcDloVmd4TTNMTmdPbVpaRlhZc3phQkpvQnRUVy13NUtob2NHSVBWcE9BWXZ0TXJtTUlENzRiSEE?oc=5",
-      "source": "Google News: Forensic Pathology",
-      "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-08-06T07:00:00Z",
-      "published_fmt": "06 Aug 2026",
-      "plain_summary": "DeKalb Medical Examiner launches historic HBCU pathology fellowship FOX 5 Atlanta",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "71b1cae91bfc236b39d232851202a383",
-          "title": "Chief Medical Examiner - NYC.gov"
-        },
-        {
-          "id": "07725b55251cf3418a3e1252f6f26cd0",
-          "title": "Wichita State launches forensic graduate programs to meet demand for evidence experts - Wichita State University"
-        }
-      ]
-    },
-    {
-      "id": "1bba22bd4cdb480b471636f76810ef69",
-      "title": "[Threat IOC] ClearFake domain: 1trvapwl.usen-neurovera.com",
-      "link": "https://threatfox.abuse.ch/ioc/1894167/",
+      "id": "33a388d10736aff9fe40fa96620ac2b2",
+      "title": "[Threat IOC] ClearFake domain: eamznepn.us-en-us-morningcoffeeritual.com",
+      "link": "https://threatfox.abuse.ch/ioc/1901198/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-09-04T04:46:27Z",
-      "published_fmt": "04 Sep 2026",
+      "image": "images/malware_5.png",
+      "published": "2026-09-05T04:27:25Z",
+      "published_fmt": "05 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -1312,28 +838,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "ab440a63f7af5d61cda6a4afb3bf69a1",
-          "title": "[Threat IOC] ClearFake domain: usen-neurovera.com"
+          "id": "de0bf89f10d5b2a5a06f7ba123a8f2c5",
+          "title": "[Threat IOC] ClearFake domain: us-en-us-morningcoffeeritual.com"
         },
         {
-          "id": "842651158544bc2d4ec10ef5fb9e1954",
-          "title": "[Threat IOC] IClickFix domain: fallow-willow-diogdaiyn.xyz"
+          "id": "bd1cc8eb4fff2879f5e3c1d19197914d",
+          "title": "[Threat IOC] ClearFake domain: kj4t0j98.us-en-us-xenburn.com"
         }
       ]
     },
     {
-      "id": "ab440a63f7af5d61cda6a4afb3bf69a1",
-      "title": "[Threat IOC] ClearFake domain: usen-neurovera.com",
-      "link": "https://threatfox.abuse.ch/ioc/1894166/",
+      "id": "de0bf89f10d5b2a5a06f7ba123a8f2c5",
+      "title": "[Threat IOC] ClearFake domain: us-en-us-morningcoffeeritual.com",
+      "link": "https://threatfox.abuse.ch/ioc/1901197/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-09-04T04:44:00Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
+      "image": "images/malware_3.png",
+      "published": "2026-09-05T04:23:58Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: Gi7w0rm.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -1344,187 +870,59 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "1bba22bd4cdb480b471636f76810ef69",
-          "title": "[Threat IOC] ClearFake domain: 1trvapwl.usen-neurovera.com"
+          "id": "33a388d10736aff9fe40fa96620ac2b2",
+          "title": "[Threat IOC] ClearFake domain: eamznepn.us-en-us-morningcoffeeritual.com"
         },
         {
-          "id": "842651158544bc2d4ec10ef5fb9e1954",
-          "title": "[Threat IOC] IClickFix domain: fallow-willow-diogdaiyn.xyz"
+          "id": "bd1cc8eb4fff2879f5e3c1d19197914d",
+          "title": "[Threat IOC] ClearFake domain: kj4t0j98.us-en-us-xenburn.com"
         }
       ]
     },
     {
-      "id": "842651158544bc2d4ec10ef5fb9e1954",
-      "title": "[Threat IOC] IClickFix domain: fallow-willow-diogdaiyn.xyz",
-      "link": "https://threatfox.abuse.ch/ioc/1894165/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-09-04T04:31:39Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#iclickfix"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "1bba22bd4cdb480b471636f76810ef69",
-          "title": "[Threat IOC] ClearFake domain: 1trvapwl.usen-neurovera.com"
-        },
-        {
-          "id": "ab440a63f7af5d61cda6a4afb3bf69a1",
-          "title": "[Threat IOC] ClearFake domain: usen-neurovera.com"
-        }
-      ]
-    },
-    {
-      "id": "4fbb43bb193aae443d61d6e297bd26de",
-      "title": "[Threat IOC] Remcos ip:port: 213.152.162.118:49006",
-      "link": "https://threatfox.abuse.ch/ioc/1894164/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-09-04T04:19:32Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#remcos"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "5716216055d3c06324f09d87d36ec24a",
-          "title": "[Threat IOC] Remus ip:port: 137.184.108.14:6929"
-        },
-        {
-          "id": "a4d0eed1bc5cae5672825790e5f03ab5",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.94.224.35:8080"
-        }
-      ]
-    },
-    {
-      "id": "5716216055d3c06324f09d87d36ec24a",
-      "title": "[Threat IOC] Remus ip:port: 137.184.108.14:6929",
-      "link": "https://threatfox.abuse.ch/ioc/1894163/",
+      "id": "b4cea63e953283e57897158e130c1700",
+      "title": "[Threat IOC] php.shin_webshell domain: zynigoci.workers.dev",
+      "link": "https://threatfox.abuse.ch/ioc/1901196/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_5.png",
-      "published": "2026-09-04T04:10:08Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "published": "2026-09-05T04:10:05Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#remus"
+        "#php.shin_webshell"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "4fbb43bb193aae443d61d6e297bd26de",
-          "title": "[Threat IOC] Remcos ip:port: 213.152.162.118:49006"
+          "id": "33a388d10736aff9fe40fa96620ac2b2",
+          "title": "[Threat IOC] ClearFake domain: eamznepn.us-en-us-morningcoffeeritual.com"
         },
         {
-          "id": "a4d0eed1bc5cae5672825790e5f03ab5",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.94.224.35:8080"
+          "id": "de0bf89f10d5b2a5a06f7ba123a8f2c5",
+          "title": "[Threat IOC] ClearFake domain: us-en-us-morningcoffeeritual.com"
         }
       ]
     },
     {
-      "id": "a4d0eed1bc5cae5672825790e5f03ab5",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 154.94.224.35:8080",
-      "link": "https://threatfox.abuse.ch/ioc/1894162/",
+      "id": "857a084a2165bfab67b303dd9bc69828",
+      "title": "[Threat IOC] VShell ip:port: 154.91.61.103:8084",
+      "link": "https://threatfox.abuse.ch/ioc/1901195/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-09-04T04:05:10Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#cobaltstrike"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "9927ab33a0386a3ac75a59c988d5c631",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 101.42.136.73:82"
-        },
-        {
-          "id": "4fbb43bb193aae443d61d6e297bd26de",
-          "title": "[Threat IOC] Remcos ip:port: 213.152.162.118:49006"
-        }
-      ]
-    },
-    {
-      "id": "9927ab33a0386a3ac75a59c988d5c631",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 101.42.136.73:82",
-      "link": "https://threatfox.abuse.ch/ioc/1894161/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-09-04T04:05:07Z",
-      "published_fmt": "04 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#cobaltstrike"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "a4d0eed1bc5cae5672825790e5f03ab5",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.94.224.35:8080"
-        },
-        {
-          "id": "4fbb43bb193aae443d61d6e297bd26de",
-          "title": "[Threat IOC] Remcos ip:port: 213.152.162.118:49006"
-        }
-      ]
-    },
-    {
-      "id": "b0048c823cc4d7523e61b1cd22b965dc",
-      "title": "[Threat IOC] VShell ip:port: 154.91.62.106:8084",
-      "link": "https://threatfox.abuse.ch/ioc/1894159/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-09-04T04:05:06Z",
-      "published_fmt": "04 Sep 2026",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-09-05T04:05:06Z",
+      "published_fmt": "05 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -1536,59 +934,249 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "4fbb43bb193aae443d61d6e297bd26de",
-          "title": "[Threat IOC] Remcos ip:port: 213.152.162.118:49006"
+          "id": "1fd7104de881af0ccc761dee5527f8b9",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.111:8084"
         },
         {
-          "id": "5716216055d3c06324f09d87d36ec24a",
-          "title": "[Threat IOC] Remus ip:port: 137.184.108.14:6929"
+          "id": "c6151766704b0e0d4395c66012e7e247",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.100:8084"
         }
       ]
     },
     {
-      "id": "d8b09af988486f169bd9b5f0dd2f782a",
-      "title": "[HIGH CVE] CVE-2026-76053 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76053",
+      "id": "1fd7104de881af0ccc761dee5527f8b9",
+      "title": "[Threat IOC] VShell ip:port: 154.91.61.111:8084",
+      "link": "https://threatfox.abuse.ch/ioc/1901193/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-09-05T04:05:05Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "857a084a2165bfab67b303dd9bc69828",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.103:8084"
+        },
+        {
+          "id": "c6151766704b0e0d4395c66012e7e247",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.100:8084"
+        }
+      ]
+    },
+    {
+      "id": "c6151766704b0e0d4395c66012e7e247",
+      "title": "[Threat IOC] VShell ip:port: 154.91.61.100:8084",
+      "link": "https://threatfox.abuse.ch/ioc/1901194/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-05T04:05:05Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "857a084a2165bfab67b303dd9bc69828",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.103:8084"
+        },
+        {
+          "id": "1fd7104de881af0ccc761dee5527f8b9",
+          "title": "[Threat IOC] VShell ip:port: 154.91.61.111:8084"
+        }
+      ]
+    },
+    {
+      "id": "bd1cc8eb4fff2879f5e3c1d19197914d",
+      "title": "[Threat IOC] ClearFake domain: kj4t0j98.us-en-us-xenburn.com",
+      "link": "https://threatfox.abuse.ch/ioc/1901192/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-09-05T03:21:56Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "33a388d10736aff9fe40fa96620ac2b2",
+          "title": "[Threat IOC] ClearFake domain: eamznepn.us-en-us-morningcoffeeritual.com"
+        },
+        {
+          "id": "de0bf89f10d5b2a5a06f7ba123a8f2c5",
+          "title": "[Threat IOC] ClearFake domain: us-en-us-morningcoffeeritual.com"
+        }
+      ]
+    },
+    {
+      "id": "7f5f7aba53d16a00c709bbd35d61ace4",
+      "title": "[Threat IOC] ClearFake domain: us-en-us-xenburn.com",
+      "link": "https://threatfox.abuse.ch/ioc/1901191/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-09-05T03:20:34Z",
+      "published_fmt": "05 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: Gi7w0rm.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "33a388d10736aff9fe40fa96620ac2b2",
+          "title": "[Threat IOC] ClearFake domain: eamznepn.us-en-us-morningcoffeeritual.com"
+        },
+        {
+          "id": "de0bf89f10d5b2a5a06f7ba123a8f2c5",
+          "title": "[Threat IOC] ClearFake domain: us-en-us-morningcoffeeritual.com"
+        }
+      ]
+    },
+    {
+      "id": "e3c58efb34918ee4e700841ea6776c9a",
+      "title": "[MEDIUM CVE] CVE-2026-18233 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18233",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_2.png",
-      "published": "2026-08-28T05:16:46Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The TranslatePress – Translate Multilingual sites with AI Translation plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Noise-Key Injection into HTML Parser in all versions up to, and including, 3.3.3 due to insufficient input sanitization and output escaping.",
+      "published": "2026-08-29T06:17:16Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The MStore API WordPress plugin before 4.21.1 does not verify that the order targeted by one of its delivery endpoints belongs to the requester, allowing any authenticated user, including Subscribers, to mark arbitrary orders as completed and paid without any payment being made.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#medium-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "051b21aaab5ac64e838bf3fb1e62e4ad",
-          "title": "[HIGH CVE] CVE-2026-18983 in Various Systems"
+          "id": "6945e3d60772cf1cce5b9a51bdb78b37",
+          "title": "[MEDIUM CVE] CVE-2026-17520 in Various Systems"
         },
         {
-          "id": "9cb826a6f2d105cd82a762d8616e0ae0",
-          "title": "[HIGH CVE] CVE-2026-18324 in Various Systems"
+          "id": "f5a76c380757395869cf10e6c3e0fe4a",
+          "title": "[MEDIUM CVE] CVE-2026-17522 in Various Systems"
         }
       ]
     },
     {
-      "id": "051b21aaab5ac64e838bf3fb1e62e4ad",
-      "title": "[HIGH CVE] CVE-2026-18983 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18983",
+      "id": "6945e3d60772cf1cce5b9a51bdb78b37",
+      "title": "[MEDIUM CVE] CVE-2026-17520 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17520",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_4.png",
-      "published": "2026-08-28T05:16:42Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The One User Avatar | User Profile Picture plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.5.4 via the wpua_action_process_option_update function.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-08-29T06:17:12Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The Newsletters WordPress plugin before 4.17 does not generate its API key using a sufficiently random source, deriving it from a publicly known value, allowing unauthenticated attackers to compute the key and perform privileged actions such as adding and deleting subscribers and sending emails, when the optional API has been enabled.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "e3c58efb34918ee4e700841ea6776c9a",
+          "title": "[MEDIUM CVE] CVE-2026-18233 in Various Systems"
+        },
+        {
+          "id": "f5a76c380757395869cf10e6c3e0fe4a",
+          "title": "[MEDIUM CVE] CVE-2026-17522 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "f5a76c380757395869cf10e6c3e0fe4a",
+      "title": "[MEDIUM CVE] CVE-2026-17522 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17522",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_2.png",
+      "published": "2026-08-29T06:17:12Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The Newsletters WordPress plugin before 4.17 does not perform any nonce or capability check when saving one of its settings screens, and writes every submitted parameter into its own options, allowing attackers to make a logged in administrator overwrite arbitrary Newsletters WordPress plugin before 4.17 settings, including the credential protecting its API, via a Cross-Site Request Forgery attack.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "e3c58efb34918ee4e700841ea6776c9a",
+          "title": "[MEDIUM CVE] CVE-2026-18233 in Various Systems"
+        },
+        {
+          "id": "6945e3d60772cf1cce5b9a51bdb78b37",
+          "title": "[MEDIUM CVE] CVE-2026-17520 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "7bb7e42660471950bcb10aade5e74d31",
+      "title": "[HIGH CVE] CVE-2026-16600 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16600",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-08-29T06:17:05Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The SmartAIPress WordPress plugin through 1.2.0 does not perform a capability check on one of its AJAX actions and does not validate a user-supplied URL before fetching it server-side, allowing users with subscriber-level access and above to make the site retrieve arbitrary internal or external URLs and read the response, resulting in a full-read Server-Side Request Forgery.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1598,152 +1186,59 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "d8b09af988486f169bd9b5f0dd2f782a",
-          "title": "[HIGH CVE] CVE-2026-76053 in Various Systems"
+          "id": "07627555431e6e9f4af91c1fcc46bca3",
+          "title": "[HIGH CVE] CVE-2026-16061 in Various Systems"
         },
         {
-          "id": "9cb826a6f2d105cd82a762d8616e0ae0",
-          "title": "[HIGH CVE] CVE-2026-18324 in Various Systems"
+          "id": "e3c58efb34918ee4e700841ea6776c9a",
+          "title": "[MEDIUM CVE] CVE-2026-18233 in Various Systems"
         }
       ]
     },
     {
-      "id": "b70aa6634ebfa9673731c5e5298a1e8a",
-      "title": "[MEDIUM CVE] CVE-2026-3129 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-3129",
+      "id": "24792a2b72f3753c1704f6a02ea0720a",
+      "title": "[CRITICAL CVE] CVE-2026-16947 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16947",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
-      "published": "2026-08-28T05:16:42Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The LiteSpeed Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via crafted `<img>` tag attributes in all versions up to, and including, 7.7.",
+      "published": "2026-08-29T06:17:05Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The Total processing card payments for WooCommerce WordPress plugin through 7.3 does not validate a user-supplied path before using it to build a server-side verification request, and does not verify the authenticity of the response, allowing unauthenticated attackers to redirect that request to an arbitrary host (disclosing the merchant's payment-gateway credentials) and to forge a success response that marks arbitrary WooCommerce orders as paid.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "5e9416ad56bffe4f6a8bda68d3039c7d",
-          "title": "[MEDIUM CVE] CVE-2026-15798 in Various Systems"
+          "id": "477c28fbab302c5568dc8e2de66cf62d",
+          "title": "[CRITICAL CVE] CVE-2026-16259 in Various Systems"
         },
         {
-          "id": "d77cbb4a2ccb07c0a162a2ffd1d6b3bb",
-          "title": "[MEDIUM CVE] CVE-2026-16654 in Various Systems"
+          "id": "a761a17cff6237330bc62e8ca89fa96d",
+          "title": "[CRITICAL CVE] CVE-2026-10522 in Various Systems"
         }
       ]
     },
     {
-      "id": "5e9416ad56bffe4f6a8bda68d3039c7d",
-      "title": "[MEDIUM CVE] CVE-2026-15798 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15798",
+      "id": "07627555431e6e9f4af91c1fcc46bca3",
+      "title": "[HIGH CVE] CVE-2026-16061 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16061",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-08-28T05:16:41Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The Smart Slider 3 plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'slider' Block Attribute in all versions up to, and including, 3.5.1.38 due to insufficient input sanitization and output escaping.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "b70aa6634ebfa9673731c5e5298a1e8a",
-          "title": "[MEDIUM CVE] CVE-2026-3129 in Various Systems"
-        },
-        {
-          "id": "d77cbb4a2ccb07c0a162a2ffd1d6b3bb",
-          "title": "[MEDIUM CVE] CVE-2026-16654 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "d77cbb4a2ccb07c0a162a2ffd1d6b3bb",
-      "title": "[MEDIUM CVE] CVE-2026-16654 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16654",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-08-28T05:16:41Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The Avada (Fusion) Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'size' Shortcode Attribute in all versions up to, and including, 3.15.6 due to insufficient input sanitization and output escaping.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "b70aa6634ebfa9673731c5e5298a1e8a",
-          "title": "[MEDIUM CVE] CVE-2026-3129 in Various Systems"
-        },
-        {
-          "id": "5e9416ad56bffe4f6a8bda68d3039c7d",
-          "title": "[MEDIUM CVE] CVE-2026-15798 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "47d92713b93e1147c46f21c667f0f3bf",
-      "title": "[MEDIUM CVE] CVE-2026-16759 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16759",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-08-28T05:16:41Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The Tutor LMS – eLearning and online course solution plugin for WordPress is vulnerable to Remote Code Execution limited to zero-argument function invocation in all versions up to, and including, 4.0.5 via the tutor_course_filter_ajax AJAX action.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "b70aa6634ebfa9673731c5e5298a1e8a",
-          "title": "[MEDIUM CVE] CVE-2026-3129 in Various Systems"
-        },
-        {
-          "id": "5e9416ad56bffe4f6a8bda68d3039c7d",
-          "title": "[MEDIUM CVE] CVE-2026-15798 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "9cb826a6f2d105cd82a762d8616e0ae0",
-      "title": "[HIGH CVE] CVE-2026-18324 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18324",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-08-28T05:16:41Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The Forminator Forms – Contact Form, Payment Form & Custom Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Rich-Text Textarea Field in all versions up to, and including, 1.57.0.1 due to insufficient input sanitization and output escaping.",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-08-29T06:17:00Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The Rest Routes WordPress plugin through 5.5.5 does not sanitize and validate a value taken from the URL of one of its public REST routes before using it in a SQL query, allowing unauthenticated attackers to perform SQL injection attacks.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1753,210 +1248,376 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "d8b09af988486f169bd9b5f0dd2f782a",
-          "title": "[HIGH CVE] CVE-2026-76053 in Various Systems"
+          "id": "7bb7e42660471950bcb10aade5e74d31",
+          "title": "[HIGH CVE] CVE-2026-16600 in Various Systems"
         },
         {
-          "id": "051b21aaab5ac64e838bf3fb1e62e4ad",
-          "title": "[HIGH CVE] CVE-2026-18983 in Various Systems"
+          "id": "e3c58efb34918ee4e700841ea6776c9a",
+          "title": "[MEDIUM CVE] CVE-2026-18233 in Various Systems"
         }
       ]
     },
     {
-      "id": "f62dca87054e08d378ca21d2dda2408b",
-      "title": "[HIGH CVE] CVE-2026-18978 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18978",
+      "id": "477c28fbab302c5568dc8e2de66cf62d",
+      "title": "[CRITICAL CVE] CVE-2026-16259 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16259",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_4.png",
-      "published": "2026-08-28T05:16:41Z",
-      "published_fmt": "28 Aug 2026",
-      "plain_summary": "The LiteSpeed Cache plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Content in all versions up to, and including, 7.8.1 due to insufficient input sanitization and output escaping.",
+      "published": "2026-08-29T06:17:00Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The Uix UserCenter WordPress plugin through 1.0.3 does not verify that the account being modified through an unauthenticated profile-update action belongs to the requester, and it authenticates that action with a token whose signing key is hardcoded and identical across every install, allowing unauthenticated attackers to forge a token for any user, overwrite an administrator's email and password, and take over the account.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "d8b09af988486f169bd9b5f0dd2f782a",
-          "title": "[HIGH CVE] CVE-2026-76053 in Various Systems"
+          "id": "24792a2b72f3753c1704f6a02ea0720a",
+          "title": "[CRITICAL CVE] CVE-2026-16947 in Various Systems"
         },
         {
-          "id": "051b21aaab5ac64e838bf3fb1e62e4ad",
-          "title": "[HIGH CVE] CVE-2026-18983 in Various Systems"
+          "id": "a761a17cff6237330bc62e8ca89fa96d",
+          "title": "[CRITICAL CVE] CVE-2026-10522 in Various Systems"
         }
       ]
     },
     {
-      "id": "4818f370e7606ac1e1f982f2fb30dcd8",
-      "title": "[Tool Release] Hayabusa v4.0.0 published on GitHub",
-      "link": "https://github.com/Yamato-Security/hayabusa/releases/latest",
-      "source": "GitHub API",
-      "source_icon": "⌨",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-08-03T00:00:00Z",
-      "published_fmt": "03 Aug 2026",
-      "plain_summary": "New GitHub release of Hayabusa (v4.0.0). Highlights: Anti-Virus False Positives, Warning:** You will get false positives from certain anti-virus programs like Windows Defender and Web Browsers saying they have detected malicious files. They are detecting on Sigma `.yml` files that are not executable and just contain certain signatures from malware. They are not malicious. If you are running Hayabusa for live analysis and do not want to cause any anti-virus alerts, be sure to use the live response packages that use encoded Sigma rules., 4.0.0 [2026/07/29] - Black Hat Arsenal USA Release.",
+      "id": "a761a17cff6237330bc62e8ca89fa96d",
+      "title": "[CRITICAL CVE] CVE-2026-10522 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10522",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-08-29T06:16:57Z",
+      "published_fmt": "29 Aug 2026",
+      "plain_summary": "The MemberHero WordPress plugin through 6.9 does not restrict which account fields can be supplied during its frontend registration process, allowing unauthenticated attackers to register a new user with an arbitrary role, including Administrator, leading to a full site takeover.",
       "deep_lore": "",
-      "category_tag": "GitHub Releases",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#github",
-        "#release",
-        "#hayabusa"
+        "#cve",
+        "#nvd",
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "f0ff76b7112e16a8e00933ee954c1c8d",
-          "title": "Hayabusa v3.5.0 - Obon Release"
+          "id": "24792a2b72f3753c1704f6a02ea0720a",
+          "title": "[CRITICAL CVE] CVE-2026-16947 in Various Systems"
         },
         {
-          "id": "dfd9c222422493cd96a2d624e8abf971",
-          "title": "The Android Googlfication Spectrum"
+          "id": "477c28fbab302c5568dc8e2de66cf62d",
+          "title": "[CRITICAL CVE] CVE-2026-16259 in Various Systems"
         }
       ]
     },
     {
-      "id": "379eacb32395a7570aef99718548879b",
-      "title": "Elcomsoft Quick Triage 2.2: Timeline, file system snapshot, and a plugin engine",
-      "link": "https://blog.elcomsoft.com/2026/09/elcomsoft-quick-triage-2-2-timeline-file-system-snapshot-and-a-plugin-engine/",
-      "source": "Elcomsoft",
-      "source_icon": "🔑",
-      "image": "https://blog.elcomsoft.com/wp-content/uploads/2026/09/EQT-5-2.2-1200x630-1.png",
-      "published": "2026-09-03T08:00:28Z",
+      "id": "39587fee4165879c64dc9602e090db48",
+      "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection",
+      "link": "https://arxiv.org/abs/2609.03620v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-03T10:05:45Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Elcomsoft Quick Triage 2.2 adds three things: a Timeline view that merges events from every timestamped artifact into one chronology, a file system snapshot that copies metadata without file contents, and a plugin architecture for artifact parsers.",
+      "plain_summary": "Audio deepfake detection is commonly formulated as clip-level binary classification of single-domain audio.",
       "deep_lore": "",
-      "category_tag": "GitHub Releases",
+      "category_tag": "Research Papers",
       "tags": [
-        "#github",
-        "#release"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
       ],
       "read_time": "1 min read",
-      "forensic_score": 40,
-      "collected_date": "04 Sep 2026",
+      "forensic_score": 60,
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "dfd9c222422493cd96a2d624e8abf971",
-          "title": "The Android Googlfication Spectrum"
+          "id": "79fd39cf6416fb71f52edbac612c1b51",
+          "title": "[Research Paper] Preserving Knowledge across Space and Time for Continual Video Deepfake Detection"
         },
         {
-          "id": "e94ff45b66881357c2e66e9a2c4a7612",
-          "title": "2026 MSAB CTF: iOS Questions"
+          "id": "5b49b5fb7817a8f29139eefbe4782ee8",
+          "title": "[Research Paper] Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection"
         }
       ]
     },
     {
-      "id": "8b92435eac4b79c632a9a936dd616b3e",
-      "title": "InfoSec News Nuggets – 09/03/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-09-03-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/cve_4.png",
-      "published": "2026-09-03T10:27:29Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens A critical authentication bypass flaw in JFrog Artifactory, tracked as CVE-2026-82329 and carrying a CVSS score of 9.8, is being actively exploited to mint fraudulent admin tokens on self-managed instances running in their default configuration.",
+      "id": "5b49b5fb7817a8f29139eefbe4782ee8",
+      "title": "[Research Paper] Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection",
+      "link": "https://arxiv.org/abs/2609.00742v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-09-01T05:23:48Z",
+      "published_fmt": "01 Sep 2026",
+      "plain_summary": "As AI video generators achieve cinematic realism, reliable detection becomes essential for safeguarding digital trust.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Research Papers",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 40,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "79fd39cf6416fb71f52edbac612c1b51",
+          "title": "[Research Paper] Preserving Knowledge across Space and Time for Continual Video Deepfake Detection"
+        },
+        {
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
+        }
+      ]
+    },
+    {
+      "id": "79fd39cf6416fb71f52edbac612c1b51",
+      "title": "[Research Paper] Preserving Knowledge across Space and Time for Continual Video Deepfake Detection",
+      "link": "https://arxiv.org/abs/2609.03446v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-09-03T07:02:51Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "The continuous emergence of high-quality video deepfakes requires detectors that continually adapt to new forgery patterns, yet existing approaches, which are designed for deepfake images, fail to capture video-specific cues.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
       ],
       "read_time": "1 min read",
       "forensic_score": 30,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "adbf0d050f798a06b29d8e8902e849ae",
-          "title": "Consistency"
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
         },
         {
-          "id": "8ae21168a7c4f4105560f085f472b212",
-          "title": "Finding Initial Access"
+          "id": "5b49b5fb7817a8f29139eefbe4782ee8",
+          "title": "[Research Paper] Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection"
         }
       ]
     },
     {
-      "id": "52e7559712d06d6d0f69e04fcec058c5",
-      "title": "BengalSEO Part 1: Anatomy of the Operation",
-      "link": "https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/",
-      "source": "The DFIR Report",
-      "source_icon": "📝",
-      "image": "https://thedfirreport.com/wp-content/uploads/pr_39750_pt1_001.png",
-      "published": "2026-08-24T14:28:41Z",
-      "published_fmt": "24 Aug 2026",
-      "plain_summary": "Key Takeaways The DFIR Report Offerings Check out our Products here and our Services here. Want a demo, more information on our services, pricing or just want to chat? Get in Touch Contact us today for pricing or a demo!",
+      "id": "24f7d89241f86bbe04c9fef3865b22f8",
+      "title": "[Research Paper] From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images",
+      "link": "https://arxiv.org/abs/2609.02640v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-02T14:16:44Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "The rapid advancement of generative models has significantly worsened the problem of manipulated image detection, as these methods are capable of producing highly realistic forgeries, reinforcing the importance of multimedia forensics.",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "Research Papers",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "04 Sep 2026",
+      "forensic_score": 30,
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "ea1be73075da260955f07b3068924d07",
-          "title": "From Bing Search to Ransomware: Bumblebee and AdaptixC2 Deliver Akira"
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
         },
         {
-          "id": "1c2d405b0922a52f880b25305ce4cc09",
-          "title": "Memory Forensics R&D Illustrated: Detecting Hidden Windows Services"
+          "id": "5b49b5fb7817a8f29139eefbe4782ee8",
+          "title": "[Research Paper] Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection"
         }
       ]
     },
     {
-      "id": "c8d9de70894de2e387f78355d901b7e7",
-      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-      "link": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9vYkFCrVzaEl0WQj4XBILj6pIxDJ92eWgVrkOa_pdvJJoKF95JCX7VmQzY0HPZkhg5IMvjfCu15YCs5AMJ22NM6SBX7j7sCgpfiaUZZAL4Uc5vP0-q9VKN4LNSY4a701mmRCgLJQxCjnmnsSAxD7gFnyf9-dRaSxPZuGqLuOIQ415vCOjH-DZRtYSBHA/s1600/access-for-sale.jpg",
-      "published": "2026-09-03T15:26:47Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts.",
+      "id": "185429e3becbe99a6399b211ee2194bf",
+      "title": "InfoSec News Nuggets – 09/04/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-09-04-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
+      "image": "images/cve_5.png",
+      "published": "2026-09-04T09:44:40Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks SonicWall is urging customers running its SMA1000 series secure remote access appliances to patch two zero-day vulnerabilities that have already been exploited in the wild, both discovered internally by the vendor.",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "6a359d52e94016fefb456204fd0568cb",
-          "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks"
+          "id": "5c6dfcf28979d44da16649d4e03f237b",
+          "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks"
         },
         {
-          "id": "1c2d405b0922a52f880b25305ce4cc09",
-          "title": "Memory Forensics R&D Illustrated: Detecting Hidden Windows Services"
+          "id": "c064ac970fbaca7a674ed5b27c4ab670",
+          "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution"
         }
       ]
     },
     {
-      "id": "a3aaf2704f00857db00afff9a8df40ae",
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "id": "c2ad266fe35ed790f295f97c7789bbe8",
+      "title": "[Research Paper] Reducing Catastrophic Risk from AI with Systematic Monitoring and Evaluation of Rogue AI Progression",
+      "link": "https://arxiv.org/abs/2609.03189v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-09-02T22:13:24Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "This article presents a structured framework of behavioral indicators that may signal progression toward potentially catastrophic threats from artificial intelligence systems.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "24f7d89241f86bbe04c9fef3865b22f8",
+          "title": "[Research Paper] From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images"
+        },
+        {
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
+        }
+      ]
+    },
+    {
+      "id": "b680b87bc4ca31f08f37a209a6b31869",
+      "title": "[Research Paper] Multi-Tool Image Editing Attribution in Facial Forgery",
+      "link": "https://arxiv.org/abs/2609.02751v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-02T15:51:26Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "As generative AI tools become increasingly powerful and easy to use, people can easily edit portrait images with a prompt, necessitating the task of image editing attribution, which predicts the involved editing tools from the given image.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#deep-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "435dc86a3f8cc61324ce2ef660bd093c",
+          "title": "[Research Paper] Evidence-Guided Detection, Localization and Explanation for Text-Centric Image Forensics"
+        },
+        {
+          "id": "df4b80d3b8a2b2c000c33c1a1d326271",
+          "title": "[Research Paper] Agent Memory Is a Surface for Endogenous Authorization Laundering"
+        }
+      ]
+    },
+    {
+      "id": "e5b356b10e8cf16e683d92258484d12c",
+      "title": "[Research Paper] Swin Meets EfficientNet: Lightweight Architectures for GAN-Based Face Forensics",
+      "link": "https://arxiv.org/abs/2609.01749v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-01T18:19:32Z",
+      "published_fmt": "01 Sep 2026",
+      "plain_summary": "Modern generative models, such as GANs, diffusion architectures, and autoregressive systems, now produce facial images that are nearly indistinguishable from authentic photographs.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 10,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "435dc86a3f8cc61324ce2ef660bd093c",
+          "title": "[Research Paper] Evidence-Guided Detection, Localization and Explanation for Text-Centric Image Forensics"
+        },
+        {
+          "id": "24f7d89241f86bbe04c9fef3865b22f8",
+          "title": "[Research Paper] From Detection to Localization: A Unified Forensics Framework for Fully Synthetic and Tampered Images"
+        }
+      ]
+    },
+    {
+      "id": "430394f308ca822dac5265b9e1d5fc7f",
+      "title": "[Research Paper] A Benchmark for Vehicle Attribute Classification in Cross-Domain Surveillance Scenarios",
+      "link": "https://arxiv.org/abs/2609.01584v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-09-01T17:48:10Z",
+      "published_fmt": "01 Sep 2026",
+      "plain_summary": "Vehicle attribute analysis is a key component of Intelligent Transportation Systems (ITS), supporting applications such as vehicle identification, traffic monitoring, and forensic investigation.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "39587fee4165879c64dc9602e090db48",
+          "title": "[Research Paper] ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection"
+        },
+        {
+          "id": "5b49b5fb7817a8f29139eefbe4782ee8",
+          "title": "[Research Paper] Mind the Rift: Cross-Scale Coupling Mismatch for AI-Generated Video Detection"
+        }
+      ]
+    },
+    {
+      "id": "5c6dfcf28979d44da16649d4e03f237b",
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/cve_1.png",
-      "published": "2026-09-03T18:28:12Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
+      "published": "2026-09-04T15:25:59Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1965,28 +1626,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "0f9f3c008ae152d6425464cf34f46fc5",
-          "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root"
+          "id": "0e8e879cd2ed44b7d75428d11d970796",
+          "title": "Google warns of new Chrome zero-day flaw exploited in attacks"
         },
         {
-          "id": "a538eddecd085da6d236b01847b8083a",
-          "title": "Critical Elementor Pro flaw exploited to take over WordPress sites"
+          "id": "185429e3becbe99a6399b211ee2194bf",
+          "title": "InfoSec News Nuggets – 09/04/2026"
         }
       ]
     },
     {
-      "id": "0f9f3c008ae152d6425464cf34f46fc5",
-      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-      "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "id": "c064ac970fbaca7a674ed5b27c4ab670",
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj9su2Wd6Yb88IvMpg5v1P8IyPg4KWKTeBXjerFgxz0U5WLKO2U50jymR-fKujsKeMFZ3q1VEupMRFZUz5gD47JRzVceagYJJ3bCTT8t532rY63po54kanBCPX4_hmKsxe-1b52IGrYc__TH5Y2F13G6L32HNKPQxL34iqzEPuBGynDCu6xFdKHplXvdY/s1600/cisco-flaws.jpg",
-      "published": "2026-09-03T15:52:07Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root, alongside an IOS XR hardening release bundling 7 umbrella CVEs, 2 of which are rated 9.8, with no workaround for any IOS XR version.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s1600/PostgreSQL.jpg",
+      "published": "2026-09-04T15:20:19Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1995,148 +1656,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "a3aaf2704f00857db00afff9a8df40ae",
-          "title": "HPE patches critical ArubaOS-CX remote code execution flaw"
+          "id": "0e8e879cd2ed44b7d75428d11d970796",
+          "title": "Google warns of new Chrome zero-day flaw exploited in attacks"
         },
         {
-          "id": "a538eddecd085da6d236b01847b8083a",
-          "title": "Critical Elementor Pro flaw exploited to take over WordPress sites"
+          "id": "185429e3becbe99a6399b211ee2194bf",
+          "title": "InfoSec News Nuggets – 09/04/2026"
         }
       ]
     },
     {
-      "id": "a538eddecd085da6d236b01847b8083a",
-      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "id": "f5aa5396b10252ff9942e52af9be0f82",
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1600/HAProxy.jpg",
+      "published": "2026-09-04T14:51:13Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "0e8e879cd2ed44b7d75428d11d970796",
+          "title": "Google warns of new Chrome zero-day flaw exploited in attacks"
+        },
+        {
+          "id": "185429e3becbe99a6399b211ee2194bf",
+          "title": "InfoSec News Nuggets – 09/04/2026"
+        }
+      ]
+    },
+    {
+      "id": "cb9f18439a4efdcf9cd6ceb16cddd309",
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_4.png",
-      "published": "2026-09-03T14:52:20Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "a3aaf2704f00857db00afff9a8df40ae",
-          "title": "HPE patches critical ArubaOS-CX remote code execution flaw"
-        },
-        {
-          "id": "0f9f3c008ae152d6425464cf34f46fc5",
-          "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root"
-        }
-      ]
-    },
-    {
-      "id": "6a359d52e94016fefb456204fd0568cb",
-      "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-      "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixQdi-o7wSstsDvvGluX8EDCUhGUHwpKjSkMSaigZZkFOEI_mWS0kLYvjSaG9olG2Y8GYxqH2kKRUtT82RVMLfW-FuBdrWMbGSfJMVVK3YAL3FClWT6t0Dz33NzHEYK1dL93JLl7YzyETY1i9ZYpRty-BG5Vfk_vGUggKigBtpQZxKuUW8-Jg3m9xZV8BL/s1600/jsnode.jpg",
-      "published": "2026-09-03T10:43:01Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "c8d9de70894de2e387f78355d901b7e7",
-          "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory"
-        },
-        {
-          "id": "52e7559712d06d6d0f69e04fcec058c5",
-          "title": "BengalSEO Part 1: Anatomy of the Operation"
-        }
-      ]
-    },
-    {
-      "id": "b332d0907ffa076ba2b1eeba352af104",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "source": "Krebs on Security",
-      "source_icon": "🕵️",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
-      "published": "2026-08-11T21:28:35Z",
-      "published_fmt": "11 Aug 2026",
-      "plain_summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "613a1c6aeda12ea4f6968ccb532739d2",
-          "title": "Microsoft Patches a Record 570 Security Flaws"
-        },
-        {
-          "id": "adbf0d050f798a06b29d8e8902e849ae",
-          "title": "Consistency"
-        }
-      ]
-    },
-    {
-      "id": "84d6bb92a8687608135e3d54ee628f9a",
-      "title": "CISA, FBI and Partners Warn Organizations of Gunra Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
-      "link": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-gunra-ransomware-actors-targeting-multiple-critical",
-      "source": "CISA Alerts",
-      "source_icon": "🏛️",
-      "image": "images/malware_5.png",
-      "published": "2026-08-10T12:00:00Z",
-      "published_fmt": "10 Aug 2026",
-      "plain_summary": "Click the source link to read the full dispatch.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
-      "related": [
-        {
-          "id": "e291a7309b70bee3d2680d589231ace8",
-          "title": "CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite Users of Ongoing Russian State-Supported Malicious Threat Activity"
-        },
-        {
-          "id": "52e7559712d06d6d0f69e04fcec058c5",
-          "title": "BengalSEO Part 1: Anatomy of the Operation"
-        }
-      ]
-    },
-    {
-      "id": "5c2f551a28b6fb09547b26417c8b8f20",
-      "title": "Chainsaw v2.16.3-beta.2",
-      "link": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3-beta.2",
-      "source": "Chainsaw Releases",
-      "source_icon": "📦",
       "image": "images/github_1.png",
-      "published": "2026-08-02T12:06:14Z",
-      "published_fmt": "02 Aug 2026",
-      "plain_summary": "This release contains the following changes of note: Use a buffered writer when writing to file to improved the performance of --output .",
+      "published": "2026-09-04T13:22:01Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -2145,15 +1716,315 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "04 Sep 2026",
+      "collected_date": "05 Sep 2026",
       "related": [
         {
-          "id": "ea71b29c117f678292706599c5bca55f",
-          "title": "Chainsaw v2.16.3-beta.0"
+          "id": "c42cb96d4e00afccc04b70c26bf91534",
+          "title": "Angry Birds: Toy Ghouls’ new toys"
         },
         {
-          "id": "56084d1574a8f16c35ef564725acf891",
-          "title": "Chainsaw v2.16.1"
+          "id": "8199e5c2084886f8f5b1c32da46eae4d",
+          "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws"
+        }
+      ]
+    },
+    {
+      "id": "0e8e879cd2ed44b7d75428d11d970796",
+      "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_3.png",
+      "published": "2026-09-04T11:48:17Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "b96a9773f1ade7a0025da055b42df459",
+          "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day"
+        },
+        {
+          "id": "5c6dfcf28979d44da16649d4e03f237b",
+          "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks"
+        }
+      ]
+    },
+    {
+      "id": "c42cb96d4e00afccc04b70c26bf91534",
+      "title": "Angry Birds: Toy Ghouls’ new toys",
+      "link": "https://securelist.com/toy-ghouls-new-hivemq-and-element-backdoors/121270/",
+      "source": "Securelist",
+      "source_icon": "🦠",
+      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/09/04075246/toy-ghouls-birds-backdoor-featured-image-scaled.jpg",
+      "published": "2026-09-04T10:00:05Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Kaspersky GERT experts have discovered new backdoors used by the Toy Ghouls group. One version of the backdoor uses the HiveMQ MQTT broker as its command-and-control server; the other uses the Matrix-based Element messenger.",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "cb9f18439a4efdcf9cd6ceb16cddd309",
+          "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges"
+        },
+        {
+          "id": "8199e5c2084886f8f5b1c32da46eae4d",
+          "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws"
+        }
+      ]
+    },
+    {
+      "id": "915167370af2dabc73b46e8d92e8023c",
+      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+      "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9jQ8JSakEpnqxzsAZhwXnVvTMB0Lrbj7shOcXtSJzA30wcMTbkAIUGvSZPiBXOLeAW66Jpuysxn56W8YWD00hsCNB742oLqeyvgD8MXdIHHqwyeehyoyXx9G9c6XjxwN10Co_XVZuBkRjMquzgf9V17gh2Gw-xff0qJ9rh3sPO4tBq4OjjS0dxsl73WKT/s1600/wp-main.jpg",
+      "published": "2026-09-04T08:48:45Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "185429e3becbe99a6399b211ee2194bf",
+          "title": "InfoSec News Nuggets – 09/04/2026"
+        },
+        {
+          "id": "5c6dfcf28979d44da16649d4e03f237b",
+          "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks"
+        }
+      ]
+    },
+    {
+      "id": "8199e5c2084886f8f5b1c32da46eae4d",
+      "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+      "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s1600/plex.jpg",
+      "published": "2026-09-04T07:35:14Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0.",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "cb9f18439a4efdcf9cd6ceb16cddd309",
+          "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges"
+        },
+        {
+          "id": "c42cb96d4e00afccc04b70c26bf91534",
+          "title": "Angry Birds: Toy Ghouls’ new toys"
+        }
+      ]
+    },
+    {
+      "id": "b96a9773f1ade7a0025da055b42df459",
+      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+      "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjelmC2UuYemuI1nBeaecfPBZ1Bfb5nz6T51_OhCUPHJivX8ioIjrYMVtVsjsrcA0xbEe_O4iMthJ2xwXWJVhAb5CCJlhnJS4McM9IpmPww86RSznT3h7pg5DYOXlnwon616y-1s2qwbWbmR40B5JCvYbtwM8lD5Fk5yLHWS7IKmH5pXQ8qO4SfEasBhhsq/s1600/chrome-v8-exploit.jpg",
+      "published": "2026-09-04T07:18:47Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "0e8e879cd2ed44b7d75428d11d970796",
+          "title": "Google warns of new Chrome zero-day flaw exploited in attacks"
+        },
+        {
+          "id": "f9222e4a52cac2e838e9123104d5f985",
+          "title": "[KEV Active Exploit] CVE-2026-85046 in Google Chromium V8"
+        }
+      ]
+    },
+    {
+      "id": "507f39c5ecc1c46d56be08b06689814d",
+      "title": "Velociraptor Release 0.77.2",
+      "link": "https://github.com/Velocidex/velociraptor/releases/tag/v0.77.2",
+      "source": "Velociraptor Releases",
+      "source_icon": "📦",
+      "image": "https://avatars.githubusercontent.com/u/3856546?s=60&v=4",
+      "published": "2026-09-04T01:21:48Z",
+      "published_fmt": "04 Sep 2026",
+      "plain_summary": "This is a release to address the CVEs published in the 0.77.2 release cycle .",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "cb9f18439a4efdcf9cd6ceb16cddd309",
+          "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges"
+        },
+        {
+          "id": "c42cb96d4e00afccc04b70c26bf91534",
+          "title": "Angry Birds: Toy Ghouls’ new toys"
+        }
+      ]
+    },
+    {
+      "id": "406b009fbd5851042f2e19ab5bc79bc2",
+      "title": "StreamRat Android malware spreads through Meta and TikTok ads - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWldYZ2ZVc0o1dXl4RWU0QVFJQjBsMFJGRXNNbnRuSDVZNHM3dVBlVW82RmpMVGl1UkZsUnhJUzFRUXBzV005NHlrcWhvcjJQeFBxbEFrVkg1TDhMTlN5Ql9oS3VqUnAxV1ZmTDZpcDBwYU9jdTFkcW1YZ0k5RlA1TDA2TlJRcTBYTnBrOVpVNzc2NVdZVWpwbV9Oc2k5RXhGSkVBR2dMaVJaZS16?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_3.png",
+      "published": "2026-09-03T16:15:12Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "StreamRat Android malware spreads through Meta and TikTok ads Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "716d6a913c7f533266ff1de32a02ac07",
+          "title": "Scammers are getting smarter about where they target you - Malwarebytes"
+        },
+        {
+          "id": "4c92aa1cfdc88002ea9e1ade979e7c0f",
+          "title": "Two critical Chrome flaws put users at risk on malicious websites - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "716d6a913c7f533266ff1de32a02ac07",
+      "title": "Scammers are getting smarter about where they target you - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTFJ1VUJCX1llNV9VN1NjMVVXeUlydUpSdkxJMzBOUXc4TjJwTDhyWkdXSEQ5ODhoa21zclFYMUhQZnp6aUl0dWlsNDJyRzFqTUdPZHBBRk5FdUdCMGt2ZE12N1RuV2RBYUpleW52T0tpXzZ6UjV3NEZsUU5IazZta3hJNUxJVGFnYmtnM2t0MnotS3p3eW10dWMwcU5OWlRMYzVTcTVMbw?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_5.png",
+      "published": "2026-09-02T13:17:24Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "Scammers are getting smarter about where they target you Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "406b009fbd5851042f2e19ab5bc79bc2",
+          "title": "StreamRat Android malware spreads through Meta and TikTok ads - Malwarebytes"
+        },
+        {
+          "id": "4c92aa1cfdc88002ea9e1ade979e7c0f",
+          "title": "Two critical Chrome flaws put users at risk on malicious websites - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "4c92aa1cfdc88002ea9e1ade979e7c0f",
+      "title": "Two critical Chrome flaws put users at risk on malicious websites - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOVdQandLekR5cV91eUJFX2VjWHllXzBOSUY0dUt3S2VDdVRQSW9ReE1iM3liRXlRaTFNUHZ6ZkEtcnFTYV9ISTdXc3hqVjgxWVNYMHFaY0FZZ1U3VFJzUW1tb0hERndkaHc1eWQ0cDlBTGhOY0c5WWE5NlBpT0ZvMzRBU3hQZllJRkk4OS1RM09xV3RNeS1MeW1QUldzVzdaUVBmTFJrOENrVlMtRGRMREF3?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_1.png",
+      "published": "2026-09-02T11:29:28Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "Two critical Chrome flaws put users at risk on malicious websites Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "406b009fbd5851042f2e19ab5bc79bc2",
+          "title": "StreamRat Android malware spreads through Meta and TikTok ads - Malwarebytes"
+        },
+        {
+          "id": "716d6a913c7f533266ff1de32a02ac07",
+          "title": "Scammers are getting smarter about where they target you - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "521d2efc463009c666918b7d2367198d",
+      "title": "153M+ driver’s licenses for sale on new dark web platform - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT2lOTzhzeVI1ZGlULVktYzlHb3Zoc2xWNXVWOGl3bXNlV1A1TzY5c1dENkZHRUloY1hGMGRWdW1naVpMRWdOcE1nV19NUkc2bGQ2UHVQaVppWEJ6R1NoY09KTGVRckh1M20zd2l3UXZnbS1WOU9uaFZjRWpWcENXaHpIdFVIX0hBTEtCS3VBaGduVWtMbGN4X0tLSkxvSW1kODZOYm5HN21IVmhEU3d0Q2hkQjdNNjBQbm9leno0QkFiUFJENkRB?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_3.png",
+      "published": "2026-09-02T10:27:28Z",
+      "published_fmt": "02 Sep 2026",
+      "plain_summary": "153M+ driver’s licenses for sale on new dark web platform Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "05 Sep 2026",
+      "related": [
+        {
+          "id": "406b009fbd5851042f2e19ab5bc79bc2",
+          "title": "StreamRat Android malware spreads through Meta and TikTok ads - Malwarebytes"
+        },
+        {
+          "id": "716d6a913c7f533266ff1de32a02ac07",
+          "title": "Scammers are getting smarter about where they target you - Malwarebytes"
         }
       ]
     }
