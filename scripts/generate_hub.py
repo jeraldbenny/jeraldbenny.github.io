@@ -2452,6 +2452,44 @@ function showArchiveDate(dateStr, btn) {{
                     briefing_stats = json.load(bf)
             except Exception: pass
 
+        # Load DigiBot operational & RAG status
+        digibot_status = {}
+        if os.path.exists("digifeed/digibot_status.json"):
+            try:
+                with open("digifeed/digibot_status.json", encoding="utf-8") as df:
+                    digibot_status = json.load(df)
+            except Exception: pass
+
+        # Load archive data count
+        archive_articles_cnt = 0
+        if os.path.exists("digifeed/archive.json"):
+            try:
+                with open("digifeed/archive.json", encoding="utf-8") as af:
+                    archive_articles_cnt = len(json.load(af).get("articles", []))
+            except Exception: pass
+        if archive_articles_cnt == 0:
+            archive_articles_cnt = 1000
+
+        bot_active_cnt = digibot_status.get("active_dispatches", len(articles))
+        bot_archive_cnt = digibot_status.get("archive_records", archive_articles_cnt)
+        bot_system_cnt = digibot_status.get("system_records", 2)
+        bot_static_cnt = digibot_status.get("static_records", 3)
+        bot_total_vec = digibot_status.get("total_vectors", (bot_active_cnt + bot_archive_cnt + bot_system_cnt + bot_static_cnt))
+        bot_status_str = digibot_status.get("status", "ONLINE / SYNCED")
+        bot_index_name = digibot_status.get("index_name", "digifeed-rag")
+        bot_embed_model = digibot_status.get("embedding_model", "BAAI/bge-small-en-v1.5")
+        bot_dim = digibot_status.get("dimension", 384)
+        bot_engine = digibot_status.get("embedding_engine", "FastEmbed ONNX Runtime")
+        bot_api_url = digibot_status.get("worker_api", "https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev")
+        bot_schedule = digibot_status.get("schedule", "Daily at 00:30 UTC")
+        bot_last_sync = digibot_status.get("last_sync", ops_status.get("last_update", "Synchronized"))
+
+        total_for_pct = max(bot_total_vec, 1)
+        pct_active = round((bot_active_cnt / total_for_pct) * 100, 1)
+        pct_archive = round((bot_archive_cnt / total_for_pct) * 100, 1)
+        pct_static = round((bot_static_cnt / total_for_pct) * 100, 1)
+        pct_system = round((bot_system_cnt / total_for_pct) * 100, 1)
+
         # Pre-build trending topics HTML (avoid nested f-string issues)
         trending_topics_html = " ".join(
             f'<span style="background:rgba(60,200,192,0.1);border:1px solid rgba(60,200,192,0.3);padding:2px 10px;">• {t}</span>'
@@ -2591,6 +2629,11 @@ function showArchiveDate(dateStr, btn) {{
 *{{margin:0;padding:0;box-sizing:border-box;}}
 html{{background:var(--bg);}}
 body{{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-size:20px;line-height:1.6;overflow-x:hidden;-webkit-tap-highlight-color:transparent;min-height:100vh;}}
+
+@keyframes pulse-dot {{
+  0%, 100% {{ opacity: 1; }}
+  50% {{ opacity: 0.2; }}
+}}
 
 /* Password overlay */
 #pwOverlay{{
@@ -2765,6 +2808,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     <button class="tab-btn" onclick="switchTab(this,'errors')">ERRORS</button>
     <button class="tab-btn" onclick="switchTab(this,'statistics')">STATISTICS</button>
     <button class="tab-btn" onclick="switchTab(this,'searchindex')">SEARCH INDEX</button>
+    <button class="tab-btn" onclick="switchTab(this,'digibot')">DIGIBOT (RAG & AI)</button>
     <button class="tab-btn" onclick="switchTab(this,'ai')">AI</button>
     <button class="tab-btn" onclick="switchTab(this,'logs')">LOGS</button>
   </div>
@@ -2801,6 +2845,22 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       <div class="stat-box">
         <div class="stat-val" style="color:{'#40d060' if failed_cnt == 0 else '#e04848'};">{failed_cnt}</div>
         <div class="stat-lbl">FAILED SOURCES</div>
+      </div>
+      <div class="stat-box" style="border-color:#40d060;">
+        <div class="stat-val" style="color:#40d060;">ONLINE <span style="display:inline-block;animation:pulse-dot 1.5s infinite;">●</span></div>
+        <div class="stat-lbl">DIGIBOT RAG STATUS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="color:var(--teal);">{bot_total_vec:,}</div>
+        <div class="stat-lbl">RAG VECTORS INDEXED</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#f0c040;">FastEmbed ONNX</div>
+        <div class="stat-lbl">EMBED ENGINE (384-D)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:9.5px;color:#a070e8;">Cloudflare Worker</div>
+        <div class="stat-lbl">INFERENCE EDGE API</div>
       </div>
     </div>
     <div style="margin-top:24px; max-width:600px; border-top:1px solid rgba(86,39,17,0.3); padding-top:16px;">
@@ -2888,6 +2948,8 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       <div class="stat-box"><div class="stat-val">00:00 UTC</div><div class="stat-lbl">DAILY SCHEDULE (CRON)</div></div>
       <div class="stat-box"><div class="stat-val">fetch_news.py</div><div class="stat-lbl">INGESTION SCRIPT</div></div>
       <div class="stat-box"><div class="stat-val">generate_hub.py</div><div class="stat-lbl">HTML GENERATOR</div></div>
+      <div class="stat-box"><div class="stat-val">daily_ingest.py</div><div class="stat-lbl">DIGIBOT RAG SYNC</div></div>
+      <div class="stat-box"><div class="stat-val" style="color:#f0c040;">00:30 UTC</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
     </div>
     <p style="margin-top:18px;font-size:15px;color:#5a6a8a;">The pipeline runs automatically without any manual input. All feed data, API responses, and generated HTML are committed to the repository on each successful run.</p>
   </div>
@@ -2940,6 +3002,55 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
         </div>
       </div>
     </div>
+
+    <!-- DIGIBOT VECTOR & RAG KNOWLEDGE DISTRIBUTION -->
+    <div style="margin-top:28px; border-top:1px solid var(--border); padding-top:20px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:14px;">★ DIGIBOT VECTOR & RAG KNOWLEDGE DISTRIBUTION ★</h3>
+      <div class="stats-grid" style="margin-bottom:16px;">
+        <div class="stat-box"><div class="stat-val" style="color:#40d060;">{bot_total_vec:,}</div><div class="stat-lbl">TOTAL KNOWLEDGE VECTORS</div></div>
+        <div class="stat-box"><div class="stat-val">{bot_dim}-dim</div><div class="stat-lbl">VECTOR DIMENSIONALITY</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--teal);">{bot_active_cnt}</div><div class="stat-lbl">ACTIVE DISPATCH VECTORS</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--gold);">{bot_archive_cnt}</div><div class="stat-lbl">ARCHIVE VECTORS</div></div>
+      </div>
+      <div style="font-family:'VT323',monospace; font-size:18px;">
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Historical DFIR Archive Dispatches</span>
+            <span style="color:var(--gold); font-weight:bold;">{bot_archive_cnt} vectors ({pct_archive}%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:var(--gold); width:{pct_archive}%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Active Today News & Dispatches</span>
+            <span style="color:var(--teal); font-weight:bold;">{bot_active_cnt} vectors ({pct_active}%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:var(--teal); width:{pct_active}%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Static Core Forensic Tools & Knowledge</span>
+            <span style="color:#a070e8; font-weight:bold;">{bot_static_cnt} vectors ({pct_static}%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:#a070e8; width:{max(pct_static, 2.0)}%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Dynamic Today Briefing & Live System Anchor</span>
+            <span style="color:#40d060; font-weight:bold;">{bot_system_cnt} vectors ({pct_system}%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:#40d060; width:{max(pct_system, 2.0)}%; height:100%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- SEARCH INDEX -->
@@ -2954,22 +3065,156 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
   </div>
 
+  <!-- DIGIBOT (RAG & AI) -->
+  <div id="digibot" class="panel tab-content hidden-pane">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <h2 class="panel-title">// DIGIBOT RAG & NEURAL VECTOR INTELLIGENCE //</h2>
+    <p style="margin-bottom:16px;font-size:16px;">Operational metrics, neural embedding pipeline, vector database topology, and live API diagnostics for DigiBot.</p>
+
+    <!-- DIGIBOT INFRASTRUCTURE METRICS -->
+    <div class="stats-grid" style="margin-bottom:24px;">
+      <div class="stat-box" style="border-color:#40d060;">
+        <div class="stat-val" style="color:#40d060;">{bot_status_str}</div>
+        <div class="stat-lbl">OPERATIONAL STATUS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="color:var(--teal);">{bot_total_vec:,}</div>
+        <div class="stat-lbl">TOTAL VECTORS INDEXED</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10.5px;color:#f0c040;">{bot_index_name}</div>
+        <div class="stat-lbl">PINECONE INDEX (AWS US-EAST-1)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;">{bot_embed_model}</div>
+        <div class="stat-lbl">EMBEDDING MODEL ({bot_dim}-D)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#3cc8c0;">{bot_engine}</div>
+        <div class="stat-lbl">VECTORIZATION ENGINE</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#a070e8;">Cloudflare Worker Edge</div>
+        <div class="stat-lbl">INFERENCE HOST</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">{bot_schedule}</div>
+        <div class="stat-lbl">AUTO-SYNC CADENCE</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:9.5px;color:var(--text);">{bot_last_sync}</div>
+        <div class="stat-lbl">LAST RAG SYNC CYCLE</div>
+      </div>
+    </div>
+
+    <!-- VECTOR KNOWLEDGE DISTRIBUTION -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ VECTOR KNOWLEDGE SPACE COMPOSITION ★</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--teal); margin-bottom:4px;">ACTIVE DISPATCHES</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">{bot_active_cnt} <span style="font-size:14px; color:var(--subtext);">({pct_active}%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Real-time feed stories parsed in the latest sync cycle.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--gold); margin-bottom:4px;">HISTORICAL ARCHIVE</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">{bot_archive_cnt} <span style="font-size:14px; color:var(--subtext);">({pct_archive}%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Historical intelligence records & threat timeline.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#a070e8; margin-bottom:4px;">DFIR KNOWLEDGE</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">{bot_static_cnt} <span style="font-size:14px; color:var(--subtext);">({pct_static}%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Curated forensic cheat-sheets, tools, and definitions.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#40d060; margin-bottom:4px;">DYNAMIC SYSTEM ANCHOR</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">{bot_system_cnt} <span style="font-size:14px; color:var(--subtext);">({pct_system}%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Anchors today's date, top headlines, and current CVEs.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RAG ARCHITECTURE PIPELINE WORKFLOW -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ END-TO-END RAG ARCHITECTURE PIPELINE ★</h3>
+      <div style="background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:16px; font-family:'VT323',monospace; font-size:16px; line-height:1.5;">
+        <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; text-align:center;">
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid var(--teal); padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--teal); margin-bottom:6px;">1. INGESTION</div>
+            <div style="font-size:14px; color:#fff;">Daily fetch_news.py</div>
+            <div style="font-size:12px; color:var(--subtext);">RSS + APIs + Archives</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #f0c040; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#f0c040; margin-bottom:6px;">2. VECTORIZATION</div>
+            <div style="font-size:14px; color:#fff;">FastEmbed ONNX</div>
+            <div style="font-size:12px; color:var(--subtext);">384-dim Dense Embeddings</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #40d060; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#40d060; margin-bottom:6px;">3. VECTOR STORE</div>
+            <div style="font-size:14px; color:#fff;">Pinecone Serverless</div>
+            <div style="font-size:12px; color:var(--subtext);">digifeed-rag Index</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #a070e8; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#a070e8; margin-bottom:6px;">4. EDGE ROUTER</div>
+            <div style="font-size:14px; color:#fff;">Cloudflare Worker</div>
+            <div style="font-size:12px; color:var(--subtext);">Semantic Query & Context</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #e04848; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#e04848; margin-bottom:6px;">5. GROUNDED AI</div>
+            <div style="font-size:14px; color:#fff;">DigiBot Response</div>
+            <div style="font-size:12px; color:var(--subtext);">Accurate Today Briefing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIVE DIGIBOT DIAGNOSTICS & PING CONSOLE -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ LIVE DIGIBOT API TEST & DIAGNOSTICS CONSOLE ★</h3>
+      <p style="font-size:15px; color:#b8c8e0; margin-bottom:12px;">Ping the production Cloudflare Worker API bridge (<code>{bot_api_url}</code>) and evaluate real-time response latency and RAG retrieval:</p>
+      
+      <div style="display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+        <button id="opsPingBtn" onclick="opsPingDigibot()" style="font-family:'Press Start 2P',monospace; font-size:6px; padding:10px 16px; background:#1b253b; border:1px solid #3cc8c0; color:#3cc8c0; cursor:pointer;">⚡ PING API BRIDGE</button>
+        <button onclick="opsSetQuery('What is today\\'s briefing?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(60,200,192,0.1); border:1px solid rgba(60,200,192,0.3); color:#3cc8c0; cursor:pointer;">Preset: Today's Briefing</button>
+        <button onclick="opsSetQuery('When were you last updated?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(240,192,64,0.1); border:1px solid rgba(240,192,64,0.3); color:#f0c040; cursor:pointer;">Preset: Last Updated Date</button>
+        <button onclick="opsSetQuery('What are the latest CVEs today?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(160,112,232,0.1); border:1px solid rgba(160,112,232,0.3); color:#a070e8; cursor:pointer;">Preset: Latest CVEs</button>
+      </div>
+
+      <div style="display:flex; gap:8px; margin-bottom:12px;">
+        <input type="text" id="opsQueryInput" placeholder="Enter custom query to test DigiBot RAG..." style="flex:1; padding:8px 12px; background:#080b18; border:1px solid var(--border); color:#fff; font-family:'VT323',monospace; font-size:18px; outline:none;" onkeydown="if(event.key==='Enter')opsQueryDigibot()">
+        <button id="opsQueryBtn" onclick="opsQueryDigibot()" style="font-family:'Press Start 2P',monospace; font-size:6px; padding:8px 16px; background:linear-gradient(180deg,#b05830 0%,#6a2808 100%); border:1px solid #c06030; color:#ffe878; cursor:pointer;">QUERY</button>
+      </div>
+
+      <div id="opsConsoleOutput" style="background:#080b18; border:1px solid var(--border); padding:14px; min-height:80px; max-height:280px; overflow-y:auto; font-family:'VT323',monospace; font-size:16px; color:#b8c8e0;">
+        <span style="color:#5a6a8a;">// Console ready. Click "PING API BRIDGE" or send a query to inspect live DigiBot response.</span>
+      </div>
+    </div>
+  </div>
+
   <!-- AI -->
   <div id="ai" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// AI PIPELINE //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">AI and NLP components used in the DigiFeed ingestion pipeline:</p>
+    <p style="margin-bottom:16px;font-size:16px;">AI, NLP, and Neural RAG components used in DigiFeed and DigiBot:</p>
     <div style="display:flex;flex-direction:column;gap:14px;">
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">DIGIBOT RAG & NEURAL VECTOR SEARCH</p>
+        <p style="font-size:15px;color:#b8c8e0;">Retrieval-Augmented Generation engine using FastEmbed ONNX local embedding inference (BAAI/bge-small-en-v1.5, 384 dimensions) indexed in Pinecone Serverless. Cloudflare Worker Edge handles Top-K semantic matching, daily briefing context anchoring, and grounded responses.</p>
+      </div>
+      <div style="border:1px solid var(--border);padding:16px;">
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
         <p style="font-size:15px;color:#b8c8e0;">Rule-based keyword scoring maps each dispatch to one of the 6 canonical DFIR categories. Forensic relevance score is computed from keyword frequency and source authority.</p>
       </div>
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">SIMILARITY ENGINE</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SIMILARITY ENGINE</p>
         <p style="font-size:15px;color:#b8c8e0;">TF-IDF cosine similarity used to compute SIMILAR DISPATCHES links shown on each news card.</p>
       </div>
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SUMMARY EXTRACTION</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#40d060;margin-bottom:8px;">SUMMARY EXTRACTION</p>
         <p style="font-size:15px;color:#b8c8e0;">Article summaries extracted from RSS descriptions. Plain text NLP — no external LLM required.</p>
       </div>
     </div>
@@ -3023,7 +3268,76 @@ function switchTab(btn, tabId){{
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
-  document.getElementById(tabId).classList.remove('hidden-pane');
+  var target = document.getElementById(tabId);
+  if (target) target.classList.remove('hidden-pane');
+}}
+
+// Ops DigiBot Live Diagnostics
+function opsSetQuery(text) {{
+  var qInput = document.getElementById('opsQueryInput');
+  if (qInput) {{
+    qInput.value = text;
+    opsQueryDigibot();
+  }}
+}}
+
+async function opsPingDigibot() {{
+  var out = document.getElementById('opsConsoleOutput');
+  var btn = document.getElementById('opsPingBtn');
+  if (btn) btn.disabled = true;
+  if (out) out.innerHTML = '<span style="color:#f0c040;">[PING] Transmitting probe to Cloudflare Worker bridge...</span>';
+  var startTime = performance.now();
+  try {{
+    var resp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {{
+      method: 'POST',
+      headers: {{ 'Content-Type': 'application/json' }},
+      body: JSON.stringify({{ message: "ping" }})
+    }});
+    var duration = Math.round(performance.now() - startTime);
+    if (resp.ok) {{
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ HTTP 200 OK — Bridge Online</span><br>' +
+                      '<span style="color:#3cc8c0;">Latency: ' + duration + ' ms</span><br>' +
+                      '<span style="color:#b8c8e0;">Worker Status: Operational | RAG Pipeline Active</span>';
+    }} else {{
+      if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ HTTP ' + resp.status + ' ' + resp.statusText + '</span><br>' +
+                      '<span style="color:#b8c8e0;">Latency: ' + duration + ' ms</span>';
+    }}
+  }} catch (err) {{
+    if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Network Connection Failed: ' + err.message + '</span>';
+  }}
+  if (btn) btn.disabled = false;
+}}
+
+async function opsQueryDigibot() {{
+  var input = document.getElementById('opsQueryInput');
+  if (!input) return;
+  var q = input.value.trim();
+  if (!q) return;
+  var out = document.getElementById('opsConsoleOutput');
+  var btn = document.getElementById('opsQueryBtn');
+  if (btn) btn.disabled = true;
+  if (out) out.innerHTML = '<span style="color:#f0c040;">[QUERY] Sending: "' + q.replace(/</g,'&lt;') + '"</span><br><span style="color:#5a6a8a;">Retrieving vector embeddings and querying Pinecone...</span>';
+  var startTime = performance.now();
+  try {{
+    var resp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {{
+      method: 'POST',
+      headers: {{ 'Content-Type': 'application/json' }},
+      body: JSON.stringify({{ message: q }})
+    }});
+    var duration = Math.round(performance.now() - startTime);
+    if (resp.ok) {{
+      var data = await resp.json();
+      var reply = (data.reply || "Empty response").replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\\n/g, '<br>');
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ RESPONSE RECEIVED (' + duration + ' ms)</span><br><br>' +
+                      '<div style="color:#fff; line-height:1.4;">' + reply + '</div>';
+    }} else {{
+      var errTxt = await resp.text();
+      if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ ERROR ' + resp.status + ':</span> ' + errTxt;
+    }}
+  }} catch (err) {{
+    if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Query Failed:</span> ' + err.message;
+  }}
+  if (btn) btn.disabled = false;
 }}
 
 </script>

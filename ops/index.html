@@ -20,6 +20,11 @@
 html{background:var(--bg);}
 body{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-size:20px;line-height:1.6;overflow-x:hidden;-webkit-tap-highlight-color:transparent;min-height:100vh;}
 
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
 /* Password overlay */
 #pwOverlay{
   position:fixed;inset:0;background:rgba(8,11,24,0.97);z-index:9999;
@@ -193,6 +198,7 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
     <button class="tab-btn" onclick="switchTab(this,'errors')">ERRORS</button>
     <button class="tab-btn" onclick="switchTab(this,'statistics')">STATISTICS</button>
     <button class="tab-btn" onclick="switchTab(this,'searchindex')">SEARCH INDEX</button>
+    <button class="tab-btn" onclick="switchTab(this,'digibot')">DIGIBOT (RAG & AI)</button>
     <button class="tab-btn" onclick="switchTab(this,'ai')">AI</button>
     <button class="tab-btn" onclick="switchTab(this,'logs')">LOGS</button>
   </div>
@@ -229,6 +235,22 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
       <div class="stat-box">
         <div class="stat-val" style="color:#40d060;">0</div>
         <div class="stat-lbl">FAILED SOURCES</div>
+      </div>
+      <div class="stat-box" style="border-color:#40d060;">
+        <div class="stat-val" style="color:#40d060;">ONLINE <span style="display:inline-block;animation:pulse-dot 1.5s infinite;">●</span></div>
+        <div class="stat-lbl">DIGIBOT RAG STATUS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="color:var(--teal);">1,071</div>
+        <div class="stat-lbl">RAG VECTORS INDEXED</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#f0c040;">FastEmbed ONNX</div>
+        <div class="stat-lbl">EMBED ENGINE (384-D)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:9.5px;color:#a070e8;">Cloudflare Worker</div>
+        <div class="stat-lbl">INFERENCE EDGE API</div>
       </div>
     </div>
     <div style="margin-top:24px; max-width:600px; border-top:1px solid rgba(86,39,17,0.3); padding-top:16px;">
@@ -999,6 +1021,8 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
       <div class="stat-box"><div class="stat-val">00:00 UTC</div><div class="stat-lbl">DAILY SCHEDULE (CRON)</div></div>
       <div class="stat-box"><div class="stat-val">fetch_news.py</div><div class="stat-lbl">INGESTION SCRIPT</div></div>
       <div class="stat-box"><div class="stat-val">generate_hub.py</div><div class="stat-lbl">HTML GENERATOR</div></div>
+      <div class="stat-box"><div class="stat-val">daily_ingest.py</div><div class="stat-lbl">DIGIBOT RAG SYNC</div></div>
+      <div class="stat-box"><div class="stat-val" style="color:#f0c040;">00:30 UTC</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
     </div>
     <p style="margin-top:18px;font-size:15px;color:#5a6a8a;">The pipeline runs automatically without any manual input. All feed data, API responses, and generated HTML are committed to the repository on each successful run.</p>
   </div>
@@ -1136,6 +1160,55 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
         </div>
       </div>
     </div>
+
+    <!-- DIGIBOT VECTOR & RAG KNOWLEDGE DISTRIBUTION -->
+    <div style="margin-top:28px; border-top:1px solid var(--border); padding-top:20px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:14px;">★ DIGIBOT VECTOR & RAG KNOWLEDGE DISTRIBUTION ★</h3>
+      <div class="stats-grid" style="margin-bottom:16px;">
+        <div class="stat-box"><div class="stat-val" style="color:#40d060;">1,071</div><div class="stat-lbl">TOTAL KNOWLEDGE VECTORS</div></div>
+        <div class="stat-box"><div class="stat-val">384-dim</div><div class="stat-lbl">VECTOR DIMENSIONALITY</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--teal);">66</div><div class="stat-lbl">ACTIVE DISPATCH VECTORS</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--gold);">1000</div><div class="stat-lbl">ARCHIVE VECTORS</div></div>
+      </div>
+      <div style="font-family:'VT323',monospace; font-size:18px;">
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Historical DFIR Archive Dispatches</span>
+            <span style="color:var(--gold); font-weight:bold;">1000 vectors (93.4%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:var(--gold); width:93.4%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Active Today News & Dispatches</span>
+            <span style="color:var(--teal); font-weight:bold;">66 vectors (6.2%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:var(--teal); width:6.2%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Static Core Forensic Tools & Knowledge</span>
+            <span style="color:#a070e8; font-weight:bold;">3 vectors (0.3%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:#a070e8; width:2.0%; height:100%;"></div>
+          </div>
+        </div>
+        <div style="margin-bottom:10px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:3px;">
+            <span>Dynamic Today Briefing & Live System Anchor</span>
+            <span style="color:#40d060; font-weight:bold;">2 vectors (0.2%)</span>
+          </div>
+          <div style="background:#0c0f1d; height:10px; border:1px solid rgba(86,39,17,0.4); overflow:hidden;">
+            <div style="background:#40d060; width:2.0%; height:100%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- SEARCH INDEX -->
@@ -1150,22 +1223,156 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
     </div>
   </div>
 
+  <!-- DIGIBOT (RAG & AI) -->
+  <div id="digibot" class="panel tab-content hidden-pane">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <h2 class="panel-title">// DIGIBOT RAG & NEURAL VECTOR INTELLIGENCE //</h2>
+    <p style="margin-bottom:16px;font-size:16px;">Operational metrics, neural embedding pipeline, vector database topology, and live API diagnostics for DigiBot.</p>
+
+    <!-- DIGIBOT INFRASTRUCTURE METRICS -->
+    <div class="stats-grid" style="margin-bottom:24px;">
+      <div class="stat-box" style="border-color:#40d060;">
+        <div class="stat-val" style="color:#40d060;">ONLINE / SYNCED</div>
+        <div class="stat-lbl">OPERATIONAL STATUS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="color:var(--teal);">1,071</div>
+        <div class="stat-lbl">TOTAL VECTORS INDEXED</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10.5px;color:#f0c040;">digifeed-rag</div>
+        <div class="stat-lbl">PINECONE INDEX (AWS US-EAST-1)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;">BAAI/bge-small-en-v1.5</div>
+        <div class="stat-lbl">EMBEDDING MODEL (384-D)</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#3cc8c0;">FastEmbed ONNX Runtime</div>
+        <div class="stat-lbl">VECTORIZATION ENGINE</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:10px;color:#a070e8;">Cloudflare Worker Edge</div>
+        <div class="stat-lbl">INFERENCE HOST</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val">Daily at 00:30 UTC</div>
+        <div class="stat-lbl">AUTO-SYNC CADENCE</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" style="font-size:9.5px;color:var(--text);">05 Sep 2026, 04:44 UTC</div>
+        <div class="stat-lbl">LAST RAG SYNC CYCLE</div>
+      </div>
+    </div>
+
+    <!-- VECTOR KNOWLEDGE DISTRIBUTION -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ VECTOR KNOWLEDGE SPACE COMPOSITION ★</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--teal); margin-bottom:4px;">ACTIVE DISPATCHES</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">66 <span style="font-size:14px; color:var(--subtext);">(6.2%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Real-time feed stories parsed in the latest sync cycle.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--gold); margin-bottom:4px;">HISTORICAL ARCHIVE</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">1000 <span style="font-size:14px; color:var(--subtext);">(93.4%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Historical intelligence records & threat timeline.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#a070e8; margin-bottom:4px;">DFIR KNOWLEDGE</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">3 <span style="font-size:14px; color:var(--subtext);">(0.3%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Curated forensic cheat-sheets, tools, and definitions.</div>
+        </div>
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:12px;">
+          <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#40d060; margin-bottom:4px;">DYNAMIC SYSTEM ANCHOR</div>
+          <div style="font-size:22px; font-weight:bold; color:#fff;">2 <span style="font-size:14px; color:var(--subtext);">(0.2%)</span></div>
+          <div style="font-size:13px; color:#b8c8e0;">Anchors today's date, top headlines, and current CVEs.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RAG ARCHITECTURE PIPELINE WORKFLOW -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ END-TO-END RAG ARCHITECTURE PIPELINE ★</h3>
+      <div style="background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:16px; font-family:'VT323',monospace; font-size:16px; line-height:1.5;">
+        <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; text-align:center;">
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid var(--teal); padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--teal); margin-bottom:6px;">1. INGESTION</div>
+            <div style="font-size:14px; color:#fff;">Daily fetch_news.py</div>
+            <div style="font-size:12px; color:var(--subtext);">RSS + APIs + Archives</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #f0c040; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#f0c040; margin-bottom:6px;">2. VECTORIZATION</div>
+            <div style="font-size:14px; color:#fff;">FastEmbed ONNX</div>
+            <div style="font-size:12px; color:var(--subtext);">384-dim Dense Embeddings</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #40d060; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#40d060; margin-bottom:6px;">3. VECTOR STORE</div>
+            <div style="font-size:14px; color:#fff;">Pinecone Serverless</div>
+            <div style="font-size:12px; color:var(--subtext);">digifeed-rag Index</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #a070e8; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#a070e8; margin-bottom:6px;">4. EDGE ROUTER</div>
+            <div style="font-size:14px; color:#fff;">Cloudflare Worker</div>
+            <div style="font-size:12px; color:var(--subtext);">Semantic Query & Context</div>
+          </div>
+          <span style="color:var(--gold); font-size:20px;">➔</span>
+          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #e04848; padding:10px;">
+            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#e04848; margin-bottom:6px;">5. GROUNDED AI</div>
+            <div style="font-size:14px; color:#fff;">DigiBot Response</div>
+            <div style="font-size:12px; color:var(--subtext);">Accurate Today Briefing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIVE DIGIBOT DIAGNOSTICS & PING CONSOLE -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ LIVE DIGIBOT API TEST & DIAGNOSTICS CONSOLE ★</h3>
+      <p style="font-size:15px; color:#b8c8e0; margin-bottom:12px;">Ping the production Cloudflare Worker API bridge (<code>https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev</code>) and evaluate real-time response latency and RAG retrieval:</p>
+      
+      <div style="display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+        <button id="opsPingBtn" onclick="opsPingDigibot()" style="font-family:'Press Start 2P',monospace; font-size:6px; padding:10px 16px; background:#1b253b; border:1px solid #3cc8c0; color:#3cc8c0; cursor:pointer;">⚡ PING API BRIDGE</button>
+        <button onclick="opsSetQuery('What is today\'s briefing?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(60,200,192,0.1); border:1px solid rgba(60,200,192,0.3); color:#3cc8c0; cursor:pointer;">Preset: Today's Briefing</button>
+        <button onclick="opsSetQuery('When were you last updated?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(240,192,64,0.1); border:1px solid rgba(240,192,64,0.3); color:#f0c040; cursor:pointer;">Preset: Last Updated Date</button>
+        <button onclick="opsSetQuery('What are the latest CVEs today?')" style="font-family:'VT323',monospace; font-size:16px; padding:4px 10px; background:rgba(160,112,232,0.1); border:1px solid rgba(160,112,232,0.3); color:#a070e8; cursor:pointer;">Preset: Latest CVEs</button>
+      </div>
+
+      <div style="display:flex; gap:8px; margin-bottom:12px;">
+        <input type="text" id="opsQueryInput" placeholder="Enter custom query to test DigiBot RAG..." style="flex:1; padding:8px 12px; background:#080b18; border:1px solid var(--border); color:#fff; font-family:'VT323',monospace; font-size:18px; outline:none;" onkeydown="if(event.key==='Enter')opsQueryDigibot()">
+        <button id="opsQueryBtn" onclick="opsQueryDigibot()" style="font-family:'Press Start 2P',monospace; font-size:6px; padding:8px 16px; background:linear-gradient(180deg,#b05830 0%,#6a2808 100%); border:1px solid #c06030; color:#ffe878; cursor:pointer;">QUERY</button>
+      </div>
+
+      <div id="opsConsoleOutput" style="background:#080b18; border:1px solid var(--border); padding:14px; min-height:80px; max-height:280px; overflow-y:auto; font-family:'VT323',monospace; font-size:16px; color:#b8c8e0;">
+        <span style="color:#5a6a8a;">// Console ready. Click "PING API BRIDGE" or send a query to inspect live DigiBot response.</span>
+      </div>
+    </div>
+  </div>
+
   <!-- AI -->
   <div id="ai" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// AI PIPELINE //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">AI and NLP components used in the DigiFeed ingestion pipeline:</p>
+    <p style="margin-bottom:16px;font-size:16px;">AI, NLP, and Neural RAG components used in DigiFeed and DigiBot:</p>
     <div style="display:flex;flex-direction:column;gap:14px;">
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">DIGIBOT RAG & NEURAL VECTOR SEARCH</p>
+        <p style="font-size:15px;color:#b8c8e0;">Retrieval-Augmented Generation engine using FastEmbed ONNX local embedding inference (BAAI/bge-small-en-v1.5, 384 dimensions) indexed in Pinecone Serverless. Cloudflare Worker Edge handles Top-K semantic matching, daily briefing context anchoring, and grounded responses.</p>
+      </div>
+      <div style="border:1px solid var(--border);padding:16px;">
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
         <p style="font-size:15px;color:#b8c8e0;">Rule-based keyword scoring maps each dispatch to one of the 6 canonical DFIR categories. Forensic relevance score is computed from keyword frequency and source authority.</p>
       </div>
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">SIMILARITY ENGINE</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SIMILARITY ENGINE</p>
         <p style="font-size:15px;color:#b8c8e0;">TF-IDF cosine similarity used to compute SIMILAR DISPATCHES links shown on each news card.</p>
       </div>
       <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SUMMARY EXTRACTION</p>
+        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#40d060;margin-bottom:8px;">SUMMARY EXTRACTION</p>
         <p style="font-size:15px;color:#b8c8e0;">Article summaries extracted from RSS descriptions. Plain text NLP — no external LLM required.</p>
       </div>
     </div>
@@ -1176,903 +1383,11 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// EXECUTION LOGS //</h2>
     <pre style="max-height: 400px; overflow-y: auto; margin-bottom: 20px; font-family:'VT323',monospace; font-size:14px; background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:12px;">
-
-[Fetching] Magnet Forensics — https://www.magnetforensics.com/feed
-  [+] Digital fraud in a connected world: how it works and how to prevent it
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (8d): Investigating at scale: Lessons from three DFIR leaders
-  [Skip Stale] Older than 72 hours (15d): Protecting the people doing the hardest jobs
-  [Skip Stale] Older than 72 hours (17d): The data-driven approach: Drafting cloud search warrants aro
-  [Skip Stale] Older than 72 hours (18d): More tools, more friction: why DFIR toolkits need a connecti
-  [Skip] Already seen: From alert to forensic insight, automatically, with the Magn
-  [Skip Stale] Older than 72 hours (29d): Forensic Early Case Assessment: is eDiscovery collecting the
-  [Skip] Already seen: Vehicle forensics: a practical guide
-
-[Fetching] Hexordia — https://www.hexordia.com/blog/rss.xml
-  [Skip] Already seen: Checking out Evanole VM v20260603: Introducing EVM!
-  [Skip Stale] Older than 72 hours (122d): MachO Execution Shims - containermanagerd - iOS
-  [Skip] Already seen: New Lumyx Essentials Course at Hexordia
-  [Skip] Already seen: The Android Googlfication Spectrum
-  [Skip] Already seen: Digital Forensics On-Scene Triage: A Best Practice Discussio
-  [Skip] Already seen: 2026 MSAB CTF: iOS Questions
-  [Skip] Already seen: 2026 MSAB CTF: Android Questions
-  [Skip] Already seen: Magnet Virtual Summit 2026 CTF - Cipher Questions
-
-[Fetching] Elcomsoft — https://blog.elcomsoft.com/feed/
-  [Skip] Already seen: Elcomsoft Quick Triage 2.2: Timeline, file system snapshot, 
-  [Skip Stale] Older than 72 hours (11d): The True Meaning of Consent in ‘Consent Extractions’
-  [Skip] Already seen: Write Blockers in Forensics: What Controls How You Use Them?
-  [Skip Stale] Older than 72 hours (30d): The iOS 27 Recovery Menu: What It Means for Forensics
-  [Skip] Already seen: Special macOS Firewall: Safe Sideloading of the EIFT Extract
-  [Skip] Already seen: When the iCloud Backup Is the Only Copy Left
-  [Skip] Already seen: Locked In or Locked Out? Unlocking ZIP, RAR, PDF, and Micros
-  [Skip] Already seen: How to recover deleted data from your iPhone
-
-[Fetching] Swift Forensics — http://www.swiftforensics.com/feeds/posts/default
-  [Skip Stale] Older than 72 hours (590d): New Wifi database from Apple intelligence
-  [Skip] Already seen: mac_apt update to BTM processing
-  [Skip Stale] Older than 72 hours (761d): NSKeyedArchive Deserializer update
-  [Skip Stale] Older than 72 hours (1400d): Reading OneDrive Logs Part 2
-  [Skip Stale] Older than 72 hours (1664d): Reading OneDrive Logs
-  [Skip] Already seen: Gboard has some interesting data..
-  [Skip Stale] Older than 72 hours (2070d): iOS Application Groups & Shared data
-  [Skip] Already seen: Introducing ios_apt - iOS Artifact Parsing Tool
-
-[Fetching] Windows Incident Response — https://windowsir.blogspot.com/feeds/posts/default
-  [Skip Stale] Older than 72 hours (14d): True Lies
-  [Skip] Already seen: Finding Initial Access
-  [Skip] Already seen: LNK Files in CTI
-  [Skip] Already seen: Rigor in Threat Intel
-  [Skip Stale] Older than 72 hours (69d): Consistency
-  [Skip] Already seen: Timelines
-  [Skip] Already seen: LNK Files
-  [Skip Stale] Older than 72 hours (178d): Links
-
-[Fetching] Forensic Focus — https://news.google.com/rss/search?q=site:forensicfocus.com&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (8d): Walk A Mile In Their Shoes: The Hidden World Of The Digital 
-  [Skip Stale] Older than 72 hours (15d): Impact, Coping And Support – Further Reflections From The DF
-  [Skip Stale] Older than 72 hours (23d): Digital Forensics Round-Up, August 12 2026 - Forensic Focus
-  [Skip Stale] Older than 72 hours (9d): Digital Forensics Round-Up, August 26 2026 - Forensic Focus
-  [Skip Exclusion] Conference / event article excluded: UPCOMING WEBINAR – Reducing ICAC Backlogs: Prioritizing Digi
-  [Skip Stale] Older than 72 hours (177d): Digital Forensics Round-Up, March 11 2026 - Forensic Focus
-  [Skip Stale] Older than 72 hours (59d): Cumulative Trauma In Digital Forensics And Policing With Ben
-  [Skip Stale] Older than 72 hours (3727d): Lee Reiber, COO, Oxygen Forensics - Forensic Focus
-
-[Fetching] DFIR.Training — https://news.google.com/rss/search?q=%22DFIR+Training%22+OR+%22dfir.training%22&hl=en-US&gl=US&ceid=US:en
-
-[Fetching] AboutDFIR — https://aboutdfir.com/feed/
-  [+] InfoSec News Nuggets – 09/04/2026
-      Summarizing with Hugging Face...
-  [Skip] Already seen: InfoSec News Nuggets – 09/03/2026
-  [Skip] Already seen: InfoSec News Nuggets – 09/02/2026
-  [Skip] Already seen: InfoSec News Nuggets – 09/01/2026
-  [Skip] Already seen: InfoSec News Nuggets – 08/31/2026
-  [Skip Stale] Older than 72 hours (7d): InfoSec News Nuggets – 08/28/2026
-  [Skip] Already seen: InfoSec News Nuggets – 08/27/2026
-  [Skip Stale] Older than 72 hours (9d): InfoSec News Nuggets – 08/26/2026
-
-[Fetching] This Week in 4n6 — https://news.google.com/rss/search?q=site:thisweekin4n6.com+OR+%22thisweekin4n6%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (26d): Week 32 – 2026 - This Week In 4n6
-  [Skip] Already seen: About - This Week In 4n6
-  [Skip] Already seen: Week 29 – 2026 - This Week In 4n6
-  [Skip] Already seen: This Week In 4n6 - This Week In 4n6
-  [Skip] Already seen: Week 19 – 2026 - This Week In 4n6
-  [Skip] Already seen: Week 17 – 2026 - This Week In 4n6
-  [Skip] Already seen: Week 16 – 2026 - This Week In 4n6
-  [Skip Stale] Older than 72 hours (68d): Week 26 – 2026 - This Week In 4n6
-
-[Fetching] DFIR Madness — https://dfirmadness.com/feed/
-  [Skip] Already seen: Case 002 – Tyler Hudak’s Honeypot
-  [Skip] Already seen: InfoSec-Fortress
-  [Skip] Already seen: Case 001 Super Timeline Analysis
-  [Skip] Already seen: Triage Disk Analysis Case 001
-  [Skip] Already seen: Case 001 – The Timing of it All
-  [Skip] Already seen: Incident Response Thumb Drive
-  [Skip Exclusion] Case study article excluded: Case 001 AutoRuns Analysis
-  [Skip Stale] Older than 72 hours (2111d): Mounting Case001 E01 Files
-
-[Fetching] Didier Stevens — https://news.google.com/rss/search?q=%22Didier+Stevens%22+malware&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: German Dridex spam campaign is unfashionably large - Virus B
-  [Skip Stale] Older than 72 hours (800d): Attackers Exploiting Public Cobalt Strike Profiles - Unit 42
-  [Skip Stale] Older than 72 hours (3970d): Beware of DOC! A look at malicious macros - Malwarebytes
-  [Skip] Already seen: Adobe: ‘Sandbox’ Will Stave Off Reader Attacks - Krebs on Se
-  [Skip Stale] Older than 72 hours (3559d): Petya Ransomware Returns with GoldenEye Version, Continuing 
-  [Skip Stale] Older than 72 hours (5963d): Foxit adds ‘safe mode’ to counter PDF attacks - ZDNET
-  [Skip] Already seen: Microsoft releases WannaCrypt patch for Windows XP, Server 2
-  [Skip Stale] Older than 72 hours (3249d): Microsoft Office Attack Runs Malware Without Needing Macros 
-
-[Fetching] DFRWS — https://news.google.com/rss/search?q=%22DFRWS%22+forensics&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (399d): DFRWS APAC 2025 - Paper accepted — DigFor - Universität der 
-  [Skip Stale] Older than 72 hours (190d): Review: Digital Forensics, Investigation, and Response, 5th 
-  [Skip Exclusion] Conference / event article excluded: The international conference on digital forensic analysis, D
-  [Skip Stale] Older than 72 hours (2796d): iSchool Professor Publishes and Presents Research on Cyber F
-  [Skip Exclusion] Conference / event article excluded: Digital forensics conference - Hong Kong Police Force
-  [Skip Exclusion] Conference / event article excluded: ForTrace Workshop @ DFRWS EU 2024 — DigFor - Universität der
-  [Skip Exclusion] Conference / event article excluded: DTC Executive Director Delivers the Welcoming Remarks at the
-  [Skip Stale] Older than 72 hours (2678d): Monaco’s digital security agency rises to the challenge - Mo
-
-[Fetching] CISA Alerts — https://www.cisa.gov/news.xml
-  [Skip] Already seen: CISA Advisory Highlights Red Team Findings to Help Organizat
-  [Skip] Already seen: CISA Releases Foundational, Flexible Guidance to Help Federa
-  [Skip] Already seen: CISA Unveils New Cybersecurity Resources for K-12 Schools an
-  [Skip Stale] Older than 72 hours (25d): CISA, FBI and Partners Warn Organizations of Gunra Ransomwar
-  [Skip] Already seen: CISA Guide Helps Federal Agencies Securely and Effectively U
-  [Skip] Already seen: CISA and Partners Unveil Updated Software Bill of Materials 
-  [Skip] Already seen: CISA Joins Australia and Others to Publish Guidance to Isola
-  [Skip] Already seen: CISA, NSA, FBI and Partners Warn Zimbra Collaboration Suite 
-
-[Fetching] NIST Cybersecurity — https://news.google.com/rss/search?q=site:nist.gov+cybersecurity&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Back to the Future: Why Agentic AI Needs a Strong Identity F
-  [Skip Stale] Older than 72 hours (921d): The NIST Cybersecurity Framework (CSF) 2.0 - National Instit
-  [Skip Stale] Older than 72 hours (921d): The NIST Cybersecurity Framework (CSF) 2.0 - National Instit
-  [Skip Stale] Older than 72 hours (2190d): Security and Privacy Controls for Information Systems and Or
-  [Skip Stale] Older than 72 hours (519d): SP 800-61 Rev. 3, Incident Response Recommendations and Cons
-  [Skip] Already seen: Vulnerabilities - National Institute of Standards and Techno
-  [Skip Stale] Older than 72 hours (3655d): Cybersecurity Framework - National Institute of Standards an
-  [Skip Stale] Older than 72 hours (1830d): AI Risk Management Framework - National Institute of Standar
-
-[Fetching] NCSC UK Threat Reports — https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml
-  [Skip] Already seen: Impact of AI on cyber threat from now to 2027
-  [Skip] Already seen: A method to assess 'forgivable' vs 'unforgivable' vulnerabil
-  [Skip] Already seen: The near-term impact of AI on the cyber threat
-  [Skip] Already seen: ACD - The Sixth Year
-  [Skip] Already seen: Cyber Threat Report: UK Legal Sector
-  [Skip] Already seen: The threat from commercial cyber proliferation
-  [Skip Stale] Older than 72 hours (1578d): ACD - The Fifth Year
-  [Skip Stale] Older than 72 hours (1578d): Organisational use of Enterprise Connected Devices
-
-[Fetching] Europol News — https://www.europol.europa.eu/rss.xml
-  [Skip Stale] Missing publication date: Europol and European Labour Authority strengthen cooperation
-  [Skip] Already seen: Global public-private operation disrupts Sality botnet activ
-  [Skip] Already seen: Growing number of data requests and complex legal landscape 
-  [Skip] Already seen: Museum heists turn violent: new Europol report on cultural p
-  [Skip] Already seen: 78 arrests in bust of major Western Mediterranean smuggling 
-  [Skip] Already seen: Syrian migrant smugglers arrested in coordinated strike in G
-  [Skip] Already seen: Season 4 of The Europol Podcast available now
-  [Skip Stale] Missing publication date: Europol-led action against nihilistic violent extremist netw
-
-[Fetching] SANS Stormcast — https://news.google.com/rss/search?q=site:isc.sans.edu+OR+%22SANS+Internet+Storm+Center%22&hl=en-US&gl=US&ceid=US:en
-  [+] Daily Network Security News Summary; Cyber Security Podcast - SANS Int
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (5980d): Cyber Security Podcasts - SANS Internet Storm Center
-  [Skip Stale] Older than 72 hours (8d): Some Malicious PE Stats - SANS Internet Storm Center
-  [Skip Stale] Older than 72 hours (19d): Wireshark 4.6.8 Released - SANS Internet Storm Center
-  [Skip Stale] Older than 72 hours (5557d): Today's Summary - SANS Internet Storm Center - SANS Internet
-  [Skip Stale] Older than 72 hours (5104d): TCP Fuzzing with Scapy - SANS Internet Storm Center
-  [Skip Stale] Older than 72 hours (359d): BASE64 Over DNS - SANS Internet Storm Center
-  [Skip Stale] Older than 72 hours (1439d): Research Papers - SANS Internet Storm Center
-
-[Fetching] Malwarebytes Labs — https://news.google.com/rss/search?q=site:malwarebytes.com/blog&hl=en-US&gl=US&ceid=US:en
-  [+] Scammers are getting smarter about where they target you - Malwarebyte
-      Summarizing with Hugging Face...
-  [+] StreamRat Android malware spreads through Meta and TikTok ads - Malwar
-      Summarizing with Hugging Face...
-  [+] 153M+ driver’s licenses for sale on new dark web platform - Malwarebyt
-      Summarizing with Hugging Face...
-  [+] Two critical Chrome flaws put users at risk on malicious websites - Ma
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (3d): Fake GTA 6 leaked copy drains your crypto wallet - Malwareby
-  [Skip Stale] Older than 72 hours (3d): Infostealers are hijacking Claude accounts at users’ expense
-  [Skip Stale] Older than 72 hours (2479d): Explained: juice jacking - Malwarebytes
-  [Skip Stale] Older than 72 hours (43d): Millions of cars could be tracked and unlocked by a hidden s
-
-[Fetching] Krebs on Security — https://krebsonsecurity.com/feed/
-  [Skip] Already seen: FBI Probes Service Selling 153M+ Drivers Licenses
-  [Skip Stale] Older than 72 hours (8d): Two Alleged ‘TeamPCP’ Hackers Arrested in Australia
-  [Skip] Already seen: Who’s Tracking You? Use This New Service to Find Out
-  [Skip] Already seen: Microsoft Plugs Nearly 400 Security Holes
-  [Skip] Already seen: Canadian Man Pleads Guilty in Snowflake Extortions
-  [Skip] Already seen: Read This Before You Buy That TV Streaming Stick
-  [Skip] Already seen: LG to Ban Residential Proxies from Smart TV Apps
-  [Skip Stale] Older than 72 hours (52d): Microsoft Patches a Record 570 Security Flaws
-
-[Fetching] The Hacker News — https://feeds.feedburner.com/TheHackersNews
-  [+] Phishing Campaign Sends Millions of Emails Using Invisible Unicode to 
-      Summarizing with Hugging Face...
-  [+] PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replicatio
-      Summarizing with Hugging Face...
-  [+] New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept
-      Summarizing with Hugging Face...
-  [+] Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE
-      Summarizing with Hugging Face...
-  [+] Plex Urges Immediate Updates After Patching Multiple Undisclosed Secur
-      Summarizing with Hugging Face...
-  [+] Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day
-      Summarizing with Hugging Face...
-  [+] GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit R
-      Summarizing with Hugging Face...
-  [Skip] Already seen: ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAu
-
-[Fetching] BleepingComputer — https://www.bleepingcomputer.com/feed/
-  [+] IDScan sued over alleged data breach affecting 153 million drivers
-      Summarizing with Hugging Face...
-  [+] Critical Citrix NetScaler auth bypass now leveraged in attacks
-      Summarizing with Hugging Face...
-  [+] Microsoft says some users can’t open the Teams desktop client
-      Summarizing with Hugging Face...
-  [+] 39 New Methods That Compromise Passkey Authentication
-      Summarizing with Hugging Face...
-  [+] New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges
-      Summarizing with Hugging Face...
-  [+] Exchange Online outage causes email delays, 'Server busy' errors
-      Summarizing with Hugging Face...
-  [+] Google warns of new Chrome zero-day flaw exploited in attacks
-      Summarizing with Hugging Face...
-  [Skip] Already seen: French hospital fined €500,000 after breach exposes data of 
-
-[Fetching] Black Hills InfoSec — https://news.google.com/rss/search?q=site:blackhillsinfosec.com&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Auditing GitLab: The CI/CD Kill Chain - Black Hills Informat
-  [Skip Stale] Older than 72 hours (925d): Initial Access Operations Part 1: The Windows Endpoint Defen
-  [Skip Stale] Older than 72 hours (3320d): Three Minutes with the HTTP TRACE Method - Black Hills Infor
-  [Skip] Already seen: New PowerShell History Defense Evasion Technique - Black Hil
-  [Skip] Already seen: Domain Goodness – How I Learned to LOVE AD Explorer - Black 
-  [Skip Stale] Older than 72 hours (3851d): How to Test for Open Mail Relays - Black Hills Information S
-  [Skip] Already seen: Abusing S4U2Self for Active Directory Pivoting - Black Hills
-  [Skip Stale] Older than 72 hours (3431d): How to Bypass Web-Proxy Filtering - Black Hills Information 
-
-[Fetching] MITRE ATT&CK — https://medium.com/feed/mitre-attack
-  [Skip] Already seen: ATT&CK v19: The Defense Evasion Split, ICS Sub-Techniques, N
-  [Skip Stale] Older than 72 hours (157d): Defense Evasion Split: A Tale of Two Tactics
-  [Skip] Already seen: ATT&CK v18: Detection Strategies, More Adversary Insights,
-  [Skip] Already seen: What Comes After Detection Rules? Smarter Detection Strategi
-  [Skip Stale] Older than 72 hours (500d): ATT&CK v17: New Platform (ESXi), Collection Optimization, & 
-  [Skip Stale] Older than 72 hours (673d): v16 Cloud Rebalancing, Analytics,
-  [Skip] Already seen: Introducing TAXII 2.1 and a fond farewell to the TAXII 2.0 S
-  [Skip Stale] Older than 72 hours (864d): ATT&CK v15 Brings the Action
-
-[Fetching] MSAB Blog — https://news.google.com/rss/search?q=site:msab.com&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (6157d): MSAB — Trusted Partner in Digital Forensics | XAMN & XRY - M
-  [Skip Exclusion] Conference / event article excluded: Webinar – XAMN Viewer Essentials - MSAB
-  [Skip Stale] Older than 72 hours (4d): Resources - MSAB
-  [Skip Stale] Older than 72 hours (9d): Marketing Manager Americas - MSAB
-  [Skip Exclusion] Conference / event article excluded: Mobile Forensics Digital Summit 2027 - MSAB
-  [Skip Stale] Older than 72 hours (3d): Events - MSAB
-  [Skip Stale] Older than 72 hours (1010d): BFU – Seeing is believing - MSAB
-  [Skip Stale] Older than 72 hours (1766d): Mobile forensics solutions for digital investigators - MSAB
-
-[Fetching] The DFIR Report — https://thedfirreport.com/feed/
-  [Skip Stale] Older than 72 hours (11d): BengalSEO Part 1: Anatomy of the Operation
-  [Skip] Already seen: From Bing Search to Ransomware: Bumblebee and AdaptixC2 Deli
-  [Skip] Already seen: Flash Alert: EtherRat and TukTuk C2 End in The Gentleman Ran
-  [Skip Stale] Older than 72 hours (135d): Bissa Scanner Exposed: AI-Assisted Mass Exploitation and Cre
-  [Skip Stale] Older than 72 hours (193d): Apache ActiveMQ Exploit Leads to LockBit Ransomware
-  [Skip] Already seen: Cat’s Got Your Files: Lynx Ransomware
-  [Skip] Already seen: From a Single Click: How Lunar Spider Enabled a Near Two-Mon
-  [Skip] Already seen: Blurring the Lines: Intrusion Shows Connection With Three Ma
-
-[Fetching] Velociraptor Blog — https://docs.velociraptor.app/blog/index.xml
-  [Skip] Already seen: Browsing around the filesystem.
-  [Skip] Already seen: Cobalt Strike payload discovery and data manipulation in VQL
-  [Skip Stale] Older than 72 hours (1881d): Velociraptor vs Printnightmare
-  [Skip] Already seen: Detection Engineering
-  [Skip] Already seen: The Registry Hunter
-  [Skip] Already seen: Velociraptor 0.77 Release
-  [Skip Stale] Older than 72 hours (118d): Alerts and e-mail notifications in Velociraptor
-  [Skip] Already seen: Velociraptor CLI
-
-[Fetching] Mandiant Blog — https://news.google.com/rss/search?q=%22Mandiant%22+cybersecurity&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (133d): AI Rush is Reviving Old Cybersecurity Mistakes, Mandiant VP 
-  [Skip Stale] Older than 72 hours (165d): The M-Trends 2026 report shows how to strengthen business cy
-  [Skip Stale] Older than 72 hours (178d): Kevin Mandia sold his cybersecurity company to Google in 202
-  [Skip Stale] Older than 72 hours (162d): Mandiant M-Trends 2026 Report: Threat Actors Using AI in Att
-  [Skip Stale] Older than 72 hours (165d): High-Tech Sector Overtakes Finance as Top Target for Cyber-A
-  [Skip Stale] Older than 72 hours (850d): Accenture and Mandiant Team to Help Organizations Strengthen
-  [Skip Stale] Older than 72 hours (1102d): Mandiant blends Google Cloud, AI to automate threat hunting 
-  [Skip Stale] Older than 72 hours (1453d): Google Completes Acquisition of Mandiant - Google Cloud Pres
-
-[Fetching] CrowdStrike Blog — https://www.crowdstrike.com/blog/feed/
-  [Skip] Already seen: CrowdStrike Extends Endpoint Security to Stop Software Suppl
-  [Skip] Already seen: CrowdStrike Delivers the Next Evolution of the Agentic SOC
-  [Skip Stale] Older than 72 hours (3d): CrowdStrike Announces Agentic Identity Provider
-  [Skip] Already seen: CrowdStrike Falcon Guardian Defines the Next Generation of A
-  [Skip] Already seen: Peer Pressure: Inside the Sality Botnet Disruption Operation
-  [Skip] Already seen: Agents of Chaos: A New $100K Agentic Security Challenge
-  [Skip] Already seen: CrowdStrike Named Strongest Overall Leader in 2026 Frost Rad
-  [Skip] Already seen: Benchmaxxing: When the Benchmark Becomes the Target
-
-[Fetching] Securelist — https://securelist.com/feed/
-  [+] Angry Birds: Toy Ghouls’ new toys
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (3d): Mirage Kitten targeting aviation and FinTech sectors across 
-  [Skip] Already seen: ValleyRAT masquerading as adware
-  [Skip Stale] Older than 72 hours (8d): Threat landscape for industrial automation systems. Q2 2026
-  [Skip Stale] Older than 72 hours (9d): Exploits and vulnerabilities in Q2 2026
-  [Skip] Already seen: The invisible passenger in your car
-  [Skip] Already seen: APT group HoneyMyte upgrades CoolClient: the backdoor gets a
-  [Skip Stale] Older than 72 hours (22d): Armored Likho expands its cyber-espionage toolkit
-
-[Fetching] Cisco Talos Blog — https://blog.talosintelligence.com/rss/
-  [Skip] Already seen: The story behind the intelligence
-  [Skip] Already seen: “Sorry, I can’t help with that”: How your guardrails might b
-  [Skip] Already seen: JavaScript obfuscation: From party trick to phishing kit
-  [Skip] Already seen: Choose your fighter: Balancing competing requirements to sel
-  [Skip Stale] Older than 72 hours (10d): The safety penalty: Reclaiming operational sovereignty in th
-  [Skip Stale] Older than 72 hours (15d): Is Cyber missing the Marque?
-  [Skip] Already seen: UAT-10147 deploys SPECTRE: A cross-platform implant with Lin
-  [Skip Stale] Older than 72 hours (15d): UAT-10147: Chinese-speaking adversary integrates agentic AI 
-
-[Fetching] Google Threat Intel — https://news.google.com/rss/search?q=%22Google+Threat+Intelligence%22+OR+%22Mandiant%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (165d): The M-Trends 2026 report shows how to strengthen business cy
-  [Skip] Already seen: Commvault Systems (CVLT) Is Up 8.7% After Shelf Filing and G
-  [Skip Stale] Older than 72 hours (133d): AI Rush is Reviving Old Cybersecurity Mistakes, Mandiant VP 
-  [Skip] Already seen: Hackers impersonate Microsoft Teams help desk to breach corp
-  [Skip] Already seen: Google's Threat Intelligence Group Tracks 3 Distinct Suspect
-  [Skip Stale] Older than 72 hours (16d): Mandiant AVDH Unearths 100+ Critical Code Flaws - SQ Magazin
-  [Skip Stale] Older than 72 hours (50d): Google Mandiant warns of exposed serverless functions as att
-  [Skip] Already seen: Cybercrime groups speed up initial access handoff through pl
-
-[Fetching] ESET Research — https://news.google.com/rss/search?q=site:welivesecurity.com&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (3424d): Award-winning news, views, and insight from the ESET securit
-  [Skip Stale] Older than 72 hours (22d): Black Hat USA 2026: What the Hugging Face hack tells us abou
-  [Skip Stale] Older than 72 hours (23d): Black Hat USA 2026: AI is racing ahead of cybersecurity cont
-  [Skip Stale] Older than 72 hours (647d): RomCom exploits Firefox and Windows zero days in the wild - 
-  [Skip Stale] Older than 72 hours (262d): ESET Threat Report H2 2025 - WeLiveSecurity
-  [Skip Stale] Older than 72 hours (3452d): If you download Minecraft mods from Google Play, read on … -
-  [Skip Stale] Older than 72 hours (72d): ESET takes part in Operation Endgame to disrupt Amadey and S
-  [Skip Stale] Older than 72 hours (2416d): Microsoft exposed 250 million customer support records - WeL
-
-[Fetching] Unit 42 — https://unit42.paloaltonetworks.com/feed/
-  [Skip] Already seen: Attackers Expose Ongoing AI Tool Use Targeting Organizations
-  [Skip] Already seen: An AI-Assisted Cyber Attack: Inside a Unit 42 Investigation
-  [Skip] Already seen: Spring Ring: An Inside Look at Voice Phishing Campaigns in M
-  [Skip] Already seen: Perturbation Probing: A New Diagnostic for the Fragility of 
-  [Skip] Already seen: The State of AI-Enabled Malware August 2026: From Brand Abus
-  [Skip Stale] Older than 72 hours (14d): Connecting the Dots: Securing the Overlooked Corners of the 
-  [Skip Stale] Older than 72 hours (15d): Identity Abuse Through Trusted Communication Channels
-  [Skip Stale] Older than 72 hours (17d): Threat Brief: Mitigating Large-Scale Credential Attacks (Upd
-
-[Fetching] Eric Zimmerman's Blog — https://binaryforay.blogspot.com/feeds/posts/default
-  [Skip Stale] Older than 72 hours (2290d): KAPE 0.9.2.0 released!
-  [Skip] Already seen: KAPE 0.8.7.0 released!
-  [Skip Stale] Older than 72 hours (2583d): KAPE 0.8.6.1 released
-  [Skip] Already seen: Introducing EvtxECmd!!
-  [Skip Stale] Older than 72 hours (2730d): KAPE 0.8.3.0 released
-  [Skip Stale] Older than 72 hours (2740d): KAPE v0.8.2.0 released!
-  [Skip Stale] Older than 72 hours (2757d): KAPE v0.8.1.0 released!
-  [Skip] Already seen: Introducing KAPE!
-
-[Fetching] Howard Oakley — https://news.google.com/rss/search?q=site:eclecticlight.co&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: The Eclectic Light Company – Macs & painting – 🦉 No AI conte
-  [Skip Stale] Older than 72 hours (3102d): Pigment: Copper rust, Verdigris and Copper Resinate - The Ec
-  [Skip] Already seen: How unified memory blows the SoCs off the M1 Macs - The Ecle
-  [Skip Stale] Older than 72 hours (3894d): Vanished French Impressionists, 3: Astruc, Attendu, and Béli
-  [Skip] Already seen: PostScript’s sudden death in Sonoma - The Eclectic Light Com
-  [Skip] Already seen: Painting - The Eclectic Light Company
-  [Skip] Already seen: Gatekeeper - The Eclectic Light Company
-  [Skip Stale] Older than 72 hours (739d): Links, aliases and the decline of paths - The Eclectic Light
-
-[Fetching] Volatility Labs — https://volatility-labs.blogspot.com/feeds/posts/default
-  [Skip Stale] Older than 72 hours (1117d): Memory Forensics R&D Illustrated: Recovering Raw Sockets on 
-  [Skip] Already seen: The 11th Annual Volatility Plugin Contest!
-  [Skip Stale] Older than 72 hours (1187d): Malware and Memory Forensics Training Headed to Amsterdam in
-  [Skip Stale] Older than 72 hours (1262d): Memory Forensics R&D Illustrated: Detecting Hidden Windows S
-  [Skip Stale] Older than 72 hours (1288d): The 2022 Volatility Plugin Contest results are in!
-  [Skip Stale] Older than 72 hours (1313d): The Return of In-Person Volatility Malware and Memory Forens
-  [Skip] Already seen: The 10th Annual Volatility Plugin Contest!
-  [Skip] Already seen: The 2021 Volatility Plugin Contest results are in!
-
-[Fetching] Autopsy Releases — https://github.com/sleuthkit/autopsy/releases.atom
-  [Skip] Already seen: Autopsy 4.23.1
-  [Skip Stale] Older than 72 hours (142d): Autopsy 4.23.0
-  [Skip] Already seen: Autopsy 4.22.1
-  [Skip Stale] Older than 72 hours (542d): Autopsy 4.22.0
-  [Skip] Already seen: Autopsy 4.21.0
-  [Skip] Already seen: Autopsy 4.20.0
-  [Skip] Already seen: Autopsy 4.19.3
-  [Skip] Already seen: Autopsy 4.19.2
-
-[Fetching] Volatility 3 Releases — https://github.com/volatilityfoundation/volatility3/releases.atom
-  [Skip] Already seen: Volatility 3 2.28.0
-  [Skip] Already seen: Volatility 3 2.27.0
-  [Skip] Already seen: Volatility 3 2.26.2
-  [Skip] Already seen: Volatility 3 2.26.0
-  [Skip] Already seen: Volatility 3 2.11.0
-  [Skip] Already seen: Volatility 3 2.8.0
-  [Skip] Already seen: Volatility 3 2.7.0
-  [Skip] Already seen: Volatility 3 v2.5.2
-
-[Fetching] Velociraptor Releases — https://github.com/Velocidex/velociraptor/releases.atom
-  [+] Velociraptor Release 0.77.2
-      Summarizing with Hugging Face...
-  [Skip] Already seen: Velociraptor Release 0.76.7
-  [Skip] Already seen: Velociraptor Release 0.77.1
-  [Skip Stale] Older than 72 hours (87d): Velociraptor Release 0.77.1-rc1
-  [Skip] Already seen: Velociraptor Release 0.76.6
-  [Skip Stale] Older than 72 hours (129d): Velociraptor v0.76.4
-  [Skip] Already seen: Velociraptor v0.76.2
-  [Skip] Already seen: Velociraptor v0.75.7
-
-[Fetching] Timesketch Releases — https://github.com/google/timesketch/releases.atom
-  [Skip] Already seen: Timesketch 20260630
-  [Skip] Already seen: Timesketch 20260617
-  [Skip] Already seen: Timesketch 20260611
-  [Skip Stale] Older than 72 hours (162d): Timesketch 20260326
-  [Skip] Already seen: Timesketch 20260311
-  [Skip] Already seen: Timesketch 20260209
-  [Skip Stale] Older than 72 hours (228d): Timesketch 20260119
-  [Skip] Already seen: Timesketch 20251219
-
-[Fetching] Plaso Releases — https://github.com/log2timeline/plaso/releases.atom
-  [Skip] Already seen: plaso-20260720
-  [Skip] Already seen: plaso-20260512
-  [Skip Stale] Older than 72 hours (208d): plaso-20260119
-  [Skip Stale] Older than 72 hours (348d): plaso-20250918
-  [Skip Stale] Older than 72 hours (718d): plaso-20240826
-  [Skip Stale] Older than 72 hours (907d): plaso-20240308
-  [Skip Stale] Older than 72 hours (982d): plaso-20231224
-  [Skip] Already seen: plaso-20230717
-
-[Fetching] Hayabusa Releases — https://github.com/Yamato-Security/hayabusa/releases.atom
-  [Skip] Already seen: Hayabusa v4.0.0 - BlackHat Arsenal USA Release
-  [Skip] Already seen: Hayabusa v3.10.0 - Happy Independence Day Release
-  [Skip] Already seen: Hayabusa v3.9.0 - Showa Day Release
-  [Skip Stale] Older than 72 hours (192d): Hayabusa v3.8.1 - Spring Hayfever Release
-  [Skip Stale] Older than 72 hours (216d): Hayabusa v3.8.0 - Winter Release
-  [Skip] Already seen: Hayabusa v3.7.0 - CODE BLUE Release
-  [Skip] Already seen: Hayabusa v3.6.0 - Nezamezuki Release
-  [Skip] Already seen: Hayabusa v3.5.0 - Obon Release
-
-[Fetching] Chainsaw Releases — https://github.com/WithSecureLabs/chainsaw/releases.atom
-  [Skip] Already seen: Chainsaw v2.16.5
-  [Skip] Already seen: Chainsaw v2.16.4
-  [Skip Stale] Older than 72 hours (31d): Chainsaw v2.16.3
-  [Skip Stale] Older than 72 hours (33d): Chainsaw v2.16.3-beta.2
-  [Skip] Already seen: Chainsaw v2.16.3-beta.1
-  [Skip] Already seen: Chainsaw v2.16.3-beta.0
-  [Skip Stale] Older than 72 hours (57d): Chainsaw v2.16.2
-  [Skip] Already seen: Chainsaw v2.16.1
-
-[Fetching] Darknet Diaries — https://feeds.megaphone.fm/darknetdiaries
-  [Skip Stale] Older than 72 hours (3d): 179: The Courthouse - Revisited
-  [Skip] Already seen: LOW - Trailer
-  [Skip Stale] Older than 72 hours (31d): 178: Ubiquiti
-  [Skip] Already seen: 177: National Public Data
-  [Skip] Already seen: 176: NSL
-  [Skip] Already seen: 175: Bayrob
-  [Skip] Already seen: 174: Pacific Rim
-  [Skip] Already seen: 173: Tarjeteros
-
-[Fetching] Craig Ball — https://news.google.com/rss/search?q=site:craigball.net&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (2878d): Ball in your Court | Musings on e-discovery & forensics. - c
-  [Skip] Already seen: Leery Lawyer’s Guide to AI - craigball.net
-  [Skip] Already seen: Clarify Requests for Native ESI - craigball.net
-  [Skip Stale] Older than 72 hours (753d): AI Drawing Programs: ChatGPT Versus PlaygroundAI - craigball
-  [Skip] Already seen: The Annotated ESI Protocol - craigball.net
-  [Skip Stale] Older than 72 hours (1316d): ChatGPT Proves a Mediocre Law Student - craigball.net
-  [Skip Stale] Older than 72 hours (1695d): Electronic Evidence Workbook 2022 - craigball.net
-  [Skip] Already seen: Ten Tips for Better ESI Expert Reports - craigball.net
-
-[Fetching] Forensic Science International — https://rss.sciencedirect.com/publication/science/03790738
-  [Skip Stale] Missing publication date: A comparison of sodium rhodizonate test solutions for improv
-  [Skip] Already seen: Incorporation of methoxyphenamine into white hair in the ear
-  [Skip] Already seen: The investigation of decomposition rates and lipid degradati
-  [Skip] Already seen: The use of kidney biomechanics in forensic pathology
-  [Skip] Already seen: Revisiting the role of beta-amyloid precursor protein immuno
-  [Skip] Already seen: Efficient separation of sperm and epithelial cells using opt
-  [Skip] Already seen: Scott test paper: A solvent-free, portable presumptive metho
-  [Skip] Already seen: Technical note: EasyPMI, online opensource application to he
-
-[Fetching] FSI: Genetics — https://rss.sciencedirect.com/publication/science/18724973
-  [Skip] Already seen: Triple sex marker failure in male DNA: AMELY, Y-InDel, and t
-  [Skip Stale] Missing publication date: A low-cost DNA extraction method from pine sawdust reveals n
-  [Skip Stale] Missing publication date: Assessing passive and active collection of airborne DNA for 
-  [Skip] Already seen: Reduced stutter artifact formation with an engineered thermo
-  [Skip] Already seen: PhyloImpute - phylogeny-aware genotype imputation methods fo
-  [Skip] Already seen: The distribution of males with identical Y-chromosomal DNA p
-  [Skip] Already seen: From fathers to forebears: Benchmarking Y-chromosomal short 
-  [Skip Stale] Missing publication date: The petrous advantage in perinatal and early childhood remai
-
-[Fetching] Science & Justice — https://rss.sciencedirect.com/publication/science/13550306
-  [Skip] Already seen: Evaluation of the Amicon® Ultra-15 centrifugal unit for larg
-  [Skip] Already seen: Assessing the value of using non-human proxies for improving
-  [Skip Stale] Missing publication date: BM2: Council Information
-  [Skip] Already seen: BM1: Events Guide
-  [Skip Stale] Missing publication date: An exploratory analysis of decision-making in population aff
-  [Skip Stale] Missing publication date: Immunochromatographic test for rapid simultaneous detection 
-  [Skip Stale] Missing publication date: Wildlife forensic DNA evidence links a suspected vehicle to 
-  [Skip] Already seen: The impact of targeted training on the quality of photograph
-
-[Fetching] Legal Medicine — https://rss.sciencedirect.com/publication/science/13446223
-  [Skip] Already seen: Ocular and associated brain injuries caused by less-lethal k
-  [Skip Exclusion] Case study article excluded: Autoerotic death caused by neck compression using a sphygmom
-  [Skip] Already seen: Micro-CT-based virtual reconstruction of a kerf-like defect 
-  [Skip Stale] Missing publication date: Self-inflicted Thoraco-abdominal stabbing followed by bathtu
-  [Skip Stale] Missing publication date: A diagnostic pitfall of postmortem CT in an abdominal stab w
-  [Skip] Already seen: Two exemplary cases of minimal and extensive dismemberment
-  [Skip] Already seen: Fatal accidental wooden branch impalement mimicking homicida
-  [Skip] Already seen: Postmortem CT findings of cardiac and great-vessel blood clo
-
-[Fetching] Journal of Forensic & Legal Medicine — https://rss.sciencedirect.com/publication/science/1752928X
-  [Skip] Already seen: Expanding the histological iconography of organised chronic 
-  [Skip] Already seen: Forensic medicine in early republican Turkiye: An archival a
-  [Skip] Already seen: Adult sexual assault: A 10-year retrospective forensic study
-  [Skip] Already seen: Addressing scientific limitations of common causation opinio
-  [Skip Stale] Missing publication date: Medico-Legal Consequences of Dog Attacks: A Retrospective An
-  [Skip Stale] Missing publication date: Environmental heat as a hidden risk factor in deaths in cust
-  [Skip] Already seen: Beyond adversarial and no-fault systems: The mixed Spanish f
-  [Skip] Already seen: Sexual violence against men: Addressing an overlooked issue 
-
-[Fetching] Forensic Imaging — https://rss.sciencedirect.com/publication/science/26662256
-  [Skip] Already seen: Forensic postmortem imaging in death investigations: a globa
-  [Skip] Already seen: Development and validation of equations based on mandibular 
-  [Skip] Already seen: Corrigendum to "White paper by the international society of 
-  [Skip] Already seen: Silent summit or glaring trap: Decoding Mount Fuji sign
-  [Skip] Already seen: Comparison of photogrammetry and structured light scanning f
-  [Skip] Already seen: Extracorporeal membrane oxygenation- modified Grabherr’s mul
-  [Skip Stale] Missing publication date: Cascade spatio-temporal deep learning framework for copy-mov
-  [Skip] Already seen: Virtual dissection and experimental analysis of the superior
-
-[Fetching] Forensic Chemistry — https://rss.sciencedirect.com/publication/science/24681709
-  [Skip Stale] Missing publication date: Rapid quantitative method for cannabis with enhanced selecti
-  [Skip Stale] Missing publication date: The influence of temperature and humidity on cocaine convers
-  [Skip] Already seen: Rapid static headspace GC approach for screening of chloropi
-  [Skip] Already seen: Identification and quantification of seized illicit drugs us
-  [Skip] Already seen: Evaluating the use of LC-MS-derived pollen coat chemical sig
-  [Skip] Already seen: Analytical and structural characterisation in the forensic i
-  [Skip Exclusion] Case study article excluded: Locating a clandestine burial in a wide search area: Case re
-  [Skip] Already seen: Ultrafast nanomolar level selective detection of trinitrophe
-
-[Fetching] Journal of Forensic Sciences — https://news.google.com/rss/search?q=%22Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (196d): Structural Analysis of Human Rib Fracture and... : Journal o
-  [Skip Stale] Older than 72 hours (189d): Crime scene blood stains can be damning – even after cleanin
-  [Skip Stale] Older than 72 hours (199d): Unpacking study claiming Kurt Cobain's death was homicide - 
-  [Skip Stale] Older than 72 hours (85d): Analysis: No Evidence of Fentanyl Contamination in Unregulat
-  [Skip Stale] Older than 72 hours (193d): New Murder Claims Reignite Debate Over Kurt Cobain’s Death: 
-  [Skip Stale] Older than 72 hours (234d): When the dead don't stay at work. - Psychology Today
-  [Skip Stale] Older than 72 hours (205d): Authorities refuse to reopen Kurt Cobain death case despite 
-  [Skip Stale] Older than 72 hours (196d): How did Kurt Cobain die? Forensic specialists raise new ques
-
-[Fetching] WIREs Forensic Science — https://news.google.com/rss/search?q=%22WIREs+Forensic+Science%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (113d): A Comprehensive Review of Functional Graphical Models - Zhao
-  [Skip Stale] Older than 72 hours (98d): Covariance Estimation for Wide Data - Raviv - 2026 - WIREs C
-  [Skip Stale] Older than 72 hours (457d): Study: Robots can Help Investigate Knife Crime - Forensic Ma
-  [Skip Stale] Older than 72 hours (322d): Recent Advances in Causal Machine Learning and Dynamic Polic
-  [Skip Stale] Older than 72 hours (1996d): Is forensic DNA analysis an effective crime fighting tool? -
-  [Skip Stale] Older than 72 hours (949d): Forensic Cannabis Analysis: Differentiating Hemp from Mariju
-  [Skip Stale] Older than 72 hours (1191d): Sample Preparation in Forensic Toxicological Analysis May Ha
-  [Skip Stale] Older than 72 hours (1880d): Study Reviews Current Sample Preparation Methods for Forensi
-
-[Fetching] Forensic Toxicology — https://news.google.com/rss/search?q=%22Forensic+Toxicology%22+journal&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Death, Decomposition, and the Domes: Making Specimens for Fo
-  [Skip] Already seen: Forensic Sciences Research Volume 11, Issue 3 Now Published 
-  [Skip Stale] Older than 72 hours (241d): UCF Researchers Create the “Fantastic Four” Chemical Standar
-  [Skip Exclusion] Case study article excluded: Ethylene glycol poisoning in a free-roaming cat associated w
-  [Skip] Already seen: Did a Celebrated Researcher Obscure a Baby’s Poisoning? - Th
-  [Skip] Already seen: Methanol poisoning: Hemorrhagic necrosis of the caudate and 
-  [Skip Stale] Older than 72 hours (269d): Crime labs face longer delays in 2024 - Wisconsin Law Journa
-  [Skip] Already seen: Jumping Ship: From Neuroscience to Forensic Toxicology - Sci
-
-[Fetching] Intl Journal of Legal Medicine — https://news.google.com/rss/search?q=%22International+Journal+of+Legal+Medicine%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (14d): CircRNA profiles from one-tube multiplex probe-based qPCR ca
-  [Skip Stale] Older than 72 hours (242d): Low-field MRI shows promise for postmortem fetal exams - Aun
-  [Skip] Already seen: New study shows how metabolomics could be the newest additio
-  [Skip Stale] Older than 72 hours (1822d): Controversial studies of Erasmus MC researcher into Uyghur D
-  [Skip] Already seen: Two Scientific Journals Retract Articles Involving Chinese D
-  [Skip] Already seen: 'Breakthrough' SIDS Finding? Maybe Not - MedPage Today
-  [Skip] Already seen: Bogus Conspiracy Theory Claims Epstein is Alive - FactCheck.
-  [Skip Stale] Older than 72 hours (3936d): DNA typing of debris from fingernails - link.springer.com
-
-[Fetching] FS, Medicine and Pathology — https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Rethinking “Touch DNA”: Why Forensic Science Should Move Awa
-  [Skip] Already seen: Age prediction of hematoma using hyperspectral imaging - lin
-  [Skip] Already seen: Chief Medical Examiner - NYC.gov
-  [Skip] Already seen: Claw-like hand postures mimicking cadaveric spasm: a possibl
-  [Skip Stale] Older than 72 hours (115d): Managing: new molecular markers to differentiate carbon diox
-  [Skip] Already seen: Comment on “Reanalyzing DNA mixture: a evaluation of EuroFor
-  [Skip Stale] Older than 72 hours (2131d): The ongoing loss of historical material from institutions - 
-  [Skip Stale] Older than 72 hours (739d): Diatoms pass through the gastrointestinal barrier and lead t
-
-[Fetching] Egyptian Journal of FS — https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (208d): Online Tools Empower and Endanger Women as Egypt Tackles TFG
-  [Skip] Already seen: Is Forensic Analysis Benefitted by Nanotechnology? - azonano
-  [Skip] Already seen: Forensic Personal Identification DNA Based in Siblings, Is I
-  [Skip Stale] Older than 72 hours (1782d): Parts Of Your Body That Are Completely Unique - Health Diges
-  [Skip] Already seen: A Blockchain-based Functional Approach for Geriatric Electro
-  [Skip Stale] Older than 72 hours (3151d): DSP: A tool for probabilistic sex diagnosis using worldwide 
-  [Skip Stale] Older than 72 hours (2405d): Developing Fingerprints Using Silica Nanoparticles - azonano
-  [Skip Stale] Older than 72 hours (3572d): Experts call for an end to 'unreliable' potency tests in rap
-
-[Fetching] NIST Forensic Science — https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (3655d): Cybersecurity Framework - National Institute of Standards an
-  [Skip Stale] Older than 72 hours (1830d): AI Risk Management Framework - National Institute of Standar
-  [Skip] Already seen: Back to the Future: Why Agentic AI Needs a Strong Identity F
-  [Skip] Already seen: Artificial Intelligence Risk Management Framework (AI RMF 1.
-  [Skip Stale] Older than 72 hours (2190d): Security and Privacy Controls for Information Systems and Or
-  [Skip] Already seen: Vulnerabilities - National Institute of Standards and Techno
-  [Skip] Already seen: CFReDS Portal - National Institute of Standards and Technolo
-  [Skip] Already seen: CVE-2026-73570 Detail - National Institute of Standards and 
-
-[Fetching] ScienceDaily Forensics — https://news.google.com/rss/search?q=site:sciencedaily.com+forensics&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (105d): Ordinary WiFi can now identify people with near perfect accu
-  [Skip Stale] Older than 72 hours (2998d): Using bloodstains at crime scenes to determine age of a susp
-  [Skip Stale] Older than 72 hours (528d): VR crime scene tech - Science Daily
-  [Skip Stale] Older than 72 hours (5693d): Forensic breakthrough: Recovering fingerprints on fabrics co
-  [Skip Stale] Older than 72 hours (246d): This tiny plant is helping solve crimes - Science Daily
-  [Skip Stale] Older than 72 hours (3837d): Forensic botany uses plant DNA to trace crimes - Science Dai
-  [Skip Stale] Older than 72 hours (5659d): Microbial forensics used to solve the case of the 2001 anthr
-  [Skip Stale] Older than 72 hours (3163d): The CSI effect: Watching TV crime shows does not make better
-
-[Fetching] Phys.org Forensics — https://phys.org/rss-feed/science-news/forensics/
-/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/dateutil/parser/_parser.py:1207: UnknownTimezoneWarning: tzname EDT identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
-  warnings.warn("tzname {tzname} identified but not understood.  "
-/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/dateutil/parser/_parser.py:1207: UnknownTimezoneWarning: tzname EDT identified but not understood.  Pass `tzinfos` argument in order to correctly return a timezone-aware datetime.  In a future version, this will raise an exception.
-  warnings.warn("tzname {tzname} identified but not understood.  "
-  [+] Study reveals pupils most at risk of school suspension and what may he
-      Summarizing with Hugging Face...
-  [+] Do games make children more attentive or more distractible?
-      Summarizing with Hugging Face...
-  [+] AI helps reveal the immersive sensory experiences of ancient Etruscan 
-      Summarizing with Hugging Face...
-  [+] Evidence-based approach shows de-escalation is a learnable police skil
-      Summarizing with Hugging Face...
-  [+] Students with lower grades earn degrees more often when they belong to
-      Summarizing with Hugging Face...
-  [+] Same-sex marriages surged before Bolsonaro took office, Brazil data re
-      Summarizing with Hugging Face...
-  [Skip Exclusion] Conference / event article excluded: Mosque workshops help Muslim women discuss reproductive heal
-  [+] Shoppers buying online while drunk is big business—but who is responsi
-      Summarizing with Hugging Face...
-
-[Fetching] The Forensic Science Society — https://news.google.com/rss/search?q=%22Chartered+Society+of+Forensic+Sciences%22+OR+site:csofs.org&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: CSFS Student Conference - The Future of Forensic Science: AI
-  [Skip Stale] Older than 72 hours (11d): Latest Guidance from the Forensic Science Regulator - Incide
-  [Skip Stale] Older than 72 hours (95d): IAFS Awards 2026 - The Chartered Society of Forensic Science
-  [Skip] Already seen: THE CODE OF CONDUCT OF THE CHARTERED SOCIETY OF FORENSIC SCI
-  [Skip] Already seen: EFN Webinar — Cadaver Dogs in Land and Aquatic Searches - Th
-  [Skip Stale] Older than 72 hours (47d): Regulator’s notification 01-2026: changes to compliance requ
-  [Skip Stale] Older than 72 hours (60d): 125 Forensic Services - The Chartered Society of Forensic Sc
-  [Skip] Already seen: CSFS Fingerprint Virtual Conference 2022 - The Chartered Soc
-
-[Fetching] Google News: Forensic Biology — https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (101d): From Classroom to Crime Scene: Forensic Biology in Action - 
-  [Skip Stale] Older than 72 hours (234d): Wichita State launches forensic graduate programs to meet de
-  [Skip] Already seen: Nathaniel Heskett, BS '26 - Ohio Northern University
-  [Skip Stale] Older than 72 hours (137d): Massively Parallel Sequencing Technology Allows Forensic Bio
-  [Skip] Already seen: OSAC's Wildlife Forensic Biology Subcommittee Develops Proce
-  [Skip] Already seen: NOPD Crime Lab Makes History, Earns Full Accreditation - NOP
-  [Skip] Already seen: Forensic Biology expert takes the stand to explain DNA evide
-  [Skip] Already seen: Hamline’s forensic science students apply learnings to life-
-
-[Fetching] Google News: Forensic Toxicology — https://news.google.com/rss/search?q=%22forensic+toxicology%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Death, Decomposition, and the Domes: Making Specimens for Fo
-  [Skip] Already seen: Ohio’s First Forensic Toxicology Master’s Program Opens for 
-  [Skip] Already seen: State forensic science commission blasts UIC over rogue crim
-  [Skip Stale] Older than 72 hours (212d): Inside Forensic Toxicology: A Hands-On Summer Internship - E
-  [Skip Stale] Older than 72 hours (148d): State approves new University of Toledo master’s in forensic
-  [Skip Stale] Older than 72 hours (241d): UCF Researchers Create the “Fantastic Four” Chemical Standar
-  [Skip] Already seen: Forensic Sciences Research Volume 11, Issue 3 Now Published 
-  [Skip] Already seen: Forensic Toxicology Reinforces Joint Standards [Image 2 of 8
-
-[Fetching] Google News: Forensic Chemistry — https://news.google.com/rss/search?q=%22forensic+chemistry%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (14d): UCO FSI Celebrates a Decade of Training Forensic Science Edu
-  [Skip] Already seen: FDA Scientists Working in Satellite Laboratories Across U.S.
-  [Skip Stale] Older than 72 hours (100d): Two UK Forensic Experts Awarded Prestigious International Re
-  [Skip] Already seen: Drug contamination traces may linger in cars, even after ven
-  [Skip Stale] Older than 72 hours (45d): A New Forensic Approach to the Shroud of Turin: Science Reve
-  [Skip Stale] Older than 72 hours (37d): ANU team named Eureka Prize finalist for life-saving forensi
-  [Skip] Already seen: From Sample to Verdict: Experts Discuss Emerging Methods in 
-  [Skip Stale] Older than 72 hours (709d): Buffalo State’s Accredited Forensic Chemistry Program Earns 
-
-[Fetching] Google News: DNA Profiling — https://news.google.com/rss/search?q=%22dna+profiling%22&hl=en-US&gl=US&ceid=US:en
-  [+] Nepal floods: How DNA identification of bodies works - Al Jazeera
-      Summarizing with Hugging Face...
-  [+] Karnataka: DNA Profiling To Be Done On First-Degree Relatives Of Missi
-      Summarizing with Hugging Face...
-  [+] Karnataka to collect DNA samples of kin of missing Nepal tourists - De
-      Summarizing with Hugging Face...
-  [+] Bowring Hospital designated nodal centre for DNA profiling of Karnatak
-      Summarizing with Hugging Face...
-  [+] Nepal flashflood: India opens forensic labs for DNA profiling of victi
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (3d): Nepal-Tibet flood deaths pass 1,000 as police ask relatives 
-  [+] India To Offer DNA Profiling Support For Nepal Flood Victims' Relative
-      Summarizing with Hugging Face...
-  [+] India to provide DNA profiling services to families of Indians missing
-      Summarizing with Hugging Face...
-
-[Fetching] Google News: Latent Prints — https://news.google.com/rss/search?q=%22latent+prints%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Forensic Laboratory Latent Prints Unit, providing impartial 
-  [Skip] Already seen: NOPD Crime Lab Makes History, Earns Full Accreditation - NOP
-  [Skip] Already seen: 2020 Biometric Identification Award - fbi.gov
-  [Skip] Already seen: Latent fingerprint recovery on submerged non-porous surfaces
-  [Skip Stale] Older than 72 hours (716d): New Nanomaterial Effective for Visualizing Latent Prints - F
-  [Skip Stale] Older than 72 hours (1446d): The History and Legacy of the Latent Fingerprint Black Box S
-  [Skip Stale] Older than 72 hours (4985d): Reactions of latent prints exposed to blood - sciencedirect.
-  [Skip] Already seen: What Police Officers Need to Know About Palm Prints - Police
-
-[Fetching] Google News: Bloodstain Pattern — https://news.google.com/rss/search?q=%22bloodstain+pattern%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Paper Moves Toward Standardized Approach to Bloodstain Patte
-  [Skip] Already seen: Ph.D. student's forensic review highlights need for standard
-  [Skip] Already seen: Detail at Nancy Guthrie’s House Might Be Clue to What Happen
-  [Skip] Already seen: What Bloodstain Pattern Analysis can tell forensic specialis
-  [Skip] Already seen: Bloodstain Pattern Analysis: implementation of a fluid dynam
-  [Skip] Already seen: There will be blood, and physics, too: The messy science of 
-  [Skip Stale] Older than 72 hours (1047d): Improving the Science Behind Bloodstain Pattern Analysis - B
-  [Skip Stale] Older than 72 hours (300d): Blood Stain Pattern Analysis in Forensic Science - legaldesi
-
-[Fetching] Google News: Forensic Pathology — https://news.google.com/rss/search?q=%22forensic+pathology%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Study: Better Collaboration in Cape Town Could Help Identify
-  [Skip] Already seen: DeKalb Medical Examiner launches historic HBCU pathology fel
-  [Skip] Already seen: Potter County approves Lubbock autopsy deal after DA cites ‘
-  [Skip] Already seen: Assistant state medical examiner fired over false certificat
-  [Skip Stale] Older than 72 hours (161d): Rhode Island Chief Medical Examiner Marius Tarau to present 
-  [Skip] Already seen: Denver program trains forensic pathologists to combat staffi
-  [+] How Dr Yaseen Bismilla is revolutionising forensic pathology education
-      Summarizing with Hugging Face...
-  [Skip] Already seen: How forensic experts identify Nepal-Tibet flood victims - AB
-
-[Fetching] Google News: Trace Evidence — https://news.google.com/rss/search?q=%22trace+evidence%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (10d): Forensic Chemists Build First Database to Trace Lipstick Evi
-  [Skip Stale] Older than 72 hours (184d): ICP-MS for Trace Evidence in Forensics
-  [Skip] Already seen: Critical tips and trace evidence lead to arrest in 2023 Tiga
-  [Skip] Already seen: Cracking Cases Then & Now: A Police Department's Forensics E
-  [Skip] Already seen: Day two of testimony in the Steven Koon murder trial brought
-  [Skip Stale] Older than 72 hours (99d): A Killer Left Behind Glitter at a Murder Scene. It Became th
-  [Skip] Already seen: Trace Evidence Collection App is Available Now - National In
-  [Skip Stale] Older than 72 hours (46d): Immortal Kamehameha #1 - Destiny 2 Arc Warlock Build by Oste
-
-[Fetching] Google News: Forensic Anthropology — https://news.google.com/rss/search?q=%22forensic+anthropology%22&hl=en-US&gl=US&ceid=US:en
-  [Skip Stale] Older than 72 hours (140d): UT Celebrates Opening of Forensic Anthropology Laboratory - 
-  [Skip] Already seen: Forensic anthropology program explodes at Ohio State - news.
-  [Skip Stale] Older than 72 hours (25d): Use of Forensic Anthropology and Forensic Genetic Genealogy 
-  [Skip] Already seen: In the ground and on the line: Inside USF’s forensic anthrop
-  [Skip Stale] Older than 72 hours (50d): CSU forensic anthropologist remembered on Big Thompson Flood
-  [Skip Stale] Older than 72 hours (17d): Box of bones belonging to at least 5 people found in home, i
-  [Skip] Already seen: MTSU senior’s forensic anthropology training helps honor nat
-  [Skip Stale] Older than 72 hours (85d): ‘Almost impossible in a classroom’: students seek hands-on f
-
-[Fetching] Google News: Forensic Science — https://news.google.com/rss/search?q=%22forensic+science%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Six Films Preserved from the Father of Forensic Science - li
-  [+] From Evidence to Intelligence: Forensic Science Strengthens Fight Agai
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (3d): Coconino County Unidentified Remains Task Force Announces Su
-  [+] Ministry of Justice Reviews National Digital Forensic Center Expansion
-      Summarizing with Hugging Face...
-  [Skip Stale] Older than 72 hours (14d): UCO FSI Celebrates a Decade of Training Forensic Science Edu
-  [Skip] Already seen: Loyola awarded nearly $1 million in federal funding to creat
-  [Skip Stale] Older than 72 hours (15d): PhD student wins forensic science award for pioneering blood
-
-[Fetching] MDPI – Forensic Sciences — https://news.google.com/rss/search?q=site:mdpi.com/journal/forensicsci+OR+%22MDPI+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en
-  [Skip] Already seen: Forensic Sciences - MDPI
-  [Skip Stale] Older than 72 hours (3d): Forensic Sciences - MDPI
-  [Skip] Already seen: Forensic Sciences | Journal History - MDPI
-  [Skip] Already seen: Feature Papers in Forensic Sciences - MDPI
-  [Skip Stale] Older than 72 hours (2119d): Forensic Sciences | E-Mail Table of Contents Alert - MDPI
-  [Skip Stale] Older than 72 hours (1077d): SpecialIssue - MDPI
-  [Skip Stale] Older than 72 hours (1725d): Marine Forensics: Advances in Investigations and Technologie
-  [Skip Stale] Older than 72 hours (30d): Forensic Sciences - MDPI
-
-[Fetching] Forensic Science and Technology — https://www.sciopen.com/journal/rss/1008-3650
-  [Skip] Already seen: Compositional Changes of Hypoxic Exosomes and the Cause of D
-  [Skip] Already seen: Quantitative Characterization of Homemade Ammonium Nitrate E
-  [Skip Stale] Older than 72 hours (634d): Performance Verification of Quick TargSeqTM Rapid DNA Integr
-  [Skip] Already seen: Experimental Study on Enhancing Blood Fingerprints with Lac 
-  [Skip] Already seen: Feature Matching and Recognition of Shoeprints Based on Surf
-  [Skip Stale] Older than 72 hours (621d): Research of the Preparation and Application of Silica Gel Fi
-  [Skip Stale] Older than 72 hours (638d): Application and Prospect of Artificial Intelligence in Foren
-  [Skip] Already seen: Research Progress on the Detection and Identification Techno
-[NVD API] Fetching latest CVEs...
-[NVD API] Fetching latest CVEs...
-[CISA KEV API] Fetching actively exploited vulnerabilities...
-[CISA KEV API] Fetching actively exploited vulnerabilities...
-[MalwareBazaar API] Fetching latest malware intelligence...
-[URLhaus API] Fetching latest malware intelligence...
-[ThreatFox API] Fetching latest IOC feeds...
-[ThreatFox API] Fetching latest IOC feeds...
-[GitHub API] Fetching releases for top tools...
-[GitHub API] Fetching releases for top tools...
-[arXiv API & Open Papers] Fetching research papers (AI/ML/DL & Forensics)...
-[arXiv API & Open Papers] Fetching research papers (AI/ML/DL & Forensics)...
-[Done] Retrieved 15 open-source research papers across AI, ML, DL, and Forensics.
-[RAG] Sending new articles to Pinecone index...
-Initializing Pinecone and upserting 80 articles...
-Current vectors in Pinecone: 2274
-Generating embeddings for batch 1/4 (25 items)...
-Upserting batch 1/4 to Pinecone...
-Generating embeddings for batch 2/4 (25 items)...
-Upserting batch 2/4 to Pinecone...
-Generating embeddings for batch 3/4 (25 items)...
-Upserting batch 3/4 to Pinecone...
-Generating embeddings for batch 4/4 (5 items)...
-Upserting batch 4/4 to Pinecone...
-[SUCCESS] Upsert complete.
-
-[Done] 80 new articles fetched. 66 total in feed.
-
-[Syncing] Synchronizing Tool Tracker...
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.23.1
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.23.0
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.22.1
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.22.0
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.21.0
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.20.0
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.19.3
-  [RSS Tracker Trigger] Matched RSS Update for Autopsy: v4.19.2
-  [GitHub Scraper] Checking Autopsy (sleuthkit/autopsy)...
-      -> Updated to vautopsy-4.23.1
-  [GitHub Scraper] Checking SleuthKit (sleuthkit/sleuthkit)...
-      -> Updated to vsleuthkit-4.15.0
-  [GitHub Scraper] Checking Andriller (den4uk/andriller)...
-      -> Updated to v3.6.3
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.28.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.27.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.26.2
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.26.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.11.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.8.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.7.0
-  [RSS Tracker Trigger] Matched RSS Update for Volatility 3: v2.5.2
-  [GitHub Scraper] Checking Volatility 3 (volatilityfoundation/volatility3)...
-      -> Updated to v2.28.0
-  [GitHub Scraper] Checking LiME (504ensicsLabs/LiME)...
-      -> Updated to v1.12.0
-  [GitHub Scraper] Checking WinPmem (Velocidex/WinPmem)...
-      -> Updated to v4.0.rc1
-  [RSS Tracker Trigger] Matched RSS Update for Wireshark: v4.6.8
-  [GitHub Scraper] Checking Wireshark (wireshark/wireshark)...
-  [GitHub Scraper] Checking Zeek (zeek/zeek)...
-      -> Updated to v8.0.10
-  [GitHub Scraper] Checking Suricata (OISF/suricata)...
-      -> Updated to vsuricata-8.0.6
-  [GitHub Scraper] Checking Snort (snort3/snort3)...
-      -> Updated to v3.12.2.0
-  [GitHub Scraper] Checking Ghidra (NationalSecurityAgency/ghidra)...
-      -> Updated to vGhidra_12.1.3_build
-  [GitHub Scraper] Checking x64dbg (x64dbg/x64dbg)...
-      -> Updated to v2026.05.27
-  [GitHub Scraper] Checking Cutter (rizinorg/cutter)...
-      -> Updated to v2.5.0
-  [GitHub Scraper] Checking PE-bear (hasherezade/pe-bear)...
-      -> Updated to v0.7.2
-  [GitHub Scraper] Checking Process Hacker (processhacker/processhacker)...
-      -> Updated to v4.0.26241.138
-  [GitHub Scraper] Checking YARA (VirusTotal/yara)...
-      -> Updated to v4.5.8
-  [GitHub Scraper] Checking CyberChef (gchq/CyberChef)...
-      -> Updated to v11.4.0
-  [GitHub Scraper] Checking Floss (mandiant/flare-floss)...
-      -> Updated to v3.1.1
-  [GitHub Scraper] Checking oledump (DidierStevens/DidierStevensSuite)...
-  [GitHub Scraper] Checking OSINT-Profiler (jeraldbenny/OSINT-Profiler)...
-      -> Updated to v1.0
-  [GitHub Scraper] Checking File_Integrity_Verifier_FIV (jeraldbenny/File_Integrity_Verifier_FIV)...
-      -> Updated to v1.0
-  [GitHub Scraper] Checking Spiderfoot (smicallef/spiderfoot)...
-      -> Updated to v4.0
-  [GitHub Scraper] Checking Sherlock (sherlock-project/sherlock)...
-      -> Updated to v0.16.0
-  [GitHub Scraper] Checking Holehe (megadose/holehe)...
-  [GitHub Scraper] Checking Plaso (log2timeline/plaso)...
-      -> Updated to v20260720
-  [GitHub Scraper] Checking Hashcat (hashcat/hashcat)...
-      -> Updated to v7.1.2
-  [RSS Tracker Trigger] Matched RSS Update for Velociraptor: v0.77
-  [RSS Tracker Trigger] Matched RSS Update for Velociraptor: v0.76.4
-  [RSS Tracker Trigger] Matched RSS Update for Velociraptor: v0.76.2
-  [RSS Tracker Trigger] Matched RSS Update for Velociraptor: v0.75.7
-  [GitHub Scraper] Checking Velociraptor (Velocidex/velociraptor)...
-      -> Updated to v0.77.2
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v4.0.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.10.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.9.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.8.1
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.8.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.7.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.6.0
-  [RSS Tracker Trigger] Matched RSS Update for Hayabusa: v3.5.0
-  [GitHub Scraper] Checking Hayabusa (Yamato-Security/hayabusa)...
-      -> Updated to v4.0.0
-[Done] Dynamic Tools database synchronized with 57 tools.
-
+No log files found yet. Run fetch_news.py to generate logs.
     </pre>
     <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ AVAILABLE LOG FILES (LAST 25 RUNS) ★</h3>
     <div style="display:flex; flex-direction:column; gap:4px; font-family:'VT323',monospace; font-size:16px;">
-      
-            <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:'VT323',monospace; font-size:16px;">
-              <a href="logs/sync_20260905.log" download="sync_20260905.log" style="color:#b8c8e0; text-decoration:none; cursor:pointer;" aria-label="Download log">📄 sync_20260905.log</a>
-              <span style="color:#5a6a8a;">62.25 KB</span>
-            </div>
-            
+      <div style="color:#5a6a8a;">No historical log files.</div>
     </div>
   </div>
 
@@ -2111,7 +1426,76 @@ function switchTab(btn, tabId){
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
-  document.getElementById(tabId).classList.remove('hidden-pane');
+  var target = document.getElementById(tabId);
+  if (target) target.classList.remove('hidden-pane');
+}
+
+// Ops DigiBot Live Diagnostics
+function opsSetQuery(text) {
+  var qInput = document.getElementById('opsQueryInput');
+  if (qInput) {
+    qInput.value = text;
+    opsQueryDigibot();
+  }
+}
+
+async function opsPingDigibot() {
+  var out = document.getElementById('opsConsoleOutput');
+  var btn = document.getElementById('opsPingBtn');
+  if (btn) btn.disabled = true;
+  if (out) out.innerHTML = '<span style="color:#f0c040;">[PING] Transmitting probe to Cloudflare Worker bridge...</span>';
+  var startTime = performance.now();
+  try {
+    var resp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: "ping" })
+    });
+    var duration = Math.round(performance.now() - startTime);
+    if (resp.ok) {
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ HTTP 200 OK — Bridge Online</span><br>' +
+                      '<span style="color:#3cc8c0;">Latency: ' + duration + ' ms</span><br>' +
+                      '<span style="color:#b8c8e0;">Worker Status: Operational | RAG Pipeline Active</span>';
+    } else {
+      if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ HTTP ' + resp.status + ' ' + resp.statusText + '</span><br>' +
+                      '<span style="color:#b8c8e0;">Latency: ' + duration + ' ms</span>';
+    }
+  } catch (err) {
+    if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Network Connection Failed: ' + err.message + '</span>';
+  }
+  if (btn) btn.disabled = false;
+}
+
+async function opsQueryDigibot() {
+  var input = document.getElementById('opsQueryInput');
+  if (!input) return;
+  var q = input.value.trim();
+  if (!q) return;
+  var out = document.getElementById('opsConsoleOutput');
+  var btn = document.getElementById('opsQueryBtn');
+  if (btn) btn.disabled = true;
+  if (out) out.innerHTML = '<span style="color:#f0c040;">[QUERY] Sending: "' + q.replace(/</g,'&lt;') + '"</span><br><span style="color:#5a6a8a;">Retrieving vector embeddings and querying Pinecone...</span>';
+  var startTime = performance.now();
+  try {
+    var resp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: q })
+    });
+    var duration = Math.round(performance.now() - startTime);
+    if (resp.ok) {
+      var data = await resp.json();
+      var reply = (data.reply || "Empty response").replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ RESPONSE RECEIVED (' + duration + ' ms)</span><br><br>' +
+                      '<div style="color:#fff; line-height:1.4;">' + reply + '</div>';
+    } else {
+      var errTxt = await resp.text();
+      if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ ERROR ' + resp.status + ':</span> ' + errTxt;
+    }
+  } catch (err) {
+    if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Query Failed:</span> ' + err.message;
+  }
+  if (btn) btn.disabled = false;
 }
 
 </script>

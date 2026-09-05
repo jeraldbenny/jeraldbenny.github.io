@@ -153,5 +153,30 @@ def main():
     rag_engine.upsert_articles(items_list, pc_key, hf_token=hf_key, batch_size=40)
     print(f"[SUCCESS] DigiBot RAG ingestion completed for {current_date_str}.")
 
+    # Save DigiBot operational status for the Ops Dashboard
+    bot_status_data = {
+        "last_sync": now.strftime("%d %b %Y, %H:%M UTC"),
+        "date_anchored": current_date_str,
+        "status": "ONLINE / SYNCED",
+        "index_name": "digifeed-rag",
+        "total_vectors": len(items_list),
+        "active_dispatches": len(data_articles),
+        "archive_records": len(archive_articles),
+        "system_records": len(system_records),
+        "static_records": len(STATIC_KNOWLEDGE),
+        "embedding_model": "BAAI/bge-small-en-v1.5",
+        "dimension": 384,
+        "embedding_engine": "FastEmbed ONNX Runtime",
+        "worker_api": "https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev",
+        "schedule": "Daily at 00:30 UTC"
+    }
+    bot_status_path = os.path.join(base_dir, 'digibot_status.json')
+    try:
+        with open(bot_status_path, 'w', encoding='utf-8') as f:
+            json.dump(bot_status_data, f, indent=2, ensure_ascii=False)
+        print(f"[Done] Saved DigiBot operational status to {bot_status_path}.")
+    except Exception as e:
+        print(f"Warning: Failed to write {bot_status_path}: {e}")
+
 if __name__ == '__main__':
     main()
