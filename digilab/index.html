@@ -611,6 +611,549 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
     font-size: 4px;
   }
 }
+/* ==========================================================================
+/* ==========================================================================
+/* ==========================================================================
+   SOCIAL INTEL & EMBEDDED SEARCH ENGINE STYLES (NO EMOJIS, THEMED DIGILAB UI)
+   ========================================================================== */
+#osint-mod-username,
+#usernameIntelResults,
+.osint-modern-ui {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+#osint-mod-username .panel-sub {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: var(--subtext) !important;
+}
+
+/* SEARCH INPUT BAR & LOCATION THEME */
+.social-input-bar {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+.social-text-input {
+  flex: 1 1 280px;
+  min-width: 220px;
+  background: var(--bg) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 12px !important;
+  padding: 10px 14px !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  transition: all 0.2s ease-in-out !important;
+  height: 42px !important;
+  box-sizing: border-box !important;
+}
+.social-text-input:focus {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 12px rgba(240, 192, 64, 0.25) !important;
+}
+.social-text-input::placeholder {
+  color: var(--subtext) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 12px !important;
+}
+
+/* Custom Themed Location Box (Global / Type Area / Custom Dropdown) */
+.social-location-box {
+  position: relative;
+  flex: 0 1 240px;
+  min-width: 200px;
+  height: 42px;
+  display: flex;
+  align-items: stretch;
+}
+
+.social-loc-input {
+  width: 100%;
+  height: 42px !important;
+  background: var(--bg) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 11px !important;
+  padding: 8px 30px 8px 12px !important;
+  border-radius: 4px !important;
+  outline: none !important;
+  transition: all 0.2s ease-in-out !important;
+  box-sizing: border-box !important;
+}
+.social-loc-input:focus {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 12px rgba(240, 192, 64, 0.25) !important;
+}
+.social-loc-input::placeholder {
+  color: var(--subtext) !important;
+  font-size: 11px !important;
+}
+
+.social-loc-arrow {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  width: 28px;
+  background: transparent;
+  border: none;
+  color: var(--gold);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, color 0.2s ease;
+  z-index: 2;
+}
+.social-loc-arrow:hover {
+  filter: brightness(1.3);
+}
+.social-loc-arrow.open svg {
+  transform: rotate(180deg);
+}
+
+/* Custom DigiLab Themed Dropdown Menu - No Native OS Gray Box */
+.social-loc-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #080c18 !important;
+  border: 1px solid var(--gold) !important;
+  border-radius: 4px !important;
+  z-index: 1000 !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.85) !important;
+  max-height: 250px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) #080c18;
+}
+
+.social-loc-dropdown::-webkit-scrollbar {
+  width: 5px;
+}
+.social-loc-dropdown::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 3px;
+}
+.social-loc-dropdown::-webkit-scrollbar-track {
+  background: #080c18;
+}
+
+.social-loc-item {
+  padding: 8px 12px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: #cbd5e1;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.social-loc-item:last-child {
+  border-bottom: none;
+}
+
+.social-loc-item:hover,
+.social-loc-item.active {
+  background: rgba(240, 192, 64, 0.15) !important;
+  color: var(--gold) !important;
+}
+
+.social-loc-item.selected {
+  background: rgba(240, 192, 64, 0.25) !important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.social-submit-btn {
+  height: 42px !important;
+  padding: 0 18px !important;
+  white-space: nowrap !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 8px !important;
+  box-sizing: border-box !important;
+}
+
+/* Section Headers */
+.social-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.social-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #e2e8f0;
+  letter-spacing: 0.5px;
+}
+.social-section-desc {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+/* Carousel Container with navigation buttons */
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px 0 14px 0;
+  gap: 6px;
+  width: 100%;
+}
+
+.carousel-nav-btn {
+  background: #0d1224;
+  border: 1px solid rgba(240, 192, 64, 0.3);
+  color: var(--gold);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  z-index: 2;
+  transition: all 0.2s ease;
+  font-size: 12px;
+  font-weight: bold;
+}
+.carousel-nav-btn:hover {
+  background: var(--gold);
+  color: #000;
+  box-shadow: 0 0 10px rgba(240, 192, 64, 0.4);
+}
+
+.social-search-carousel {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 6px 4px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  flex: 1;
+}
+.social-search-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.social-net-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.social-net-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.15);
+}
+.social-net-btn.selected {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+  filter: brightness(1.25);
+  box-shadow: 0 0 14px rgba(255,255,255,0.4);
+}
+.social-net-btn img {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Embedded Google CSE Results Frame - Screen Expansion */
+.social-cse-frame-wrap {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #080c18;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+.social-cse-iframe {
+  width: 100%;
+  height: 520px;
+  border: none;
+  display: block;
+  background: #080c18;
+}
+
+/* Live Verified Account Cards */
+.social-verified-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.social-verified-card {
+  background: rgba(16, 185, 129, 0.04);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: all 0.25s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+.social-verified-card:hover {
+  border-color: #34d399;
+  background: rgba(16, 185, 129, 0.08);
+  box-shadow: 0 4px 16px rgba(16,185,129,0.15);
+}
+
+.svc-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid rgba(16, 185, 129, 0.4);
+  flex-shrink: 0;
+  object-fit: cover;
+  background: #090d1a;
+}
+
+.svc-info { flex: 1; min-width: 0; }
+.svc-name {
+  font-weight: 700;
+  color: #f1f5f9;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.svc-handle {
+  color: #34d399;
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  margin-top: 2px;
+}
+.svc-platform-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 4px;
+  font-size: 11px;
+  color: #94a3b8;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.svc-platform-badge img {
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+}
+.svc-metrics {
+  color: #cbd5e1;
+  font-size: 11px;
+  margin-top: 6px;
+}
+.svc-bio {
+  color: #94a3b8;
+  font-size: 11px;
+  margin-top: 5px;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.svc-open-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background: rgba(16, 185, 129, 0.15);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #34d399;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s;
+  letter-spacing: 0.3px;
+}
+.svc-open-btn:hover {
+  background: rgba(16, 185, 129, 0.3);
+  color: #6ee7b7;
+}
+
+.social-no-results {
+  background: rgba(255,255,255,0.03);
+  border: 1px dashed rgba(255,255,255,0.12);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.social-no-results .snr-title {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ==========================================================================
+   RESPONSIVE OPTIMIZATIONS (DESKTOP / TABLET / MOBILE)
+   ========================================================================== */
+
+/* Tablet & Medium Screens (<= 900px) */
+@media (max-width: 900px) {
+  .social-input-bar {
+    gap: 8px;
+  }
+  .social-text-input {
+    flex: 1 1 55%;
+  }
+  .social-location-box {
+    flex: 1 1 38%;
+  }
+  .social-submit-btn {
+    flex: 1 1 100%;
+    height: auto !important;
+    min-height: 42px !important;
+    padding: 12px 16px !important;
+    font-size: 8px !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .social-cse-iframe {
+    height: 490px;
+  }
+  .social-verified-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+}
+
+/* Mobile Screens (<= 600px) */
+@media (max-width: 600px) {
+  .social-input-bar {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .social-text-input {
+    width: 100% !important;
+    min-width: 0 !important;
+    flex: none !important;
+    height: 44px !important;
+    font-size: 13px !important;
+  }
+  .social-location-box {
+    width: 100% !important;
+    min-width: 0 !important;
+    flex: none !important;
+    height: 44px !important;
+  }
+  .social-loc-input {
+    width: 100% !important;
+    height: 44px !important;
+    font-size: 12px !important;
+  }
+  .social-submit-btn {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 44px !important;
+    padding: 13px 16px !important;
+    font-size: 8px !important;
+    line-height: 1.2 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    letter-spacing: 0.5px !important;
+  }
+  .carousel-wrapper {
+    gap: 4px;
+  }
+  .carousel-nav-btn {
+    width: 26px;
+    height: 26px;
+    font-size: 10px;
+  }
+  .social-net-btn {
+    padding: 7px 12px;
+    font-size: 11px;
+    gap: 6px;
+  }
+  .social-net-btn img {
+    width: 13px;
+    height: 13px;
+  }
+  .social-cse-frame-wrap {
+    margin-top: 6px;
+    margin-bottom: 14px;
+  }
+  .social-cse-iframe {
+    height: 450px;
+  }
+  .social-verified-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  .social-verified-card {
+    padding: 12px;
+    gap: 10px;
+  }
+  .svc-avatar {
+    width: 40px;
+    height: 40px;
+  }
+  .svc-name {
+    font-size: 13px;
+  }
+  .svc-open-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 8px 12px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -991,7 +1534,7 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
     <div class="osint-subtabs">
       <button class="osint-subtab-btn active" id="subtab-btn-ip" onclick="switchOsintSubtab('ip', this)">IP INTELLIGENCE</button>
       <button class="osint-subtab-btn" id="subtab-btn-domain" onclick="switchOsintSubtab('domain', this)">DOMAIN & URL</button>
-      <button class="osint-subtab-btn" id="subtab-btn-username" onclick="switchOsintSubtab('username', this)">USERNAME & SOCIAL INTEL</button>
+      <button class="osint-subtab-btn" id="subtab-btn-username" onclick="switchOsintSubtab('username', this)">SOCIAL INTEL</button>
       <button class="osint-subtab-btn" id="subtab-btn-phone" onclick="switchOsintSubtab('phone', this)">PHONE INTEL</button>
       <button class="osint-subtab-btn" id="subtab-btn-crypto" onclick="switchOsintSubtab('crypto', this)">CRYPTO INTEL</button>
     </div>
@@ -1034,16 +1577,29 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
     </div>
 
     <!-- MODULE 3: USERNAME & SOCIAL PROFILE INTELLIGENCE -->
+    <!-- MODULE 3: SOCIAL INTEL -->
     <div id="osint-mod-username" class="osint-module">
       <div class="panel">
         <div class="panel-header">
-          <div class="panel-title">USERNAME & SOCIAL PROFILE INTELLIGENCE</div>
+          <div class="panel-title">SOCIAL INTEL</div>
         </div>
-        <div class="panel-sub">Enter a target username or social profile link to extract profile metadata, bio, followers, repositories, creation dates, activity, reverse search archives, and 40-platform cross-correlated accounts.</div>
+        <div class="panel-sub">Targeted social media intelligence engine. Query handles across major social networks with embedded Google Programmable Search, country targeting, and real-time live account verification.</div>
 
-        <div class="input-action-bar">
-          <input type="text" id="userIntelInput" placeholder="Enter target username or profile link (e.g. cyberghost007 or https://instagram.com/virat.kohli)..." onkeydown="if(event.key==='Enter') runUsernameIntel()">
-          <button class="btn-action" onclick="runUsernameIntel()">RUN PROFILE RECON</button>
+        <div class="social-input-bar">
+          <input type="text" id="userIntelInput" class="social-text-input" placeholder="Enter target username (e.g. torvalds or satoshi)..." onkeydown="if(event.key==='Enter') runUsernameIntel()">
+          
+          <!-- Custom Themed Location Box (Global / Type Area / Custom Dropdown) -->
+          <div class="social-location-box" id="socialLocationBox">
+            <input type="text" id="socialLocationInput" class="social-loc-input" value="Global" placeholder="Global or type area / city..." autocomplete="off" onfocus="openLocationMenu()" oninput="onLocationInput()" onkeydown="if(event.key==='Enter'){ closeLocationMenu(); reloadActiveCse(); runUsernameIntel(); }">
+            <button type="button" class="social-loc-arrow" id="socialLocArrow" onclick="toggleLocationMenu(event)" aria-label="Toggle location list">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="social-loc-dropdown" id="socialLocDropdown" style="display:none;"></div>
+          </div>
+
+          <button class="btn-action social-submit-btn" onclick="runUsernameIntel()">RUN SOCIAL INTEL</button>
         </div>
 
         <div id="usernameIntelResults" style="display:none;"></div>
@@ -2710,334 +3266,512 @@ async function runDomainIntel() {
   `;
 }
 
-// MODULE 3: USERNAME INTELLIGENCE (40 PLATFORMS WITH DOMAIN FAVICONS)
-const PLATFORM_DATABASE = [
-  { name: "GitHub", cat: "Developer", domain: "github.com", url: "https://github.com/{u}" },
-  { name: "GitLab", cat: "Developer", domain: "gitlab.com", url: "https://gitlab.com/{u}" },
-  { name: "Bitbucket", cat: "Developer", domain: "bitbucket.org", url: "https://bitbucket.org/{u}/" },
-  { name: "Dev.to", cat: "Developer", domain: "dev.to", url: "https://dev.to/{u}" },
-  { name: "Medium", cat: "Developer", domain: "medium.com", url: "https://medium.com/@{u}" },
-  { name: "Stack Overflow", cat: "Developer", domain: "stackoverflow.com", url: "https://stackoverflow.com/users/search?q={u}" },
-  { name: "CodePen", cat: "Developer", domain: "codepen.io", url: "https://codepen.io/{u}" },
-  { name: "JSFiddle", cat: "Developer", domain: "jsfiddle.net", url: "https://jsfiddle.net/user/{u}/" },
-  { name: "Replit", cat: "Developer", domain: "replit.com", url: "https://replit.com/@{u}" },
-  { name: "Kaggle", cat: "Developer", domain: "kaggle.com", url: "https://www.kaggle.com/{u}" },
-  { name: "HackerRank", cat: "Developer", domain: "hackerrank.com", url: "https://www.hackerrank.com/{u}" },
-  { name: "LeetCode", cat: "Developer", domain: "leetcode.com", url: "https://leetcode.com/{u}/" },
-
-  { name: "X (Twitter)", cat: "Social", domain: "x.com", url: "https://x.com/{u}" },
-  { name: "Instagram", cat: "Social", domain: "instagram.com", url: "https://instagram.com/{u}" },
-  { name: "Facebook", cat: "Social", domain: "facebook.com", url: "https://facebook.com/{u}" },
-  { name: "Threads", cat: "Social", domain: "threads.net", url: "https://www.threads.net/@{u}" },
-  { name: "Reddit", cat: "Social", domain: "reddit.com", url: "https://reddit.com/user/{u}" },
-  { name: "Pinterest", cat: "Social", domain: "pinterest.com", url: "https://pinterest.com/{u}" },
-  { name: "Tumblr", cat: "Social", domain: "tumblr.com", url: "https://{u}.tumblr.com" },
-  { name: "Mastodon", cat: "Social", domain: "mastodon.social", url: "https://mastodon.social/@{u}" },
-  { name: "Bluesky", cat: "Social", domain: "bsky.app", url: "https://bsky.app/profile/{u}" },
-
-  { name: "LinkedIn", cat: "Professional", domain: "linkedin.com", url: "https://linkedin.com/in/{u}" },
-  { name: "Behance", cat: "Professional", domain: "behance.net", url: "https://behance.net/{u}" },
-  { name: "Dribbble", cat: "Professional", domain: "dribbble.com", url: "https://dribbble.com/{u}" },
-  { name: "ResearchGate", cat: "Professional", domain: "researchgate.net", url: "https://www.researchgate.net/profile/{u}" },
-
-  { name: "YouTube", cat: "Video & Streaming", domain: "youtube.com", url: "https://youtube.com/@{u}" },
-  { name: "Twitch", cat: "Video & Streaming", domain: "twitch.tv", url: "https://twitch.tv/{u}" },
-  { name: "Vimeo", cat: "Video & Streaming", domain: "vimeo.com", url: "https://vimeo.com/{u}" },
-  { name: "Dailymotion", cat: "Video & Streaming", domain: "dailymotion.com", url: "https://dailymotion.com/{u}" },
-  { name: "TikTok", cat: "Video & Streaming", domain: "tiktok.com", url: "https://tiktok.com/@{u}" },
-
-  { name: "Steam", cat: "Gaming", domain: "steamcommunity.com", url: "https://steamcommunity.com/id/{u}" },
-  { name: "Xbox", cat: "Gaming", domain: "xbox.com", url: "https://xboxgamertag.com/search/{u}" },
-  { name: "PlayStation Network", cat: "Gaming", domain: "playstation.com", url: "https://psnprofiles.com/{u}" },
-  { name: "Epic Games", cat: "Gaming", domain: "epicgames.com", url: "https://store.epicgames.com/u/{u}" },
-  { name: "Telegram", cat: "Communication", domain: "t.me", url: "https://t.me/{u}" },
-  { name: "Discord", cat: "Communication", domain: "discord.com", url: "https://discord.com/search?q={u}" },
-  { name: "Flickr", cat: "Others", domain: "flickr.com", url: "https://flickr.com/people/{u}" },
-  { name: "SoundCloud", cat: "Others", domain: "soundcloud.com", url: "https://soundcloud.com/{u}" },
-  { name: "DeviantArt", cat: "Others", domain: "deviantart.com", url: "https://deviantart.com/{u}" },
-  { name: "Product Hunt", cat: "Others", domain: "producthunt.com", url: "https://producthunt.com/@{u}" },
-  { name: "Goodreads", cat: "Others", domain: "goodreads.com", url: "https://goodreads.com/{u}" }
+// MODULE 3: SOCIAL INTEL & SEARCH ENGINE
+const SOCIAL_NETWORKS = [
+  { id: "twitter", name: "X (Twitter)", domain: "x.com", color: "#14171a", cx: "3a9b377185eceb40a" },
+  { id: "instagram", name: "Instagram", domain: "instagram.com", color: "#e4405f", cx: "c4b97eed1414fcb14" },
+  { id: "facebook", name: "Facebook", domain: "facebook.com", color: "#1877f2", cx: "294a079ba2d4267d5" },
+  { id: "tiktok", name: "TikTok", domain: "tiktok.com", color: "#010101", cx: "c0311d8946a51b053" },
+  { id: "linkedin", name: "LinkedIn", domain: "linkedin.com", color: "#0077b5", cx: "3fb7efb248d74e652" },
+  { id: "youtube", name: "YouTube", domain: "youtube.com", color: "#ff0000", cx: "ca02b411f68b2d8e3" },
+  { id: "reddit", name: "Reddit", domain: "reddit.com", color: "#ff4500", cx: "7232c4d33dfa1541e" },
+  { id: "pinterest", name: "Pinterest", domain: "pinterest.com", color: "#e60023", cx: "cee97518dc742cf1e" },
+  { id: "snapchat", name: "Snapchat", domain: "snapchat.com", color: "#fffc00", textColor: "#000", cx: "8b1cfecbb1f363af5" }
 ];
 
-// BULLETPROOF LIVE SCRAPER & LOCAL PYTHON SOCIAL PROXY RESOLVER
-async function fetchSocialProfileMetadata(platform, handle, profileUrl) {
-  const cleanHandle = handle.replace(/^@/, '').trim().toLowerCase();
-  let meta = {
-    name: cleanHandle,
-    avatar: '',
-    bio: '',
-    metrics: '',
-    location: ''
-  };
+const SOCIAL_COUNTRIES = [
+  { code: "", name: "Global" },
+  { code: "us", name: "United States (US)" },
+  { code: "in", name: "India (IN)" },
+  { code: "gb", name: "United Kingdom (UK)" },
+  { code: "ca", name: "Canada (CA)" },
+  { code: "au", name: "Australia (AU)" },
+  { code: "de", name: "Germany (DE)" },
+  { code: "fr", name: "France (FR)" },
+  { code: "ae", name: "UAE (AE)" },
+  { code: "sg", name: "Singapore (SG)" },
+  { code: "br", name: "Brazil (BR)" },
+  { code: "jp", name: "Japan (JP)" }
+];
 
-  // 1. QUERY CLOUD / LOCAL BACKEND SOCIAL PROXY (OPTION 3 - 24/7 CLOUD HOSTING)
-  try {
-    const cloudEndpoint = window.CUSTOM_SOCIAL_API || 'http://localhost:8001/api/social';
-    const proxyApiUrl = `${cloudEndpoint}?platform=${encodeURIComponent(platform)}&handle=${encodeURIComponent(cleanHandle)}&url=${encodeURIComponent(profileUrl)}`;
-    const pRes = await fetch(proxyApiUrl);
-    if (pRes.ok) {
-      const pData = await pRes.json();
-      if (pData && pData.success) {
-        if (pData.name) meta.name = pData.name;
-        if (pData.avatar) meta.avatar = pData.avatar;
-        if (pData.bio) meta.bio = pData.bio;
-        if (pData.metrics) meta.metrics = pData.metrics;
-        if (pData.location) meta.location = pData.location;
-        if (meta.avatar || meta.metrics) return meta;
-      }
-    }
-  } catch(e) {
-    console.log("Social proxy offline, using client-side native API fallback...");
-  }
+let activeSocialNetwork = SOCIAL_NETWORKS[0];
+let locationDebounce = null;
 
-  // 2. GITHUB NATIVE API & AVATAR (100% RELIABLE)
-  if (platform === 'GitHub' || profileUrl.includes('github.com')) {
-    meta.avatar = `https://github.com/${cleanHandle}.png`;
-    try {
-      const res = await fetch(`https://api.github.com/users/${encodeURIComponent(cleanHandle)}`);
-      if (res.ok) {
-        const d = await res.json();
-        meta.name = d.name || d.login;
-        if (d.avatar_url) meta.avatar = d.avatar_url;
-        meta.bio = d.bio || '';
-        meta.location = d.location || '';
-        meta.metrics = `${d.public_repos} Repos | ${d.followers} Followers | ${d.following} Following`;
-        return meta;
-      }
-    } catch(e) {}
-  }
-
-  // 3. REDDIT NATIVE API (100% RELIABLE)
-  if (platform === 'Reddit' || profileUrl.includes('reddit.com')) {
-    try {
-      const res = await fetch(`https://www.reddit.com/user/${encodeURIComponent(cleanHandle)}/about.json`);
-      if (res.ok) {
-        const r = await res.json();
-        if (r && r.data) {
-          const d = r.data;
-          meta.name = d.subreddit ? d.subreddit.title || d.name : d.name;
-          if (d.icon_img) meta.avatar = d.icon_img.split('?')[0];
-          meta.bio = d.subreddit ? d.subreddit.public_description || '' : '';
-          meta.metrics = `${d.total_karma || (d.link_karma + d.comment_karma)} Karma`;
-          return meta;
-        }
-      }
-    } catch(e) {}
-  }
-
-  // 4. YOUTUBE OEMBED API (100% RELIABLE)
-  if (platform === 'YouTube' || profileUrl.includes('youtube.com') || profileUrl.includes('youtu.be')) {
-    try {
-      const ytRes = await fetch(`https://noembed.com/embed?url=${encodeURIComponent(profileUrl)}`);
-      if (ytRes.ok) {
-        const ytData = await ytRes.json();
-        if (ytData && ytData.title) {
-          meta.name = ytData.title;
-          if (ytData.author_name) meta.bio = `Channel Owner: ${ytData.author_name}`;
-          if (ytData.thumbnail_url) meta.avatar = ytData.thumbnail_url;
-          return meta;
-        }
-      }
-    } catch(e) {}
-  }
-
-  // 5. UNIFIED AVATAR CDN RESOLVER FALLBACKS
-  if (!meta.avatar) {
-    const domainMap = {
-      'Instagram': 'instagram.com',
-      'X (Twitter)': 'x.com',
-      'Facebook': 'facebook.com',
-      'LinkedIn': 'linkedin.com',
-      'TikTok': 'tiktok.com',
-      'YouTube': 'youtube.com'
-    };
-    const targetDomain = domainMap[platform] || 'google.com';
-    meta.avatar = `https://www.google.com/s2/favicons?domain=${targetDomain}&sz=128`;
-  }
-
-  return meta;
+function scrollSocialCarousel(offset) {
+  const c = document.getElementById('socialSearchTrack');
+  if (c) c.scrollBy({ left: offset, behavior: 'smooth' });
 }
 
-function parseSocialUrl(input) {
-  let raw = input.trim();
-  let platform = 'Cross-Platform Target';
-  let domain = 'facebook.com';
-  let handle = raw.replace(/^@/, '').trim();
+function getLocationData() {
+  const input = document.getElementById('socialLocationInput');
+  const raw = input ? input.value.trim() : '';
 
-  try {
-    if (raw.startsWith('http://') || raw.startsWith('https://')) {
-      const parsed = new URL(raw);
-      const host = parsed.hostname.toLowerCase().replace(/^www\./, '');
-      const pathSegments = parsed.pathname.split('/').filter(Boolean);
+  if (!raw || /^(global|none|all|worldwide|no country)$/i.test(raw)) {
+    return { code: '', area: '' };
+  }
 
-      if (host.includes('facebook.com')) {
-        platform = 'Facebook';
-        domain = 'facebook.com';
-        handle = pathSegments[0] || 'profile';
-      } else if (host.includes('instagram.com')) {
-        platform = 'Instagram';
-        domain = 'instagram.com';
-        handle = pathSegments[0] || 'user';
-      } else if (host.includes('twitter.com') || host.includes('x.com')) {
-        platform = 'X (Twitter)';
-        domain = 'x.com';
-        handle = pathSegments[0] || 'user';
-      } else if (host.includes('youtube.com') || host.includes('youtu.be')) {
-        platform = 'YouTube';
-        domain = 'youtube.com';
-        handle = (pathSegments[0] || '').replace(/^@/, '') || 'channel';
-      } else if (host.includes('linkedin.com')) {
-        platform = 'LinkedIn';
-        domain = 'linkedin.com';
-        handle = pathSegments[1] || pathSegments[0] || 'in';
-      } else if (host.includes('github.com')) {
-        platform = 'GitHub';
-        domain = 'github.com';
-        handle = pathSegments[0] || 'user';
-      } else if (host.includes('reddit.com')) {
-        platform = 'Reddit';
-        domain = 'reddit.com';
-        handle = pathSegments[1] || pathSegments[0] || 'user';
-      } else if (host.includes('tiktok.com')) {
-        platform = 'TikTok';
-        domain = 'tiktok.com';
-        handle = (pathSegments[0] || '').replace(/^@/, '') || 'user';
-      } else if (host.includes('pinterest.com')) {
-        platform = 'Pinterest';
-        domain = 'pinterest.com';
-        handle = pathSegments[0] || 'user';
-      } else if (host.includes('medium.com')) {
-        platform = 'Medium';
-        domain = 'medium.com';
-        handle = (pathSegments[0] || '').replace(/^@/, '') || 'user';
-      } else {
-        domain = host;
-        handle = pathSegments[pathSegments.length - 1] || host;
-      }
-    }
-  } catch(e) {}
-
-  // Clean trailing slashes/queries
-  handle = handle.replace(/^@/, '').split('?')[0].split('/')[0].trim();
-  if (!handle) handle = 'user';
-
-  return {
-    platform,
-    domain,
-    handle,
-    url: raw.startsWith('http') ? raw : `https://${domain}/${handle}`
-  };
-}
-
-async function runUsernameIntel() {
-  const rawInput = document.getElementById('userIntelInput').value.trim();
-  if (!rawInput) return alert('Please enter a target username or profile link!');
-
-  const resultsContainer = document.getElementById('usernameIntelResults');
-  resultsContainer.style.display = 'block';
-  resultsContainer.innerHTML = getCyberLoaderHTML('userIntel', 'INITIALIZING PROFILE RECONNAISSANCE...');
-
-  updateCyberProgress('userIntel', 15, 'STEP 1/4: PARSING HANDLE & TARGET PLATFORM...');
-  await new Promise(r => setTimeout(r, 150));
-
-  // UNIVERSAL URL & HANDLE PARSER (FACEBOOK, INSTAGRAM, TWITTER, LINKEDIN, YOUTUBE, REDDIT, GITHUB, TIKTOK, ETC)
-  const parsedTarget = parseSocialUrl(rawInput);
-  const targetPlatform = parsedTarget.platform;
-  const cleanUser = parsedTarget.handle;
-  const profileUrl = parsedTarget.url;
-  const targetDomain = parsedTarget.domain;
-
-  updateCyberProgress('userIntel', 45, 'STEP 2/4: RESOLVING PUBLIC PROFILE AVATAR & METRICS...');
-  const meta = await fetchSocialProfileMetadata(targetPlatform, cleanUser, profileUrl);
-
-  let primaryProfile = {
-    platform: targetPlatform,
-    name: meta.name || cleanUser,
-    handle: '@' + cleanUser,
-    avatar: meta.avatar || `https://www.google.com/s2/favicons?domain=${targetDomain}&sz=128`,
-    bio: meta.bio || '',
-    location: meta.location || '',
-    metrics: meta.metrics || '',
-    url: profileUrl
-  };
-
-  updateCyberProgress('userIntel', 80, 'STEP 3/4: CORRELATING 40 OSINT NETWORKS...');
-  await new Promise(r => setTimeout(r, 150));
-
-  const discoveredProfiles = [];
-  PLATFORM_DATABASE.forEach(p => {
-    const pUrl = p.url.replace('{u}', cleanUser);
-    const brandFavicon = `https://www.google.com/s2/favicons?domain=${p.domain}&sz=64`;
-    discoveredProfiles.push({
-      platform: p.name,
-      category: p.cat,
-      name: cleanUser,
-      handle: '@' + cleanUser,
-      avatar: brandFavicon,
-      bio: '',
-      details: '',
-      url: pUrl
-    });
+  // Check if raw matches one of the preset countries
+  const matched = SOCIAL_COUNTRIES.find(c => {
+    if (!c.code) return false;
+    return c.code.toLowerCase() === raw.toLowerCase() || c.name.toLowerCase() === raw.toLowerCase() || c.name.toLowerCase().includes(raw.toLowerCase());
   });
 
-  updateCyberProgress('userIntel', 100, 'STEP 4/4: RECONNAISSANCE COMPLETE!');
-  await new Promise(r => setTimeout(r, 100));
+  if (matched && matched.code) {
+    return { code: matched.code, area: '' };
+  }
 
-  resultsContainer.innerHTML = `
-    <!-- SECTION 1: PRIMARY PROFILE RECON BREAKDOWN -->
-    <div class="osint-grid" style="margin-bottom:16px;">
-      <div style="text-align:center;background:#080b18;padding:18px;border:1px solid var(--border);border-radius:4px;">
-        <img src="${primaryProfile.avatar}" style="width:84px;height:84px;border-radius:50%;border:2px solid var(--gold);object-fit:cover;margin-bottom:10px;" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=${targetDomain}&sz=128';">
-        <div style="font-family:'Press Start 2P',monospace;font-size:9px;line-height:1.4;color:#fff;margin-bottom:4px;word-break:break-all;">${primaryProfile.name}</div>
-        <div style="color:var(--gold);font-size:11px;margin-bottom:8px;word-break:break-all;">${primaryProfile.handle} · <span style="color:var(--subtext);font-size:10px;">${primaryProfile.platform}</span></div>
-        ${primaryProfile.bio ? `<div style="font-size:11px;color:#ccc;margin-bottom:8px;line-height:1.3;word-break:break-all;">${primaryProfile.bio}</div>` : ''}
-        ${primaryProfile.location ? `<div style="font-size:10px;color:var(--subtext);font-family:'JetBrains Mono',monospace;word-break:break-all;">Location: ${primaryProfile.location}</div>` : ''}
+  // It is a custom typed area / city (e.g. "Alappuzha", "London", "California")
+  return { code: '', area: raw };
+}
+
+function buildCseUrl(net, baseQuery) {
+  const loc = getLocationData();
+  const cleanQ = baseQuery.trim().replace(/^@/, '');
+  
+  let query = cleanQ;
+  if (loc.area) {
+    query += ` ${loc.area}`;
+  }
+
+  // Platform-specific profile targeting (strictly retrieves genuine user profiles)
+  if (net.id === 'instagram') {
+    query += ' "Instagram photos and videos"';
+  } else if (net.id === 'facebook') {
+    query += ' intitle:Facebook -inurl:videos -inurl:posts -inurl:groups';
+  } else if (net.id === 'twitter') {
+    query += ' intitle:"/ X"';
+  } else if (net.id === 'linkedin') {
+    query += ' profile';
+  } else if (net.id === 'tiktok') {
+    query += ' inurl:@';
+  } else if (net.id === 'youtube') {
+    query += ' (inurl:@ OR channel)';
+  } else if (net.id === 'reddit') {
+    query += ' inurl:user/';
+  } else if (net.id === 'pinterest') {
+    query += ' profile';
+  } else if (net.id === 'snapchat') {
+    query += ' inurl:add/';
+  }
+
+  let url = `cse.html?cx=${encodeURIComponent(net.cx)}&q=${encodeURIComponent(query)}&platform=${encodeURIComponent(net.id)}`;
+  if (loc.code) {
+    url += `&gl=${encodeURIComponent(loc.code)}`;
+  }
+  return url;
+}
+
+function reloadActiveCse() {
+  const iframe = document.getElementById('socialCseIframe');
+  if (!iframe) return;
+  const queryInput = document.getElementById('userIntelInput');
+  const query = queryInput ? queryInput.value.trim().replace(/^@/, '') : '';
+  if (!query) return;
+  iframe.src = buildCseUrl(activeSocialNetwork, query);
+}
+
+function selectSocialNetwork(netId, btn) {
+  const net = SOCIAL_NETWORKS.find(n => n.id === netId);
+  if (!net) return;
+  activeSocialNetwork = net;
+
+  document.querySelectorAll('.social-net-btn').forEach(b => b.classList.remove('selected'));
+  if (btn) btn.classList.add('selected');
+
+  reloadActiveCse();
+}
+
+function renderLocationMenu(filterText = '') {
+  const menu = document.getElementById('socialLocDropdown');
+  if (!menu) return;
+  const currentVal = document.getElementById('socialLocationInput')?.value.trim().toLowerCase() || '';
+
+  const filtered = SOCIAL_COUNTRIES.filter(c => {
+    if (!filterText) return true;
+    return c.name.toLowerCase().includes(filterText.toLowerCase()) || c.code.toLowerCase().includes(filterText.toLowerCase());
+  });
+
+  if (filtered.length === 0) {
+    const safeVal = filterText.replace(/'/g, "\\'");
+    menu.innerHTML = `<div class="social-loc-item selected" onclick="selectCustomLocation('${safeVal}')" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;">
+      <span>Search area "${filterText}"</span>
+      <span style="color:var(--gold);font-size:10px;font-weight:bold;">[Enter ↵]</span>
+    </div>`;
+    return;
+  }
+
+  menu.innerHTML = filtered.map(c => {
+    const isSel = currentVal === c.name.toLowerCase() || (c.code && currentVal === c.code.toLowerCase());
+    const selClass = isSel ? 'selected' : '';
+    const safeName = c.name.replace(/'/g, "\\'");
+    return `<div class="social-loc-item ${selClass}" onclick="selectLocationItem('${c.code}', '${safeName}')">
+      <span>${c.name}</span>
+      ${c.code ? `<span style="color:var(--subtext);font-size:10px;">${c.code.toUpperCase()}</span>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function openLocationMenu() {
+  const menu = document.getElementById('socialLocDropdown');
+  const arrow = document.getElementById('socialLocArrow');
+  if (!menu) return;
+  renderLocationMenu();
+  menu.style.display = 'block';
+  if (arrow) arrow.classList.add('open');
+}
+
+function closeLocationMenu() {
+  const menu = document.getElementById('socialLocDropdown');
+  const arrow = document.getElementById('socialLocArrow');
+  if (menu) menu.style.display = 'none';
+  if (arrow) arrow.classList.remove('open');
+}
+
+function toggleLocationMenu(e) {
+  if (e) e.stopPropagation();
+  const menu = document.getElementById('socialLocDropdown');
+  const arrow = document.getElementById('socialLocArrow');
+  if (!menu) return;
+  const isHidden = menu.style.display === 'none';
+  if (isHidden) {
+    renderLocationMenu();
+    menu.style.display = 'block';
+    if (arrow) arrow.classList.add('open');
+  } else {
+    closeLocationMenu();
+  }
+}
+
+function selectLocationItem(code, name) {
+  const input = document.getElementById('socialLocationInput');
+  if (input) {
+    input.value = name;
+  }
+  closeLocationMenu();
+  reloadActiveCse();
+}
+
+function selectCustomLocation(text) {
+  const input = document.getElementById('socialLocationInput');
+  if (input) {
+    input.value = text;
+  }
+  closeLocationMenu();
+  reloadActiveCse();
+}
+
+function onLocationInput() {
+  const input = document.getElementById('socialLocationInput');
+  const menu = document.getElementById('socialLocDropdown');
+  const val = input ? input.value.trim() : '';
+
+  if (menu && menu.style.display !== 'none') {
+    renderLocationMenu(val);
+  }
+
+  clearTimeout(locationDebounce);
+  locationDebounce = setTimeout(() => {
+    reloadActiveCse();
+  }, 600);
+}
+
+// Global click listener to close menu when clicking outside
+document.addEventListener('click', function(e) {
+  const box = document.getElementById('socialLocationBox');
+  if (box && !box.contains(e.target)) {
+    closeLocationMenu();
+  }
+});
+
+// MULTI-PLATFORM LIVE ACCOUNT PROBER (8 PLATFORMS)
+async function probeLiveAccount(handle) {
+  const clean = handle.replace(/^@/, '').trim().toLowerCase();
+  if (!clean || clean.includes(' ')) return [];
+  
+  const probes = [
+    // 1. GitHub
+    async () => {
+      try {
+        const res = await fetch(`https://api.github.com/users/${encodeURIComponent(clean)}`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.login) {
+            return {
+              exists: true,
+              platform: "GitHub",
+              domain: "github.com",
+              name: d.name || d.login,
+              handle: "@" + d.login,
+              avatar: d.avatar_url || `https://github.com/${clean}.png`,
+              bio: d.bio || '',
+              metrics: `${d.public_repos || 0} Repos | ${d.followers || 0} Followers`,
+              url: `https://github.com/${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 2. Mastodon
+    async () => {
+      try {
+        const res = await fetch(`https://mastodon.social/api/v1/accounts/lookup?acct=${encodeURIComponent(clean)}`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.username) {
+            return {
+              exists: true,
+              platform: "Mastodon",
+              domain: "mastodon.social",
+              name: d.display_name || d.username,
+              handle: "@" + d.username,
+              avatar: d.avatar || `https://www.google.com/s2/favicons?domain=mastodon.social&sz=128`,
+              bio: (d.note || '').replace(/<[^>]+>/g, '').trim(),
+              metrics: `${d.followers_count || 0} Followers | ${d.statuses_count || 0} Posts`,
+              url: d.url || `https://mastodon.social/@${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 3. Bluesky
+    async () => {
+      try {
+        const res = await fetch(`https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=${encodeURIComponent(clean)}.bsky.social`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.handle) {
+            return {
+              exists: true,
+              platform: "Bluesky",
+              domain: "bsky.app",
+              name: d.displayName || clean,
+              handle: "@" + d.handle,
+              avatar: d.avatar || `https://www.google.com/s2/favicons?domain=bsky.app&sz=128`,
+              bio: d.description || '',
+              metrics: `${d.followersCount || 0} Followers`,
+              url: `https://bsky.app/profile/${clean}.bsky.social`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 4. Medium
+    async () => {
+      try {
+        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent('https://medium.com/feed/@' + clean)}`, { signal: AbortSignal.timeout(4000) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.status === 'ok' && d.feed) {
+            return {
+              exists: true,
+              platform: "Medium",
+              domain: "medium.com",
+              name: d.feed.title || `Stories by @${clean}`,
+              handle: "@" + clean,
+              avatar: d.feed.image || `https://www.google.com/s2/favicons?domain=medium.com&sz=128`,
+              bio: d.feed.description || '',
+              metrics: `Author Feed (${d.items ? d.items.length : 0} Stories)`,
+              url: d.feed.link || `https://medium.com/@${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 5. GitLab
+    async () => {
+      try {
+        const res = await fetch(`https://gitlab.com/api/v4/users?username=${encodeURIComponent(clean)}`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (Array.isArray(d) && d.length > 0 && d[0].username.toLowerCase() === clean) {
+            const u = d[0];
+            return {
+              exists: true,
+              platform: "GitLab",
+              domain: "gitlab.com",
+              name: u.name || u.username,
+              handle: "@" + u.username,
+              avatar: u.avatar_url || `https://www.google.com/s2/favicons?domain=gitlab.com&sz=128`,
+              bio: '',
+              metrics: `GitLab User ID: ${u.id}`,
+              url: u.web_url || `https://gitlab.com/${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 6. Dev.to
+    async () => {
+      try {
+        const res = await fetch(`https://dev.to/api/users/by_username?url=${encodeURIComponent(clean)}`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.username) {
+            return {
+              exists: true,
+              platform: "Dev.to",
+              domain: "dev.to",
+              name: d.name || d.username,
+              handle: "@" + d.username,
+              avatar: d.profile_image || `https://www.google.com/s2/favicons?domain=dev.to&sz=128`,
+              bio: d.summary || '',
+              metrics: `Community Author`,
+              url: `https://dev.to/${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 7. Hacker News
+    async () => {
+      try {
+        const res = await fetch(`https://hacker-news.firebaseio.com/v0/user/${encodeURIComponent(clean)}.json`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.id) {
+            return {
+              exists: true,
+              platform: "Hacker News",
+              domain: "news.ycombinator.com",
+              name: d.id,
+              handle: "@" + d.id,
+              avatar: `https://www.google.com/s2/favicons?domain=news.ycombinator.com&sz=128`,
+              bio: d.about || '',
+              metrics: `${d.karma || 0} Karma`,
+              url: `https://news.ycombinator.com/user?id=${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    },
+
+    // 8. Keybase
+    async () => {
+      try {
+        const res = await fetch(`https://keybase.io/_/api/1.0/user/lookup.json?usernames=${encodeURIComponent(clean)}`, { signal: AbortSignal.timeout(3500) });
+        if (res.ok) {
+          const d = await res.json();
+          if (d && d.them && d.them.length > 0 && d.them[0] && d.them[0].basics) {
+            const u = d.them[0];
+            return {
+              exists: true,
+              platform: "Keybase",
+              domain: "keybase.io",
+              name: (u.profile && u.profile.full_name) || clean,
+              handle: "@" + clean,
+              avatar: (u.pictures && u.pictures.primary && u.pictures.primary.url) || `https://www.google.com/s2/favicons?domain=keybase.io&sz=128`,
+              bio: (u.profile && u.profile.bio) || '',
+              metrics: `Verified: ${u.basics.username}`,
+              url: `https://keybase.io/${clean}`
+            };
+          }
+        }
+      } catch(e) {}
+      return null;
+    }
+  ];
+
+  const results = await Promise.allSettled(probes.map(p => p()));
+  const verifiedAccounts = [];
+  results.forEach(r => {
+    if (r.status === 'fulfilled' && r.value && r.value.exists) {
+      verifiedAccounts.push(r.value);
+    }
+  });
+
+  return verifiedAccounts;
+}
+
+function renderSocialCarouselHTML(query) {
+  const safeQ = query.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  const displayQ = query.replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  activeSocialNetwork = SOCIAL_NETWORKS[0];
+  const initialCseUrl = buildCseUrl(activeSocialNetwork, query);
+
+  return `
+    <div style="margin: 16px 0; width: 100%;">
+      <div class="social-section-header">
+        <div>
+          <div class="social-section-title">SOCIAL SEARCH ENGINE</div>
+          <div class="social-section-desc">Select a network tab below to view search results for <span style="color:var(--gold);font-family:'JetBrains Mono',monospace;font-weight:700;">@${displayQ}</span></div>
+        </div>
+      </div>
+      
+      <div class="carousel-wrapper">
+        <button class="carousel-nav-btn" onclick="scrollSocialCarousel(-220)" aria-label="Previous">&lt;</button>
+        <div class="social-search-carousel" id="socialSearchTrack">
+          ${SOCIAL_NETWORKS.map((n, idx) => {
+            const isDark = ['#14171a','#010101'].includes(n.color);
+            const borderStyle = isDark ? 'border-color:rgba(255,255,255,0.2);' : `border-color:${n.color};`;
+            const txtColor = n.textColor || '#fff';
+            const selectedClass = idx === 0 ? 'selected' : '';
+            return `<button class="social-net-btn ${selectedClass}" data-net="${n.id}" style="background:${n.color};${borderStyle};color:${txtColor};" onclick="selectSocialNetwork('${n.id}', this)" title="Search ${n.name}">
+              <img src="https://www.google.com/s2/favicons?domain=${n.domain}&sz=32" onerror="this.style.display='none'">
+              <span>${n.name}</span>
+            </button>`;
+          }).join('')}
+        </div>
+        <button class="carousel-nav-btn" onclick="scrollSocialCarousel(220)" aria-label="Next">&gt;</button>
       </div>
 
-      <div class="step-card" style="display:flex;flex-direction:column;justify-space-between;">
-        <div>
-          <div class="step-num" style="line-height:1.4;">PROFILE METADATA & RECON</div>
-          <table class="kv-table" style="margin-bottom:12px;">
-            <tr><td class="kv-key">Target Handle:</td><td style="color:var(--gold);font-weight:bold;word-break:break-all;">${primaryProfile.handle}</td></tr>
-            <tr><td class="kv-key">Primary Platform:</td><td style="color:#fff;font-weight:bold;word-break:break-all;">${primaryProfile.platform}</td></tr>
-            ${primaryProfile.metrics ? `<tr><td class="kv-key">Profile Metrics:</td><td style="color:var(--gold);font-weight:bold;font-family:'JetBrains Mono',monospace;word-break:break-all;">${primaryProfile.metrics}</td></tr>` : '<tr><td class="kv-key">Profile Status:</td><td style="color:var(--subtext);word-break:break-all;">Public Profile Link Validated</td></tr>'}
-            <tr><td class="kv-key">Profile URL:</td><td style="word-break:break-all;overflow-wrap:anywhere;"><a href="${primaryProfile.url}" target="_blank" rel="noopener" style="color:var(--gold);word-break:break-all;">${primaryProfile.url}</a></td></tr>
-          </table>
-        </div>
-
-        <div>
-          <div style="font-family:'Press Start 2P',monospace;font-size:7px;line-height:1.4;color:var(--gold);margin-bottom:6px;">DIRECT LAUNCHERS</div>
-          <div class="launcher-btn-group">
-            <a href="${primaryProfile.url}" target="_blank" rel="noopener" class="btn-action" style="text-decoration:none;">OPEN PROFILE ↗</a>
-            <a href="https://www.google.com/search?q=${encodeURIComponent('"' + cleanUser + '"')}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="text-decoration:none;border:1px solid var(--gold);color:var(--gold);">GOOGLE SEARCH ↗</a>
-          </div>
-        </div>
+      <!-- Embedded Search Results Container - Full Width Expanded -->
+      <div class="social-cse-frame-wrap">
+        <iframe id="socialCseIframe" class="social-cse-iframe" src="${initialCseUrl}"></iframe>
       </div>
     </div>
+  `;
+}
 
-    <!-- SECTION 2: 40-PLATFORM CORRELATED ACCOUNTS MATRIX -->
-    <div class="step-card">
-      <div class="matrix-header-bar">
-        <div class="step-num" style="line-height:1.4;">40-PLATFORM CORRELATED ACCOUNTS (${discoveredProfiles.length})</div>
-        <div style="font-size:10px;color:var(--subtext);">Displaying correlated accounts across 40 networks</div>
+function renderVerifiedAccountsHTML(verifiedAccounts) {
+  if (!verifiedAccounts || verifiedAccounts.length === 0) {
+    return `
+      <div style="margin: 20px 0; width: 100%;">
+        <div class="social-section-header">
+          <div>
+            <div class="social-section-title" style="color:var(--gold);">LIVE VERIFIED ACCOUNTS (0 DETECTED)</div>
+          </div>
+        </div>
+        <div class="social-no-results">
+          <div class="snr-title">No accounts found</div>
+        </div>
       </div>
+    `;
+  }
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(250px, 1fr));gap:12px;">
-        ${discoveredProfiles.map(p => `
-          <div style="background:#080b18;border:1px solid var(--border);border-radius:4px;padding:12px;display:flex;flex-direction:column;justify-space-between;">
-            <div>
-              <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
-                <img src="${p.avatar}" style="width:32px;height:32px;border-radius:50%;border:1px solid var(--border);object-fit:cover;" onerror="this.onerror=null;this.src='https://www.google.com/s2/favicons?domain=google.com&sz=64';">
-                <div style="overflow:hidden;">
-                  <div style="font-size:12px;color:#fff;font-weight:bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.name}</div>
-                  <div style="font-size:10px;color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.handle} <span style="color:var(--subtext);">· ${p.platform}</span></div>
-                </div>
+  return `
+    <div style="margin: 20px 0; width: 100%;">
+      <div class="social-section-header">
+        <div>
+          <div class="social-section-title" style="color:#34d399;">LIVE VERIFIED ACCOUNTS (${verifiedAccounts.length} CONFIRMED)</div>
+        </div>
+      </div>
+      <div class="social-verified-grid">
+        ${verifiedAccounts.map(a => `
+          <div class="social-verified-card">
+            <img class="svc-avatar" src="${a.avatar}" onerror="this.src='https://www.google.com/s2/favicons?domain=${a.domain}&sz=128';" alt="${a.name}">
+            <div class="svc-info">
+              <div class="svc-name">${a.name}</div>
+              <div class="svc-handle">${a.handle}</div>
+              <div class="svc-platform-badge">
+                <img src="https://www.google.com/s2/favicons?domain=${a.domain}&sz=16">
+                ${a.platform}
               </div>
-              ${p.bio ? `<div style="font-size:11px;color:#bbb;margin-bottom:8px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">${p.bio}</div>` : ''}
-              ${p.details ? `<div style="font-size:10px;color:var(--subtext);margin-bottom:10px;font-family:'JetBrains Mono',monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${p.details}</div>` : ''}
-            </div>
-            <div style="margin-top:auto;text-align:right;border-top:1px solid rgba(255,255,255,0.05);padding-top:6px;">
-              <a href="${p.url}" target="_blank" rel="noopener" class="btn-action" style="font-size:7px;padding:5px 10px;text-decoration:none;">OPEN PROFILE ↗</a>
+              ${a.metrics ? `<div class="svc-metrics">${a.metrics}</div>` : ''}
+              ${a.bio ? `<div class="svc-bio">${a.bio.substring(0, 120)}${a.bio.length > 120 ? '...' : ''}</div>` : ''}
+              <a href="${a.url}" target="_blank" rel="noopener" class="svc-open-btn">OPEN PROFILE [↗]</a>
             </div>
           </div>
         `).join('')}
@@ -3046,15 +3780,34 @@ async function runUsernameIntel() {
   `;
 }
 
-function filterUserCat(catName) {
-  const items = document.querySelectorAll('.plat-card-item');
-  items.forEach(item => {
-    if (catName === 'ALL' || item.getAttribute('data-cat') === catName) {
-      item.style.display = 'flex';
-    } else {
-      item.style.display = 'none';
-    }
-  });
+// MAIN SOCIAL INTEL RUNNER (ONLY USERNAME ANALYSIS SUPPORTED)
+async function runUsernameIntel() {
+  const rawInput = document.getElementById('userIntelInput').value.trim();
+  if (!rawInput) return alert('Please enter a target username!');
+
+  // Strict username extraction (no profile links, no spaces)
+  const cleanUser = rawInput.replace(/^@/, '').trim().split(/[/?#]/)[0];
+  if (!cleanUser) return alert('Please enter a valid username handle!');
+
+  const resultsContainer = document.getElementById('usernameIntelResults');
+  resultsContainer.style.display = 'block';
+  resultsContainer.innerHTML = getCyberLoaderHTML('userIntel', `INITIALIZING SOCIAL INTEL SCAN FOR @${cleanUser.toUpperCase()}...`);
+
+  updateCyberProgress('userIntel', 35, `STEP 1/2: PROBING LIVE APIs FOR @${cleanUser}...`);
+  const verifiedAccounts = await probeLiveAccount(cleanUser);
+
+  updateCyberProgress('userIntel', 90, 'STEP 2/2: RENDERING SOCIAL INTEL DOSSIER...');
+  await new Promise(r => setTimeout(r, 200));
+
+  resultsContainer.innerHTML = `
+    <div class="osint-modern-ui">
+      <!-- SOCIAL SEARCH ENGINE WITH EMBEDDED RESULTS -->
+      ${renderSocialCarouselHTML(cleanUser)}
+
+      <!-- LIVE VERIFIED ACCOUNTS -->
+      ${renderVerifiedAccountsHTML(verifiedAccounts)}
+    </div>
+  `;
 }
 
 

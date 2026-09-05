@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Search Results</title>
+<style>
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  background: #080c18;
+  color: #ffffff;
+  margin: 0;
+  padding: 10px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* HIDE 'Did you mean' spellcheck box */
+.gs-spelling,
+.gsc-spelling,
+.gs-spelling-original,
+div.gs-spelling,
+div.gsc-spelling,
+.gsc-expansionArea .gs-spelling {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* HIDE 'Search ... on Google' link and branding */
+.gcsc-more-maybe-branding-root,
+.gcsc-find-more-on-google-root,
+div[class*="more-maybe-branding"],
+a[href*="google.com/search"],
+.gcsc-branding {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Hide Web / Image Tabs to eliminate white artifacts and tighten vertical space */
+.gsc-tabsArea,
+.gsc-tabHeader,
+div.gsc-tabsArea {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Full Width Expanded Result View - fills the screen cleanly */
+div.gsc-control-cse,
+div.gsc-control-wrapper-cse,
+div.gsc-results-wrapper-nooverlay,
+div.gsc-results-wrapper-overlay,
+div.gsc-wrapper,
+div.gsc-webResult,
+div.gsc-result,
+table.gsc-table-result,
+td.gsc-table-cell-snippet-close {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.gsc-control-cse {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.gsc-above-wrapper-area {
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  padding-bottom: 4px !important;
+  margin-bottom: 8px !important;
+}
+
+.gsc-result-info {
+  color: #94a3b8 !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+}
+
+.gsc-orderby-label, .gsc-selected-option-container {
+  color: #94a3b8 !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+}
+
+/* Compact Result Cards - expands full width with tight comfortable padding */
+.gsc-webResult.gsc-result {
+  background: #0b0f1f !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 6px !important;
+  padding: 9px 14px !important;
+  margin-bottom: 7px !important;
+  transition: all 0.2s ease !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.gsc-webResult.gsc-result:hover {
+  border-color: rgba(240, 192, 64, 0.35) !important;
+  background: #0e1428 !important;
+}
+
+/* Title: 14px preserved, white, unbolded */
+.gs-title, .gs-title * {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+  line-height: 1.3 !important;
+}
+
+.gs-title {
+  margin-bottom: 1px !important;
+}
+
+.gs-title:hover, .gs-title:hover * {
+  text-decoration: underline !important;
+}
+
+/* Links / URLs: Blue, font size 11px preserved */
+.gsc-url-top {
+  margin: 1px 0 3px 0 !important;
+  line-height: 1.2 !important;
+}
+
+.gs-visibleUrl, .gs-visibleUrl-long, .gs-visibleUrl-short, .gsc-url-top * {
+  color: #38bdf8 !important;
+  font-size: 11px !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+}
+
+/* Snippet: 12px preserved, white */
+.gs-snippet {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+}
+
+/* Exact Matched Target Name: Yellow, unbolded */
+.gs-snippet b,
+.gs-title b,
+b,
+strong {
+  color: #f0c040 !important;
+  font-weight: normal !important;
+}
+
+/* Thumbnails */
+.gsc-thumbnail-inside {
+  padding: 0 0 0 12px !important;
+  vertical-align: top !important;
+}
+
+.gsc-imageResult, .gs-image {
+  border-radius: 4px !important;
+  max-width: 75px !important;
+  max-height: 75px !important;
+  object-fit: cover !important;
+}
+
+/* Pagination */
+.gsc-cursor-box {
+  margin-top: 10px !important;
+}
+
+.gsc-cursor-page {
+  background: #0d1224 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  padding: 4px 10px !important;
+  margin: 0 3px !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  font-weight: normal !important;
+}
+
+.gsc-cursor-current-page {
+  background: #f0c040 !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+/* Mobile & Tablet Responsiveness for CSE */
+@media (max-width: 768px) {
+  body {
+    padding: 8px 10px !important;
+  }
+  .gsc-webResult.gsc-result {
+    padding: 8px 12px !important;
+    margin-bottom: 6px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 6px 6px !important;
+  }
+  .gsc-webResult.gsc-result {
+    padding: 8px 10px !important;
+    margin-bottom: 6px !important;
+  }
+  .gs-title, .gs-title * {
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+  }
+  .gs-visibleUrl, .gs-visibleUrl-long, .gs-visibleUrl-short, .gsc-url-top * {
+    font-size: 10px !important;
+    word-break: break-all !important;
+  }
+  .gs-snippet {
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+  }
+  .gsc-imageResult, .gs-image {
+    max-width: 55px !important;
+    max-height: 55px !important;
+  }
+  .gsc-thumbnail-inside {
+    padding-left: 6px !important;
+  }
+}
+</style>
+</head>
+<body>
+<div id="cse-container"></div>
+<script>
+const params = new URLSearchParams(window.location.search);
+const cx = params.get('cx') || '3a9b377185eceb40a';
+const gl = params.get('gl') || '';
+const platform = (params.get('platform') || '').toLowerCase();
+
+const s = document.createElement('script');
+s.src = 'https://cse.google.com/cse.js?cx=' + encodeURIComponent(cx);
+s.async = true;
+document.head.appendChild(s);
+
+const div = document.createElement('div');
+div.className = 'gcse-searchresults-only';
+div.setAttribute('data-mobileLayout', 'disabled');
+if (gl) div.setAttribute('data-gl', gl);
+document.getElementById('cse-container').appendChild(div);
+
+function getCleanUrl(el) {
+  const link = el.querySelector('.gs-title a, a.gs-title');
+  let u = link ? (link.getAttribute('data-ctorig') || link.href || '') : '';
+  if (u.includes('google.com/url?')) {
+    try {
+      const parsed = new URL(u);
+      u = parsed.searchParams.get('q') || parsed.searchParams.get('url') || u;
+    } catch(e) {}
+  }
+  if (!u) {
+    const vis = el.querySelector('.gs-visibleUrl');
+    u = vis ? vis.innerText.trim() : '';
+  }
+  return u.toLowerCase();
+}
+
+function isProfileResult(el) {
+  if (!platform) return true;
+  const u = getCleanUrl(el);
+  const title = (el.querySelector('.gs-title')?.innerText || '').toLowerCase();
+
+  if (platform === 'instagram') {
+    if (u.includes('/reel/') || u.includes('/reels/') || u.includes('/p/') || u.includes('/tv/') || u.includes('/explore/') || u.includes('/stories/')) {
+      return false;
+    }
+    if (title.startsWith('reel by') || title.startsWith('photo by') || title.startsWith('video by')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'facebook') {
+    if (u.includes('/videos/') || u.includes('/posts/') || u.includes('/watch/') || 
+        u.includes('/photos/') || u.includes('photo.php') || u.includes('permalink.php') || 
+        u.includes('story.php') || u.includes('/groups/') || u.includes('/events/') || 
+        u.includes('/media/') || u.includes('/notes/')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'twitter') {
+    if (u.includes('/status/') || u.includes('/i/')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'linkedin') {
+    if (u.includes('/jobs/') || u.includes('/pulse/') || u.includes('/posts/') || u.includes('/learning/')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'tiktok') {
+    if (u.includes('/video/') || u.includes('/discover/')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'youtube') {
+    if (u.includes('/watch') || u.includes('/shorts/') || u.includes('/playlist')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'reddit') {
+    if (u.includes('/r/') && !u.includes('/user/')) {
+      return false;
+    }
+    return true;
+  }
+
+  if (platform === 'pinterest') {
+    if (u.includes('/pin/')) {
+      return false;
+    }
+    return true;
+  }
+
+  return true;
+}
+
+function cleanResults() {
+  // Force target _blank on links
+  document.querySelectorAll('.gs-title a, a.gs-title').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener noreferrer');
+  });
+
+  // Remove any 'Search on Google' link
+  document.querySelectorAll('.gcsc-more-maybe-branding-root, a[href*="google.com/search"]').forEach(el => {
+    el.style.display = 'none';
+  });
+
+  // Filter out non-profile results strictly
+  document.querySelectorAll('.gsc-webResult.gsc-result').forEach(el => {
+    if (!isProfileResult(el)) {
+      el.style.setProperty('display', 'none', 'important');
+    }
+  });
+}
+setInterval(cleanResults, 200);
+</script>
+</body>
+</html>
