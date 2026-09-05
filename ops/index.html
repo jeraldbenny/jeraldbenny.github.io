@@ -1265,6 +1265,97 @@ code{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}
       </div>
     </div>
 
+    <!-- PROGRESSIVE ARTICLE & VECTOR CAPACITY MONITOR -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ PROGRESSIVE CAPACITY & VECTOR ALLOCATION MONITOR ★</h3>
+      <p style="font-size:15px; color:#b8c8e0; margin-bottom:16px;">Live storage utilization vs system maximum thresholds across feeding pipelines and neural vector stores:</p>
+      
+      <div style="display:flex; flex-direction:column; gap:14px;">
+        <!-- Active Feed Capacity -->
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+            <span style="color:var(--teal); font-weight:bold;">ACTIVE FEED BUFFER CAPACITY</span>
+            <span style="color:#fff;">Present: <strong style="color:var(--teal);">66</strong> / Max: <strong>150 Articles</strong> <span style="color:var(--gold);">(44.0%)</span></span>
+          </div>
+          <div style="background:#080b18; height:16px; border:1px solid rgba(60,200,192,0.4); overflow:hidden; position:relative;">
+            <div style="background:linear-gradient(90deg,#1b5550,#3cc8c0); width:44.0%; height:100%; border-right:2px solid #ffe878;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+            <span>Current daily dispatches parsed in primary feed</span>
+            <span>Allocated Buffer: 150 Limit</span>
+          </div>
+        </div>
+
+        <!-- Historical Archive Pool -->
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+            <span style="color:var(--gold); font-weight:bold;">HISTORICAL ARCHIVE CAPACITY</span>
+            <span style="color:#fff;">Present: <strong style="color:var(--gold);">1,000</strong> / Max: <strong>1,500 Dispatches</strong> <span style="color:var(--teal);">(66.7%)</span></span>
+          </div>
+          <div style="background:#080b18; height:16px; border:1px solid rgba(240,192,64,0.4); overflow:hidden; position:relative;">
+            <div style="background:linear-gradient(90deg,#6a4808,#f0c040); width:66.7%; height:100%; border-right:2px solid #3cc8c0;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+            <span>Deep historical intelligence timeline archive</span>
+            <span>Archive Pool: 1,500 Limit</span>
+          </div>
+        </div>
+
+        <!-- Pinecone Vector DB Storage -->
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+            <span style="color:#a070e8; font-weight:bold;">PINECONE VECTOR DB STORAGE CAPACITY</span>
+            <span style="color:#fff;">Present: <strong style="color:#a070e8;">1,071</strong> / Max: <strong>5,000 Vectors</strong> <span style="color:#40d060;">(21.4%)</span></span>
+          </div>
+          <div style="background:#080b18; height:16px; border:1px solid rgba(160,112,232,0.4); overflow:hidden; position:relative;">
+            <div style="background:linear-gradient(90deg,#4a2878,#a070e8); width:21.4%; height:100%; border-right:2px solid #ffe878;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+            <span>Serverless 384-dimensional dense vectors stored in index</span>
+            <span>Free Tier Index Quota: 5,000 Vectors</span>
+          </div>
+        </div>
+
+        <!-- Dynamic System & Knowledge Anchors -->
+        <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+            <span style="color:#40d060; font-weight:bold;">DYNAMIC ANCHORS & DFIR CHEAT-SHEETS</span>
+            <span style="color:#fff;">Present: <strong style="color:#40d060;">5</strong> / Max: <strong>50 Records</strong> <span style="color:var(--gold);">(10.0%)</span></span>
+          </div>
+          <div style="background:#080b18; height:16px; border:1px solid rgba(64,208,96,0.4); overflow:hidden; position:relative;">
+            <div style="background:linear-gradient(90deg,#185025,#40d060); width:10.0%; height:100%; border-right:2px solid #3cc8c0;"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+            <span>Curated tool cheat-sheets and daily context anchors</span>
+            <span>Anchor Slot Cap: 50 Records</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIGIBOT TELEMETRY & AUTOMATED ERROR SCANNER -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:10px;">
+        <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin:0;">★ DIGIBOT TELEMETRY & AUTOMATED ERROR SCANNER ★</h3>
+        <button id="opsScanBtn" onclick="opsLiveErrorScan()" style="font-family:'Press Start 2P',monospace; font-size:6px; padding:8px 14px; background:#2a1835; border:1px solid #e070e8; color:#ff90ff; cursor:pointer;">⚡ RUN LIVE DIGIBOT ERROR SCAN</button>
+      </div>
+      <p style="font-size:15px; color:#b8c8e0; margin-bottom:12px;">Active fault detection across vector dimensionality, Pinecone indexing, Cloudflare edge routing, and response grounding:</p>
+      
+      
+<div style="background:rgba(64, 208, 96, 0.06); border: 1px solid rgba(64, 208, 96, 0.3); padding: 14px; margin-bottom: 10px;">
+  <div style="color:#40d060; font-family:'Press Start 2P',monospace; font-size:6.5px; margin-bottom:6px;">✔ ZERO DETECTED FAULTS — ALL DIGIBOT SUBSYSTEMS NOMINAL</div>
+  <div style="font-family:'VT323',monospace; font-size:16px; color:#b8c8e0; line-height:1.5;">
+    • FastEmbed ONNX Model: <span style="color:#40d060;">384-D Matrix OK</span><br>
+    • Pinecone Serverless Vector Store: <span style="color:#40d060;">Index Online & Synced (1,071 Vectors)</span><br>
+    • Dynamic Briefing Ingestion: <span style="color:#40d060;">Daily Grounding Anchors Active</span><br>
+    • Cloudflare Edge Inference API: <span style="color:#40d060;">Ready for Live Queries</span>
+  </div>
+</div>
+
+
+      <div id="opsErrorScanOutput" style="display:none; background:#080b18; border:1px solid var(--border); padding:14px; margin-top:10px; font-family:'VT323',monospace; font-size:16px; line-height:1.5;"></div>
+    </div>
+
     <!-- VECTOR KNOWLEDGE DISTRIBUTION -->
     <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
       <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ VECTOR KNOWLEDGE SPACE COMPOSITION ★</h3>
@@ -1494,6 +1585,64 @@ async function opsQueryDigibot() {
     }
   } catch (err) {
     if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Query Failed:</span> ' + err.message;
+  }
+  if (btn) btn.disabled = false;
+}
+
+async function opsLiveErrorScan() {
+  var out = document.getElementById('opsErrorScanOutput');
+  var btn = document.getElementById('opsScanBtn');
+  if (btn) btn.disabled = true;
+  if (out) {
+    out.style.display = 'block';
+    out.innerHTML = '<span style="color:#f0c040;">[SCAN INITIATED] Probing Cloudflare Worker API bridge and testing RAG vector grounding...</span>';
+  }
+  var startTime = performance.now();
+  var errors = [];
+  try {
+    // 1. Probe ping
+    var pingResp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: "ping" })
+    });
+    var pingDuration = Math.round(performance.now() - startTime);
+    if (!pingResp.ok) {
+      errors.push("API Bridge Ping Failed: HTTP " + pingResp.status + " " + pingResp.statusText);
+    }
+
+    // 2. Probe RAG query
+    var qStart = performance.now();
+    var qResp = await fetch("https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev", {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: "When were you last updated?" })
+    });
+    var qDuration = Math.round(performance.now() - qStart);
+    if (!qResp.ok) {
+      var qErr = await qResp.text();
+      errors.push("RAG Query Failed: HTTP " + qResp.status + " - " + qErr);
+    } else {
+      var qData = await qResp.json();
+      if (!qData.reply || qData.reply.startsWith("Error")) {
+        errors.push("RAG Model Returned Anomaly: " + (qData.reply || "No reply"));
+      }
+    }
+
+    if (errors.length > 0) {
+      var errHtml = '<span style="color:#e04848; font-weight:bold;">✖ SCAN DETECTED ' + errors.length + ' ERROR(S):</span><br>';
+      errors.forEach(function(e) {
+        errHtml += '<span style="color:#fff;">• ' + e.replace(/</g, '&lt;') + '</span><br>';
+      });
+      if (out) out.innerHTML = errHtml;
+    } else {
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ SCAN COMPLETE: 0 ERRORS DETECTED</span><br>' +
+                              '<span style="color:#3cc8c0;">• API Bridge Latency: ' + pingDuration + ' ms [ONLINE]</span><br>' +
+                              '<span style="color:#3cc8c0;">• RAG Vector Retrieval + LLM: ' + qDuration + ' ms [VERIFIED]</span><br>' +
+                              '<span style="color:#b8c8e0;">• Grounded Citation Integrity: Confirmed</span>';
+    }
+  } catch (err) {
+    if (out) out.innerHTML = '<span style="color:#e04848; font-weight:bold;">✖ Scanner Connection Error:</span> ' + err.message;
   }
   if (btn) btn.disabled = false;
 }

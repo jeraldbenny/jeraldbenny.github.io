@@ -110,13 +110,20 @@ export default {
         
         let contextArticles = [];
         if (pcData.matches && pcData.matches.length > 0) {
-          for (const m of pcData.matches) {
-            if (m.metadata && m.metadata.content) {
-              contextArticles.push(`[ARTICLE: ${m.metadata.title || "Untitled"}]
-Date: ${m.metadata.date || "Unknown"}
-Category: ${m.metadata.category || "General"}
-Summary: ${m.metadata.plain_summary || ""}
-Content: ${m.metadata.content}`);
+          for (let i = 0; i < pcData.matches.length; i++) {
+            const m = pcData.matches[i];
+            if (m.metadata && (m.metadata.content || m.metadata.plain_summary)) {
+              const title = m.metadata.title || "Untitled Intelligence";
+              const date = m.metadata.date || "Recent";
+              const category = m.metadata.category || "General";
+              const link = m.metadata.link || "https://jeraldbenny.github.io/digifeed/";
+              const content = m.metadata.content || m.metadata.plain_summary || "";
+              contextArticles.push(`[ARTICLE ${i + 1}: ${title}]
+- Published Date: ${date}
+- Category: ${category}
+- Reference URL: ${link}
+- Intelligence Content:
+${content}`);
             }
           }
         }
@@ -124,13 +131,17 @@ Content: ${m.metadata.content}`);
         const contextText = contextArticles.join("\n\n---\n\n");
   
         // 4. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
-        const systemPrompt = `You are DIGIBOT, an elite digital forensics and cybersecurity AI assistant designed for Jerald Benny's DigiFeed intelligence archive.
-You answer user queries strictly using the verified intelligence provided in the Context Articles below.
+        const systemPrompt = `You are DIGIBOT, the specialized digital forensics & cybersecurity AI assistant for Jerald Benny's DigiFeed intelligence archive.
+You answer user questions strictly using the verified facts in the Context Articles below.
 
-CRITICAL INSTRUCTIONS:
-1. When the user asks for "today's news", "top digital forensic news today", "latest updates", or "current date", prioritize any Daily Intelligence Briefing or System Status records in the context. Clearly cite the current date and summarize the top headlines, CVEs, and threats accurately.
-2. If asked about Jerald Benny, highlight his expertise in digital forensics, incident response, memory analysis, and cyber threat intelligence.
-3. Keep responses direct, well-structured with bullet points and bold headers, hacker-themed, and technically precise. Do not hallucinate outside the provided context.
+MANDATORY CITATION & FORMATTING INSTRUCTIONS:
+1. CITATIONS & DATES ARE MANDATORY: For EVERY news item, CVE, tool release, threat alert, or research paper you mention, you MUST include its published date (e.g. "[05 Sep 2026]") and reference the source/article name or link (e.g. "[Source Name](url)").
+2. FORMATTING: Structure your reply using clean markdown with bold headlines and bullet points in a sharp, hacker-terminal style.
+   Example citation pattern:
+   • **[Date] Headline/Tool**: Key finding / impact. (Source: [Reference](link))
+3. TODAY'S NEWS & CURRENT DATE INQUIRIES: When asked for "today's news", "top digital forensic news today", "what is the date", or "latest update", explicitly state the current date from the Daily Intelligence Briefing and summarize the latest dispatches.
+4. JERALD BENNY INQUIRIES: Highlight his background as a seasoned digital forensics & incident response specialist and creator of DigiFeed.
+5. Do not invent dates or references not present in the context.
 
 === CONTEXT ARTICLES ===
 ${contextText || "No matching articles found in index."}

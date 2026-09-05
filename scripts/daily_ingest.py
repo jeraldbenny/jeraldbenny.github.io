@@ -26,21 +26,27 @@ def build_today_briefing(articles, current_date_str):
         title = a.get("title", "").strip()
         cat = a.get("category_tag") or a.get("category") or ""
         summary = a.get("plain_summary") or a.get("deep_lore") or ""
+        date_str = a.get("published_fmt") or current_date_str
+        link = a.get("link") or a.get("url") or "https://jeraldbenny.github.io/digifeed/"
+        source_name = a.get("source") or "DigiFeed"
         
         if not title:
             continue
             
-        headlines.append(f"• {title}")
+        headline_entry = f"• [{date_str}] {title} (Source: [{source_name}]({link}))"
+        headlines.append(headline_entry)
+        
+        detail_entry = f"• [{date_str}] {title}: {summary[:240]} (Reference: [{source_name}]({link}))"
         
         if "CVE" in cat or "Vulnerabilities" in cat or "CVE-" in title:
-            cves.append(f"• {title}: {summary[:200]}")
+            cves.append(detail_entry)
         elif "Malware" in cat or "IOC" in cat or "Threat" in title or "Ransomware" in title:
-            threats.append(f"• {title}: {summary[:200]}")
+            threats.append(detail_entry)
         elif "GitHub" in cat or "Release" in cat or "Tool" in cat:
-            tools.append(f"• {title}: {summary[:200]}")
+            tools.append(detail_entry)
         else:
             if len(top_stories) < 6:
-                top_stories.append(f"• {title}: {summary[:200]}")
+                top_stories.append(detail_entry)
 
     cves_text = "\n".join(cves[:5]) if cves else "• No critical zero-days reported today."
     threats_text = "\n".join(threats[:5]) if threats else "• Standard background threat monitoring active."
