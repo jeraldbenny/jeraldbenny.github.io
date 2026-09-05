@@ -26,17 +26,17 @@ def build_today_briefing(articles, current_date_str):
         title = a.get("title", "").strip()
         cat = a.get("category_tag") or a.get("category") or ""
         summary = a.get("plain_summary") or a.get("deep_lore") or ""
-        date_str = a.get("published_fmt") or current_date_str
+        raw_date = a.get("published_fmt") or current_date_str
+        date_short = raw_date.replace("2026", "26").replace("2025", "25").replace("2024", "24")
         link = a.get("link") or a.get("url") or "https://jeraldbenny.github.io/digifeed/"
-        source_name = a.get("source") or "DigiFeed"
         
         if not title:
             continue
             
-        headline_entry = f"• [{date_str}] {title} (Source: [{source_name}]({link}))"
+        headline_entry = f"• **{date_short}** — [{title}]({link})"
         headlines.append(headline_entry)
         
-        detail_entry = f"• [{date_str}] {title}: {summary[:240]} (Reference: [{source_name}]({link}))"
+        detail_entry = f"• **{date_short}** — [{title}]({link}): {summary[:240]}"
         
         if "CVE" in cat or "Vulnerabilities" in cat or "CVE-" in title:
             cves.append(detail_entry)
