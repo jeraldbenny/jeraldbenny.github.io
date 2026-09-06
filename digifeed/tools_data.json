@@ -200,7 +200,7 @@
       "Some of the improvements made in this release are as follows:"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -243,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -379,7 +379,7 @@
   {
     "name": "Wireshark",
     "version": "4.6.8",
-    "released": "05 September 2026",
+    "released": "06 September 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [
@@ -672,7 +672,7 @@
     "github_repo": "sherlock-project/sherlock",
     "features": [
       "Most users should see a significant reduction in false positives (on an ongoing basis) after updating to this release. Nothing is ever perfect (regional differences, etc), but noise should be reduced by a notable margin.",
-      "📦 Community package now available on [Debian][ext-debian] @Nilsonfsilva"
+      "📦 Community package now available on [_Debian_][ext-debian] @Nilsonfsilva"
     ],
     "bugs": [
       "General bug fixes and code optimizations"

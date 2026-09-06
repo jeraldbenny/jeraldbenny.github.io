@@ -2280,5 +2280,23 @@
       "MalwareBazaar": "✔"
     },
     "errors": []
+  },
+  {
+    "timestamp": "2026-09-06T04:54:41.228042+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 48,
+    "total_articles": 11872,
+    "runtime": "1 min 8 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
   }
 ]
