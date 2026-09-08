@@ -57,6 +57,7 @@ def build_today_briefing(articles, current_date_str):
     briefing_content = f"""TODAY'S CYBERSECURITY & FORENSICS INTELLIGENCE BRIEFING ({current_date_str}):
 CURRENT DATE: {current_date_str}
 LAST UPDATE STATUS: Fresh dispatches collected and synchronized for {current_date_str}.
+QUERY ANCHORS: today's news, what is today's news, what's new today, top stories today, latest updates, latest news, today news, news today, daily briefing, cyber news today, forensic news today, cybersecurity news today.
 
 TOP STORIES & FORENSICS HEADLINES TODAY:
 {top_stories_text}
@@ -79,7 +80,7 @@ RECENT HEADLINES SUMMARY:
 - LAST SYNCHRONIZED DATE: {current_date_str}
 - DATABASE STATUS: Active, fully updated with {len(articles)} fresh daily dispatches and 1000+ historical archives up to {current_date_str}.
 - INTELLIGENCE SCOPE: Real-time digital forensics dispatches, CISA KEV alerts, NVD vulnerabilities, malware analysis, incident response methodologies, and open-source tool releases.
-- QUERY ANCHORS: date, date?, what date, current date, today's date, when were you last updated, latest update date, status.
+- QUERY ANCHORS: date, date?, what date, current date, today's date, what is today's date, when were you last updated, latest update date, status.
 """
 
     return [
@@ -88,7 +89,7 @@ RECENT HEADLINES SUMMARY:
             "title": f"Today's News & Daily Intelligence Briefing ({current_date_str})",
             "category": "Daily Intelligence Briefing",
             "date": current_date_str,
-            "plain_summary": f"Today's cybersecurity intelligence briefing for {current_date_str}. Top digital forensic news today, top forensic news of today, active CVEs, malware threats, and tool releases for {current_date_str}.",
+            "plain_summary": f"Today's cybersecurity intelligence briefing for {current_date_str}. What is today's news, latest updates, top digital forensic news today, top forensic news of today, active CVEs, malware threats, and tool releases for {current_date_str}.",
             "content": briefing_content
         },
         {

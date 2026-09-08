@@ -2985,8 +2985,45 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// INTELLIGENCE APIS //</h2>
     <p style="margin-bottom:14px;font-size:16px;">Connection states for CVE, exploited vulnerability, and malware catalogs:</p>
-    <div style="max-width:480px;display:flex;flex-direction:column;gap:4px;">
+    <div style="max-width:480px;display:flex;flex-direction:column;gap:4px;margin-bottom:28px;">
       {api_grid_html}
+    </div>
+
+    <!-- DIGILAB THIRD-PARTY DEPENDENCIES & APIS -->
+    <div style="border-top:1px dashed rgba(86,39,17,0.4); padding-top:20px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:10px;">
+        <h2 class="panel-title" style="margin:0;">// DIGILAB THIRD-PARTY DEPENDENCIES &amp; APIS //</h2>
+        <button id="digilabHealthCheckBtn" onclick="runDigilabHealthCheck()" style="font-family:'Press Start 2P',monospace; font-size:6.5px; padding:8px 14px; background:#301b10; border:1px solid var(--gold); color:var(--gold); cursor:pointer;">⚡ RUN LIVE HEALTH CHECK</button>
+      </div>
+      <p style="margin-bottom:14px;font-size:16px;color:#b8c8e0;">Live operational connectivity, latency, and status health check for external endpoints utilized across DigiLab forensic and OSINT modules:</p>
+
+      <!-- Quick Stats Bar -->
+      <div class="stats-grid" style="margin-bottom:18px;">
+        <div class="stat-box"><div class="stat-val" id="digilabStatTotal">7 / 7</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">DEPENDENCIES MONITORED</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatOnline" style="color:#40d060;">--</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">SERVICES OPERATIONAL</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatLatency" style="color:var(--teal);">-- ms</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">AVERAGE LATENCY</div></div>
+        <div class="stat-box"><div class="stat-val" id="digilabStatIssues" style="color:#e04848;">--</div><div class="stat-lbl" style="font-family:'VT323',monospace; font-size:16px; color:var(--subtext); letter-spacing:1px;">OUTAGES / DEGRADED</div></div>
+      </div>
+
+      <!-- Live Service Status Table -->
+      <div style="overflow-x:auto; margin-bottom:14px;">
+        <table style="width:100%; border-collapse:collapse; text-align:left;">
+          <thead>
+            <tr style="border-bottom:2px solid var(--border); font-family:'Press Start 2P',monospace; font-size:6px; color:#3cc8c0;">
+              <th style="padding:8px 10px;">SERVICE</th>
+              <th style="padding:8px 10px;">MODULE USAGE</th>
+              <th style="padding:8px 10px;">TARGET ENDPOINT</th>
+              <th style="padding:8px 10px; text-align:right;">LIVE STATUS &amp; LATENCY</th>
+            </tr>
+          </thead>
+          <tbody id="digilabServicesTableBody">
+            <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'VT323',monospace; font-size:16px;">
+              <td colspan="4" style="padding:14px; text-align:center; color:var(--subtext);">Click "⚡ RUN LIVE HEALTH CHECK" or select APIS tab to probe endpoints.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="digilabHealthLog" style="display:none; background:#080b18; border:1px solid var(--border); padding:12px; font-family:'VT323',monospace; font-size:15px; line-height:1.5;"></div>
     </div>
   </div>
 
@@ -3403,7 +3440,202 @@ function switchTab(btn, tabId){{
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
   var target = document.getElementById(tabId);
   if (target) target.classList.remove('hidden-pane');
+  if (tabId === 'apis' && !digilabHealthCheckRan) {{
+    runDigilabHealthCheck();
+  }}
 }}
+
+// DigiLab Third-Party Dependencies Live Health Check
+const DIGILAB_SERVICES = [
+  {{
+    id: "cloudflare_doh",
+    name: "Cloudflare DNS-over-HTTPS",
+    module: "Tool 4 / Mod 2 (DNS Recon)",
+    endpoint: "cloudflare-dns.com/dns-query",
+    url: "https://cloudflare-dns.com/dns-query?name=cloudflare.com&type=A",
+    options: {{ headers: {{ "Accept": "application/dns-json" }} }},
+    role: "A, AAAA, MX, NS, SOA, TXT (SPF/DMARC) DNS Record Lookups"
+  }},
+  {{
+    id: "rdap_whois",
+    name: "RDAP / WHOIS Service",
+    module: "Tool 4 / Mod 2 (Domain Recon)",
+    endpoint: "rdap.org / verisign-rdap",
+    url: "https://rdap.org/domain/google.com",
+    fallbackUrl: "https://rdap.verisign.com/com/v1/domain/google.com",
+    options: {{}},
+    role: "Domain registrar, creation/expiry timestamps, registrant data"
+  }},
+  {{
+    id: "ip_geolocation",
+    name: "IP Geolocation Engine",
+    module: "Tool 4 / Mod 1 & 2 (IP Intel)",
+    endpoint: "ipapi.co/{{ip}}/json",
+    url: "https://ipapi.co/8.8.8.8/json/",
+    options: {{}},
+    role: "ISP, Organization, City, Country, and Geolocation metadata"
+  }},
+  {{
+    id: "google_cse",
+    name: "Google Programmable Search (CSE)",
+    module: "Tool 4 / Mod 3 (Social Intel)",
+    endpoint: "cse.google.com/cse.js",
+    url: "https://cse.google.com/cse.js?cx=3a9b377185eceb40a",
+    options: {{ mode: "no-cors" }},
+    role: "Multi-platform embedded profile search engine"
+  }},
+  {{
+    id: "btc_blockchain",
+    name: "Bitcoin Blockchain Explorer",
+    module: "Tool 4 / Mod 5 (Crypto Intel)",
+    endpoint: "blockchain.info/rawaddr/...",
+    url: "https://blockchain.info/rawaddr/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+    options: {{}},
+    role: "BTC wallet balance, transaction volume, active status"
+  }},
+  {{
+    id: "eth_blockchain",
+    name: "Ethereum Network Gateway",
+    module: "Tool 4 / Mod 5 (Crypto Intel)",
+    endpoint: "api.blockcypher.com/v1/eth",
+    url: "https://api.blockcypher.com/v1/eth/main",
+    options: {{}},
+    role: "ETH latest block height, gas stats, wallet balance"
+  }},
+  {{
+    id: "github_api",
+    name: "GitHub Public User API",
+    module: "Tool 4 / Mod 3 (Live Probing)",
+    endpoint: "api.github.com/users/...",
+    url: "https://api.github.com/users/torvalds",
+    options: {{}},
+    role: "Live profile verification endpoint for developer handles"
+  }}
+];
+
+let digilabHealthCheckRan = false;
+
+async function runDigilabHealthCheck() {{
+  const btn = document.getElementById('digilabHealthCheckBtn');
+  const tbody = document.getElementById('digilabServicesTableBody');
+  const logEl = document.getElementById('digilabHealthLog');
+  if (btn) {{
+    btn.disabled = true;
+    btn.innerText = 'PROBING APIS...';
+  }}
+
+  if (tbody) {{
+    tbody.innerHTML = DIGILAB_SERVICES.map(s => `
+      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'VT323',monospace; font-size:16px;">
+        <td style="padding:8px 10px; color:#fff; font-weight:bold;">
+          ${{s.name}}
+          <div style="font-size:12px; color:var(--subtext); font-weight:normal;">${{s.role}}</div>
+        </td>
+        <td style="padding:8px 10px; color:var(--subtext);">${{s.module}}</td>
+        <td style="padding:8px 10px; color:var(--teal); font-family:'JetBrains Mono',monospace; font-size:12px;">${{s.endpoint}}</td>
+        <td style="padding:8px 10px; text-align:right; color:var(--gold); font-family:'Press Start 2P',monospace; font-size:6.5px;">PROBING...</td>
+      </tr>
+    `).join('');
+  }}
+
+  let onlineCount = 0;
+  let issueCount = 0;
+  let totalLatency = 0;
+  let successfulLatencyCount = 0;
+  const results = [];
+
+  for (const s of DIGILAB_SERVICES) {{
+    const startTime = performance.now();
+    let statusHtml = '';
+    let isOk = false;
+    let errDetail = '';
+
+    try {{
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 9000);
+      let resp;
+      try {{
+        resp = await fetch(s.url, {{ ...s.options, signal: controller.signal }});
+      }} catch (firstErr) {{
+        if (s.fallbackUrl) {{
+          resp = await fetch(s.fallbackUrl, {{ ...s.options, signal: controller.signal }});
+        }} else {{
+          throw firstErr;
+        }}
+      }}
+      clearTimeout(timeoutId);
+      const duration = Math.round(performance.now() - startTime);
+
+      if (resp && (resp.ok || resp.type === 'opaque')) {{
+        isOk = true;
+        onlineCount++;
+        totalLatency += duration;
+        successfulLatencyCount++;
+        statusHtml = `<span style="color:#40d060; font-family:'Press Start 2P',monospace; font-size:6.5px;">✔ ONLINE (${{duration}}ms)</span>`;
+      }} else if (resp && resp.status === 429) {{
+        issueCount++;
+        statusHtml = `<span style="color:#f0c040; font-family:'Press Start 2P',monospace; font-size:6.5px;">⚠️ RATE LIMITED (429)</span>`;
+        errDetail = `HTTP 429 Rate Limit hit on ${{s.name}}`;
+      }} else {{
+        issueCount++;
+        statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6.5px;">✖ HTTP ${{resp ? resp.status : 'ERR'}}</span>`;
+        errDetail = `HTTP ${{resp ? resp.status : 'ERR'}} on ${{s.name}}`;
+      }}
+    }} catch (err) {{
+      issueCount++;
+      const isTimeout = err.name === 'AbortError';
+      const msg = isTimeout ? 'TIMEOUT (9s)' : 'OFFLINE / BLOCKED';
+      statusHtml = `<span style="color:#e04848; font-family:'Press Start 2P',monospace; font-size:6.5px;">✖ ${{msg}}</span>`;
+      errDetail = `${{s.name}}: ${{err.message}}`;
+    }}
+
+    results.push({{ ...s, statusHtml, isOk, errDetail }});
+  }}
+
+  if (tbody) {{
+    tbody.innerHTML = results.map(r => `
+      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'VT323',monospace; font-size:16px;">
+        <td style="padding:8px 10px; color:#fff; font-weight:bold;">
+          ${{r.name}}
+          <div style="font-size:12px; color:var(--subtext); font-weight:normal;">${{r.role}}</div>
+        </td>
+        <td style="padding:8px 10px; color:var(--subtext);">${{r.module}}</td>
+        <td style="padding:8px 10px; color:var(--teal); font-family:'JetBrains Mono',monospace; font-size:12px;">${{r.endpoint}}</td>
+        <td style="padding:8px 10px; text-align:right;">${{r.statusHtml}}</td>
+      </tr>
+    `).join('');
+  }}
+
+  const avgLatency = successfulLatencyCount > 0 ? Math.round(totalLatency / successfulLatencyCount) : 0;
+  const statOnline = document.getElementById('digilabStatOnline');
+  const statLatency = document.getElementById('digilabStatLatency');
+  const statIssues = document.getElementById('digilabStatIssues');
+
+  if (statOnline) statOnline.textContent = `${{onlineCount}} / ${{DIGILAB_SERVICES.length}}`;
+  if (statLatency) statLatency.textContent = `${{avgLatency}} ms`;
+  if (statIssues) {{
+    statIssues.textContent = `${{issueCount}}`;
+    statIssues.style.color = issueCount === 0 ? '#40d060' : '#e04848';
+  }}
+
+  if (logEl) {{
+    const timeStr = new Date().toUTCString();
+    logEl.style.display = 'block';
+    logEl.innerHTML = `<span style="color:var(--gold);">[DIGILAB HEALTH CHECK COMPLETE - ${{timeStr}}]</span><br>` +
+      `<span style="color:#40d060;">• Operational Services: ${{onlineCount}}/${{DIGILAB_SERVICES.length}}</span><br>` +
+      `<span style="color:var(--teal);">• Average Response Latency: ${{avgLatency}} ms</span><br>` +
+      (issueCount > 0 
+        ? `<span style="color:#e04848;">• Detected Anomalies (${{issueCount}}): ${{results.filter(r => !r.isOk).map(r => r.errDetail).join('; ')}}</span>`
+        : `<span style="color:#40d060;">• All third-party endpoints operational with active client fallbacks configured.</span>`);
+  }}
+
+  digilabHealthCheckRan = true;
+  if (btn) {{
+    btn.disabled = false;
+    btn.innerText = '⚡ RUN LIVE HEALTH CHECK';
+  }}
+}}
+
 
 // Ops DigiBot Live Diagnostics
 function opsSetQuery(text) {{
