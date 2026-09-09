@@ -200,7 +200,7 @@
       "Some of the improvements made in this release are as follows:"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -243,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -666,13 +666,12 @@
   },
   {
     "name": "Sherlock",
-    "version": "0.16.0",
-    "released": "16 September 2025",
+    "version": "0.16.2",
+    "released": "08 September 2026",
     "category": "OSINT & Email",
     "github_repo": "sherlock-project/sherlock",
     "features": [
-      "Most users should see a significant reduction in false positives (on an ongoing basis) after updating to this release. Nothing is ever perfect (regional differences, etc), but noise should be reduced by a notable margin.",
-      "📦 Community package now available on [Debian][ext-debian] @Nilsonfsilva"
+      "Release created because its been a long time since the previous one and several minor changes have been made."
     ],
     "bugs": [
       "General bug fixes and code optimizations"
