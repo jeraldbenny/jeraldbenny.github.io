@@ -882,13 +882,23 @@ CONFERENCE_EVENT_PATTERN = re.compile(
     re.IGNORECASE
 )
 
-def is_excluded_article(title, summary=""):
+FORENSIC_NOISE_SOURCES = {"Phys.org Forensics"}
+FORENSIC_RELEVANCE_PATTERN = re.compile(
+    r'\b(?:forensic[s]?|autopsy|virtopsy|criminalistics|toxicology|pathology|dna|fingerprint[s]?|latent\s+print|bloodstain|ballistic[s]?|trace\s+evidence|odontology|crime|homicide|coroner|investig|evidence|triage|police|victim|disaster|casualty|identif)\b',
+    re.IGNORECASE
+)
+
+def is_excluded_article(title, summary="", source_name=""):
     t = title or ""
+    s = summary or ""
     if CASE_STUDY_PATTERN.search(t):
         return True, "Case study article excluded"
     if CONFERENCE_EVENT_PATTERN.search(t):
         if "video conference" not in t.lower() and "teleconference" not in t.lower():
             return True, "Conference / event article excluded"
+    if source_name in FORENSIC_NOISE_SOURCES or (source_name and "Phys.org" in source_name):
+        if not FORENSIC_RELEVANCE_PATTERN.search(t + " " + s):
+            return True, "Lacks forensic relevance (general science noise)"
     return False, ""
 
 def is_article_fresh(pub_dt, category_tag):
@@ -1871,7 +1881,7 @@ def fetch_all():
 
             raw = entry.get("summary", "") or entry.get("description", "")
 
-            is_ex, ex_reason = is_excluded_article(title, raw)
+            is_ex, ex_reason = is_excluded_article(title, raw, source["name"])
             if is_ex:
                 print(f"  [Skip Exclusion] {ex_reason}: {title[:60]}")
                 continue
@@ -2099,7 +2109,7 @@ def fetch_all():
     seen_today_titles = {a["title"] for a in today_articles}
 
     for a in existing:
-        is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""))
+        is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""), a.get("source", ""))
         if is_ex:
             continue
         try:
@@ -2132,7 +2142,7 @@ def fetch_all():
     dedup_archive = []
     for a in archive_articles:
         if a["id"] not in seen:
-            is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""))
+            is_ex, _ = is_excluded_article(a.get("title", ""), a.get("plain_summary", ""), a.get("source", ""))
             if not is_ex:
                 dedup_archive.append(a)
             seen.add(a["id"])

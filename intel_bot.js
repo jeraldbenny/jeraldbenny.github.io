@@ -32,6 +32,7 @@
                         <!-- Suggestions will be injected here by JS -->
                     </div>
                 </div>
+                <div id="jb-intel-bot-chips-bar" class="jb-chips-bar"></div>
                 <div id="jb-intel-bot-input-area">
                     <input type="text" id="jb-intel-bot-input" placeholder="Ask a question..." autocomplete="off">
                     <button id="jb-intel-bot-send">SEND</button>
@@ -63,6 +64,37 @@
         const historyArea = document.getElementById('jb-intel-bot-history');
         const suggestionsDiv = document.getElementById('jb-intel-bot-suggestions');
         const resetBtn = document.getElementById('jb-intel-bot-reset');
+        const chipsBar = document.getElementById('jb-intel-bot-chips-bar');
+
+        const chatHistory = [];
+
+        // Category Filter Chips (Strictly NO EMOJIS)
+        const categoryChips = [
+            { label: "DFIR", query: "top 10 dfir news of today" },
+            { label: "FORENSICS", query: "top 10 forensic news of today" },
+            { label: "MALWARE", query: "top 5 malware news of today" },
+            { label: "CVES", query: "top 10 cves of today" },
+            { label: "IOC FEED", query: "latest ioc feed" },
+            { label: "RELEASES", query: "latest forensic tool releases" },
+            { label: "PAPERS", query: "latest research papers" },
+            { label: "STATUS", query: "system status and last update" }
+        ];
+
+        if (chipsBar) {
+            chipsBar.innerHTML = '';
+            categoryChips.forEach(chip => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'jb-chip';
+                btn.textContent = `[${chip.label}]`;
+                btn.title = `Query ${chip.label}`;
+                btn.onclick = () => {
+                    inputField.value = chip.query;
+                    sendMessage();
+                };
+                chipsBar.appendChild(btn);
+            });
+        }
 
         const allQuestions = [
             "What is DigiFeed?",
@@ -109,6 +141,7 @@
 
         resetBtn.addEventListener('click', () => {
             historyArea.innerHTML = '';
+            chatHistory.length = 0;
             
             const welcomeMsg = document.createElement('div');
             welcomeMsg.className = 'jb-msg bot';
@@ -255,17 +288,24 @@
             if (!text) return;
 
             appendMessage(text, 'user');
+            chatHistory.push({ role: 'user', content: text });
             inputField.value = '';
             showTyping();
 
             try {
-                // Update this URL to point to the deployed Cloudflare Worker
                 const WORKER_URL = "https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev";
                 
                 const response = await fetch(WORKER_URL, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: text })
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Accept': 'text/event-stream, application/json'
+                    },
+                    body: JSON.stringify({ 
+                        message: text,
+                        history: chatHistory.slice(-6),
+                        stream: true
+                    })
                 });
 
                 removeTyping();
@@ -283,8 +323,82 @@
                     return;
                 }
 
-                const data = await response.json();
-                appendMessage(data.reply || "[SYSTEM ERROR] Empty response.", 'bot');
+                const contentType = response.headers.get("content-type") || "";
+
+                if (contentType.includes("text/event-stream") && response.body) {
+                    if (suggestionsDiv) suggestionsDiv.style.display = 'none';
+                    const msgDiv = document.createElement('div');
+                    msgDiv.className = 'jb-msg bot';
+                    historyArea.appendChild(msgDiv);
+
+                    let accumulated = "";
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder();
+                    let done = false;
+                    let buffer = "";
+
+                    while (!done) {
+                        const { value, done: readerDone } = await reader.read();
+                        done = readerDone;
+                        if (value) {
+                            buffer += decoder.decode(value, { stream: true });
+                            const lines = buffer.split('\n');
+                            buffer = lines.pop(); // Keep incomplete line
+
+                            for (const line of lines) {
+                                const trimmed = line.trim();
+                                if (trimmed.startsWith('data:')) {
+                                    const dataStr = trimmed.slice(5).trim();
+                                    if (dataStr === '[DONE]') continue;
+                                    try {
+                                        const parsed = JSON.parse(dataStr);
+                                        const token = parsed.choices?.[0]?.delta?.content || "";
+                                        accumulated += token;
+                                        msgDiv.innerHTML = parseMarkdown(accumulated);
+                                        historyArea.scrollTop = historyArea.scrollHeight;
+                                    } catch (e) {}
+                                }
+                            }
+                        }
+                    }
+
+                    if (buffer.trim().startsWith('data:')) {
+                        const dataStr = buffer.trim().slice(5).trim();
+                        if (dataStr !== '[DONE]') {
+                            try {
+                                const parsed = JSON.parse(dataStr);
+                                const token = parsed.choices?.[0]?.delta?.content || "";
+                                accumulated += token;
+                            } catch (e) {}
+                        }
+                    }
+
+                    if (!accumulated.trim()) {
+                        accumulated = "Intelligence dispatch retrieved successfully.";
+                    }
+
+                    msgDiv.innerHTML = parseMarkdown(accumulated);
+
+                    const copyBtn = document.createElement('button');
+                    copyBtn.className = 'jb-copy-btn';
+                    copyBtn.innerHTML = '⎘';
+                    copyBtn.title = "Copy to clipboard";
+                    copyBtn.onclick = () => {
+                        navigator.clipboard.writeText(accumulated);
+                        copyBtn.innerHTML = '✔';
+                        setTimeout(() => copyBtn.innerHTML = '⎘', 2000);
+                    };
+                    msgDiv.appendChild(copyBtn);
+
+                    chatHistory.push({ role: 'assistant', content: accumulated });
+                    historyArea.scrollTop = historyArea.scrollHeight;
+
+                } else {
+                    const data = await response.json();
+                    const reply = data.reply || "[SYSTEM ERROR] Empty response.";
+                    appendMessage(reply, 'bot');
+                    chatHistory.push({ role: 'assistant', content: reply });
+                }
                 
             } catch (err) {
                 removeTyping();

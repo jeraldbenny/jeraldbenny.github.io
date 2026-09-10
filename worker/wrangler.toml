@@ -2,7 +2,7 @@ name = "jb-intel-bot-api"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
-# Environment variables in Cloudflare Worker:
-# - HF_TOKEN
-# - PINECONE_API_KEY
-# - PINECONE_HOST
+[vars]
+TELEGRAM_CHAT_ID = "629509562"
+TELEGRAM_BOT_TOKEN = "8830406849:AAF5vunUjZULM7Lr3eGiweODP0s4l7_ExG0"
+

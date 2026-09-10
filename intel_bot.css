@@ -265,6 +265,51 @@
     40% { transform: scale(1); }
 }
 
+/* Category Filter Chips Bar (Strictly No Emojis, Retro Cyberpunk Monospace) */
+.jb-chips-bar {
+    display: flex;
+    gap: 6px;
+    padding: 6px 10px;
+    background: #080b18;
+    border-top: 2px solid #3a1400;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.jb-chips-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.jb-chip {
+    font-family: "Press Start 2P", monospace;
+    font-size: 7px;
+    padding: 4px 7px;
+    background: rgba(122, 59, 18, 0.25);
+    border: 1px solid #7a3b12;
+    color: #f5d888;
+    cursor: pointer;
+    border-radius: 2px;
+    letter-spacing: 0.5px;
+    transition: all 0.15s ease;
+    user-select: none;
+    flex-shrink: 0;
+    outline: none;
+}
+
+.jb-chip:hover {
+    background: #7a3b12;
+    color: #ffffff;
+    border-color: #ffe878;
+    box-shadow: 0 0 6px rgba(255, 232, 120, 0.4);
+    transform: translateY(-1px);
+}
+
+.jb-chip:active {
+    transform: translateY(1px);
+}
+
 /* Input Area */
 #jb-intel-bot-input-area {
     padding: 12px;
