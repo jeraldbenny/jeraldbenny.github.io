@@ -11,10 +11,10 @@ if scripts_dir not in sys.path:
 import rag_engine
 from ingest_static import STATIC_KNOWLEDGE
 
-def build_today_briefing(articles, current_date_str, now_ist_str=""):
+def build_today_briefing(articles, current_date_str, now_sync_str=""):
     """
     Construct rich dynamic briefing records for today's news and system status.
-    Ensures DigiBot accurately answers queries about today's news, latest CVEs, and update dates.
+    Ensures DigiBot accurately answers queries about today's news, latest CVEs, and update dates in UTC.
     """
     top_stories = []
     cves = []
@@ -54,9 +54,10 @@ def build_today_briefing(articles, current_date_str, now_ist_str=""):
     top_stories_text = "\n".join(top_stories[:6]) if top_stories else "• Active daily monitoring of DFIR sources."
     headlines_text = "\n".join(headlines[:15])
 
-    briefing_content = f"""TODAY'S CYBERSECURITY & FORENSICS INTELLIGENCE BRIEFING ({current_date_str}):
-CURRENT DATE: {current_date_str}
-LAST UPDATE STATUS: Fresh dispatches collected and synchronized for {current_date_str}.
+    briefing_content = f"""TODAY'S CYBERSECURITY & FORENSICS INTELLIGENCE BRIEFING ({current_date_str} UTC):
+CURRENT DATE: {current_date_str} (UTC)
+TIMEZONE: UTC
+LAST UPDATE STATUS: Fresh dispatches collected and synchronized for {current_date_str} (UTC).
 QUERY ANCHORS: today's news, what is today's news, what's new today, top stories today, latest updates, latest news, today news, news today, daily briefing, cyber news today, forensic news today, cybersecurity news today.
 
 TOP STORIES & FORENSICS HEADLINES TODAY:
@@ -75,10 +76,11 @@ RECENT HEADLINES SUMMARY:
 {headlines_text}
 """
 
-    status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS & CURRENT DATE:
-- CURRENT DATE TODAY: {current_date_str}
-- LAST SYNCHRONIZED DATE: {current_date_str}
-- LAST SYNC TIMESTAMP: {now_ist_str or current_date_str}
+    status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS & CURRENT DATE (UTC):
+- CURRENT DATE TODAY: {current_date_str} (UTC)
+- LAST SYNCHRONIZED DATE: {current_date_str} (UTC)
+- LAST SYNC TIMESTAMP: {now_sync_str or current_date_str}
+- TIMEZONE: UTC
 - DATABASE STATUS: Active, fully updated with {len(articles)} fresh daily dispatches and 1000+ historical archives up to {current_date_str}.
 - INTELLIGENCE SCOPE: Real-time digital forensics dispatches, CISA KEV alerts, NVD vulnerabilities, malware analysis, incident response methodologies, and open-source tool releases.
 - QUERY ANCHORS: date, date?, what date, current date, today's date, what is today's date, when were you last updated, when u got last updated, latest update date, when was this updated, status.
@@ -125,14 +127,18 @@ def main():
         with open(archive_path, 'r', encoding='utf-8') as f:
             archive_articles = json.load(f).get('articles', [])
 
-    # Format current date string in IST (Indian Standard Time, UTC+05:30)
-    IST = timezone(timedelta(hours=5, minutes=30))
-    now = datetime.now(IST)
-    current_date_str = now.strftime('%d %b %Y')
-    now_ist_str = now.strftime('%d %b %Y, %H:%M IST')
+    # Format current date string in UTC for DigiBot RAG intelligence
+    now_utc = datetime.now(timezone.utc)
+    current_date_utc = now_utc.strftime('%d %b %Y')
+    now_utc_str = now_utc.strftime('%d %b %Y, %H:%M UTC')
 
-    print(f"Building intelligence context for date: {current_date_str} (IST)...")
-    system_records = build_today_briefing(data_articles, current_date_str, now_ist_str)
+    # Format IST for Ops Dashboard
+    IST = timezone(timedelta(hours=5, minutes=30))
+    now_ist = datetime.now(IST)
+    now_ist_str = now_ist.strftime('%d %b %Y, %H:%M IST')
+
+    print(f"Building intelligence context for date: {current_date_utc} (UTC)...")
+    system_records = build_today_briefing(data_articles, current_date_utc, now_utc_str)
 
     # Aggregate all items with deduplication by ID
     all_items = {}
@@ -157,12 +163,13 @@ def main():
     print(f"Total unique intelligence items to upsert: {len(items_list)} ({len(data_articles)} active dispatches, {len(archive_articles)} archive, {len(system_records)} system records, {len(STATIC_KNOWLEDGE)} static)...")
 
     rag_engine.upsert_articles(items_list, pc_key, hf_token=hf_key, batch_size=40)
-    print(f"[SUCCESS] DigiBot RAG ingestion completed for {current_date_str}.")
+    print(f"[SUCCESS] DigiBot RAG ingestion completed for {current_date_utc}.")
 
     # Save DigiBot operational status for the Ops Dashboard
     bot_status_data = {
-        "last_sync": now.strftime("%d %b %Y, %H:%M IST"),
-        "date_anchored": current_date_str,
+        "last_sync": now_ist_str,
+        "last_sync_utc": now_utc_str,
+        "date_anchored": current_date_utc,
         "status": "ONLINE / SYNCED",
         "index_name": "digifeed-rag",
         "total_vectors": len(items_list),
