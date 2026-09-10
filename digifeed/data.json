@@ -1,17 +1,17 @@
 {
-  "last_updated": "10 September 2026, 04:59 UTC",
-  "total": 62,
+  "last_updated": "10 September 2026, 22:43 IST",
+  "total": 103,
   "articles": [
     {
-      "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-      "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOLTRUaTQtNFF6SDNJRmVzTi1yc3RuVVM1QWpuMjZYcDRybHBQbE1PcHUyaUU5aGpLOFZjZ3FXVnZXSWhFdlZpMFlwWGRqVEVvYnlpSENfX0UzSzBuYm5QMkloZ09iRzlEUWYzODBBYWhCRmllTnBBdnJtdkl5cGxYMDQxcVFWWUEtTFBBX0dFeENwcVRnTUVnQXhYcHBPbzR4ZW5VeVFoazJhOVk1N1FWSkdGczktN2xUUjQzTGlqWmJDMkxCRzhWaFhVT1RfaTBkRDgtLU9zSENPYm0yZEFJeUc3VktOSzFNTGlrUDNJc09NZ2FQREdJZ05RVDNDWjRjYjZGQTl1cw?oc=5",
-      "source": "MSAB Blog",
-      "source_icon": "📱",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-09-07T07:00:00Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment MSAB",
+      "id": "504b808864693c09a198ea5d3671bb6c",
+      "title": "InfoSec News Nuggets – 09/10/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-09-10-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-10T10:28:38Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Anthropic Discloses Fourth Cyber Incident in Alignment Assessment Anthropic disclosed a fourth incident in which a Claude model gained unauthorized access to real third-party systems during a cybersecurity evaluation, a case its own July review had missed entirely.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -19,16 +19,316 @@
         "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
+      "forensic_score": 10,
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
-          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
         },
         {
-          "id": "bcc560575be4f10db4275ef6e65c606e",
-          "title": "Mandiant Founder Kevin Mandia Joins Amazon’s Board - The Information"
+          "id": "d6170fe5632fce833ab128a0e747b393",
+          "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses"
+        }
+      ]
+    },
+    {
+      "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+      "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_1.png",
+      "published": "2026-09-10T15:55:56Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "A threat actor, likely Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut NG/MF servers. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
+        },
+        {
+          "id": "ccfe6c62d3d3597edeb2ffd6f229b54f",
+          "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE"
+        }
+      ]
+    },
+    {
+      "id": "d6170fe5632fce833ab128a0e747b393",
+      "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+      "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_5.png",
+      "published": "2026-09-10T14:55:33Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the company to a massive database containing more than 153 million driver's license scans. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "f2c6a48a56d6fa83a9e62db6c6349b58",
+          "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
+        },
+        {
+          "id": "c67bccb9df9b394e333b29b6ad2586d9",
+          "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto"
+        }
+      ]
+    },
+    {
+      "id": "3ffebfc9849420224046455156c9ecfa",
+      "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_5.png",
+      "published": "2026-09-10T14:11:34Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chrome. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "738736222a6e211c2548571b2d3976d3",
+          "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week"
+        },
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        }
+      ]
+    },
+    {
+      "id": "f09fd26b0fefb7fc8c2b2e8c0a2ce770",
+      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-10T14:00:10Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Identity was the target in roughly half of all confirmed malicious activity.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
+        },
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        }
+      ]
+    },
+    {
+      "id": "ccfe6c62d3d3597edeb2ffd6f229b54f",
+      "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyc0Kqar7_6N4y9ymGxw8ukQCQbqQ_pGCfnoXYMBZoNZK1w3ljkO26S_rhVhJaIVcx8rcEK95njKyaYj5g63VByKh8ncf_s84nUBWoyEbWZH6uaLYjnu5fNt_TC9wz-r6P_RTJgZ83Z5wmurzSb9_lHVfV1t9STts4WCZr18AH-3XRHTn5pj15uURIM-0/s1600/checkpoint.jpg",
+      "published": "2026-09-10T11:45:05Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Check Point has patched two critical vulnerabilities in the way its firewall and management products handle VPN certificates.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        },
+        {
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
+        }
+      ]
+    },
+    {
+      "id": "e71df458c723b458db32fdcaa00021e8",
+      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+      "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s1600/paper.jpg",
+      "published": "2026-09-10T11:41:53Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "A suspected Russian-speaking cyber actor has been attributed to the use of artificial intelligence (AI) to devise exploits targeting a recently disclosed pair of security flaws in PaperCut NG/MF and break into hundreds of instances.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "9f8ebd86c61d97e13b55c4ee936b12b7",
+          "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval"
+        },
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        }
+      ]
+    },
+    {
+      "id": "d81943589da9364997b1fbd0586609fa",
+      "title": "Microsoft says September updates fix mouse settings reset issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-09-10T11:14:28Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Microsoft has fixed a known issue that wiped mouse settings on some Windows 11 systems after installing the KB5120998 August 2026 preview update. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "7d2769ca59bbc0c8e9b2692601ba1514",
+          "title": "Microsoft fixes bug that wiped Windows desktop settings"
+        },
+        {
+          "id": "7c2b150b02b0ac20949ae01421fc88f0",
+          "title": "US says Chinese firms extracted billions of tokens from frontier AI models"
+        }
+      ]
+    },
+    {
+      "id": "5aa97985c64403a52c7b04a916718a17",
+      "title": "The Machine With Many Faces: Post-Exploitation Identity Misuse in SPIFFE/SPIRE",
+      "link": "https://unit42.paloaltonetworks.com/kubernetes-spiffe-spire-identity-spoofing/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/12_Security-Technology_Category_1920x900.jpg",
+      "published": "2026-09-10T10:00:43Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Learn how root access on a compromised K8s node allows attackers to utilize SPIFFE/SPIRE metadata to spoof and harvest co-located workload identities.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
+        },
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        }
+      ]
+    },
+    {
+      "id": "7d2769ca59bbc0c8e9b2692601ba1514",
+      "title": "Microsoft fixes bug that wiped Windows desktop settings",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-10T08:08:16Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "d81943589da9364997b1fbd0586609fa",
+          "title": "Microsoft says September updates fix mouse settings reset issues"
+        },
+        {
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
+        }
+      ]
+    },
+    {
+      "id": "d7fc96698861a664de2821f6ac513a3b",
+      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfjbI1DXHJ4wQzSRFbddkmgQ9CTLSPPGP8fcQ6a37qbwKvgd4JxU51YhADR8S4IsWaiQ4fRApn-ih4m0AhsizM3wa6aJ3P8MlgBztNQm-oH4bE_TkPsmUZHhblcNMrQFxGdWnDHePCQDcSz-AJeWMoKH6YVcXXFCjK2ajZfbmObdeVkWmvv8O_fufqsl0/s1600/litellm.jpg",
+      "published": "2026-09-10T07:12:55Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Nearly one in ten of the internet-facing LiteLLM servers that&nbsp;Wiz Research&nbsp;scanned in February accepted&nbsp;sk-1234, the example admin key in LiteLLM's own setup guide.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "f2c6a48a56d6fa83a9e62db6c6349b58",
+          "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
+        },
+        {
+          "id": "8a08d3518429206bbcdbdc21be7eee7c",
+          "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws"
         }
       ]
     },
@@ -53,12 +353,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "bcc560575be4f10db4275ef6e65c606e",
-          "title": "Mandiant Founder Kevin Mandia Joins Amazon’s Board - The Information"
+          "id": "009b878ba9d1686e64dbe9f2f2dfc454",
+          "title": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors - About Amazon"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "bcc560575be4f10db4275ef6e65c606e",
+          "title": "Mandiant Founder Kevin Mandia Joins Amazon’s Board - The Information"
         }
       ]
     },
@@ -83,12 +383,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "c67bccb9df9b394e333b29b6ad2586d9",
-          "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto"
+          "id": "d6170fe5632fce833ab128a0e747b393",
+          "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses"
         },
         {
-          "id": "8a08d3518429206bbcdbdc21be7eee7c",
-          "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws"
+          "id": "d7fc96698861a664de2821f6ac513a3b",
+          "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key"
         }
       ]
     },
@@ -113,12 +413,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
-          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+          "id": "009b878ba9d1686e64dbe9f2f2dfc454",
+          "title": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors - About Amazon"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
+          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
         }
       ]
     },
@@ -147,8 +447,38 @@
           "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
+        }
+      ]
+    },
+    {
+      "id": "009b878ba9d1686e64dbe9f2f2dfc454",
+      "title": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors - About Amazon",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdHVLaG9jX1A0Qk81YV92YzFwVDBlTnRTamtSaS1DUnFnQ0hRdWRzcktUeXIwc1h6dW9MY1ZaeDdNNkRSY0Q2UDRfUnlPY0VULUxyMGNfOXBDbVJlRTFQcDd0N1BjMWZJSHFGRW13NHRMeU0wQjloaGY1d3dzWFRtSHIyajZuMUJJTlZseg?oc=5",
+      "source": "Mandiant Blog",
+      "source_icon": "🔥",
+      "image": "images/dfir_1.png",
+      "published": "2026-09-09T20:37:24Z",
+      "published_fmt": "09 Sep 2026",
+      "plain_summary": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors About Amazon",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
+          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+        },
+        {
+          "id": "bcc560575be4f10db4275ef6e65c606e",
+          "title": "Mandiant Founder Kevin Mandia Joins Amazon’s Board - The Information"
         }
       ]
     },
@@ -173,12 +503,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "f2c6a48a56d6fa83a9e62db6c6349b58",
-          "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
+          "id": "d6170fe5632fce833ab128a0e747b393",
+          "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses"
         },
         {
-          "id": "cf80be82607a9aa46433b4f31ac3726a",
-          "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok"
+          "id": "f2c6a48a56d6fa83a9e62db6c6349b58",
+          "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
         }
       ]
     },
@@ -233,12 +563,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
         },
         {
-          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
-          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+          "id": "7d2769ca59bbc0c8e9b2692601ba1514",
+          "title": "Microsoft fixes bug that wiped Windows desktop settings"
         }
       ]
     },
@@ -267,8 +597,8 @@
           "title": "[KEV Active Exploit] CVE-2026-20079 in Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
         }
       ]
     },
@@ -297,8 +627,8 @@
           "title": "US says Chinese firms extracted billions of tokens from frontier AI models"
         },
         {
-          "id": "51293f5305c97ae4f16d7f9cb7ba821d",
-          "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking"
+          "id": "e71df458c723b458db32fdcaa00021e8",
+          "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances"
         }
       ]
     },
@@ -323,12 +653,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
         },
         {
-          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
-          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
         }
       ]
     },
@@ -353,12 +683,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "7c2b150b02b0ac20949ae01421fc88f0",
-          "title": "US says Chinese firms extracted billions of tokens from frontier AI models"
+          "id": "e71df458c723b458db32fdcaa00021e8",
+          "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances"
         },
         {
-          "id": "a01e503f506e253523dcd79e4660f002",
-          "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA"
+          "id": "7c2b150b02b0ac20949ae01421fc88f0",
+          "title": "US says Chinese firms extracted billions of tokens from frontier AI models"
         }
       ]
     },
@@ -383,12 +713,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "f2c6a48a56d6fa83a9e62db6c6349b58",
-          "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack"
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "3ffebfc9849420224046455156c9ecfa",
+          "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws"
         }
       ]
     },
@@ -417,8 +747,8 @@
           "title": "US says Chinese firms extracted billions of tokens from frontier AI models"
         },
         {
-          "id": "c67bccb9df9b394e333b29b6ad2586d9",
-          "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto"
+          "id": "e71df458c723b458db32fdcaa00021e8",
+          "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances"
         }
       ]
     },
@@ -447,8 +777,8 @@
           "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
         },
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
         }
       ]
     },
@@ -473,12 +803,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "28a7db6eb7f3b241265729b2e1fd7c6d",
-          "title": "MSAB Positioned as Leader in the IDC MarketScape: Worldwide Digital Forensics Platforms 2026 Vendor Assessment - MSAB"
-        },
-        {
           "id": "22b36d8627240d1dc4e8ecc3e30b1208",
           "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+        },
+        {
+          "id": "bcc560575be4f10db4275ef6e65c606e",
+          "title": "Mandiant Founder Kevin Mandia Joins Amazon’s Board - The Information"
         }
       ]
     },
@@ -503,12 +833,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "9a0799d50e84e437a598f5e2a2cdd081",
-          "title": "URI Forensic Lecture Series back on the crime beat this fall – Rhody Today - The University of Rhode Island"
+          "id": "9808df116c430f016ff07bda0b042bd1",
+          "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org"
         },
         {
-          "id": "1b866ab1b3fc0d9cb2ba21881e57c135",
-          "title": "UNODC hosts International Forensic Toxicology Course for Southern Cone experts, in partnership with Senad and Unicamp - United Nations Office on Drugs and Crime"
+          "id": "9a0799d50e84e437a598f5e2a2cdd081",
+          "title": "URI Forensic Lecture Series back on the crime beat this fall – Rhody Today - The University of Rhode Island"
         }
       ]
     },
@@ -539,6 +869,36 @@
         {
           "id": "f555f8742bbf78833c95c4cfc3f0276a",
           "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+        }
+      ]
+    },
+    {
+      "id": "9808df116c430f016ff07bda0b042bd1",
+      "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmVmbmlFT0JLYnVUX1V3bWZQZE5STkM3SV9SMUE4UUZSZTNzSGx2QTE2VXVvek1FN094OThzS2d0TGliamJDZVZrdTk4dkRtaDJxZHBaVmNzYlhUdzhWWTZhc0lqOEQ3SkYwQ2RLTmNHYkVKUTRzV1V3OGlMSkwwVmJXSXBmendW?oc=5",
+      "source": "Journal of Forensic Sciences",
+      "source_icon": "🔬",
+      "image": "images/forensics_1.png",
+      "published": "2026-09-09T15:45:00Z",
+      "published_fmt": "09 Sep 2026",
+      "plain_summary": "New study maps two decades of forensic virtopsy research Bioengineer.org",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "f555f8742bbf78833c95c4cfc3f0276a",
+          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+        },
+        {
+          "id": "9a0799d50e84e437a598f5e2a2cdd081",
+          "title": "URI Forensic Lecture Series back on the crime beat this fall – Rhody Today - The University of Rhode Island"
         }
       ]
     },
@@ -603,6 +963,396 @@
       ]
     },
     {
+      "id": "e4a0afd02748680fa38648ba8d897752",
+      "title": "AI is reshaping workplace, not replacing jobs, new research finds",
+      "link": "https://phys.org/news/2026-09-ai-reshaping-workplace-jobs.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/workplace-2.jpg",
+      "published": "2026-09-10T12:00:04Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Artificial intelligence is changing work in Ireland for the better, according to a new study led by Taha Yasseri, Workday Professor of Technology and Society at Trinity's School of Social Sciences & Philosophy.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "9808df116c430f016ff07bda0b042bd1",
+          "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org"
+        },
+        {
+          "id": "bc1972d533ed2c027fc8b748c9a4291d",
+          "title": "Interviewing with AI? Try not to let the robot affect your behavior"
+        }
+      ]
+    },
+    {
+      "id": "d370180815b84dbe4bc501f0d88c97f2",
+      "title": "When bad luck isn't random: Understanding 'zemblanity'",
+      "link": "https://phys.org/news/2026-09-bad-luck-isnt-random-zemblanity.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bad-luck.jpg",
+      "published": "2026-09-10T10:20:02Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "In 2025, associate professor Christian Busch's Palisades home burned down in one of the most destructive wildfires in Los Angeles history.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "d5451018cdf02569c78b5113cbd14b41",
+          "title": "Luck or merit? Not all inequality is equally acceptable"
+        },
+        {
+          "id": "f555f8742bbf78833c95c4cfc3f0276a",
+          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+        }
+      ]
+    },
+    {
+      "id": "200bc3b29ddbccc41d6d0f103be65100",
+      "title": "Chinese cave traces Denisovan hunting and adaptation across 120,000 years",
+      "link": "https://phys.org/news/2026-09-chinese-cave-denisovan-years.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/190000-year-old-cave-r.jpg",
+      "published": "2026-09-10T10:10:01Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "An ancient cave in southwestern China has revealed new evidence about how Denisovans—an ancient human relative—lived, survived and adapted over more than 100,000 years.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "18b14df476e13c0e2d9514556eeac1f1",
+          "title": "OCME forensic scientist Mark Desire has been identifying 9/11 victims for 25 years. With hundreds of victims still unknown, he’s not stopping. - amNewYork"
+        },
+        {
+          "id": "49b0363cba469b9a2a8a643b0008f278",
+          "title": "LLM use may threaten freedom of thought and equality across law, journalism and education"
+        }
+      ]
+    },
+    {
+      "id": "bc1972d533ed2c027fc8b748c9a4291d",
+      "title": "Interviewing with AI? Try not to let the robot affect your behavior",
+      "link": "https://phys.org/news/2026-09-ai-robot-affect-behavior.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/an-illustration-of-peo.jpg",
+      "published": "2026-09-10T12:39:27Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "A firm handshake used to be all a job candidate needed to make a good first impression, but today a growing number of firms are relying on artificial intelligence to screen applicants.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
+        },
+        {
+          "id": "18b14df476e13c0e2d9514556eeac1f1",
+          "title": "OCME forensic scientist Mark Desire has been identifying 9/11 victims for 25 years. With hundreds of victims still unknown, he’s not stopping. - amNewYork"
+        }
+      ]
+    },
+    {
+      "id": "e6950c75014928e7448e7330aec22191",
+      "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaGVZbk15WDF1RUkyVkpCLXh0RXcwRzZPMFI2a3AwUDYxYUxLU295cXFDdGptU3U4WDlnNFpKdFNnbmdWcHZrYVBnSzMzWDFQRFhPT3FscS01WWVkQldUOHRBQm9TSlBUVDRyTGdIb0NSN3ZYcUEyZGRRWnRmZVNSVTZUaXJqTVAyYXNoeWc4ZHY4U1ozang5NFlqZ3laRnFnN2s1TnBnN3F6bDNtS2QzUHphSFjSAboBQVVfeXFMTXN2OEp5WkI1V3NBbkRISDVHY0VmM1JiNkktYTd6QmE3UzhTNnZGcEdhd0JhaU9iY3lhQTJWVGRUdkw0R0YyS3ZoMHd1NVdwWW9TYk5sTjBPLVZXRlI3R0IxMERKVWg4T2JUeUxMNDNfY1ZjV1dyM2IxaFVPVXVIQVM1X21kUDlIUFM3bFFZWnE0ampsb2FFN01nQ1hTZTdYTzBxM3ZkWUhRNnlkbG9qMnU0aWJpdHo4Q2VR?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_3.png",
+      "published": "2026-09-10T12:02:46Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods Deccan Chronicle",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
+        },
+        {
+          "id": "e5050d0a69b1caaf492f139b16cd4ae0",
+          "title": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods - Devdiscourse"
+        }
+      ]
+    },
+    {
+      "id": "d6b15ca135c167da3e51769b172e9331",
+      "title": "There's nothing irrational about resisting AI",
+      "link": "https://phys.org/news/2026-09-irrational-resisting-ai.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/ai-2.jpg",
+      "published": "2026-09-10T11:40:04Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "If you read about AI, you'll find a widespread belief: When people don't want to use AI, it's because they're afraid or just don't understand it. They're afraid of losing their jobs or of change generally.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
+        },
+        {
+          "id": "bc1972d533ed2c027fc8b748c9a4291d",
+          "title": "Interviewing with AI? Try not to let the robot affect your behavior"
+        }
+      ]
+    },
+    {
+      "id": "e5050d0a69b1caaf492f139b16cd4ae0",
+      "title": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdzhlMHBsekNZd1dCTjJpY2x4em1VSk5LZGJkRTJJR0dxZHZ0M1V5bS1KN3lNNzlJSGktY1dvZmNTcnJnTWVRb2VBcjZVZnZlTDBuY2UzWDhoVEgyelZuQlV4SzU5bXFyN2RwRFcxejhEb2tONnNtV1d6T1dsQURseVpDcEwwak9BVmZhWXdPVmxxaGFNN3RYRFhLM2lPWHlJMmNYMlB0SXhfVUpVbklLV2pPYkVKNUROZU02a2FXd1NEWllZWm55Ti1uUk5uN3hZbGYyYdIB2gFBVV95cUxPMVB5elJuazBWMkxIbUQ2a01rdFpLTUtDX3MwWFZPaV9OOWZsVFRFQVZZWTk5XzRIX3dyZTQ2b1I2RnhsTS1zOVMxTWlBTWpja0k5Z0gwTzJNdU5KbUVXQ1lxQzdDaENTeFBnSzJSUThqY0lROUM4ZFBYeDl3a20zb2pZQ2NPVUdWRzhPQ2VncDFBSkI4SVdZS1lmN2RfSDFwa2ExQXNKZ2RiRXBYMWhHWjBxbEJyMVpVWGhaNWpWOUJLNXVXdDRLUlBUdzNyQi1neENQNTFJeXQ4QQ?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_1.png",
+      "published": "2026-09-10T11:34:49Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods Devdiscourse",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
+        },
+        {
+          "id": "e6950c75014928e7448e7330aec22191",
+          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
+        }
+      ]
+    },
+    {
+      "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+      "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNjlNRTgtY1Z3ZlBCMXAzSXNSSm5GSklvQ3hMTGt4Ti00NGxGbFRwTmN2NU9aRkpaY3hEVFNNRHFNYVFkN29tMVVEaG5Nd2pNSkI5YkF6d0cwekNtTnhkZHNYMk11V0oweDBEVC1jUFpjWG5KbXk0SGcxTFU5UUxEZ2ktRHEwVXhkZDRFVWc4YW5abVFrWXZkTzVaTVV4eG9DZThYcVpoZV9XWmlmUVHSAbQBQVVfeXFMT3k2SUNwcl9VWU9ONjVvWnU0UE5teWxxZW13MUZYaWNwa1h4dm9rNXd4cmpadnZzTlNJV0RzYTF3WkhOLUJoUEJSVDNJNXNCcEhod3Uwb0hxYUxaZ2xqN3VLNmxqS3hxX0N3bFh3YnhnNG1YaEdzN2FsUi1PN1MzRElCSFF0MHBvamYyeGZ0ellTQkF0TUdUQnJpNnROY0V3ajF2THdYc21tbGNLQUp0SFJMNFUw?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_1.png",
+      "published": "2026-09-10T11:14:14Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons The Indian Express",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e6950c75014928e7448e7330aec22191",
+          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
+        },
+        {
+          "id": "e5050d0a69b1caaf492f139b16cd4ae0",
+          "title": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods - Devdiscourse"
+        }
+      ]
+    },
+    {
+      "id": "1e096136891f6a16d2a1c5b4ab0fbba8",
+      "title": "Peer-led computing camps engage children, study finds",
+      "link": "https://phys.org/news/2026-09-peer-engage-children.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/youth-led-learning.jpg",
+      "published": "2026-09-10T11:00:09Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "High school student Khushi Kharuna creates and leads coding and artificial intelligence (AI) summer camps for K–12 students in her community outside Philadelphia.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "9808df116c430f016ff07bda0b042bd1",
+          "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org"
+        },
+        {
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
+        }
+      ]
+    },
+    {
+      "id": "ccd27ff367c16ef9ee1efab5c46a596b",
+      "title": "How to support children during home relocation",
+      "link": "https://phys.org/news/2026-09-children-home-relocation.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/moving-house.jpg",
+      "published": "2026-09-10T10:00:04Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "As cost-of-living pressures increase and the rental crisis worsens, many families are moving more often.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "1e096136891f6a16d2a1c5b4ab0fbba8",
+          "title": "Peer-led computing camps engage children, study finds"
+        },
+        {
+          "id": "f555f8742bbf78833c95c4cfc3f0276a",
+          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+        }
+      ]
+    },
+    {
+      "id": "f602d025416d83a5e22d4ff545b1678b",
+      "title": "DNA trail to identify Gujarati victims of Nepal’s flash floods: Govt collects samples from relatives of 29 ... - Bhaskar English",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTUxvVDZoOE5CX3FLT0RUQ1RUdDB5SE1lX3M5eWlwUWlyVzNKZ1BZeTVlQUlxY05pbWd3dUNxWnhCQnY5SFJxVmhVZXVXckZLSHNTWWF0c3pENlc1RUJ4cGU3eVV0djlwOUZsOS12ak5tZEczR1ViaTA5MTlXZTJEMVlJVjBXT2d2NEhWV3JpYnpjc3ViRDVWQ1psTUtnMjNSLUFiNzZaWEhUek02VWhmM3NRRVVZenUtakhOVlJ5R3p6dXhkdkpZa00yelFYLUg10gHWAUFVX3lxTE9oMmIyLTZJVkUxczl4bVBaQjFJMnVZb3BlVEhkVzRSRG1FUTE4RXI4R25BV1JhUHl0X21pUFNXSVV4Mm1JbnpscVQ0Nm5tVmpxamFTeUJwaS1LRVdZNVQ1SUNqcURoby01OFFPMG9QRlJIaHRhUnp4SkZqMmdtLWxjWDBCRnd4Z1hyeFBWLW16SzI3UWRoTzkya0RuSERuRlRjTWh3ckc2ZmtSc05SODJ6QUJObG14ZnhaVWQ0a0hHLUJ5Zk9nMGVrU2FBRHNrR3czVnV0ZGc?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-10T09:47:18Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "DNA trail to identify Gujarati victims of Nepal’s flash floods: Govt collects samples from relatives of 29 ... Bhaskar English",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e6950c75014928e7448e7330aec22191",
+          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
+        },
+        {
+          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
+        }
+      ]
+    },
+    {
+      "id": "9f263a24086a4ab290e6d207037ac65c",
+      "title": "AI watermarks may turn workplace praise and apologies into trust tests",
+      "link": "https://phys.org/news/2026-09-ai-watermarks-workplace.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/an-invisible-ai-waterm.jpg",
+      "published": "2026-09-10T09:20:06Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Imagine a manager sends a thoughtful message to one of her hard-working employees after a particularly exhausting week in the office.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
+        },
+        {
+          "id": "bc1972d533ed2c027fc8b748c9a4291d",
+          "title": "Interviewing with AI? Try not to let the robot affect your behavior"
+        }
+      ]
+    },
+    {
+      "id": "05a9061c868be03b3e5e624eb32562c6",
+      "title": "Bhotekoshi flood: DNA profiling stepped up to identify victims - myRepublica",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNW9CcVVLUGtDS2huMUxjVHF0NjIyVFlYS3BrcUs5UWtTeUxSZWFkOWZYdXlWMW5qb3dJWFlmREtRdGw5Q1pfU29RVDVNeG9ESEZxMDBmZTFCZWRuSWRoZC1GVUJ6d1NjaHRPdmhlcU1vOU1SeU5fLUstTGNOT3d2T1o2dldaampJbGxRTVlYWF8xUDdnTEstcFB5LVNOY3FibnY5a2owRVg0N0E5T29yN0diZDhkYk9BSUVPOQ?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_3.png",
+      "published": "2026-09-10T06:06:05Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Bhotekoshi flood: DNA profiling stepped up to identify victims myRepublica",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "54fc30b93b4c04cb8267a81a0ba360d3",
+          "title": "Bhotekoshi flood: DNA profiling efforts intensified to identify victims - Khabarhub"
+        },
+        {
+          "id": "8d5440fa0d53389122b99763e9bcd286",
+          "title": "Nepal Police use DNA profiling to identify Bhotekoshi flood victims - Deshsanchar"
+        }
+      ]
+    },
+    {
       "id": "ae5abc0bfe75dc6b1eb7e63555ea68fa",
       "title": "Bhote Koshi flood: DNA profiling gains pace - Nepalnews.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLVFjcWFGWFh2cEZqQ21WdGNXOWY3Zlg4LThiR3g4SVItTThYekxQbC05Yy1zdUFvMlQ1TVh6Z21jclFiZmhvQUw2NnFvMW9WUFlFblBaSEhwa3M5TFRqaEUtRXNNSlRCVHg0QV9NTWtEaS0wRVJ1dFBxNF9LSHVqWmRNUUUyRW1qV1E?oc=5",
@@ -623,12 +1373,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "54fc30b93b4c04cb8267a81a0ba360d3",
-          "title": "Bhotekoshi flood: DNA profiling efforts intensified to identify victims - Khabarhub"
+          "id": "05a9061c868be03b3e5e624eb32562c6",
+          "title": "Bhotekoshi flood: DNA profiling stepped up to identify victims - myRepublica"
         },
         {
-          "id": "5bb96806567330b1285d12c56ac72d90",
-          "title": "Police Intensify DNA Testing for Identification of Bhote Koshi Flood Victims - Ratopati"
+          "id": "54fc30b93b4c04cb8267a81a0ba360d3",
+          "title": "Bhotekoshi flood: DNA profiling efforts intensified to identify victims - Khabarhub"
         }
       ]
     },
@@ -653,12 +1403,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "8d5440fa0d53389122b99763e9bcd286",
-          "title": "Nepal Police use DNA profiling to identify Bhotekoshi flood victims - Deshsanchar"
+          "id": "05a9061c868be03b3e5e624eb32562c6",
+          "title": "Bhotekoshi flood: DNA profiling stepped up to identify victims - myRepublica"
         },
         {
-          "id": "ae5abc0bfe75dc6b1eb7e63555ea68fa",
-          "title": "Bhote Koshi flood: DNA profiling gains pace - Nepalnews.com"
+          "id": "8d5440fa0d53389122b99763e9bcd286",
+          "title": "Nepal Police use DNA profiling to identify Bhotekoshi flood victims - Deshsanchar"
         }
       ]
     },
@@ -713,12 +1463,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "54fc30b93b4c04cb8267a81a0ba360d3",
-          "title": "Bhotekoshi flood: DNA profiling efforts intensified to identify victims - Khabarhub"
+          "id": "05a9061c868be03b3e5e624eb32562c6",
+          "title": "Bhotekoshi flood: DNA profiling stepped up to identify victims - myRepublica"
         },
         {
-          "id": "5bb96806567330b1285d12c56ac72d90",
-          "title": "Police Intensify DNA Testing for Identification of Bhote Koshi Flood Victims - Ratopati"
+          "id": "54fc30b93b4c04cb8267a81a0ba360d3",
+          "title": "Bhotekoshi flood: DNA profiling efforts intensified to identify victims - Khabarhub"
         }
       ]
     },
@@ -743,12 +1493,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "88eacb9055e04f43724d331b65b556aa",
-          "title": "CEO politics may shape how companies compete"
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
         },
         {
-          "id": "f555f8742bbf78833c95c4cfc3f0276a",
-          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+          "id": "bc1972d533ed2c027fc8b748c9a4291d",
+          "title": "Interviewing with AI? Try not to let the robot affect your behavior"
         }
       ]
     },
@@ -777,8 +1527,8 @@
           "title": "OCME forensic scientist Mark Desire has been identifying 9/11 victims for 25 years. With hundreds of victims still unknown, he’s not stopping. - amNewYork"
         },
         {
-          "id": "232cc52573a5982939eb3d245701c98f",
-          "title": "Q&A: Satellite imagery reveals what casualty figures alone do not tell us"
+          "id": "e4a0afd02748680fa38648ba8d897752",
+          "title": "AI is reshaping workplace, not replacing jobs, new research finds"
         }
       ]
     },
@@ -803,12 +1553,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "d8b0fe45df1941c103b5b149c8879abd",
-          "title": "AI and big data can help logistics companies navigate supply-chain disruptions"
+          "id": "9f263a24086a4ab290e6d207037ac65c",
+          "title": "AI watermarks may turn workplace praise and apologies into trust tests"
         },
         {
-          "id": "b7fb2a038a66e8af6b15479798133a9c",
-          "title": "Polarized trust in scientists driven by values, identity and politics"
+          "id": "d8b0fe45df1941c103b5b149c8879abd",
+          "title": "AI and big data can help logistics companies navigate supply-chain disruptions"
         }
       ]
     },
@@ -863,12 +1613,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "88eacb9055e04f43724d331b65b556aa",
-          "title": "CEO politics may shape how companies compete"
+          "id": "9f263a24086a4ab290e6d207037ac65c",
+          "title": "AI watermarks may turn workplace praise and apologies into trust tests"
         },
         {
-          "id": "f555f8742bbf78833c95c4cfc3f0276a",
-          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+          "id": "88eacb9055e04f43724d331b65b556aa",
+          "title": "CEO politics may shape how companies compete"
         }
       ]
     },
@@ -893,12 +1643,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "232cc52573a5982939eb3d245701c98f",
-          "title": "Q&A: Satellite imagery reveals what casualty figures alone do not tell us"
+          "id": "9808df116c430f016ff07bda0b042bd1",
+          "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org"
         },
         {
-          "id": "f555f8742bbf78833c95c4cfc3f0276a",
-          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+          "id": "232cc52573a5982939eb3d245701c98f",
+          "title": "Q&A: Satellite imagery reveals what casualty figures alone do not tell us"
         }
       ]
     },
@@ -923,12 +1673,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "8d5440fa0d53389122b99763e9bcd286",
-          "title": "Nepal Police use DNA profiling to identify Bhotekoshi flood victims - Deshsanchar"
+          "id": "200bc3b29ddbccc41d6d0f103be65100",
+          "title": "Chinese cave traces Denisovan hunting and adaptation across 120,000 years"
         },
         {
-          "id": "88eacb9055e04f43724d331b65b556aa",
-          "title": "CEO politics may shape how companies compete"
+          "id": "9f263a24086a4ab290e6d207037ac65c",
+          "title": "AI watermarks may turn workplace praise and apologies into trust tests"
         }
       ]
     },
@@ -1126,7 +1876,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
       "source": "CISA KEV",
       "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "image": "images/cve_2.png",
       "published": "2026-09-09T00:00:00Z",
       "published_fmt": "09 Sep 2026",
       "plain_summary": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page.",
@@ -1185,6 +1935,262 @@
       ]
     },
     {
+      "id": "3e290162925f63baf6a1a073de5c9aa4",
+      "title": "[Threat IOC] Remcos ip:port: 107.172.13.250:7122",
+      "link": "https://threatfox.abuse.ch/ioc/1910588/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-10T17:10:20Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remcos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "d590c7bc9f26193584df69aa64fbf4fa",
+          "title": "[Threat IOC] Remcos ip:port: 104.129.171.63:2404"
+        },
+        {
+          "id": "49f8df1535a1151a7e595982a3bf51f6",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+        }
+      ]
+    },
+    {
+      "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+      "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net",
+      "link": "https://threatfox.abuse.ch/ioc/1910585/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-09-10T17:10:10Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+        },
+        {
+          "id": "1c70a3af4941794f2ac1c4f22b2608ff",
+          "title": "[Threat IOC] ClearFake domain: 4ivzxksw.us-neuro-vera.com"
+        }
+      ]
+    },
+    {
+      "id": "d590c7bc9f26193584df69aa64fbf4fa",
+      "title": "[Threat IOC] Remcos ip:port: 104.129.171.63:2404",
+      "link": "https://threatfox.abuse.ch/ioc/1910586/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-09-10T17:10:10Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remcos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "3e290162925f63baf6a1a073de5c9aa4",
+          "title": "[Threat IOC] Remcos ip:port: 107.172.13.250:7122"
+        },
+        {
+          "id": "49f8df1535a1151a7e595982a3bf51f6",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+        }
+      ]
+    },
+    {
+      "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+      "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk",
+      "link": "https://threatfox.abuse.ch/ioc/1910587/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-09-10T17:10:10Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+        },
+        {
+          "id": "1c70a3af4941794f2ac1c4f22b2608ff",
+          "title": "[Threat IOC] ClearFake domain: 4ivzxksw.us-neuro-vera.com"
+        }
+      ]
+    },
+    {
+      "id": "49f8df1535a1151a7e595982a3bf51f6",
+      "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910584/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-10T17:05:07Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "fd2d06087c426d54cc4f154b490abeff",
+          "title": "[Threat IOC] VShell ip:port: 154.91.56.100:8074"
+        },
+        {
+          "id": "66ce31e061e117916c5745b7e6622ac8",
+          "title": "[Threat IOC] VShell ip:port: 154.91.56.105:8074"
+        }
+      ]
+    },
+    {
+      "id": "fd2d06087c426d54cc4f154b490abeff",
+      "title": "[Threat IOC] VShell ip:port: 154.91.56.100:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910582/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-09-10T17:05:06Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "49f8df1535a1151a7e595982a3bf51f6",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+        },
+        {
+          "id": "66ce31e061e117916c5745b7e6622ac8",
+          "title": "[Threat IOC] VShell ip:port: 154.91.56.105:8074"
+        }
+      ]
+    },
+    {
+      "id": "66ce31e061e117916c5745b7e6622ac8",
+      "title": "[Threat IOC] VShell ip:port: 154.91.56.105:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910583/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-09-10T17:05:06Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "49f8df1535a1151a7e595982a3bf51f6",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+        },
+        {
+          "id": "fd2d06087c426d54cc4f154b490abeff",
+          "title": "[Threat IOC] VShell ip:port: 154.91.56.100:8074"
+        }
+      ]
+    },
+    {
+      "id": "1c70a3af4941794f2ac1c4f22b2608ff",
+      "title": "[Threat IOC] ClearFake domain: 4ivzxksw.us-neuro-vera.com",
+      "link": "https://threatfox.abuse.ch/ioc/1910581/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-09-10T17:04:10Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+        },
+        {
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+        }
+      ]
+    },
+    {
       "id": "b8c7ebf81b5998bb24b2316bb622e277",
       "title": "[Threat IOC] php.shin_webshell domain: xer0a002po.workers.dev",
       "link": "https://threatfox.abuse.ch/ioc/1906910/",
@@ -1211,8 +2217,8 @@
           "title": "[Threat IOC] php.shin_webshell domain: 5nrkm0ei2e.workers.dev"
         },
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         }
       ]
     },
@@ -1222,7 +2228,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1906909/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "image": "images/malware_5.png",
       "published": "2026-09-10T04:45:21Z",
       "published_fmt": "10 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
@@ -1243,8 +2249,8 @@
           "title": "[Threat IOC] php.shin_webshell domain: xer0a002po.workers.dev"
         },
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         }
       ]
     },
@@ -1254,7 +2260,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1906908/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "image": "images/malware_5.png",
       "published": "2026-09-10T04:41:03Z",
       "published_fmt": "10 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
@@ -1271,12 +2277,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "94e0435d843eb6dfc44dddcd3031d996",
-          "title": "[Threat IOC] ClearFake domain: warenwerk.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "43a7ec9a1fa0f28904d556d3d65eb6f0",
-          "title": "[Threat IOC] ClearFake domain: 74br4nt0.e-rse.fit"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
@@ -1303,12 +2309,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "43a7ec9a1fa0f28904d556d3d65eb6f0",
-          "title": "[Threat IOC] ClearFake domain: 74br4nt0.e-rse.fit"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
@@ -1335,12 +2341,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "94e0435d843eb6dfc44dddcd3031d996",
-          "title": "[Threat IOC] ClearFake domain: warenwerk.ch"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
@@ -1367,12 +2373,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "94e0435d843eb6dfc44dddcd3031d996",
-          "title": "[Threat IOC] ClearFake domain: warenwerk.ch"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
@@ -1399,12 +2405,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "94e0435d843eb6dfc44dddcd3031d996",
-          "title": "[Threat IOC] ClearFake domain: warenwerk.ch"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
@@ -1431,56 +2437,25 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "5d6755b9461830c58d7b3646b4188d32",
-          "title": "[Threat IOC] ClearFake domain: dorfpraxis-rueschlikon.ch"
+          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
+          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
         },
         {
-          "id": "94e0435d843eb6dfc44dddcd3031d996",
-          "title": "[Threat IOC] ClearFake domain: warenwerk.ch"
+          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
+          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
         }
       ]
     },
     {
-      "id": "acd3236e75e03788eb2e71530326b6ae",
-      "title": "[LOW CVE] CVE-2026-84885 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84885",
+      "id": "ac4e1388a4f973322a7958a3c76d0efd",
+      "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81282",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-09-03T05:16:47Z",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-09-03T17:17:24Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "A vulnerability has been found in simular-ai Agent-S 0.3.1/0.3.2. This impacts an unknown function of the file code_agent.py of the component CodeAgent. Such manipulation leads to denial of service. The attack can be launched remotely.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "18799363b1ec136769a49a52b3b99f2f",
-          "title": "[LOW CVE] CVE-2026-84887 in Various Systems"
-        },
-        {
-          "id": "4c2dae586098b30604162cbf5c13b78b",
-          "title": "[LOW CVE] CVE-2026-84888 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "736e01e4454da05c62364f93bf3b4736",
-      "title": "[MEDIUM CVE] CVE-2026-84886 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84886",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-09-03T05:16:47Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "A vulnerability was determined in simular-ai Agent-S up to 0.3.2. Affected by this vulnerability is the function ImageData of the file gui_agents/s1/utils/ocr_server.py of the component OCR HTTP API.",
+      "plain_summary": "Subscriber Cross Site Scripting (XSS) in Product Variations Swatches for WooCommerce <= 1.1.18 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1493,87 +2468,87 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
+          "id": "639979fd98f4f15909cc4913a44fedb8",
+          "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems"
         },
         {
-          "id": "18799363b1ec136769a49a52b3b99f2f",
-          "title": "[LOW CVE] CVE-2026-84887 in Various Systems"
+          "id": "dea1fe9ef4f592a3f88f19140e6e8398",
+          "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems"
         }
       ]
     },
     {
-      "id": "18799363b1ec136769a49a52b3b99f2f",
-      "title": "[LOW CVE] CVE-2026-84887 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84887",
+      "id": "c43c09f7a43753e38d694cede39b4a02",
+      "title": "[HIGH CVE] CVE-2026-81292 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81292",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-09-03T05:16:47Z",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-09-03T17:17:24Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "A vulnerability was identified in simular-ai Agent-S up to 0.3.2. Affected by this issue is some unknown functionality of the file grounding.py of the component Model-generated GUI Action Execution Workflow.",
+      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Simple Payment <= 2.5.1 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
+          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
+          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
         },
         {
-          "id": "4c2dae586098b30604162cbf5c13b78b",
-          "title": "[LOW CVE] CVE-2026-84888 in Various Systems"
+          "id": "62be1f6320b33b78d56bcf49e8ae9e73",
+          "title": "[HIGH CVE] CVE-2026-81300 in Various Systems"
         }
       ]
     },
     {
-      "id": "4c2dae586098b30604162cbf5c13b78b",
-      "title": "[LOW CVE] CVE-2026-84888 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84888",
+      "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
+      "title": "[HIGH CVE] CVE-2026-81295 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81295",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-09-03T05:16:47Z",
+      "image": "images/cve_2.png",
+      "published": "2026-09-03T17:17:24Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "A weakness has been identified in RightNow-AI OpenFang up to 0.6.9. This vulnerability affects the function shell_exec of the file crates/openfang-runtime/src/tool_runner.rs. This manipulation causes uncontrolled memory allocation.",
+      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Under Construction <= 5.82 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
+          "id": "c43c09f7a43753e38d694cede39b4a02",
+          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
         },
         {
-          "id": "18799363b1ec136769a49a52b3b99f2f",
-          "title": "[LOW CVE] CVE-2026-84887 in Various Systems"
+          "id": "62be1f6320b33b78d56bcf49e8ae9e73",
+          "title": "[HIGH CVE] CVE-2026-81300 in Various Systems"
         }
       ]
     },
     {
-      "id": "09284642bb7982ed49f5d14af179faf3",
-      "title": "[HIGH CVE] CVE-2026-84851 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84851",
+      "id": "62be1f6320b33b78d56bcf49e8ae9e73",
+      "title": "[HIGH CVE] CVE-2026-81300 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81300",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-09-03T05:16:46Z",
+      "published": "2026-09-03T17:17:24Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "An uncontrolled recursion issue exists in Amazon Ion-C versions before 1.1.6 that might allow a remote unauthenticated actor to craft Ion data that exhausts the native call stack and crashes the application using the library, resulting in a denial of service.",
+      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Calculation For Contact Form 7 <= 1.0 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1586,105 +2561,136 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "a6107a9cd16b7b56f680e1f068272cdd",
-          "title": "[HIGH CVE] CVE-2026-84394 in Openjsf fast-uri"
+          "id": "c43c09f7a43753e38d694cede39b4a02",
+          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
         },
         {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
+          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
+          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
         }
       ]
     },
     {
-      "id": "a6107a9cd16b7b56f680e1f068272cdd",
-      "title": "[HIGH CVE] CVE-2026-84394 in Openjsf fast-uri",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84394",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-09-03T05:16:38Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "fast-uri accepts a host that contains an unbalanced or misplaced authority bracket without reporting an error.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "09284642bb7982ed49f5d14af179faf3",
-          "title": "[HIGH CVE] CVE-2026-84851 in Various Systems"
-        },
-        {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "f93c6f29933cc5e491f51bf528bd1a10",
-      "title": "[UNKNOWN CVE] CVE-2026-66048 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-66048",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-09-03T05:05:41Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#unknown-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "0e061febe45d81a693b53157fa6727ff",
-          "title": "[UNKNOWN CVE] CVE-2026-66049 in Various Systems"
-        },
-        {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "0e061febe45d81a693b53157fa6727ff",
-      "title": "[UNKNOWN CVE] CVE-2026-66049 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-66049",
+      "id": "15a3b4ef7d58579756f2e3f8041a99bf",
+      "title": "[HIGH CVE] CVE-2026-81773 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81773",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-09-03T05:05:41Z",
+      "published": "2026-09-03T17:17:24Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Ninja Forms File Uploads Extension <= 3.3.26 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#unknown-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "f93c6f29933cc5e491f51bf528bd1a10",
-          "title": "[UNKNOWN CVE] CVE-2026-66048 in Various Systems"
+          "id": "c43c09f7a43753e38d694cede39b4a02",
+          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
         },
         {
-          "id": "acd3236e75e03788eb2e71530326b6ae",
-          "title": "[LOW CVE] CVE-2026-84885 in Various Systems"
+          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
+          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "1edc4e9d02519bb99cc43e4594476152",
+      "title": "[HIGH CVE] CVE-2026-81776 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81776",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_1.png",
+      "published": "2026-09-03T17:17:24Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in WP QuickLaTeX <= 3.8.8 versions.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "c43c09f7a43753e38d694cede39b4a02",
+          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
+        },
+        {
+          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
+          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "639979fd98f4f15909cc4913a44fedb8",
+      "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75602",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-09-03T17:17:23Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "OpenList a file list program that supports multiple storage.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "ac4e1388a4f973322a7958a3c76d0efd",
+          "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems"
+        },
+        {
+          "id": "dea1fe9ef4f592a3f88f19140e6e8398",
+          "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "dea1fe9ef4f592a3f88f19140e6e8398",
+      "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81281",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-09-03T17:17:23Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "Subscriber Cross Site Scripting (XSS) in Graphene <= 2.9.4 versions.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "ac4e1388a4f973322a7958a3c76d0efd",
+          "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems"
+        },
+        {
+          "id": "639979fd98f4f15909cc4913a44fedb8",
+          "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems"
         }
       ]
     },
@@ -1721,6 +2727,186 @@
       ]
     },
     {
+      "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+      "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_2.png",
+      "published": "2026-09-10T15:43:58Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters linked to ransomware and state-sponsored attacks. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "b268a1c82ea10d8900928e47cc4ee120",
+          "title": "Veradigm warns of patient data breach after ransomware gang claims attack"
+        },
+        {
+          "id": "c7086d068c9d653696915cd931d1c35c",
+          "title": "Microsoft fixes record 964 flaws, including 2 exploited zero-days - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "49ecec15db301ae8039882848c91b7f9",
+      "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+      "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4vbRDTWaQnxiILexae9P_rAk0hzx-re0czK2tM_WNQcoVDPlKblD4M5qOy8FZ9hHJBDLGjHHAyYutmaiacI54o5q1SH5qSbsptviRF16T2r6i8Iywvzk4GJprCm60p12qrK7t3R8h_ZR7CUoG47YfdeOb0iKY0WRapDeObI8_poWklMtKXrmr421Scjzi/s1600/play.jpg",
+      "published": "2026-09-10T14:36:47Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Bad actors are misusing Google Play's Early Access program to push deceptive apps that claim to offer money, rewards, casino winnings, and premium content.",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "df4965fe94c50faab3e8becd45b795a7",
+          "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6"
+        },
+        {
+          "id": "f9f09b7edd4c464b2dc54571605bfcc6",
+          "title": "CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats"
+        }
+      ]
+    },
+    {
+      "id": "e45718aaf68279f5eee235f5df920071",
+      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+      "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJHT3nuLNpTkrzjiictjYuKsyepFXuDoZVUZB_Gz6yQFCP4CYdOIpSDon_tEsZ43eVe2_qiPXs7V9byKtyoYZ7HE7QltUfQgEUTnSSjmclQH27vVm5JjVIcrvANMIEOxUDmOWy0dPeHVOkiYoFZMgubtGqZJKfgft34Z-q5F7dyqPoJ6iInpgMwyIL3l8/s1600/android-work.jpg",
+      "published": "2026-09-10T11:33:43Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "The Gigabud banking trojan now installs a second Android app that creates a work profile on an infected phone and drops a tampered banking app inside it, security firm Group-IB said in a&nbsp;report published on September 9.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+          "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers"
+        },
+        {
+          "id": "d8546d34597fdde4fd72c21b40c903d9",
+          "title": "More than 100,000 fake stores are out to steal your card details - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "9d2ea7bed43113a8567e1ca3599b3ef6",
+      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+      "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7j6Sm8OqDeYzrbb5faLBuDOc0zIMlvfjiKbn1aCMpx_2iBl6gb3HhJhpbqU8SPajHUClJEXUwnFbY1DcubmzWeVaWCyGcHkw45rCYqU_4IFO_g4OwdyNrTFFK3l3YsXwfOWQj2QtW3UTeglKmyRJ4GvbVKMxLTByMgeZ7E0WWpxpi50qie2lx9DbCY9rr/s1600/cisa-list.jpg",
+      "published": "2026-09-10T10:36:46Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "The U.S.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "a268aa87ff70653d7f9eab16e64d3e33",
+          "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks"
+        },
+        {
+          "id": "53ff1f736428724747eaec131a0a9df7",
+          "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks"
+        }
+      ]
+    },
+    {
+      "id": "53ff1f736428724747eaec131a0a9df7",
+      "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_1.png",
+      "published": "2026-09-10T09:10:20Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a critical WatchGuard Firebox firewall vulnerability, which it flagged as actively exploited in December. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "a268aa87ff70653d7f9eab16e64d3e33",
+          "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks"
+        },
+        {
+          "id": "9d2ea7bed43113a8567e1ca3599b3ef6",
+          "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline"
+        }
+      ]
+    },
+    {
+      "id": "df4965fe94c50faab3e8becd45b795a7",
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmMNfeF1h2D3MrUkoHWN2M9yhKD-FFQ6DgwixOflNATW2UA5b_6AsUjXLAjrn5c4hQWw0xueXTWDlbqKwS_gexDm0Yq8PB_B2LpXHaQiw7m7thOATlckixuA8VUIFDFERGBS8o1Kph93eYnDysXuRljKaXfe7813MwWKkBLex8BP3YL-fahCr4Xm3xMWZE/s1600/claude-hack.jpg",
+      "published": "2026-09-10T07:04:01Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised concerns about the security risks posed by autonomous AI agents.",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "49ecec15db301ae8039882848c91b7f9",
+          "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps"
+        },
+        {
+          "id": "f9f09b7edd4c464b2dc54571605bfcc6",
+          "title": "CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats"
+        }
+      ]
+    },
+    {
       "id": "a268aa87ff70653d7f9eab16e64d3e33",
       "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
@@ -1741,12 +2927,42 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "561c543b7eb565eaf0dfb1fee3b06ac7",
-          "title": "[KEV Active Exploit] CVE-2026-20079 in Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management"
+          "id": "53ff1f736428724747eaec131a0a9df7",
+          "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks"
         },
         {
-          "id": "c9249abb2b8d67a843d263d892b9ac15",
-          "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox"
+          "id": "9d2ea7bed43113a8567e1ca3599b3ef6",
+          "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline"
+        }
+      ]
+    },
+    {
+      "id": "d8546d34597fdde4fd72c21b40c903d9",
+      "title": "More than 100,000 fake stores are out to steal your card details - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZERZanhhSVdsYmd6S2NMMEJIR3ZIT3B4dkdYaGYzU0pBWE5hRUhJUWtSV1pGekdYNnlIeWQxMDE2ekFsRFFETzkxQWV3bGRaa0tjU1B6T2Z1SVVRSkppV2ctWmJnUVM4VnpZSWNTZVpYR3lsMHVFWFJxLTk1UnhZcUZadXBQcWcwc0FTZUpPWDZNdDAtN0pneENhak56MV9lam4yVXRfSXZQWklGQXNFNA?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_4.png",
+      "published": "2026-09-09T15:48:06Z",
+      "published_fmt": "09 Sep 2026",
+      "plain_summary": "More than 100,000 fake stores are out to steal your card details Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "c7086d068c9d653696915cd931d1c35c",
+          "title": "Microsoft fixes record 964 flaws, including 2 exploited zero-days - Malwarebytes"
+        },
+        {
+          "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+          "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers"
         }
       ]
     },
@@ -1771,12 +2987,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "d163022df00d73dd4d5ad07202ac4ffe",
-          "title": "Untracked Nightmares: The Threats Hiding Behind Commodity Infrastructure"
+          "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+          "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers"
         },
         {
-          "id": "22b36d8627240d1dc4e8ecc3e30b1208",
-          "title": "Amazon adds cybersecurity veteran Kevin Mandia to board 2 years after he left Google - CNBC"
+          "id": "e45718aaf68279f5eee235f5df920071",
+          "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks"
         }
       ]
     },
@@ -1801,12 +3017,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "e52b9489709237f8d371f732d6110fb0",
-          "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets"
+          "id": "49ecec15db301ae8039882848c91b7f9",
+          "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps"
         },
         {
-          "id": "7828362b9101334b7393e530944e2b4d",
-          "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path"
+          "id": "df4965fe94c50faab3e8becd45b795a7",
+          "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6"
         }
       ]
     },
@@ -1831,12 +3047,42 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "f9f09b7edd4c464b2dc54571605bfcc6",
-          "title": "CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats"
+          "id": "49ecec15db301ae8039882848c91b7f9",
+          "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps"
         },
         {
-          "id": "9f8ebd86c61d97e13b55c4ee936b12b7",
-          "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval"
+          "id": "df4965fe94c50faab3e8becd45b795a7",
+          "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6"
+        }
+      ]
+    },
+    {
+      "id": "c7086d068c9d653696915cd931d1c35c",
+      "title": "Microsoft fixes record 964 flaws, including 2 exploited zero-days - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUnNwYk90QkF2cGZqY1NQaTB1M29RWmU1UEVtOHRyTGFwT2NBSHE3MGVZbkxYN0FaaXV3TDRKRjdFemhQMXF3eXM4cEp5Wm1YOV8xTm9BS0k0REFvdDA3ZS02NUx2eXRWakdTc3pQRXY5WmozQU1uZWpJNVN1cXZ1V0JLMjZvT3JDUXpreWR5UFkwNC1xa2xRT3Bxa2thanhlVmxCMEJkaHBvbDI2VFIzVw?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-09-09T10:31:28Z",
+      "published_fmt": "09 Sep 2026",
+      "plain_summary": "Microsoft fixes record 964 flaws, including 2 exploited zero-days Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+          "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers"
+        },
+        {
+          "id": "d8546d34597fdde4fd72c21b40c903d9",
+          "title": "More than 100,000 fake stores are out to steal your card details - Malwarebytes"
         }
       ]
     },
@@ -1861,12 +3107,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "b268a1c82ea10d8900928e47cc4ee120",
-          "title": "Veradigm warns of patient data breach after ransomware gang claims attack"
+          "id": "bb4c64e787836d6df62e2e613b9fe7a0",
+          "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers"
         },
         {
-          "id": "f9f09b7edd4c464b2dc54571605bfcc6",
-          "title": "CISA Releases Updated Insider Threat Guide With New Insights to Mitigate Physical and Cyber Threats"
+          "id": "e45718aaf68279f5eee235f5df920071",
+          "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks"
         }
       ]
     },
@@ -1891,12 +3137,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "a268aa87ff70653d7f9eab16e64d3e33",
-          "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks"
+          "id": "9d2ea7bed43113a8567e1ca3599b3ef6",
+          "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline"
         },
         {
-          "id": "1e092d2ce5422823e71b4648f7ee7c3a",
-          "title": "[KEV Active Exploit] CVE-2026-87491 in Google Chromium V8"
+          "id": "53ff1f736428724747eaec131a0a9df7",
+          "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks"
         }
       ]
     }

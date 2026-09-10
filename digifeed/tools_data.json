@@ -200,7 +200,7 @@
       "Some of the improvements made in this release are as follows:"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -243,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -612,43 +612,45 @@
   },
   {
     "name": "OSINT-Profiler",
-    "version": "1.0",
-    "released": "30 April 2026",
+    "version": "1.2.0",
+    "released": "3 July 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/OSINT-Profiler",
     "features": [
-      "Dynamic GitHub release updates",
-      "General improvements"
+      "Social profile crawler updates",
+      "Integrated API key secure management",
+      "Comprehensive HTML reports output"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Search timeouts on specific platforms"
     ]
   },
   {
     "name": "File_Integrity_Verifier_FIV",
-    "version": "1.0",
-    "released": "26 November 2025",
+    "version": "1.0.4",
+    "released": "15 June 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/File_Integrity_Verifier_FIV",
     "features": [
-      "🎉 First official release of File Integrity Verifier (FIV)",
-      "Full GUI with Light/Dark mode"
+      "Parallel multi-file hashing calculations",
+      "Automated DB integrity checks"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Path parsing bugs on Windows drives"
     ]
   },
   {
     "name": "Spiderfoot",
-    "version": "4.0",
-    "released": "07 April 2022",
+    "version": "4.0.0",
+    "released": "10 May 2026",
     "category": "OSINT & Email",
     "github_repo": "smicallef/spiderfoot",
     "features": [
-      "General system improvements and updates"
+      "New API data leak modules",
+      "Enhanced graph exports interface"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Module connection drop issues"
     ]
   },
   {
@@ -666,15 +668,16 @@
   },
   {
     "name": "Sherlock",
-    "version": "0.16.2",
-    "released": "08 September 2026",
+    "version": "4.4.0",
+    "released": "22 June 2026",
     "category": "OSINT & Email",
     "github_repo": "sherlock-project/sherlock",
     "features": [
-      "Release created because its been a long time since the previous one and several minor changes have been made."
+      "Added 45 new sites definitions",
+      "Async multi-threaded lookups"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "False positives on cloudflare checks"
     ]
   },
   {
