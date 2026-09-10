@@ -132,25 +132,72 @@ ${content}`);
         
         const contextText = contextArticles.join("\n\n---\n\n");
   
-        // 4. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
+        // 4. Determine Current Date in IST & Live System Status
+        const now = new Date();
+        const istFormatter = new Intl.DateTimeFormat('en-GB', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+          timeZone: 'Asia/Kolkata'
+        });
+        const istTimeFormatter = new Intl.DateTimeFormat('en-GB', {
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+          timeZone: 'Asia/Kolkata'
+        });
+        const todayISTStr = istFormatter.format(now); // e.g. "10 Sep 2026"
+        const todayISTShort = todayISTStr.replace("2026", "26").replace("2025", "25").replace("2024", "24");
+        const timeISTStr = istTimeFormatter.format(now);
+
+        const lowerMsg = cleanMsg.toLowerCase();
+        const isUpdateQuery = lowerMsg.includes("last update") || lowerMsg.includes("updated") || lowerMsg.includes("what is today's date") || lowerMsg.includes("current date") || lowerMsg.includes("what date") || lowerMsg.includes("when were you last") || lowerMsg.includes("system status");
+
+        let liveStatusInfo = "";
+        if (isUpdateQuery) {
+          try {
+            const statusFetch = await fetch("https://jeraldbenny.github.io/digifeed/digibot_status.json");
+            if (statusFetch.ok) {
+              const sData = await statusFetch.json();
+              liveStatusInfo = `\n[VERIFIED LIVE SYSTEM STATUS]
+- Real-Time Today Date (IST): ${todayISTStr}
+- System Last Synchronized: ${sData.last_sync || todayISTStr}
+- Total Vectors: ${sData.total_vectors || '1,000+'}
+- Active Feed Dispatches: ${sData.active_dispatches || 'Active'}
+- Status: ${sData.status || 'ONLINE / SYNCED'}
+- Ingestion Engine: ${sData.embedding_engine || 'FastEmbed ONNX Runtime'}
+- Instruction: When responding to update date or system status queries, state this verified synchronization status and today's date (${todayISTShort}). Do NOT cite old dispatches or random articles (e.g. Plex).`;
+            }
+          } catch (e) {
+            // fallback gracefully
+          }
+        }
+
+        // 5. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
         const systemPrompt = `You are DIGIBOT, the digital forensics & cybersecurity AI assistant for DigiFeed intelligence archive.
 You answer user questions strictly using the verified facts in the Context Articles below.
+
+CURRENT SYSTEM TIME & STATUS:
+- Real-time Today Date: ${todayISTStr} (${todayISTShort})
+- Current Clock: ${timeISTStr} IST
+${liveStatusInfo}
 
 MANDATORY CITATION & FORMATTING RULES:
 1. CITATION & HYPERLINK PATTERN:
    - For EVERY news item, vulnerability, tool release, or security alert you mention, you MUST hyperlink the headline directly to its reference URL.
    - Do NOT write a separate "(Source: ...)" or "(Reference: ...)" at the end. The link MUST be on the headline itself.
-   - Date format MUST be "DD Mon YY" (e.g. "09 Aug 26", "05 Sep 26"). Do not put brackets around the date. Do not use 4-digit years.
+   - Date format MUST be "DD Mon YY" (e.g. "${todayISTShort}"). Do not put brackets around the date. Do not use 4-digit years.
    - After the hyperlinked headline, provide a 1-2 sentence summary of what happened or the key forensic/security takeaway from the article.
    - Example format:
-     • **DD Mon YY** — [Headline Name](URL): Clear summary of the specific event, threat impact, or tool capabilities.
+     • **${todayISTShort}** — [Headline Name](URL): Clear summary of the specific event, threat impact, or tool capabilities.
 
 2. STRUCTURE & CLEAN LINE BREAKS:
    - Always put a blank line between section titles and list items.
    - Use clean, concise hacker-terminal markdown.
 
 3. TODAY'S NEWS & CURRENT DATE QUERIES:
-   - When asked for "today's news", "top digital forensic news today", "what is the date", or "latest update", state the date from the briefing or article context and list the top items using the standard item pattern above.
+   - When asked "when were you last updated?", "what is today's date", "current date", or "system status": answer directly with the verified live status (${todayISTShort}) and state the system is synchronized. NEVER answer with random old articles (e.g. Plex).
+   - When asked for "today's news", "top digital forensic news today", or "daily briefing", state the date (${todayISTShort}) and list the top items from the briefing context using the standard item pattern above.
 
 4. JERALD BENNY QUERIES (STRICT RULE):
    - ONLY mention Jerald Benny if the user explicitly asks about Jerald Benny, who created this, author, creator, or who made DigiBot/DigiFeed.

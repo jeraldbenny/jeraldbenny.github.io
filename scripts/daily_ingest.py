@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 # Ensure scripts directory is in path
 scripts_dir = os.path.dirname(os.path.abspath(__file__))
@@ -11,7 +11,7 @@ if scripts_dir not in sys.path:
 import rag_engine
 from ingest_static import STATIC_KNOWLEDGE
 
-def build_today_briefing(articles, current_date_str):
+def build_today_briefing(articles, current_date_str, now_ist_str=""):
     """
     Construct rich dynamic briefing records for today's news and system status.
     Ensures DigiBot accurately answers queries about today's news, latest CVEs, and update dates.
@@ -78,9 +78,10 @@ RECENT HEADLINES SUMMARY:
     status_content = f"""DIGIBOT SYSTEM INTELLIGENCE STATUS & CURRENT DATE:
 - CURRENT DATE TODAY: {current_date_str}
 - LAST SYNCHRONIZED DATE: {current_date_str}
+- LAST SYNC TIMESTAMP: {now_ist_str or current_date_str}
 - DATABASE STATUS: Active, fully updated with {len(articles)} fresh daily dispatches and 1000+ historical archives up to {current_date_str}.
 - INTELLIGENCE SCOPE: Real-time digital forensics dispatches, CISA KEV alerts, NVD vulnerabilities, malware analysis, incident response methodologies, and open-source tool releases.
-- QUERY ANCHORS: date, date?, what date, current date, today's date, what is today's date, when were you last updated, latest update date, status.
+- QUERY ANCHORS: date, date?, what date, current date, today's date, what is today's date, when were you last updated, when u got last updated, latest update date, when was this updated, status.
 """
 
     return [
@@ -124,18 +125,14 @@ def main():
         with open(archive_path, 'r', encoding='utf-8') as f:
             archive_articles = json.load(f).get('articles', [])
 
-    # Format current date string
-    now = datetime.now(timezone.utc)
+    # Format current date string in IST (Indian Standard Time, UTC+05:30)
+    IST = timezone(timedelta(hours=5, minutes=30))
+    now = datetime.now(IST)
     current_date_str = now.strftime('%d %b %Y')
+    now_ist_str = now.strftime('%d %b %Y, %H:%M IST')
 
-    # If data.json has articles, use the latest published date if available
-    if data_articles:
-        latest_pub = data_articles[0].get('published_fmt')
-        if latest_pub:
-            current_date_str = latest_pub
-
-    print(f"Building intelligence context for date: {current_date_str}...")
-    system_records = build_today_briefing(data_articles, current_date_str)
+    print(f"Building intelligence context for date: {current_date_str} (IST)...")
+    system_records = build_today_briefing(data_articles, current_date_str, now_ist_str)
 
     # Aggregate all items with deduplication by ID
     all_items = {}
@@ -164,7 +161,7 @@ def main():
 
     # Save DigiBot operational status for the Ops Dashboard
     bot_status_data = {
-        "last_sync": now.strftime("%d %b %Y, %H:%M UTC"),
+        "last_sync": now.strftime("%d %b %Y, %H:%M IST"),
         "date_anchored": current_date_str,
         "status": "ONLINE / SYNCED",
         "index_name": "digifeed-rag",
@@ -177,7 +174,7 @@ def main():
         "dimension": 384,
         "embedding_engine": "FastEmbed ONNX Runtime",
         "worker_api": "https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev",
-        "schedule": "Daily at 00:30 UTC"
+        "schedule": "Daily at 06:00 IST (00:30 UTC)"
     }
     bot_status_path = os.path.join(base_dir, 'digibot_status.json')
     try:

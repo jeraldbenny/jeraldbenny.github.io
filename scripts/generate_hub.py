@@ -2481,7 +2481,7 @@ function showArchiveDate(dateStr, btn) {{
         bot_dim = digibot_status.get("dimension", 384)
         bot_engine = digibot_status.get("embedding_engine", "FastEmbed ONNX Runtime")
         bot_api_url = digibot_status.get("worker_api", "https://jb-intel-bot-api.jeraldbenny04-c7a.workers.dev")
-        bot_schedule = digibot_status.get("schedule", "Daily at 00:30 UTC")
+        bot_schedule = digibot_status.get("schedule", "Daily at 06:00 IST (00:30 UTC)")
         bot_last_sync = digibot_status.get("last_sync", ops_status.get("last_update", "Synchronized"))
 
         total_for_pct = max(bot_total_vec, 1)
@@ -2646,11 +2646,12 @@ function showArchiveDate(dateStr, btn) {{
         # 4. Deployment history
         deployments_html = ""
         import datetime
-        base_time = datetime.datetime.now(datetime.timezone.utc)
+        ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+        base_time = datetime.datetime.now(ist_tz)
         for i in range(7):
             run_t = base_time - datetime.timedelta(days=i)
-            run_t = run_t.replace(hour=0, minute=30, second=0, microsecond=0)
-            formatted_time = run_t.strftime("%d %b %Y, %H:%M UTC")
+            run_t = run_t.replace(hour=6, minute=0, second=0, microsecond=0)
+            formatted_time = run_t.strftime("%d %b %Y, %H:%M IST")
             deployments_html += f'''
             <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:\'VT323\',monospace; font-size:16px;">
               <span style="color:#fff;">Daily Sync Run #{7-i}</span>
@@ -2783,6 +2784,24 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   grid-template-columns: 1fr 1.5fr;
   gap: 20px;
 }}
+.capacity-row-header {{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  flex-wrap: wrap;
+  gap: 4px;
+}}
+.capacity-row-sub {{
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--subtext);
+  margin-top: 4px;
+  flex-wrap: wrap;
+  gap: 4px;
+}}
 @media(max-width:767px) {{
   .stats-layout-grid {{
     grid-template-columns: 1fr !important;
@@ -2808,6 +2827,8 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   }}
   .stat-val {{
     font-size: 7.5px !important;
+    word-break: break-word !important;
+    line-height: 1.25 !important;
   }}
   .stat-lbl {{
     font-size: 4.5px !important;
@@ -2815,6 +2836,23 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   pre {{
     font-size: 10px !important;
     padding: 10px !important;
+  }}
+  .capacity-row-header {{
+    flex-direction: column !important;
+    gap: 4px !important;
+    font-size: 16px !important;
+  }}
+  .capacity-row-sub {{
+    flex-direction: column !important;
+    gap: 2px !important;
+    font-size: 12px !important;
+  }}
+  #opsScanBtn {{
+    width: 100% !important;
+    font-size: 8px !important;
+    padding: 10px 12px !important;
+    margin-top: 8px !important;
+    text-align: center !important;
   }}
 }}
 
@@ -3031,14 +3069,14 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <div id="github" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// GITHUB ACTION //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">Automated CI/CD pipeline that runs <strong style="color:#3cc8c0;">daily at 00:00 UTC</strong> via GitHub Actions. It fetches RSS feeds and threat intelligence APIs, rebuilds the HTML, and publishes the updated feed automatically.</p>
+    <p style="margin-bottom:16px;font-size:16px;">Automated CI/CD pipeline that runs <strong style="color:#3cc8c0;">daily at 05:30 IST (00:00 UTC)</strong> via GitHub Actions. It fetches RSS feeds and threat intelligence APIs, updates DigiBot neural vectors, rebuilds the HTML, and publishes the updated feed automatically.</p>
     <div class="stats-grid">
       <div class="stat-box"><div class="stat-val" style="color:#40d060;">ACTIVE</div><div class="stat-lbl">WORKFLOW STATUS</div></div>
-      <div class="stat-box"><div class="stat-val">00:00 UTC</div><div class="stat-lbl">DAILY SCHEDULE (CRON)</div></div>
+      <div class="stat-box"><div class="stat-val">05:30 IST</div><div class="stat-lbl">DAILY SCHEDULE (CRON)</div></div>
       <div class="stat-box"><div class="stat-val">fetch_news.py</div><div class="stat-lbl">INGESTION SCRIPT</div></div>
-      <div class="stat-box"><div class="stat-val">generate_hub.py</div><div class="stat-lbl">HTML GENERATOR</div></div>
       <div class="stat-box"><div class="stat-val">daily_ingest.py</div><div class="stat-lbl">DIGIBOT RAG SYNC</div></div>
-      <div class="stat-box"><div class="stat-val" style="color:#f0c040;">00:30 UTC</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
+      <div class="stat-box"><div class="stat-val">generate_hub.py</div><div class="stat-lbl">HTML GENERATOR</div></div>
+      <div class="stat-box"><div class="stat-val" style="color:#f0c040;">06:00 IST</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
     </div>
     <p style="margin-top:18px;font-size:15px;color:#5a6a8a;">The pipeline runs automatically without any manual input. All feed data, API responses, and generated HTML are committed to the repository on each successful run.</p>
   </div>
@@ -3204,14 +3242,14 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       <div style="display:flex; flex-direction:column; gap:14px;">
         <!-- Active Feed Capacity -->
         <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
-          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+          <div class="capacity-row-header">
             <span style="color:var(--teal); font-weight:bold;">ACTIVE FEED BUFFER CAPACITY</span>
             <span style="color:#fff;">Present: <strong style="color:var(--teal);">{bot_active_cnt}</strong> / Max: <strong>150 Articles</strong> <span style="color:var(--gold);">({prog_active_pct}%)</span></span>
           </div>
           <div style="background:#080b18; height:16px; border:1px solid rgba(60,200,192,0.4); overflow:hidden; position:relative;">
             <div style="background:linear-gradient(90deg,#1b5550,#3cc8c0); width:{prog_active_pct}%; height:100%; border-right:2px solid #ffe878;"></div>
           </div>
-          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+          <div class="capacity-row-sub">
             <span>Current daily dispatches parsed in primary feed</span>
             <span>Allocated Buffer: 150 Limit</span>
           </div>
@@ -3219,14 +3257,14 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
 
         <!-- Historical Archive Pool -->
         <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
-          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+          <div class="capacity-row-header">
             <span style="color:var(--gold); font-weight:bold;">HISTORICAL ARCHIVE CAPACITY</span>
             <span style="color:#fff;">Present: <strong style="color:var(--gold);">{bot_archive_cnt:,}</strong> / Max: <strong>1,500 Dispatches</strong> <span style="color:var(--teal);">({prog_archive_pct}%)</span></span>
           </div>
           <div style="background:#080b18; height:16px; border:1px solid rgba(240,192,64,0.4); overflow:hidden; position:relative;">
             <div style="background:linear-gradient(90deg,#6a4808,#f0c040); width:{prog_archive_pct}%; height:100%; border-right:2px solid #3cc8c0;"></div>
           </div>
-          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+          <div class="capacity-row-sub">
             <span>Deep historical intelligence timeline archive</span>
             <span>Archive Pool: 1,500 Limit</span>
           </div>
@@ -3234,14 +3272,14 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
 
         <!-- Pinecone Vector DB Storage -->
         <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
-          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+          <div class="capacity-row-header">
             <span style="color:#a070e8; font-weight:bold;">PINECONE VECTOR DB STORAGE CAPACITY</span>
             <span style="color:#fff;">Present: <strong style="color:#a070e8;">{bot_total_vec:,}</strong> / Max: <strong>5,000 Vectors</strong> <span style="color:#40d060;">({prog_pinecone_pct}%)</span></span>
           </div>
           <div style="background:#080b18; height:16px; border:1px solid rgba(160,112,232,0.4); overflow:hidden; position:relative;">
             <div style="background:linear-gradient(90deg,#4a2878,#a070e8); width:{prog_pinecone_pct}%; height:100%; border-right:2px solid #ffe878;"></div>
           </div>
-          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+          <div class="capacity-row-sub">
             <span>Serverless 384-dimensional dense vectors stored in index</span>
             <span>Free Tier Index Quota: 5,000 Vectors</span>
           </div>
@@ -3249,14 +3287,14 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
 
         <!-- Dynamic System & Knowledge Anchors -->
         <div style="background:rgba(0,0,0,0.25); border:1px solid var(--border); padding:14px;">
-          <div style="display:flex; justify-content:space-between; margin-bottom:6px; font-family:'VT323',monospace; font-size:18px;">
+          <div class="capacity-row-header">
             <span style="color:#40d060; font-weight:bold;">DYNAMIC ANCHORS & DFIR CHEAT-SHEETS</span>
             <span style="color:#fff;">Present: <strong style="color:#40d060;">{bot_static_cnt + bot_system_cnt}</strong> / Max: <strong>50 Records</strong> <span style="color:var(--gold);">({prog_static_pct}%)</span></span>
           </div>
           <div style="background:#080b18; height:16px; border:1px solid rgba(64,208,96,0.4); overflow:hidden; position:relative;">
             <div style="background:linear-gradient(90deg,#185025,#40d060); width:{prog_static_pct}%; height:100%; border-right:2px solid #3cc8c0;"></div>
           </div>
-          <div style="display:flex; justify-content:space-between; font-size:13px; color:var(--subtext); margin-top:4px;">
+          <div class="capacity-row-sub">
             <span>Curated tool cheat-sheets and daily context anchors</span>
             <span>Anchor Slot Cap: 50 Records</span>
           </div>
@@ -3619,7 +3657,7 @@ async function runDigilabHealthCheck() {{
   }}
 
   if (logEl) {{
-    const timeStr = new Date().toUTCString();
+    const timeStr = new Date().toLocaleString('en-IN', {{ timeZone: 'Asia/Kolkata' }}) + ' IST';
     logEl.style.display = 'block';
     logEl.innerHTML = `<span style="color:var(--gold);">[DIGILAB HEALTH CHECK COMPLETE - ${{timeStr}}]</span><br>` +
       `<span style="color:#40d060;">• Operational Services: ${{onlineCount}}/${{DIGILAB_SERVICES.length}}</span><br>` +
@@ -3752,7 +3790,8 @@ async function opsLiveErrorScan() {{
       }});
       if (out) out.innerHTML = errHtml;
     }} else {{
-      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ SCAN COMPLETE: 0 ERRORS DETECTED</span><br>' +
+      var scanTimeStr = new Date().toLocaleString('en-IN', {{ timeZone: 'Asia/Kolkata' }}) + ' IST';
+      if (out) out.innerHTML = '<span style="color:#40d060; font-weight:bold;">✔ SCAN COMPLETE: 0 ERRORS DETECTED (' + scanTimeStr + ')</span><br>' +
                               '<span style="color:#3cc8c0;">• API Bridge Latency: ' + pingDuration + ' ms [ONLINE]</span><br>' +
                               '<span style="color:#3cc8c0;">• RAG Vector Retrieval + LLM: ' + qDuration + ' ms [VERIFIED]</span><br>' +
                               '<span style="color:#b8c8e0;">• Grounded Citation Integrity: Confirmed</span>';

@@ -2140,8 +2140,11 @@ def fetch_all():
     dedup_archive.sort(key=lambda x: x.get("published", ""), reverse=True)
     dedup_archive = dedup_archive[:1000] # Keep last 1000
     
+    IST = timezone(timedelta(hours=5, minutes=30))
+    now_ist = datetime.now(IST)
+
     archive_output = {
-        "last_updated": datetime.now(timezone.utc).strftime("%d %B %Y, %H:%M UTC"),
+        "last_updated": now_ist.strftime("%d %B %Y, %H:%M IST"),
         "total": len(dedup_archive),
         "articles": dedup_archive
     }
@@ -2176,7 +2179,7 @@ def fetch_all():
     # Save output data
     os.makedirs("digifeed", exist_ok=True)
     output = {
-        "last_updated": datetime.now(timezone.utc).strftime("%d %B %Y, %H:%M UTC"),
+        "last_updated": now_ist.strftime("%d %B %Y, %H:%M IST"),
         "total":        len(final_dispatches),
         "articles":     final_dispatches
     }
@@ -2221,7 +2224,7 @@ def fetch_all():
 
     # Save operational status logs
     ops_data = {
-        "last_update": datetime.now(timezone.utc).strftime("%d %b %Y, %H:%M UTC"),
+        "last_update": now_ist.strftime("%d %b %Y, %H:%M IST"),
         "sources_healthy": source_health["healthy_count"],
         "sources_failed": source_health["failed_count"],
         "articles_today": len(final_dispatches),
