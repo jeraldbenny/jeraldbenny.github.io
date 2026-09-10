@@ -3,9 +3,13 @@
  */
 
 (function() {
+    // DigiBot is intentionally excluded from DigiPlay to keep the 3D CTF arena unobstructed
+    if (window.location.pathname.includes('/digiplay/')) {
+        return;
+    }
+
     const isSubFolder = window.location.pathname.includes('/digifeed/') || 
                         window.location.pathname.includes('/digilab/') || 
-                        window.location.pathname.includes('/digiplay/') || 
                         window.location.pathname.includes('/toolkit/');
 
     const link = document.createElement('link');
@@ -68,7 +72,7 @@
 
         const chatHistory = [];
 
-        // Category Filter Chips (Strictly NO EMOJIS)
+        // Category Filter Chips (Strictly NO EMOJIS, NO BRACKETS)
         const categoryChips = [
             { label: "DFIR", query: "top 10 dfir news of today" },
             { label: "FORENSICS", query: "top 10 forensic news of today" },
@@ -86,7 +90,7 @@
                 const btn = document.createElement('button');
                 btn.type = 'button';
                 btn.className = 'jb-chip';
-                btn.textContent = `[${chip.label}]`;
+                btn.textContent = chip.label;
                 btn.title = `Query ${chip.label}`;
                 btn.onclick = () => {
                     inputField.value = chip.query;
@@ -181,6 +185,12 @@
         function parseMarkdown(text) {
             if (!text) return '';
             
+            // 0. Normalize broken markdown links and nested bracket headlines
+            // e.g. [[Tag] Title](url) -> [Tag: Title](url)
+            text = text.replace(/\[\[([^\]]+)\]\s*([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
+            // e.g. [Tag] Title](url) -> [Tag: Title](url)
+            text = text.replace(/\[([^\]\n]+)\]\s*([^\]\n]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
+
             // 1. Escape HTML entities
             let html = text
                 .replace(/&/g, '&amp;')
@@ -207,8 +217,11 @@
             html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
             html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
-            // 5. Links (http/https and mailto)
+            // 5. Links (http/https and mailto) - Embedded in Title
             html = html.replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+
+            // Fallback: If any stray ](http...) exists after a bullet dash, turn preceding text into a link
+            html = html.replace(/—\s*([^<\n]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '— <a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
             // 6. Bullet lists
             // Normalize bullets: ensure bullets start on a newline even if squished against prior text

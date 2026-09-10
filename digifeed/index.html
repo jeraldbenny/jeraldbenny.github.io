@@ -48,6 +48,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(8,11,24,0.96
 .nav-logo{font-family:'Press Start 2P',monospace;font-size:9px;color:var(--gold);letter-spacing:1px;text-decoration:none;}
 .nav-logo span{color:var(--teal);}
 
+.nav-links{display:flex;align-items:center;gap:10px;}
+
 /* Beautiful Wooden RPG Nav Button */
 .nav-back-btn{font-family:'Press Start 2P',monospace;display:inline-flex;align-items:center;
   justify-content:center;gap:6px;font-size:7px;padding:0 12px;height:34px;
@@ -351,6 +353,10 @@ footer a:hover{text-decoration:underline;}
   .tool-tracker-grid{grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)) !important;gap:12px;}
 }
 @media(max-width:767px){
+  nav{padding:0 12px !important;}
+  .nav-links{gap:6px !important;}
+  .nav-back-btn{font-size:5.5px !important;padding:0 6px !important;height:28px !important;}
+  .nav-logo{font-size:7.5px !important;}
   .news-grid{grid-template-columns:1fr !important;gap:16px;padding:0 12px;width:100%;}
   .tool-tracker-grid{grid-template-columns:1fr !important;gap:16px;}
   .filter-wrap{
@@ -438,8 +444,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="../index.html" class="nav-logo">JB<span>:</span>FORENSICS</a>
     <button id="audio-toggle" aria-label="Toggle Ambient Audio" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;padding-top:2px;" title="Toggle Ambient Audio">🔇</button>
   </div>
-  <a href="../index.html" class="nav-back-btn">◀ GUILD HALL</a>
-  
+  <div class="nav-links">
+    <a href="../digilab/index.html" class="nav-back-btn">DIGILAB</a>
+    <a href="../digiplay/index.html" class="nav-back-btn">DIGIPLAY</a>
+    <a href="../index.html" class="nav-back-btn">◀ GUILD HALL</a>
+  </div>
 </nav>
 
 <div class="hub-hero">

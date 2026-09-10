@@ -133,6 +133,14 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
   }
 
   // 2. Query Embedding via Hugging Face BAAI/bge-small-en-v1.5
+  let embedText = cleanMsg;
+  if (Array.isArray(history) && history.length > 0) {
+    const lastUserTurn = [...history].reverse().find(h => h && (h.role === "user" || !h.role));
+    if (lastUserTurn && lastUserTurn.content) {
+      embedText = `${lastUserTurn.content.slice(0, 200)} ${cleanMsg}`;
+    }
+  }
+
   const hfEmbedUrl = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5";
   let embedRes = await fetch(hfEmbedUrl, {
     method: "POST",
@@ -141,7 +149,7 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
       "Content-Type": "application/json",
       "x-use-pipeline": "feature-extraction"
     },
-    body: JSON.stringify({ inputs: cleanMsg })
+    body: JSON.stringify({ inputs: embedText })
   });
   
   if (!embedRes.ok) {
@@ -181,7 +189,10 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
     for (let i = 0; i < pcData.matches.length; i++) {
       const m = pcData.matches[i];
       if (m.metadata && (m.metadata.content || m.metadata.plain_summary)) {
-        const title = m.metadata.title || "Untitled Intelligence";
+        let title = m.metadata.title || "Untitled Intelligence";
+        title = title.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
+        title = title.replace(/^\[([^\]]+)\]\s*/, "$1: ");
+        title = title.replace(/[\[\]]/g, "");
         let date = m.metadata.date || "Recent";
         date = date.replace(/20(\d\d)/g, "$1");
         const category = m.metadata.category || m.metadata.category_tag || "General";
@@ -241,47 +252,68 @@ ${content}`);
     }
   }
 
-  if (isTodayNewsQuery) {
-    const feedData = await fetchCachedJson("https://jeraldbenny.github.io/digifeed/data.json", ctx, 300);
-    if (feedData) {
-      let candidateArticles = feedData.articles || [];
-      if (targetCategory) {
-        const catMatches = candidateArticles.filter(a => a.category_tag === targetCategory);
-        if (catMatches.length > 0) {
-          if (topicKeywords.length > 0) {
-            const scored = catMatches.map(a => {
-              const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
-              const score = topicKeywords.reduce((acc, kw) => acc + (text.includes(kw) ? 1 : 0), 0);
-              return { article: a, score };
-            });
-            scored.sort((a, b) => b.score - a.score);
-            candidateArticles = scored.map(s => s.article);
-          } else {
-            candidateArticles = catMatches;
-          }
-        } else {
-          candidateArticles = candidateArticles.filter(a => {
-            const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
-            return topicKeywords.some(kw => text.includes(kw));
-          });
+  // Always fetch feedData from edge cache (0ms overhead)
+  const feedData = await fetchCachedJson("https://jeraldbenny.github.io/digifeed/data.json", ctx, 300);
+  if (feedData) {
+    let candidateArticles = feedData.articles || [];
+    if (targetCategory) {
+      const catMatches = candidateArticles.filter(a => a.category_tag === targetCategory);
+      if (catMatches.length > 0) {
+        const todayDayMonth = todayUTCShort.slice(0, 6).toLowerCase();
+        const scored = catMatches.map(a => {
+          const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
+          const kwScore = topicKeywords.reduce((acc, kw) => acc + (text.includes(kw) ? 1 : 0), 0);
+          const isRecent = (a.published_fmt || "").toLowerCase().includes(todayDayMonth) ? 10 : 0;
+          return { article: a, score: isRecent + kwScore };
+        });
+        scored.sort((a, b) => b.score - a.score);
+        candidateArticles = scored.map(s => s.article);
+      } else {
+        candidateArticles = candidateArticles.filter(a => {
+          const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
+          return topicKeywords.some(kw => text.includes(kw));
+        });
+      }
+    } else {
+      // Keyword matching from cleanMsg and history
+      const searchTerms = [];
+      const extractWords = (str) => (str || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(w => w.length > 3 && !["what", "when", "where", "which", "about", "there", "their", "exact", "number", "mentioned", "today", "yesterday", "could", "would"].includes(w));
+      searchTerms.push(...extractWords(cleanMsg));
+      if (Array.isArray(history)) {
+        for (const h of history.slice(-2)) {
+          searchTerms.push(...extractWords(h.content));
         }
       }
+      if (searchTerms.length > 0) {
+        const scored = candidateArticles.map(a => {
+          const text = (a.title + " " + (a.plain_summary || "")).toLowerCase();
+          const score = searchTerms.reduce((acc, term) => acc + (text.includes(term) ? 1 : 0), 0);
+          return { article: a, score };
+        }).filter(s => s.score > 0);
+        if (scored.length > 0) {
+          scored.sort((a, b) => b.score - a.score);
+          candidateArticles = scored.map(s => s.article);
+        }
+      }
+    }
 
-      const todayArticles = candidateArticles.slice(0, targetCount);
-      let liveArticlesList = [];
-      for (const a of todayArticles) {
-        const aTitle = a.title || "Headline";
-        const aLink = a.link || "https://jeraldbenny.github.io/digifeed/";
-        let aDate = a.published_fmt || todayUTCShort;
-        aDate = aDate.replace(/20(\d\d)/g, "$1");
-        const aSummary = a.plain_summary || a.deep_lore || "";
-        liveArticlesList.push(`• **${aDate}** — [${aTitle}](${aLink}): ${aSummary.slice(0, 250)}`);
-      }
-      if (liveArticlesList.length > 0) {
-        const catHeader = targetCategory ? `VERIFIED ${targetCategory.toUpperCase()} DISPATCHES` : "VERIFIED LIVE INTELLIGENCE DISPATCHES";
-        contextArticles.unshift(`[TODAY'S ${catHeader} (${todayUTCStr})]
+    const todayArticles = candidateArticles.slice(0, targetCount);
+    let liveArticlesList = [];
+    for (const a of todayArticles) {
+      let aTitle = a.title || "Headline";
+      aTitle = aTitle.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
+      aTitle = aTitle.replace(/^\[([^\]]+)\]\s*/, "$1: ");
+      aTitle = aTitle.replace(/[\[\]]/g, "");
+      const aLink = a.link || "https://jeraldbenny.github.io/digifeed/";
+      let aDate = a.published_fmt || todayUTCShort;
+      aDate = aDate.replace(/20(\d\d)/g, "$1");
+      const aSummary = a.plain_summary || a.deep_lore || "";
+      liveArticlesList.push(`• **${aDate}** — [${aTitle}](${aLink}): ${aSummary.slice(0, 250)}`);
+    }
+    if (liveArticlesList.length > 0) {
+      const catHeader = targetCategory ? `VERIFIED ${targetCategory.toUpperCase()} DISPATCHES` : "VERIFIED LIVE INTELLIGENCE DISPATCHES";
+      contextArticles.unshift(`[TODAY'S ${catHeader} (${todayUTCStr})]
 ${liveArticlesList.join("\n\n")}`);
-      }
     }
   }
 
@@ -289,7 +321,16 @@ ${liveArticlesList.join("\n\n")}`);
 
   // 5. Build System Prompt & Multi-turn Message Payload
   const systemPrompt = `You are DIGIBOT, the digital forensics & cybersecurity AI assistant for DigiFeed intelligence archive.
-You answer user questions strictly using the verified facts in the Context Articles below.
+
+ECOSYSTEM & PLATFORM KNOWLEDGE:
+- DigiFeed (https://jeraldbenny.github.io/digifeed/): Jerald Benny's automated threat intelligence hub, tracking daily DFIR articles, research papers, tool releases, malware intelligence, IOC feeds, and CVEs.
+- DigiLab (https://jeraldbenny.github.io/digilab/): Jerald Benny's browser-based digital forensics workstation featuring multi-hash verification (MD5, SHA-1, SHA-256, SHA-512), EXIF metadata & GPS extraction, email header analyzer, and network OSINT.
+- DigiPlay (https://jeraldbenny.github.io/digiplay/): Jerald Benny's interactive 3D digital forensics playground and gamified CTF arena. Features 3D crime scene evidence examination (Three.js WebGL simulation), cyber forensic quiz battles, and investigative puzzle solving. (Note: DigiBot does not appear inside DigiPlay to keep the 3D gaming screen unobstructed, but DigiBot is fully aware of DigiPlay and can answer user questions about it).
+
+CONVERSATION MEMORY & MULTI-TURN RULES:
+- When the user asks a follow-up question or references prior conversation turns (e.g., asking "what was the exact number mentioned?", "who wrote that?", "explain that flaw", "why?", or referencing entities, names, or counts discussed previously), ALWAYS consult the prior conversation turns in the chat history.
+- If the requested information is in the conversation history (such as a number, count, name, or detail previously stated by you or the user), answer directly and concisely based on that conversation history!
+- Never claim that "the context articles do not mention..." if the user is asking about something already stated in the prior conversation turns.
 
 CURRENT SYSTEM TIME & STATUS:
 - Real-time Today Date (UTC): ${todayUTCStr} (${todayUTCShort})
@@ -298,13 +339,15 @@ CURRENT SYSTEM TIME & STATUS:
 ${liveStatusInfo}
 
 MANDATORY CITATION & FORMATTING RULES:
-1. CITATION & HYPERLINK PATTERN:
-   - For EVERY news item, vulnerability, tool release, or security alert you mention, you MUST hyperlink the headline directly to its reference URL.
+1. CITATION & HYPERLINK INTEGRITY (CRITICAL):
+   - For ANY and EVERY news item, vulnerability, tool release, research paper, or security alert: NEVER display the raw URL as text. The link MUST be embedded directly in the headline title: [Headline Name](URL).
+   - When clicked, the headline title must redirect directly to the article URL.
+   - NEVER put square brackets inside the headline title. Write [Research Paper: Title](URL) or [Title](URL), NEVER [[Tag] Title](URL) or [Tag] Title](URL).
    - Do NOT write a separate "(Source: ...)" or "(Reference: ...)" at the end. The link MUST be on the headline itself.
    - Date format MUST be "DD Mon YY" (e.g. "${todayUTCShort}"). Do not put brackets around the date. Do not use 4-digit years.
    - After the hyperlinked headline, provide a 1-2 sentence summary of what happened or the key forensic/security takeaway from the article.
    - Example format:
-     • **${todayUTCShort}** — [Headline Name](URL): Clear summary of the specific event, threat impact, or tool capabilities.
+     • **${todayUTCShort}** — [Research Paper: Zero-Shot Audio Deepfake Detection](https://arxiv.org/abs/...): Clear summary of the specific event or research.
 
 2. LIST FORMATTING & LINE BREAKS (CRITICAL):
    - You MUST place a blank line (double newline) between EVERY bullet item in any list. NEVER run items together on the same line.
@@ -320,14 +363,15 @@ MANDATORY CITATION & FORMATTING RULES:
 
 4. TODAY'S NEWS & CURRENT DATE QUERIES:
    - When asked "when were you last updated?", "what is today's date", "current date", or "system status": answer directly with the verified live status (${todayUTCShort}) in UTC and state the system is synchronized. NEVER answer with random old articles.
-   - When asked for "today's news", "todays latest news", "latest news", "top forensic news", "forensics", "top dfir news", "cves", "malware", or "daily briefing": state the date (${todayUTCShort}) and list the items strictly from the relevant [TODAY'S VERIFIED DISPATCHES] or context. NEVER cite old historical articles from earlier months or days unless specifically queried.
+   - When asked for "today's news", "todays latest news", "latest news", "top forensic news", "forensics", "top dfir news", "cves", "malware", or "daily briefing": state the date (${todayUTCShort}) and list the items from the relevant [TODAY'S VERIFIED DISPATCHES] or context. Prioritize the newest items from today. When the user asks for a specific count (such as top 10, top 5, 3 items), provide the full requested count of distinct items from the verified dispatches. Do not truncate the list early.
 
 5. JERALD BENNY QUERIES (STRICT RULE):
-   - ONLY mention Jerald Benny if the user explicitly asks about Jerald Benny, who created this, author, creator, or who made DigiBot/DigiFeed.
+   - ONLY mention Jerald Benny if the user explicitly asks about Jerald Benny, who created this, author, creator, or who made DigiBot/DigiFeed/DigiLab/DigiPlay.
    - NEVER include or append a "Jerald Benny Background" section to general news, search, or technical queries.
 
 6. GROUNDING & COMPLETION INTEGRITY:
-   - Do not invent facts, dates, or URLs not present in the context.
+   - When answering follow-ups or referencing earlier statements, use the facts in the chat history.
+   - For new claims or citations, do not invent facts, dates, or URLs not present in the context.
    - Never cut off links or sentences mid-way. Complete every headline link and sentence cleanly.
 
 === CONTEXT ARTICLES ===
@@ -362,7 +406,7 @@ ${contextText || "No matching articles found in index."}
         body: JSON.stringify({
           model: model,
           messages: messages,
-          max_tokens: 1500,
+          max_tokens: 2500,
           temperature: 0.25,
           stream: wantStream
         })

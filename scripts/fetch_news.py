@@ -1472,7 +1472,7 @@ def fetch_arxiv_research_papers():
                         
                     papers.append({
                         "id":            aid,
-                        "title":         f"[Research Paper] {raw_title}",
+                        "title":         f"Research Paper: {raw_title}",
                         "link":          link,
                         "source":        "arXiv",
                         "source_icon":   "🏆",
@@ -1526,7 +1526,7 @@ def fetch_arxiv_research_papers():
                     
                     papers.append({
                         "id":            aid,
-                        "title":         f"[Research Paper] {raw_title}",
+                        "title":         f"Research Paper: {raw_title}",
                         "link":          link,
                         "source":        src["name"],
                         "source_icon":   src["icon"],
