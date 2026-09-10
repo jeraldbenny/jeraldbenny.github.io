@@ -58,7 +58,7 @@ def build_today_briefing(articles, current_date_str, now_sync_str=""):
 CURRENT DATE: {current_date_str} (UTC)
 TIMEZONE: UTC
 LAST UPDATE STATUS: Fresh dispatches collected and synchronized for {current_date_str} (UTC).
-QUERY ANCHORS: today's news, what is today's news, what's new today, top stories today, latest updates, latest news, today news, news today, daily briefing, cyber news today, forensic news today, cybersecurity news today.
+QUERY ANCHORS: today's news, todays latest news, today latest news, latest news, todays news, news today, daily briefing, what is today's news, what's new today, top stories today, latest updates, cyber news today, forensic news today, cybersecurity news today, top news.
 
 TOP STORIES & FORENSICS HEADLINES TODAY:
 {top_stories_text}

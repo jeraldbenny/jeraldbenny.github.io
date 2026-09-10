@@ -150,11 +150,18 @@ ${content}`);
         const todayUTCShort = todayUTCStr.replace("2026", "26").replace("2025", "25").replace("2024", "24");
         const timeUTCStr = utcTimeFormatter.format(now);
 
-        const lowerMsg = cleanMsg.toLowerCase();
-        const isUpdateQuery = lowerMsg.includes("last update") || lowerMsg.includes("updated") || lowerMsg.includes("what is today's date") || lowerMsg.includes("current date") || lowerMsg.includes("what date") || lowerMsg.includes("when were you last") || lowerMsg.includes("system status");
+        const isTodayNewsQuery = lowerMsg.includes("today") || 
+                                 lowerMsg.includes("latest news") || 
+                                 lowerMsg.includes("news today") || 
+                                 lowerMsg.includes("daily briefing") || 
+                                 lowerMsg.includes("top news") || 
+                                 lowerMsg.includes("briefing") ||
+                                 lowerMsg.includes("top stories") ||
+                                 lowerMsg.includes("what's new") ||
+                                 lowerMsg.includes("whats new");
 
         let liveStatusInfo = "";
-        if (isUpdateQuery) {
+        if (isUpdateQuery || isTodayNewsQuery) {
           try {
             const statusFetch = await fetch("https://jeraldbenny.github.io/digifeed/digibot_status.json");
             if (statusFetch.ok) {
@@ -167,7 +174,32 @@ ${content}`);
 - Active Feed Dispatches: ${sData.active_dispatches || 'Active'}
 - Status: ${sData.status || 'ONLINE / SYNCED'}
 - Ingestion Engine: ${sData.embedding_engine || 'FastEmbed ONNX Runtime'}
-- Instruction: When responding to update date or system status queries, state this verified synchronization status in UTC and today's date (${todayUTCShort}). Do NOT cite old dispatches or random articles (e.g. Plex).`;
+- Instruction: When responding to update date or system status queries, state this verified synchronization status in UTC and today's date (${todayUTCShort}). Do NOT cite old dispatches or random articles (e.g. Plex, Gujarat).`;
+            }
+          } catch (e) {
+            // fallback gracefully
+          }
+        }
+
+        if (isTodayNewsQuery) {
+          try {
+            const feedFetch = await fetch("https://jeraldbenny.github.io/digifeed/data.json");
+            if (feedFetch.ok) {
+              const feedData = await feedFetch.json();
+              const todayArticles = (feedData.articles || []).slice(0, 6);
+              let liveArticlesList = [];
+              for (const a of todayArticles) {
+                const aTitle = a.title || "Headline";
+                const aLink = a.link || "https://jeraldbenny.github.io/digifeed/";
+                let aDate = a.published_fmt || todayUTCShort;
+                aDate = aDate.replace(/20(\d\d)/g, "$1");
+                const aSummary = a.plain_summary || a.deep_lore || "";
+                liveArticlesList.push(`• **${aDate}** — [${aTitle}](${aLink}): ${aSummary.slice(0, 200)}`);
+              }
+              if (liveArticlesList.length > 0) {
+                contextArticles.unshift(`[TODAY'S VERIFIED LIVE INTELLIGENCE DISPATCHES (${todayUTCStr})]
+${liveArticlesList.join("\n")}`);
+              }
             }
           } catch (e) {
             // fallback gracefully
@@ -198,8 +230,8 @@ MANDATORY CITATION & FORMATTING RULES:
    - Use clean, concise hacker-terminal markdown.
 
 3. TODAY'S NEWS & CURRENT DATE QUERIES:
-   - When asked "when were you last updated?", "what is today's date", "current date", or "system status": answer directly with the verified live status (${todayUTCShort}) in UTC and state the system is synchronized. NEVER answer with random old articles (e.g. Plex).
-   - When asked for "today's news", "top digital forensic news today", or "daily briefing", state the date (${todayUTCShort}) and list the top items from the briefing context using the standard item pattern above.
+   - When asked "when were you last updated?", "what is today's date", "current date", or "system status": answer directly with the verified live status (${todayUTCShort}) in UTC and state the system is synchronized. NEVER answer with random old articles (e.g. Plex, Gujarat).
+   - When asked for "today's news", "todays latest news", "latest news", "top digital forensic news today", or "daily briefing": state the date (${todayUTCShort}) and list the top items strictly from [TODAY'S VERIFIED LIVE INTELLIGENCE DISPATCHES] or today's briefing context. NEVER cite old historical articles from earlier months or days (e.g. Gujarat genomics).
 
 4. JERALD BENNY QUERIES (STRICT RULE):
    - ONLY mention Jerald Benny if the user explicitly asks about Jerald Benny, who created this, author, creator, or who made DigiBot/DigiFeed.
