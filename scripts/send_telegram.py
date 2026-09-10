@@ -100,7 +100,10 @@ def build_daily_briefing(base_dir):
         if not title:
             continue
 
-        item = {"title": title, "link": link, "summary": summary}
+        raw_date = a.get("published_fmt") or a.get("collected_date") or ""
+        date_short = raw_date.replace("2026", "26").replace("2025", "25").replace("2024", "24")
+
+        item = {"title": title, "link": link, "summary": summary, "date": date_short}
 
         if cat in ["DFIR Articles", "Malware Intelligence", "CVE & Vulnerabilities", "IOC Feed"]:
             if len(dfir_articles) < 3:
@@ -114,17 +117,20 @@ def build_daily_briefing(base_dir):
 
     if not forensic_articles and len(articles) > 3:
         for a in articles[3:6]:
+            raw_d = a.get("published_fmt") or a.get("collected_date") or ""
+            d_s = raw_d.replace("2026", "26").replace("2025", "25").replace("2024", "24")
             forensic_articles.append({
                 "title": a.get("title", "Forensic Article"),
                 "link": a.get("link", "https://jeraldbenny.qd.je/digifeed/"),
-                "summary": " ".join((a.get("plain_summary") or "").split())[:150]
+                "summary": " ".join((a.get("plain_summary") or "").split())[:150],
+                "date": d_s
             })
 
     # Build formatted HTML
     msg = []
     msg.append("🤖 <b>DIGIFEED & DIGIBOT DAILY BRIEFING</b>")
     msg.append("━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    msg.append("🕒 <b>When You Got Latest Updated:</b>")
+    msg.append("🕒 <b>When you got latest updated?</b>")
     msg.append(f"• <b>IST:</b> <code>{escape_html(last_sync_ist)}</code>")
     msg.append(f"• <b>UTC:</b> <code>{escape_html(last_sync_utc)}</code>")
     msg.append(f"• <b>Status:</b> <b>{escape_html(status_str)}</b>")
@@ -139,7 +145,11 @@ def build_daily_briefing(base_dir):
             t_escaped = escape_html(item["title"])
             l_escaped = escape_html(item["link"])
             s_escaped = escape_html(item["summary"])
-            msg.append(f"• <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
+            d_escaped = escape_html(item.get("date", ""))
+            if d_escaped:
+                msg.append(f"• <b>{d_escaped}</b> — <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
+            else:
+                msg.append(f"• <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
             if s_escaped:
                 msg.append(f"  <i>{s_escaped}</i>")
     else:
@@ -152,7 +162,11 @@ def build_daily_briefing(base_dir):
             t_escaped = escape_html(item["title"])
             l_escaped = escape_html(item["link"])
             s_escaped = escape_html(item["summary"])
-            msg.append(f"• <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
+            d_escaped = escape_html(item.get("date", ""))
+            if d_escaped:
+                msg.append(f"• <b>{d_escaped}</b> — <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
+            else:
+                msg.append(f"• <a href=\"{l_escaped}\"><b>{t_escaped}</b></a>")
             if s_escaped:
                 msg.append(f"  <i>{s_escaped}</i>")
     else:
