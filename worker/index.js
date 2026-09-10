@@ -71,16 +71,25 @@ export default {
   
         // 3. Query Pinecone Vector DB
         let pcHost = env.PINECONE_HOST || "";
-        try {
-            if (!pcHost.startsWith("http")) pcHost = "https://" + pcHost;
-            const u = new URL(pcHost);
-            pcHost = u.hostname;
-        } catch (e) {
-            // ignore
+        if (!pcHost && env.PINECONE_API_KEY) {
+          try {
+            const idxRes = await fetch("https://api.pinecone.io/indexes/digifeed-rag", {
+              headers: { "Api-Key": env.PINECONE_API_KEY }
+            });
+            if (idxRes.ok) {
+              const idxData = await idxRes.json();
+              pcHost = idxData.host || "";
+            }
+          } catch (e) {
+            // fallback
+          }
+        }
+        if (pcHost) {
+          pcHost = pcHost.replace(/^https?:\/\//, "").replace(/\/+$/, "");
         }
         
         if (!pcHost || !env.PINECONE_API_KEY) {
-            return new Response(JSON.stringify({ error: "Missing Pinecone configuration in Worker." }), { status: 500, headers: { "Access-Control-Allow-Origin": "*" } });
+            return new Response(JSON.stringify({ error: `Missing Pinecone host configuration. (Host: ${pcHost || 'empty'})` }), { status: 500, headers: { "Access-Control-Allow-Origin": "*" } });
         }
         
         // Increase topK to 5 for richer semantic grounding
@@ -129,8 +138,6 @@ ${content}`);
             }
           }
         }
-        
-        const contextText = contextArticles.join("\n\n---\n\n");
   
         // 4. Determine Current Date in UTC & Live System Status
         const now = new Date();
@@ -149,6 +156,15 @@ ${content}`);
         const todayUTCStr = utcFormatter.format(now); // e.g. "10 Sep 2026"
         const todayUTCShort = todayUTCStr.replace("2026", "26").replace("2025", "25").replace("2024", "24");
         const timeUTCStr = utcTimeFormatter.format(now);
+
+        const lowerMsg = cleanMsg.toLowerCase();
+        const isUpdateQuery = lowerMsg.includes("last update") || 
+                              lowerMsg.includes("updated") || 
+                              lowerMsg.includes("what is today's date") || 
+                              lowerMsg.includes("current date") || 
+                              lowerMsg.includes("what date") || 
+                              lowerMsg.includes("when were you last") || 
+                              lowerMsg.includes("system status");
 
         const isTodayNewsQuery = lowerMsg.includes("today") || 
                                  lowerMsg.includes("latest news") || 
@@ -205,6 +221,8 @@ ${liveArticlesList.join("\n")}`);
             // fallback gracefully
           }
         }
+
+        const contextText = contextArticles.join("\n\n---\n\n");
 
         // 5. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
         const systemPrompt = `You are DIGIBOT, the digital forensics & cybersecurity AI assistant for DigiFeed intelligence archive.
