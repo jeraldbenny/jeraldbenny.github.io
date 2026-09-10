@@ -1,6 +1,6 @@
 {
-  "last_updated": "10 September 2026, 22:43 IST",
-  "total": 103,
+  "last_updated": "10 September 2026, 23:48 IST",
+  "total": 115,
   "articles": [
     {
       "id": "504b808864693c09a198ea5d3671bb6c",
@@ -23,12 +23,42 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
-          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+          "id": "f468c08eb8bf875e0b4b4ad149b04313",
+          "title": "We've got one word for it, and it's usually the wrong one"
         },
         {
-          "id": "d6170fe5632fce833ab128a0e747b393",
-          "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses"
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+        }
+      ]
+    },
+    {
+      "id": "f468c08eb8bf875e0b4b4ad149b04313",
+      "title": "We've got one word for it, and it's usually the wrong one",
+      "link": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
+      "source": "Cisco Talos Blog",
+      "source_icon": "🛡️",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/09/threat_source-1.jpg",
+      "published": "2026-09-10T18:00:15Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "In this week's Threat Source newsletter, Joe explores why the word \"burnout\" often fails to capture the true toll of working in the cybersecurity industry and why we need better language to address it.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "504b808864693c09a198ea5d3671bb6c",
+          "title": "InfoSec News Nuggets – 09/10/2026"
+        },
+        {
+          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
+          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
         }
       ]
     },
@@ -147,8 +177,8 @@
           "title": "InfoSec News Nuggets – 09/10/2026"
         },
         {
-          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
-          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+          "id": "f468c08eb8bf875e0b4b4ad149b04313",
+          "title": "We've got one word for it, and it's usually the wrong one"
         }
       ]
     },
@@ -267,8 +297,8 @@
           "title": "InfoSec News Nuggets – 09/10/2026"
         },
         {
-          "id": "4c16c166dd9e961e9e1b07b6a6814e69",
-          "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations"
+          "id": "f468c08eb8bf875e0b4b4ad149b04313",
+          "title": "We've got one word for it, and it's usually the wrong one"
         }
       ]
     },
@@ -578,7 +608,7 @@
       "link": "https://blog.talosintelligence.com/fmc-ongoing-exploitation/",
       "source": "Cisco Talos Blog",
       "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/09/threat_advisory.jpg",
+      "image": "images/dfir_3.png",
       "published": "2026-09-09T16:08:59Z",
       "published_fmt": "09 Sep 2026",
       "plain_summary": "Cisco Talos is actively tracking the exploitation of two vulnerabilities in Cisco’s Secure Firewall Management Center (FMC) Software.",
@@ -998,7 +1028,7 @@
       "link": "https://phys.org/news/2026-09-bad-luck-isnt-random-zemblanity.html",
       "source": "Phys.org Forensics",
       "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bad-luck.jpg",
+      "image": "images/forensics_5.png",
       "published": "2026-09-10T10:20:02Z",
       "published_fmt": "10 Sep 2026",
       "plain_summary": "In 2025, associate professor Christian Busch's Palisades home burned down in one of the most destructive wildfires in Los Angeles history.",
@@ -1053,6 +1083,66 @@
       ]
     },
     {
+      "id": "6b4aa84c3a26389ca3ca7fd370a4436a",
+      "title": "Fear-based education around porn is failing young people, study suggests",
+      "link": "https://phys.org/news/2026-09-based-porn-young-people.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/student-looking-at-pho.jpg",
+      "published": "2026-09-10T14:00:12Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "England's approach to teaching young people about pornography may be doing more harm than good, according to new research from the University of Surrey.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "9808df116c430f016ff07bda0b042bd1",
+          "title": "New study maps two decades of forensic virtopsy research - Bioengineer.org"
+        },
+        {
+          "id": "1e096136891f6a16d2a1c5b4ab0fbba8",
+          "title": "Peer-led computing camps engage children, study finds"
+        }
+      ]
+    },
+    {
+      "id": "10b15dff9cb71dd219dfd1013da18474",
+      "title": "Navigating the social dynamics of sustainability",
+      "link": "https://phys.org/news/2026-09-social-dynamics-sustainability.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/navigating-the-social.jpg",
+      "published": "2026-09-10T13:20:01Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "In the transformation toward sustainability, the interests of societal, economic and political actors often clash, making conflict inevitable.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "f555f8742bbf78833c95c4cfc3f0276a",
+          "title": "DEA Opens New England Lab to Strengthen Drug, Fingerprint Analysis - Forensic Mag"
+        },
+        {
+          "id": "9a0799d50e84e437a598f5e2a2cdd081",
+          "title": "URI Forensic Lecture Series back on the crime beat this fall – Rhody Today - The University of Rhode Island"
+        }
+      ]
+    },
+    {
       "id": "bc1972d533ed2c027fc8b748c9a4291d",
       "title": "Interviewing with AI? Try not to let the robot affect your behavior",
       "link": "https://phys.org/news/2026-09-ai-robot-affect-behavior.html",
@@ -1103,12 +1193,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
-          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
+          "id": "c0090a4d0593dcfb2b1261132b1f8870",
+          "title": "Nepal floods: Gujarat collects DNA samples of kin of 29 missing people - National Herald"
         },
         {
-          "id": "e5050d0a69b1caaf492f139b16cd4ae0",
-          "title": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods - Devdiscourse"
+          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
         }
       ]
     },
@@ -1193,12 +1283,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "e6950c75014928e7448e7330aec22191",
-          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
+          "id": "c0090a4d0593dcfb2b1261132b1f8870",
+          "title": "Nepal floods: Gujarat collects DNA samples of kin of 29 missing people - National Herald"
         },
         {
-          "id": "e5050d0a69b1caaf492f139b16cd4ae0",
-          "title": "Gujarat Intensifies DNA Profiling to Trace Missing Persons After Nepal Flash Floods - Devdiscourse"
+          "id": "e6950c75014928e7448e7330aec22191",
+          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
         }
       ]
     },
@@ -1319,6 +1409,36 @@
         {
           "id": "bc1972d533ed2c027fc8b748c9a4291d",
           "title": "Interviewing with AI? Try not to let the robot affect your behavior"
+        }
+      ]
+    },
+    {
+      "id": "c0090a4d0593dcfb2b1261132b1f8870",
+      "title": "Nepal floods: Gujarat collects DNA samples of kin of 29 missing people - National Herald",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR1Z6bXd0b0NPQ2VQNTBXOGdUU2pVQjhvdjM3Q0VYSXd2S3JZRzNZZzVzd1JUcy0xamQ4dG8zTV9qUGp6bDE3SUlGMmRVVXdoaF83WmROTVFkQkZ1ZXNFWmhBS2JSYnZjYWNsU0ZmVE13RWlHUUIzQ2VKWmRhSXc5VEx1bnpDZFBsT2ZSUE1qR21JcDlJbU1oMXlJTkVGT0VCT3A1VmhhNWdldkFBV0pSWHY5ZENGMDIwVHduaEpiZ1YyUdIBwgFBVV95cUxNR1Z6bXd0b0NPQ2VQNTBXOGdUU2pVQjhvdjM3Q0VYSXd2S3JZRzNZZzVzd1JUcy0xamQ4dG8zTV9qUGp6bDE3SUlGMmRVVXdoaF83WmROTVFkQkZ1ZXNFWmhBS2JSYnZjYWNsU0ZmVE13RWlHUUIzQ2VKWmRhSXc5VEx1bnpDZFBsT2ZSUE1qR21JcDlJbU1oMXlJTkVGT0VCT3A1VmhhNWdldkFBV0pSWHY5ZENGMDIwVHduaEpiZ1YyUQ?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_1.png",
+      "published": "2026-09-10T07:45:32Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Nepal floods: Gujarat collects DNA samples of kin of 29 missing people National Herald",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "e6950c75014928e7448e7330aec22191",
+          "title": "Gujarat Collects DNA Samples From Kin of 29 Missing in Nepal Floods - Deccan Chronicle"
+        },
+        {
+          "id": "7cb0dcdf06a25c7b8601d0eecabe78a8",
+          "title": "Nepal floods: Gujarat collects DNA samples of relatives to trace missing persons - The Indian Express"
         }
       ]
     },
@@ -1677,8 +1797,8 @@
           "title": "Chinese cave traces Denisovan hunting and adaptation across 120,000 years"
         },
         {
-          "id": "9f263a24086a4ab290e6d207037ac65c",
-          "title": "AI watermarks may turn workplace praise and apologies into trust tests"
+          "id": "6b4aa84c3a26389ca3ca7fd370a4436a",
+          "title": "Fear-based education around porn is failing young people, study suggests"
         }
       ]
     },
@@ -1908,7 +2028,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
       "source": "CISA KEV",
       "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "image": "images/cve_2.png",
       "published": "2026-09-09T00:00:00Z",
       "published_fmt": "09 Sep 2026",
       "plain_summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and execute script files on an affected device to obtain root access to the underlying operating system.",
@@ -1931,6 +2051,262 @@
         {
           "id": "211c7fa305f4b207607c1c2726c1a20b",
           "title": "[KEV Active Exploit] CVE-2025-25249 in Fortinet Multiple Products"
+        }
+      ]
+    },
+    {
+      "id": "48889202ff925401279f1587d9f866c8",
+      "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be",
+      "link": "https://threatfox.abuse.ch/ioc/1910755/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-09-10T18:10:25Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
+        },
+        {
+          "id": "7ce9ad780c65371ae3146eec01eb3bf9",
+          "title": "[Threat IOC] ClearFake domain: www.scantocomputer.com"
+        }
+      ]
+    },
+    {
+      "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+      "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se",
+      "link": "https://threatfox.abuse.ch/ioc/1910753/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-10T18:10:24Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
+        },
+        {
+          "id": "7ce9ad780c65371ae3146eec01eb3bf9",
+          "title": "[Threat IOC] ClearFake domain: www.scantocomputer.com"
+        }
+      ]
+    },
+    {
+      "id": "7ce9ad780c65371ae3146eec01eb3bf9",
+      "title": "[Threat IOC] ClearFake domain: www.scantocomputer.com",
+      "link": "https://threatfox.abuse.ch/ioc/1910754/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-09-10T18:10:24Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
+        },
+        {
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
+        }
+      ]
+    },
+    {
+      "id": "91dcc9aad6d1cfed74a6a895dfd6b301",
+      "title": "[Threat IOC] Stealc url: http://138.226.236.218/",
+      "link": "https://threatfox.abuse.ch/ioc/1910742/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-09-10T18:09:32Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Stealc. Type: url. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#stealc"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
+        },
+        {
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
+        }
+      ]
+    },
+    {
+      "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+      "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910752/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-09-10T18:05:07Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "95db5b420695b95d9ff3e1b5c603c403",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074"
+        },
+        {
+          "id": "5d2dd4864908447dc2897890ffe6ae6d",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.125:8074"
+        }
+      ]
+    },
+    {
+      "id": "95db5b420695b95d9ff3e1b5c603c403",
+      "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910751/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-10T18:05:06Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
+        },
+        {
+          "id": "5d2dd4864908447dc2897890ffe6ae6d",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.125:8074"
+        }
+      ]
+    },
+    {
+      "id": "5d2dd4864908447dc2897890ffe6ae6d",
+      "title": "[Threat IOC] VShell ip:port: 154.91.58.125:8074",
+      "link": "https://threatfox.abuse.ch/ioc/1910750/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-09-10T18:05:05Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
+        },
+        {
+          "id": "95db5b420695b95d9ff3e1b5c603c403",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074"
+        }
+      ]
+    },
+    {
+      "id": "bbcde1002efdd011e38c8b8227cf69ec",
+      "title": "[Threat IOC] ClearFake domain: sanaminteriors.com",
+      "link": "https://threatfox.abuse.ch/ioc/1910749/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-09-10T18:00:23Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
+        },
+        {
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -1961,8 +2337,8 @@
           "title": "[Threat IOC] Remcos ip:port: 104.129.171.63:2404"
         },
         {
-          "id": "49f8df1535a1151a7e595982a3bf51f6",
-          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
         }
       ]
     },
@@ -1972,7 +2348,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1910585/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "image": "images/malware_1.png",
       "published": "2026-09-10T17:10:10Z",
       "published_fmt": "10 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
@@ -1989,12 +2365,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "1c70a3af4941794f2ac1c4f22b2608ff",
-          "title": "[Threat IOC] ClearFake domain: 4ivzxksw.us-neuro-vera.com"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2004,7 +2380,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1910586/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "image": "images/malware_4.png",
       "published": "2026-09-10T17:10:10Z",
       "published_fmt": "10 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
@@ -2025,8 +2401,8 @@
           "title": "[Threat IOC] Remcos ip:port: 107.172.13.250:7122"
         },
         {
-          "id": "49f8df1535a1151a7e595982a3bf51f6",
-          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
         }
       ]
     },
@@ -2053,12 +2429,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "1c70a3af4941794f2ac1c4f22b2608ff",
-          "title": "[Threat IOC] ClearFake domain: 4ivzxksw.us-neuro-vera.com"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2085,12 +2461,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "fd2d06087c426d54cc4f154b490abeff",
-          "title": "[Threat IOC] VShell ip:port: 154.91.56.100:8074"
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
         },
         {
-          "id": "66ce31e061e117916c5745b7e6622ac8",
-          "title": "[Threat IOC] VShell ip:port: 154.91.56.105:8074"
+          "id": "95db5b420695b95d9ff3e1b5c603c403",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074"
         }
       ]
     },
@@ -2117,12 +2493,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "49f8df1535a1151a7e595982a3bf51f6",
-          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
         },
         {
-          "id": "66ce31e061e117916c5745b7e6622ac8",
-          "title": "[Threat IOC] VShell ip:port: 154.91.56.105:8074"
+          "id": "95db5b420695b95d9ff3e1b5c603c403",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074"
         }
       ]
     },
@@ -2149,12 +2525,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "49f8df1535a1151a7e595982a3bf51f6",
-          "title": "[Threat IOC] VShell ip:port: 154.91.58.126:8074"
+          "id": "cf4282d7cb44aa13eaffa4b4f58930d4",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.119:8074"
         },
         {
-          "id": "fd2d06087c426d54cc4f154b490abeff",
-          "title": "[Threat IOC] VShell ip:port: 154.91.56.100:8074"
+          "id": "95db5b420695b95d9ff3e1b5c603c403",
+          "title": "[Threat IOC] VShell ip:port: 154.91.58.117:8074"
         }
       ]
     },
@@ -2181,12 +2557,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2217,8 +2593,8 @@
           "title": "[Threat IOC] php.shin_webshell domain: 5nrkm0ei2e.workers.dev"
         },
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         }
       ]
     },
@@ -2249,8 +2625,8 @@
           "title": "[Threat IOC] php.shin_webshell domain: xer0a002po.workers.dev"
         },
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         }
       ]
     },
@@ -2277,12 +2653,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2309,12 +2685,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2341,12 +2717,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2373,12 +2749,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2405,12 +2781,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
@@ -2437,25 +2813,25 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "30c328ef5af1bbfd4d71b8c07e58f439",
-          "title": "[Threat IOC] ClearFake domain: www.bilisimzamani.net"
+          "id": "48889202ff925401279f1587d9f866c8",
+          "title": "[Threat IOC] ClearFake domain: www.lsdiffusion.be"
         },
         {
-          "id": "d70a8fc0d35fe246be0e3f221a1eddf6",
-          "title": "[Threat IOC] ClearFake domain: www.falconmanagement.co.uk"
+          "id": "79b36f81adb5cfd06042fd0d04bee2c5",
+          "title": "[Threat IOC] ClearFake domain: samuelsamuelsson.se"
         }
       ]
     },
     {
-      "id": "ac4e1388a4f973322a7958a3c76d0efd",
-      "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81282",
+      "id": "78db6d51bf0e3e95a6cc57a36e0133d7",
+      "title": "[MEDIUM CVE] CVE-2026-49455 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-49455",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-09-03T17:17:24Z",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-09-03T19:17:28Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Subscriber Cross Site Scripting (XSS) in Product Variations Swatches for WooCommerce <= 1.1.18 versions.",
+      "plain_summary": "Waku is the minimal React framework. Prior to version 1.0.0-beta.1, Waku's RSC request dispatcher invokes server actions without validating the request's Origin (or Sec-Fetch-Site) header.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -2468,56 +2844,56 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "639979fd98f4f15909cc4913a44fedb8",
-          "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems"
+          "id": "bb8ac86754c6177d482a2759b7be68b5",
+          "title": "[MEDIUM CVE] CVE-2026-78593 in Various Systems"
         },
         {
-          "id": "dea1fe9ef4f592a3f88f19140e6e8398",
-          "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems"
+          "id": "2362ad2cdf94c37637b827550d6d35ad",
+          "title": "[MEDIUM CVE] CVE-2026-78595 in Various Systems"
         }
       ]
     },
     {
-      "id": "c43c09f7a43753e38d694cede39b4a02",
-      "title": "[HIGH CVE] CVE-2026-81292 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81292",
+      "id": "64bb25fb374b07c006b60e9ea8f0949a",
+      "title": "[LOW CVE] CVE-2026-49456 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-49456",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-09-03T17:17:24Z",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-09-03T19:17:28Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Simple Payment <= 2.5.1 versions.",
+      "plain_summary": "Waku is the minimal React framework.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#low-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
-          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
+          "id": "78db6d51bf0e3e95a6cc57a36e0133d7",
+          "title": "[MEDIUM CVE] CVE-2026-49455 in Various Systems"
         },
         {
-          "id": "62be1f6320b33b78d56bcf49e8ae9e73",
-          "title": "[HIGH CVE] CVE-2026-81300 in Various Systems"
+          "id": "bb8ac86754c6177d482a2759b7be68b5",
+          "title": "[MEDIUM CVE] CVE-2026-78593 in Various Systems"
         }
       ]
     },
     {
-      "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
-      "title": "[HIGH CVE] CVE-2026-81295 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81295",
+      "id": "6f7ba740b8d23ac8a0b46e6143590a37",
+      "title": "[HIGH CVE] CVE-2026-78583 in Elastic kibana",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78583",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_2.png",
-      "published": "2026-09-03T17:17:24Z",
+      "published": "2026-09-03T19:17:28Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Under Construction <= 5.82 versions.",
+      "plain_summary": "Incorrect Authorization (CWE-863) in Kibana can lead to privilege escalation via Input Data Manipulation (CAPEC-153).",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -2530,25 +2906,149 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "c43c09f7a43753e38d694cede39b4a02",
-          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
+          "id": "ebedb22d8b55c9328a12a8e4cf30ca12",
+          "title": "[HIGH CVE] CVE-2026-33630 in Various Systems"
         },
         {
-          "id": "62be1f6320b33b78d56bcf49e8ae9e73",
-          "title": "[HIGH CVE] CVE-2026-81300 in Various Systems"
+          "id": "41230125cea465f468307bc17275bb53",
+          "title": "[HIGH CVE] CVE-2026-15431 in Various Systems"
         }
       ]
     },
     {
-      "id": "62be1f6320b33b78d56bcf49e8ae9e73",
-      "title": "[HIGH CVE] CVE-2026-81300 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81300",
+      "id": "bb8ac86754c6177d482a2759b7be68b5",
+      "title": "[MEDIUM CVE] CVE-2026-78593 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78593",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-09-03T19:17:28Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "An insufficiently validated configuration field in Kibana's Cribl integration allows an authenticated user holding Kibana Fleet management privileges to inject attacker-controlled expressions into a server-side script template, resulting in an Elasticsearch ingest pipeline being written beyond the caller's authorized Elasticsearch permissions.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "78db6d51bf0e3e95a6cc57a36e0133d7",
+          "title": "[MEDIUM CVE] CVE-2026-49455 in Various Systems"
+        },
+        {
+          "id": "2362ad2cdf94c37637b827550d6d35ad",
+          "title": "[MEDIUM CVE] CVE-2026-78595 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "2362ad2cdf94c37637b827550d6d35ad",
+      "title": "[MEDIUM CVE] CVE-2026-78595 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78595",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-09-03T19:17:28Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "Missing Authorization in Kibana Leading to Information Disclosure / Missing Authorization (CWE-862) in the Kibana Fleet feature can lead to information disclosure via Privilege Abuse (CAPEC-122).",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "78db6d51bf0e3e95a6cc57a36e0133d7",
+          "title": "[MEDIUM CVE] CVE-2026-49455 in Various Systems"
+        },
+        {
+          "id": "bb8ac86754c6177d482a2759b7be68b5",
+          "title": "[MEDIUM CVE] CVE-2026-78593 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "1ae7452eee11b83722a3d28ea48177be",
+      "title": "[MEDIUM CVE] CVE-2026-78596 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78596",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-09-03T19:17:28Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "Missing Authorization in Kibana Leading to Unauthorized Modification of Data / Missing Authorization (CWE-862) in Kibana can lead to unauthorized modification of data via Privilege Abuse (CAPEC-122).",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "78db6d51bf0e3e95a6cc57a36e0133d7",
+          "title": "[MEDIUM CVE] CVE-2026-49455 in Various Systems"
+        },
+        {
+          "id": "bb8ac86754c6177d482a2759b7be68b5",
+          "title": "[MEDIUM CVE] CVE-2026-78593 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "ebedb22d8b55c9328a12a8e4cf30ca12",
+      "title": "[HIGH CVE] CVE-2026-33630 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-33630",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-09-03T19:17:27Z",
+      "published_fmt": "03 Sep 2026",
+      "plain_summary": "c-ares is an asynchronous resolver library. From ver 1.32.3 until 1.34.7, a use-after-free / double-free in c-ares' query-completion handling.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Sep 2026",
+      "related": [
+        {
+          "id": "41230125cea465f468307bc17275bb53",
+          "title": "[HIGH CVE] CVE-2026-15431 in Various Systems"
+        },
+        {
+          "id": "6f7ba740b8d23ac8a0b46e6143590a37",
+          "title": "[HIGH CVE] CVE-2026-78583 in Elastic kibana"
+        }
+      ]
+    },
+    {
+      "id": "41230125cea465f468307bc17275bb53",
+      "title": "[HIGH CVE] CVE-2026-15431 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15431",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-09-03T17:17:24Z",
+      "published": "2026-09-03T19:17:26Z",
       "published_fmt": "03 Sep 2026",
-      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Calculation For Contact Form 7 <= 1.0 versions.",
+      "plain_summary": "A potential security vulnerability has been identified in the HP Support Assistant for versions prior to 9.53.2.0. The vulnerability could potentially allow a local attacker to escalate privileges due to insufficient access controls.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -2561,136 +3061,12 @@
       "collected_date": "10 Sep 2026",
       "related": [
         {
-          "id": "c43c09f7a43753e38d694cede39b4a02",
-          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
+          "id": "ebedb22d8b55c9328a12a8e4cf30ca12",
+          "title": "[HIGH CVE] CVE-2026-33630 in Various Systems"
         },
         {
-          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
-          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "15a3b4ef7d58579756f2e3f8041a99bf",
-      "title": "[HIGH CVE] CVE-2026-81773 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81773",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-09-03T17:17:24Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in Ninja Forms File Uploads Extension <= 3.3.26 versions.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "c43c09f7a43753e38d694cede39b4a02",
-          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
-        },
-        {
-          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
-          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "1edc4e9d02519bb99cc43e4594476152",
-      "title": "[HIGH CVE] CVE-2026-81776 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81776",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-09-03T17:17:24Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Unauthenticated Cross Site Scripting (XSS) in WP QuickLaTeX <= 3.8.8 versions.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "c43c09f7a43753e38d694cede39b4a02",
-          "title": "[HIGH CVE] CVE-2026-81292 in Various Systems"
-        },
-        {
-          "id": "8e6bb0e9faaead8ea64e3bfc89ffde82",
-          "title": "[HIGH CVE] CVE-2026-81295 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "639979fd98f4f15909cc4913a44fedb8",
-      "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75602",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-09-03T17:17:23Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "OpenList a file list program that supports multiple storage.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "ac4e1388a4f973322a7958a3c76d0efd",
-          "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems"
-        },
-        {
-          "id": "dea1fe9ef4f592a3f88f19140e6e8398",
-          "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "dea1fe9ef4f592a3f88f19140e6e8398",
-      "title": "[MEDIUM CVE] CVE-2026-81281 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81281",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_4.png",
-      "published": "2026-09-03T17:17:23Z",
-      "published_fmt": "03 Sep 2026",
-      "plain_summary": "Subscriber Cross Site Scripting (XSS) in Graphene <= 2.9.4 versions.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "10 Sep 2026",
-      "related": [
-        {
-          "id": "ac4e1388a4f973322a7958a3c76d0efd",
-          "title": "[MEDIUM CVE] CVE-2026-81282 in Various Systems"
-        },
-        {
-          "id": "639979fd98f4f15909cc4913a44fedb8",
-          "title": "[MEDIUM CVE] CVE-2026-75602 in Various Systems"
+          "id": "6f7ba740b8d23ac8a0b46e6143590a37",
+          "title": "[HIGH CVE] CVE-2026-78583 in Elastic kibana"
         }
       ]
     },
@@ -3062,7 +3438,7 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUnNwYk90QkF2cGZqY1NQaTB1M29RWmU1UEVtOHRyTGFwT2NBSHE3MGVZbkxYN0FaaXV3TDRKRjdFemhQMXF3eXM4cEp5Wm1YOV8xTm9BS0k0REFvdDA3ZS02NUx2eXRWakdTc3pQRXY5WmozQU1uZWpJNVN1cXZ1V0JLMjZvT3JDUXpreWR5UFkwNC1xa2xRT3Bxa2thanhlVmxCMEJkaHBvbDI2VFIzVw?oc=5",
       "source": "Malwarebytes Labs",
       "source_icon": "🦠",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "images/malware_4.png",
       "published": "2026-09-09T10:31:28Z",
       "published_fmt": "09 Sep 2026",
       "plain_summary": "Microsoft fixes record 964 flaws, including 2 exploited zero-days Malwarebytes",

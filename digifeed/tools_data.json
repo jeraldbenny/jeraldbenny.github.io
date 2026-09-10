@@ -612,45 +612,43 @@
   },
   {
     "name": "OSINT-Profiler",
-    "version": "1.2.0",
-    "released": "3 July 2026",
+    "version": "1.0",
+    "released": "30 April 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/OSINT-Profiler",
     "features": [
-      "Social profile crawler updates",
-      "Integrated API key secure management",
-      "Comprehensive HTML reports output"
+      "Dynamic GitHub release updates",
+      "General improvements"
     ],
     "bugs": [
-      "Search timeouts on specific platforms"
+      "General bug fixes and code optimizations"
     ]
   },
   {
     "name": "File_Integrity_Verifier_FIV",
-    "version": "1.0.4",
-    "released": "15 June 2026",
+    "version": "1.0",
+    "released": "26 November 2025",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/File_Integrity_Verifier_FIV",
     "features": [
-      "Parallel multi-file hashing calculations",
-      "Automated DB integrity checks"
+      "🎉 First official release of File Integrity Verifier (FIV)",
+      "Full GUI with Light/Dark mode"
     ],
     "bugs": [
-      "Path parsing bugs on Windows drives"
+      "General bug fixes and code optimizations"
     ]
   },
   {
     "name": "Spiderfoot",
-    "version": "4.0.0",
-    "released": "10 May 2026",
+    "version": "4.0",
+    "released": "07 April 2022",
     "category": "OSINT & Email",
     "github_repo": "smicallef/spiderfoot",
     "features": [
-      "New API data leak modules",
-      "Enhanced graph exports interface"
+      "General system improvements and updates"
     ],
     "bugs": [
-      "Module connection drop issues"
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -668,16 +666,15 @@
   },
   {
     "name": "Sherlock",
-    "version": "4.4.0",
-    "released": "22 June 2026",
+    "version": "0.16.2",
+    "released": "08 September 2026",
     "category": "OSINT & Email",
     "github_repo": "sherlock-project/sherlock",
     "features": [
-      "Added 45 new sites definitions",
-      "Async multi-threaded lookups"
+      "Release created because its been a long time since the previous one and several minor changes have been made."
     ],
     "bugs": [
-      "False positives on cloudflare checks"
+      "General bug fixes and code optimizations"
     ]
   },
   {
