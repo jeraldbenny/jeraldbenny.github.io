@@ -178,8 +178,15 @@
             html = html.replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
             // 6. Bullet lists
-            html = html.replace(/^[\s]*[\*-]\s+(.*)$/gm, '<li>$1</li>');
+            // Normalize bullets: ensure bullets start on a newline even if squished against prior text
+            html = html.replace(/([^\n])\s*•\s*/g, '$1\n• ');
+            html = html.replace(/^[\s]*[•\*-]\s+(.*)$/gm, '<li>$1</li>');
             html = html.replace(/((?:<li>.*<\/li>[\r\n]*)+)/g, '<ul>$1</ul>');
+
+            // Remove internal linebreaks inside ul before br replacement
+            html = html.replace(/(<ul>[\s\S]*?<\/ul>)/g, (match) => {
+                return match.replace(/[\r\n]+/g, '');
+            });
 
             // 7. Line breaks
             html = html.replace(/\n/g, '<br>');

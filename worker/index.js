@@ -35,9 +35,10 @@ export default {
         }
 
         const cleanMsg = message.trim();
+        const lowerMsg = cleanMsg.toLowerCase();
 
         // Handle quick ping probe
-        if (cleanMsg.toLowerCase() === "ping") {
+        if (lowerMsg === "ping") {
           return new Response(JSON.stringify({ reply: "Pong. Ready to breach your queries." }), {
             headers: {
               "Access-Control-Allow-Origin": "*",
@@ -45,8 +46,45 @@ export default {
             }
           });
         }
+
+        // 2. Parse User Query Intent: Count & Category Routing
+        let targetCount = 6;
+        const countMatch = lowerMsg.match(/(?:top|show|give me|list|latest|get)\s+(\d+)/i) || 
+                           lowerMsg.match(/(\d+)\s+(?:forensic|dfir|news|cve|malware|items|articles|stories|headlines|releases)/i);
+        if (countMatch && countMatch[1]) {
+          const parsed = parseInt(countMatch[1], 10);
+          if (!isNaN(parsed) && parsed > 0) {
+            targetCount = Math.min(Math.max(parsed, 1), 15);
+          }
+        }
+
+        let targetCategory = null;
+        let topicKeywords = [];
+
+        if (lowerMsg.includes("digital forensic") || lowerMsg.includes("dfir") || lowerMsg.includes("incident response")) {
+          targetCategory = "DFIR Articles";
+          topicKeywords = ["dfir", "digital forensic", "incident", "investigat", "breach", "threat"];
+        } else if (lowerMsg.includes("forensic") || lowerMsg.includes("autopsy") || lowerMsg.includes("toxicology") || lowerMsg.includes("dna profiling")) {
+          targetCategory = "Forensics";
+          topicKeywords = ["forensic", "dna", "crime", "investig", "autopsy", "police", "identif", "lab", "toxicology"];
+        } else if (lowerMsg.includes("malware") || lowerMsg.includes("ransomware") || lowerMsg.includes("trojan") || lowerMsg.includes("stealer")) {
+          targetCategory = "Malware Intelligence";
+          topicKeywords = ["malware", "ransomware", "trojan", "stealer", "infostealer", "c2", "payload"];
+        } else if (lowerMsg.includes("cve") || lowerMsg.includes("vulnerabilit") || lowerMsg.includes("zero-day") || lowerMsg.includes("0-day") || lowerMsg.includes("exploit") || lowerMsg.includes("flaw")) {
+          targetCategory = "CVE & Vulnerabilities";
+          topicKeywords = ["cve", "vulnerab", "exploit", "zero-day", "flaw", "patch"];
+        } else if (lowerMsg.includes("ioc") || lowerMsg.includes("indicator") || lowerMsg.includes("threat feed")) {
+          targetCategory = "IOC Feed";
+          topicKeywords = ["ioc", "ip", "domain", "hash", "indicator"];
+        } else if (lowerMsg.includes("tool") || lowerMsg.includes("release") || lowerMsg.includes("github")) {
+          targetCategory = "GitHub Releases";
+          topicKeywords = ["release", "tool", "github", "v1.", "v2.", "v0."];
+        } else if (lowerMsg.includes("paper") || lowerMsg.includes("research") || lowerMsg.includes("journal")) {
+          targetCategory = "Research Papers";
+          topicKeywords = ["paper", "research", "arxiv", "journal", "study"];
+        }
   
-        // 2. Get embedding for the user's query via Hugging Face BAAI/bge-small-en-v1.5
+        // 3. Get embedding for the user's query via Hugging Face BAAI/bge-small-en-v1.5
         const hfEmbedUrl = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5";
         let embedRes;
         try {
@@ -69,7 +107,7 @@ export default {
         }
         const embedding = await embedRes.json();
   
-        // 3. Query Pinecone Vector DB
+        // 4. Query Pinecone Vector DB
         let pcHost = env.PINECONE_HOST || "";
         if (!pcHost && env.PINECONE_API_KEY) {
           try {
@@ -92,7 +130,7 @@ export default {
             return new Response(JSON.stringify({ error: `Missing Pinecone host configuration. (Host: ${pcHost || 'empty'})` }), { status: 500, headers: { "Access-Control-Allow-Origin": "*" } });
         }
         
-        // Increase topK to 5 for richer semantic grounding
+        const pineconeTopK = Math.min(Math.max(targetCount, 5), 12);
         let pcRes;
         try {
             pcRes = await fetch(`https://${pcHost}/query`, {
@@ -103,7 +141,7 @@ export default {
               },
               body: JSON.stringify({
                 vector: embedding,
-                topK: 5,
+                topK: pineconeTopK,
                 includeMetadata: true
               })
             });
@@ -126,7 +164,7 @@ export default {
               let date = m.metadata.date || "Recent";
               // Convert e.g. "05 Sep 2026" or "2026-09-05" to "05 Sep 26"
               date = date.replace(/20(\d\d)/g, "$1");
-              const category = m.metadata.category || "General";
+              const category = m.metadata.category || m.metadata.category_tag || "General";
               const link = m.metadata.link || "https://jeraldbenny.github.io/digifeed/";
               const content = m.metadata.content || m.metadata.plain_summary || "";
               contextArticles.push(`[ARTICLE ${i + 1}: ${title}]
@@ -139,7 +177,7 @@ ${content}`);
           }
         }
   
-        // 4. Determine Current Date in UTC & Live System Status
+        // 5. Determine Current Date in UTC & Live System Status
         const now = new Date();
         const utcFormatter = new Intl.DateTimeFormat('en-GB', {
           day: '2-digit',
@@ -157,7 +195,6 @@ ${content}`);
         const todayUTCShort = todayUTCStr.replace("2026", "26").replace("2025", "25").replace("2024", "24");
         const timeUTCStr = utcTimeFormatter.format(now);
 
-        const lowerMsg = cleanMsg.toLowerCase();
         const isUpdateQuery = lowerMsg.includes("last update") || 
                               lowerMsg.includes("updated") || 
                               lowerMsg.includes("what is today's date") || 
@@ -167,14 +204,16 @@ ${content}`);
                               lowerMsg.includes("system status");
 
         const isTodayNewsQuery = lowerMsg.includes("today") || 
-                                 lowerMsg.includes("latest news") || 
-                                 lowerMsg.includes("news today") || 
-                                 lowerMsg.includes("daily briefing") || 
-                                 lowerMsg.includes("top news") || 
+                                 lowerMsg.includes("latest") || 
+                                 lowerMsg.includes("news") || 
+                                 lowerMsg.includes("daily") || 
+                                 lowerMsg.includes("top") || 
                                  lowerMsg.includes("briefing") ||
-                                 lowerMsg.includes("top stories") ||
+                                 lowerMsg.includes("stories") ||
+                                 lowerMsg.includes("headlines") ||
                                  lowerMsg.includes("what's new") ||
-                                 lowerMsg.includes("whats new");
+                                 lowerMsg.includes("whats new") ||
+                                 targetCategory !== null;
 
         let liveStatusInfo = "";
         if (isUpdateQuery || isTodayNewsQuery) {
@@ -202,7 +241,31 @@ ${content}`);
             const feedFetch = await fetch("https://jeraldbenny.github.io/digifeed/data.json");
             if (feedFetch.ok) {
               const feedData = await feedFetch.json();
-              const todayArticles = (feedData.articles || []).slice(0, 6);
+              let candidateArticles = feedData.articles || [];
+
+              if (targetCategory) {
+                const catMatches = candidateArticles.filter(a => a.category_tag === targetCategory);
+                if (catMatches.length > 0) {
+                  if (topicKeywords.length > 0) {
+                    const scored = catMatches.map(a => {
+                      const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
+                      const score = topicKeywords.reduce((acc, kw) => acc + (text.includes(kw) ? 1 : 0), 0);
+                      return { article: a, score };
+                    });
+                    scored.sort((a, b) => b.score - a.score);
+                    candidateArticles = scored.map(s => s.article);
+                  } else {
+                    candidateArticles = catMatches;
+                  }
+                } else {
+                  candidateArticles = candidateArticles.filter(a => {
+                    const text = (a.title + " " + (a.plain_summary || "") + " " + (a.source || "")).toLowerCase();
+                    return topicKeywords.some(kw => text.includes(kw));
+                  });
+                }
+              }
+
+              const todayArticles = candidateArticles.slice(0, targetCount);
               let liveArticlesList = [];
               for (const a of todayArticles) {
                 const aTitle = a.title || "Headline";
@@ -210,11 +273,12 @@ ${content}`);
                 let aDate = a.published_fmt || todayUTCShort;
                 aDate = aDate.replace(/20(\d\d)/g, "$1");
                 const aSummary = a.plain_summary || a.deep_lore || "";
-                liveArticlesList.push(`• **${aDate}** — [${aTitle}](${aLink}): ${aSummary.slice(0, 200)}`);
+                liveArticlesList.push(`• **${aDate}** — [${aTitle}](${aLink}): ${aSummary.slice(0, 250)}`);
               }
               if (liveArticlesList.length > 0) {
-                contextArticles.unshift(`[TODAY'S VERIFIED LIVE INTELLIGENCE DISPATCHES (${todayUTCStr})]
-${liveArticlesList.join("\n")}`);
+                const catHeader = targetCategory ? `VERIFIED ${targetCategory.toUpperCase()} DISPATCHES` : "VERIFIED LIVE INTELLIGENCE DISPATCHES";
+                contextArticles.unshift(`[TODAY'S ${catHeader} (${todayUTCStr})]
+${liveArticlesList.join("\n\n")}`);
               }
             }
           } catch (e) {
@@ -224,7 +288,7 @@ ${liveArticlesList.join("\n")}`);
 
         const contextText = contextArticles.join("\n\n---\n\n");
 
-        // 5. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
+        // 6. Generate Answer using Hugging Face LLM (Qwen2.5-Coder-32B-Instruct)
         const systemPrompt = `You are DIGIBOT, the digital forensics & cybersecurity AI assistant for DigiFeed intelligence archive.
 You answer user questions strictly using the verified facts in the Context Articles below.
 
@@ -243,20 +307,29 @@ MANDATORY CITATION & FORMATTING RULES:
    - Example format:
      • **${todayUTCShort}** — [Headline Name](URL): Clear summary of the specific event, threat impact, or tool capabilities.
 
-2. STRUCTURE & CLEAN LINE BREAKS:
-   - Always put a blank line between section titles and list items.
-   - Use clean, concise hacker-terminal markdown.
+2. LIST FORMATTING & LINE BREAKS (CRITICAL):
+   - You MUST place a blank line (double newline) between EVERY bullet item in any list. NEVER run items together on the same line.
+   - Example:
+     • **${todayUTCShort}** — [Headline One](URL): Summary one.
 
-3. TODAY'S NEWS & CURRENT DATE QUERIES:
+     • **${todayUTCShort}** — [Headline Two](URL): Summary two.
+
+     • **${todayUTCShort}** — [Headline Three](URL): Summary three.
+
+3. ITEM COUNT FIDELITY:
+   - When the user asks for a specific number of items (e.g., "top 10", "top 5", "3 items"), you MUST provide exactly that requested count of distinct items if present in the context. Do not truncate early or provide fewer unless context has fewer.
+
+4. TODAY'S NEWS & CURRENT DATE QUERIES:
    - When asked "when were you last updated?", "what is today's date", "current date", or "system status": answer directly with the verified live status (${todayUTCShort}) in UTC and state the system is synchronized. NEVER answer with random old articles (e.g. Plex, Gujarat).
-   - When asked for "today's news", "todays latest news", "latest news", "top digital forensic news today", or "daily briefing": state the date (${todayUTCShort}) and list the top items strictly from [TODAY'S VERIFIED LIVE INTELLIGENCE DISPATCHES] or today's briefing context. NEVER cite old historical articles from earlier months or days (e.g. Gujarat genomics).
+   - When asked for "today's news", "todays latest news", "latest news", "top forensic news", "forensics", "top dfir news", "cves", "malware", or "daily briefing": state the date (${todayUTCShort}) and list the items strictly from the relevant [TODAY'S VERIFIED DISPATCHES] or context. NEVER cite old historical articles from earlier months or days unless specifically queried.
 
-4. JERALD BENNY QUERIES (STRICT RULE):
+5. JERALD BENNY QUERIES (STRICT RULE):
    - ONLY mention Jerald Benny if the user explicitly asks about Jerald Benny, who created this, author, creator, or who made DigiBot/DigiFeed.
    - NEVER include or append a "Jerald Benny Background" section to general news, search, or technical queries.
 
-5. GROUNDING:
+6. GROUNDING & COMPLETION INTEGRITY:
    - Do not invent facts, dates, or URLs not present in the context.
+   - Never cut off links or sentences mid-way. Complete every headline link and sentence cleanly.
 
 === CONTEXT ARTICLES ===
 ${contextText || "No matching articles found in index."}
@@ -277,7 +350,7 @@ ${contextText || "No matching articles found in index."}
                   { role: "system", content: systemPrompt },
                   { role: "user", content: cleanMsg }
                 ],
-                max_tokens: 450,
+                max_tokens: 1500,
                 temperature: 0.25
               })
             });

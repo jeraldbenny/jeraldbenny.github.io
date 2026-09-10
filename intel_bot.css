@@ -423,15 +423,27 @@
 }
 
 .jb-msg.bot a {
-    color: #64ffda;
+    color: #ffe878;
     text-decoration: underline;
+    font-weight: bold;
+    word-break: break-word;
+    transition: color 0.15s ease;
+}
+
+.jb-msg.bot a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 232, 120, 0.8);
 }
 
 .jb-msg.bot ul {
-    margin: 6px 0 6px 16px;
+    margin: 8px 0 8px 18px;
     padding: 0;
+    list-style-type: disc;
 }
 
 .jb-msg.bot li {
-    margin-bottom: 4px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #f5d888;
 }
+
