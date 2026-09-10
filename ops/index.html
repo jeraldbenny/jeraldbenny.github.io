@@ -2531,7 +2531,12 @@ if(sessionStorage.getItem("ops_auth")==="1"){
 // Tab switching
 function switchTab(btn, tabId){
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    var matchingBtn = document.querySelector('.tab-btn[onclick*="' + tabId + '"]');
+    if (matchingBtn) matchingBtn.classList.add('active');
+  }
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
   var target = document.getElementById(tabId);
   if (target) target.classList.remove('hidden-pane');

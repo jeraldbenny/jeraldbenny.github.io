@@ -5,6 +5,7 @@
 (function() {
     const isSubFolder = window.location.pathname.includes('/digifeed/') || 
                         window.location.pathname.includes('/digilab/') || 
+                        window.location.pathname.includes('/digiplay/') || 
                         window.location.pathname.includes('/toolkit/');
 
     const link = document.createElement('link');
@@ -173,8 +174,8 @@
             html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
             html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
-            // 5. Links (http/https only)
-            html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+            // 5. Links (http/https and mailto)
+            html = html.replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
             // 6. Bullet lists
             html = html.replace(/^[\s]*[\*-]\s+(.*)$/gm, '<li>$1</li>');
