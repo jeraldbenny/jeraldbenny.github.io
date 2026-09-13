@@ -2447,5 +2447,23 @@
         "error": "<unknown>:94:2: mismatched tag"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-13T05:04:13.963947+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 34,
+    "total_articles": 12271,
+    "runtime": "1 min 4 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "last_update": "12 Sep 2026, 10:18 IST",
-  "sources_healthy": 73,
-  "sources_failed": 1,
-  "articles_today": 53,
-  "duplicates_discarded": 13,
-  "articles_total": 12246,
-  "runtime": "1 min 2 sec",
+  "last_update": "13 Sep 2026, 10:34 IST",
+  "sources_healthy": 74,
+  "sources_failed": 0,
+  "articles_today": 25,
+  "duplicates_discarded": 9,
+  "articles_total": 12271,
+  "runtime": "1 min 4 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -14,10 +14,5 @@
     "arXiv": "✔",
     "MalwareBazaar": "✔"
   },
-  "errors_list": [
-    {
-      "name": "AboutDFIR",
-      "error": "<unknown>:94:2: mismatched tag"
-    }
-  ]
+  "errors_list": []
 }
