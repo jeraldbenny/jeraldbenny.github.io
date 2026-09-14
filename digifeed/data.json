@@ -1,17 +1,17 @@
 {
-  "last_updated": "13 September 2026, 10:34 IST",
-  "total": 25,
+  "last_updated": "14 September 2026, 10:43 IST",
+  "total": 22,
   "articles": [
     {
-      "id": "bcd8d98197c05fde5c8a140dde268ba6",
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "id": "a0ee3c4be7d4cf1108b15abebb089f35",
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx03NP3tJYBFro8_pZ2g6irfvMJFy0HGYqvUu9kkRJZBnMJ-BcA9aWGZZ1vS4a71YOgpB5qLBDkoNnMyOBJXGhfsyQQMK0IgaGunMOUTLnFUSFddG_5NwlnXsUCWJpGh3bGOcWLHpxXTAqv0i4QAYyRZPXcm0Rcp5K9Yfc7o7SEeLZXNtGp3NZVMzlv1M/s1600/in.jpg",
-      "published": "2026-09-12T10:24:44Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1600/ms-outlook.jpg",
+      "published": "2026-09-13T10:11:48Z",
+      "published_fmt": "13 Sep 2026",
+      "plain_summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,50 +20,19 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "0f60d96c9871051ee1ceca24556da224",
-          "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers"
-        }
-      ]
+      "collected_date": "14 Sep 2026",
+      "related": []
     },
     {
-      "id": "0f60d96c9871051ee1ceca24556da224",
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1600/rubygems-openai.jpg",
-      "published": "2026-09-12T09:07:56Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "bcd8d98197c05fde5c8a140dde268ba6",
-          "title": "When the Whole Company Adopts AI: What It Does to Your SOC"
-        }
-      ]
-    },
-    {
-      "id": "d751891e140bf003f9ed29509cb6654a",
-      "title": "'Timure -to- Tribeni' operation: management of dead bodies, DNA profiling intensified - The Rising Nepal",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TOURsOTBNdDZxS2JoclZEelNKTUZTQ0VIODVaUWl1VUlCamZ4Q3JNX3RnNlRNMFpMV1FlelY3SWpzd2Q2cWlYN1dLZXlmM3dY?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-12T11:53:56Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "'Timure -to- Tribeni' operation: management of dead bodies, DNA profiling intensified The Rising Nepal",
+      "id": "324c84ec32d9d6b4edcdf0e0c720a85e",
+      "title": "Community members explore drugs, cults, bombs at UND 'crime scene house' - Grand Forks Herald",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWOVdrZGNSanlYYlZSdUlsVUpld2hjVXljV0JSVEhhRTFTaU9CRkVsem45S3BfTjQ1eW9ZdTR0WGtJOGFrTjRfS2ZwWFBFSkY3bGZkUXZBZU9QQlJocVlGMU5QVmU3Y1RkZ1RiTlUySF9STmpwZ1BaTjBXamdLN0E?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_3.png",
+      "published": "2026-09-13T20:43:51Z",
+      "published_fmt": "13 Sep 2026",
+      "plain_summary": "Community members explore drugs, cults, bombs at UND 'crime scene house' Grand Forks Herald",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -72,92 +41,176 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
+      "related": []
+    },
+    {
+      "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
+      "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction",
+      "link": "https://eprint.iacr.org/2026/1962",
+      "source": "IACR ePrint",
+      "source_icon": "📄",
+      "image": "images/research_2.png",
+      "published": "2026-09-10T08:15:41Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Lattice extraction often produces openings normalized by challenge differences, whereas an inconsistency must ultimately yield a short integral SIS relation.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#dfir-paper",
+        "#open-science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "d23f75a39c02d1077d0ebd99acf2eb20",
-          "title": "Hayabusa v4.1.0 - Suzumushi Release"
+          "id": "80791b2ce57d3417c2b1926a7f2a943e",
+          "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS"
         },
         {
-          "id": "ccb753ba250d2e5073c588cd97e7a23f",
-          "title": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks - Malwarebytes"
+          "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
+          "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation"
         }
       ]
     },
     {
-      "id": "22450af88d94aa7213475fa1c8c517bd",
-      "title": "[Threat IOC] ClearFake domain: zcrq6pvf.pesas.store",
-      "link": "https://threatfox.abuse.ch/ioc/1916122/",
+      "id": "80791b2ce57d3417c2b1926a7f2a943e",
+      "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS",
+      "link": "https://eprint.iacr.org/2026/1958",
+      "source": "IACR ePrint",
+      "source_icon": "📄",
+      "image": "images/research_4.png",
+      "published": "2026-09-10T03:29:30Z",
+      "published_fmt": "10 Sep 2026",
+      "plain_summary": "Seur\\'e and Suvanto (ePrint 2026/1102) recently showed that, for small-characteristic primes $p$, arithmetic over $\\mathbb{F}_{p^r}$ can be homomorphically evaluated in CKKS via a techniquethey call \\emph{spectral encoding}.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#dfir-paper",
+        "#open-science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "14 Sep 2026",
+      "related": [
+        {
+          "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
+          "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction"
+        },
+        {
+          "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
+          "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation"
+        }
+      ]
+    },
+    {
+      "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
+      "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation",
+      "link": "https://eprint.iacr.org/2026/1942",
+      "source": "IACR ePrint",
+      "source_icon": "📄",
+      "image": "images/research_1.png",
+      "published": "2026-09-09T04:54:15Z",
+      "published_fmt": "09 Sep 2026",
+      "plain_summary": "A multi-party distributed point function (DPF) compresses a point function instance $f_{\\alpha,\\beta}$, i.e., $f$ evaluates to $\\beta$ at $\\alpha$ and to $0$ otherwise, into short keys that are distributed to $N$ parties.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#dfir-paper",
+        "#open-science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "14 Sep 2026",
+      "related": [
+        {
+          "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
+          "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction"
+        },
+        {
+          "id": "80791b2ce57d3417c2b1926a7f2a943e",
+          "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS"
+        }
+      ]
+    },
+    {
+      "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
+      "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22",
+      "link": "https://threatfox.abuse.ch/ioc/1917105/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-09-13T05:01:41Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "images/malware_1.png",
+      "published": "2026-09-14T05:05:09Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Havoc. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#havoc"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "191faccc0401ee406d0e4bf6cd0e3074",
-          "title": "[Threat IOC] ClearFake domain: jtd3m9p0.jurni.store"
+          "id": "ddf679824cb1c830f773c4f97de562ec",
+          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084"
         },
         {
-          "id": "6cddcfb84cf4bbb8a26d9df8ed178ed2",
-          "title": "[Threat IOC] ClearFake domain: jurni.store"
+          "id": "0262b6673bb6350101d5444f8e9804ac",
+          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000"
         }
       ]
     },
     {
-      "id": "d9b3d2604ddd2c3de426800e194be297",
-      "title": "[Threat IOC] php.shin_webshell domain: syycs77596.workers.dev",
-      "link": "https://threatfox.abuse.ch/ioc/1916121/",
+      "id": "ddf679824cb1c830f773c4f97de562ec",
+      "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084",
+      "link": "https://threatfox.abuse.ch/ioc/1917103/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-09-13T04:58:58Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-09-14T05:05:08Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#php.shin_webshell"
+        "#cobaltstrike"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "22450af88d94aa7213475fa1c8c517bd",
-          "title": "[Threat IOC] ClearFake domain: zcrq6pvf.pesas.store"
+          "id": "0262b6673bb6350101d5444f8e9804ac",
+          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000"
         },
         {
-          "id": "191faccc0401ee406d0e4bf6cd0e3074",
-          "title": "[Threat IOC] ClearFake domain: jtd3m9p0.jurni.store"
+          "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
+          "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22"
         }
       ]
     },
     {
-      "id": "559975edbbd1a0b8fa5f3a48d43d4b8b",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 49.233.202.218:7878",
-      "link": "https://threatfox.abuse.ch/ioc/1916119/",
+      "id": "0262b6673bb6350101d5444f8e9804ac",
+      "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000",
+      "link": "https://threatfox.abuse.ch/ioc/1917104/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-09-13T04:49:06Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: abuse_ch.",
+      "published": "2026-09-14T05:05:08Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -168,246 +221,281 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "3cabb4dd5e37dfb9f81280a28cc5492a",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 5.104.86.108:8089"
+          "id": "ddf679824cb1c830f773c4f97de562ec",
+          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084"
         },
         {
-          "id": "e719e97ea9920f6e3ec68dcb05f8778e",
-          "title": "[Threat IOC] VShell ip:port: 148.66.17.123:60003"
+          "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
+          "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22"
         }
       ]
     },
     {
-      "id": "3cabb4dd5e37dfb9f81280a28cc5492a",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 5.104.86.108:8089",
-      "link": "https://threatfox.abuse.ch/ioc/1916120/",
+      "id": "064eb2b312f96da7e74ce9ee58cf5722",
+      "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat",
+      "link": "https://threatfox.abuse.ch/ioc/1917096/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-09-14T04:38:10Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#amos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "14 Sep 2026",
+      "related": [
+        {
+          "id": "66ba7da22dae8ae720a4567e77e7df0a",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
+        },
+        {
+          "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
+          "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
+        }
+      ]
+    },
+    {
+      "id": "66ba7da22dae8ae720a4567e77e7df0a",
+      "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update",
+      "link": "https://threatfox.abuse.ch/ioc/1917097/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_5.png",
-      "published": "2026-09-13T04:49:06Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: abuse_ch.",
+      "published": "2026-09-14T04:38:10Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#cobaltstrike"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "559975edbbd1a0b8fa5f3a48d43d4b8b",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 49.233.202.218:7878"
+          "id": "064eb2b312f96da7e74ce9ee58cf5722",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
         },
         {
-          "id": "e719e97ea9920f6e3ec68dcb05f8778e",
-          "title": "[Threat IOC] VShell ip:port: 148.66.17.123:60003"
+          "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
+          "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
         }
       ]
     },
     {
-      "id": "191faccc0401ee406d0e4bf6cd0e3074",
-      "title": "[Threat IOC] ClearFake domain: jtd3m9p0.jurni.store",
-      "link": "https://threatfox.abuse.ch/ioc/1916118/",
+      "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
+      "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update",
+      "link": "https://threatfox.abuse.ch/ioc/1917098/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_2.png",
-      "published": "2026-09-13T04:20:45Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "published": "2026-09-14T04:38:10Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "22450af88d94aa7213475fa1c8c517bd",
-          "title": "[Threat IOC] ClearFake domain: zcrq6pvf.pesas.store"
+          "id": "064eb2b312f96da7e74ce9ee58cf5722",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
         },
         {
-          "id": "6cddcfb84cf4bbb8a26d9df8ed178ed2",
-          "title": "[Threat IOC] ClearFake domain: jurni.store"
+          "id": "66ba7da22dae8ae720a4567e77e7df0a",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
         }
       ]
     },
     {
-      "id": "6cddcfb84cf4bbb8a26d9df8ed178ed2",
-      "title": "[Threat IOC] ClearFake domain: jurni.store",
-      "link": "https://threatfox.abuse.ch/ioc/1916117/",
+      "id": "ed103936afd0f1c97d7abd6fa4104110",
+      "title": "[Threat IOC] AMOS sha256_hash: 204b5d236e4384b23c1f0201bc52c06f32ef8eea679b975e9b432f2b111d1dbc",
+      "link": "https://threatfox.abuse.ch/ioc/1917099/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-09-13T04:17:59Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: Gi7w0rm.",
+      "image": "images/malware_1.png",
+      "published": "2026-09-14T04:38:10Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "22450af88d94aa7213475fa1c8c517bd",
-          "title": "[Threat IOC] ClearFake domain: zcrq6pvf.pesas.store"
+          "id": "c349a6cb1e347d151d3f043a6d57bdf2",
+          "title": "[Threat IOC] AMOS sha256_hash: 2df74820b43d670dfb94f78cda9e98cdf59cbddac2fcf52d739a42f199dc49e3"
         },
         {
-          "id": "191faccc0401ee406d0e4bf6cd0e3074",
-          "title": "[Threat IOC] ClearFake domain: jtd3m9p0.jurni.store"
+          "id": "064eb2b312f96da7e74ce9ee58cf5722",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
         }
       ]
     },
     {
-      "id": "e719e97ea9920f6e3ec68dcb05f8778e",
-      "title": "[Threat IOC] VShell ip:port: 148.66.17.123:60003",
-      "link": "https://threatfox.abuse.ch/ioc/1916116/",
+      "id": "c349a6cb1e347d151d3f043a6d57bdf2",
+      "title": "[Threat IOC] AMOS sha256_hash: 2df74820b43d670dfb94f78cda9e98cdf59cbddac2fcf52d739a42f199dc49e3",
+      "link": "https://threatfox.abuse.ch/ioc/1917100/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-09-13T04:05:08Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "image": "images/malware_3.png",
+      "published": "2026-09-14T04:38:10Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#vshell"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "e98570766efcdfa6906ae11065cf8331",
-          "title": "[Threat IOC] VShell ip:port: 148.66.17.125:60003"
+          "id": "ed103936afd0f1c97d7abd6fa4104110",
+          "title": "[Threat IOC] AMOS sha256_hash: 204b5d236e4384b23c1f0201bc52c06f32ef8eea679b975e9b432f2b111d1dbc"
         },
         {
-          "id": "559975edbbd1a0b8fa5f3a48d43d4b8b",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 49.233.202.218:7878"
+          "id": "064eb2b312f96da7e74ce9ee58cf5722",
+          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
         }
       ]
     },
     {
-      "id": "e98570766efcdfa6906ae11065cf8331",
-      "title": "[Threat IOC] VShell ip:port: 148.66.17.125:60003",
-      "link": "https://threatfox.abuse.ch/ioc/1916115/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-09-13T04:05:07Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "id": "0f7409e906776ee7d342499e7eab0d5d",
+      "title": "[HIGH CVE] CVE-2026-79697 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-79697",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_3.png",
+      "published": "2026-09-07T07:16:45Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A vulnerability was determined in Advantech WISE-6610-NB, WISE-6610-EB, WISE-6610-TB, WISE-6610-JB, WISE-6610-CB, WISE-6610-EL-NB, WISE-6610-EL-EB, WISE-6610-EL-TB, WISE-6610-EL-JB, WISE-6610-EL-CB, WISE-6610P-DEA, WISE-6610P-DNA and WISE-6610P-DTA 1.2.1_20251110.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "e719e97ea9920f6e3ec68dcb05f8778e",
-          "title": "[Threat IOC] VShell ip:port: 148.66.17.123:60003"
-        },
-        {
-          "id": "559975edbbd1a0b8fa5f3a48d43d4b8b",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 49.233.202.218:7878"
-        }
-      ]
-    },
-    {
-      "id": "19834a08f6a830cbf3de4d90c7ed272f",
-      "title": "[Tool Release] Hayabusa v4.1.0 published on GitHub",
-      "link": "https://github.com/Yamato-Security/hayabusa/releases/latest",
-      "source": "GitHub API",
-      "source_icon": "⌨",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-09-12T00:00:00Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "New GitHub release of Hayabusa (v4.1.0). Highlights: Anti-Virus False Positives, Warning:** You will get false positives from certain anti-virus programs like Windows Defender and Web Browsers saying they have detected malicious files. They are detecting on Sigma `.yml` files that are not executable and just contain certain signatures from malware. They are not malicious. If you are running Hayabusa for live analysis and do not want to cause any anti-virus alerts, be sure to use the live response packages that use encoded Sigma rules., 4.1.0 [2026/09/13] - Suzumushi Release.",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release",
-        "#hayabusa"
+        "#cve",
+        "#nvd",
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "d23f75a39c02d1077d0ebd99acf2eb20",
-          "title": "Hayabusa v4.1.0 - Suzumushi Release"
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+        },
+        {
+          "id": "52c97c2169d205233854ff480c02affe",
+          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
         }
       ]
     },
     {
-      "id": "5133e8c9f7179feae443f910197993a0",
-      "title": "[HIGH CVE] CVE-2026-18480 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18480",
+      "id": "d250a0e120a684910789c13dd4f2b659",
+      "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86276",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_2.png",
+      "published": "2026-09-07T06:17:24Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A flaw has been found in SourceCodester Syllabus-Aligned Learning Management & Examination System 1.0. This issue affects some unknown processing of the file db.php. Executing a manipulation can lead to hard-coded credentials.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "14 Sep 2026",
+      "related": [
+        {
+          "id": "52c97c2169d205233854ff480c02affe",
+          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
+        },
+        {
+          "id": "75b8d315d5128bf86a4ac708e074a190",
+          "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "52c97c2169d205233854ff480c02affe",
+      "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86273",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-09-07T06:17:23Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A weakness has been identified in projeto-siga siga up to 11.1.1.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "14 Sep 2026",
+      "related": [
+        {
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+        },
+        {
+          "id": "75b8d315d5128bf86a4ac708e074a190",
+          "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "75b8d315d5128bf86a4ac708e074a190",
+      "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86274",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-09-06T07:16:43Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "The SureCart WordPress plugin before 4.6.3 does not ensure that the account affected by a customer update is the same account its permission check authorised, allowing users with a subscriber-level account to change another user's email address, including an administrator's, and take over that account via a password reset.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "70cc9d1edd99f557ec737c6843f464e9",
-          "title": "[HIGH CVE] CVE-2026-84219 in Various Systems"
-        },
-        {
-          "id": "9c6a4d182a4c14e768086dc866dae12e",
-          "title": "[HIGH CVE] CVE-2026-86167 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "1e4d838622e253719ade2a348068e854",
-      "title": "[MEDIUM CVE] CVE-2026-75793 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75793",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-09-06T07:16:43Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "The SureCart WordPress plugin before 4.7.0 does not consult the site's user registration setting before creating WordPress accounts, allowing unauthenticated users to create an account and receive a logged-in session even when registration is disabled.",
+      "published": "2026-09-07T06:17:23Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A security vulnerability has been detected in projeto-siga siga up to 11.0.2.10/11.0.2.13/11.1.1.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -417,28 +505,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "5cbf89a9c3a08e31ce2c10e48d13e95b",
-          "title": "[MEDIUM CVE] CVE-2026-84028 in Various Systems"
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
         },
         {
-          "id": "6ceeebba9dc2d14ccd5b9ce72e052b9c",
-          "title": "[MEDIUM CVE] CVE-2026-13159 in Various Systems"
+          "id": "52c97c2169d205233854ff480c02affe",
+          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
         }
       ]
     },
     {
-      "id": "5cbf89a9c3a08e31ce2c10e48d13e95b",
-      "title": "[MEDIUM CVE] CVE-2026-84028 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84028",
+      "id": "d712f6ebb9f36af8bdec01a6c353fe5e",
+      "title": "[MEDIUM CVE] CVE-2026-86275 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86275",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-09-06T07:16:43Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "The Bold Page Builder WordPress plugin before 5.9.9 does not sanitise and escape a shortcode attribute before outputting it in an HTML attribute, allowing users with the Contributor role and above to inject arbitrary web scripts that execute when a user views the affected page.",
+      "image": "images/cve_2.png",
+      "published": "2026-09-07T06:17:23Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A vulnerability was detected in SourceCodester Syllabus-Aligned Learning Management & Examination System 1.0. This vulnerability affects the function register of the file auth.php.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -448,90 +536,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "1e4d838622e253719ade2a348068e854",
-          "title": "[MEDIUM CVE] CVE-2026-75793 in Various Systems"
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
         },
         {
-          "id": "6ceeebba9dc2d14ccd5b9ce72e052b9c",
-          "title": "[MEDIUM CVE] CVE-2026-13159 in Various Systems"
+          "id": "52c97c2169d205233854ff480c02affe",
+          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
         }
       ]
     },
     {
-      "id": "70cc9d1edd99f557ec737c6843f464e9",
-      "title": "[HIGH CVE] CVE-2026-84219 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84219",
+      "id": "fbcd5224cacf074c515b17c73d34a127",
+      "title": "[LOW CVE] CVE-2026-86270 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86270",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-09-06T07:16:43Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "The Kirki WordPress plugin before 6.3.0 does not hold back every spelling of the HTML entities it decodes when rendering, allowing unauthenticated users to store JavaScript in a comment which then runs in the session of anyone viewing a page that displays it, including an administrator, and on every page of the site when its header or footer is built to show comments.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "5133e8c9f7179feae443f910197993a0",
-          "title": "[HIGH CVE] CVE-2026-18480 in Various Systems"
-        },
-        {
-          "id": "9c6a4d182a4c14e768086dc866dae12e",
-          "title": "[HIGH CVE] CVE-2026-86167 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "6ceeebba9dc2d14ccd5b9ce72e052b9c",
-      "title": "[MEDIUM CVE] CVE-2026-13159 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13159",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-09-06T07:16:41Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "The Real Estate Papi WordPress theme through 1.0.5 does not perform capability or CSRF checks on one of its AJAX actions, allowing any authenticated user, such as a subscriber, to install a fixed set of companion from the WordPress.org repository.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "1e4d838622e253719ade2a348068e854",
-          "title": "[MEDIUM CVE] CVE-2026-75793 in Various Systems"
-        },
-        {
-          "id": "5cbf89a9c3a08e31ce2c10e48d13e95b",
-          "title": "[MEDIUM CVE] CVE-2026-84028 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "5ac5c15680f97605fc41693729ac6fa9",
-      "title": "[LOW CVE] CVE-2026-86170 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86170",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-09-06T06:16:41Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "A weakness has been identified in DefaultFuction CRM 1.0.0. The impacted element is an unknown function of the file /modules/orders/edit.php. This manipulation of the argument ID causes sql injection.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-09-07T05:16:55Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. The impacted element is an unknown function of the file /pages/settings_edit.php. Such manipulation of the argument ID leads to sql injection.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -541,59 +567,59 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "5133e8c9f7179feae443f910197993a0",
-          "title": "[HIGH CVE] CVE-2026-18480 in Various Systems"
+          "id": "164f8be1f1f128d91f8869429cc3ff63",
+          "title": "[LOW CVE] CVE-2026-86271 in Various Systems"
         },
         {
-          "id": "1e4d838622e253719ade2a348068e854",
-          "title": "[MEDIUM CVE] CVE-2026-75793 in Various Systems"
+          "id": "0f7409e906776ee7d342499e7eab0d5d",
+          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
         }
       ]
     },
     {
-      "id": "9c6a4d182a4c14e768086dc866dae12e",
-      "title": "[HIGH CVE] CVE-2026-86167 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86167",
+      "id": "164f8be1f1f128d91f8869429cc3ff63",
+      "title": "[LOW CVE] CVE-2026-86271 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86271",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-09-06T05:16:50Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "A vulnerability was identified in Tenda HG10 300001138. Impacted is the function formgponConf of the file /boaform/admin/formgponConf of the component Boa. The manipulation of the argument fmgpon_loid leads to os command injection.",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-09-07T05:16:55Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A vulnerability was found in FluentCMS up to 0.0.5. This affects the function GetAccessible of the file src/Backend/FluentCMS.Services/Permissions/PermissionManager.cs. Performing a manipulation results in missing authorization.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#low-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "5133e8c9f7179feae443f910197993a0",
-          "title": "[HIGH CVE] CVE-2026-18480 in Various Systems"
+          "id": "fbcd5224cacf074c515b17c73d34a127",
+          "title": "[LOW CVE] CVE-2026-86270 in Various Systems"
         },
         {
-          "id": "70cc9d1edd99f557ec737c6843f464e9",
-          "title": "[HIGH CVE] CVE-2026-84219 in Various Systems"
+          "id": "0f7409e906776ee7d342499e7eab0d5d",
+          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
         }
       ]
     },
     {
-      "id": "7b820ce2ea3e68361ff087f488b2bbd3",
-      "title": "[MEDIUM CVE] CVE-2026-86168 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86168",
+      "id": "4e43a2d76613a05b9951eb047a3afd69",
+      "title": "[MEDIUM CVE] CVE-2026-86272 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86272",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-09-06T05:16:50Z",
-      "published_fmt": "06 Sep 2026",
-      "plain_summary": "A security flaw has been discovered in code-projects Content Management System 1.0. The affected element is an unknown function of the file /login.php. The manipulation of the argument user_name results in sql injection.",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-09-07T05:16:55Z",
+      "published_fmt": "07 Sep 2026",
+      "plain_summary": "A vulnerability was determined in Beijing Meite Software Technology U+Smart Enjoyment WebSite 18.6001.1096.1000. This impacts an unknown function of the file /Report/Upload/UploadFormImg.ashx.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -603,118 +629,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "1e4d838622e253719ade2a348068e854",
-          "title": "[MEDIUM CVE] CVE-2026-75793 in Various Systems"
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
         },
         {
-          "id": "5cbf89a9c3a08e31ce2c10e48d13e95b",
-          "title": "[MEDIUM CVE] CVE-2026-84028 in Various Systems"
+          "id": "52c97c2169d205233854ff480c02affe",
+          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
         }
       ]
     },
     {
-      "id": "6f739445f6ad599ea57560bfc1dc1129",
-      "title": "InfoSec News Nuggets – 09/11/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-09-11-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/cve_4.png",
-      "published": "2026-09-11T10:50:38Z",
-      "published_fmt": "11 Sep 2026",
-      "plain_summary": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329 Wiz Research identified active exploitation of three JFrog Artifactory vulnerabilities that attackers are chaining to bypass authentication and gain full administrative control of self-hosted repository servers between August 15 and September 8.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 30,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "9249a1b00b15709951979b93bd64b6af",
-          "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV"
-        },
-        {
-          "id": "d7914357f7b1afaf4673e57de2930c97",
-          "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent"
-        }
-      ]
-    },
-    {
-      "id": "9249a1b00b15709951979b93bd64b6af",
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1600/jj.jpg",
-      "published": "2026-09-12T15:54:45Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "The U.S.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "d7914357f7b1afaf4673e57de2930c97",
-          "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent"
-        },
-        {
-          "id": "6f739445f6ad599ea57560bfc1dc1129",
-          "title": "InfoSec News Nuggets – 09/11/2026"
-        }
-      ]
-    },
-    {
-      "id": "d23f75a39c02d1077d0ebd99acf2eb20",
-      "title": "Hayabusa v4.1.0 - Suzumushi Release",
-      "link": "https://github.com/Yamato-Security/hayabusa/releases/tag/v4.1.0",
-      "source": "Hayabusa Releases",
-      "source_icon": "📦",
-      "image": "https://avatars.githubusercontent.com/u/71482215?s=60&v=4",
-      "published": "2026-09-12T23:35:35Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "Anti-Virus False Positives Warning: You will get false positives from certain anti-virus programs like Windows Defender and Web Browsers saying they have detected malicious files.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "6 min read",
-      "forensic_score": 10,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "ccb753ba250d2e5073c588cd97e7a23f",
-          "title": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks - Malwarebytes"
-        },
-        {
-          "id": "19834a08f6a830cbf3de4d90c7ed272f",
-          "title": "[Tool Release] Hayabusa v4.1.0 published on GitHub"
-        }
-      ]
-    },
-    {
-      "id": "d7914357f7b1afaf4673e57de2930c97",
-      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+      "id": "271badd9a8df35b42b5a4547e9eef287",
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-09-12T14:14:32Z",
-      "published_fmt": "12 Sep 2026",
-      "plain_summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]",
+      "image": "images/cve_5.png",
+      "published": "2026-09-13T14:26:32Z",
+      "published_fmt": "13 Sep 2026",
+      "plain_summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -723,45 +659,15 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "13 Sep 2026",
+      "collected_date": "14 Sep 2026",
       "related": [
         {
-          "id": "9249a1b00b15709951979b93bd64b6af",
-          "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV"
+          "id": "0f7409e906776ee7d342499e7eab0d5d",
+          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
         },
         {
-          "id": "6f739445f6ad599ea57560bfc1dc1129",
-          "title": "InfoSec News Nuggets – 09/11/2026"
-        }
-      ]
-    },
-    {
-      "id": "ccb753ba250d2e5073c588cd97e7a23f",
-      "title": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMlJjNExtUDdMcGtsYkF0aWtsWEQ5ci1xdVVvYTdwZUl6V1ZLakVnbVMza0ZDUWUxcDd4LXhnQlluZ3c0d1lublNmblhvM3BEd0xyQTJKcTItZ25Qa1NWR3RiRjdEVDM1T3ctRUdNLUVlQlNsS1QtRXNXblVYQkhNbVpJWjNtTDdtMC1jQVNycHU0ZXNVdEZTSUFMcmR4OGllazhYcndhbVBvN2J0SFZ3Tg?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-09-10T17:08:42Z",
-      "published_fmt": "10 Sep 2026",
-      "plain_summary": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "13 Sep 2026",
-      "related": [
-        {
-          "id": "d23f75a39c02d1077d0ebd99acf2eb20",
-          "title": "Hayabusa v4.1.0 - Suzumushi Release"
-        },
-        {
-          "id": "d751891e140bf003f9ed29509cb6654a",
-          "title": "'Timure -to- Tribeni' operation: management of dead bodies, DNA profiling intensified - The Rising Nepal"
+          "id": "d250a0e120a684910789c13dd4f2b659",
+          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
         }
       ]
     }
