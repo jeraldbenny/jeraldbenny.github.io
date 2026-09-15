@@ -1,17 +1,77 @@
 {
-  "last_updated": "14 September 2026, 10:43 IST",
-  "total": 22,
+  "last_updated": "15 September 2026, 10:38 IST",
+  "total": 47,
   "articles": [
     {
-      "id": "a0ee3c4be7d4cf1108b15abebb089f35",
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1600/ms-outlook.jpg",
-      "published": "2026-09-13T10:11:48Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.",
+      "id": "1b261616f9c14b811867770001135994",
+      "title": "Drone forensics: a guide for investigators",
+      "link": "https://www.magnetforensics.com/blog/drone-forensics-a-guide-for-investigators/",
+      "source": "Magnet Forensics",
+      "source_icon": "🧲",
+      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/09/MF_Blog_DroneForensics_DroneEvidence-1024x232.jpg",
+      "published": "2026-09-14T19:16:12Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Drone forensics is how a seized drone becomes evidence. Learn the steps to secure one safely and what its flight data reveals about the operator. The post Drone forensics: a guide for investigators appeared first on Magnet Forensics .",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 60,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ad3ce76101dd90d3973a511188786b57",
+          "title": "InfoSec News Nuggets – 09/14/2026"
+        },
+        {
+          "id": "5a6e7ae34607b98c209c744bee330317",
+          "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records"
+        }
+      ]
+    },
+    {
+      "id": "ad3ce76101dd90d3973a511188786b57",
+      "title": "InfoSec News Nuggets – 09/14/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-09-14-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-14T10:01:29Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Hackers Favor US Eastern Business Hours in M365 Phishing Campaign KnowBe4 Threat Lab observed a phishing campaign abusing Microsoft 365’s Direct Send feature — a legitimate mechanism meant for printers and legacy devices to send mail without a dedicated account — identifying nearly 29,800 confirmed phishing emails across July and August that followed a distinctly […] The post InfoSec News Nuggets – 09/14/2026 appeared first on AboutDFIR - The Definitive Compendium Project .",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        },
+        {
+          "id": "5a6e7ae34607b98c209c744bee330317",
+          "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records"
+        }
+      ]
+    },
+    {
+      "id": "5a6e7ae34607b98c209c744bee330317",
+      "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-09-14T20:36:02Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,19 +80,328 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "14 Sep 2026",
-      "related": []
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "670b4e10ae3634e9d19ec336d38e9922",
+          "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports"
+        },
+        {
+          "id": "b80fd6f45dec76b68f1a6432c9ece2f2",
+          "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets"
+        }
+      ]
     },
     {
-      "id": "324c84ec32d9d6b4edcdf0e0c720a85e",
-      "title": "Community members explore drugs, cults, bombs at UND 'crime scene house' - Grand Forks Herald",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWOVdrZGNSanlYYlZSdUlsVUpld2hjVXljV0JSVEhhRTFTaU9CRkVsem45S3BfTjQ1eW9ZdTR0WGtJOGFrTjRfS2ZwWFBFSkY3bGZkUXZBZU9QQlJocVlGMU5QVmU3Y1RkZ1RiTlUySF9STmpwZ1BaTjBXamdLN0E?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-09-13T20:43:51Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "Community members explore drugs, cults, bombs at UND 'crime scene house' Grand Forks Herald",
+      "id": "8da846b0f8740837c09b9b08ffcb1265",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-14T19:03:51Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "be64f82f443b8f1f27de3bc1eeadef9c",
+          "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users"
+        },
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        }
+      ]
+    },
+    {
+      "id": "6cd207976e0b6fa46c67a9b8aeb72bb4",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s1600/DDRop.gif",
+      "published": "2026-09-14T18:02:13Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        },
+        {
+          "id": "ad3ce76101dd90d3973a511188786b57",
+          "title": "InfoSec News Nuggets – 09/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "3c972d6002876ebaaf4da9c2a9d5c611",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1600/3bb.jpg",
+      "published": "2026-09-14T18:01:49Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        },
+        {
+          "id": "ad3ce76101dd90d3973a511188786b57",
+          "title": "InfoSec News Nuggets – 09/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "670b4e10ae3634e9d19ec336d38e9922",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7YYT-Mf718wZ9kLasqkkPZ1Drw4dlLUMaHtOPuWRltuG7bOcA-d4bFr4GRmer0MMohBwgv7HFVFADi-EeDvIMcbEaJUiyn8t-iLxtR8PVRDWHLmxKnofrZgoPOH_RS7qaUkzd0Ery8Rr7oWlgoPJligCMSSywXmXdMHgzuER6M77sWisfdMOo_rqudmk/s1600/telehgram.jpg",
+      "published": "2026-09-14T17:58:16Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "5a6e7ae34607b98c209c744bee330317",
+          "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records"
+        },
+        {
+          "id": "9fb1bddc93affbb99f015fc6a1f112c6",
+          "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection"
+        }
+      ]
+    },
+    {
+      "id": "b80fd6f45dec76b68f1a6432c9ece2f2",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-14T16:15:58Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "5a6e7ae34607b98c209c744bee330317",
+          "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records"
+        },
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        }
+      ]
+    },
+    {
+      "id": "1cddd370c93489583da34911ea8ecf1c",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgubijVX34VFFHDXzT2j2iTTWrHaElVXjylLKHKAjeSU59q3jTZvRM_O35zw5QOCnrT8ejrYHTG-kjYyt0-R127H_2qEgIWJNuKynEL1FcM9JLyPbsJPY5OZW9rrkJpRprrxpWP8oAGZA2ARZ3xg_0DvBw1I2wbIoXKItcVEjNXQH-CXCMRyuqp1u53ALj7/s1600/recap-cyber.jpg",
+      "published": "2026-09-14T14:40:34Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        },
+        {
+          "id": "ad3ce76101dd90d3973a511188786b57",
+          "title": "InfoSec News Nuggets – 09/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "584212428619243c56485060e7dfe7ff",
+      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-09-14T14:01:11Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "1b261616f9c14b811867770001135994",
+          "title": "Drone forensics: a guide for investigators"
+        },
+        {
+          "id": "ad3ce76101dd90d3973a511188786b57",
+          "title": "InfoSec News Nuggets – 09/14/2026"
+        }
+      ]
+    },
+    {
+      "id": "9fb1bddc93affbb99f015fc6a1f112c6",
+      "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection",
+      "link": "https://unit42.paloaltonetworks.com/behavioral-clustering-map-to-cloud-identities/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/12_Cloud_cybersecurity_research_Overview_1920x900-2.jpg",
+      "published": "2026-09-14T10:00:01Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "We designed a behavioral clustering model to map cloud identity roles from audit logs, enabling continuous threat detection using standard SQL queries.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "670b4e10ae3634e9d19ec336d38e9922",
+          "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports"
+        },
+        {
+          "id": "be64f82f443b8f1f27de3bc1eeadef9c",
+          "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users"
+        }
+      ]
+    },
+    {
+      "id": "be64f82f443b8f1f27de3bc1eeadef9c",
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1600/twitch.jpg",
+      "published": "2026-09-14T07:24:39Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "8da846b0f8740837c09b9b08ffcb1265",
+          "title": "Twitch extension with 30K installs exposes users’ OAuth tokens"
+        },
+        {
+          "id": "670b4e10ae3634e9d19ec336d38e9922",
+          "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports"
+        }
+      ]
+    },
+    {
+      "id": "42ac48a5647789e9c486d511dd270ca4",
+      "title": "Popular University Forensic Lecture Series Returns - Forensic Mag",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXB0bzI1Qk9VTlRxa0MwUWpzcHlILWdfTmtQaVlZM1VnclR6TV9sV2d3RDVTaVNNSTRDX3JTU0FQd3llaXNQUkhsWm1lWFpsQ3FfY09jdXRxa0J6a2VKX2Y1dGF0bk5DZVI2Ymp4QnJnd0JnLWpodFo0UGM4YmMwMi1ZbGFQOExTR0l3amVMck5BcmQwZU5yeDFvSG1pbTlZWVE?oc=5",
+      "source": "Google News: Forensic Toxicology",
+      "source_icon": "🧪",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-14T07:00:00Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Popular University Forensic Lecture Series Returns Forensic Mag",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "fe0a8fa780006babf83d5b37c07f5c71",
+          "title": "‘Timure -to- Tribeni’ operation: management of dead bodies, DNA profiling intensified - radionepalonline.com"
+        },
+        {
+          "id": "1f4bc2b339d158bf4490835ecfd030d9",
+          "title": "Home - National Institute of Standards and Technology (.gov)"
+        }
+      ]
+    },
+    {
+      "id": "6d384ac2038e89a12a6007011b43a71d",
+      "title": "Car owners beware! Lessons from the 'Kia Boys' crime spree",
+      "link": "https://phys.org/news/2026-09-car-owners-beware-lessons-kia.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/youtube-video-still-of.jpg",
+      "published": "2026-09-14T13:28:49Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "If you live in Los Angeles and own a Hyundai Sonata, Kia Optima or one of 18 other models from these vehicle lines, UCLA anthropologist Jeffrey Brantingham has some advice: Get a steering wheel locking device, take advantage of manufacturer recalls or trade your car in for one with an engine immobilizer.",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -41,19 +410,182 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "14 Sep 2026",
-      "related": []
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "42ac48a5647789e9c486d511dd270ca4",
+          "title": "Popular University Forensic Lecture Series Returns - Forensic Mag"
+        },
+        {
+          "id": "fe0a8fa780006babf83d5b37c07f5c71",
+          "title": "‘Timure -to- Tribeni’ operation: management of dead bodies, DNA profiling intensified - radionepalonline.com"
+        }
+      ]
     },
     {
-      "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
-      "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction",
-      "link": "https://eprint.iacr.org/2026/1962",
+      "id": "fe0a8fa780006babf83d5b37c07f5c71",
+      "title": "‘Timure -to- Tribeni’ operation: management of dead bodies, DNA profiling intensified - radionepalonline.com",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWYTVqU0Fob2ZrekJ5T0kwTzNiaWljSElOSTJQWWJJWU1XU0lSVWVzN2t2M083T2RUWGQzRUhabHkwZDBLZ2ZDdkhwZ0R4OVBvdnl4RlFLa2VLc0o0UmtJR0ExT1Q?oc=5",
+      "source": "Google News: DNA Profiling",
+      "source_icon": "🧬",
+      "image": "images/forensics_1.png",
+      "published": "2026-09-12T14:37:43Z",
+      "published_fmt": "12 Sep 2026",
+      "plain_summary": "‘Timure -to- Tribeni’ operation: management of dead bodies, DNA profiling intensified radionepalonline.com",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "42ac48a5647789e9c486d511dd270ca4",
+          "title": "Popular University Forensic Lecture Series Returns - Forensic Mag"
+        },
+        {
+          "id": "1f4bc2b339d158bf4490835ecfd030d9",
+          "title": "Home - National Institute of Standards and Technology (.gov)"
+        }
+      ]
+    },
+    {
+      "id": "1f4bc2b339d158bf4490835ecfd030d9",
+      "title": "Home - National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LbFV5RXI1V3NZTGg0N0JtRVN3Q2FzbzJUSzNfbWZIaGtrOVR0UTdVNEZzU2FwSUticnp2eTdCR3c5RmJfZkxxaWZval9JRXFiZ1BGX3pDUHo2dUk?oc=5",
+      "source": "NIST Forensic Science",
+      "source_icon": "🏛️",
+      "image": "images/forensics_4.png",
+      "published": "2026-09-12T05:31:36Z",
+      "published_fmt": "12 Sep 2026",
+      "plain_summary": "Home National Institute of Standards and Technology (.gov)",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "42ac48a5647789e9c486d511dd270ca4",
+          "title": "Popular University Forensic Lecture Series Returns - Forensic Mag"
+        },
+        {
+          "id": "fe0a8fa780006babf83d5b37c07f5c71",
+          "title": "‘Timure -to- Tribeni’ operation: management of dead bodies, DNA profiling intensified - radionepalonline.com"
+        }
+      ]
+    },
+    {
+      "id": "49bfc262b8af18502f678ed8ba14ef89",
+      "title": "[KEV Active Exploit] CVE-2026-76461 in Cisco Secure Email Gateway",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-09-14T00:00:00Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#cisco"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
+        },
+        {
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "71b81a2c7455623743b73a1e504cbcba",
+      "title": "Research Paper: The Price of Time: Deterrence as the Third Pillar of Payment Channel Security",
+      "link": "https://eprint.iacr.org/2026/2001",
+      "source": "IACR ePrint",
+      "source_icon": "📄",
+      "image": "images/research_3.png",
+      "published": "2026-09-13T15:08:48Z",
+      "published_fmt": "13 Sep 2026",
+      "plain_summary": "Safety and liveness are the two classical pillars of payment channel security. Both price attacks that merely occupy channel resources, such as jamming, at zero. We propose a third pillar, deterrence: harm carries a provable price.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#dfir-paper",
+        "#open-science"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 85,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "dbd84b518ad885897f09c6270de1b960",
+          "title": "Research Paper: Wasp: Succinct Non-Interactive Zero-Knowledge Proofs from VOLE"
+        },
+        {
+          "id": "de6df184d052965f941cef3e4fa4d525",
+          "title": "Research Paper: Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields"
+        }
+      ]
+    },
+    {
+      "id": "dbd84b518ad885897f09c6270de1b960",
+      "title": "Research Paper: Wasp: Succinct Non-Interactive Zero-Knowledge Proofs from VOLE",
+      "link": "https://eprint.iacr.org/2026/1988",
+      "source": "IACR ePrint",
+      "source_icon": "📄",
+      "image": "images/research_3.png",
+      "published": "2026-09-12T03:23:46Z",
+      "published_fmt": "12 Sep 2026",
+      "plain_summary": "Zero-knowledge proofs (ZKPs) based on vector oblivious linear evaluation (VOLE) excel in prover efficiency but typically require linear communication and verification.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#dfir-paper",
+        "#open-science"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 85,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "71b81a2c7455623743b73a1e504cbcba",
+          "title": "Research Paper: The Price of Time: Deterrence as the Third Pillar of Payment Channel Security"
+        },
+        {
+          "id": "de6df184d052965f941cef3e4fa4d525",
+          "title": "Research Paper: Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields"
+        }
+      ]
+    },
+    {
+      "id": "de6df184d052965f941cef3e4fa4d525",
+      "title": "Research Paper: Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields",
+      "link": "https://eprint.iacr.org/2026/1976",
       "source": "IACR ePrint",
       "source_icon": "📄",
       "image": "images/research_2.png",
-      "published": "2026-09-10T08:15:41Z",
-      "published_fmt": "10 Sep 2026",
-      "plain_summary": "Lattice extraction often produces openings normalized by challenge differences, whereas an inconsistency must ultimately yield a short integral SIS relation.",
+      "published": "2026-09-11T04:52:09Z",
+      "published_fmt": "11 Sep 2026",
+      "plain_summary": "The M operation was introduced by Yura as an alternative to the max operation appearing in the box-ball system (BBS) to construct a BBS over finite fields.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -63,59 +595,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "80791b2ce57d3417c2b1926a7f2a943e",
-          "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS"
+          "id": "82c6829e3c78463f50217581ab49022b",
+          "title": "Research Paper: Efficient Pseudorandom Correlation Generators over Binary Extension Fields and More"
         },
         {
-          "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
-          "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation"
+          "id": "71b81a2c7455623743b73a1e504cbcba",
+          "title": "Research Paper: The Price of Time: Deterrence as the Third Pillar of Payment Channel Security"
         }
       ]
     },
     {
-      "id": "80791b2ce57d3417c2b1926a7f2a943e",
-      "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS",
-      "link": "https://eprint.iacr.org/2026/1958",
+      "id": "82c6829e3c78463f50217581ab49022b",
+      "title": "Research Paper: Efficient Pseudorandom Correlation Generators over Binary Extension Fields and More",
+      "link": "https://eprint.iacr.org/2026/1940",
       "source": "IACR ePrint",
       "source_icon": "📄",
-      "image": "images/research_4.png",
-      "published": "2026-09-10T03:29:30Z",
-      "published_fmt": "10 Sep 2026",
-      "plain_summary": "Seur\\'e and Suvanto (ePrint 2026/1102) recently showed that, for small-characteristic primes $p$, arithmetic over $\\mathbb{F}_{p^r}$ can be homomorphically evaluated in CKKS via a techniquethey call \\emph{spectral encoding}.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#dfir-paper",
-        "#open-science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
-          "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction"
-        },
-        {
-          "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
-          "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation"
-        }
-      ]
-    },
-    {
-      "id": "9b9fc3f5c24eb5499f1276f23ed6f017",
-      "title": "Research Paper: Improved Multi-Party Distributed Point Functions from Oblivious Tensor Evaluation",
-      "link": "https://eprint.iacr.org/2026/1942",
-      "source": "IACR ePrint",
-      "source_icon": "📄",
-      "image": "images/research_1.png",
-      "published": "2026-09-09T04:54:15Z",
+      "image": "images/research_3.png",
+      "published": "2026-09-09T04:43:34Z",
       "published_fmt": "09 Sep 2026",
-      "plain_summary": "A multi-party distributed point function (DPF) compresses a point function instance $f_{\\alpha,\\beta}$, i.e., $f$ evaluates to $\\beta$ at $\\alpha$ and to $0$ otherwise, into short keys that are distributed to $N$ parties.",
+      "plain_summary": "In this work, we construct highly efficient pseudorandom correlation generators (PCGs) over binary extension fields.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -123,286 +624,286 @@
         "#dfir-paper",
         "#open-science"
       ],
-      "read_time": "1 min read",
+      "read_time": "3 min read",
       "forensic_score": 85,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "91c76cc09f1a73d29f2c0fbbc9b5b87f",
-          "title": "Research Paper: Compare Before Clearing: Exact Integral-Comparison Frontiers for Lattice Extraction"
+          "id": "de6df184d052965f941cef3e4fa4d525",
+          "title": "Research Paper: Properties of the Me Operation and Me-Scalar Multiplication on Elliptic Curves over Finite Fields"
         },
         {
-          "id": "80791b2ce57d3417c2b1926a7f2a943e",
-          "title": "Research Paper: Arithmetic for Large-Characteristic Finite Fields in CKKS"
+          "id": "71b81a2c7455623743b73a1e504cbcba",
+          "title": "Research Paper: The Price of Time: Deterrence as the Third Pillar of Payment Channel Security"
         }
       ]
     },
     {
-      "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
-      "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22",
-      "link": "https://threatfox.abuse.ch/ioc/1917105/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-09-14T05:05:09Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Havoc. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#havoc"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "ddf679824cb1c830f773c4f97de562ec",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084"
-        },
-        {
-          "id": "0262b6673bb6350101d5444f8e9804ac",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000"
-        }
-      ]
-    },
-    {
-      "id": "ddf679824cb1c830f773c4f97de562ec",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084",
-      "link": "https://threatfox.abuse.ch/ioc/1917103/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-09-14T05:05:08Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#cobaltstrike"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "0262b6673bb6350101d5444f8e9804ac",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000"
-        },
-        {
-          "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
-          "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22"
-        }
-      ]
-    },
-    {
-      "id": "0262b6673bb6350101d5444f8e9804ac",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:3000",
-      "link": "https://threatfox.abuse.ch/ioc/1917104/",
+      "id": "27956e7f53df87ff23e8a588165a1b84",
+      "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d",
+      "link": "https://threatfox.abuse.ch/ioc/1918357/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-09-14T05:05:08Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "published": "2026-09-15T04:54:58Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#cobaltstrike"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "ddf679824cb1c830f773c4f97de562ec",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 8.145.61.81:8084"
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
         },
         {
-          "id": "aa6a0d1d466138126bdb3dd1fd2b1e73",
-          "title": "[Threat IOC] Havoc ip:port: 104.248.156.16:22"
+          "id": "b3a5905b2ef330e38e0e8b2c0c17c08d",
+          "title": "[Threat IOC] Remus url: http://trwehop.shop:5627/exports"
         }
       ]
     },
     {
-      "id": "064eb2b312f96da7e74ce9ee58cf5722",
-      "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat",
-      "link": "https://threatfox.abuse.ch/ioc/1917096/",
+      "id": "9e2608a45daefddc82ef429ad56abbcd",
+      "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports",
+      "link": "https://threatfox.abuse.ch/ioc/1918354/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-09-15T04:33:53Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: url. Threat Category: botnet_cc. Reporter: Myrtus0x0.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remus"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "b3a5905b2ef330e38e0e8b2c0c17c08d",
+          "title": "[Threat IOC] Remus url: http://trwehop.shop:5627/exports"
+        },
+        {
+          "id": "c6f3f9461c1d924ec5fa57c431916004",
+          "title": "[Threat IOC] Remus url: http://teechop.shop:8213/messages"
+        }
+      ]
+    },
+    {
+      "id": "b3a5905b2ef330e38e0e8b2c0c17c08d",
+      "title": "[Threat IOC] Remus url: http://trwehop.shop:5627/exports",
+      "link": "https://threatfox.abuse.ch/ioc/1918355/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-09-15T04:33:53Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: url. Threat Category: botnet_cc. Reporter: Myrtus0x0.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remus"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
+        },
+        {
+          "id": "c6f3f9461c1d924ec5fa57c431916004",
+          "title": "[Threat IOC] Remus url: http://teechop.shop:8213/messages"
+        }
+      ]
+    },
+    {
+      "id": "c6f3f9461c1d924ec5fa57c431916004",
+      "title": "[Threat IOC] Remus url: http://teechop.shop:8213/messages",
+      "link": "https://threatfox.abuse.ch/ioc/1918356/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_1.png",
-      "published": "2026-09-14T04:38:10Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
+      "published": "2026-09-15T04:33:53Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: url. Threat Category: botnet_cc. Reporter: Myrtus0x0.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#amos"
+        "#remus"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "66ba7da22dae8ae720a4567e77e7df0a",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
         },
         {
-          "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
-          "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
+          "id": "b3a5905b2ef330e38e0e8b2c0c17c08d",
+          "title": "[Threat IOC] Remus url: http://trwehop.shop:5627/exports"
         }
       ]
     },
     {
-      "id": "66ba7da22dae8ae720a4567e77e7df0a",
-      "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update",
-      "link": "https://threatfox.abuse.ch/ioc/1917097/",
+      "id": "c33dcdb8c37ea3fa77b720e32a6ff16b",
+      "title": "[Threat IOC] Mirai sha256_hash: 2e54785c850529f281f91edd3f90ed866c883dd034bc7053c4068500e5bb0b92",
+      "link": "https://threatfox.abuse.ch/ioc/1918353/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-09-15T04:31:05Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#mirai"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "27956e7f53df87ff23e8a588165a1b84",
+          "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d"
+        },
+        {
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
+        }
+      ]
+    },
+    {
+      "id": "d882903062790c33f119b5a821daaa96",
+      "title": "[Threat IOC] php.shin_webshell domain: sebehuco.workers.dev",
+      "link": "https://threatfox.abuse.ch/ioc/1918352/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-09-15T04:11:40Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#php.shin_webshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "543dee9c76015881a8f67ec6eb93502f",
+          "title": "[Threat IOC] ClearFake domain: mossymorrow.com"
+        },
+        {
+          "id": "27956e7f53df87ff23e8a588165a1b84",
+          "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d"
+        }
+      ]
+    },
+    {
+      "id": "543dee9c76015881a8f67ec6eb93502f",
+      "title": "[Threat IOC] ClearFake domain: mossymorrow.com",
+      "link": "https://threatfox.abuse.ch/ioc/1918351/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-09-15T04:05:58Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "d882903062790c33f119b5a821daaa96",
+          "title": "[Threat IOC] php.shin_webshell domain: sebehuco.workers.dev"
+        },
+        {
+          "id": "27956e7f53df87ff23e8a588165a1b84",
+          "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d"
+        }
+      ]
+    },
+    {
+      "id": "850fec6f6b0948e487325ac436b0a460",
+      "title": "[Threat IOC] VShell ip:port: 49.234.47.190:8084",
+      "link": "https://threatfox.abuse.ch/ioc/1918349/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_5.png",
-      "published": "2026-09-14T04:38:10Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
+      "published": "2026-09-15T04:05:08Z",
+      "published_fmt": "15 Sep 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#amos"
+        "#vshell"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "064eb2b312f96da7e74ce9ee58cf5722",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
+          "id": "27956e7f53df87ff23e8a588165a1b84",
+          "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d"
         },
         {
-          "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
-          "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
         }
       ]
     },
     {
-      "id": "66d5b49b1ada50a4025ebbfb3f1902a2",
-      "title": "[Threat IOC] AMOS url: https://trekworkshop3.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update",
-      "link": "https://threatfox.abuse.ch/ioc/1917098/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-09-14T04:38:10Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: url. Threat Category: payload_delivery. Reporter: c4ffeine.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#amos"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "064eb2b312f96da7e74ce9ee58cf5722",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
-        },
-        {
-          "id": "66ba7da22dae8ae720a4567e77e7df0a",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/oo9/update"
-        }
-      ]
-    },
-    {
-      "id": "ed103936afd0f1c97d7abd6fa4104110",
-      "title": "[Threat IOC] AMOS sha256_hash: 204b5d236e4384b23c1f0201bc52c06f32ef8eea679b975e9b432f2b111d1dbc",
-      "link": "https://threatfox.abuse.ch/ioc/1917099/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-09-14T04:38:10Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#amos"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "c349a6cb1e347d151d3f043a6d57bdf2",
-          "title": "[Threat IOC] AMOS sha256_hash: 2df74820b43d670dfb94f78cda9e98cdf59cbddac2fcf52d739a42f199dc49e3"
-        },
-        {
-          "id": "064eb2b312f96da7e74ce9ee58cf5722",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
-        }
-      ]
-    },
-    {
-      "id": "c349a6cb1e347d151d3f043a6d57bdf2",
-      "title": "[Threat IOC] AMOS sha256_hash: 2df74820b43d670dfb94f78cda9e98cdf59cbddac2fcf52d739a42f199dc49e3",
-      "link": "https://threatfox.abuse.ch/ioc/1917100/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-09-14T04:38:10Z",
-      "published_fmt": "14 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#amos"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "ed103936afd0f1c97d7abd6fa4104110",
-          "title": "[Threat IOC] AMOS sha256_hash: 204b5d236e4384b23c1f0201bc52c06f32ef8eea679b975e9b432f2b111d1dbc"
-        },
-        {
-          "id": "064eb2b312f96da7e74ce9ee58cf5722",
-          "title": "[Threat IOC] AMOS url: https://aspenriver6.com/curl/epf215dtv0l/2otso19m8v27gj0d381.dat"
-        }
-      ]
-    },
-    {
-      "id": "0f7409e906776ee7d342499e7eab0d5d",
-      "title": "[HIGH CVE] CVE-2026-79697 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-79697",
+      "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+      "title": "[HIGH CVE] CVE-2026-76561 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76561",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-09-07T07:16:45Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A vulnerability was determined in Advantech WISE-6610-NB, WISE-6610-EB, WISE-6610-TB, WISE-6610-JB, WISE-6610-CB, WISE-6610-EL-NB, WISE-6610-EL-EB, WISE-6610-EL-TB, WISE-6610-EL-JB, WISE-6610-EL-CB, WISE-6610P-DEA, WISE-6610P-DNA and WISE-6610P-DTA 1.2.1_20251110.",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-09-08T08:17:12Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "A flaw was found in Dogtag PKI, as used by FreeIPA's certificate authority component. The certificate profile import functionality does not fully validate uploaded profile content beyond the profile ID.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -412,28 +913,90 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
         },
         {
-          "id": "52c97c2169d205233854ff480c02affe",
-          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
+          "id": "6e58eed20ceba6bc57d8875c6e959955",
+          "title": "[HIGH CVE] CVE-2026-81790 in Various Systems"
         }
       ]
     },
     {
-      "id": "d250a0e120a684910789c13dd4f2b659",
-      "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86276",
+      "id": "65769434e789181c2f552b8c7815d89c",
+      "title": "[HIGH CVE] CVE-2026-81781 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81781",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-09-07T06:17:24Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A flaw has been found in SourceCodester Syllabus-Aligned Learning Management & Examination System 1.0. This issue affects some unknown processing of the file db.php. Executing a manipulation can lead to hard-coded credentials.",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-09-08T08:17:12Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Missing Authorization vulnerability in Unbounce Unbounce Landing Pages unbounce allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Unbounce Landing Pages: from n/a through 1.1.4.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
+        },
+        {
+          "id": "6e58eed20ceba6bc57d8875c6e959955",
+          "title": "[HIGH CVE] CVE-2026-81790 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "6e58eed20ceba6bc57d8875c6e959955",
+      "title": "[HIGH CVE] CVE-2026-81790 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81790",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-09-08T08:17:12Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Missing Authorization vulnerability in Viszt Péter Csomagpontok és szállítási címkék WooCommerce-hez allows Exploiting Incorrectly Configured Access Control Security Levels.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
+        },
+        {
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a14ab0754c6d3fb7d0a30795995b7fe4",
+      "title": "[MEDIUM CVE] CVE-2026-81792 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81792",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-09-08T08:17:12Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Unauthenticated Privilege Escalation in Product Catalog Enquiry for WooCommerce by MultiVendorX <= 6.1.4 versions.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -443,59 +1006,121 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "52c97c2169d205233854ff480c02affe",
-          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
+          "id": "ca5d2367f99ca609fca098560774b540",
+          "title": "[MEDIUM CVE] CVE-2026-86519 in Various Systems"
         },
         {
-          "id": "75b8d315d5128bf86a4ac708e074a190",
-          "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems"
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
         }
       ]
     },
     {
-      "id": "52c97c2169d205233854ff480c02affe",
-      "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86273",
+      "id": "deb2621b2e232e986c0f96109155f97a",
+      "title": "[CRITICAL CVE] CVE-2026-71374 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71374",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-09-07T06:17:23Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A weakness has been identified in projeto-siga siga up to 11.1.1.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-09-08T08:17:11Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Deserialization of untrusted data vulnerability in Cosminexus Component Container.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
         },
         {
-          "id": "75b8d315d5128bf86a4ac708e074a190",
-          "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems"
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
         }
       ]
     },
     {
-      "id": "75b8d315d5128bf86a4ac708e074a190",
-      "title": "[MEDIUM CVE] CVE-2026-86274 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86274",
+      "id": "958eb475a40cc48029d671aebe69965d",
+      "title": "[HIGH CVE] CVE-2026-71375 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71375",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-09-08T08:17:11Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Improper restriction of XML external entity reference vulnerability in Cosminexus Component Container.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
+        },
+        {
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "e8c33bddb9bb2b75c35c2598c1ed63a6",
+      "title": "[HIGH CVE] CVE-2026-48888 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48888",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-09-08T08:17:10Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "Allocation of Resources Without Limits or Throttling vulnerability in Automattic WooCommerce allows HTTP DoS. This issue affects WooCommerce: from n/a before 11.1.0.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
+        },
+        {
+          "id": "65769434e789181c2f552b8c7815d89c",
+          "title": "[HIGH CVE] CVE-2026-81781 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "ca5d2367f99ca609fca098560774b540",
+      "title": "[MEDIUM CVE] CVE-2026-86519 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86519",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-09-07T06:17:23Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A security vulnerability has been detected in projeto-siga siga up to 11.0.2.10/11.0.2.13/11.1.1.",
+      "published": "2026-09-08T05:16:48Z",
+      "published_fmt": "08 Sep 2026",
+      "plain_summary": "A vulnerability was found in code-projects Student Crud Operation 1.0. This impacts an unknown function of the file /card_activation.sql of the component Backup File Handler. The manipulation results in information disclosure.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -505,152 +1130,54 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+          "id": "a14ab0754c6d3fb7d0a30795995b7fe4",
+          "title": "[MEDIUM CVE] CVE-2026-81792 in Various Systems"
         },
         {
-          "id": "52c97c2169d205233854ff480c02affe",
-          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
+          "id": "ae4589c3602a1e07dea6c3a7f09d2175",
+          "title": "[HIGH CVE] CVE-2026-76561 in Various Systems"
         }
       ]
     },
     {
-      "id": "d712f6ebb9f36af8bdec01a6c353fe5e",
-      "title": "[MEDIUM CVE] CVE-2026-86275 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86275",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-09-07T06:17:23Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A vulnerability was detected in SourceCodester Syllabus-Aligned Learning Management & Examination System 1.0. This vulnerability affects the function register of the file auth.php.",
+      "id": "a00c50ee365783dfce14b9ea72154d92",
+      "title": "Microsoft releases emergency Windows updates to fix RDS failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/github_2.png",
+      "published": "2026-09-14T20:52:18Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "GitHub Releases",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
+        "#github",
+        "#release"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
-        },
-        {
-          "id": "52c97c2169d205233854ff480c02affe",
-          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
+          "id": "d29b5d53a030c477e79295d7835652ae",
+          "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution"
         }
       ]
     },
     {
-      "id": "fbcd5224cacf074c515b17c73d34a127",
-      "title": "[LOW CVE] CVE-2026-86270 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86270",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-09-07T05:16:55Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A vulnerability has been found in itsourcecode Sales and Inventory System 1.0. The impacted element is an unknown function of the file /pages/settings_edit.php. Such manipulation of the argument ID leads to sql injection.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "164f8be1f1f128d91f8869429cc3ff63",
-          "title": "[LOW CVE] CVE-2026-86271 in Various Systems"
-        },
-        {
-          "id": "0f7409e906776ee7d342499e7eab0d5d",
-          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "164f8be1f1f128d91f8869429cc3ff63",
-      "title": "[LOW CVE] CVE-2026-86271 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86271",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-09-07T05:16:55Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A vulnerability was found in FluentCMS up to 0.0.5. This affects the function GetAccessible of the file src/Backend/FluentCMS.Services/Permissions/PermissionManager.cs. Performing a manipulation results in missing authorization.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "fbcd5224cacf074c515b17c73d34a127",
-          "title": "[LOW CVE] CVE-2026-86270 in Various Systems"
-        },
-        {
-          "id": "0f7409e906776ee7d342499e7eab0d5d",
-          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "4e43a2d76613a05b9951eb047a3afd69",
-      "title": "[MEDIUM CVE] CVE-2026-86272 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86272",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-09-07T05:16:55Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A vulnerability was determined in Beijing Meite Software Technology U+Smart Enjoyment WebSite 18.6001.1096.1000. This impacts an unknown function of the file /Report/Upload/UploadFormImg.ashx.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "14 Sep 2026",
-      "related": [
-        {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
-        },
-        {
-          "id": "52c97c2169d205233854ff480c02affe",
-          "title": "[MEDIUM CVE] CVE-2026-86273 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "271badd9a8df35b42b5a4547e9eef287",
-      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "id": "16500513d9d0fbe302affd2fae5100ee",
+      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+      "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/cve_5.png",
-      "published": "2026-09-13T14:26:32Z",
-      "published_fmt": "13 Sep 2026",
-      "plain_summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+      "published": "2026-09-14T19:51:04Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -659,15 +1186,255 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "14 Sep 2026",
+      "collected_date": "15 Sep 2026",
       "related": [
         {
-          "id": "0f7409e906776ee7d342499e7eab0d5d",
-          "title": "[HIGH CVE] CVE-2026-79697 in Various Systems"
+          "id": "4b84d8df73f742d25b938509e767021a",
+          "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries"
         },
         {
-          "id": "d250a0e120a684910789c13dd4f2b659",
-          "title": "[MEDIUM CVE] CVE-2026-86276 in Various Systems"
+          "id": "be40903c9384f95cb7d2fdb6e0b5ae66",
+          "title": "Burn Out, Or Fade Away"
+        }
+      ]
+    },
+    {
+      "id": "c7c1668b43c618fa76234aad34fcf29c",
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_5.png",
+      "published": "2026-09-14T18:34:16Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "86aa795517d7f0afe88fc88c05fe6999",
+          "title": "Google’s new search redirects make links harder to check before you click - Malwarebytes"
+        },
+        {
+          "id": "5da23b383c6742bb2f893f3b4981f432",
+          "title": "Revolut gave customer IDs and financial data to a government impostor - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "4b84d8df73f742d25b938509e767021a",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s1600/gitea-hacked.jpg",
+      "published": "2026-09-14T16:56:30Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "16500513d9d0fbe302affd2fae5100ee",
+          "title": "Homebrew 7.0.0 gets built-in GUI, better security controls"
+        },
+        {
+          "id": "be40903c9384f95cb7d2fdb6e0b5ae66",
+          "title": "Burn Out, Or Fade Away"
+        }
+      ]
+    },
+    {
+      "id": "d29b5d53a030c477e79295d7835652ae",
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s1600/wordpress-auto.jpg",
+      "published": "2026-09-14T16:00:04Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "a00c50ee365783dfce14b9ea72154d92",
+          "title": "Microsoft releases emergency Windows updates to fix RDS failures"
+        },
+        {
+          "id": "9fb1bddc93affbb99f015fc6a1f112c6",
+          "title": "Unmasking Cloud Identities: From Behavioral Clustering to Automated Detection"
+        }
+      ]
+    },
+    {
+      "id": "86aa795517d7f0afe88fc88c05fe6999",
+      "title": "Google’s new search redirects make links harder to check before you click - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQem4zU2FYV25KRjZ1MG1tWkxCWV9NUC16SlM4cXVsNlk0a2RvNDU2RTYyNG53NjhpMGE5R19UcGNNRmxjNUJjSjNLZnE1d3V3dU03TmVGLXlkMmNXbWtuX0pIQ2NaZ1NlcDZGUTdnaFFfWWdfY28yYUQ0Nld2Z3IxZzJlbFpuano2RU9qajNkUG9fUU55VUxFLVdnYXRDN3I0UGJQdTU4VWlUQ1BjYzIzRnA0SjVvTXhKRDRj?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_2.png",
+      "published": "2026-09-14T15:10:03Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Google’s new search redirects make links harder to check before you click Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "5da23b383c6742bb2f893f3b4981f432",
+          "title": "Revolut gave customer IDs and financial data to a government impostor - Malwarebytes"
+        },
+        {
+          "id": "c7c1668b43c618fa76234aad34fcf29c",
+          "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads"
+        }
+      ]
+    },
+    {
+      "id": "be40903c9384f95cb7d2fdb6e0b5ae66",
+      "title": "Burn Out, Or Fade Away",
+      "link": "https://windowsir.blogspot.com/2026/09/burn-out-or-fade-away.html",
+      "source": "Windows Incident Response",
+      "source_icon": "🕵",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP9CYgFmjWaWSFIAlGDmlP27To20rfKKP_MgEYYk51zwIwfwNwKEHdIoUFGt2I3q67xxdRr_UEnGNZeoXydMtFAQPGNzbKxfK01OSWnzwhO-2Fh6KAn-hZw9MQAcUApKAMUoEcIZ1AUcPQe4laYE2prhhyphenhyphen_Av8Fo2GVpfChKocnX1ZLvaaUw/s72-w140-h200-c/Kurgan.jpg",
+      "published": "2026-09-14T12:25:56Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "I didn't start out in threat intel. I didn't start my career in cybersecurity in DF/IR work.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "5 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "16500513d9d0fbe302affd2fae5100ee",
+          "title": "Homebrew 7.0.0 gets built-in GUI, better security controls"
+        },
+        {
+          "id": "4b84d8df73f742d25b938509e767021a",
+          "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries"
+        }
+      ]
+    },
+    {
+      "id": "33a7d2eb1d2a0ebc33ad285d7425b76b",
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_ratIPK3F0IGyzyDTTPaV26Nnh4gQoFjS0ejR49J_tbGb92GgukT-Mnr9xv9mK7h0QSdeXujxiEtD0AqVKNmrKoG9BMEuut7CB1368iyt3Gr6Xu5mAdkDsUQC86K9GZ-Uw6qfPvYYr9BUvHzn014_rzQeMS5dCVXEwkRLs3eViylo5ChmZs6QQygxE4/s1600/picus-main.jpg",
+      "published": "2026-09-14T11:58:00Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "16500513d9d0fbe302affd2fae5100ee",
+          "title": "Homebrew 7.0.0 gets built-in GUI, better security controls"
+        },
+        {
+          "id": "4b84d8df73f742d25b938509e767021a",
+          "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries"
+        }
+      ]
+    },
+    {
+      "id": "5da23b383c6742bb2f893f3b4981f432",
+      "title": "Revolut gave customer IDs and financial data to a government impostor - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMldmeGdmRkluWWwzdDhpc2FScmxiem9CVGxBdE41SVVKSXRfLUFCSFpRWlFNMlNsMjRUNEpib0tJSkk4TnBZR08xTG5GNjVCZjFCM0RjeHJ4djdqUnRwR1hucU8zbmwzbUxfcFkxMHVyampJSF9KWEk2dXVFSHNTX2N0VnRDZDkwZW43MzNfdEJCdk5MSVgxME9sMFdNOVVCTWdiTXI1TVJHVjB2OTVuNWdWZ0Rlc2s?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-09-14T11:23:06Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "Revolut gave customer IDs and financial data to a government impostor Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "86aa795517d7f0afe88fc88c05fe6999",
+          "title": "Google’s new search redirects make links harder to check before you click - Malwarebytes"
+        },
+        {
+          "id": "c7c1668b43c618fa76234aad34fcf29c",
+          "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads"
+        }
+      ]
+    },
+    {
+      "id": "86223a4e84a81ebe226e99adb3f1b914",
+      "title": "LNK Metadata",
+      "link": "https://windowsir.blogspot.com/2026/09/lnk-metadata.html",
+      "source": "Windows Incident Response",
+      "source_icon": "🕵",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOJYxQosADrs_UpPw4HN7Zur-a9fHd7Qaf8sQfKoRSRAyXyxQ0kZRj8QLrvW_O4UU28kynONKDkV3fLlJqNX9ue89uG4NHFOwVefXRe7EkEc-V4NjF8GXzqmIEnhI18RRtqcp9o4l3h17mqwtX88IJ3p8J7ZLNGPOq00ZX6JWOR1GbSJ8muA/s72-w400-h36-c/rustgate.jpg",
+      "published": "2026-09-14T11:20:41Z",
+      "published_fmt": "14 Sep 2026",
+      "plain_summary": "I ran across this Ctrl-Alt-Intel blog post today, which discusses RustGate v2, and noticed that for all of what was addressed in the blog, there wasn't a great deal of content regarding the delivery method, the LNK file itself.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel"
+      ],
+      "read_time": "4 min read",
+      "forensic_score": 0,
+      "collected_date": "15 Sep 2026",
+      "related": [
+        {
+          "id": "27956e7f53df87ff23e8a588165a1b84",
+          "title": "[Threat IOC] Unknown malware url: https://copiose.org/test_proliv/b?o=93f54a6f01bd953d"
+        },
+        {
+          "id": "9e2608a45daefddc82ef429ad56abbcd",
+          "title": "[Threat IOC] Remus url: http://gofkaxz.click:8137/exports"
         }
       ]
     }
