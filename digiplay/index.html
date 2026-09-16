@@ -436,7 +436,7 @@ footer a:hover{text-decoration:underline;}
 <nav>
   <div style="display:flex;align-items:center;gap:10px;">
     <a href="/" class="nav-logo">JB:<span>FORENSICS</span></a>
-    <button id="audio-toggle" aria-label="Toggle Ambient Audio" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;padding-top:2px;" title="Toggle Ambient Audio">🔇</button>
+    <button id="audio-toggle" aria-label="Toggle Retro Audio FX" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;padding-top:2px;" title="Toggle Retro Audio FX">🔇</button>
   </div>
   <div class="nav-links">
     <a href="/digifeed/" class="nav-btn">DIGIFEED</a>
@@ -664,9 +664,6 @@ footer a:hover{text-decoration:underline;}
     <span>|</span>
     <a href="https://github.com/jeraldbenny" target="_blank" rel="noopener">GITHUB</a>
   </div>
-  <audio id="bg-audio" loop>
-    <source src="../ambilofi.mp3" type="audio/mpeg">
-  </audio>
 </footer>
 
 <script>
@@ -789,7 +786,7 @@ const QUESTION_BANK = {
 // RETRO 8-BIT GAME AUDIO FX SYNTHESIZER (WEB AUDIO API)
 // =============================================================
 let audioCtx = null;
-let sfxEnabled = true;
+let sfxEnabled = false; // Default to muted when entering
 
 function initAudioContext() {
   if (!audioCtx) {
@@ -805,81 +802,38 @@ function initAudioContext() {
 
 function initAudioToggle() {
   const audioBtn = document.getElementById('audio-toggle');
-  const bgAudio = document.getElementById('bg-audio');
   if (!audioBtn) return;
 
-  function syncAudioUI(isPlaying) {
-    if (isPlaying) {
-      audioBtn.innerHTML = '🔊';
-      audioBtn.style.opacity = '1';
-      sfxEnabled = true;
-    } else {
-      audioBtn.innerHTML = '🔇';
-      audioBtn.style.opacity = '0.6';
-      sfxEnabled = false;
-    }
-  }
-
-  // Check localStorage ambient-audio state
-  const savedState = localStorage.getItem('ambient-audio');
-  if (savedState === 'playing') {
-    syncAudioUI(true);
-    if (bgAudio) {
-      bgAudio.volume = 0.3;
-      bgAudio.play().then(() => {
-        syncAudioUI(true);
-      }).catch(() => {
-        syncAudioUI(false);
-      });
-    }
+  // Check saved state: defaults to muted when entering unless user explicitly unmuted
+  const savedMute = localStorage.getItem('digiplay_sfx_muted');
+  if (savedMute === 'false') {
+    sfxEnabled = true;
+    audioBtn.innerHTML = '🔊';
+    audioBtn.style.opacity = '1';
   } else {
-    syncAudioUI(false);
-    if (bgAudio) bgAudio.pause();
+    sfxEnabled = false;
+    audioBtn.innerHTML = '🔇';
+    audioBtn.style.opacity = '0.6';
   }
 
   audioBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     initAudioContext();
-    if (bgAudio && bgAudio.paused) {
-      bgAudio.volume = 0.3;
-      bgAudio.play().catch(() => {});
-      syncAudioUI(true);
-      localStorage.setItem('ambient-audio', 'playing');
+    sfxEnabled = !sfxEnabled;
+    if (sfxEnabled) {
+      audioBtn.innerHTML = '🔊';
+      audioBtn.style.opacity = '1';
       localStorage.setItem('digiplay_sfx_muted', 'false');
       playSfx('click');
     } else {
-      if (bgAudio) bgAudio.pause();
-      syncAudioUI(false);
-      localStorage.setItem('ambient-audio', 'paused');
+      audioBtn.innerHTML = '🔇';
+      audioBtn.style.opacity = '0.6';
       localStorage.setItem('digiplay_sfx_muted', 'true');
-    }
-  });
-
-  window.addEventListener('storage', (e) => {
-    if (e.key === 'ambient-audio') {
-      if (e.newValue === 'playing') {
-        if (bgAudio && bgAudio.paused) {
-          bgAudio.volume = 0.3;
-          bgAudio.play().catch(() => {});
-        }
-        syncAudioUI(true);
-      } else if (e.newValue === 'paused') {
-        if (bgAudio && !bgAudio.paused) {
-          bgAudio.pause();
-        }
-        syncAudioUI(false);
-      }
     }
   });
 
   const enableAudioOnUserGesture = () => {
     initAudioContext();
-    const currentSaved = localStorage.getItem('ambient-audio');
-    if (currentSaved === 'playing' && bgAudio && bgAudio.paused) {
-      bgAudio.volume = 0.3;
-      bgAudio.play().catch(() => {});
-      syncAudioUI(true);
-    }
     document.removeEventListener('click', enableAudioOnUserGesture);
     document.removeEventListener('keydown', enableAudioOnUserGesture);
   };
