@@ -1846,13 +1846,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav>
   <div style="display:flex;align-items:center;gap:12px;">
-    <a href="../index.html" class="nav-logo">JB<span>:</span>FORENSICS</a>
+    <a href="/" class="nav-logo">JB<span>:</span>FORENSICS</a>
     <button id="audio-toggle" aria-label="Toggle Ambient Audio" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;padding-top:2px;" title="Toggle Ambient Audio">🔇</button>
   </div>
   <div class="nav-links">
-    <a href="../digilab/index.html" class="nav-back-btn">DIGILAB</a>
-    <a href="../digiplay/index.html" class="nav-back-btn">DIGIPLAY</a>
-    <a href="../index.html" class="nav-back-btn">◀ GUILD HALL</a>
+    <a href="/digilab/" class="nav-back-btn">DIGILAB</a>
+    <a href="/digiplay/" class="nav-back-btn">DIGIPLAY</a>
+    <a href="/" class="nav-back-btn">◀ GUILD HALL</a>
   </div>
 </nav>
 
@@ -1914,7 +1914,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 {archive_explorer_html}
 <footer>
-  <em>DIGIFEED</em> · Curated by <a href="../index.html">JERALD BENNY</a><br>
+  <em>DIGIFEED</em> · Curated by <a href="/">JERALD BENNY</a><br>
   <span>All original articles belong to their respective publishers. This hub is for educational purposes only.</span>
 </footer>
 <audio id="bg-audio" loop>
@@ -2891,8 +2891,8 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
 
 <div id="mainContent">
 <nav>
-  <a href="../digifeed/" class="nav-logo">JB<span>:</span>OPS</a>
-  <a href="../digifeed/" class="nav-back-btn">◀ RETURN TO FEED</a>
+  <a href="/digifeed/" class="nav-logo">JB<span>:</span>OPS</a>
+  <a href="/digifeed/" class="nav-back-btn">◀ RETURN TO FEED</a>
 </nav>
 
 <div class="dash-wrap">

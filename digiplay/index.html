@@ -435,13 +435,13 @@ footer a:hover{text-decoration:underline;}
 
 <nav>
   <div style="display:flex;align-items:center;gap:10px;">
-    <a href="../index.html" class="nav-logo">JB:<span>FORENSICS</span></a>
-    <button id="audio-toggle" aria-label="Toggle Game Audio FX" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:1;transition:opacity 0.2s;padding-top:2px;" title="Toggle Retro 8-Bit Audio FX">🔊</button>
+    <a href="/" class="nav-logo">JB:<span>FORENSICS</span></a>
+    <button id="audio-toggle" aria-label="Toggle Ambient Audio" style="background:transparent;border:none;font-size:14px;cursor:pointer;opacity:0.6;transition:opacity 0.2s;padding-top:2px;" title="Toggle Ambient Audio">🔇</button>
   </div>
   <div class="nav-links">
-    <a href="../digifeed/index.html" class="nav-btn">DIGIFEED</a>
-    <a href="../digilab/index.html" class="nav-btn">DIGILAB</a>
-    <a href="../index.html" class="nav-btn">MAIN SITE</a>
+    <a href="/digifeed/" class="nav-btn">DIGIFEED</a>
+    <a href="/digilab/" class="nav-btn">DIGILAB</a>
+    <a href="/" class="nav-btn">MAIN SITE</a>
   </div>
 </nav>
 
@@ -656,14 +656,17 @@ footer a:hover{text-decoration:underline;}
 <footer>
   <p>© 2026 JERALD BENNY. ALL RIGHTS RESERVED.</p>
   <div class="footer-links">
-    <a href="../index.html">MAIN SITE</a>
+    <a href="/">MAIN SITE</a>
     <span>|</span>
-    <a href="../digifeed/index.html">DIGIFEED</a>
+    <a href="/digifeed/">DIGIFEED</a>
     <span>|</span>
-    <a href="../digilab/index.html">DIGILAB</a>
+    <a href="/digilab/">DIGILAB</a>
     <span>|</span>
     <a href="https://github.com/jeraldbenny" target="_blank" rel="noopener">GITHUB</a>
   </div>
+  <audio id="bg-audio" loop>
+    <source src="../ambilofi.mp3" type="audio/mpeg">
+  </audio>
 </footer>
 
 <script>
@@ -802,37 +805,81 @@ function initAudioContext() {
 
 function initAudioToggle() {
   const audioBtn = document.getElementById('audio-toggle');
+  const bgAudio = document.getElementById('bg-audio');
   if (!audioBtn) return;
 
-  const savedMute = localStorage.getItem('digiplay_sfx_muted');
-  if (savedMute === 'true') {
-    sfxEnabled = false;
-    audioBtn.innerHTML = '🔇';
-    audioBtn.style.opacity = '0.5';
+  function syncAudioUI(isPlaying) {
+    if (isPlaying) {
+      audioBtn.innerHTML = '🔊';
+      audioBtn.style.opacity = '1';
+      sfxEnabled = true;
+    } else {
+      audioBtn.innerHTML = '🔇';
+      audioBtn.style.opacity = '0.6';
+      sfxEnabled = false;
+    }
+  }
+
+  // Check localStorage ambient-audio state
+  const savedState = localStorage.getItem('ambient-audio');
+  if (savedState === 'playing') {
+    syncAudioUI(true);
+    if (bgAudio) {
+      bgAudio.volume = 0.3;
+      bgAudio.play().then(() => {
+        syncAudioUI(true);
+      }).catch(() => {
+        syncAudioUI(false);
+      });
+    }
   } else {
-    sfxEnabled = true;
-    audioBtn.innerHTML = '🔊';
-    audioBtn.style.opacity = '1';
+    syncAudioUI(false);
+    if (bgAudio) bgAudio.pause();
   }
 
   audioBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     initAudioContext();
-    sfxEnabled = !sfxEnabled;
-    if (sfxEnabled) {
-      audioBtn.innerHTML = '🔊';
-      audioBtn.style.opacity = '1';
+    if (bgAudio && bgAudio.paused) {
+      bgAudio.volume = 0.3;
+      bgAudio.play().catch(() => {});
+      syncAudioUI(true);
+      localStorage.setItem('ambient-audio', 'playing');
       localStorage.setItem('digiplay_sfx_muted', 'false');
       playSfx('click');
     } else {
-      audioBtn.innerHTML = '🔇';
-      audioBtn.style.opacity = '0.5';
+      if (bgAudio) bgAudio.pause();
+      syncAudioUI(false);
+      localStorage.setItem('ambient-audio', 'paused');
       localStorage.setItem('digiplay_sfx_muted', 'true');
+    }
+  });
+
+  window.addEventListener('storage', (e) => {
+    if (e.key === 'ambient-audio') {
+      if (e.newValue === 'playing') {
+        if (bgAudio && bgAudio.paused) {
+          bgAudio.volume = 0.3;
+          bgAudio.play().catch(() => {});
+        }
+        syncAudioUI(true);
+      } else if (e.newValue === 'paused') {
+        if (bgAudio && !bgAudio.paused) {
+          bgAudio.pause();
+        }
+        syncAudioUI(false);
+      }
     }
   });
 
   const enableAudioOnUserGesture = () => {
     initAudioContext();
+    const currentSaved = localStorage.getItem('ambient-audio');
+    if (currentSaved === 'playing' && bgAudio && bgAudio.paused) {
+      bgAudio.volume = 0.3;
+      bgAudio.play().catch(() => {});
+      syncAudioUI(true);
+    }
     document.removeEventListener('click', enableAudioOnUserGesture);
     document.removeEventListener('keydown', enableAudioOnUserGesture);
   };
