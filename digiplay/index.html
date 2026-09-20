@@ -46,6 +46,12 @@
 }
 </script>
 <link rel="icon" type="image/png" href="../favicon.png">
+<script>
+  // Immediate embed detection to prevent flashing welcome screen
+  if (window.self !== window.top || window.location.search.includes('ops=1')) {
+    document.documentElement.classList.add('ops-embed');
+  }
+</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -53,6 +59,7 @@
 <!-- Three.js & OrbitControls for 3D Crime Scene -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="../tracker.js" defer></script>
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
@@ -62,6 +69,66 @@
 }
 body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh;display:flex;flex-direction:column;overflow-x:clip;}
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);}
+
+/* Ops Embed Overrides - Direct 3D Crime Scene View */
+html.ops-embed nav,
+html.ops-embed .hero-section,
+html.ops-embed footer,
+html.ops-embed #stage-landing,
+html.ops-embed #stage-quiz,
+html.ops-embed #stage-briefing,
+html.ops-embed #stage-results,
+html.ops-embed #caseTitleDisplay,
+html.ops-embed #caseStoryBriefingBox,
+html.ops-embed .panel-sub,
+html.ops-embed .hud-actions,
+body.ops-embed nav,
+body.ops-embed .hero-section,
+body.ops-embed footer,
+body.ops-embed #stage-landing,
+body.ops-embed #stage-quiz,
+body.ops-embed #stage-briefing,
+body.ops-embed #stage-results,
+body.ops-embed #caseTitleDisplay,
+body.ops-embed #caseStoryBriefingBox,
+body.ops-embed .panel-sub,
+body.ops-embed .hud-actions {
+  display: none !important;
+}
+
+html.ops-embed,
+body.ops-embed {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #05070f !important;
+}
+
+html.ops-embed .main-wrapper,
+body.ops-embed .main-wrapper {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+html.ops-embed #stage-case,
+body.ops-embed #stage-case {
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+html.ops-embed #threeCanvasContainer,
+body.ops-embed #threeCanvasContainer {
+  height: 520px !important;
+  width: 100% !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(8,11,24,0.96);
@@ -982,8 +1049,30 @@ let clickableObjects = [];
 let hoverTooltip = null;
 
 window.addEventListener('DOMContentLoaded', () => {
-  switchStage('stage-landing');
-  checkSessionState();
+  const isOpsEmbed = window.self !== window.top || window.location.search.includes('ops=1');
+  if (isOpsEmbed) {
+    document.documentElement.classList.add('ops-embed');
+    document.body.classList.add('ops-embed');
+    const urlParams = new URLSearchParams(window.location.search);
+    const cId = parseInt(urlParams.get('case')) || 1;
+    switchStage('stage-case');
+    loadCaseDirect(cId);
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: 'digiplay-ready', caseId: cId }, '*');
+    }
+    if (urlParams.get('autotest') === '1') {
+      setTimeout(() => {
+        const res = runAutoEvidenceTest();
+        const testResEl = document.createElement('div');
+        testResEl.id = 'autoTestResultDump';
+        testResEl.textContent = JSON.stringify(res);
+        document.body.appendChild(testResEl);
+      }, 400);
+    }
+  } else {
+    switchStage('stage-landing');
+    checkSessionState();
+  }
 });
 
 function loadCaseDirect(caseId) {
@@ -1401,7 +1490,7 @@ function init3DCaseScene() {
   const canvas = document.getElementById('threeCanvas');
   if (!container || !canvas) return;
 
-  const width = container.clientWidth;
+  const width = container.clientWidth || 800;
   const height = container.clientHeight || 520;
 
   const dossier = CASE_DOSSIERS[currentCaseId];
@@ -1476,6 +1565,7 @@ function init3DCaseScene() {
       const w = container.clientWidth;
       const h = container.clientHeight || 520;
       camera.aspect = w / h;
+      camera.updateProjectionMatrix();
       renderer.setSize(w, h);
     });
 
@@ -1531,6 +1621,16 @@ function init3DCaseScene() {
     while (scene.children.length > 0) {
       scene.remove(scene.children[0]);
     }
+  }
+
+  // Always reset camera view, aspect ratio, renderer size, and orbit target for the active case room
+  if (camera && controls && renderer) {
+    camera.position.set(0, 3.2, 5.2);
+    controls.target.set(0, 0.8, 0);
+    controls.update();
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
   }
 
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
@@ -3731,6 +3831,28 @@ function on3DCanvasClick(event) {
 
   if (intersects.length > 0) {
     const obj = intersects[0].object;
+
+    // Ops parent telemetry notification
+    try {
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage({
+          type: 'digiplay-click',
+          caseId: currentCaseId,
+          objName: obj.userData ? (obj.userData.name || 'Unknown Object') : 'Object',
+          objId: obj.userData ? (obj.userData.id || 'distractor') : 'distractor',
+          isEvidence: !!(obj.userData && obj.userData.isEvidence),
+          pos: [
+            parseFloat(intersects[0].point.x.toFixed(3)),
+            parseFloat(intersects[0].point.y.toFixed(3)),
+            parseFloat(intersects[0].point.z.toFixed(3))
+          ],
+          distance: parseFloat(intersects[0].distance.toFixed(2)),
+          foundCount: foundEvidence.size + (obj.userData && obj.userData.isEvidence && !foundEvidence.has(obj.userData.id) ? 1 : 0),
+          desc: obj.userData ? (obj.userData.desc || '') : ''
+        }, '*');
+      }
+    } catch(err) {}
+
     if (obj.userData.isEvidence) {
       if (!foundEvidence.has(obj.userData.id)) {
         foundEvidence.add(obj.userData.id);
@@ -3775,8 +3897,6 @@ function on3DCanvasClick(event) {
   }
 }
 
-
-
 function openModal(title, desc) {
   document.getElementById('modalObjTitle').textContent = title;
   document.getElementById('modalObjDesc').textContent = desc;
@@ -3786,6 +3906,107 @@ function openModal(title, desc) {
 function closeModal() {
   document.getElementById('inspectionModal').classList.remove('active');
 }
+
+// =============================================================
+// OPS REMOTE CONTROL & 1-CLICK TEST API
+// =============================================================
+function runAutoEvidenceTest() {
+  const evidenceList = CASE_EVIDENCE_MAP[currentCaseId] || [];
+  const results = [];
+  let passed = 0;
+
+  evidenceList.forEach((evItem) => {
+    let targetMesh = null;
+    if (scene) {
+      scene.traverse(node => {
+        if (node.userData && node.userData.id === evItem.id) {
+          targetMesh = node;
+        }
+      });
+    }
+
+    if (targetMesh) {
+      foundEvidence.add(evItem.id);
+      if (scene) {
+        scene.traverse(node => {
+          if (node.isMesh && node.userData && node.userData.id === evItem.id) {
+            if (node.material && node.material.color) node.material.color.setHex(0x50fa7b);
+            if (node.material && node.material.emissive) node.material.emissive.setHex(0x105020);
+          }
+        });
+      }
+      const badge = document.getElementById(`badge-${evItem.id}`);
+      if (badge) {
+        badge.classList.add('found');
+        badge.textContent = `[✓] ${evItem.name}`;
+      }
+      passed++;
+      results.push({
+        id: evItem.id,
+        name: evItem.name,
+        pos: evItem.pos,
+        status: 'VERIFIED',
+        desc: evItem.desc
+      });
+    } else {
+      results.push({
+        id: evItem.id,
+        name: evItem.name,
+        pos: evItem.pos,
+        status: 'MISSING_MESH'
+      });
+    }
+  });
+
+  const evEl = document.getElementById('evCount');
+  if (evEl) evEl.textContent = foundEvidence.size;
+  caseScore = passed * 10;
+  const csEl = document.getElementById('caseScoreDisplay');
+  if (csEl) csEl.textContent = caseScore;
+  if (foundEvidence.size === 10) {
+    const fb = document.getElementById('finishCaseBtn');
+    if (fb) fb.style.display = 'inline-flex';
+  }
+
+  if (window.parent && window.parent !== window) {
+    window.parent.postMessage({
+      type: 'digiplay-auto-test-result',
+      caseId: currentCaseId,
+      caseTitle: CASE_DOSSIERS[currentCaseId] ? CASE_DOSSIERS[currentCaseId].title : `Case ${currentCaseId}`,
+      total: evidenceList.length,
+      passed: passed,
+      results: results
+    }, '*');
+  }
+  return { total: evidenceList.length, passed: passed, results: results };
+}
+
+window.addEventListener('message', (e) => {
+  if (!e.data || typeof e.data !== 'object') return;
+  if (e.data.action === 'loadCase') {
+    document.documentElement.classList.add('ops-embed');
+    document.body.classList.add('ops-embed');
+    switchStage('stage-case');
+    loadCaseDirect(parseInt(e.data.caseId) || 1);
+    if (renderer && camera) {
+      const container = document.getElementById('threeCanvasContainer');
+      if (container) {
+        const w = container.clientWidth;
+        const h = container.clientHeight || 520;
+        camera.aspect = w / h;
+        camera.updateProjectionMatrix();
+        renderer.setSize(w, h);
+      }
+    }
+  } else if (e.data.action === 'resetScene') {
+    init3DCaseScene();
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: 'digiplay-reset-ack', caseId: currentCaseId }, '*');
+    }
+  } else if (e.data.action === 'autoTestEvidence') {
+    runAutoEvidenceTest();
+  }
+});
 
 function startCaseTimer() {
   if (caseTimerInterval) clearInterval(caseTimerInterval);
@@ -3863,6 +4084,41 @@ function showResultsStage() {
     date: todayDate
   };
   localStorage.setItem('digiplay_session', JSON.stringify(sessionData));
+
+  // Dispatch score telemetry to Google Sheet Webhook if configured
+  try {
+    const DEFAULT_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwuAYhDnph3cRrdCs-SfE-EnhlWLjNR8xuw_F-QOitWjU8vB697TCl9qtFwARo4ZYpchg/exec";
+    const webhookUrl = localStorage.getItem('digiplay_webhook_url') || DEFAULT_WEBHOOK_URL;
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const deviceType = isMobile ? (window.innerWidth >= 768 ? 'Tablet' : 'Mobile') : 'Desktop';
+    const nowIso = new Date().toISOString().replace('T', ' ').substring(0, 19);
+    const payload = {
+      timestamp: nowIso,
+      playerName: playerName || "Anonymous",
+      username: playerName || "Anonymous",
+      totalXP: totalXP,
+      totalXp: totalXP,
+      quizXP: quizScore,
+      quizXp: quizScore,
+      caseXP: caseScore,
+      sceneXp: caseScore,
+      accuracy: accuracy + "%",
+      rank: rank.toUpperCase(),
+      casePlayed: "Case " + currentCaseId,
+      caseSolved: currentCaseId,
+      attempt: currentAttempt,
+      device: deviceType,
+      userAgent: navigator.userAgent
+    };
+    if (webhookUrl) {
+      fetch(webhookUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).catch(() => {});
+    }
+  } catch(e) {}
 
   if (currentAttempt === 1) {
     document.getElementById('retryAttemptBtn').style.display = 'inline-flex';

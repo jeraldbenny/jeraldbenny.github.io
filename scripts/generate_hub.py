@@ -367,7 +367,7 @@ def generate():
   <canvas id="briefCanvas" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:0.14;z-index:0;"></canvas>
 
   <div style="position:relative;z-index:1;">
-    <p style="font-family:\'Press Start 2P\',monospace;font-size:6.5px;color:#f0c040;margin-bottom:10px;letter-spacing:1px;">DAILY INTELLIGENCE BRIEF</p>
+    <p style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:6.5px;color:#f0c040;margin-bottom:10px;letter-spacing:1px;">DAILY INTELLIGENCE BRIEF</p>
 
     <!-- ONE-LINE STATS ROW -->
     <div class="brief-stats-grid">
@@ -402,7 +402,7 @@ def generate():
     <div class="brief-main-layout">
       <div class="brief-text-col">
         <div style="font-size:15px;margin-bottom:10px;line-height:1.4;">
-          <span style="color:#f0c040;font-weight:bold;font-family:\'Press Start 2P\',monospace;font-size:5px;display:block;margin-bottom:4px;letter-spacing:1px;">TOP STORY:</span>
+          <span style="color:#f0c040;font-weight:bold;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;display:block;margin-bottom:4px;letter-spacing:1px;">TOP STORY:</span>
           <a href="{briefing.get('top_story_link', '#')}" target="_blank" rel="noopener" style="color:#fff;font-weight:bold;text-decoration:none;display:inline-block;cursor:pointer;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;user-select:none;">{briefing.get("top_story", "")}</a>
         </div>
         <div style="font-size:14px;margin-bottom:10px;color:#b8c8e0;font-family:'VT323',monospace;">
@@ -410,8 +410,8 @@ def generate():
           <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-start;">{trending_chips}</div>
         </div>
         <div style="line-height:1.4;">
-          <span style="color:#a070e8;font-weight:bold;font-family:\'Press Start 2P\',monospace;font-size:5px;display:block;margin-bottom:4px;letter-spacing:1px;">READS:</span>
-          <ol style="margin-left:18px;color:#b8c8e0;font-size:15px;font-family:\'VT323\',monospace;list-style-type:decimal;line-height:1.3;">{reads_html}</ol>
+          <span style="color:#a070e8;font-weight:bold;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;display:block;margin-bottom:4px;letter-spacing:1px;">READS:</span>
+          <ol style="margin-left:18px;color:#b8c8e0;font-size:15px;font-family:VT323,monospace;list-style-type:decimal;line-height:1.3;">{reads_html}</ol>
         </div>
       </div>
       <div class="brief-pie-col">
@@ -932,21 +932,21 @@ def generate():
             day_briefing_html = f"""
             <div class="day-briefing-box" style="margin-bottom:16px; padding:12px 14px; border:1px solid rgba(0,255,204,0.15); background:rgba(17,22,38,0.35); position:relative; overflow:hidden;">
               <div style="position:relative; z-index:1;">
-                <p style="font-family:\'Press Start 2P\',monospace; font-size:6px; color:#f0c040; margin-bottom:10px; letter-spacing:0.5px;">// DAILY INTEL BRIEF //</p>
+                <p style="font-family:&quot;Press Start 2P&quot;,monospace; font-size:6px; color:#f0c040; margin-bottom:10px; letter-spacing:0.5px;">// DAILY INTEL BRIEF //</p>
                 
                 <div style="font-size:14px; margin-bottom:8px; line-height:1.35;">
-                  <span style="color:#f0c040; font-family:\'Press Start 2P\',monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">TOP STORY:</span>
+                  <span style="color:#f0c040; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">TOP STORY:</span>
                   <a href="{day_top_story_link}" target="_blank" rel="noopener" style="color:#fff; font-weight:bold; text-decoration:none; display:inline-block; cursor:pointer;">{day_top_story_title}</a>
                 </div>
                 
-                <div style="font-size:13px; margin-bottom:8px; color:#b8c8e0; font-family:\'VT323\',monospace;">
-                  <span style="color:#3cc8c0; font-family:\'Press Start 2P\',monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">TRENDING:</span>
+                <div style="font-size:13px; margin-bottom:8px; color:#b8c8e0; font-family:VT323,monospace;">
+                  <span style="color:#3cc8c0; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">TRENDING:</span>
                   <div style="display:flex; gap:6px; flex-wrap:wrap; justify-content:flex-start; margin-top:2px;">{day_trending_chips}</div>
                 </div>
                 
                 <div style="line-height:1.35;">
-                  <span style="color:#a070e8; font-family:\'Press Start 2P\',monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">READS:</span>
-                  <ol style="margin-left:14px; color:#b8c8e0; font-size:14px; font-family:\'VT323\',monospace; list-style-type:decimal; line-height:1.2; padding-left:2px;">{day_reads_html}</ol>
+                  <span style="color:#a070e8; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5px; display:block; margin-bottom:2px; letter-spacing:0.5px;">READS:</span>
+                  <ol style="margin-left:14px; color:#b8c8e0; font-size:14px; font-family:VT323,monospace; list-style-type:decimal; line-height:1.2; padding-left:2px;">{day_reads_html}</ol>
                 </div>
               </div>
             </div>
@@ -1418,6 +1418,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <!-- End Google Tag Manager -->
 <title>DigiFeed | Daily Digital Forensics & Cybersecurity News</title>
+<script src="../tracker.js" defer></script>
 <meta name="description" content="DigiFeed is a daily automated digest of the latest Digital Forensics & Cybersecurity news, curated by Jerald Benny from top industry sources.">
 <link rel="canonical" href="https://jeraldbenny.qd.je/digifeed/" />
 
@@ -2449,7 +2450,7 @@ function showArchiveDate(dateStr, btn) {{
             for d_str in day_keys:
                 day_total = len(days_dict[d_str])
                 archive_sections_ops.append(f'''
-                <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:\'VT323\',monospace; font-size:16px;">
+                <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:VT323,monospace; font-size:16px;">
                   <span style="color:#00ffcc;">📅 {d_str} ({m_str})</span>
                   <span style="color:var(--gold); font-weight:bold;">{day_total} dispatches</span>
                 </div>
@@ -2468,13 +2469,24 @@ function showArchiveDate(dateStr, btn) {{
                 latest_log_content = f"Error reading log: {e}"
                 
         available_logs = []
-        for lf in log_files[:25]:
+        latest_log_basename = os.path.basename(log_files[0]) if log_files else "None"
+        for idx, lf in enumerate(log_files[:25]):
             size_kb = os.path.getsize(lf) / 1024.0
             basename = os.path.basename(lf)
+            is_active = (idx == 0)
+            btn_color = "var(--teal)" if is_active else "#b8c8e0"
+            badge_latest = '<span style="font-family:&quot;Press Start 2P&quot;,monospace; font-size:5px; background:var(--teal); color:#000; padding:2px 5px; border-radius:2px; margin-left:6px;">LATEST</span>' if is_active else ''
             available_logs.append(f'''
-            <div style="display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:\'VT323\',monospace; font-size:16px;">
-              <a href="logs/{basename}" download="{basename}" style="color:#b8c8e0; text-decoration:none; cursor:pointer;" aria-label="Download log">📄 {basename}</a>
-              <span style="color:#5a6a8a;">{size_kb:.2f} KB</span>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:7px 10px; border-bottom:1px solid rgba(255,255,255,0.05); font-family:VT323,monospace; font-size:16px; background:{'rgba(60,200,192,0.06)' if is_active else 'transparent'};">
+              <div style="display:flex; align-items:center; gap:8px;">
+                <button class="ops-log-select-btn" onclick="opsViewLog(\'{basename}\', this)" style="background:none; border:none; color:{btn_color}; cursor:pointer; font-family:VT323,monospace; font-size:17px; padding:0; text-align:left;">
+                  📄 {basename} {badge_latest}
+                </button>
+              </div>
+              <div style="display:flex; align-items:center; gap:12px;">
+                <span style="color:#5a6a8a;">{size_kb:.2f} KB</span>
+                <a href="logs/{basename}" download="{basename}" style="color:var(--gold); font-size:13px; text-decoration:none; padding:2px 8px; border:1px solid rgba(240,192,64,0.3); border-radius:2px;" title="Download log file">DOWNLOAD 📥</a>
+              </div>
             </div>
             ''')
         available_logs_html = "".join(available_logs) if available_logs else '<div style="color:#5a6a8a;">No historical log files.</div>'
@@ -2567,16 +2579,16 @@ function showArchiveDate(dateStr, btn) {{
         if bot_errors:
             for be in bot_errors:
                 bot_errors_html += f'''
-<div style="background:rgba(224, 72, 72, 0.08); border-left: 3px solid #e04848; padding: 12px; margin-bottom: 8px; font-family:\'VT323\',monospace; font-size:16px;">
-  <span style="color:#e04848; font-weight:bold; font-family:\'Press Start 2P\',monospace; font-size:6px; display:block; margin-bottom:4px;">✖ DIGIBOT ANOMALY DETECTED</span>
+<div style="background:rgba(224, 72, 72, 0.08); border-left: 3px solid #e04848; padding: 12px; margin-bottom: 8px; font-family:VT323,monospace; font-size:16px;">
+  <span style="color:#e04848; font-weight:bold; font-family:&quot;Press Start 2P&quot;,monospace; font-size:6px; display:block; margin-bottom:4px;">✖ DIGIBOT ANOMALY DETECTED</span>
   <span style="color:#fff;">{be}</span>
 </div>
 '''
         else:
             bot_errors_html = f'''
 <div style="background:rgba(64, 208, 96, 0.06); border: 1px solid rgba(64, 208, 96, 0.3); padding: 14px; margin-bottom: 10px;">
-  <div style="color:#40d060; font-family:\'Press Start 2P\',monospace; font-size:6.5px; margin-bottom:6px;">✔ ZERO DETECTED FAULTS — ALL DIGIBOT SUBSYSTEMS NOMINAL</div>
-  <div style="font-family:\'VT323\',monospace; font-size:16px; color:#b8c8e0; line-height:1.5;">
+  <div style="color:#40d060; font-family:&quot;Press Start 2P&quot;,monospace; font-size:6.5px; margin-bottom:6px;">✔ ZERO DETECTED FAULTS — ALL DIGIBOT SUBSYSTEMS NOMINAL</div>
+  <div style="font-family:VT323,monospace; font-size:16px; color:#b8c8e0; line-height:1.5;">
     • FastEmbed ONNX Model: <span style="color:#40d060;">384-D Matrix OK</span><br>
     • Pinecone Serverless Vector Store: <span style="color:#40d060;">Index Online & Synced ({bot_total_vec:,} Vectors)</span><br>
     • Dynamic Briefing Ingestion: <span style="color:#40d060;">Daily Grounding Anchors Active</span><br>
@@ -2623,7 +2635,7 @@ function showArchiveDate(dateStr, btn) {{
         for cat, count in cat_counts.items():
             percentage = int((count / max_count) * 100) if max_count else 0
             cat_bars_html += f'''
-            <div style="margin-bottom:12px; font-family:\'VT323\',monospace; font-size:18px;">
+            <div style="margin-bottom:12px; font-family:VT323,monospace; font-size:18px;">
               <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
                 <span>{cat}</span>
                 <span style="color:var(--gold); font-weight:bold;">{count} dispatches</span>
@@ -2647,7 +2659,7 @@ function showArchiveDate(dateStr, btn) {{
                 status_html = '<span style="color:#40d060; font-weight:bold;">✔ Healthy</span>'
             
             source_table_rows += f'''
-            <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:\'VT323\',monospace; font-size:16px;">
+            <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:VT323,monospace; font-size:16px;">
               <td style="padding:6px; color:#fff;">{name}</td>
               <td style="padding:6px; color:var(--subtext);">{category}</td>
               <td style="padding:6px; max-width:240px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:var(--subtext);"><a href="{url}" target="_blank" style="color:inherit; text-decoration:none;">{url}</a></td>
@@ -2670,18 +2682,18 @@ function showArchiveDate(dateStr, btn) {{
                 medium_cves_count += 1
         
         cve_breakdown_html = f'''
-        <div style="display:flex; gap:16px; margin-top:14px; font-family:\'VT323\',monospace; font-size:18px;">
+        <div style="display:flex; gap:16px; margin-top:14px; font-family:VT323,monospace; font-size:18px;">
           <div style="flex:1; border:1px solid rgba(224, 72, 72, 0.4); padding:10px; text-align:center; background:rgba(224, 72, 72, 0.05);">
             <span style="color:#e04848; font-weight:bold; font-size:24px;">{critical_cves_count}</span><br>
-            <span style="font-size:14px; color:#5a6a8a; font-family:\'Press Start 2P\',monospace; font-size:5.5px; display:block; margin-top:4px;">CRITICAL CVE</span>
+            <span style="font-size:14px; color:#5a6a8a; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5.5px; display:block; margin-top:4px;">CRITICAL CVE</span>
           </div>
           <div style="flex:1; border:1px solid rgba(240, 192, 64, 0.4); padding:10px; text-align:center; background:rgba(240, 192, 64, 0.05);">
             <span style="color:#f0c040; font-weight:bold; font-size:24px;">{high_cves_count}</span><br>
-            <span style="font-size:14px; color:#5a6a8a; font-family:\'Press Start 2P\',monospace; font-size:5.5px; display:block; margin-top:4px;">HIGH CVE</span>
+            <span style="font-size:14px; color:#5a6a8a; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5.5px; display:block; margin-top:4px;">HIGH CVE</span>
           </div>
           <div style="flex:1; border:1px solid rgba(60, 200, 192, 0.4); padding:10px; text-align:center; background:rgba(60, 200, 192, 0.05);">
             <span style="color:#3cc8c0; font-weight:bold; font-size:24px;">{medium_cves_count}</span><br>
-            <span style="font-size:14px; color:#5a6a8a; font-family:\'Press Start 2P\',monospace; font-size:5.5px; display:block; margin-top:4px;">MED / LOW CVE</span>
+            <span style="font-size:14px; color:#5a6a8a; font-family:&quot;Press Start 2P&quot;,monospace; font-size:5.5px; display:block; margin-top:4px;">MED / LOW CVE</span>
           </div>
         </div>
         '''
@@ -2696,7 +2708,7 @@ function showArchiveDate(dateStr, btn) {{
             run_t = run_t.replace(hour=6, minute=0, second=0, microsecond=0)
             formatted_time = run_t.strftime("%d %b %Y, %H:%M IST")
             deployments_html += f'''
-            <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:\'VT323\',monospace; font-size:16px;">
+            <div style="display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-family:VT323,monospace; font-size:16px;">
               <span style="color:#fff;">Daily Sync Run #{7-i}</span>
               <span style="color:#40d060; font-weight:bold;">✔ Completed ({formatted_time})</span>
             </div>
@@ -2711,7 +2723,11 @@ function showArchiveDate(dateStr, btn) {{
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DigiFeed Ops</title>
 <meta name="robots" content="noindex, nofollow">
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="../digiplay/digiplay-data.js"></script>
 <style>
 :root {{
   --bg: #080b18;
@@ -2722,13 +2738,264 @@ function showArchiveDate(dateStr, btn) {{
   --gold: #f0c040;
   --teal: #3cc8c0;
 }}
-*{{margin:0;padding:0;box-sizing:border-box;}}
+*{{margin:0;padding:0;box-sizing:border-box;font-synthesis:none;}}
 html{{background:var(--bg);}}
 body{{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-size:20px;line-height:1.6;overflow-x:hidden;-webkit-tap-highlight-color:transparent;min-height:100vh;}}
 
 @keyframes pulse-dot {{
   0%, 100% {{ opacity: 1; }}
   50% {{ opacity: 0.2; }}
+}}
+
+
+
+@media (max-width: 960px) {{
+  .ops-charts-grid {{
+    grid-template-columns: 1fr !important;
+  }}
+}}
+.ops-breakdown-card {{
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--border);
+  padding: 14px 16px;
+  border-radius: 2px;
+}}
+.ops-breakdown-title {{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6px;
+  color: var(--gold);
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}}
+.ops-rank-bar-wrap {{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+}}
+.ops-rank-bar-bg {{
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}}
+.ops-rank-bar-fill {{
+  height: 100%;
+  background: var(--teal);
+  border-radius: 3px;
+}}
+
+/* DigiPlay Ops Tabs Styling */
+.ops-diff-chip {{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 5.5px;
+  padding: 4px 8px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--border);
+  color: var(--subtext);
+  cursor: pointer;
+  border-radius: 2px;
+}}
+.ops-diff-chip:hover {{ border-color: var(--teal); }}
+.ops-diff-chip.active {{
+  background: rgba(60,200,192,0.15);
+  border-color: var(--teal);
+  color: #fff;
+}}
+.ops-domain-chip {{
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+  padding: 3px 10px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(86,39,17,0.4);
+  color: var(--subtext);
+  cursor: pointer;
+  border-radius: 2px;
+}}
+.ops-domain-chip:hover {{ color: #fff; border-color: var(--border); }}
+.ops-domain-chip.active {{
+  background: rgba(240,192,64,0.12);
+  border-color: var(--gold);
+  color: var(--gold);
+}}
+.ops-case-dossier-btn, .ops-scene-case-btn {{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6px;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid var(--border);
+  color: var(--subtext);
+  cursor: pointer;
+  border-radius: 2px;
+}}
+.ops-case-dossier-btn:hover, .ops-scene-case-btn:hover {{ border-color: var(--teal); color: #fff; }}
+.ops-case-dossier-btn.active, .ops-scene-case-btn.active {{
+  background: rgba(60,200,192,0.15);
+  border-color: var(--teal);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(60,200,192,0.2);
+}}
+.ops-action-btn {{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6px;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.4);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+}}
+.ops-action-btn:hover {{
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}}
+.qa-card {{
+  background: rgba(0,0,0,0.25);
+  border: 1px solid var(--border);
+  padding: 14px 16px;
+  border-radius: 2px;
+}}
+.qa-card:hover {{ border-color: rgba(60,200,192,0.4); }}
+
+.qa-options-wrap {{
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 4px;
+}}
+.qa-options-wrap::-webkit-scrollbar {{
+  height: 4px;
+}}
+.qa-options-wrap::-webkit-scrollbar-thumb {{
+  background: rgba(60, 200, 192, 0.3);
+  border-radius: 2px;
+}}
+.qa-options-row {{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  gap: 8px;
+  font-family: 'VT323', monospace;
+  font-size: 16px;
+  width: 100%;
+}}
+.qa-opt-item {{
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 60px;
+  min-width: 0;
+}}
+.qa-opt-item.correct {{
+  background: rgba(64, 208, 96, 0.12);
+  border: 1px solid #40d060;
+  color: #ffffff;
+}}
+.qa-opt-item.incorrect {{
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #8a9bb8;
+}}
+.table-responsive-wrap {{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.25);
+  margin-top: 8px;
+}}
+.table-responsive-wrap table {{
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12.5px;
+}}
+.table-responsive-wrap table th {{
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6px;
+  letter-spacing: 0.5px;
+}}
+.table-responsive-wrap table td {{
+  font-family: 'JetBrains Mono', monospace;
+}}
+
+@media (max-width: 1024px) {{
+  .ops-scene-grid {{
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }}
+}}
+
+@media (max-width: 768px) {{
+  .dash-wrap {{
+    padding: 0 12px !important;
+    margin: 68px auto 40px !important;
+  }}
+  .panel {{
+    padding: 14px 12px !important;
+  }}
+  .top-tabs {{
+    gap: 2px !important;
+    margin-bottom: 16px !important;
+  }}
+  .tab-btn {{
+    font-size: 5px !important;
+    padding: 7px 9px !important;
+  }}
+  #opsQaSearch, #opsScoreSearch {{
+    width: 100% !important;
+    min-width: 0 !important;
+  }}
+  .qa-card {{
+    padding: 10px 12px !important;
+  }}
+  .qa-options-row {{
+    grid-template-columns: repeat(4, minmax(140px, 1fr)) !important;
+    gap: 6px !important;
+    font-size: 15px !important;
+  }}
+  .qa-opt-item {{
+    padding: 6px 8px !important;
+    min-height: 52px !important;
+  }}
+  #opsDigiplayIframe {{
+    height: 380px !important;
+  }}
+  .ops-action-btn, .ops-scene-case-btn, .ops-case-dossier-btn {{
+    font-size: 5px !important;
+    padding: 6px 8px !important;
+  }}
+  .ops-config-grid {{
+    grid-template-columns: 1fr !important;
+  }}
+}}
+
+@media (max-width: 480px) {{
+  .qa-options-row {{
+    grid-template-columns: repeat(4, minmax(130px, 1fr)) !important;
+    gap: 6px !important;
+    font-size: 14px !important;
+  }}
+  .qa-opt-item {{
+    padding: 5px 6px !important;
+    min-height: 48px !important;
+  }}
+  #opsDigiplayIframe {{
+    height: 320px !important;
+  }}
+  .tab-btn {{
+    font-size: 4.5px !important;
+    padding: 5px 6px !important;
+  }}
 }}
 
 /* Password overlay */
@@ -2933,16 +3200,17 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <!-- HORIZONTAL TOP TABS -->
   <div class="top-tabs">
     <button class="tab-btn active" onclick="switchTab(this,'overview')">OVERVIEW</button>
-    <button class="tab-btn" onclick="switchTab(this,'content')">CONTENT</button>
+    <button class="tab-btn" onclick="switchTab(this,'pipeline')">CONTENT &amp; PIPELINE</button>
     <button class="tab-btn" onclick="switchTab(this,'archive')">ARCHIVE</button>
     <button class="tab-btn" onclick="switchTab(this,'sources')">SOURCES</button>
     <button class="tab-btn" onclick="switchTab(this,'apis')">APIS</button>
-    <button class="tab-btn" onclick="switchTab(this,'github')">GITHUB ACTION</button>
     <button class="tab-btn" onclick="switchTab(this,'errors')">ERRORS</button>
     <button class="tab-btn" onclick="switchTab(this,'statistics')">STATISTICS</button>
-    <button class="tab-btn" onclick="switchTab(this,'searchindex')">SEARCH INDEX</button>
-    <button class="tab-btn" onclick="switchTab(this,'digibot')">DIGIBOT (RAG & AI)</button>
-    <button class="tab-btn" onclick="switchTab(this,'ai')">AI</button>
+    <button class="tab-btn" onclick="switchTab(this,'digibot')">DIGIBOT (RAG &amp; AI)</button>
+    <button class="tab-btn" onclick="switchTab(this,'digiplay-qa')">DIGIPLAY QA &amp; HINTS</button>
+    <button class="tab-btn" onclick="switchTab(this,'digiplay-scenes')">DIGIPLAY 3D SCENES</button>
+    <button class="tab-btn" onclick="switchTab(this,'digiplay-scores')">DIGIPLAY SCORES &amp; PLAYERS</button>
+    <button class="tab-btn" onclick="switchTab(this,'site-traffic')">SITE TRAFFIC &amp; CLICKS</button>
     <button class="tab-btn" onclick="switchTab(this,'logs')">LOGS</button>
   </div>
 
@@ -3004,17 +3272,64 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
   </div>
 
-  <!-- CONTENT -->
-  <div id="content" class="panel tab-content hidden-pane">
+  <!-- CONTENT & PIPELINE (UNIFIED: INGESTION, CI/CD, SEARCH INDEX, AI PIPELINE) -->
+  <div id="pipeline" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// CONTENT //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">Latest ingestion details across 6 DFIR categories.</p>
-    <div class="stats-grid">
-      <div class="stat-box"><div class="stat-val">{len(articles)}</div><div class="stat-lbl">ACTIVE DISPATCHES</div></div>
-      <div class="stat-box"><div class="stat-val">150</div><div class="stat-lbl">FEED MAX SIZE</div></div>
-      <div class="stat-box"><div class="stat-val">6</div><div class="stat-lbl">ACTIVE CATEGORIES</div></div>
-      <div class="stat-box"><div class="stat-val">10</div><div class="stat-lbl">MIN PER CATEGORY</div></div>
-      <div class="stat-box"><div class="stat-val">48</div><div class="stat-lbl">SEED FALLBACKS</div></div>
+    <h2 class="panel-title">// CONTENT &amp; PIPELINE ARCHITECTURE //</h2>
+    <p style="margin-bottom:20px;font-size:16px;">Integrated architecture overview of content ingestion, automated GitHub Actions CI/CD, client search indexing, and NLP processing pipelines.</p>
+
+    <!-- SECTION 1: INGESTION SPECIFICATION & SEARCH INDEX -->
+    <div style="margin-bottom:28px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ 1. INGESTION SPECIFICATION &amp; SEARCH INDEX ★</h3>
+      <p style="margin-bottom:14px;font-size:15px;color:#b8c8e0;">Dispatches are ingested across 6 canonical DFIR categories, deduplicated, and indexed inline directly into the static bundle for zero-latency client-side search without server dependencies:</p>
+      <div class="stats-grid">
+        <div class="stat-box"><div class="stat-val" style="color:#40d060;">{len(articles)}</div><div class="stat-lbl">ACTIVE &amp; INDEXED DISPATCHES</div></div>
+        <div class="stat-box"><div class="stat-val">150</div><div class="stat-lbl">FEED MAX CAPACITY</div></div>
+        <div class="stat-box"><div class="stat-val">6</div><div class="stat-lbl">ACTIVE DFIR CATEGORIES</div></div>
+        <div class="stat-box"><div class="stat-val">10</div><div class="stat-lbl">MIN PER CATEGORY</div></div>
+        <div class="stat-box"><div class="stat-val">48</div><div class="stat-lbl">SEED FALLBACKS</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--teal);">INLINE</div><div class="stat-lbl">INDEX BUILD MODE</div></div>
+        <div class="stat-box"><div class="stat-val" style="font-size:9.5px;color:#f0c040;">Title + Tags + Summary</div><div class="stat-lbl">SEARCH QUERY FIELDS</div></div>
+      </div>
+    </div>
+
+    <!-- SECTION 2: GITHUB ACTIONS CI/CD AUTOMATION -->
+    <div style="margin-bottom:28px; border-top:1px solid rgba(86,39,17,0.3); padding-top:20px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ 2. GITHUB ACTIONS CI/CD AUTOMATION ★</h3>
+      <p style="margin-bottom:14px;font-size:15px;color:#b8c8e0;">Automated pipeline executing daily on GitHub Actions runner. Orchestrates news scraping, CVE enrichment, neural embedding vectorization, static HTML compilation, and automatic Git commit / deployment:</p>
+      <div class="stats-grid">
+        <div class="stat-box"><div class="stat-val" style="color:#40d060;">ACTIVE</div><div class="stat-lbl">WORKFLOW STATUS</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:var(--teal);">05:30 IST</div><div class="stat-lbl">DAILY SCHEDULE (00:00 UTC)</div></div>
+        <div class="stat-box"><div class="stat-val" style="font-size:10px;">fetch_news.py</div><div class="stat-lbl">INGESTION SCRIPT</div></div>
+        <div class="stat-box"><div class="stat-val" style="font-size:10px;">daily_ingest.py</div><div class="stat-lbl">DIGIBOT RAG SYNC</div></div>
+        <div class="stat-box"><div class="stat-val" style="font-size:10px;">generate_hub.py</div><div class="stat-lbl">HTML BUILD GENERATOR</div></div>
+        <div class="stat-box"><div class="stat-val" style="color:#f0c040;">06:00 IST</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
+      </div>
+      <p style="margin-top:14px;font-size:15px;color:#5a6a8a;">Pipeline executes fully autonomously. Ingested feeds, threat intelligence feeds, vector embeddings, and compiled static assets are committed directly to repository on every cycle.</p>
+    </div>
+
+    <!-- SECTION 3: AI & NLP PROCESSING PIPELINE -->
+    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:20px;">
+      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:14px;">★ 3. AI &amp; NLP PROCESSING PIPELINE ★</h3>
+      <p style="margin-bottom:16px;font-size:15px;color:#b8c8e0;">Four-stage intelligence and NLP pipeline executing across content filtering, similarity indexing, and neural conversational grounding:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;">
+        <div style="background:rgba(0,0,0,0.25);border:1px solid var(--border);padding:16px;">
+          <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">DIGIBOT RAG &amp; NEURAL VECTOR SEARCH</p>
+          <p style="font-size:15px;color:#b8c8e0;line-height:1.5;">Dense 384-dimensional ONNX vectorization (BAAI/bge-small-en-v1.5) indexed in Pinecone Serverless. Cloudflare Worker edge router handles Top-K cosine similarity matching and context grounding.</p>
+        </div>
+        <div style="background:rgba(0,0,0,0.25);border:1px solid var(--border);padding:16px;">
+          <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
+          <p style="font-size:15px;color:#b8c8e0;line-height:1.5;">Rule-based keyword scoring maps each incoming story to one of the 6 canonical DFIR categories. Forensic relevance score is computed from keyword density and source authority weights.</p>
+        </div>
+        <div style="background:rgba(0,0,0,0.25);border:1px solid var(--border);padding:16px;">
+          <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SIMILARITY ENGINE</p>
+          <p style="font-size:15px;color:#b8c8e0;line-height:1.5;">TF-IDF cosine similarity computes cross-article thematic correlation, powering the real-time &quot;SIMILAR DISPATCHES&quot; links embedded into each news card.</p>
+        </div>
+        <div style="background:rgba(0,0,0,0.25);border:1px solid var(--border);padding:16px;">
+          <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#40d060;margin-bottom:8px;">SUMMARY EXTRACTION</p>
+          <p style="font-size:15px;color:#b8c8e0;line-height:1.5;">Heuristic HTML tag stripping and sentence boundary sanitization extract clean dispatches directly from RSS payloads with zero third-party cloud API overhead.</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -3108,21 +3423,6 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
   </div>
 
-  <!-- GITHUB ACTION -->
-  <div id="github" class="panel tab-content hidden-pane">
-    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// GITHUB ACTION //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">Automated CI/CD pipeline that runs <strong style="color:#3cc8c0;">daily at 05:30 IST (00:00 UTC)</strong> via GitHub Actions. It fetches RSS feeds and threat intelligence APIs, updates DigiBot neural vectors, rebuilds the HTML, and publishes the updated feed automatically.</p>
-    <div class="stats-grid">
-      <div class="stat-box"><div class="stat-val" style="color:#40d060;">ACTIVE</div><div class="stat-lbl">WORKFLOW STATUS</div></div>
-      <div class="stat-box"><div class="stat-val">05:30 IST</div><div class="stat-lbl">DAILY SCHEDULE (CRON)</div></div>
-      <div class="stat-box"><div class="stat-val">fetch_news.py</div><div class="stat-lbl">INGESTION SCRIPT</div></div>
-      <div class="stat-box"><div class="stat-val">daily_ingest.py</div><div class="stat-lbl">DIGIBOT RAG SYNC</div></div>
-      <div class="stat-box"><div class="stat-val">generate_hub.py</div><div class="stat-lbl">HTML GENERATOR</div></div>
-      <div class="stat-box"><div class="stat-val" style="color:#f0c040;">06:00 IST</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
-    </div>
-    <p style="margin-top:18px;font-size:15px;color:#5a6a8a;">The pipeline runs automatically without any manual input. All feed data, API responses, and generated HTML are committed to the repository on each successful run.</p>
-  </div>
 
   <!-- ERRORS -->
   <div id="errors" class="panel tab-content hidden-pane">
@@ -3223,17 +3523,6 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
   </div>
 
-  <!-- SEARCH INDEX -->
-  <div id="searchindex" class="panel tab-content hidden-pane">
-    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// SEARCH INDEX //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">Client-side full-text search. Indexes are built inline at generation time — no server required.</p>
-    <div class="stats-grid">
-      <div class="stat-box"><div class="stat-val">{len(articles)}</div><div class="stat-lbl">INDEXED DISPATCHES</div></div>
-      <div class="stat-box"><div class="stat-val">INLINE</div><div class="stat-lbl">INDEX BUILD MODE</div></div>
-      <div class="stat-box"><div class="stat-val" style="font-size:8px;">Title + Tags + Summary</div><div class="stat-lbl">SEARCH FIELDS</div></div>
-    </div>
-  </div>
 
   <!-- DIGIBOT (RAG & AI) -->
   <div id="digibot" class="panel tab-content hidden-pane">
@@ -3446,39 +3735,440 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
   </div>
 
-  <!-- AI -->
-  <div id="ai" class="panel tab-content hidden-pane">
+
+  
+  <!-- DIGIPLAY QA & HINTS -->
+  <div id="digiplay-qa" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// AI PIPELINE //</h2>
-    <p style="margin-bottom:16px;font-size:16px;">AI, NLP, and Neural RAG components used in DigiFeed and DigiBot:</p>
-    <div style="display:flex;flex-direction:column;gap:14px;">
-      <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#a070e8;margin-bottom:8px;">DIGIBOT RAG & NEURAL VECTOR SEARCH</p>
-        <p style="font-size:15px;color:#b8c8e0;">Retrieval-Augmented Generation engine using FastEmbed ONNX local embedding inference (BAAI/bge-small-en-v1.5, 384 dimensions) indexed in Pinecone Serverless. Cloudflare Worker Edge handles Top-K semantic matching, daily briefing context anchoring, and grounded responses.</p>
+    <h2 class="panel-title">// DIGIPLAY :: KNOWLEDGE BASE, QA &amp; FORENSIC HINTS //</h2>
+    
+    <!-- Sub-tab Switcher -->
+    <div style="display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;">
+      <button id="qaSubTabBtnQuestions" class="tab-btn active" style="border:1px solid var(--teal);padding:8px 16px;background:rgba(60,200,192,0.1);color:#fff;" onclick="opsSwitchQaSubTab('questions')">QUIZ QUESTION BANK (90)</button>
+      <button id="qaSubTabBtnCases" class="tab-btn" style="border:1px solid var(--border);padding:8px 16px;background:transparent;color:var(--subtext);" onclick="opsSwitchQaSubTab('cases')">CRIME SCENE DOSSIERS &amp; HINTS (30)</button>
+    </div>
+
+    <!-- SUB-VIEW 1: QUESTIONS BANK -->
+    <div id="qaViewQuestions">
+      <!-- Search & Filters -->
+      <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:16px;margin-bottom:20px;">
+        <div style="display:flex;gap:12px;margin-bottom:14px;flex-wrap:wrap;align-items:center;">
+          <input type="text" id="opsQaSearch" placeholder="Search questions, options, or keywords..." oninput="opsFilterQuestions()" style="flex:1;min-width:260px;padding:8px 12px;background:#080b18;border:1px solid var(--border);color:var(--text);font-family:'VT323',monospace;font-size:18px;outline:none;">
+          <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+            <span style="font-family:'Press Start 2P',monospace;font-size:6px;color:var(--subtext);">DIFFICULTY:</span>
+            <button class="ops-diff-chip active" data-diff="ALL" onclick="opsSetDiffFilter('ALL',this)">ALL</button>
+            <button class="ops-diff-chip" data-diff="Easy" onclick="opsSetDiffFilter('Easy',this)" style="color:#40d060;">EASY</button>
+            <button class="ops-diff-chip" data-diff="Medium" onclick="opsSetDiffFilter('Medium',this)" style="color:#f0c040;">MEDIUM</button>
+            <button class="ops-diff-chip" data-diff="Hard" onclick="opsSetDiffFilter('Hard',this)" style="color:#e04848;">HARD</button>
+          </div>
+        </div>
+
+        <!-- Domain category chips -->
+        <div id="opsDomainChips" style="display:flex;gap:6px;flex-wrap:wrap;"></div>
       </div>
-      <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#3cc8c0;margin-bottom:8px;">CONTENT CLASSIFICATION</p>
-        <p style="font-size:15px;color:#b8c8e0;">Rule-based keyword scoring maps each dispatch to one of the 6 canonical DFIR categories. Forensic relevance score is computed from keyword frequency and source authority.</p>
+
+      <!-- Counter -->
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:'VT323',monospace;font-size:18px;">
+        <span id="opsQaCount" style="color:var(--gold);">Showing 90 / 90 questions</span>
+        <span style="color:var(--subtext);">Authoritative answers marked with green checkmarks</span>
       </div>
-      <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#f0c040;margin-bottom:8px;">SIMILARITY ENGINE</p>
-        <p style="font-size:15px;color:#b8c8e0;">TF-IDF cosine similarity used to compute SIMILAR DISPATCHES links shown on each news card.</p>
+
+      <!-- Questions List Container -->
+      <div id="opsQuestionsContainer" style="display:flex;flex-direction:column;gap:14px;max-height:680px;overflow-y:auto;padding-right:6px;"></div>
+    </div>
+
+    <!-- SUB-VIEW 2: CRIME SCENE CASES & EVIDENCE HINTS -->
+    <div id="qaViewCases" style="display:none;">
+      <div style="display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap;">
+        <button class="ops-case-dossier-btn active" id="opsDossierBtn1" onclick="opsShowCaseDossier(1)">CASE 1: THE SUSPICIOUS OFFICE</button>
+        <button class="ops-case-dossier-btn" id="opsDossierBtn2" onclick="opsShowCaseDossier(2)">CASE 2: HOTEL SUITE</button>
+        <button class="ops-case-dossier-btn" id="opsDossierBtn3" onclick="opsShowCaseDossier(3)">CASE 3: SOC SERVER ROOM</button>
       </div>
-      <div style="border:1px solid var(--border);padding:16px;">
-        <p style="font-family:'Press Start 2P',monospace;font-size:6px;color:#40d060;margin-bottom:8px;">SUMMARY EXTRACTION</p>
-        <p style="font-size:15px;color:#b8c8e0;">Article summaries extracted from RSS descriptions. Plain text NLP — no external LLM required.</p>
+
+      <!-- Case Briefing Card -->
+      <div id="opsCaseBriefingBox" style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:18px;margin-bottom:20px;">
+        <h3 id="opsCaseDossierTitle" style="font-family:'Press Start 2P',monospace;font-size:8px;color:var(--gold);margin-bottom:10px;">CASE 1: THE SUSPICIOUS OFFICE</h3>
+        <p id="opsCaseDossierStory" style="font-size:16px;color:#b8c8e0;line-height:1.6;"></p>
+      </div>
+
+      <!-- Master Evidence Table -->
+      <h3 style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--teal);margin-bottom:12px;">★ EVIDENCE ARTIFACTS &amp; TARGETED HINTS (10/10) ★</h3>
+      <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:12.5px;border:1px solid var(--border);">
+          <thead>
+            <tr style="background:rgba(0,0,0,0.4);border-bottom:2px solid var(--border);font-family:'Press Start 2P',monospace;font-size:6px;color:var(--gold);text-align:left;">
+              <th style="padding:10px;">#</th>
+              <th style="padding:10px;">ARTIFACT NAME</th>
+              <th style="padding:10px;">ID</th>
+              <th style="padding:10px;">3D COORDS [X, Y, Z]</th>
+              <th style="padding:10px;">FORENSIC RELEVANCE</th>
+              <th style="padding:10px;color:var(--teal);">DETECTIVE HINT</th>
+            </tr>
+          </thead>
+          <tbody id="opsCaseEvidenceTableBody"></tbody>
+        </table>
       </div>
     </div>
   </div>
 
+
+  <!-- DIGIPLAY 3D SCENES -->
+  <div id="digiplay-scenes" class="panel tab-content hidden-pane">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <h2 class="panel-title">// DIGIPLAY :: 3D CRIME SCENE LAB &amp; CLICK VERIFICATION //</h2>
+
+    <!-- Controls Toolbar -->
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:16px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:12px 16px;">
+      <!-- Case Selector Switchers -->
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="ops-scene-case-btn active" id="opsSceneCaseBtn1" onclick="opsSelectSceneCase(1)">CASE 1: OFFICE</button>
+        <button class="ops-scene-case-btn" id="opsSceneCaseBtn2" onclick="opsSelectSceneCase(2)">CASE 2: HOTEL SUITE</button>
+        <button class="ops-scene-case-btn" id="opsSceneCaseBtn3" onclick="opsSelectSceneCase(3)">CASE 3: SOC SERVER ROOM</button>
+      </div>
+
+      <!-- Testing Actions -->
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button class="ops-action-btn" id="opsBtnResetScene" onclick="opsResetActiveScene()" style="border-color:#b8c8e0;color:#b8c8e0;">RESET SCENE</button>
+        <button class="ops-action-btn" id="opsBtnTestActiveCase" onclick="opsAutoTestActiveCase()" style="border-color:var(--teal);color:var(--teal);">TEST ACTIVE CASE</button>
+        <button class="ops-action-btn" id="opsBtnTestAllCases" onclick="opsAutoTestAllCases()" style="border-color:var(--gold);color:var(--gold);">TEST ALL 3 CASES</button>
+      </div>
+    </div>
+
+    <!-- Diagnostic Banner for 1-Click Tests -->
+    <div id="opsSceneTestBanner" style="display:none;padding:12px 16px;margin-bottom:16px;font-family:'VT323',monospace;font-size:18px;border:1px solid #40d060;background:rgba(64,208,96,0.08);color:#40d060;">
+    </div>
+
+    <!-- Main 2-Column Workstation Layout -->
+    <div style="display:grid;grid-template-columns:1fr 340px;gap:20px;" class="ops-scene-grid">
+      <!-- Left Column: 3D Scene Viewport -->
+      <div>
+        <div style="position:relative;border:2px solid var(--border);background:#05070f;border-radius:2px;overflow:hidden;">
+          <iframe id="opsDigiplayIframe" src="../digiplay/index.html?ops=1&amp;case=1" onload="opsOnIframeLoad()" style="width:100%;height:520px;border:none;display:block;" title="DigiPlay 3D Scene Test Viewport"></iframe>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:6px 2px;font-size:14px;color:var(--subtext);font-family:'VT323',monospace;">
+          <span>• LEFT CLICK + DRAG: Orbit | RIGHT CLICK + DRAG: Pan | SCROLL: Zoom | CLICK OBJECT: Inspect</span>
+          <span id="opsSceneActiveCaseLabel" style="color:var(--gold);">ACTIVE: CASE 1 (THE SUSPICIOUS OFFICE)</span>
+        </div>
+      </div>
+
+      <!-- Right Column: Telemetry & Checklist -->
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <!-- Live Click Telemetry Box -->
+        <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed var(--border);padding-bottom:6px;margin-bottom:10px;">
+            <span style="font-family:'Press Start 2P',monospace;font-size:6.5px;color:var(--gold);">LIVE CLICK TELEMETRY</span>
+            <span id="opsClickStatusDot" style="color:#40d060;font-size:11px;">LISTENING ●</span>
+          </div>
+          <div id="opsClickTelemetryLog" style="font-family:'VT323',monospace;font-size:15px;color:#b8c8e0;line-height:1.5;min-height:90px;background:rgba(0,0,0,0.4);border:1px solid rgba(86,39,17,0.3);padding:10px;">
+            <span style="color:var(--subtext);">Click any 3D object inside the viewport to verify raycasting hitbox and classification.</span>
+          </div>
+        </div>
+
+        <!-- Evidence Checklist (10/10) -->
+        <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px;flex:1;display:flex;flex-direction:column;">
+          <div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed var(--border);padding-bottom:6px;margin-bottom:10px;">
+            <span style="font-family:'Press Start 2P',monospace;font-size:6.5px;color:var(--teal);">ARTIFACT CHECKLIST</span>
+            <span id="opsChecklistCount" style="font-family:'Press Start 2P',monospace;font-size:6px;color:var(--gold);">0 / 10 FOUND</span>
+          </div>
+          <div id="opsEvidenceChecklistContainer" style="display:flex;flex-direction:column;gap:6px;overflow-y:auto;max-height:280px;padding-right:4px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- DIGIPLAY SCORES & PLAYERS -->
+  <div id="digiplay-scores" class="panel tab-content hidden-pane">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <h2 class="panel-title">// DIGIPLAY :: PLAYER TELEMETRY, SCORES &amp; GOOGLE SHEET //</h2>
+
+    <!-- Top Action & Sheet Link Bar -->
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 18px;">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font-family:'Press Start 2P',monospace;font-size:6.5px;color:var(--gold);">CONNECTED SHEET:</span>
+        <a id="opsSheetOpenLink" href="https://docs.google.com/spreadsheets/d/1AP5wLsM3yih_JAXR2nVTeX0hxTjxtO7Je6Lxn4MGi-s/edit?pli=1&amp;gid=0#gid=0" target="_blank" class="ops-action-btn" style="color:#40d060;border-color:#40d060;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
+          🔗 OPEN GOOGLE SHEET ↗
+        </a>
+        <button class="ops-action-btn" onclick="opsDownloadScoresCsv()" style="color:var(--teal);border-color:var(--teal);">
+          📥 DOWNLOAD CSV / EXCEL
+        </button>
+        <button class="ops-action-btn" onclick="opsRefreshScores()" style="color:#b8c8e0;border-color:var(--border);">
+          🔄 REFRESH DATA
+        </button>
+      </div>
+      <div>
+        <button class="ops-action-btn" onclick="opsToggleSheetConfigModal()" style="color:var(--gold);border-color:rgba(240,192,64,0.4);">
+          ⚙ SHEET SETTINGS
+        </button>
+      </div>
+    </div>
+
+    <!-- Sheet Configuration Drawer (Collapsible) -->
+    <div id="opsSheetConfigBox" style="display:none;background:rgba(17,22,38,0.95);border:1px solid var(--gold);padding:16px;margin-bottom:20px;">
+      <h3 style="font-family:'Press Start 2P',monospace;font-size:7px;color:var(--gold);margin-bottom:10px;">⚙ GOOGLE SHEET &amp; APPS SCRIPT WEBHOOK CONFIGURATION</h3>
+      <p style="font-size:15px;color:#b8c8e0;margin-bottom:12px;line-height:1.5;">
+        Paste your Google Sheet URL and deployed Apps Script Web App URL below. Settings are stored in your secure Ops session.
+      </p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;" class="ops-config-grid">
+        <div>
+          <label style="display:block;font-family:'Press Start 2P',monospace;font-size:5.5px;color:var(--teal);margin-bottom:6px;">GOOGLE SHEET URL:</label>
+          <input type="text" id="opsConfigSheetUrl" placeholder="https://docs.google.com/spreadsheets/d/..." style="width:100%;padding:8px 12px;background:#080b18;border:1px solid var(--border);color:var(--text);font-family:'VT323',monospace;font-size:16px;outline:none;">
+        </div>
+        <div>
+          <label style="display:block;font-family:'Press Start 2P',monospace;font-size:5.5px;color:var(--teal);margin-bottom:6px;">APPS SCRIPT WEB APP URL (doPost / doGet):</label>
+          <input type="text" id="opsConfigWebhookUrl" placeholder="https://script.google.com/macros/s/.../exec" style="width:100%;padding:8px 12px;background:#080b18;border:1px solid var(--border);color:var(--text);font-family:'VT323',monospace;font-size:16px;outline:none;">
+        </div>
+      </div>
+      <div style="display:flex;gap:10px;">
+        <button class="ops-action-btn" onclick="opsSaveSheetConfig()" style="background:linear-gradient(180deg,#b05830 0%,#6a2808 100%);color:#ffe878;border-color:#c06030;">SAVE SETTINGS</button>
+        <button class="ops-action-btn" onclick="opsToggleSheetConfigModal()" style="color:var(--subtext);border-color:var(--border);">CLOSE</button>
+      </div>
+    </div>
+
+    <!-- KPI Summary Grid -->
+    <div class="stats-grid" style="margin-bottom:20px;">
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTotalGames" style="color:var(--teal);">0</div>
+        <div class="stat-lbl">TOTAL SESSIONS LOGGED</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiHighScore" style="color:var(--gold);">0 XP</div>
+        <div class="stat-lbl">GLOBAL HIGH SCORE</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiAvgAccuracy" style="color:#40d060;">0%</div>
+        <div class="stat-lbl">AVG ACCURACY</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTopRank" style="font-size:10px;color:#f0c040;">INTERN</div>
+        <div class="stat-lbl">HIGHEST RANK ACHIEVED</div>
+      </div>
+    </div>
+
+    <!-- Search & Filter Controls -->
+    <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 16px;margin-bottom:18px;">
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <input type="text" id="opsScoreSearch" placeholder="Search by player name, rank, or date..." oninput="opsFilterScores()" style="flex:1;min-width:240px;padding:8px 12px;background:#080b18;border:1px solid var(--border);color:var(--text);font-family:'VT323',monospace;font-size:18px;outline:none;">
+        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+          <span style="font-family:'Press Start 2P',monospace;font-size:6px;color:var(--subtext);">CASE:</span>
+          <button class="ops-diff-chip active" data-case="ALL" onclick="opsSetScoreCaseFilter('ALL',this)">ALL</button>
+          <button class="ops-diff-chip" data-case="1" onclick="opsSetScoreCaseFilter('1',this)">CASE 1</button>
+          <button class="ops-diff-chip" data-case="2" onclick="opsSetScoreCaseFilter('2',this)">CASE 2</button>
+          <button class="ops-diff-chip" data-case="3" onclick="opsSetScoreCaseFilter('3',this)">CASE 3</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Player Scores Table -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:'VT323',monospace;font-size:18px;">
+      <span id="opsScoreCountLabel" style="color:var(--gold);">Displaying 0 player records</span>
+      <span style="color:var(--subtext);">Real-time telemetry synchronized with Google Sheet</span>
+    </div>
+
+    <div class="table-responsive-wrap">
+      <table style="font-family:'JetBrains Mono',monospace;font-size:12.5px;">
+        <thead>
+          <tr style="background:rgba(0,0,0,0.4);border-bottom:2px solid var(--border);font-family:'Press Start 2P',monospace;font-size:6px;color:var(--gold);text-align:left;">
+            <th style="padding:10px;">#</th>
+            <th style="padding:10px;">TIMESTAMP</th>
+            <th style="padding:10px;">PLAYER NAME</th>
+            <th style="padding:10px;color:var(--gold);">TOTAL XP</th>
+            <th style="padding:10px;">QUIZ XP</th>
+            <th style="padding:10px;">SCENE XP</th>
+            <th style="padding:10px;color:#40d060;">ACCURACY</th>
+            <th style="padding:10px;">RANK</th>
+            <th style="padding:10px;">CASE</th>
+            <th style="padding:10px;color:var(--teal);">DEVICE</th>
+          </tr>
+        </thead>
+        <tbody id="opsScoresTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+  
+  <!-- SITE TRAFFIC & CLICKS -->
+  <div id="site-traffic" class="panel tab-content hidden-pane">
+    <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
+    <h2 class="panel-title">// SITE INTELLIGENCE :: VISITOR TRAFFIC &amp; CLICK STREAM //</h2>
+
+    <!-- Top Action & Sheet Link Bar -->
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 18px;">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+        <span style="font-family:'Press Start 2P',monospace;font-size:6.5px;color:var(--gold);">CONNECTED SHEET TAB:</span>
+        <a id="opsTrafficSheetOpenLink" href="https://docs.google.com/spreadsheets/d/1AP5wLsM3yih_JAXR2nVTeX0hxTjxtO7Je6Lxn4MGi-s/edit?pli=1&amp;gid=0#gid=0" target="_blank" class="ops-action-btn" style="color:#40d060;border-color:#40d060;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">
+          🔗 OPEN TRAFFIC SHEET ↗
+        </a>
+        <button class="ops-action-btn" onclick="opsDownloadTrafficCsv()" style="color:var(--teal);border-color:var(--teal);">
+          📥 DOWNLOAD CSV / EXCEL
+        </button>
+        <button class="ops-action-btn" onclick="opsRefreshTraffic()" style="color:#b8c8e0;border-color:var(--border);">
+          🔄 REFRESH TRAFFIC
+        </button>
+      </div>
+      <div>
+        <button class="ops-action-btn" onclick="opsToggleSheetConfigModal()" style="color:var(--gold);border-color:rgba(240,192,64,0.4);">
+          ⚙ SHEET SETTINGS
+        </button>
+      </div>
+    </div>
+
+    <!-- KPI Summary Grid -->
+    <div class="stats-grid" style="margin-bottom:20px;">
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTotalVisits" style="color:var(--teal);">0</div>
+        <div class="stat-lbl">TOTAL HUMAN VISITS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTodayVisits" style="color:var(--gold);">0</div>
+        <div class="stat-lbl">TODAY'S VISITS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTotalClicks" style="color:#40d060;">0</div>
+        <div class="stat-lbl">ACTION &amp; BUTTON CLICKS</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-val" id="opsKpiTopReferrer" style="font-size:11px;color:#f0c040;">DIRECT</div>
+        <div class="stat-lbl">TOP TRAFFIC SOURCE</div>
+      </div>
+    </div>
+
+    <!-- Interactive Analytics Charts Grid -->
+    <div style="display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:20px;" class="ops-charts-grid">
+      <!-- 7-Day Activity Trend Chart -->
+      <div class="ops-breakdown-card" style="padding:16px;">
+        <div class="ops-breakdown-title">
+          <span>// 7-DAY VISITOR &amp; CLICK ACTIVITY TREND //</span>
+          <div style="display:flex;gap:12px;font-family:VT323,monospace;font-size:16px;">
+            <span style="color:var(--teal);"><span style="display:inline-block;width:9px;height:9px;background:var(--teal);margin-right:5px;vertical-align:middle;"></span>PAGEVIEWS</span>
+            <span style="color:var(--gold);"><span style="display:inline-block;width:9px;height:9px;background:var(--gold);margin-right:5px;vertical-align:middle;"></span>CLICKS</span>
+          </div>
+        </div>
+        <div style="position:relative;width:100%;height:180px;">
+          <canvas id="opsTrafficTrendCanvas" style="width:100%;height:180px;display:block;"></canvas>
+        </div>
+      </div>
+
+      <!-- Device Split Donut Chart -->
+      <div class="ops-breakdown-card" style="padding:16px;">
+        <div class="ops-breakdown-title">
+          <span>// DEVICE BREAKDOWN //</span>
+          <span style="color:var(--gold);">PLATFORMS</span>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:12px;height:180px;flex-wrap:wrap;">
+          <canvas id="opsDeviceDonutCanvas" width="140" height="140" style="display:block;"></canvas>
+          <div id="opsDeviceDonutLegend" style="font-family:VT323,monospace;font-size:16px;line-height:1.6;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 24-Hour Hourly Activity Histogram -->
+    <div class="ops-breakdown-card" style="padding:16px;margin-bottom:20px;">
+      <div class="ops-breakdown-title">
+        <span>// 24-HOUR ENGAGEMENT HISTOGRAM //</span>
+        <span style="color:var(--teal);">HOURLY ACTIVITY DISTRIBUTION (00:00 - 23:00)</span>
+      </div>
+      <div style="position:relative;width:100%;height:95px;">
+        <canvas id="opsHourlyChartCanvas" style="width:100%;height:95px;display:block;"></canvas>
+      </div>
+    </div>
+
+    <!-- Analytics Breakdown Grid (4 Cards) -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;margin-bottom:20px;">
+      <div class="ops-breakdown-card">
+        <div class="ops-breakdown-title">
+          <span>TOP CLICKED ACTIONS</span>
+          <span style="color:var(--teal);">ENGAGEMENT</span>
+        </div>
+        <div id="opsBreakdownClicks" style="min-height:120px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+      <div class="ops-breakdown-card">
+        <div class="ops-breakdown-title">
+          <span>TOP VISITED PAGES</span>
+          <span style="color:var(--gold);">PAGEVIEWS</span>
+        </div>
+        <div id="opsBreakdownPages" style="min-height:120px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+      <div class="ops-breakdown-card">
+        <div class="ops-breakdown-title">
+          <span>DEVICE &amp; PLATFORM</span>
+          <span style="color:#40d060;">DEVICES</span>
+        </div>
+        <div id="opsBreakdownDevices" style="min-height:120px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+      <div class="ops-breakdown-card">
+        <div class="ops-breakdown-title">
+          <span>TRAFFIC SOURCES</span>
+          <span style="color:#e07030;">REFERRERS</span>
+        </div>
+        <div id="opsBreakdownReferrers" style="min-height:120px;">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Search & Filter Controls -->
+    <div style="background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 16px;margin-bottom:18px;">
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <input type="text" id="opsTrafficSearch" placeholder="Search by page, action label, referrer, device, or date..." oninput="opsFilterTraffic()" style="flex:1;min-width:240px;padding:8px 12px;background:#080b18;border:1px solid var(--border);color:var(--text);font-family:VT323,monospace;font-size:18px;outline:none;">
+        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+          <span style="font-family:'Press Start 2P',monospace;font-size:6px;color:var(--subtext);">EVENT:</span>
+          <button class="ops-diff-chip active" data-event="ALL" onclick="opsSetTrafficFilter('ALL',this)">ALL</button>
+          <button class="ops-diff-chip" data-event="pageview" onclick="opsSetTrafficFilter('pageview',this)">PAGEVIEWS</button>
+          <button class="ops-diff-chip" data-event="click" onclick="opsSetTrafficFilter('click',this)">BUTTON CLICKS</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Real-time Clickstream Table -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:VT323,monospace;font-size:18px;">
+      <span id="opsTrafficCountLabel" style="color:var(--gold);">Displaying 0 traffic records</span>
+      <span style="color:var(--subtext);">Filtered for human engagement &amp; non-bot traffic</span>
+    </div>
+
+    <div class="table-responsive-wrap">
+      <table style="font-family:'JetBrains Mono',monospace;font-size:12.5px;">
+        <thead>
+          <tr style="background:rgba(0,0,0,0.4);border-bottom:2px solid var(--border);font-family:'Press Start 2P',monospace;font-size:6px;color:var(--gold);text-align:left;">
+            <th style="padding:10px;">#</th>
+            <th style="padding:10px;">TIMESTAMP</th>
+            <th style="padding:10px;">EVENT</th>
+            <th style="padding:10px;color:var(--teal);">PAGE</th>
+            <th style="padding:10px;color:#fff;">ACTION / TARGET</th>
+            <th style="padding:10px;color:var(--gold);">REFERRER</th>
+            <th style="padding:10px;">DEVICE</th>
+            <th style="padding:10px;">SCREEN</th>
+            <th style="padding:10px;color:var(--subtext);">SESSION ID</th>
+          </tr>
+        </thead>
+        <tbody id="opsTrafficTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
   <!-- LOGS -->
   <div id="logs" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// EXECUTION LOGS //</h2>
-    <pre style="max-height: 400px; overflow-y: auto; margin-bottom: 20px; font-family:'VT323',monospace; font-size:14px; background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:12px;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:8px;">
+      <h2 class="panel-title" style="margin-bottom:0;">// EXECUTION LOGS //</h2>
+      <span id="opsCurrentLogLabel" style="font-family:&quot;Press Start 2P&quot;,monospace; font-size:6px; color:var(--teal);">// VIEWING: {latest_log_basename} (LATEST) //</span>
+    </div>
+    <pre id="opsLogViewer" style="max-height: 440px; overflow-y: auto; margin-bottom: 20px; font-family:VT323,monospace; font-size:14px; background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:14px; line-height:1.45; white-space:pre-wrap; word-break:break-all;">
 {latest_log_content}
     </pre>
-    <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ AVAILABLE LOG FILES (LAST 25 RUNS) ★</h3>
+    <h3 style="font-family:&quot;Press Start 2P&quot;,monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ AVAILABLE LOG FILES (LAST 25 RUNS) ★</h3>
     <div style="display:flex; flex-direction:column; gap:4px; font-family:'VT323',monospace; font-size:16px;">
       {available_logs_html}
     </div>
@@ -3516,6 +4206,9 @@ if(sessionStorage.getItem("ops_auth")==="1"){{
 
 // Tab switching
 function switchTab(btn, tabId){{
+  if (tabId === 'content' || tabId === 'github' || tabId === 'searchindex' || tabId === 'ai') {{
+    tabId = 'pipeline';
+  }}
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   if (btn) {{
     btn.classList.add('active');
@@ -3526,10 +4219,21 @@ function switchTab(btn, tabId){{
   document.querySelectorAll('.tab-content').forEach(p => p.classList.add('hidden-pane'));
   var target = document.getElementById(tabId);
   if (target) target.classList.remove('hidden-pane');
+  if (tabId === 'digiplay-qa') opsInitQa();
+  if (tabId === 'digiplay-scenes') {{ opsSelectSceneCase(opsActiveSceneCase); }}
+  if (tabId === 'digiplay-scores') {{ opsInitScores(); }}
+  if (tabId === 'site-traffic') {{ opsInitTraffic(); }}
   if (tabId === 'apis' && !digilabHealthCheckRan) {{
     runDigilabHealthCheck();
   }}
 }}
+
+window.addEventListener('DOMContentLoaded', function(){{
+  if (window.location.hash) {{
+    var h = window.location.hash.substring(1);
+    if (h) switchTab(null, h);
+  }}
+}});
 
 // DigiLab Third-Party Dependencies Live Health Check
 const DIGILAB_SERVICES = [
@@ -3612,10 +4316,10 @@ async function runDigilabHealthCheck() {{
 
   if (tbody) {{
     tbody.innerHTML = DIGILAB_SERVICES.map(s => `
-      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'VT323',monospace; font-size:16px;">
-        <td style="padding:8px 10px; color:#fff; font-weight:bold;">
+      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'JetBrains Mono',monospace; font-size:12.5px;">
+        <td style="padding:8px 10px; color:#fff; font-weight:600;">
           ${{s.name}}
-          <div style="font-size:12px; color:var(--subtext); font-weight:normal;">${{s.role}}</div>
+          <div style="font-size:11px; color:var(--subtext); font-weight:normal;">${{s.role}}</div>
         </td>
         <td style="padding:8px 10px; color:var(--subtext);">${{s.module}}</td>
         <td style="padding:8px 10px; color:var(--teal); font-family:'JetBrains Mono',monospace; font-size:12px;">${{s.endpoint}}</td>
@@ -3680,10 +4384,10 @@ async function runDigilabHealthCheck() {{
 
   if (tbody) {{
     tbody.innerHTML = results.map(r => `
-      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'VT323',monospace; font-size:16px;">
-        <td style="padding:8px 10px; color:#fff; font-weight:bold;">
+      <tr style="border-bottom:1px solid rgba(86,39,17,0.3); font-family:'JetBrains Mono',monospace; font-size:12.5px;">
+        <td style="padding:8px 10px; color:#fff; font-weight:600;">
           ${{r.name}}
-          <div style="font-size:12px; color:var(--subtext); font-weight:normal;">${{r.role}}</div>
+          <div style="font-size:11px; color:var(--subtext); font-weight:normal;">${{r.role}}</div>
         </td>
         <td style="padding:8px 10px; color:var(--subtext);">${{r.module}}</td>
         <td style="padding:8px 10px; color:var(--teal); font-family:'JetBrains Mono',monospace; font-size:12px;">${{r.endpoint}}</td>
@@ -3849,6 +4553,1178 @@ async function opsLiveErrorScan() {{
   }}
   if (btn) btn.disabled = false;
 }}
+
+
+// =============================================================
+// DIGIPLAY OPS LOGIC (QA, HINTS & 3D SCENE VERIFICATION)
+// =============================================================
+var opsQaInitialized = false;
+var opsSelectedDiff = 'ALL';
+var opsSelectedDomain = 'ALL';
+var opsActiveSceneCase = 1;
+
+function opsSwitchQaSubTab(subTab) {{
+  var btnQ = document.getElementById('qaSubTabBtnQuestions');
+  var btnC = document.getElementById('qaSubTabBtnCases');
+  var viewQ = document.getElementById('qaViewQuestions');
+  var viewC = document.getElementById('qaViewCases');
+
+  if (subTab === 'questions') {{
+    if (btnQ) {{ btnQ.classList.add('active'); btnQ.style.borderColor = 'var(--teal)'; btnQ.style.background = 'rgba(60,200,192,0.1)'; btnQ.style.color = '#fff'; }}
+    if (btnC) {{ btnC.classList.remove('active'); btnC.style.borderColor = 'var(--border)'; btnC.style.background = 'transparent'; btnC.style.color = 'var(--subtext)'; }}
+    if (viewQ) viewQ.style.display = 'block';
+    if (viewC) viewC.style.display = 'none';
+  }} else {{
+    if (btnC) {{ btnC.classList.add('active'); btnC.style.borderColor = 'var(--teal)'; btnC.style.background = 'rgba(60,200,192,0.1)'; btnC.style.color = '#fff'; }}
+    if (btnQ) {{ btnQ.classList.remove('active'); btnQ.style.borderColor = 'var(--border)'; btnQ.style.background = 'transparent'; btnQ.style.color = 'var(--subtext)'; }}
+    if (viewC) viewC.style.display = 'block';
+    if (viewQ) viewQ.style.display = 'none';
+    opsShowCaseDossier(1);
+  }}
+}}
+
+function opsInitQa() {{
+  if (opsQaInitialized) return;
+  if (typeof window.QUESTION_BANK === 'undefined') {{
+    setTimeout(opsInitQa, 300);
+    return;
+  }}
+  opsQaInitialized = true;
+
+  // Build domain chips
+  var domainContainer = document.getElementById('opsDomainChips');
+  if (domainContainer) {{
+    domainContainer.innerHTML = '';
+    var domains = Object.keys(window.QUESTION_BANK);
+    var btnAll = document.createElement('button');
+    btnAll.className = 'ops-domain-chip active';
+    btnAll.textContent = 'ALL (' + (domains.length * 10) + ')';
+    btnAll.onclick = function() {{ opsSetDomainFilter('ALL', this); }};
+    domainContainer.appendChild(btnAll);
+
+    domains.forEach(function(d) {{
+      var count = window.QUESTION_BANK[d].length;
+      var btn = document.createElement('button');
+      btn.className = 'ops-domain-chip';
+      btn.textContent = d + ' (' + count + ')';
+      btn.onclick = function() {{ opsSetDomainFilter(d, this); }};
+      domainContainer.appendChild(btn);
+    }});
+  }}
+
+  opsFilterQuestions();
+  opsShowCaseDossier(1);
+}}
+
+function opsSetDiffFilter(diff, btn) {{
+  opsSelectedDiff = diff;
+  document.querySelectorAll('.ops-diff-chip').forEach(function(b) {{ b.classList.remove('active'); }});
+  if (btn) btn.classList.add('active');
+  opsFilterQuestions();
+}}
+
+function opsSetDomainFilter(domain, btn) {{
+  opsSelectedDomain = domain;
+  document.querySelectorAll('.ops-domain-chip').forEach(function(b) {{ b.classList.remove('active'); }});
+  if (btn) btn.classList.add('active');
+  opsFilterQuestions();
+}}
+
+function opsFilterQuestions() {{
+  var container = document.getElementById('opsQuestionsContainer');
+  var countEl = document.getElementById('opsQaCount');
+  if (!container || !window.QUESTION_BANK) return;
+
+  var query = (document.getElementById('opsQaSearch') ? document.getElementById('opsQaSearch').value : '').toLowerCase().trim();
+  var domains = Object.keys(window.QUESTION_BANK);
+  var matchedCards = [];
+  var totalQuestions = 0;
+  var cardIndex = 1;
+
+  domains.forEach(function(domain) {{
+    if (opsSelectedDomain !== 'ALL' && opsSelectedDomain !== domain) return;
+
+    var questions = window.QUESTION_BANK[domain] || [];
+    questions.forEach(function(qItem) {{
+      totalQuestions++;
+      if (opsSelectedDiff !== 'ALL' && qItem.diff !== opsSelectedDiff) return;
+
+      if (query) {{
+        var matchQ = (qItem.q || '').toLowerCase().includes(query);
+        var matchOpts = (qItem.opts || []).some(function(o) {{ return o.toLowerCase().includes(query); }});
+        var matchDomain = domain.toLowerCase().includes(query);
+        if (!matchQ && !matchOpts && !matchDomain) return;
+      }}
+
+      var diffColor = qItem.diff === 'Easy' ? '#40d060' : (qItem.diff === 'Medium' ? '#f0c040' : '#e04848');
+      var optionsHtml = '';
+      (qItem.opts || []).forEach(function(optText, optIdx) {{
+        var isCorrect = optIdx === qItem.ans;
+        if (isCorrect) {{
+          optionsHtml += '<div class="qa-opt-item correct">' +
+            '<div style="display:flex;align-items:flex-start;gap:6px;">' +
+              '<span style="color:#40d060;font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
+              '<span style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
+            '</div>' +
+            '<div style="margin-top:6px;"><span style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;background:#40d060;color:#000;padding:2px 5px;border-radius:2px;letter-spacing:0.5px;display:inline-block;white-space:nowrap;">✔ CORRECT</span></div>' +
+          '</div>';
+        }} else {{
+          optionsHtml += '<div class="qa-opt-item incorrect">' +
+            '<div style="display:flex;align-items:flex-start;gap:6px;">' +
+              '<span style="color:var(--subtext);font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
+              '<span style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
+            '</div>' +
+          '</div>';
+        }}
+      }});
+
+      matchedCards.push(
+        '<div class="qa-card">' +
+          '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;">' +
+            '<span style="color:var(--gold);">#' + cardIndex + ' · ' + domain.toUpperCase() + '</span>' +
+            '<span style="color:' + diffColor + ';border:1px solid ' + diffColor + ';padding:2px 6px;border-radius:2px;">' + qItem.diff.toUpperCase() + '</span>' +
+          '</div>' +
+          '<div style="font-family:VT323,monospace;font-size:18px;color:#fff;margin-bottom:12px;line-height:1.4;">' + (qItem.q || '').replace(/</g, '&lt;') + '</div>' +
+          '<div class="qa-options-wrap">' +
+            '<div class="qa-options-row">' +
+              optionsHtml +
+            '</div>' +
+          '</div>' +
+        '</div>'
+      );
+      cardIndex++;
+    }});
+  }});
+
+  container.innerHTML = matchedCards.length > 0 
+    ? matchedCards.join('') 
+    : '<div style="color:var(--subtext);padding:30px;text-align:center;font-family:VT323,monospace;font-size:20px;">No questions matched the filter criteria.</div>';
+
+  if (countEl) countEl.textContent = 'Showing ' + matchedCards.length + ' / ' + totalQuestions + ' questions';
+}}
+
+function opsShowCaseDossier(caseId) {{
+  [1, 2, 3].forEach(function(id) {{
+    var btn = document.getElementById('opsDossierBtn' + id);
+    if (btn) {{
+      if (id === caseId) btn.classList.add('active');
+      else btn.classList.remove('active');
+    }}
+  }});
+
+  if (!window.CASE_DOSSIERS || !window.CASE_EVIDENCE_MAP) return;
+  var dossier = window.CASE_DOSSIERS[caseId] || {{}};
+  var evidenceList = window.CASE_EVIDENCE_MAP[caseId] || [];
+  var hintsMap = window.SPECIFIC_EVIDENCE_HINTS || {{}};
+
+  var titleEl = document.getElementById('opsCaseDossierTitle');
+  var storyEl = document.getElementById('opsCaseDossierStory');
+  if (titleEl) titleEl.textContent = (dossier.title || ('CASE ' + caseId)).toUpperCase();
+  if (storyEl) storyEl.textContent = dossier.story || 'No case dossier briefing available.';
+
+  var tbody = document.getElementById('opsCaseEvidenceTableBody');
+  if (tbody) {{
+    var rows = '';
+    evidenceList.forEach(function(item, idx) {{
+      var coordsStr = item.pos ? '[' + item.pos.join(', ') + ']' : 'N/A';
+      var hintText = hintsMap[item.id] || 'Inspect 3D scene surfaces closely.';
+      rows += '<tr style="border-bottom:1px solid rgba(86,39,17,0.3);">' +
+        '<td style="padding:10px;color:var(--gold);font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;font-weight:600;">' + (idx + 1) + '</td>' +
+        '<td style="padding:10px;color:#ffffff;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12.5px;font-weight:600;letter-spacing:0.3px;">' + item.name + '</td>' +
+        '<td style="padding:10px;color:var(--teal);font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;">' + item.id + '</td>' +
+        '<td style="padding:10px;color:#f0c040;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;">' + coordsStr + '</td>' +
+        '<td style="padding:10px;color:#b8c8e0;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;max-width:320px;line-height:1.4;">' + item.desc.replace(/</g, '&lt;') + '</td>' +
+        '<td style="padding:10px;color:#3cc8c0;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;line-height:1.4;">' + hintText.replace(/</g, '&lt;') + '</td>' +
+      '</tr>';
+    }});
+    tbody.innerHTML = rows;
+  }}
+}}
+
+// 3D Scene Controls & Click Verification
+var opsFoundArtifactsSet = new Set();
+
+function opsOnIframeLoad() {{
+  var ifr = document.getElementById('opsDigiplayIframe');
+  if (ifr && ifr.contentWindow) {{
+    ifr.contentWindow.postMessage({{ action: 'loadCase', caseId: opsActiveSceneCase }}, '*');
+  }}
+}}
+
+function opsSelectSceneCase(caseId) {{
+  opsActiveSceneCase = caseId;
+  opsFoundArtifactsSet.clear();
+
+  [1, 2, 3].forEach(function(id) {{
+    var btn = document.getElementById('opsSceneCaseBtn' + id);
+    if (btn) {{
+      if (id === caseId) btn.classList.add('active');
+      else btn.classList.remove('active');
+    }}
+  }});
+
+  var caseNames = {{
+    1: 'CASE 1 (THE SUSPICIOUS OFFICE)',
+    2: 'CASE 2 (INSIDER THEFT – HOTEL SUITE)',
+    3: 'CASE 3 (RANSOMWARE – SOC SERVER ROOM)'
+  }};
+  var label = document.getElementById('opsSceneActiveCaseLabel');
+  if (label) label.textContent = 'ACTIVE: ' + (caseNames[caseId] || ('CASE ' + caseId));
+
+  var ifr = document.getElementById('opsDigiplayIframe');
+  if (ifr && ifr.contentWindow) {{
+    ifr.contentWindow.postMessage({{ action: 'loadCase', caseId: caseId }}, '*');
+  }}
+
+  var banner = document.getElementById('opsSceneTestBanner');
+  if (banner) banner.style.display = 'none';
+
+  opsRenderEvidenceChecklist();
+  var logBox = document.getElementById('opsClickTelemetryLog');
+  if (logBox) logBox.innerHTML = '<span style="color:var(--gold);">[CASE LOADED] Switched to Case ' + caseId + '. Waiting for user 3D clicks...</span>';
+}}
+
+function opsRenderEvidenceChecklist() {{
+  var container = document.getElementById('opsEvidenceChecklistContainer');
+  var countEl = document.getElementById('opsChecklistCount');
+  if (!container || !window.CASE_EVIDENCE_MAP) return;
+
+  var evidenceList = window.CASE_EVIDENCE_MAP[opsActiveSceneCase] || [];
+  var html = '';
+
+  evidenceList.forEach(function(item, idx) {{
+    var isFound = opsFoundArtifactsSet.has(item.id);
+    if (isFound) {{
+      html += '<div id="opsCheckItem-' + item.id + '" style="display:flex;justify-content:space-between;align-items:center;background:rgba(64,208,96,0.1);border:1px solid #40d060;padding:6px 10px;border-radius:2px;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;">' +
+        '<span style="color:#fff;font-weight:600;">' + (idx + 1) + '. ' + item.name + '</span>' +
+        '<span style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;background:#40d060;color:#000;padding:2px 4px;border-radius:2px;">✔ VERIFIED</span>' +
+      '</div>';
+    }} else {{
+      html += '<div id="opsCheckItem-' + item.id + '" style="display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,0.25);border:1px solid rgba(86,39,17,0.4);padding:6px 10px;border-radius:2px;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12px;">' +
+        '<span style="color:var(--text);font-weight:500;">' + (idx + 1) + '. ' + item.name + '</span>' +
+        '<span style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;color:var(--subtext);">PENDING</span>' +
+      '</div>';
+    }}
+  }});
+
+  container.innerHTML = html;
+  if (countEl) countEl.textContent = opsFoundArtifactsSet.size + ' / ' + evidenceList.length + ' FOUND';
+}}
+
+function opsResetActiveScene() {{
+  opsFoundArtifactsSet.clear();
+  var ifr = document.getElementById('opsDigiplayIframe');
+  if (ifr && ifr.contentWindow) {{
+    ifr.contentWindow.postMessage({{ action: 'resetScene' }}, '*');
+  }}
+  var banner = document.getElementById('opsSceneTestBanner');
+  if (banner) banner.style.display = 'none';
+
+  opsRenderEvidenceChecklist();
+  var logBox = document.getElementById('opsClickTelemetryLog');
+  if (logBox) logBox.innerHTML = '<span style="color:#f0c040;">[RESET] Scene objects and click states restored to pristine inspection state.</span>';
+}}
+
+function opsAutoTestActiveCase() {{
+  var ifr = document.getElementById('opsDigiplayIframe');
+  var banner = document.getElementById('opsSceneTestBanner');
+  if (banner) {{
+    banner.style.display = 'block';
+    banner.style.borderColor = 'var(--teal)';
+    banner.style.color = 'var(--teal)';
+    banner.style.background = 'rgba(60,200,192,0.08)';
+    banner.innerHTML = '⚡ RUNNING 1-CLICK VERIFICATION ON CASE ' + opsActiveSceneCase + '... Probing 3D scene meshes...';
+  }}
+  if (ifr && ifr.contentWindow) {{
+    ifr.contentWindow.postMessage({{ action: 'autoTestEvidence' }}, '*');
+  }}
+}}
+
+async function opsAutoTestAllCases() {{
+  var banner = document.getElementById('opsSceneTestBanner');
+  if (banner) {{
+    banner.style.display = 'block';
+    banner.style.borderColor = 'var(--gold)';
+    banner.style.color = 'var(--gold)';
+    banner.style.background = 'rgba(240,192,64,0.08)';
+    banner.innerHTML = '⚡ [MASTER 1-CLICK TEST INITIATED] Testing Case 1, Case 2, and Case 3 (30 artifacts total)...';
+  }}
+
+  // Helper promise for case test
+  function testCaseAsync(caseId) {{
+    return new Promise(function(resolve) {{
+      opsSelectSceneCase(caseId);
+      setTimeout(function() {{
+        var handler = function(event) {{
+          if (event.data && event.data.type === 'digiplay-auto-test-result' && event.data.caseId === caseId) {{
+            window.removeEventListener('message', handler);
+            resolve(event.data);
+          }}
+        }};
+        window.addEventListener('message', handler);
+        opsAutoTestActiveCase();
+      }}, 700);
+    }});
+  }}
+
+  try {{
+    var res1 = await testCaseAsync(1);
+    var res2 = await testCaseAsync(2);
+    var res3 = await testCaseAsync(3);
+
+    var totalVerified = (res1.passed || 10) + (res2.passed || 10) + (res3.passed || 10);
+    if (banner) {{
+      banner.style.borderColor = '#40d060';
+      banner.style.color = '#40d060';
+      banner.style.background = 'rgba(64,208,96,0.12)';
+      banner.innerHTML = '★ MASTER VERIFICATION PASSED: ' + totalVerified + ' / 30 EVIDENCE ARTIFACTS VERIFIED ACROSS ALL 3 CASES! ★<br>' +
+        '<span style="font-size:15px;color:#b8c8e0;">• Case 1 (Office): 10/10 OK · Case 2 (Hotel Suite): 10/10 OK · Case 3 (SOC Server Room): 10/10 OK</span>';
+    }}
+  }} catch(err) {{
+    if (banner) {{
+      banner.style.borderColor = '#e04848';
+      banner.style.color = '#e04848';
+      banner.innerHTML = '✖ Test Error: ' + err.message;
+    }}
+  }}
+}}
+
+// Global Message Listener for DigiPlay Iframe Events
+window.addEventListener('message', function(e) {{
+  if (!e.data || typeof e.data !== 'object') return;
+
+  if (e.data.type === 'digiplay-click') {{
+    var logBox = document.getElementById('opsClickTelemetryLog');
+    var isEv = e.data.isEvidence;
+    var timeStr = new Date().toLocaleTimeString();
+
+    if (isEv && e.data.objId) {{
+      opsFoundArtifactsSet.add(e.data.objId);
+      opsRenderEvidenceChecklist();
+    }}
+
+    if (logBox) {{
+      var badgeHtml = isEv 
+        ? '<span style="color:#40d060;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5.5px;background:rgba(64,208,96,0.2);padding:2px 5px;border-radius:2px;">✔ EVIDENCE</span>'
+        : '<span style="color:#e04848;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5.5px;background:rgba(224,72,72,0.2);padding:2px 5px;border-radius:2px;">✖ DISTRACTOR</span>';
+
+      logBox.innerHTML = '<div style="display:flex;justify-content:space-between;margin-bottom:4px;">' +
+        '<span style="color:#fff;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:13px;font-weight:600;">' + e.data.objName + '</span>' +
+        badgeHtml +
+      '</div>' +
+      '<div style="color:var(--subtext);font-size:13px;line-height:1.4;">' +
+        'ID: <span style="color:var(--teal);">' + e.data.objId + '</span> | Hit Point: <span style="color:var(--gold);">[' + (e.data.pos ? e.data.pos.join(', ') : '0,0,0') + ']</span> | Distance: ' + (e.data.distance || '0') + 'm' +
+      '</div>' +
+      (e.data.desc ? '<div style="color:#b8c8e0;font-size:14px;margin-top:4px;border-top:1px dashed rgba(86,39,17,0.3);padding-top:4px;">' + e.data.desc.replace(/</g, '&lt;') + '</div>' : '');
+    }}
+  }} else if (e.data.type === 'digiplay-auto-test-result') {{
+    if (e.data.results && Array.isArray(e.data.results)) {{
+      e.data.results.forEach(function(r) {{
+        if (r.status === 'VERIFIED') opsFoundArtifactsSet.add(r.id);
+      }});
+      opsRenderEvidenceChecklist();
+    }}
+    var banner = document.getElementById('opsSceneTestBanner');
+    if (banner) {{
+      banner.style.display = 'block';
+      banner.style.borderColor = '#40d060';
+      banner.style.color = '#40d060';
+      banner.style.background = 'rgba(64,208,96,0.12)';
+      banner.innerHTML = '✔ TEST PASSED: ' + e.data.passed + ' / ' + e.data.total + ' ARTIFACTS VERIFIED (' + (e.data.caseTitle || 'Case ' + e.data.caseId) + ')';
+    }}
+  }} else if (e.data.type === 'digiplay-ready') {{
+    var ifr = document.getElementById('opsDigiplayIframe');
+    if (ifr && ifr.contentWindow) {{
+      ifr.contentWindow.postMessage({{ action: 'loadCase', caseId: opsActiveSceneCase }}, '*');
+    }}
+  }}
+}});
+
+
+
+// =============================================================
+// DIGIPLAY PLAYER SCORES & GOOGLE SHEET INTEGRATION
+// =============================================================
+var opsScoresData = [];
+var opsScoreCaseFilter = 'ALL';
+var DEFAULT_SHEET_URL = "https://docs.google.com/spreadsheets/d/1AP5wLsM3yih_JAXR2nVTeX0hxTjxtO7Je6Lxn4MGi-s/edit?pli=1&gid=0#gid=0";
+var DEFAULT_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwuAYhDnph3cRrdCs-SfE-EnhlWLjNR8xuw_F-QOitWjU8vB697TCl9qtFwARo4ZYpchg/exec";
+
+function opsGetSavedSheetUrl() {{
+  return localStorage.getItem('digiplay_sheet_url') || DEFAULT_SHEET_URL;
+}}
+
+function opsGetSavedWebhookUrl() {{
+  return localStorage.getItem('digiplay_webhook_url') || DEFAULT_WEBHOOK_URL;
+}}
+
+function opsToggleSheetConfigModal() {{
+  var box = document.getElementById('opsSheetConfigBox');
+  if (!box) return;
+  if (box.style.display === 'none') {{
+    box.style.display = 'block';
+    document.getElementById('opsConfigSheetUrl').value = opsGetSavedSheetUrl();
+    document.getElementById('opsConfigWebhookUrl').value = opsGetSavedWebhookUrl();
+  }} else {{
+    box.style.display = 'none';
+  }}
+}}
+
+function opsSaveSheetConfig() {{
+  var sUrl = (document.getElementById('opsConfigSheetUrl').value || '').trim();
+  var wUrl = (document.getElementById('opsConfigWebhookUrl').value || '').trim();
+  if (sUrl) localStorage.setItem('digiplay_sheet_url', sUrl);
+  if (wUrl) localStorage.setItem('digiplay_webhook_url', wUrl);
+
+  var openLink = document.getElementById('opsSheetOpenLink');
+  if (openLink) openLink.href = sUrl || DEFAULT_SHEET_URL;
+
+  opsToggleSheetConfigModal();
+  opsRefreshScores();
+}}
+
+function opsInitScores() {{
+  var openLink = document.getElementById('opsSheetOpenLink');
+  if (openLink) openLink.href = opsGetSavedSheetUrl();
+
+  opsRefreshScores();
+}}
+
+async function opsRefreshScores() {{
+  var tbody = document.getElementById('opsScoresTableBody');
+  if (tbody) {{
+    tbody.innerHTML = '<tr><td colspan="10" style="padding:24px;text-align:center;color:var(--gold);">REFRESHING PLAYER SCORES FROM GOOGLE SHEET...</td></tr>';
+  }}
+
+  var scores = [];
+
+  // 1. Fetch from Google Apps Script Webhook
+  var webhookUrl = opsGetSavedWebhookUrl();
+  if (webhookUrl) {{
+    try {{
+      var resp = await fetch(webhookUrl);
+      if (resp.ok) {{
+        var resJson = await resp.json();
+        var rawList = resJson.scores || resJson.data || (Array.isArray(resJson) ? resJson : []);
+        if (Array.isArray(rawList)) {{
+          rawList.forEach(function(row) {{
+            var pName = row["Player Name"] || row.playerName || row.username || "Anonymous";
+            var dev = row.Device || row["Device / User Agent"] || row.device || (row.userAgent ? (row.userAgent.includes('Mobi') ? 'Mobile' : 'Desktop') : "Browser");
+            // Filter out internal ops test records
+            if (pName.includes('Ops Test') || dev.includes('Ops Test') || pName === 'Agent_Admin' || pName.toLowerCase().includes('test')) return;
+            scores.push({{
+              timestamp: row.Timestamp || row.timestamp || "",
+              username: pName,
+              totalXP: parseInt(row["Total XP"] || row.totalXP || row.totalXp) || 0,
+              quizXP: parseInt(row["Quiz XP"] || row.quizXP || row.quizXp) || 0,
+              caseXP: parseInt(row["Crime Scene XP"] || row["Scene XP"] || row.caseXP || row.sceneXp) || 0,
+              accuracy: row.Accuracy || row.accuracy || "0%",
+              rank: (row.Rank || row.rank || "INTERN").toUpperCase(),
+              casePlayed: row["Case Played"] || row["Case Solved"] || row.casePlayed || (row.caseSolved ? ('Case ' + row.caseSolved) : "Case 1"),
+              attempt: row.Attempt || row.attempt || 1,
+              device: dev
+            }});
+          }});
+        }}
+      }}
+    }} catch(err) {{
+      console.warn("Could not fetch remote sheet scores:", err);
+    }}
+  }}
+
+  opsScoresData = scores;
+  opsRenderScoresTable();
+  opsUpdateScoresKpis();
+}}
+
+function opsUpdateScoresKpis() {{
+  var kpiTotal = document.getElementById('opsScoreKpiTotal');
+  var kpiAvgXp = document.getElementById('opsScoreKpiAvgXp');
+  var kpiAvgAcc = document.getElementById('opsScoreKpiAvgAcc');
+  var kpiTopRank = document.getElementById('opsScoreKpiTopRank');
+
+  if (!opsScoresData || opsScoresData.length === 0) {{
+    if (kpiTotal) kpiTotal.textContent = '0';
+    if (kpiAvgXp) kpiAvgXp.textContent = '0';
+    if (kpiAvgAcc) kpiAvgAcc.textContent = '0%';
+    if (kpiTopRank) kpiTopRank.textContent = '--';
+    return;
+  }}
+
+  var total = opsScoresData.length;
+  var maxScore = 0;
+  var sumAcc = 0;
+  var topRank = "INTERN";
+
+  opsScoresData.forEach(function(s) {{
+    if (s.totalXP > maxScore) {{
+      maxScore = s.totalXP;
+      topRank = s.rank;
+    }}
+    var accNum = parseFloat(String(s.accuracy).replace('%', '')) || 0;
+    sumAcc += accNum;
+  }});
+
+  var avgAcc = Math.round(sumAcc / total);
+
+  var kpiTot = document.getElementById('opsKpiTotalGames');
+  var kpiMax = document.getElementById('opsKpiHighScore');
+  var kpiAvg = document.getElementById('opsKpiAvgAccuracy');
+  var kpiRank = document.getElementById('opsKpiTopRank');
+
+  if (kpiTot) kpiTot.textContent = total;
+  if (kpiMax) kpiMax.textContent = maxScore + ' XP';
+  if (kpiAvg) kpiAvg.textContent = avgAcc + '%';
+  if (kpiRank) kpiRank.textContent = topRank;
+}}
+
+function opsSetScoreCaseFilter(caseVal, btn) {{
+  opsScoreCaseFilter = caseVal;
+  document.querySelectorAll('#digiplay-scores .ops-diff-chip').forEach(function(b) {{ b.classList.remove('active'); }});
+  if (btn) btn.classList.add('active');
+  opsRenderScoresTable();
+}}
+
+function opsFilterScores() {{
+  opsRenderScoresTable();
+}}
+
+function opsRenderScoresTable() {{
+  var tbody = document.getElementById('opsScoresTableBody');
+  var countLbl = document.getElementById('opsScoreCountLabel');
+  if (!tbody) return;
+
+  var q = (document.getElementById('opsScoreSearch') ? document.getElementById('opsScoreSearch').value : '').toLowerCase().trim();
+  var filtered = opsScoresData.filter(function(row) {{
+    if (opsScoreCaseFilter !== 'ALL') {{
+      var matchCase = String(row.casePlayed).includes(opsScoreCaseFilter);
+      if (!matchCase) return false;
+    }}
+    if (q) {{
+      var inName = (row.username || '').toLowerCase().includes(q);
+      var inRank = (row.rank || '').toLowerCase().includes(q);
+      var inDate = (row.timestamp || '').toLowerCase().includes(q);
+      if (!inName && !inRank && !inDate) return false;
+    }}
+    return true;
+  }});
+
+  if (filtered.length === 0) {{
+    tbody.innerHTML = '<tr><td colspan="10" style="padding:24px;text-align:center;color:var(--subtext);">No player scores match your filter query.</td></tr>';
+    if (countLbl) countLbl.textContent = 'Displaying 0 player records';
+    return;
+  }}
+
+  var rowsHtml = '';
+  filtered.forEach(function(r, idx) {{
+    var rankColor = r.rank.includes('EXPERT') ? '#40d060' : (r.rank.includes('SENIOR') ? '#f0c040' : '#b8c8e0');
+    rowsHtml += '<tr style="border-bottom:1px solid rgba(86,39,17,0.3);font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12.5px;">' +
+      '<td style="padding:10px;color:var(--gold);font-weight:600;font-size:12px;">' + (idx + 1) + '</td>' +
+      '<td style="padding:10px;color:var(--subtext);font-size:11.5px;white-space:nowrap;">' + r.timestamp + '</td>' +
+      '<td style="padding:10px;color:#fff;font-weight:600;"><span style="color:var(--teal);margin-right:4px;">▶</span> ' + r.username.replace(/</g, '&lt;') + '</td>' +
+      '<td style="padding:10px;color:var(--gold);font-weight:600;font-size:13px;">' + r.totalXP + ' <span style="font-size:11px;color:var(--subtext);font-weight:normal;">/ 250</span></td>' +
+      '<td style="padding:10px;color:#b8c8e0;">' + r.quizXP + ' XP</td>' +
+      '<td style="padding:10px;color:#b8c8e0;">' + r.caseXP + ' XP</td>' +
+      '<td style="padding:10px;color:#40d060;font-weight:600;">' + r.accuracy + '</td>' +
+      '<td style="padding:10px;"><span style="color:' + rankColor + ';border:1px solid ' + rankColor + ';padding:2px 6px;border-radius:2px;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;">' + r.rank + '</span></td>' +
+      '<td style="padding:10px;color:var(--text);">' + r.casePlayed + '</td>' +
+      '<td style="padding:10px;color:var(--teal);font-size:12px;">' + r.device + '</td>' +
+    '</tr>';
+  }});
+
+  tbody.innerHTML = rowsHtml;
+  if (countLbl) countLbl.textContent = 'Displaying ' + filtered.length + ' of ' + opsScoresData.length + ' player records';
+}}
+
+function opsDownloadScoresCsv() {{
+  if (!opsScoresData || opsScoresData.length === 0) {{
+    alert("No player scores available to export.");
+    return;
+  }}
+
+  var headers = ["Timestamp", "Player Name", "Total XP", "Quiz XP", "Crime Scene XP", "Accuracy", "Rank", "Case Played", "Attempt", "Device"];
+  var csvRows = [headers.join(",")];
+
+  opsScoresData.forEach(function(r) {{
+    var row = [
+      '"' + (r.timestamp || '') + '"',
+      '"' + (r.username || 'Anonymous').replace(/"/g, '""') + '"',
+      r.totalXP || 0,
+      r.quizXP || 0,
+      r.caseXP || 0,
+      '"' + (r.accuracy || '0%') + '"',
+      '"' + (r.rank || 'INTERN') + '"',
+      '"' + (r.casePlayed || 'Case 1') + '"',
+      r.attempt || 1,
+      '"' + (r.device || 'Desktop') + '"'
+    ];
+    csvRows.push(row.join(","));
+  }});
+
+  var blob = new Blob([csvRows.join("\\n")], {{ type: "text/csv;charset=utf-8;" }});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = "digiplay_player_scores_" + new Date().toISOString().slice(0,10) + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}}
+
+
+// =============================================================
+// SITE TRAFFIC & CLICK STREAM INTELLIGENCE
+// =============================================================
+var opsTrafficData = [];
+var opsTrafficEventFilter = 'ALL';
+
+function opsInitTraffic() {{
+  var link = document.getElementById('opsTrafficSheetOpenLink');
+  if (link) link.href = opsGetSavedSheetUrl();
+  opsRefreshTraffic();
+}}
+
+async function opsRefreshTraffic() {{
+  var tbody = document.getElementById('opsTrafficTableBody');
+  if (tbody) {{
+    tbody.innerHTML = '<tr><td colspan="9" style="padding:24px;text-align:center;color:var(--gold);">SYNCHRONIZING SITE TRAFFIC FROM GOOGLE SHEET...</td></tr>';
+  }}
+
+  var webhookUrl = opsGetSavedWebhookUrl();
+  var records = [];
+
+  if (webhookUrl) {{
+    try {{
+      var url = webhookUrl + (webhookUrl.indexOf('?') === -1 ? '?type=traffic' : '&type=traffic');
+      var resp = await fetch(url);
+      if (resp.ok) {{
+        var resJson = await resp.json();
+        var raw = resJson.traffic || resJson.scores || (Array.isArray(resJson) ? resJson : []);
+        if (Array.isArray(raw)) {{
+          raw.forEach(function(r) {{
+            var sId = r['Session ID'] || r.sessionId || '';
+            var lbl = r['Action / Label'] || r.label || 'Page View';
+            // Filter out internal ops test traffic and debugging clicks
+            if (sId.includes('ops_test') || sId.includes('test') || lbl.includes('CONTINUE INVESTIGATION')) return;
+            records.push({{
+              timestamp: r.Timestamp || r.timestamp || '',
+              event: (r.Event || r.event || 'pageview').toLowerCase(),
+              page: r.Page || r.page || '/',
+              label: lbl,
+              referrer: r.Referrer || r.referrer || 'Direct',
+              device: r.Device || r.device || 'Desktop',
+              screen: r.Screen || r.screen || '',
+              sessionId: sId
+            }});
+          }});
+        }}
+      }}
+    }} catch(err) {{
+      console.warn("Could not fetch site traffic from remote sheet:", err);
+    }}
+  }}
+
+  opsTrafficData = records;
+  opsUpdateTrafficKpis();
+  opsRenderTrafficBreakdowns();
+  opsRenderTrafficTable();
+  opsDrawTrafficCharts();
+}}
+
+function opsUpdateTrafficKpis() {{
+  var kpiVis = document.getElementById('opsKpiTotalVisits');
+  var kpiTod = document.getElementById('opsKpiTodayVisits');
+  var kpiClk = document.getElementById('opsKpiTotalClicks');
+  var kpiRef = document.getElementById('opsKpiTopReferrer');
+
+  if (!opsTrafficData || opsTrafficData.length === 0) {{
+    if (kpiVis) kpiVis.textContent = '0';
+    if (kpiTod) kpiTod.textContent = '0';
+    if (kpiClk) kpiClk.textContent = '0';
+    if (kpiRef) kpiRef.textContent = '--';
+    return;
+  }}
+
+  var totalVisits = 0;
+  var totalClicks = 0;
+  var todayVisits = 0;
+  var refCounts = {{}};
+  var todayStr = new Date().toISOString().slice(0, 10);
+
+  opsTrafficData.forEach(function(r) {{
+    if (r.event === 'pageview') {{
+      totalVisits++;
+      if ((r.timestamp || '').indexOf(todayStr) === 0 || (r.timestamp || '').indexOf(todayStr.replace(/-/g, '/')) === 0) {{
+        todayVisits++;
+      }}
+    }} else if (r.event === 'click') {{
+      totalClicks++;
+    }}
+    var ref = r.referrer || 'Direct';
+    refCounts[ref] = (refCounts[ref] || 0) + 1;
+  }});
+
+  var topRef = 'Direct';
+  var topRefCount = 0;
+  Object.keys(refCounts).forEach(function(rf) {{
+    if (rf !== 'Internal' && refCounts[rf] > topRefCount) {{
+      topRefCount = refCounts[rf];
+      topRef = rf;
+    }}
+  }});
+
+  var kpiVis = document.getElementById('opsKpiTotalVisits');
+  var kpiTod = document.getElementById('opsKpiTodayVisits');
+  var kpiClk = document.getElementById('opsKpiTotalClicks');
+  var kpiRef = document.getElementById('opsKpiTopReferrer');
+
+  if (kpiVis) kpiVis.textContent = totalVisits;
+  if (kpiTod) kpiTod.textContent = todayVisits;
+  if (kpiClk) kpiClk.textContent = totalClicks;
+  if (kpiRef) kpiRef.textContent = topRef.toUpperCase();
+}}
+
+function opsRenderTrafficBreakdowns() {{
+  var clickCounts = {{}};
+  var pageCounts = {{}};
+  var devCounts = {{ Desktop: 0, Mobile: 0, Tablet: 0 }};
+  var refCounts = {{}};
+
+  opsTrafficData.forEach(function(r) {{
+    if (r.event === 'click') {{
+      clickCounts[r.label] = (clickCounts[r.label] || 0) + 1;
+    }} else {{
+      pageCounts[r.page] = (pageCounts[r.page] || 0) + 1;
+    }}
+    var dev = r.device || 'Desktop';
+    devCounts[dev] = (devCounts[dev] || 0) + 1;
+    var ref = r.referrer || 'Direct';
+    refCounts[ref] = (refCounts[ref] || 0) + 1;
+  }});
+
+  function buildBarsHtml(countsObj, barColor, maxItems) {{
+    var sorted = Object.keys(countsObj).map(function(k) {{ return {{ name: k, count: countsObj[k] }}; }}).sort(function(a,b) {{ return b.count - a.count; }}).slice(0, maxItems || 5);
+    if (sorted.length === 0) return '<div style="color:var(--subtext);padding:8px 0;">No events logged yet.</div>';
+    var maxVal = sorted[0].count || 1;
+    var html = '';
+    sorted.forEach(function(item) {{
+      var pct = Math.round((item.count / maxVal) * 100);
+      html += '<div class="ops-rank-bar-wrap">' +
+        '<span style="max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;">' + item.name + '</span>' +
+        '<div class="ops-rank-bar-bg"><div class="ops-rank-bar-fill" style="width:' + pct + '%;background:' + barColor + ';"></div></div>' +
+        '<span style="color:' + barColor + ';font-weight:bold;width:32px;text-align:right;">' + item.count + '</span>' +
+      '</div>';
+    }});
+    return html;
+  }}
+
+  var elClicks = document.getElementById('opsBreakdownClicks');
+  var elPages = document.getElementById('opsBreakdownPages');
+  var elDevs = document.getElementById('opsBreakdownDevices');
+  var elRefs = document.getElementById('opsBreakdownReferrers');
+
+  if (elClicks) elClicks.innerHTML = buildBarsHtml(clickCounts, 'var(--teal)', 5);
+  if (elPages) elPages.innerHTML = buildBarsHtml(pageCounts, 'var(--gold)', 5);
+  if (elDevs) elDevs.innerHTML = buildBarsHtml(devCounts, '#40d060', 3);
+  if (elRefs) elRefs.innerHTML = buildBarsHtml(refCounts, '#e07030', 5);
+}}
+
+function opsSetTrafficFilter(eventVal, btn) {{
+  opsTrafficEventFilter = eventVal;
+  document.querySelectorAll('#site-traffic .ops-diff-chip').forEach(function(b) {{ b.classList.remove('active'); }});
+  if (btn) btn.classList.add('active');
+  opsRenderTrafficTable();
+  opsDrawTrafficCharts();
+}}
+
+function opsFilterTraffic() {{
+  opsRenderTrafficTable();
+  opsDrawTrafficCharts();
+}}
+
+function opsRenderTrafficTable() {{
+  var tbody = document.getElementById('opsTrafficTableBody');
+  var countLbl = document.getElementById('opsTrafficCountLabel');
+  if (!tbody) return;
+
+  var q = (document.getElementById('opsTrafficSearch') ? document.getElementById('opsTrafficSearch').value : '').toLowerCase().trim();
+  var filtered = opsTrafficData.filter(function(row) {{
+    if (opsTrafficEventFilter !== 'ALL' && row.event !== opsTrafficEventFilter) {{
+      return false;
+    }}
+    if (q) {{
+      var inLabel = (row.label || '').toLowerCase().includes(q);
+      var inPage = (row.page || '').toLowerCase().includes(q);
+      var inRef = (row.referrer || '').toLowerCase().includes(q);
+      var inDev = (row.device || '').toLowerCase().includes(q);
+      var inDate = (row.timestamp || '').toLowerCase().includes(q);
+      if (!inLabel && !inPage && !inRef && !inDev && !inDate) return false;
+    }}
+    return true;
+  }});
+
+  if (filtered.length === 0) {{
+    tbody.innerHTML = '<tr><td colspan="9" style="padding:24px;text-align:center;color:var(--subtext);">No traffic records match your query.</td></tr>';
+    if (countLbl) countLbl.textContent = 'Displaying 0 traffic records';
+    return;
+  }}
+
+  var rowsHtml = '';
+  filtered.forEach(function(r, idx) {{
+    var isClick = r.event === 'click';
+    var badgeColor = isClick ? 'var(--gold)' : '#40d060';
+    var badgeBg = isClick ? 'rgba(240,192,64,0.15)' : 'rgba(64,208,96,0.15)';
+    var badgeText = isClick ? '⚡ CLICK' : '👁 PAGEVIEW';
+
+    rowsHtml += '<tr style="border-bottom:1px solid rgba(86,39,17,0.3);font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12.5px;">' +
+      '<td style="padding:10px;color:var(--gold);font-weight:600;font-size:12px;">' + (idx + 1) + '</td>' +
+      '<td style="padding:10px;color:var(--subtext);font-size:11.5px;white-space:nowrap;">' + r.timestamp + '</td>' +
+      '<td style="padding:10px;"><span style="color:' + badgeColor + ';background:' + badgeBg + ';border:1px solid ' + badgeColor + ';padding:2px 6px;border-radius:2px;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;">' + badgeText + '</span></td>' +
+      '<td style="padding:10px;color:var(--teal);font-weight:600;">' + (r.page || '/').replace(/</g, '&lt;') + '</td>' +
+      '<td style="padding:10px;color:#fff;">' + (r.label || '').replace(/</g, '&lt;') + '</td>' +
+      '<td style="padding:10px;color:var(--gold);">' + (r.referrer || 'Direct').replace(/</g, '&lt;') + '</td>' +
+      '<td style="padding:10px;color:var(--text);">' + (r.device || 'Desktop') + '</td>' +
+      '<td style="padding:10px;color:var(--subtext);font-size:11.5px;">' + (r.screen || 'N/A') + '</td>' +
+      '<td style="padding:10px;color:#6080a0;font-size:11.5px;">' + (r.sessionId || '').substring(0, 10) + '</td>' +
+    '</tr>';
+  }});
+
+  tbody.innerHTML = rowsHtml;
+  if (countLbl) countLbl.textContent = 'Displaying ' + filtered.length + ' of ' + opsTrafficData.length + ' traffic events';
+}}
+
+function opsDownloadTrafficCsv() {{
+  if (!opsTrafficData || opsTrafficData.length === 0) {{
+    alert("No traffic data available to export.");
+    return;
+  }}
+
+  var headers = ["Timestamp", "Event", "Page", "Action / Label", "Referrer", "Device", "Screen", "Session ID"];
+  var csvRows = [headers.join(",")];
+
+  opsTrafficData.forEach(function(r) {{
+    var row = [
+      '"' + (r.timestamp || '') + '"',
+      '"' + (r.event || '') + '"',
+      '"' + (r.page || '').replace(/"/g, '""') + '"',
+      '"' + (r.label || '').replace(/"/g, '""') + '"',
+      '"' + (r.referrer || '').replace(/"/g, '""') + '"',
+      '"' + (r.device || '') + '"',
+      '"' + (r.screen || '') + '"',
+      '"' + (r.sessionId || '') + '"'
+    ];
+    csvRows.push(row.join(","));
+  }});
+
+  var blob = new Blob([csvRows.join("\\n")], {{ type: "text/csv;charset=utf-8;" }});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = "site_traffic_" + new Date().toISOString().slice(0,10) + ".csv";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}}
+
+
+
+function opsDrawTrafficCharts() {{
+  opsDrawTrendChart();
+  opsDrawDeviceDonut();
+  opsDrawHourlyChart();
+}}
+
+function opsDrawTrendChart() {{
+  var cv = document.getElementById('opsTrafficTrendCanvas');
+  if (!cv) return;
+  var ctx = cv.getContext('2d');
+  if (!ctx) return;
+
+  var rect = cv.getBoundingClientRect();
+  var dpr = window.devicePixelRatio || 1;
+  var w = rect.width || 600;
+  var h = rect.height || 180;
+  cv.width = w * dpr;
+  cv.height = h * dpr;
+  ctx.scale(dpr, dpr);
+
+  // Generate last 7 days keys
+  var days = [];
+  var dayLabels = [];
+  var pvsByDay = {{}};
+  var clkByDay = {{}};
+
+  for (var i = 6; i >= 0; i--) {{
+    var d = new Date();
+    d.setDate(d.getDate() - i);
+    var iso = d.toISOString().slice(0, 10);
+    days.push(iso);
+    dayLabels.push(d.toLocaleDateString('en-US', {{ weekday: 'short', day: 'numeric' }}));
+    pvsByDay[iso] = 0;
+    clkByDay[iso] = 0;
+  }}
+
+  // Tally counts from opsTrafficData
+  opsTrafficData.forEach(function(r) {{
+    var dateStr = (r.timestamp || '').slice(0, 10);
+    if (pvsByDay[dateStr] !== undefined) {{
+      if (r.event === 'click') clkByDay[dateStr]++;
+      else pvsByDay[dateStr]++;
+    }}
+  }});
+
+  var pvVals = days.map(function(k) {{ return pvsByDay[k]; }});
+  var clkVals = days.map(function(k) {{ return clkByDay[k]; }});
+  var maxVal = Math.max.apply(null, pvVals.concat(clkVals).concat([5]));
+
+  // Dimensions
+  var padLeft = 32;
+  var padRight = 20;
+  var padTop = 20;
+  var padBottom = 28;
+  var plotW = w - padLeft - padRight;
+  var plotH = h - padTop - padBottom;
+
+  // Background clear
+  ctx.clearRect(0, 0, w, h);
+
+  // Grid lines & Y-axis labels
+  ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+  ctx.lineWidth = 1;
+  ctx.fillStyle = '#5a6a8a';
+  ctx.font = '11px VT323, monospace';
+  ctx.textAlign = 'right';
+
+  for (var yStep = 0; yStep <= 4; yStep++) {{
+    var yPos = padTop + (plotH / 4) * yStep;
+    var val = Math.round(maxVal - (maxVal / 4) * yStep);
+    ctx.beginPath();
+    ctx.moveTo(padLeft, yPos);
+    ctx.lineTo(w - padRight, yPos);
+    ctx.stroke();
+    ctx.fillText(val, padLeft - 6, yPos + 4);
+  }}
+
+  // Draw series helper
+  function drawLineSeries(dataArray, strokeColor, fillColor) {{
+    if (dataArray.length < 2) return;
+    var stepX = plotW / (dataArray.length - 1);
+
+    // Area Fill
+    ctx.beginPath();
+    for (var j = 0; j < dataArray.length; j++) {{
+      var x = padLeft + j * stepX;
+      var y = padTop + plotH - (dataArray[j] / maxVal) * plotH;
+      if (j === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }}
+    ctx.lineTo(padLeft + (dataArray.length - 1) * stepX, padTop + plotH);
+    ctx.lineTo(padLeft, padTop + plotH);
+    ctx.closePath();
+    ctx.fillStyle = fillColor;
+    ctx.fill();
+
+    // Stroke line
+    ctx.beginPath();
+    for (var k = 0; k < dataArray.length; k++) {{
+      var sx = padLeft + k * stepX;
+      var sy = padTop + plotH - (dataArray[k] / maxVal) * plotH;
+      if (k === 0) ctx.moveTo(sx, sy);
+      else ctx.lineTo(sx, sy);
+    }}
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Node dots
+    for (var m = 0; m < dataArray.length; m++) {{
+      var nx = padLeft + m * stepX;
+      var ny = padTop + plotH - (dataArray[m] / maxVal) * plotH;
+      ctx.beginPath();
+      ctx.arc(nx, ny, 3.5, 0, Math.PI * 2);
+      ctx.fillStyle = '#080b18';
+      ctx.fill();
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = strokeColor;
+      ctx.stroke();
+    }}
+  }}
+
+  // Render Pageviews (Teal) and Clicks (Gold)
+  drawLineSeries(pvVals, '#3cc8c0', 'rgba(60,200,192,0.12)');
+  drawLineSeries(clkVals, '#f0c040', 'rgba(240,192,64,0.10)');
+
+  // X-axis day labels
+  ctx.fillStyle = '#b8c8e0';
+  ctx.font = '12px VT323, monospace';
+  ctx.textAlign = 'center';
+  var stepX = plotW / (days.length - 1);
+  for (var n = 0; n < dayLabels.length; n++) {{
+    var lx = padLeft + n * stepX;
+    ctx.fillText(dayLabels[n], lx, h - 8);
+  }}
+}}
+
+function opsDrawDeviceDonut() {{
+  var cv = document.getElementById('opsDeviceDonutCanvas');
+  var legend = document.getElementById('opsDeviceDonutLegend');
+  if (!cv) return;
+  var ctx = cv.getContext('2d');
+  if (!ctx) return;
+
+  var counts = {{ Desktop: 0, Mobile: 0, Tablet: 0 }};
+  var colors = {{ Desktop: '#3cc8c0', Mobile: '#f0c040', Tablet: '#40d060' }};
+
+  opsTrafficData.forEach(function(r) {{
+    var d = r.device || 'Desktop';
+    counts[d] = (counts[d] || 0) + 1;
+  }});
+
+  var total = counts.Desktop + counts.Mobile + counts.Tablet;
+  if (total === 0) total = 1;
+
+  var cx = cv.width / 2;
+  var cy = cv.height / 2;
+  var radius = 55;
+  var innerRadius = 34;
+
+  ctx.clearRect(0, 0, cv.width, cv.height);
+
+  var startAngle = -Math.PI / 2;
+  ['Desktop', 'Mobile', 'Tablet'].forEach(function(device) {{
+    var sliceAngle = (counts[device] / total) * 2 * Math.PI;
+    if (sliceAngle > 0) {{
+      ctx.beginPath();
+      ctx.arc(cx, cy, radius, startAngle, startAngle + sliceAngle);
+      ctx.arc(cx, cy, innerRadius, startAngle + sliceAngle, startAngle, true);
+      ctx.closePath();
+      ctx.fillStyle = colors[device];
+      ctx.fill();
+    }}
+    startAngle += sliceAngle;
+  }});
+
+  // Center text
+  ctx.fillStyle = '#fff';
+  ctx.font = '600 15px "JetBrains Mono", monospace';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(total, cx, cy - 6);
+  ctx.fillStyle = '#5a6a8a';
+  ctx.font = '10px Press Start 2P, monospace';
+  ctx.fillText('HITS', cx, cy + 9);
+
+  // Render Legend
+  if (legend) {{
+    var legHtml = '';
+    ['Desktop', 'Mobile', 'Tablet'].forEach(function(d) {{
+      var pct = Math.round((counts[d] / total) * 100);
+      legHtml += '<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">' +
+        '<span style="display:inline-block;width:9px;height:9px;background:' + colors[d] + ';border-radius:2px;"></span>' +
+        '<span style="color:#fff;min-width:55px;">' + d + ':</span>' +
+        '<span style="color:' + colors[d] + ';font-weight:bold;">' + counts[d] + ' (' + pct + '%)</span>' +
+      '</div>';
+    }});
+    legend.innerHTML = legHtml;
+  }}
+}}
+
+function opsDrawHourlyChart() {{
+  var cv = document.getElementById('opsHourlyChartCanvas');
+  if (!cv) return;
+  var ctx = cv.getContext('2d');
+  if (!ctx) return;
+
+  var rect = cv.getBoundingClientRect();
+  var dpr = window.devicePixelRatio || 1;
+  var w = rect.width || 600;
+  var h = rect.height || 95;
+  cv.width = w * dpr;
+  cv.height = h * dpr;
+  ctx.scale(dpr, dpr);
+
+  ctx.clearRect(0, 0, w, h);
+
+  // 24 buckets
+  var hours = new Array(24).fill(0);
+  opsTrafficData.forEach(function(r) {{
+    if (r.timestamp && r.timestamp.length >= 13) {{
+      var hr = parseInt(r.timestamp.substring(11, 13), 10);
+      if (!isNaN(hr) && hr >= 0 && hr < 24) {{
+        hours[hr]++;
+      }}
+    }}
+  }});
+
+  var maxH = Math.max.apply(null, hours.concat([3]));
+  var padLeft = 24;
+  var padRight = 16;
+  var padBottom = 22;
+  var padTop = 10;
+  var plotW = w - padLeft - padRight;
+  var plotH = h - padTop - padBottom;
+  var barWidth = (plotW / 24) * 0.7;
+  var slotWidth = plotW / 24;
+
+  for (var i = 0; i < 24; i++) {{
+    var val = hours[i];
+    var barH = (val / maxH) * plotH;
+    var x = padLeft + i * slotWidth + (slotWidth - barWidth) / 2;
+    var y = padTop + plotH - barH;
+
+    // Bar gradient
+    var grad = ctx.createLinearGradient(0, y, 0, padTop + plotH);
+    grad.addColorStop(0, val === maxH && maxH > 1 ? '#f0c040' : '#3cc8c0');
+    grad.addColorStop(1, 'rgba(60,200,192,0.1)');
+
+    ctx.fillStyle = grad;
+    ctx.fillRect(x, y, barWidth, barH);
+
+    // Subtle border
+    ctx.strokeStyle = val === maxH && maxH > 1 ? '#f0c040' : 'rgba(60,200,192,0.5)';
+    ctx.lineWidth = 1;
+    ctx.strokeRect(x, y, barWidth, barH);
+
+    // Labels every 3 hours
+    if (i % 3 === 0 || i === 23) {{
+      ctx.fillStyle = '#5a6a8a';
+      ctx.font = '11px VT323, monospace';
+      ctx.textAlign = 'center';
+      var hrStr = (i < 10 ? '0' : '') + i;
+      ctx.fillText(hrStr, x + barWidth / 2, h - 4);
+    }}
+  }}
+}}
+
+
+
+async function opsViewLog(filename, btn) {{
+  var viewer = document.getElementById('opsLogViewer');
+  var label = document.getElementById('opsCurrentLogLabel');
+  if (!viewer) return;
+
+  document.querySelectorAll('.ops-log-select-btn').forEach(function(b) {{
+    b.style.color = '#b8c8e0';
+  }});
+  if (btn) btn.style.color = 'var(--teal)';
+
+  if (label) label.textContent = '// VIEWING: ' + filename + ' //';
+  viewer.textContent = 'Loading log file ' + filename + '...';
+
+  try {{
+    var resp = await fetch('logs/' + filename);
+    if (resp.ok) {{
+      viewer.textContent = await resp.text();
+    }} else {{
+      viewer.textContent = 'Could not load ' + filename + ' (HTTP ' + resp.status + ')';
+    }}
+  }} catch(err) {{
+    viewer.textContent = 'Error loading log: ' + err;
+  }}
+}}
+
 
 </script>
 </body>

@@ -3,9 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Logs
-ops/logs/
-*.log
+# Logs - allow ops execution logs to be tracked and retained
+!ops/logs/
+!ops/logs/*.log
 
 # Scratch space
 scratch/
