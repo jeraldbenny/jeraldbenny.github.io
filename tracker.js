@@ -5,6 +5,30 @@
 (function() {
   'use strict';
 
+  // 0. Complete exclusion guards
+  // A. Never track inside iframes (e.g. DigiPlay 3D embedded in Ops or preview frames)
+  if (window.self !== window.top) {
+    return;
+  }
+
+  // B. Never track local development, loopback, or file protocol
+  var host = (window.location.hostname || '').toLowerCase();
+  if (!host || host === 'localhost' || host === '127.0.0.1' || host === '::1' || host === '0.0.0.0' || window.location.protocol === 'file:') {
+    return;
+  }
+
+  // C. Never track if in Ops embed, case direct view, autotest, or ops mode
+  var searchStr = (window.location.search || '').toLowerCase();
+  if (searchStr.includes('ops=') || searchStr.includes('case=') || searchStr.includes('autotest=') || searchStr.includes('test=')) {
+    return;
+  }
+  if (document.documentElement.classList.contains('ops-embed') || (document.body && document.body.classList.contains('ops-embed'))) {
+    return;
+  }
+  if (window.jbTrackerDisabled) {
+    return;
+  }
+
   // Fallback / default Google Apps Script Web App endpoint
   var DEFAULT_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbwuAYhDnph3cRrdCs-SfE-EnhlWLjNR8xuw_F-QOitWjU8vB697TCl9qtFwARo4ZYpchg/exec';
 
@@ -73,6 +97,14 @@
   // Dispatch event payload
   function dispatchEvent(eventData) {
     if (isBot()) return;
+    if (window.self !== window.top) return;
+    if (window.innerWidth === 0 && window.innerHeight === 0) return;
+    var h = (window.location.hostname || '').toLowerCase();
+    if (!h || h === 'localhost' || h === '127.0.0.1' || h === '::1' || window.location.protocol === 'file:') return;
+    var q = (window.location.search || '').toLowerCase();
+    if (q.includes('ops=') || q.includes('case=') || q.includes('autotest=')) return;
+    if (document.documentElement.classList.contains('ops-embed') || (document.body && document.body.classList.contains('ops-embed'))) return;
+    if (window.jbTrackerDisabled) return;
 
     var endpoint = getWebhookUrl();
     if (!endpoint) return;
@@ -174,6 +206,19 @@
     var label = el.getAttribute('data-track') || '';
     var href = el.getAttribute('href') || '';
     var text = (el.innerText || el.textContent || '').trim().replace(/\s+/g, ' ');
+
+    // Ignore internal 3D scene clicks, investigations, or test triggers
+    var textLower = text.toLowerCase();
+    if (textLower.includes('continue investigation') || 
+        textLower.includes('enter 3d') || 
+        textLower.includes('test active case') || 
+        textLower.includes('test all 3') || 
+        textLower.includes('reset scene') || 
+        el.closest('#threeCanvas') || 
+        el.closest('#stage-case') ||
+        el.closest('.ops-scene-grid')) {
+      return;
+    }
 
     if (!label) {
       if (href) {

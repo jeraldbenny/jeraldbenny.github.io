@@ -48,8 +48,9 @@
 <link rel="icon" type="image/png" href="../favicon.png">
 <script>
   // Immediate embed detection to prevent flashing welcome screen
-  if (window.self !== window.top || window.location.search.includes('ops=1')) {
+  if (window.self !== window.top || window.location.search.includes('ops=1') || window.location.search.includes('case=')) {
     document.documentElement.classList.add('ops-embed');
+    window.jbTrackerDisabled = true;
   }
 </script>
 

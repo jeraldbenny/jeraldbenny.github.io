@@ -2951,22 +2951,6 @@ body{{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-
     font-size: 5px !important;
     padding: 7px 9px !important;
   }}
-  #opsQaSearch, #opsScoreSearch {{
-    width: 100% !important;
-    min-width: 0 !important;
-  }}
-  .qa-card {{
-    padding: 10px 12px !important;
-  }}
-  .qa-options-row {{
-    grid-template-columns: repeat(4, minmax(140px, 1fr)) !important;
-    gap: 6px !important;
-    font-size: 15px !important;
-  }}
-  .qa-opt-item {{
-    padding: 6px 8px !important;
-    min-height: 52px !important;
-  }}
   #opsDigiplayIframe {{
     height: 380px !important;
   }}
@@ -2979,15 +2963,69 @@ body{{background:var(--bg);color:var(--text);font-family:'VT323',monospace;font-
   }}
 }}
 
-@media (max-width: 480px) {{
+/* MOBILE VIEW ONLY (< 640px): 1-line answers, full-width search, clean stacked counters */
+@media (max-width: 640px) {{
+  #opsQaSearch, #opsScoreSearch, #opsTrafficSearch {{
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    margin-bottom: 8px !important;
+  }}
+  .ops-counter-bar {{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 3px !important;
+    font-size: 16px !important;
+  }}
+  .ops-diff-chip {{
+    font-size: 5.5px !important;
+    padding: 5px 8px !important;
+  }}
+  .qa-card {{
+    padding: 12px 14px !important;
+  }}
+  .qa-options-wrap {{
+    overflow-x: visible !important;
+    width: 100% !important;
+  }}
   .qa-options-row {{
-    grid-template-columns: repeat(4, minmax(130px, 1fr)) !important;
+    display: flex !important;
+    flex-direction: column !important;
     gap: 6px !important;
-    font-size: 14px !important;
+    width: 100% !important;
+    font-size: 16px !important;
   }}
   .qa-opt-item {{
-    padding: 5px 6px !important;
-    min-height: 48px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 8px 12px !important;
+    min-height: unset !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }}
+  .qa-opt-item .qa-opt-text-wrap {{
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+  }}
+  .qa-opt-item .qa-opt-letter {{
+    margin-top: 0 !important;
+    flex-shrink: 0 !important;
+  }}
+  .qa-opt-item .qa-opt-text {{
+    line-height: 1.25 !important;
+    word-break: break-word !important;
+    font-size: 16px !important;
+  }}
+  .qa-opt-item .qa-opt-badge {{
+    margin-top: 0 !important;
+    margin-left: 10px !important;
+    flex-shrink: 0 !important;
   }}
   #opsDigiplayIframe {{
     height: 320px !important;
@@ -3276,7 +3314,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <div id="pipeline" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
     <h2 class="panel-title">// CONTENT &amp; PIPELINE ARCHITECTURE //</h2>
-    <p style="margin-bottom:20px;font-size:16px;">Integrated architecture overview of content ingestion, automated GitHub Actions CI/CD, client search indexing, and NLP processing pipelines.</p>
+    
 
     <!-- SECTION 1: INGESTION SPECIFICATION & SEARCH INDEX -->
     <div style="margin-bottom:28px;">
@@ -3305,7 +3343,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
         <div class="stat-box"><div class="stat-val" style="font-size:10px;">generate_hub.py</div><div class="stat-lbl">HTML BUILD GENERATOR</div></div>
         <div class="stat-box"><div class="stat-val" style="color:#f0c040;">06:00 IST</div><div class="stat-lbl">RAG SYNC SCHEDULE</div></div>
       </div>
-      <p style="margin-top:14px;font-size:15px;color:#5a6a8a;">Pipeline executes fully autonomously. Ingested feeds, threat intelligence feeds, vector embeddings, and compiled static assets are committed directly to repository on every cycle.</p>
+      
     </div>
 
     <!-- SECTION 3: AI & NLP PROCESSING PIPELINE -->
@@ -3674,43 +3712,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       </div>
     </div>
 
-    <!-- RAG ARCHITECTURE PIPELINE WORKFLOW -->
-    <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px; margin-bottom:24px;">
-      <h3 style="font-family:'Press Start 2P',monospace; font-size:7px; color:var(--gold); margin-bottom:12px;">★ END-TO-END RAG ARCHITECTURE PIPELINE ★</h3>
-      <div style="background:rgba(0,0,0,0.35); border:1px solid var(--border); padding:16px; font-family:'VT323',monospace; font-size:16px; line-height:1.5;">
-        <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; text-align:center;">
-          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid var(--teal); padding:10px;">
-            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:var(--teal); margin-bottom:6px;">1. INGESTION</div>
-            <div style="font-size:14px; color:#fff;">Daily fetch_news.py</div>
-            <div style="font-size:12px; color:var(--subtext);">RSS + APIs + Archives</div>
-          </div>
-          <span style="color:var(--gold); font-size:20px;">➔</span>
-          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #f0c040; padding:10px;">
-            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#f0c040; margin-bottom:6px;">2. VECTORIZATION</div>
-            <div style="font-size:14px; color:#fff;">FastEmbed ONNX</div>
-            <div style="font-size:12px; color:var(--subtext);">384-dim Dense Embeddings</div>
-          </div>
-          <span style="color:var(--gold); font-size:20px;">➔</span>
-          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #40d060; padding:10px;">
-            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#40d060; margin-bottom:6px;">3. VECTOR STORE</div>
-            <div style="font-size:14px; color:#fff;">Pinecone Serverless</div>
-            <div style="font-size:12px; color:var(--subtext);">digifeed-rag Index</div>
-          </div>
-          <span style="color:var(--gold); font-size:20px;">➔</span>
-          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #a070e8; padding:10px;">
-            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#a070e8; margin-bottom:6px;">4. EDGE ROUTER</div>
-            <div style="font-size:14px; color:#fff;">Cloudflare Worker</div>
-            <div style="font-size:12px; color:var(--subtext);">Semantic Query & Context</div>
-          </div>
-          <span style="color:var(--gold); font-size:20px;">➔</span>
-          <div style="flex:1; min-width:140px; background:#0c0f1d; border:1px solid #e04848; padding:10px;">
-            <div style="font-family:'Press Start 2P',monospace; font-size:6px; color:#e04848; margin-bottom:6px;">5. GROUNDED AI</div>
-            <div style="font-size:14px; color:#fff;">DigiBot Response</div>
-            <div style="font-size:12px; color:var(--subtext);">Accurate Today Briefing</div>
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <!-- LIVE DIGIBOT DIAGNOSTICS & PING CONSOLE -->
     <div style="border-top:1px solid rgba(86,39,17,0.3); padding-top:18px;">
@@ -3740,7 +3742,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <!-- DIGIPLAY QA & HINTS -->
   <div id="digiplay-qa" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// DIGIPLAY :: KNOWLEDGE BASE, QA &amp; FORENSIC HINTS //</h2>
+    <h2 class="panel-title">// DIGIPLAY :: QA &amp; HINTS //</h2>
     
     <!-- Sub-tab Switcher -->
     <div style="display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;">
@@ -3768,9 +3770,9 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       </div>
 
       <!-- Counter -->
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:'VT323',monospace;font-size:18px;">
+      <div class="ops-counter-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:'VT323',monospace;font-size:18px;">
         <span id="opsQaCount" style="color:var(--gold);">Showing 90 / 90 questions</span>
-        <span style="color:var(--subtext);">Authoritative answers marked with green checkmarks</span>
+        
       </div>
 
       <!-- Questions List Container -->
@@ -3815,7 +3817,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <!-- DIGIPLAY 3D SCENES -->
   <div id="digiplay-scenes" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// DIGIPLAY :: 3D CRIME SCENE LAB &amp; CLICK VERIFICATION //</h2>
+    <h2 class="panel-title">// DIGIPLAY :: SCENE VERIFICATION //</h2>
 
     <!-- Controls Toolbar -->
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:16px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:12px 16px;">
@@ -3843,10 +3845,10 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
       <!-- Left Column: 3D Scene Viewport -->
       <div>
         <div style="position:relative;border:2px solid var(--border);background:#05070f;border-radius:2px;overflow:hidden;">
-          <iframe id="opsDigiplayIframe" src="../digiplay/index.html?ops=1&amp;case=1" onload="opsOnIframeLoad()" style="width:100%;height:520px;border:none;display:block;" title="DigiPlay 3D Scene Test Viewport"></iframe>
+          <iframe id="opsDigiplayIframe" src="about:blank" data-src="../digiplay/index.html?ops=1&amp;case=1" onload="if(window.opsOnIframeLoad)opsOnIframeLoad()" style="width:100%;height:520px;border:none;display:block;" title="DigiPlay 3D Scene Test Viewport"></iframe>
         </div>
         <div style="display:flex;justify-content:space-between;padding:6px 2px;font-size:14px;color:var(--subtext);font-family:'VT323',monospace;">
-          <span>• LEFT CLICK + DRAG: Orbit | RIGHT CLICK + DRAG: Pan | SCROLL: Zoom | CLICK OBJECT: Inspect</span>
+          
           <span id="opsSceneActiveCaseLabel" style="color:var(--gold);">ACTIVE: CASE 1 (THE SUSPICIOUS OFFICE)</span>
         </div>
       </div>
@@ -3881,7 +3883,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <!-- DIGIPLAY SCORES & PLAYERS -->
   <div id="digiplay-scores" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// DIGIPLAY :: PLAYER TELEMETRY, SCORES &amp; GOOGLE SHEET //</h2>
+    <h2 class="panel-title">// DIGIPLAY :: PLAYER SCORES //</h2>
 
     <!-- Top Action & Sheet Link Bar -->
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 18px;">
@@ -3961,9 +3963,9 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
 
     <!-- Player Scores Table -->
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:'VT323',monospace;font-size:18px;">
+    <div class="ops-counter-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:'VT323',monospace;font-size:18px;">
       <span id="opsScoreCountLabel" style="color:var(--gold);">Displaying 0 player records</span>
-      <span style="color:var(--subtext);">Real-time telemetry synchronized with Google Sheet</span>
+      
     </div>
 
     <div class="table-responsive-wrap">
@@ -3993,7 +3995,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
   <!-- SITE TRAFFIC & CLICKS -->
   <div id="site-traffic" class="panel tab-content hidden-pane">
     <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
-    <h2 class="panel-title">// SITE INTELLIGENCE :: VISITOR TRAFFIC &amp; CLICK STREAM //</h2>
+    <h2 class="panel-title">// SITE INTELLIGENCE //</h2>
 
     <!-- Top Action & Sheet Link Bar -->
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:20px;background:rgba(0,0,0,0.3);border:1px solid var(--border);padding:14px 18px;">
@@ -4131,9 +4133,8 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
     </div>
 
     <!-- Real-time Clickstream Table -->
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:VT323,monospace;font-size:18px;">
+    <div class="ops-counter-bar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-family:VT323,monospace;font-size:18px;">
       <span id="opsTrafficCountLabel" style="color:var(--gold);">Displaying 0 traffic records</span>
-      <span style="color:var(--subtext);">Filtered for human engagement &amp; non-bot traffic</span>
     </div>
 
     <div class="table-responsive-wrap">
@@ -4662,17 +4663,17 @@ function opsFilterQuestions() {{
         var isCorrect = optIdx === qItem.ans;
         if (isCorrect) {{
           optionsHtml += '<div class="qa-opt-item correct">' +
-            '<div style="display:flex;align-items:flex-start;gap:6px;">' +
-              '<span style="color:#40d060;font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
-              '<span style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
+            '<div class="qa-opt-text-wrap" style="display:flex;align-items:flex-start;gap:6px;">' +
+              '<span class="qa-opt-letter" style="color:#40d060;font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
+              '<span class="qa-opt-text" style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
             '</div>' +
-            '<div style="margin-top:6px;"><span style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;background:#40d060;color:#000;padding:2px 5px;border-radius:2px;letter-spacing:0.5px;display:inline-block;white-space:nowrap;">✔ CORRECT</span></div>' +
+            '<div class="qa-opt-badge" style="margin-top:6px;"><span style="font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;background:#40d060;color:#000;padding:2px 5px;border-radius:2px;letter-spacing:0.5px;display:inline-block;white-space:nowrap;">✔ CORRECT</span></div>' +
           '</div>';
         }} else {{
           optionsHtml += '<div class="qa-opt-item incorrect">' +
-            '<div style="display:flex;align-items:flex-start;gap:6px;">' +
-              '<span style="color:var(--subtext);font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
-              '<span style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
+            '<div class="qa-opt-text-wrap" style="display:flex;align-items:flex-start;gap:6px;">' +
+              '<span class="qa-opt-letter" style="color:var(--subtext);font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;margin-top:2px;flex-shrink:0;">[' + String.fromCharCode(65 + optIdx) + ']</span>' +
+              '<span class="qa-opt-text" style="line-height:1.2;word-break:break-word;">' + optText.replace(/</g, '&lt;') + '</span>' +
             '</div>' +
           '</div>';
         }}
@@ -4772,8 +4773,12 @@ function opsSelectSceneCase(caseId) {{
   if (label) label.textContent = 'ACTIVE: ' + (caseNames[caseId] || ('CASE ' + caseId));
 
   var ifr = document.getElementById('opsDigiplayIframe');
-  if (ifr && ifr.contentWindow) {{
-    ifr.contentWindow.postMessage({{ action: 'loadCase', caseId: caseId }}, '*');
+  if (ifr) {{
+    if (!ifr.src || ifr.src === 'about:blank' || ifr.src.endsWith('about:blank')) {{
+      ifr.src = '../digiplay/index.html?ops=1&case=' + caseId;
+    }} else if (ifr.contentWindow) {{
+      ifr.contentWindow.postMessage({{ action: 'loadCase', caseId: caseId }}, '*');
+    }}
   }}
 
   var banner = document.getElementById('opsSceneTestBanner');
@@ -4827,6 +4832,9 @@ function opsResetActiveScene() {{
 
 function opsAutoTestActiveCase() {{
   var ifr = document.getElementById('opsDigiplayIframe');
+  if (ifr && (!ifr.src || ifr.src === 'about:blank' || ifr.src.endsWith('about:blank'))) {{
+    ifr.src = '../digiplay/index.html?ops=1&case=' + opsActiveSceneCase;
+  }}
   var banner = document.getElementById('opsSceneTestBanner');
   if (banner) {{
     banner.style.display = 'block';
@@ -4841,6 +4849,10 @@ function opsAutoTestActiveCase() {{
 }}
 
 async function opsAutoTestAllCases() {{
+  var ifr = document.getElementById('opsDigiplayIframe');
+  if (ifr && (!ifr.src || ifr.src === 'about:blank' || ifr.src.endsWith('about:blank'))) {{
+    ifr.src = '../digiplay/index.html?ops=1&case=1';
+  }}
   var banner = document.getElementById('opsSceneTestBanner');
   if (banner) {{
     banner.style.display = 'block';
@@ -5010,8 +5022,9 @@ async function opsRefreshScores() {{
           rawList.forEach(function(row) {{
             var pName = row["Player Name"] || row.playerName || row.username || "Anonymous";
             var dev = row.Device || row["Device / User Agent"] || row.device || (row.userAgent ? (row.userAgent.includes('Mobi') ? 'Mobile' : 'Desktop') : "Browser");
-            // Filter out internal ops test records
-            if (pName.includes('Ops Test') || dev.includes('Ops Test') || pName === 'Agent_Admin' || pName.toLowerCase().includes('test')) return;
+            // Filter out internal ops test records and prior testing scores
+            var ts = row.Timestamp || row.timestamp || "";
+            if (pName.includes('Ops Test') || dev.includes('Ops Test') || pName === 'Agent_Admin' || pName.toLowerCase().includes('test') || pName.toLowerCase().includes('admin') || (ts && ts < '2026-09-21T22:00:00')) return;
             scores.push({{
               timestamp: row.Timestamp || row.timestamp || "",
               username: pName,
@@ -5203,10 +5216,21 @@ async function opsRefreshTraffic() {{
         var raw = resJson.traffic || resJson.scores || (Array.isArray(resJson) ? resJson : []);
         if (Array.isArray(raw)) {{
           raw.forEach(function(r) {{
-            var sId = r['Session ID'] || r.sessionId || '';
+            var sId = (r['Session ID'] || r.sessionId || '').toLowerCase();
             var lbl = r['Action / Label'] || r.label || 'Page View';
-            // Filter out internal ops test traffic and debugging clicks
-            if (sId.includes('ops_test') || sId.includes('test') || lbl.includes('CONTINUE INVESTIGATION')) return;
+            var lblLower = lbl.toLowerCase();
+            var pg = (r.Page || r.page || '').toLowerCase();
+            var scr = r.Screen || r.screen || '';
+
+            // Filter out internal ops test traffic, testing sessions, debugging clicks, zero-size iframe artifacts, and 3D scene visits
+            var ts = r.Timestamp || r.timestamp || '';
+            if (sId.includes('ops_test') || sId.includes('test') || sId.includes('admin') || sId.includes('debug')) return;
+            if (sId.includes('s_mub14y29') || sId.includes('s_mu9siaps') || sId.includes('s_muaxtv44') || sId.includes('s_mu9tkjbe') || sId.includes('s_mu9s8b4n') || sId.includes('s_mu9pmdxn')) return;
+            if (ts && ts < '2026-09-21T22:00:00') return;
+            if (scr === '0x0') return;
+            if (lblLower.includes('continue investigation') || lblLower.includes('enter 3d') || lblLower.includes('crime scene') || lblLower.includes('3d scene') || lblLower.includes('test active case') || lblLower.includes('test all')) return;
+            if (pg.includes('ops=') || pg.includes('case=') || pg.includes('autotest=') || pg.includes('3d')) return;
+
             records.push({{
               timestamp: r.Timestamp || r.timestamp || '',
               event: (r.Event || r.event || 'pageview').toLowerCase(),
@@ -5214,7 +5238,7 @@ async function opsRefreshTraffic() {{
               label: lbl,
               referrer: r.Referrer || r.referrer || 'Direct',
               device: r.Device || r.device || 'Desktop',
-              screen: r.Screen || r.screen || '',
+              screen: scr,
               sessionId: sId
             }});
           }});
