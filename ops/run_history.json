@@ -2573,5 +2573,28 @@
       "MalwareBazaar": "✔"
     },
     "errors": []
+  },
+  {
+    "timestamp": "2026-09-22T05:13:18.709060+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 66,
+    "total_articles": 12647,
+    "runtime": "1 min 26 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "Hexordia",
+        "error": "'NoneType' object has no attribute 'status_code'"
+      }
+    ]
   }
 ]
