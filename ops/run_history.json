@@ -2596,5 +2596,23 @@
         "error": "'NoneType' object has no attribute 'status_code'"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-23T04:57:27.941160+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 74,
+    "sources_failed": 0,
+    "new_articles_count": 69,
+    "total_articles": 12705,
+    "runtime": "1 min 10 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": []
   }
 ]

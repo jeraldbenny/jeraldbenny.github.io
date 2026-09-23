@@ -1,11 +1,11 @@
 {
-  "last_update": "22 Sep 2026, 10:43 IST",
-  "sources_healthy": 73,
-  "sources_failed": 1,
-  "articles_today": 57,
-  "duplicates_discarded": 9,
-  "articles_total": 12647,
-  "runtime": "1 min 26 sec",
+  "last_update": "23 Sep 2026, 10:27 IST",
+  "sources_healthy": 74,
+  "sources_failed": 0,
+  "articles_today": 58,
+  "duplicates_discarded": 11,
+  "articles_total": 12705,
+  "runtime": "1 min 10 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -14,10 +14,5 @@
     "arXiv": "✔",
     "MalwareBazaar": "✔"
   },
-  "errors_list": [
-    {
-      "name": "Hexordia",
-      "error": "'NoneType' object has no attribute 'status_code'"
-    }
-  ]
+  "errors_list": []
 }
