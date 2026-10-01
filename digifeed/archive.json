@@ -1,7 +1,771 @@
 {
-  "last_updated": "30 September 2026, 11:17 IST",
+  "last_updated": "01 October 2026, 11:48 IST",
   "total": 1000,
   "articles": [
+    {
+      "id": "2f326bf12b6ebeca514872d6f65ae4e6",
+      "title": "[Threat IOC] ClearFake domain: flyhighsmokeshop.com",
+      "link": "https://threatfox.abuse.ch/ioc/1943614/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-01T06:15:09Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "0fc0ecebf8c243fa708f793592a68e79",
+      "title": "[Threat IOC] AdaptixC2 ip:port: 154.92.252.58:8080",
+      "link": "https://threatfox.abuse.ch/ioc/1943613/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-01T06:05:05Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AdaptixC2. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#adaptixc2"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7b533782a1acaaf075fc4c441b3b5688",
+      "title": "[Threat IOC] Cobalt Strike ip:port: 37.120.238.187:443",
+      "link": "https://threatfox.abuse.ch/ioc/1943612/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-01T06:05:04Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#cobaltstrike"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "d4b77c89bd97094d3fca5ed511daa256",
+      "title": "[Threat IOC] Cobalt Strike url: https://dj7mv481nzu7.cloudfront.net/dp/B07984JN3L",
+      "link": "https://threatfox.abuse.ch/ioc/1943591/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-10-01T06:00:40Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: url. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#cobaltstrike"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "42f9b4f1370313d7f8bfed06cafd92eb",
+      "title": "[Threat IOC] Cobalt Strike md5_hash: 7b7b06ea4f414ff9ea691a82e6bc247b",
+      "link": "https://threatfox.abuse.ch/ioc/1943598/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-01T06:00:39Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: md5_hash. Threat Category: payload. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#cobaltstrike"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7e356866ec9bff0e28c8bbfd2cedc328",
+      "title": "[Threat IOC] Jackskid ip:port: 134.122.68.238:443",
+      "link": "https://threatfox.abuse.ch/ioc/1943602/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-01T06:00:38Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#jackskid"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "f768c3a222f433fe8a9d631bbb09976a",
+      "title": "[Threat IOC] Jackskid ip:port: 137.184.100.23:443",
+      "link": "https://threatfox.abuse.ch/ioc/1943603/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-10-01T06:00:37Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#jackskid"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "f2f71e3fbceafd31381f952a72bfa5dd",
+      "title": "[Threat IOC] Jackskid ip:port: 138.68.128.163:443",
+      "link": "https://threatfox.abuse.ch/ioc/1943604/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-10-01T06:00:37Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#jackskid"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "bcc0d3dc0491034d96a7716a3fe51673",
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzu32AOghfPrV4ViB5puy-1o8shfq77FdmxU5eS9i4x8SCLNzm6xQYn56KGKivAGFoIwa3yYWat5vZMQsdOqPp0ZoEcVst6fs3llaB88jz1IcH6ctmEUEoXcCQOWJs599jVZDnNlHYYww22fnm6KnorG7q16rSGcx3P_Isku8NOODjdV4A5Dee4HiPnmu7/s1600/crypto-theft.jpg",
+      "published": "2026-10-01T05:21:10Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation findings from SlowMist.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7f6ffc3ed2ecc24f27ae8c608227da12",
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipy8fMneY_rWNpC4ldmMhHo-WUhf1n8sK1GH2bHrvTgrmKGNTkKhVVcX6tKlw3NiAitNoaSczHsUpGmuQac46yTHrjW59JTq4WiecYDxHYmIWJ99gLUmxaBxEpwQw7rBwYKSP_bIVh-tcXh3Mgk9sRjeXZjGXF7ospfS7Xrt2FgQwfC89rKdy-A4RwFyMx/s1600/metamask-main.jpg",
+      "published": "2026-10-01T05:10:09Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "28cb2fef0de81673be5e33e367957949",
+      "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
+      "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAuODp7WTARNyJa6hiyuveQ1LUgYlaYQXGDDfRAYUA7Zkwwb7vMriA7VIh5HmBJwWWR0kALhQkijvT43ke2ajjOQHk6YxQb2rAgsB0PYcbMKPdm-JezjILBH8j3kY29iATKhZLQhVIyAjwNj9XFBTeenqPCHM1AzKMKRCVlMME3jQs5yIYSoVtrbRnVSY7/s1600/citrix-css-shell.jpg",
+      "published": "2026-10-01T04:35:34Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "Threat actors have been observed exploiting a critical pre-authentication command injection vulnerability in Citrix NetScaler ADC and NetScaler Gateway to drop web shells and attempt theft of configuration data.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "caf3813a8d95e6668358752489cbc753",
+      "title": "Russian state hackers use new RedFlick technique to push malware",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_5.png",
+      "published": "2026-09-30T20:34:01Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "eb7ebd6add515f17057ce44ad98ae535",
+      "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+      "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_4.png",
+      "published": "2026-09-30T19:49:15Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnerabilities in the open-source Zammad ticketing system. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "e9ea25af82df95cff85b59962193354d",
+      "title": "PA State Police Recognizes Forensic Professionals During National Forensic Science Week - Fulton County News",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOTdaVDZmVXhxTnRSR2xaNmdicnREbFZjVURfRWZGYnVtSGdwNWRneUhSWGpNZE9KZ3lTVXU3dExSdjU3bmF1TUI4OHQwdDQtRWp0Qlg1bU5zZXo5dC1NU1ZMQTYwT3R5dHo2NXR2d1ZGcGR3V3dWUnBkTDBINGFwT21kWUFCa05ma1dHV2JDNkczZExHM3RzRW5OUERtNXVvdFU3VzV4YVBoZm9JSUpsWDdYdzRKek9zeHZBRXl5WUtId3M5alk1RXV3?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_4.png",
+      "published": "2026-09-30T19:06:54Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "PA State Police Recognizes Forensic Professionals During National Forensic Science Week Fulton County News",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "c48d094bffc1f5ce14bad38eab79d246",
+      "title": "Peruvian mummies raise questions about Wari conquest of Nasca civilization",
+      "link": "https://phys.org/news/2026-09-peruvian-mummies-wari-conquest-nasca.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-picture-huaca-del-lo.jpg",
+      "published": "2026-09-30T18:20:16Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "For centuries, historians have drawn the boundaries of where ancient people lived based on the evidence they left behind.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7f7376d3eaeb01e2b53c80b2b70c5514",
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "link": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/github_5.png",
+      "published": "2026-09-30T18:08:34Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "dee2877c85ad2bde171121a0c0619a4a",
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1600/zimbra-email.jpg",
+      "published": "2026-09-30T16:46:29Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "6893e432ed657c690d12ad9be2a0a030",
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOOpLuI3TSRRvKO7zux2AsJKVNjC36RcaAJCYelekCSQRhpMSABekI8kmMGLZRBZN2biNqDGyKYY_0AqsXb2PMKS6M3sjeLBlt7UQ_IWhXPQ3_q9DGhetIgFeGkF1d_ZE-l2HZPTDID5FkqdLsv3G_wJ-Yckb-Q2I6FdCLo3-AS-pPbCIDRfgFiRzofpaA/s1600/windows-rmm.jpg",
+      "published": "2026-09-30T16:32:59Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "406e52c0a9028496c597b9b581a4ef4a",
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_2.png",
+      "published": "2026-09-30T15:49:29Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "733046bdceaf80980ec7677c91131ec7",
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1600/cisco-admin.jpg",
+      "published": "2026-09-30T15:24:54Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "37c94e5c5ccfa756f5e379a957f9b6c9",
+      "title": "Morrisey announces funding for West Virginia State Police forensic lab - WTAP",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmpqOUlHSlJ6blFqZ181MFNCZ3Bac3VqclJQS2VjOHlYazJYdVY4RTdGbHp1VEZrRDRTY1pwSnFtSkY3WE13VlpMVE55Q1N0em4zUnR0aHZmdFZ3VWRZWnpGVmFKZjRJQUF5YVkzcUZGdndTY3JFS3JNdHp5YmEtM2UxUEo4SEV6X253S1dGZ0Y0SENtSHh6TmJMTXhjRHYt0gG0AUFVX3lxTE9kOVAxUDB2ODNhTm9EY2swUEc2UEpUNzVpbGJ3aTRza3dNT2RnNDNzSTdJdHM2Y1hiN2pITFc3MmI1T3dyWXNuQmtZMkhmSnhGTTdmRVFhTU5zM1c0cnhCN1BLUlY3d1JVUW85dnEwSEwwQTlFYnlxTlZubEdZTERGQkI2SkszbXBVa3RtZDB5VFZJcmJNVG55UV9UVEZhY0tsdEsxSlpmZ2xXb3dwSFl3Wnc1ZA?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_4.png",
+      "published": "2026-09-30T15:09:00Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Morrisey announces funding for West Virginia State Police forensic lab WTAP",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "4f42cd6621e55fb37c3803dee5ff9135",
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-E2KBc2Kl1xfsJ_ayeCwrbYODEJELskOif8C_YQFyt7DoGklZczzFD3IetvE9mFBUeQN9SQWCE41WtJA-NkE6dya1xAOznACZzeRCMRhvfSQaGipfmD-z1F2rWFPFGLvYSJwrfKhUrbdzwMc_b4OkpTA8huBozpABL2OBcxCM1cod7Hvr0eH23GgE1sEo/s1600/custom-gpt.jpg",
+      "published": "2026-09-30T15:00:15Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "139f0878f3c6cd153793d7f72acd4ffa",
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_2.png",
+      "published": "2026-09-30T14:46:40Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "48eca9e0e1b9fdb3ee0b392ec3f9088f",
+      "title": "Research Paper: SEAR: Spoofing Evidence-Grounded Audio Reasoning Benchmark for Audio Language Models",
+      "link": "https://arxiv.org/abs/2609.39847v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-09-30T14:39:47Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Audio language models (ALMs) are increasingly used for audio deepfake detection (ADD), yet existing benchmarks assess their verdicts or rationale plausibility without verifying the underlying acoustic evidence.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#digital-forensics",
+        "#media-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 120,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "0afc47302bbd928c3273a654c2bfc608",
+      "title": "Funding forensic science is essential to keeping New Mexico’s justice system working - NM Department of Public Safety (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54V2NJTEpjQlBOVWU0ZUdfb1I3RFJXdlh1Y1JjWk9xd2oyVFk3M2cxVG1nU0ZDYXBYWlRKcENqbWZpVmVpVkprWVhGbHV6UHRoM2dYZUpVeE0?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_5.png",
+      "published": "2026-09-30T14:30:17Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Funding forensic science is essential to keeping New Mexico’s justice system working NM Department of Public Safety (.gov)",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "88b120dd4e690642686d2dfa7217a8e1",
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_1.png",
+      "published": "2026-09-30T14:01:11Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "06e2c4a02738e7a65d8c2e8f45526e81",
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_1.png",
+      "published": "2026-09-30T13:37:15Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "aab58c9e330b5ad717b11f62c84bbdd6",
+      "title": "Research Paper: SE-ADD: Self-Evolving Audio Deepfake Detection with Mistake-Driven Supervision",
+      "link": "https://arxiv.org/abs/2609.39679v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-09-30T13:10:57Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Audio deepfake detection (ADD) must remain effective when new spoofing attacks emerge after deployment.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "aa3bbc208fc8ecdd1a2290abcdfb2ae1",
+      "title": "Kawakami honors forensics team during National Forensic Science Week - Kauai Now",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFdlSzJtZFl2b3luZWljdmVCY0tpeWRPU21oeVJfcVd2a2txdFZlbTJUTGg4dUdaSlRjbGYyWHJ2ajRSb3JkYW9iSzNlQ1J6MUtFWU5hVHMwR3dCUURFbDJ3emRuRHRYaFlyZ2tzS3VBVDhwb0ExLWtURUU0aFpDVm1XYXBta1M1Mld2QUdtaDFKZ3NMa3ExZXJIekFuRGM3ZnR4YVdoTkk?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-30T13:00:00Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Kawakami honors forensics team during National Forensic Science Week Kauai Now",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "9d8e2140476ae2fc97f312ab3eaa924b",
+      "title": "Suspected state-sponsored hackers exploited NetScaler zero-day since early September (CVE-2026-88772) - helpnetsecurity.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVzBwck5DUEd1bE8tS0hBdE9tU1BES0tsRGZHLVFBVkZSdE40WUJPYlh2Z2Z2SjRSMUYtTDVZTF9kMDZRQ2JIRldMTVAzVXZvem13YjNFVDVreWhTTDFXZVBjcXBCQTNhazk0cGxQejFIVXdrZlRQbk9MSXhzdzZNYUloRVZpeTY4czhNbGlZQVM2RG5M?oc=5",
+      "source": "Google Threat Intel",
+      "source_icon": "🌐",
+      "image": "images/cve_2.png",
+      "published": "2026-09-30T12:33:38Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Suspected state-sponsored hackers exploited NetScaler zero-day since early September (CVE-2026-88772) helpnetsecurity.com",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "4b8224ed3912f7a80c865c40ab6f6d91",
+      "title": "Research Paper: Semantic Watermarking for Malicious Image Manipulation Detection",
+      "link": "https://arxiv.org/abs/2609.39623v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-30T12:33:19Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "The proliferation of high-fidelity generative editing models has made it possible to inject violent or sexual content into otherwise ordinary images while preserving visual plausibility, with concrete consequences for public discourse and vulnerable populations.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "73daeef06e6bf6613ebb5915af318cb7",
+      "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
+      "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-30T12:25:10Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "d36076c985fbca83d603c3b6ede31d9f",
+      "title": "Research Paper: A Generalizable and Explainable Framework for Synthetic Video Detection Using First-Digit Gradient Statistics",
+      "link": "https://arxiv.org/abs/2609.39585v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-09-30T12:12:32Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "AI video generators have not only become harder to detect but are used to generate a diverse set of scenarios from landscapes to street views to animal videos.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#deep-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "4d36c718416b6da3c640b714439555ef",
+      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+      "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHy63Qp6WLBgRhCGaWARbZzjcdu6DhFo9JxZXTE9Rt4B42ImiW_cB0Fdq2yV_HYiZohMmVMRxTu1DxcbiOE9GNu4lAF2HZZ61QiCrWSEKGJFjEt5E5pKpXhjGK9DsZrqTxHFqF2IIaToRSTItghSELEiA_kgTP69_iOwbHdT35ht3yLCqIiNb5ysgDeuM/s1600/push-phish.jpg",
+      "published": "2026-09-30T11:58:00Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "869881268f8c1ac8ada2ed9515ba215b",
+      "title": "Portraits of trees: Pine - The Eclectic Light Company",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5veWFvb3FpTHAzWDRWMktpTzBMaUlwc1ViUGQ3Z094Wi1aV2pfQUZqam9rVDh4Qm83Q19QbHlHemlBdmNuMGItVEpnbk53NDBjQ2xVT1dzOFBQNVp5ZDNIbXlrSFdOZl90OHpLUA?oc=5",
+      "source": "Howard Oakley",
+      "source_icon": "🍏",
+      "image": "images/dfir_4.png",
+      "published": "2026-09-30T11:30:00Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Portraits of trees: Pine The Eclectic Light Company",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7869afaf887fe5666c3c5467d72524c3",
+      "title": "InfoSec News Nuggets – 09/30/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-09-30-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
+      "image": "images/cve_2.png",
+      "published": "2026-09-30T10:42:29Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Custom malware used in Citrix 0-day attacks targeting govt, banks, professional services Attackers have been exploiting a critical Citrix NetScaler ADC and Gateway flaw, CVE-2026-88772, since at least early September, weeks before Citrix disclosed it along with seven other CVEs on Sunday.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "4c365af9c2be5f04318f7a5ea6be8b9f",
+      "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+      "link": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+      "source": "Cisco Talos Blog",
+      "source_icon": "🛡️",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/09/antino-header.jpg",
+      "published": "2026-09-30T10:00:01Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Cisco Talos uncovered a cluster of activity we track as UAT-11587 targeting government and policy organizations across Asia, including in Taiwan, India, the Philippines, and Cambodia, to deliver a previously undocumented backdoor referred to as “Antino” in developer artifacts.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "01 Oct 2026"
+    },
     {
       "id": "671a19140eae3f53f4c80ae69cd2c142",
       "title": "[Threat IOC] Mirai sha256_hash: 788229b95027fb0837a7f2b8397ad8c1ce8c1cbfcef5826d121e9ae64dbffd3b",
@@ -30,7 +794,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1942683/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "image": "images/malware_2.png",
       "published": "2026-09-30T05:45:25Z",
       "published_fmt": "30 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
@@ -219,6 +983,28 @@
       "collected_date": "30 Sep 2026"
     },
     {
+      "id": "56eafda3c23643201e0648509f19f6fb",
+      "title": "[KEV Active Exploit] CVE-2026-76504 in Cisco Catalyst SD-WAN Manager",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-09-30T00:00:00Z",
+      "published_fmt": "30 Sep 2026",
+      "plain_summary": "Cisco Catalyst SD-WAN Manager contains a hex encoding vulnerability that could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user due to improper handling of URI encoding in an HTTP request.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#cisco"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "0ce6db917c48c5c83cdc985aa2c19bb9",
       "title": "NJIT’s Sara Zapico named National Higher Education Forensic Science Educator of the Year - EurekAlert! Science News Releases",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RdFF1SHdRaUpsMEJnakx0Wld5d1BvUklsaW1ULWQ1TzVNOUdpY1RGMlFUM2JJQk5rZDN4bXZNWmVPcDYwYnR3NHFrNHEtY2VFbUZLMUJBOS1TNGVQ?oc=5",
@@ -237,6 +1023,26 @@
       "read_time": "1 min read",
       "forensic_score": 20,
       "collected_date": "30 Sep 2026"
+    },
+    {
+      "id": "563ef16c458a7079ad80177e6e9707bd",
+      "title": "Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected - CyberScoop",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSHg0eFVBZUdmODluY1VNTkMyVDhmd3ktMERjRVFVWENueUxaZk9yVThneTJSRVhQT25HZk44NF9zUGpHOGRxcGthLWVjWkgtUHExTUViclFQbDJRZEZTR2NkUkVCOXdDUVNXSk05UUl5VklEdWtkUTdZSFZ3SHR5X0hBaXZGaDA?oc=5",
+      "source": "Google Threat Intel",
+      "source_icon": "🌐",
+      "image": "images/dfir_2.png",
+      "published": "2026-09-29T21:32:51Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected CyberScoop",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "33819f4020281621c65f0952bd7f9362",
@@ -317,6 +1123,26 @@
       "read_time": "1 min read",
       "forensic_score": 20,
       "collected_date": "30 Sep 2026"
+    },
+    {
+      "id": "4982f3bfaf8211443deec84c61acb536",
+      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanRUV3lSX3JscVJMb0lWZ29KSjMwR2tGVnF1SGlCRmYybHFHS001LXE0cXhUQWdJb21JaEtnRWlka0d0QzdJb2JvLTE5UmZfUWZwOHZGVE54R1Y0VUF6NWM3QnYyWW92R0Y0eXp5NHVBeDJGem1nVjc1NHlDS0NGMnhCZHFhYm80QzFKNm1aTjFoNFIzMUFReVJHLUs0X1dxX2RxRUR1N3FUUUtsalpB0gG0AUFVX3lxTFA3TUVaUXFiVDZMNWFEdFJjWVN0MDVxQU1ONFAtZ2s1dElLajlvT284d1NlREF2NldDRExaUHRNcC1UWkowMWdpLXlxa1BHVS14eVY3bzAzUkxseEx5ci1ULUV6QTFCT2V5UXY3X25VTy1Eb2JYaHhKZk1ORXNaT1V4c3ZmcWo3RDgxNDhiVW1xV0VMcjBfN1N4OVdUNGJIRnk0UmtOeFpRcTJvUGp1MDZnbDFmag?oc=5",
+      "source": "Google Threat Intel",
+      "source_icon": "🌐",
+      "image": "images/dfir_1.png",
+      "published": "2026-09-29T18:37:12Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "Hackers exploit Citrix NetScaler zero-day to deploy web shells BleepingComputer",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "3e448ae9e7c683ce26813b50dec24062",
@@ -497,6 +1323,26 @@
       "read_time": "1 min read",
       "forensic_score": 0,
       "collected_date": "30 Sep 2026"
+    },
+    {
+      "id": "0874dd23b1180afbaa59774dff123f61",
+      "title": "TXST anthropologist Kate Spradley named MacArthur Foundation ‘Genius Grant’ recipient for 2026 - Texas State University",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOclpEc1lRMmRLeTFxemI4R2xkZjBvWFI0RXllWDVybEdsa2gtWWpablgtUEpxLTNXdU1vWTlWOUtJaWVjUlFseFdocm9oWmVvYVN0dkZieElXQnRyRm5LNFVIMV9ldnJmN1I3N2pwNDZNemtqaUFuRmVwQkVjMjhTMk1aVWRoeWRGV2lxMmJvcjVpUHVab1RMNGMtUTlFcE5nZHprc2p5cXJLRVRoQkhnalNUYWRLUFBTWk51UDhxbkFwTU9RYlJMbGpGaVdnZXhqZWZIWHZvWmlhZw?oc=5",
+      "source": "Google News: Forensic Anthropology",
+      "source_icon": "🦴",
+      "image": "images/forensics_2.png",
+      "published": "2026-09-29T16:10:46Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "TXST anthropologist Kate Spradley named MacArthur Foundation ‘Genius Grant’ recipient for 2026 Texas State University",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "3f16e1ba749be49e2e3c0193066b13ee",
@@ -703,6 +1549,26 @@
       "collected_date": "30 Sep 2026"
     },
     {
+      "id": "1ce51e4c7ce5bf5385d6b15b1f067a71",
+      "title": "Fake iPhone Duo preorder scam triggers DarkSword attack - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVmUtZHZLelVpTWJ5enFHT0x4WkpwVHFwa1ViNV9ZajV6OTdETzdXLW5UZk8xMTQ3bDBrS3VNUkZuYWFuQ3oyeGpBdHdiUWdfUFA0Qnd6aTI3aWZTbGRGaTh3VTRnTWVHbkE4NjJzNHNleEcwdUhnYVBKTjcwOWN6N0daQVRueHlZSklQMVg5R0VvOVdPMzV0ZmdENXBRTG0wRGFCWjJrcS1udGZyWlNj?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_5.png",
+      "published": "2026-09-29T10:05:46Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "Fake iPhone Duo preorder scam triggers DarkSword attack Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "d1fed4ecc96ff970268fa494fcf3d7cc",
       "title": "OperTraitors: How Kubernetes Operators Betray Your Security Posture",
       "link": "https://unit42.paloaltonetworks.com/agentic-ai-kubernetes-operator-risks/",
@@ -763,6 +1629,49 @@
       "collected_date": "30 Sep 2026"
     },
     {
+      "id": "efbeb1cc213a2e3f4b12e5452461a2b9",
+      "title": "Research Paper: Multilayer Forensic Tampering Detection",
+      "link": "https://arxiv.org/abs/2609.38252v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-09-29T08:13:16Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "With the proliferation of free online editing tools, altering or forging pdf documents has become trivially easy, often leaving no visual traces on screen. This paper introduces a two- stage forensic pipeline.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "735265a2add258b8551e6a7360203909",
+      "title": "Research Paper: Forensic-Aware Continual Adaptation for Image Forgery Localization",
+      "link": "https://arxiv.org/abs/2609.38251v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-09-29T07:47:57Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "The rapid evolution of image manipulation techniques has raised growing public security concerns.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 120,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "254f1ae7351cab10e982168046a3dc2e",
       "title": "Research Paper: Less Supervision, Better Generalization: Weakly Supervised Fake Region Localization in Diffusion-Edited Images",
       "link": "https://arxiv.org/abs/2609.36882v1",
@@ -783,6 +1692,28 @@
       "read_time": "1 min read",
       "forensic_score": 60,
       "collected_date": "30 Sep 2026"
+    },
+    {
+      "id": "7f7564047ff935a037afbac89aec29b8",
+      "title": "Research Paper: ModalFidelity: Routing Modalities for Deepfake Detection on a Budget",
+      "link": "https://arxiv.org/abs/2609.38246v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-09-29T06:51:33Z",
+      "published_fmt": "29 Sep 2026",
+      "plain_summary": "Deepfakes no longer need to fake a whole video. Generators that read the transcript now alter only the few seconds in which a video's meaning turns, so a forgery hides in a small, unknown fraction of the video.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "7a8f58b5339cd89ef0f0b387d8a7d83b",
@@ -876,7 +1807,7 @@
       "link": "https://threatfox.abuse.ch/ioc/1941491/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "image": "images/malware_4.png",
       "published": "2026-09-29T05:39:02Z",
       "published_fmt": "29 Sep 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
@@ -1046,7 +1977,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
       "source": "CISA KEV",
       "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "image": "images/cve_3.png",
       "published": "2026-09-29T00:00:00Z",
       "published_fmt": "29 Sep 2026",
       "plain_summary": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
@@ -1121,6 +2052,26 @@
       "read_time": "1 min read",
       "forensic_score": 0,
       "collected_date": "29 Sep 2026"
+    },
+    {
+      "id": "80b752e68579abc5969f334c725e6dbd",
+      "title": "CVE-2026-86950 Detail - National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fb09QZ1N1SEpVYlBNa0QwQmR5ZzNsMGZxNmt0cDFtc0d3cFRaN25uTDBtUmVYZmE1YnFGTHBNZEJxTXE1dlcxdFlMcUdEM3d5UjU1ZVQxR2t0SlE?oc=5",
+      "source": "NIST Forensic Science",
+      "source_icon": "🏛️",
+      "image": "images/forensics_3.png",
+      "published": "2026-09-28T19:53:06Z",
+      "published_fmt": "28 Sep 2026",
+      "plain_summary": "CVE-2026-86950 Detail National Institute of Standards and Technology (.gov)",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "8f80729c18e857b1909277ab0f7097e4",
@@ -1647,6 +2598,26 @@
       "collected_date": "29 Sep 2026"
     },
     {
+      "id": "780bb4e58f7bbba8ef9792f060ced830",
+      "title": "DFIR News, 28 Sep 2026 - Forensic Focus",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45aGR0LU1UZ3hjX1Q5aGZMQXRqVHJZOGFXTkdkVmJKcEhYZjBONkNGT2VrS05pbm5Gb1hHelJGTFhVem1PcUlhbmdQQmV4LXQzelhKZ1lYR3lrN2xEeDhPVzVxWDBWMnBURTU1UEU2cnBjeUlNaEE?oc=5",
+      "source": "Forensic Focus",
+      "source_icon": "🔬",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-09-28T08:00:00Z",
+      "published_fmt": "28 Sep 2026",
+      "plain_summary": "DFIR News, 28 Sep 2026 Forensic Focus",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "64d8ffcbc0eb87184f12936fc42a9aa3",
       "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
       "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
@@ -2052,7 +3023,7 @@
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1FWVBqeTNHRlRsRHIzWm5pdzYyUTIyenRKMVNxdVlTN2RyanoyUEs4dkFMelRuMUI4MW5MSnNkV2ZtRDhXSlZj?oc=5",
       "source": "SANS Stormcast",
       "source_icon": "📡",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "image": "images/github_1.png",
       "published": "2026-09-27T15:04:49Z",
       "published_fmt": "27 Sep 2026",
       "plain_summary": "Wireshark 4.6.9 Released SANS Internet Storm Center",
@@ -4503,6 +5474,69 @@
       "collected_date": "25 Sep 2026"
     },
     {
+      "id": "452a1c0fb0dc3814ccc987f24ba72f53",
+      "title": "[CRITICAL CVE] CVE-2026-78308 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78308",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-09-24T09:17:08Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "Improper Authentication vulnerability in DIAEnergie allows Authentication Bypass. This issue affects DIAEnergie: before 1.11.00.022.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "73d0695f20c51e4e6f86ae57810dbdf1",
+      "title": "[HIGH CVE] CVE-2026-78309 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78309",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-09-24T09:17:08Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "SQL Injection vulnerability in DIAEnergie. This issue affects DIAEnergie: before 1.11.00.022.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "f81db8953b534086a336ffb6734ffe44",
+      "title": "[HIGH CVE] CVE-2026-77193 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-77193",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-09-24T09:17:07Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "The eesy_ID2WP – Publish InDesign HTML5 plugin for WordPress is vulnerable to Path Traversal in all versions up to, and including, 1.0.3 via the `id2wp_path` parameter.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "70d01bc329e004e3d0ab121d139620dc",
       "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
       "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
@@ -4543,6 +5577,27 @@
       "collected_date": "27 Sep 2026"
     },
     {
+      "id": "8dfc093a0044cc1a57225952441c07a8",
+      "title": "[MEDIUM CVE] CVE-2026-97181 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97181",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_2.png",
+      "published": "2026-09-24T08:17:03Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "GPM LIGHT developed by ezGlobal has a Sensitive Data Exposure vulnerability. Unauthenticated remote attackers can directly access system logs.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
       "id": "39b101bf158e6b54116c5543bb390e23",
       "title": "Low-Level Extraction the Apple TV 4K 2nd Generation",
       "link": "https://blog.elcomsoft.com/2026/09/low-level-extraction-the-apple-tv-4k-2nd-generation/",
@@ -4561,6 +5616,90 @@
       "read_time": "1 min read",
       "forensic_score": 0,
       "collected_date": "25 Sep 2026"
+    },
+    {
+      "id": "8842b72fba77124f21cfaee79cd61011",
+      "title": "[MEDIUM CVE] CVE-2026-87739 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87739",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-09-24T07:16:34Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "An improper authentication vulnerability in PaperCut MF/NG allows an unauthenticated, remote attacker to trigger report generation.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "aa45a46a97e0910cab0bf0ce9b240e13",
+      "title": "[MEDIUM CVE] CVE-2026-81645 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81645",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-09-24T07:16:33Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "Out-of-bounds read vulnerability in the graphics module. Successful exploitation of this vulnerability may affect availability.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "7968d963c0bb85939c47afb9eaf91f28",
+      "title": "[HIGH CVE] CVE-2026-82077 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82077",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-09-24T07:16:33Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "An improper limitation of a pathname to a restricted directory (path traversal) vulnerability in the Scan-to-Fax component of PaperCut NG and PaperCut MF allows an authenticated administrator to execute arbitrary commands on the underlying host via crafted fax provider settings.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
+    },
+    {
+      "id": "e220b6027fe881d0bed6a1c5799255e7",
+      "title": "[LOW CVE] CVE-2026-11744 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-11744",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-09-24T07:16:32Z",
+      "published_fmt": "24 Sep 2026",
+      "plain_summary": "An input validation vulnerability exists in the PaperCut Hive embedded application for Ricoh devices.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#low-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "01 Oct 2026"
     },
     {
       "id": "a60bf7480fb7906f51383612bc491e26",
@@ -5639,7 +6778,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18364",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "image": "images/cve_1.png",
       "published": "2026-09-23T06:17:01Z",
       "published_fmt": "23 Sep 2026",
       "plain_summary": "The zportals WordPress plugin before 6.4.2 does not perform any capability or nonce check on several of its AJAX actions, allowing users with a subscriber-level account to modify the zportals WordPress plugin before 6.4.2's stored integration settings.",
@@ -5660,7 +6799,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18365",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "image": "images/cve_3.png",
       "published": "2026-09-23T06:17:01Z",
       "published_fmt": "23 Sep 2026",
       "plain_summary": "The zportals WordPress plugin before 6.4.2 does not perform any capability or nonce check on one of its AJAX actions, allowing users with a subscriber-level account to disclose the display name and email address of every registered user, including administrators.",
@@ -5723,7 +6862,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-15696",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "image": "images/cve_5.png",
       "published": "2026-09-23T06:17:00Z",
       "published_fmt": "23 Sep 2026",
       "plain_summary": "The Real3D Flipbook WordPress plugin before 5.4 does not sanitize or escape several flipbook editor fields before rendering them back in the admin editor, allowing users with the Author role and above to inject arbitrary web scripts that execute in the browser of any user who later opens the affected flipbook for editing, including administrators.",
@@ -5744,7 +6883,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-14321",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "image": "images/cve_5.png",
       "published": "2026-09-23T06:17:00Z",
       "published_fmt": "23 Sep 2026",
       "plain_summary": "The divi-dash WordPress plugin before 1.0.7 does not validate the source of the client IP address it uses for rate limiting and banning, allowing unauthenticated attackers to spoof arbitrary IP addresses in order to bypass rate limiting, ban chosen addresses from the feature, and grow a stored option without bound, resulting in denial of service.",
@@ -5786,7 +6925,7 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-4997",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "image": "images/cve_1.png",
       "published": "2026-09-23T06:16:59Z",
       "published_fmt": "23 Sep 2026",
       "plain_summary": "The jet-form-builder-stripe-gateway WordPress plugin before 1.1.0 does not sanitise and escape a payment token before using it in a SQL statement, allowing unauthenticated users to extract arbitrary data from the database, including password hashes.",
@@ -19574,1149 +20713,6 @@
       "tags": [
         "#dfir",
         "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "3287f54c3b835962b348e86dcc46bb88",
-      "title": "Nation’s first HBCU forensic pathology fellowship launches in DeKalb County - CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3hpVk1XMGxKZGxzZ0g4amRHWFFaTkNXQXFnZTVmOHlUUlJDX2txTDExTFJwT0NQSWdOVzNyM084djE3YnRWbzI5a0xTNXN4bUxWNWZrdXFrZWNlaVlWcUtRMmlCVDM3Ry05WEJ1YUdFcGRfbDlRSXUzOGZkWU9ZU0lLZXFlcXhNZ0xiaHNpNlRyNHoyZmxDNmVZZHRzVERPbnUyaDdTY2ZfLUJReVNoU05hVQ?oc=5",
-      "source": "Google News: Forensic Pathology",
-      "source_icon": "🔬",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-08T14:13:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Nation’s first HBCU forensic pathology fellowship launches in DeKalb County CBS News",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "0d51ed5bd0c252420f568b796af7d39d",
-      "title": "Research Paper: Benchmark Scores Are Pipeline-Dependent: A Reliability Audit of Cybersecurity LLM Benchmarks",
-      "link": "https://arxiv.org/abs/2609.08765v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-09-08T14:01:22Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Large language model (LLM) benchmarks are often treated as fixed datasets with stable scores, yet their outcomes depend on configurable evaluation pipelines.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "4e4939ca2937defc4064ddf17768d9cf",
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVKt_UmqEYNHNt0K516skza4MoV47hITqzcoC3WLLI3QkQ_jUEffHvaL7VHVtzRqvdt6k2bZwGAFVif-hRkoiTQva6JM95w3NgNRU_WpuTaZfhLGXAcOdLQXy_sMWU1dxAunMAsf7J8PEDG2AKvkFuXbOFyOmIQcaocMIBhNpaYscCUeJElKDXu6xGhkX/s1600/ai-agent.jpg",
-      "published": "2026-09-08T13:48:16Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "1b85a5db3b50a07737657cf36c069bad",
-      "title": "DNA Becomes A Ray Of Hope For Families Searching For Loved Ones Missing In Nepal Floods - ETV Bharat",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSmFlVW5DUDh2ZUJHN0lXWmxqX3J2NUhZREU3aWFtd3pVYVV3NDN5SnFqWmdmeElaU1Y1VUVraGRWSTU3V0NuLUZubkVyNFY0emJDYnFsaTQ1UUZudUE5N2xfaEhsLXlIZ21FVEFYNDNNYmV6WUE1QTkxd1diTEdYZDlpQ0VkSndvVEtYaEVjeFNHdkdhOHRMYXFIOVJEQUdHemZDU0F6V2xpRm53a2dJTDlwRmtRRGJMUFNZNW56eVJQNUk4djFHN2MtbU5OTUhKNzhRY9IB2gFBVV95cUxOZXlOZXNHS1FEZUFGWTVqYVd4WFhGYko1VEhDa3F1VGtMZVdwcFZnR0t1TkpYcmVUVXN1UkNPWG1oMUVGZWg1R0hpRHZEcVlrX196MVRYTDFkcWFPbXlXTnQ2RElYWDJjMzNaTXF3d2VwVFdpR2pYYnBCUjBjckJLa3U0NXUyVGdjMmxZZzYxOGhVTVlxME9sUW1Bc3g5bnVmMF8xZzJ1VXEwcDVtcWJJQ2EyNEVhV1cxWHlSQVgtYWtOdnZFckl0RF93cTdKN0VVbWJ1c1BSbGczZw?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_2.png",
-      "published": "2026-09-08T12:19:35Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "DNA Becomes A Ray Of Hope For Families Searching For Loved Ones Missing In Nepal Floods ETV Bharat",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "83be2c8cf99528090505ad5f56a8a4d7",
-      "title": "CISA, NSA and FBI Warn of China-Based AI Companies Targeting US AI Models with Industrial-Scale Knowledge Distillation Campaigns to Shortcut AI Development",
-      "link": "https://www.cisa.gov/news-events/news/cisa-nsa-and-fbi-warn-china-based-ai-companies-targeting-us-ai-models-industrial-scale-knowledge",
-      "source": "CISA Alerts",
-      "source_icon": "🏛️",
-      "image": "images/dfir_2.png",
-      "published": "2026-09-08T12:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Click the source link to read the full dispatch.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "c0d9a4ae21e5170dd935a55eea741fec",
-      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjSG5iYgxvsWLWeFe2E-z5UDx0S4Q6zBQjkFEiKuFxcfplz39pE90jWcuiV7NcYqT6t2l8j5WWVBHdV-upHuzQVoy-pt4nL4WP7l-Uz_9AYFqOw1Pn0yI8LzM6OThlXJZY8_b4RVK0WzZYIsjWL96-2O-HHY1SH2FCtrE5c6nV0QJ0aU1X8FVlIvOs3g/s1600/wechat.jpg",
-      "published": "2026-09-08T11:54:29Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "be8aaa8d8b0f33697c80c54fa180f79c",
-      "title": "What It Took to Reach 1 Billion Build Manifests",
-      "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqJEqJ_CCrFzLtmEtLrrIWQv80hyY6xtGfdsad0NgYCYSs-ur2ObfnMgE8uBWlZ7idJHbjDcOwpo8_ESTMpCAWAUHUwbqhVr-zqxV-oxUWmR3PMwBD_vrDziQFaeL0VTzX8NUQRFGRzVQCuTPrvflnepbKlCgqH84MRNTJUhZRNfqwEtmBUxhIB5a8MfeE/s1600/chainguard.jpg",
-      "published": "2026-09-08T11:49:02Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog.",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "6fdc3bb8a83a3e7870f12cd0344fbda1",
-      "title": "Portraits of trees: Monet’s poplars - The Eclectic Light Company",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJUElBbkVoQ1dRYXk0VjE2eFFnZUF3Ym93enRXOUl6U0Q5QkdnQXRVT0hIbml0LTNUR2ZoQVFHdlgtUjVsdnc4ZlVtUkZ5YWVoWGlxbzg4bFk0Nk1PRDlaTzN6RTNSN3RkajZIc1c1UldQX3NSWE9hd2hB?oc=5",
-      "source": "Howard Oakley",
-      "source_icon": "🍏",
-      "image": "images/dfir_3.png",
-      "published": "2026-09-08T11:30:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Portraits of trees: Monet’s poplars The Eclectic Light Company",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "10 Sep 2026"
-    },
-    {
-      "id": "7ef766993ff669b7d72837066c0d8858",
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSKAVaHcAsULrGXPVkGXRyf94eoG7Kv3X0wwK2lRC64l3Em-S4_H5iE8-poK04yzrAC18tuHqpZyHhJvFTgliu_z8jo4QR78Mi4ghhCA-cUVL4oj2zjoLGiWKmD16oV4i44VfY45DYll0Uij_Exf4U2JMSLJEyH8jZk_xXKq7O_7D73q7vTYCCc4hrTnQ/s1600/freeipa.jpg",
-      "published": "2026-09-08T11:22:07Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "4dd6b7398947bee76a5091be0bdff341",
-      "title": "MikroTik router flaws allow takeover without a password - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM25UZ0FTV1lDVFJPSVZBbFNfc1J3TUp2QmpPbEdIcG02MmVyOXhNbm0xUmdPeEVSVG9vbUtnb0hIRm9UWWJrZGRYNzFtNER5cTViSDAwQTlIQUxfM3I3WDJWelJxa0VOWkpSYzhCckVJeEpkNFRJNkhsMm9KWnlDTXNCR1UzNjljN1lEYlVCUDhTajNqOGlVNGx5UEZXeFE?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-09-08T10:41:32Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "MikroTik router flaws allow takeover without a password Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "f911c2a231df92c433bded519f726e38",
-      "title": "InfoSec News Nuggets – 09/08/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-09-08-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/cve_3.png",
-      "published": "2026-09-08T10:12:09Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners The U.S.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "4b8aa673ea8520c09e39b6db7c14e191",
-      "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
-      "link": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/09/threat_spotlight-1.jpg",
-      "published": "2026-09-08T10:01:07Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "6ab061e1a87366b8b0578a480c62448f",
-      "title": "ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2",
-      "link": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "images/dfir_3.png",
-      "published": "2026-09-08T10:00:38Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "4fb1f519dfac5b3a4429b8b7af13dae0",
-      "title": "Forensic science students get their white coats - The Duquesne Duke",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYnh4SXBwNmJxVzk5Vk1nQ3R3Tk5CdFJWRGo3YXpBd2FURG9jVFJubVoxTlE3WGhDWlpjQmV0SjNfRUZtT1RoYnE1aGxqODdVX19BX3ZqZjFPU1JMTUNoeEc5X3JWT09yUnhLZjVDLV9GRW5mWEVLRUlpLUtvS2Y0UzcxT0hNM3RuZ0E?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-09-08T10:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Forensic science students get their white coats The Duquesne Duke",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "ae4589c3602a1e07dea6c3a7f09d2175",
-      "title": "[HIGH CVE] CVE-2026-76561 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76561",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-09-08T08:17:12Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "A flaw was found in Dogtag PKI, as used by FreeIPA's certificate authority component. The certificate profile import functionality does not fully validate uploaded profile content beyond the profile ID.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "65769434e789181c2f552b8c7815d89c",
-      "title": "[HIGH CVE] CVE-2026-81781 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81781",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_4.png",
-      "published": "2026-09-08T08:17:12Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Missing Authorization vulnerability in Unbounce Unbounce Landing Pages unbounce allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Unbounce Landing Pages: from n/a through 1.1.4.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "6e58eed20ceba6bc57d8875c6e959955",
-      "title": "[HIGH CVE] CVE-2026-81790 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81790",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-09-08T08:17:12Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Missing Authorization vulnerability in Viszt Péter Csomagpontok és szállítási címkék WooCommerce-hez allows Exploiting Incorrectly Configured Access Control Security Levels.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "a14ab0754c6d3fb7d0a30795995b7fe4",
-      "title": "[MEDIUM CVE] CVE-2026-81792 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81792",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-09-08T08:17:12Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Unauthenticated Privilege Escalation in Product Catalog Enquiry for WooCommerce by MultiVendorX <= 6.1.4 versions.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "deb2621b2e232e986c0f96109155f97a",
-      "title": "[CRITICAL CVE] CVE-2026-71374 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71374",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-09-08T08:17:11Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Deserialization of untrusted data vulnerability in Cosminexus Component Container.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#critical-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "958eb475a40cc48029d671aebe69965d",
-      "title": "[HIGH CVE] CVE-2026-71375 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71375",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_4.png",
-      "published": "2026-09-08T08:17:11Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Improper restriction of XML external entity reference vulnerability in Cosminexus Component Container.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "e8c33bddb9bb2b75c35c2598c1ed63a6",
-      "title": "[HIGH CVE] CVE-2026-48888 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48888",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-09-08T08:17:10Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Allocation of Resources Without Limits or Throttling vulnerability in Automattic WooCommerce allows HTTP DoS. This issue affects WooCommerce: from n/a before 11.1.0.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "402497f556063e062703c4f15b9d44d2",
-      "title": "Research Paper: VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent",
-      "link": "https://arxiv.org/abs/2609.08342v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-09-08T07:14:44Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "World models take multimodal inputs like text, photos, and diagrams to generate dynamic scenes in accordance with the laws of physics, thus opening a compelling application: fusing multimodal legal evidence to re-create a crime scene and re-enact how an offence could have been committed.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 100,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "ca5d2367f99ca609fca098560774b540",
-      "title": "[MEDIUM CVE] CVE-2026-86519 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86519",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-09-08T05:16:48Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "A vulnerability was found in code-projects Student Crud Operation 1.0. This impacts an unknown function of the file /card_activation.sql of the component Backup File Handler. The manipulation results in information disclosure.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Sep 2026"
-    },
-    {
-      "id": "e2b1766dd072b1afad15009285648924",
-      "title": "September 2026 Patch Tuesday: Two Exploited Zero-Days and 113 Critical Vulnerabilities Among 972 CVEs",
-      "link": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
-      "source": "CrowdStrike Blog",
-      "source_icon": "🦅",
-      "image": "images/dfir_5.png",
-      "published": "2026-09-08T05:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Click the source link to read the full dispatch.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "d772bc1a25f191beeb76b7fa64edd268",
-      "title": "[Threat IOC] IClickFix domain: macrepairtool.com",
-      "link": "https://threatfox.abuse.ch/ioc/1904121/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-09-08T04:53:58Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#iclickfix"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "038c27843a333c78e37f6adf39ad787c",
-      "title": "[Threat IOC] IClickFix domain: securityalertcaptchacheck.com",
-      "link": "https://threatfox.abuse.ch/ioc/1904120/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-09-08T04:53:55Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#iclickfix"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "ad54fb73794c14d912be836017ffd908",
-      "title": "[Threat IOC] IClickFix domain: interseqf.com",
-      "link": "https://threatfox.abuse.ch/ioc/1904119/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-09-08T04:53:53Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#iclickfix"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "4a91c8a8f44a428f3599f4fc1be34f6d",
-      "title": "[Threat IOC] Unknown malware url: http://177.70.102.228:8070/tmpftp/01/cancelamento/2021-09-24/info.zip",
-      "link": "https://threatfox.abuse.ch/ioc/1904118/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-09-08T04:26:30Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: whack_sh.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownmalware"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "5338940f0ac341d84b4e736432cc533b",
-      "title": "[Threat IOC] Unknown malware url: http://177.70.102.228:8070/tmpftp/01/cancelamento/2021-11-04/info.zip",
-      "link": "https://threatfox.abuse.ch/ioc/1904117/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-09-08T04:26:15Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: whack_sh.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownmalware"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "cfd245a553103994e250e8aa11780cd0",
-      "title": "[Threat IOC] VShell ip:port: 154.91.62.118:8094",
-      "link": "https://threatfox.abuse.ch/ioc/1904114/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-09-08T04:05:06Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "5f57abcb0caddb2dfb8476520f4022d6",
-      "title": "[Threat IOC] VShell ip:port: 154.91.62.113:8094",
-      "link": "https://threatfox.abuse.ch/ioc/1904115/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-09-08T04:05:06Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "228ab4514cd17fa03bc6be64c42bec16",
-      "title": "[Threat IOC] VShell ip:port: 154.91.62.112:8094",
-      "link": "https://threatfox.abuse.ch/ioc/1904116/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-09-08T04:05:06Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "c49ecff2ccad9671c86a91ea8620d65b",
-      "title": "Study links visible injuries to reported sexual acts after assault - bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVktNSVR2bTRFVWQ4RFVjckZ0Z2tGb3lCeG9sYUdCZTR4WmdQQlBtTk5fSDBJbjJCQ0syWk8zeDVJRlZCeFJTeE1PZEZPamxXS2tsNEl0MWJ6NlJROGRHdi1ZUi14VS1MWDdtQXYtSVdRZlMyTTlWeWxBLWlEMWFDM0xfYWt5aU1zYWNPRkIwRllZeDNraXc?oc=5",
-      "source": "Intl Journal of Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_4.png",
-      "published": "2026-09-08T00:59:15Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Study links visible injuries to reported sexual acts after assault bioengineer.org",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "afbe4d4df44b9066c346b749aa5a1424",
-      "title": "[KEV Active Exploit] CVE-2026-75650 in Adobe Commerce and Magento",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_5.png",
-      "published": "2026-09-08T00:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#adobe"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "f15cfd0fbcf6c246492d66b707c07da3",
-      "title": "[KEV Active Exploit] CVE-2026-81963 in Microsoft Windows",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-09-08T00:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#microsoft"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "46afb4a9052615287bf34d27da09c2a2",
-      "title": "[KEV Active Exploit] CVE-2026-86218 in N-able N-central",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_1.png",
-      "published": "2026-09-08T00:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#n-able"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "2ca8701b8f3e0c84fae65970e1cf3150",
-      "title": "[KEV Active Exploit] CVE-2026-85880 in Microsoft Windows",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_5.png",
-      "published": "2026-09-08T00:00:00Z",
-      "published_fmt": "08 Sep 2026",
-      "plain_summary": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#microsoft"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "3c117682686aa6f5047db93d964adfe5",
-      "title": "Research Paper: VEX-Bench: Benchmarking LLM Agents for Assessing Exploitability of Software Supply Chain Vulnerabilities",
-      "link": "https://arxiv.org/abs/2609.08040v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-09-07T22:52:09Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "The software supply chain has become an increasingly exposed attack surface because of its reliance on intricate yet fragile dependencies.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "fa878274c488feb81bca9c9a96e6d379",
-      "title": "Crime is falling—but the public doesn't feel safer, UK study finds",
-      "link": "https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2022/uk-police.jpg",
-      "published": "2026-09-07T20:00:01Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Crime levels are falling for most offenses across the UK—but the public doesn't necessarily feel safer.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "5629f114872d63ed84892efc0c60d3d4",
-      "title": "Research Paper: A Novel Steganography Scheme Using Quantum Hilbert Transform",
-      "link": "https://arxiv.org/abs/2609.07894v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-09-07T18:58:27Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "The main goal of steganography is to transmit hidden messages in legitimate-looking communication messages. Phase-domain information hiding, however, has not been fully explored for quantum systems.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "e1cc82497700ba002f706059f3694dfa",
-      "title": "Loyalty points fraud is funding hacker holidays (Lock and Code S07E18) - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ24tYm53b2p3OG5IQ0hPTmVXMl92aTVsR2hEcDU3WF9oS0hkRXRQclc4QmZyRVEwU1dMa1J5RHpfMVoyNG5FX1plYkJTclJxWWp6N0pxdmEyMmVYQXF5STRoc1lXTTk0WGZpb1R3VXdraWRyWG8yTmhxdmhubnQyc2dVU3NwVmtsQ0tTVWdtYjc0b3QxRjk5WmFYbGRaTTNYLXNMY0QwNkxtLUhGRktKNzhKNVBCNmlWUGc?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-09-07T18:29:11Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Loyalty points fraud is funding hacker holidays (Lock and Code S07E18) Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "f92e60f56be0d9cf1cfa48966dbc6091",
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA3-5bNylOMc_s8MAT2ibQnV33cnJXadwKPRXjYgAL0GcZWOXuwtM-s5HS4ryVu5ewnhfAqBtOiuSseLcUSyDIfxf5XKF6mAwrpyG-v3Y-siqjJY8I5zVEMXwfkKPwBNAqaO2sQFI-q2oA4MWiagZFUlknIPKADDfvOo8s2Ifsa_xBAojg1rD5ZGUErC85/s1600/chrome-malware.jpg",
-      "published": "2026-09-07T18:12:09Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "27ffc5fe388b090727a7ebb9af973d36",
-      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-      "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_2.png",
-      "published": "2026-09-07T16:50:29Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "e6a2b76b79d4de3d1d650919170e47e5",
-      "title": "Research Paper: Harnessing CLIP and DINO: An Uncertainty-Aware Cascaded Fusion Network for Generalizable Deepfake Image Detection",
-      "link": "https://arxiv.org/abs/2609.07670v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-09-07T15:59:19Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "The growing realism and accessibility of manipulated and generated faces threaten the trustworthiness of digital media.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#deep-learning"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "cead4a452534009aaf04043aa22a6097",
-      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Zo4zgxCrVcz6-00WV2qAPHSD-av2Ed5hgRmR-2vUzkr9jVeph0NNb6gGsQfwSkFyuRfRcSsaISSpfysl_Xx5F48IM7HdBpO4F3CaVuLhk1v0a4vcH5xK_bxX6BxIjkfAjhDaNGcLG7_R9IcTjVGlFcW7y1ZV64imACHi9528LOjH1Flhk-cy9LFgrMv/s1600/phish-ms.jpg",
-      "published": "2026-09-07T15:51:56Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information technology (IT) help desk vishing, adversary-in-the-middle (AitM) token theft, and residential-proxy sign-ins.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "9ede82718cd8c8b497c4bfa960362bee",
-      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-09-07T15:39:51Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "ba683df51c51accdc662ff0974cd9b4a",
-      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3SJbgfzjY0QMdutDU1Lf8A1ZVh6S-hcQEwATiHIXXKIpYhh1mrojhkxootev2lhFxjehrTS8h3UNmZgHBwgxNUN0ho2r5Tzk2PRLqK_yO-4OetzmlaFE5V5z0G-Yp34y_RWR5ZlWoL51LWMOFh8YTZCKDADDnHFLhYZl5oQkqLFxJ9JHK1j35kxilIkyp/s1600/recaps.jpg",
-      "published": "2026-09-07T14:36:07Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "a040ff3e0cec7d8c4dc7d2294143f705",
-      "title": "LG TV flaws could let attackers listen in, even in standby mode - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQUZDcU1BSk9LSVVhd2dHakRJdjVXQ1VNeDJhN1FodFpMRy1wbHhDeldHMUx5QVZKaEZLOUNuSVM1c1lpTzhlVmNmQk9CSEttQ2JjOEE5VWVQN1VaTjdiTlYzV1BQUjdrUVpmVDdTdEEwcGY4czNTT0dwYlNCRVNXS01sVHNnM1hJRGhwa05sYzZGVDgtaDJ6c3BUbzgzRXItR2hKUWNTcmI5MW9JY2RrbjJ3?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_3.png",
-      "published": "2026-09-07T13:59:42Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "LG TV flaws could let attackers listen in, even in standby mode Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "5c51390d841ef4852945db41bbb3b612",
-      "title": "Mathspace discloses data breach affecting over 1 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_5.png",
-      "published": "2026-09-07T13:05:11Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "c10c8c2c549161aa550b9e11fa52ceab",
-      "title": "Research Paper: AFID: A Unified Open Framework for Automated Fingermark Identification, Quality Assessment and Feature Extraction",
-      "link": "https://arxiv.org/abs/2609.07439v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-09-07T12:49:05Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Automated fingermark identification is the foundation of forensic investigation, yet progress in the field is held back by fragmented, closed-source solutions trained on private or discontinued data.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "8fd769e2295936a69742bd75f3ed015b",
-      "title": "Trezor data breach impact now reaches 81,000 customers",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-09-07T12:16:32Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "32025023e735c62ff1124742f41e3ea6",
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAkHa8CDEfDzL0HknvyLE5eRK8r91iyhgzpCS1GmG3HRtriZYYFzCTP9_H433YsqJ80SAppgs9g6rOhsTWIzHPh_CFcZJS18DIj5ANgzFwSU0vfcyJofTEqEvjGGjNcqZdHU_54PENNzxawWHCZ2r_1K-A63x3P8CbuIiu8OHASjQV3OoglWTefAF2dZw/s1600/intruder.jpg",
-      "published": "2026-09-07T11:45:00Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "6081280725e24c7f355f281ac420a13b",
-      "title": "Research Paper: DF26: We Cannot Tell Fake From Real Anymore",
-      "link": "https://arxiv.org/abs/2609.07369v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-09-07T11:44:36Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "We introduce DF26, a novel benchmark for detecting AI-generated videos containing fully synthetic clips produced by recent text-to-video and image-to-video models.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#media-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "09 Sep 2026"
-    },
-    {
-      "id": "3e0d968326fb3c65d433e3cedd33bda6",
-      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
-      "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWA_nxvqJuKkqq0ab1I-XR1YtpsM6BadhHDNOIheZmBflLWaQ018JFJsAUBVuyWWTYI4pyT8OQNXhui8Annde3SnOIScH9B0ohMq-OzXLjvPeAXQnz4mAUdEMS_07i7gLaWqPVpHaPvyLJdZQKUTs2MLGhjB9UZ0A83CGcSeDCJFKn7hNjiyf6dbzbHogp/s1600/screen.jpg",
-      "published": "2026-09-07T11:36:39Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "08 Sep 2026"
-    },
-    {
-      "id": "9880c53d5e223c347af066c45a7b9085",
-      "title": "Flirty OnlyFans promoters on X may be using AI to appear human - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNjRjMmQwWHgwWnUtU2tiQkVyTnZ6NF8tUUNtOEhvMVFsVUxhNGE0aE50VmNrYnp3UlE3VVAtRGtUdjlOeUJSSFJZcHluOHNnRmMtX1lHQ2wzYWdEX1Q4Z21tOEdpMV9qYmRKVGhQZ3Flc1FjZFMwajZtd203c1lNTXhnNTJZSG5TVGpNdkM4Nks4MHJNam9fdHEzZEUyZUxNNG5sT3draUUzMm8?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-09-07T11:32:36Z",
-      "published_fmt": "07 Sep 2026",
-      "plain_summary": "Flirty OnlyFans promoters on X may be using AI to appear human Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,

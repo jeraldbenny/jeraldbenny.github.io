@@ -1,10 +1,10 @@
 {
-  "last_update": "30 Sep 2026, 11:17 IST",
-  "sources_healthy": 74,
-  "sources_failed": 0,
+  "last_update": "01 Oct 2026, 11:48 IST",
+  "sources_healthy": 73,
+  "sources_failed": 1,
   "articles_today": 55,
-  "duplicates_discarded": 11,
-  "articles_total": 13033,
+  "duplicates_discarded": 15,
+  "articles_total": 13088,
   "runtime": "59 sec",
   "api_status": {
     "NVD": "✔",
@@ -14,5 +14,10 @@
     "arXiv": "✔",
     "MalwareBazaar": "✔"
   },
-  "errors_list": []
+  "errors_list": [
+    {
+      "name": "CrowdStrike Blog",
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    }
+  ]
 }
