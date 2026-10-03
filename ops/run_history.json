@@ -2786,5 +2786,32 @@
         "error": "<unknown>:2:0: not well-formed (invalid token)"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-03T05:31:43.517324+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 72,
+    "sources_failed": 2,
+    "new_articles_count": 52,
+    "total_articles": 13178,
+    "runtime": "53 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "AboutDFIR",
+        "error": "<unknown>:94:2: mismatched tag"
+      },
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      }
+    ]
   }
 ]
