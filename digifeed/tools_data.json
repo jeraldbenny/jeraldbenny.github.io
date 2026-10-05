@@ -379,7 +379,7 @@
   {
     "name": "Wireshark",
     "version": "4.6.9",
-    "released": "04 October 2026",
+    "released": "05 October 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [
@@ -746,15 +746,17 @@
   },
   {
     "name": "Velociraptor",
-    "version": "0.77.2",
-    "released": "10 August 2026",
+    "version": "0.77.3",
+    "released": "05 October 2026",
     "category": "Timeline & Decryption",
     "github_repo": "Velocidex/velociraptor",
     "features": [
-      "General system improvements and updates"
+      "Detailed change log below (AI generated).",
+      "Artifact changes",
+      "Added `Azure.Monitor.Upload`, which uploads server-side artifact results to an Azure Monitor Log Analytics workspace. Takes a table name, a Data Collection Rule id, and either a client secret or a managed identity. (4974, 2026-09-04)"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
