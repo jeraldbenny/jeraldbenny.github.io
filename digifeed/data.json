@@ -1,47 +1,77 @@
 {
-  "last_updated": "07 October 2026, 11:45 IST",
-  "total": 48,
+  "last_updated": "08 October 2026, 11:53 IST",
+  "total": 45,
   "articles": [
     {
-      "id": "d55e5b63feeae2c9397a01d28b83a676",
-      "title": "How Big Must a DNA Database Be? Massive Argentine Study Redefines Forensic Sampling Rules - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVFWak9YRGtDT0lORm9NalRVUFMwSFFmdlZTSWpVZHlFRUZNT0tnOTlkWnRSVGNDS290aElzOEtvRFhOdmI3RE1UeGxNcTJPbFRyMVFBZ1lDOEZtMmQ0QjlheTVXVW1LSk9HY1Y4NFRFdm92WjF1TDlyMFhTSmYtZmxIT25taFJyQ00zbTVLdmhfaVlEbWV1Q190X1UzQU5jeGFGdng0elZUUC1rTHpCcVdHQQ?oc=5",
-      "source": "Intl Journal of Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-06T06:45:27Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "How Big Must a DNA Database Be? Massive Argentine Study Redefines Forensic Sampling Rules Bioengineer.org",
+      "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+      "title": "InfoSec News Nuggets – 10/07/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-10-07-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
+      "image": "images/dfir_3.png",
+      "published": "2026-10-07T10:48:19Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "ASOS confirms data breach after “HACKED” in-app notifications UK fashion retailer ASOS confirmed a data breach on Tuesday after attackers abused a third-party customer communications platform to push an unauthorized “ASOS HACKED” alert to mobile app users around 5:00 a.m.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
-        "#forensics",
-        "#science"
+        "#dfir",
+        "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 10,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "14f1c5a42862f259af866a7aa4772e87",
-          "title": "Students Use Forensic Science Skills in Escape Room - Erie News Now"
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
         },
         {
-          "id": "8bacb125874adef3c02365ffa438eab4",
-          "title": "Behind Uniform: Meet Dr Sairita Maistry - Mirage News"
+          "id": "cee1a6735906ba17466eced8425b7a53",
+          "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins"
         }
       ]
     },
     {
-      "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "id": "954b61101732a8eca848ef2078f37024",
+      "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
+      "link": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/01/10_Myth-Busting_Category_1505x922.jpg",
+      "published": "2026-10-07T22:00:16Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Unit 42 details how threat actors leverage Web3 infrastructure and open-source supply chain attacks to breach enterprise cloud environments The post Evolution of Web3 in Cloud Supply Chain Attacks appeared first on Unit 42 .",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "cee1a6735906ba17466eced8425b7a53",
+          "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins"
+        },
+        {
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
+        }
+      ]
+    },
+    {
+      "id": "cee1a6735906ba17466eced8425b7a53",
+      "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-06T21:00:27Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for WooCommerce, to install backdoors and create rogue admin accounts. [...]",
+      "image": "images/dfir_1.png",
+      "published": "2026-10-07T21:28:54Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legitimate administrators. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,118 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "b5230d49f3e15b8e4ebb36c5674d4030",
-          "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes"
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
         },
         {
-          "id": "2bbff77b17d4622abfb3f56b5fedae87",
-          "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland"
+          "id": "1c8e775c40f90c0b3614da28b7f8c04f",
+          "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials"
         }
       ]
     },
     {
-      "id": "2bbff77b17d4622abfb3f56b5fedae87",
-      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-06T19:21:53Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploiting 32 zero-days. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        },
-        {
-          "id": "b5c111ad53dd608f10129479002622b3",
-          "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes"
-        }
-      ]
-    },
-    {
-      "id": "b5c111ad53dd608f10129479002622b3",
-      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "link": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0zSahkV9zcg01XiHIrV4cYRCzxV9MLlvvX9vRW5e0Nd5Kg0aXGPgWR2oqqdHAAcrmm5r66m5Aj8VF9HYZtgTJv_X1HOaijWEoB_6m8ieYd-F9ytUtmn-1GgX4B-BWo6LXQgzVzr0nTiXsicD-3eTf02ZvrTwPsOCFt8yYGvuxTHfIYxwErOI1w99uekRz/s1600/muse-ai.jpg",
-      "published": "2026-10-06T18:38:55Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of a \"human-operated phishing platform\" that impersonates advertising products for artificial intelligence (AI) chatbots like Google Gemini, Anthropic Claude, OpenAI ChatGPT, Perplexity, Meta Muse, and Manus.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "b5230d49f3e15b8e4ebb36c5674d4030",
-          "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes"
-        },
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        }
-      ]
-    },
-    {
-      "id": "5347986e6d4ebc2bf27bc720f1334f16",
-      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-      "link": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42ncE2ZMHIbAm_fj5U9fqCYUvPwhyUiNbARM3CC5IxhnMXjIZ2ENa99UDGeaZqGPlqn53A7y7Nkz1ZxzzyykKxEb4GT0jxWhrar9Q5yPmBN1NL6599HRdbzbLSYf3WPuU7tkkY5eOsvhAT9dw-24DXuusztPyRr2H66840cWZx17MZ0B-rB877W19bgX1/s1600/linux-spam.jpg",
-      "published": "2026-10-06T18:24:25Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Linux backdoors targeting telecom and network appliances in South Korea and Taiwan have been disguising their traffic as email services and seemingly legitimate processes to blend in and evade detection.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "bff11d5fad8b971cfa6a1dfe48cfb332",
-          "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies"
-        },
-        {
-          "id": "756bba0c540a9effbe402ec69b10bc97",
-          "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts"
-        }
-      ]
-    },
-    {
-      "id": "b6744a76660ee66e067f8a60bef1f048",
-      "title": "ASOS confirms data breach after “HACKED” in-app notifications",
-      "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+      "id": "8f15da4c86e68d1f09d624f79b1fedd3",
+      "title": "Hackers hijack Google domains after breaching ccTLD registries",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_4.png",
-      "published": "2026-10-06T16:33:54Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [...]",
+      "published": "2026-10-07T20:50:13Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Ghana, American Samoa, and Sierra Leone after compromising third-party operators and modifying authoritative DNS records.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -170,88 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "114e2ef5619ec571e94e2664a2c7e5ba",
-          "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach"
+          "id": "f2cd8db6c9f92c29ce1cf1de0cd985bb",
+          "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains"
         },
         {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
+          "id": "1c8e775c40f90c0b3614da28b7f8c04f",
+          "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials"
         }
       ]
     },
     {
-      "id": "b5230d49f3e15b8e4ebb36c5674d4030",
-      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-06T15:16:44Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "b5c111ad53dd608f10129479002622b3",
-          "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes"
-        },
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        }
-      ]
-    },
-    {
-      "id": "4ec0d751518c11c7a32978bba4edc9cb",
-      "title": "How to secure RMM software: 8 controls MSPs should test",
-      "link": "https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-06T14:00:10Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        },
-        {
-          "id": "2bbff77b17d4622abfb3f56b5fedae87",
-          "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland"
-        }
-      ]
-    },
-    {
-      "id": "e86b473d82e7c3aa3777c00595466ad2",
-      "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-      "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+      "id": "f2cd8db6c9f92c29ce1cf1de0cd985bb",
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYVdFxWk-OP9_vpIdzp0S9ffqMNnyAMbRWKklSryVockcistDlpX5ZcfLGluaqpHqdsu_DoOaFq2J1z5jTVNatxS8aoQjMNS1PoEYOAZrj1V1Spdk67LUZgSlSPlqeEULSVSbHZfkCimWV56E2HKs_IUNrJaYFrPPq0YaXS2sEMBVZNJM0f2ydfUMFREw/s1600/office-sheet.jpg",
-      "published": "2026-10-06T11:57:00Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before it runs a macro.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlqu6e-ijwp1hAEuYyfUUL9hV5kwu0cIe1cMibzayov0GdV2FkSpwvF10YKcxLyw1AUNdKF54RV9o3bfeshwWIWdda1AvgNm4iu6t9F16pb1jOVDQRXBoRjw2uueD4Ov7oEzjPJV7pXgK1U-MzkkqRKgHqP207GG2pqtkRQ09IVZ94HvSlBVArvu7tkNE/s1600/google-tls.jpg",
+      "published": "2026-10-07T18:48:17Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google&nbsp;said on October 6.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -260,118 +140,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
+          "id": "8f15da4c86e68d1f09d624f79b1fedd3",
+          "title": "Hackers hijack Google domains after breaching ccTLD registries"
         },
         {
-          "id": "2bbff77b17d4622abfb3f56b5fedae87",
-          "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland"
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
         }
       ]
     },
     {
-      "id": "caa2932e0646b8a39d19a68885b0d25b",
-      "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-      "link": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-06T11:31:48Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "bff11d5fad8b971cfa6a1dfe48cfb332",
-          "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies"
-        },
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        }
-      ]
-    },
-    {
-      "id": "bff11d5fad8b971cfa6a1dfe48cfb332",
-      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-      "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWN60cSxpzLhK9K0oXjbeGNCoMl79wSkfW1h7dVHHi3dQPeRx2QUvM9dNGF3qKELV9xwkn8N_FBHk0WgftQryFzkKWyEf0jGbPb6ffor00ZQQnVPSrSSWKDfL10Shpkm2Q_LRFb85BarRqvdDE8eIksiGSrRy6hk8CD2cGf4xIIALAbOZEfHWMHWc7LfhA/s1600/wiki.jpg",
-      "published": "2026-10-06T11:26:25Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, and edit Wikipedia pages.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "caa2932e0646b8a39d19a68885b0d25b",
-          "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits"
-        },
-        {
-          "id": "5347986e6d4ebc2bf27bc720f1334f16",
-          "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan"
-        }
-      ]
-    },
-    {
-      "id": "f618c2ea3a0d2316b4aaa7080994989e",
-      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-      "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9ijWk9zlAlr4Ogzkb3OyeREM6GDYe0AZx5DQ-TmdUPN5ogFXFM0Z9Lh-qdG1CAIVdBX7cV7NSfgEk_yBtaTFCPdIjAo23ixCfHqa4j1m8FY2cRfmdcrd4GZNn-5QQScWonyO6GDRx6RA1ZRcuW9tAmCOFG9u7KQbWx3fftJ921w8rUqHx4ya_5CFuJM/s1600/ox.png.jpg",
-      "published": "2026-10-06T11:02:30Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
-        },
-        {
-          "id": "2bbff77b17d4622abfb3f56b5fedae87",
-          "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland"
-        }
-      ]
-    },
-    {
-      "id": "756bba0c540a9effbe402ec69b10bc97",
-      "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+      "id": "1643f83313ac18cb06753e2cbfda80bc",
+      "title": "Microsoft Outlook to block MSIX attachments starting November",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_3.png",
-      "published": "2026-10-06T09:25:50Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+      "published": "2026-10-07T15:44:22Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -380,28 +170,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5347986e6d4ebc2bf27bc720f1334f16",
-          "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan"
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
         },
         {
-          "id": "b5230d49f3e15b8e4ebb36c5674d4030",
-          "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes"
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
         }
       ]
     },
     {
-      "id": "114e2ef5619ec571e94e2664a2c7e5ba",
-      "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-      "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+      "id": "82b1e37b8f7fb8817eac9f471abbcf5e",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "source": "Krebs on Security",
+      "source_icon": "🕵️",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/Jeppesen.png",
+      "published": "2026-10-07T13:48:45Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
+        },
+        {
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
+        }
+      ]
+    },
+    {
+      "id": "b8477ac395d7842f620e6b0f97b4be69",
+      "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+      "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVB4YaCEMdO6UU6llRwDBMNe82j6s6myWlT8Y92f808ntjdWsPEFgXBpFhGxoAZdkFq5DVA4_XaQpbwvJFjpEUxrRjjRVITahCSGSxmi3qkad2fk-kZ1oXnoxKaFHNs2aRQl7LQ6r2Ljt57IZNaFvwejEQ20us7fMVpNYptJxoVCyol8BlVaXyLkkaeHQI/s1600/fbi-breach.jpg",
-      "published": "2026-10-06T06:56:57Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau employees.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwlATRFpnJdFH1E6zK00EDXPizTTgy_gfddNnBMuBwwMsatfG5_PB-S_S9uGdDW-MuTX8HzGLataU3yDJ6MdkTBN8fwntNgZIIIy9ljbQLD-6Httyo9ouWJ7rF-KjfIKTn5rMSlBURgeV9JyIPZKDg4jWpd4I0vhCifCzisPojOQcCH_QEpWCvO8WmydA/s1600/Proofpoint.png",
+      "published": "2026-10-07T11:57:05Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -410,28 +230,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "b6744a76660ee66e067f8a60bef1f048",
-          "title": "ASOS confirms data breach after “HACKED” in-app notifications"
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
         },
         {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
         }
       ]
     },
     {
-      "id": "8d9e1faf6e5b017c0163345f1d9c393f",
-      "title": "Week 40 – 2026 - This Week In 4n6",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LV0M0eTQwWkN6Y3c4eDRIa2hpN1BVWmpIQUQ2cnlRSE0yU1JFenNzYTItSmNEWHFIWkRWbE1naGlRRERkdEdzYlhNSHVtTFEyZFhPUGlxNVhlc29lWTdv?oc=5",
-      "source": "This Week in 4n6",
-      "source_icon": "📆",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-04T09:44:12Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "Week 40 – 2026 This Week In 4n6",
+      "id": "1c8e775c40f90c0b3614da28b7f8c04f",
+      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+      "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQZeKQIcHTVLgqnHpZYN73YclFawl51QxpykrKEb97sAJjA8qtN7FaUJaS0jLMeSS29cTB0nR_yFzsITX_e5SI8Xa8BfM1LDOGsEEEpDmVC8YNqOcEYEuep1UbHovyLlxrwRmYZ3FrbaaKq9eKwICiUTkkPleIibOHdWnbV5cpwYPCrHQasrTxVFA9seQ-/s1600/forti-admin.jpg",
+      "published": "2026-10-07T11:56:56Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "The U.S.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -440,28 +260,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "6cb67863bf1b0d5e2e6b29b4058525ce",
-          "title": "Ninja Forms plugin flaw exploited to hack WordPress sites"
+          "id": "cee1a6735906ba17466eced8425b7a53",
+          "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins"
         },
         {
-          "id": "2bbff77b17d4622abfb3f56b5fedae87",
-          "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland"
+          "id": "8f15da4c86e68d1f09d624f79b1fedd3",
+          "title": "Hackers hijack Google domains after breaching ccTLD registries"
         }
       ]
     },
     {
-      "id": "14f1c5a42862f259af866a7aa4772e87",
-      "title": "Students Use Forensic Science Skills in Escape Room - Erie News Now",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOU90WFBIS050ZFR2bWVVYUFEU0FQbUhaOWxfVDdfY3NIR0theER4SHJNTTM0QTZKLUNBVFVRUnhpUjh2bkVpVTl1c285RHpsQTRBMXFMU3ZFTDEtOUNoZFMtdXc2enYyUWxyVl9sdThhVWZqSEkwNFBySU5VUnlacUhEMFhjSUJVVEotMGpUMkJ4ZkdfcFVRV0JYTEJBN29IWjBMUjlWY190ejJMS1lhOEZHdlh4TEZNTGJzb2hNSHZaRzhxTHB1Z2JCSmt3UUd0ZFM2eVMxZw?oc=5",
+      "id": "3cd71ed3bfb4a1388fbdd63da115e6cb",
+      "title": "One breach, please, and make no mistakes",
+      "link": "https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/",
+      "source": "Cisco Talos Blog",
+      "source_icon": "🛡️",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/10/OneBreachPlease-BlogHeader.jpg",
+      "published": "2026-10-07T10:00:25Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "The cybersecurity community has seen examples of autonomous agents, built inside AI labs, attacking public infrastructure. How you prepare for agentic threats is what makes the difference during real incidents.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "c7902011410721e3f7b39d7d1c6c1c6f",
+          "title": "InfoSec News Nuggets – 10/07/2026"
+        },
+        {
+          "id": "954b61101732a8eca848ef2078f37024",
+          "title": "Evolution of Web3 in Cloud Supply Chain Attacks"
+        }
+      ]
+    },
+    {
+      "id": "95d27ae9f017be5a81a3a10ed42f5346",
+      "title": "Human sacrifice in ancient Egypt uncovered by modern forensic science - The National",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ2pPbi1MdndUek5YdlZaNkYzYlpUZ2Fod0pjTUx1aXFrQ1JMX0ttd196MnZISElWa0Zwb2lKZHBLVFN2WGZNamJDWXRVX2cxUkVUSWZ3NUhxb2diTnhWM0JFRWRiMVhTaXpIa25DSXdWTmNRM3F4VmZHY2syeWNPZW1JZTNiTlVNRzUtb2pVQmpRUU1fZzduYVBCQ25pYnFrRTd5NXdnY2tpeXlKN04tQ1pUYl8xbHB5VGdzNTNR?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-10-06T19:40:35Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Students Use Forensic Science Skills in Escape Room Erie News Now",
+      "image": "images/forensics_4.png",
+      "published": "2026-10-05T13:56:46Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "Human sacrifice in ancient Egypt uncovered by modern forensic science The National",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -470,88 +320,60 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "8bacb125874adef3c02365ffa438eab4",
-          "title": "Behind Uniform: Meet Dr Sairita Maistry - Mirage News"
+          "id": "dc516c4ce8095a40ee5d3d0287b0db9e",
+          "title": "Research Paper: Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs"
         },
         {
-          "id": "d55e5b63feeae2c9397a01d28b83a676",
-          "title": "How Big Must a DNA Database Be? Massive Argentine Study Redefines Forensic Sampling Rules - Bioengineer.org"
+          "id": "268aedd39ac063ea2fd3f36b6968c263",
+          "title": "ASOS \"hackers\" send push notifications to customers - Malwarebytes"
         }
       ]
     },
     {
-      "id": "8bacb125874adef3c02365ffa438eab4",
-      "title": "Behind Uniform: Meet Dr Sairita Maistry - Mirage News",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuQWxDd3dMT0VFZTN5bnBOUTRpV0NHYlBuazZDdkxGNEt5MlA0VEN5TUN5MUNqZEJzMjVmcV9RSFN3Z0oxXzUzZmg0bTZXUldzZDMySzZrMUNDajZldlpISVd5V05rQmtVUy10M3ZlZWNXaDRWUGhhQWVxS3lmZHc?oc=5",
-      "source": "Google News: Forensic Pathology",
-      "source_icon": "🔬",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-07T00:48:00Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "Behind Uniform: Meet Dr Sairita Maistry Mirage News",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "14f1c5a42862f259af866a7aa4772e87",
-          "title": "Students Use Forensic Science Skills in Escape Room - Erie News Now"
-        },
-        {
-          "id": "578321abc9dbe0a741882364907fcdc1",
-          "title": "Physicist Jun Ye Wins Wolf Prize in Physics - National Institute of Standards and Technology (.gov)"
-        }
-      ]
-    },
-    {
-      "id": "578321abc9dbe0a741882364907fcdc1",
-      "title": "Physicist Jun Ye Wins Wolf Prize in Physics - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMm8wTUZqVl9LZlNGMUZIMl9mWUxMV19oenhiTEh1X1dkWXdmQTJtbG9IdGpnY0czR3BuUHpoNm9Zd043TzlmR1M4MjlmQS1rYnc1a0p3d1FRZGRzX3o0ZDFLS0g4UXN5TVRSS1Q5N2s1SHhhUkFRTThoeFI2ODJyXy1PR1JmQWJkUWpaX1hpcw?oc=5",
-      "source": "NIST Forensic Science",
-      "source_icon": "🏛️",
-      "image": "images/forensics_5.png",
-      "published": "2026-10-05T12:00:00Z",
-      "published_fmt": "05 Oct 2026",
-      "plain_summary": "Physicist Jun Ye Wins Wolf Prize in Physics National Institute of Standards and Technology (.gov)",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "14f1c5a42862f259af866a7aa4772e87",
-          "title": "Students Use Forensic Science Skills in Escape Room - Erie News Now"
-        },
-        {
-          "id": "8bacb125874adef3c02365ffa438eab4",
-          "title": "Behind Uniform: Meet Dr Sairita Maistry - Mirage News"
-        }
-      ]
-    },
-    {
-      "id": "e3307195dd52540ed9ec2f959f667f2a",
-      "title": "Research Paper: SIGMA: Self-Improving Alignment Generalization from a Model Spec",
-      "link": "https://arxiv.org/abs/2610.07935v1",
+      "id": "1e44747a2ac826ebea06e952d4345721",
+      "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection",
+      "link": "https://arxiv.org/abs/2610.09952v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-06T08:09:56Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "LLM agents are increasingly capable of executing complex tasks and of recursively improving themselves on easy-to-verify objectives such as software engineering and mathematics.",
+      "image": "images/research_5.png",
+      "published": "2026-10-07T12:30:04Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Recent advances in generative image models have made many manipulated images highly realistic, raising the need for detectors that are not only accurate but also able to provide visual evidence for their decisions.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 140,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "dc516c4ce8095a40ee5d3d0287b0db9e",
+          "title": "Research Paper: Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs"
+        },
+        {
+          "id": "eee444d5199c06faf8119f8060ad5a11",
+          "title": "Research Paper: MOTIF: Person-of-Interest Deepfake Detection Beyond 3DMM Coefficients"
+        }
+      ]
+    },
+    {
+      "id": "b0f7416ca3b880acb0fa884c4ba423e5",
+      "title": "Research Paper: Quantum anomaly detection in real scarce data",
+      "link": "https://arxiv.org/abs/2610.09635v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-10-07T08:12:27Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Anomaly detection on small and unbalanced datasets remains very challenging in machine learning, although this scenario is common in several domains, including healthcare, cybersecurity, finance, and energy.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -560,441 +382,317 @@
         "#ai",
         "#machine-learning"
       ],
-      "read_time": "2 min read",
+      "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "96dbb34375cc851d079b31778f9034b9",
-          "title": "Research Paper: Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection"
+          "id": "07231de71a888550a1505bfaed1137be",
+          "title": "Research Paper: Sigma-Hunter: A Domain-Specific Language Model for Threat Hunting and Detection Engineering"
         },
         {
-          "id": "5ca8361878724a1e9ae65094e5745408",
-          "title": "Research Paper: CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage"
+          "id": "1e44747a2ac826ebea06e952d4345721",
+          "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection"
         }
       ]
     },
     {
-      "id": "b46b77db476a89e33a1830939449825d",
-      "title": "[Threat IOC] Potassium ip:port: 45.95.232.146:7193",
-      "link": "https://threatfox.abuse.ch/ioc/1956145/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-07T06:10:54Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Potassium. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "id": "3141157bf627e55965387439c5241b23",
+      "title": "Research Paper: Trustworthy Domain-Specific AI for Structured Knowledge Retrieval and Reasoning",
+      "link": "https://arxiv.org/abs/2610.08894v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_3.png",
+      "published": "2026-10-06T16:35:41Z",
+      "published_fmt": "06 Oct 2026",
+      "plain_summary": "This dissertation presents a scalable architecture for transforming unstructured, domain-specific text into structured knowledge for retrieval and reasoning.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#potassium"
+        "#research",
+        "#arxiv",
+        "#ai"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "a70ece6399babdedb43084c0695281cb",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.12.17.20:8080"
+          "id": "07231de71a888550a1505bfaed1137be",
+          "title": "Research Paper: Sigma-Hunter: A Domain-Specific Language Model for Threat Hunting and Detection Engineering"
         },
         {
-          "id": "f2b5e1707d4ac573eaf6b353a9f00ffb",
-          "title": "[Threat IOC] AsyncRAT ip:port: 217.60.103.15:8808"
+          "id": "1e44747a2ac826ebea06e952d4345721",
+          "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection"
         }
       ]
     },
     {
-      "id": "a70ece6399babdedb43084c0695281cb",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 154.12.17.20:8080",
-      "link": "https://threatfox.abuse.ch/ioc/1956143/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-10-07T06:05:04Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#cobaltstrike"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "b46b77db476a89e33a1830939449825d",
-          "title": "[Threat IOC] Potassium ip:port: 45.95.232.146:7193"
-        },
-        {
-          "id": "f2b5e1707d4ac573eaf6b353a9f00ffb",
-          "title": "[Threat IOC] AsyncRAT ip:port: 217.60.103.15:8808"
-        }
-      ]
-    },
-    {
-      "id": "f2b5e1707d4ac573eaf6b353a9f00ffb",
-      "title": "[Threat IOC] AsyncRAT ip:port: 217.60.103.15:8808",
-      "link": "https://threatfox.abuse.ch/ioc/1956144/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-07T06:05:04Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "b46b77db476a89e33a1830939449825d",
-          "title": "[Threat IOC] Potassium ip:port: 45.95.232.146:7193"
-        },
-        {
-          "id": "a70ece6399babdedb43084c0695281cb",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.12.17.20:8080"
-        }
-      ]
-    },
-    {
-      "id": "ccc331b1194b7323cb15f2c8017c39ce",
-      "title": "[Threat IOC] Vidar url: https://172.234.110.213",
-      "link": "https://threatfox.abuse.ch/ioc/1956142/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-07T06:04:22Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: Bitsight.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "b46b77db476a89e33a1830939449825d",
-          "title": "[Threat IOC] Potassium ip:port: 45.95.232.146:7193"
-        },
-        {
-          "id": "a70ece6399babdedb43084c0695281cb",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.12.17.20:8080"
-        }
-      ]
-    },
-    {
-      "id": "d597d3579fbbb8c41910d2fc9803d8c2",
-      "title": "[Threat IOC] php.shin_webshell domain: dapypu.workers.dev",
-      "link": "https://threatfox.abuse.ch/ioc/1956141/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-07T05:53:43Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#php.shin_webshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "fc310ee124fd82a12f83ce6c3d50b292",
-          "title": "[Threat IOC] php.shin_webshell domain: tofexy.workers.dev"
-        },
-        {
-          "id": "248272309c8ec8265c130c57a1bc2bbe",
-          "title": "[Threat IOC] Mirai domain: botsportscanning.duckdns.org"
-        }
-      ]
-    },
-    {
-      "id": "fc310ee124fd82a12f83ce6c3d50b292",
-      "title": "[Threat IOC] php.shin_webshell domain: tofexy.workers.dev",
-      "link": "https://threatfox.abuse.ch/ioc/1956140/",
+      "id": "07e22327b018b9125ca8495a36cb00c0",
+      "title": "[Threat IOC] Mozi url: http://42.57.166.198:39954/Mozi.a",
+      "link": "https://threatfox.abuse.ch/ioc/1957008/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_1.png",
-      "published": "2026-10-07T04:46:13Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: botnet_cc. Reporter: xscon.",
+      "published": "2026-10-08T06:18:55Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mozi. Type: url. Threat Category: payload_delivery. Reporter: HoneyLabs.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#php.shin_webshell"
+        "#mozi"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "d597d3579fbbb8c41910d2fc9803d8c2",
-          "title": "[Threat IOC] php.shin_webshell domain: dapypu.workers.dev"
+          "id": "cb1491d9fb5a27d464b7f87ca0496006",
+          "title": "[Threat IOC] Mozi url: http://103.176.16.129:54736/Mozi.m"
         },
         {
-          "id": "248272309c8ec8265c130c57a1bc2bbe",
-          "title": "[Threat IOC] Mirai domain: botsportscanning.duckdns.org"
+          "id": "1a1a6afe42cd581e264cb929ef53b587",
+          "title": "[Threat IOC] Unknown malware url: https://allegro.rezerwacja2481.sbs/a/acer-nitro-5-rtx-3060-i5-11400/80476"
         }
       ]
     },
     {
-      "id": "248272309c8ec8265c130c57a1bc2bbe",
-      "title": "[Threat IOC] Mirai domain: botsportscanning.duckdns.org",
-      "link": "https://threatfox.abuse.ch/ioc/1955694/",
+      "id": "cb1491d9fb5a27d464b7f87ca0496006",
+      "title": "[Threat IOC] Mozi url: http://103.176.16.129:54736/Mozi.m",
+      "link": "https://threatfox.abuse.ch/ioc/1957009/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-07T04:37:51Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: domain. Threat Category: botnet_cc. Reporter: wristhulk.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-08T06:18:55Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mozi. Type: url. Threat Category: payload_delivery. Reporter: HoneyLabs.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#mirai"
+        "#mozi"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "d597d3579fbbb8c41910d2fc9803d8c2",
-          "title": "[Threat IOC] php.shin_webshell domain: dapypu.workers.dev"
+          "id": "07e22327b018b9125ca8495a36cb00c0",
+          "title": "[Threat IOC] Mozi url: http://42.57.166.198:39954/Mozi.a"
         },
         {
-          "id": "fc310ee124fd82a12f83ce6c3d50b292",
-          "title": "[Threat IOC] php.shin_webshell domain: tofexy.workers.dev"
+          "id": "1a1a6afe42cd581e264cb929ef53b587",
+          "title": "[Threat IOC] Unknown malware url: https://allegro.rezerwacja2481.sbs/a/acer-nitro-5-rtx-3060-i5-11400/80476"
         }
       ]
     },
     {
-      "id": "dd76d4def1c160188b658b39356cd408",
-      "title": "[Threat IOC] Remus ip:port: 45.55.202.73:9932",
-      "link": "https://threatfox.abuse.ch/ioc/1955703/",
+      "id": "4d7365ab434d757e9d45a0f7de51e82d",
+      "title": "[Threat IOC] Unknown malware domain: allegrolokalnie.kzulbt395368.shop",
+      "link": "https://threatfox.abuse.ch/ioc/1957007/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-08T06:16:23Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: MaciekG.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "f9c4383dccbfd5fafdcd68945e14b33d",
+          "title": "[Threat IOC] Unknown malware domain: pl-allegro.sbs"
+        },
+        {
+          "id": "1a1a6afe42cd581e264cb929ef53b587",
+          "title": "[Threat IOC] Unknown malware url: https://allegro.rezerwacja2481.sbs/a/acer-nitro-5-rtx-3060-i5-11400/80476"
+        }
+      ]
+    },
+    {
+      "id": "1a1a6afe42cd581e264cb929ef53b587",
+      "title": "[Threat IOC] Unknown malware url: https://allegro.rezerwacja2481.sbs/a/acer-nitro-5-rtx-3060-i5-11400/80476",
+      "link": "https://threatfox.abuse.ch/ioc/1957006/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-10-08T06:16:21Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: MaciekG.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "4d7365ab434d757e9d45a0f7de51e82d",
+          "title": "[Threat IOC] Unknown malware domain: allegrolokalnie.kzulbt395368.shop"
+        },
+        {
+          "id": "f9c4383dccbfd5fafdcd68945e14b33d",
+          "title": "[Threat IOC] Unknown malware domain: pl-allegro.sbs"
+        }
+      ]
+    },
+    {
+      "id": "f9c4383dccbfd5fafdcd68945e14b33d",
+      "title": "[Threat IOC] Unknown malware domain: pl-allegro.sbs",
+      "link": "https://threatfox.abuse.ch/ioc/1957005/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-10-07T04:37:50Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "published": "2026-10-08T06:16:19Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: MaciekG.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#remus"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "b46b77db476a89e33a1830939449825d",
-          "title": "[Threat IOC] Potassium ip:port: 45.95.232.146:7193"
+          "id": "4d7365ab434d757e9d45a0f7de51e82d",
+          "title": "[Threat IOC] Unknown malware domain: allegrolokalnie.kzulbt395368.shop"
         },
         {
-          "id": "a70ece6399babdedb43084c0695281cb",
-          "title": "[Threat IOC] Cobalt Strike ip:port: 154.12.17.20:8080"
+          "id": "1a1a6afe42cd581e264cb929ef53b587",
+          "title": "[Threat IOC] Unknown malware url: https://allegro.rezerwacja2481.sbs/a/acer-nitro-5-rtx-3060-i5-11400/80476"
         }
       ]
     },
     {
-      "id": "5e60d99afaae5d32242b72039fd5119c",
-      "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-80333",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-09-30T06:17:05Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The Solace Extra WordPress plugin before 1.7.2 does not perform any authorization or post-status checks on its front-end preview routes, allowing unauthenticated visitors to read the rendered content of non-published posts and pages of any type that WordPress would otherwise not serve.",
+      "id": "f4c56a0dd89b374efb07901a06ad3246",
+      "title": "[Threat IOC] ClearFake domain: papm-gmbh.com",
+      "link": "https://threatfox.abuse.ch/ioc/1957004/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-10-08T06:16:10Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
       ],
       "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 80,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "4033552b3922f216e2d52cd6fe171ef7",
-          "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems"
+          "id": "4d7365ab434d757e9d45a0f7de51e82d",
+          "title": "[Threat IOC] Unknown malware domain: allegrolokalnie.kzulbt395368.shop"
         },
         {
-          "id": "070846a23270ee5edfacdd532cd2884d",
-          "title": "[MEDIUM CVE] CVE-2026-85001 in Various Systems"
+          "id": "f9c4383dccbfd5fafdcd68945e14b33d",
+          "title": "[Threat IOC] Unknown malware domain: pl-allegro.sbs"
         }
       ]
     },
     {
-      "id": "ab235fccfe11383fd2fb091ee1d62aa4",
-      "title": "[LOW CVE] CVE-2026-82127 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82127",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-09-30T06:17:05Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The Schema & Structured Data for WP & AMP WordPress plugin before 1.67 does not perform a capability check when saving several of its fields, nor escape them when outputting them back, allowing users with the editor role and above to inject arbitrary web scripts that execute when a higher privileged user views the affected screen.",
+      "id": "d210dbe6b0bdcdef25dd9e9a7f705db5",
+      "title": "[Threat IOC] Havoc ip:port: 74.241.250.35:22",
+      "link": "https://threatfox.abuse.ch/ioc/1957002/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-08T06:05:06Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Havoc. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#havoc"
       ],
       "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 80,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
+          "id": "b9e0df4f1daee706dccccc25ae00c30b",
+          "title": "[Threat IOC] Havoc ip:port: 74.241.250.35:443"
         },
         {
-          "id": "4033552b3922f216e2d52cd6fe171ef7",
-          "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems"
+          "id": "07e22327b018b9125ca8495a36cb00c0",
+          "title": "[Threat IOC] Mozi url: http://42.57.166.198:39954/Mozi.a"
         }
       ]
     },
     {
-      "id": "4033552b3922f216e2d52cd6fe171ef7",
-      "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-83560",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-09-30T06:17:05Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The New User Approve WordPress plugin before 3.2.10 does not properly verify authentication on a set of integration REST API routes when the integration is unconfigured, allowing unauthenticated attackers to retrieve personal data (id, username, email address and registration date) of registered users.",
+      "id": "b9e0df4f1daee706dccccc25ae00c30b",
+      "title": "[Threat IOC] Havoc ip:port: 74.241.250.35:443",
+      "link": "https://threatfox.abuse.ch/ioc/1957003/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-10-08T06:05:06Z",
+      "published_fmt": "08 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Havoc. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#havoc"
       ],
       "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 80,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
+          "id": "d210dbe6b0bdcdef25dd9e9a7f705db5",
+          "title": "[Threat IOC] Havoc ip:port: 74.241.250.35:22"
         },
         {
-          "id": "070846a23270ee5edfacdd532cd2884d",
-          "title": "[MEDIUM CVE] CVE-2026-85001 in Various Systems"
+          "id": "07e22327b018b9125ca8495a36cb00c0",
+          "title": "[Threat IOC] Mozi url: http://42.57.166.198:39954/Mozi.a"
         }
       ]
     },
     {
-      "id": "070846a23270ee5edfacdd532cd2884d",
-      "title": "[MEDIUM CVE] CVE-2026-85001 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85001",
+      "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+      "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75957",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-09-30T06:17:05Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The EmbedPress WordPress plugin before 4.6.7 does not sanitise and escape one of its Elementor widget settings before outputting it into an HTML attribute, which could allow users with the Contributor role or above to inject arbitrary web scripts that execute when the affected content is viewed.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
-        },
-        {
-          "id": "4033552b3922f216e2d52cd6fe171ef7",
-          "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2b86224fb34e766bb6dee2e257d69d0e",
-      "title": "[MEDIUM CVE] CVE-2026-75824 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75824",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-09-30T06:17:04Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The User Frontend WordPress plugin before 4.3.12 does not check whether the site allows user registration before creating an account, allowing unauthenticated users to create accounts on sites where registration is disabled.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
-        },
-        {
-          "id": "4033552b3922f216e2d52cd6fe171ef7",
-          "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2e642c63e3d9ef32830fb4a8e0165d15",
-      "title": "[CRITICAL CVE] CVE-2026-75873 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75873",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-09-30T06:17:04Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The Zella Theme WordPress theme before 2.6.3 does not perform any capability or nonce check on one of its font upload actions, which is available to unauthenticated users, allowing them to upload arbitrary files, including PHP ones, and achieve remote code execution.",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-01T08:16:52Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "The Ultimate Multisite – WordPress Multisite SaaS & WaaS Platform plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 2.15.0 via the `checkout_form` parameter of the `login_customer_after_checkout` function.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1004,59 +702,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
+          "id": "435d5c5e8dd4bcf5f8c707c3aa914283",
+          "title": "[CRITICAL CVE] CVE-2026-15989 in Various Systems"
         },
         {
-          "id": "ab235fccfe11383fd2fb091ee1d62aa4",
-          "title": "[LOW CVE] CVE-2026-82127 in Various Systems"
+          "id": "9c9f89650b8a50e3b70317adc6909d43",
+          "title": "[CRITICAL CVE] CVE-2025-41753 in Various Systems"
         }
       ]
     },
     {
-      "id": "6c6befae9c4c2f3c83b78cd42c64e4e6",
-      "title": "[HIGH CVE] CVE-2026-75823 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75823",
+      "id": "0894740508d0c437bae7871ffb51937a",
+      "title": "[MEDIUM CVE] CVE-2026-78249 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-78249",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-09-30T06:17:03Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The User Frontend WordPress plugin before 4.3.12 does not prevent tampering with the role assigned by its registration form, allowing unauthenticated users to register with a higher privileged role, such as Editor.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
-        },
-        {
-          "id": "ab235fccfe11383fd2fb091ee1d62aa4",
-          "title": "[LOW CVE] CVE-2026-82127 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "7eebfc33b066dc2705bfcd4e37deed9c",
-      "title": "[MEDIUM CVE] CVE-2026-100143 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-100143",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-09-30T06:16:58Z",
-      "published_fmt": "30 Sep 2026",
-      "plain_summary": "The FluentCart A New Era of eCommerce WordPress plugin before 1.6.5 does not verify that the person placing a guest checkout controls the email address supplied, allowing unauthenticated attackers who know an existing guest customer's email to obtain a logged-in account bearing that address together with the customer's stored record.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-10-01T08:16:52Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "A path traversal vulnerability exists in the web management interface of multiple Multifunction Devices and Printers, including Apeos C4571 1.1.3 and earlier, Apeos C3567 1.1.3, or other products listed, specifically in the handling of externally supplied parameters.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1066,152 +733,214 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5e60d99afaae5d32242b72039fd5119c",
-          "title": "[MEDIUM CVE] CVE-2026-80333 in Various Systems"
+          "id": "a939ccd09e540ff5dc8265fc1beb3b48",
+          "title": "[MEDIUM CVE] CVE-2026-19902 in Various Systems"
         },
         {
-          "id": "4033552b3922f216e2d52cd6fe171ef7",
-          "title": "[MEDIUM CVE] CVE-2026-83560 in Various Systems"
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
         }
       ]
     },
     {
-      "id": "96dbb34375cc851d079b31778f9034b9",
-      "title": "Research Paper: Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
-      "link": "https://arxiv.org/abs/2610.08639v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-10-06T16:33:00Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "As generated images become increasingly realistic, reliable forgery detection is essential for maintaining trust in visual information.",
+      "id": "1af80372cdf1c8761a709830819becb5",
+      "title": "[HIGH CVE] CVE-2026-103651 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103651",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-10-01T08:16:51Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "MISP contains a vulnerability in its one-time password (OTP) authentication flow that allows replay of a consumed HOTP (paper) token and rewinding of the token counter.",
       "deep_lore": "",
-      "category_tag": "Research Papers",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#deep-learning"
+        "#cve",
+        "#nvd",
+        "#high-severity"
       ],
       "read_time": "2 min read",
-      "forensic_score": 70,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "5ca8361878724a1e9ae65094e5745408",
-          "title": "Research Paper: CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage"
+          "id": "7c2e4c490d695be4b73ddd1dd6f8a712",
+          "title": "[HIGH CVE] CVE-2026-19807 in Various Systems"
         },
         {
-          "id": "e3307195dd52540ed9ec2f959f667f2a",
-          "title": "Research Paper: SIGMA: Self-Improving Alignment Generalization from a Model Spec"
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
         }
       ]
     },
     {
-      "id": "e49702709a68c6e3b040bd19663e47cc",
-      "title": "How to run a ransomware investigation: five phases from containment to recovery",
-      "link": "https://www.magnetforensics.com/blog/how-to-run-a-ransomware-investigation-five-phases-from-containment-to-recovery/",
-      "source": "Magnet Forensics",
-      "source_icon": "🧲",
-      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/10/MF_Blog_Ransomware_Inline_v2.1.jpg",
-      "published": "2026-10-06T21:07:11Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Learn the five essential phases of a ransomware investigation, from containment and forensics to recovery and reporting.",
+      "id": "435d5c5e8dd4bcf5f8c707c3aa914283",
+      "title": "[CRITICAL CVE] CVE-2026-15989 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15989",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-10-01T08:16:51Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "The Super Forms – Drag & Drop Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.3.316.",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 30,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "c4edadaf50c5537f67b4db863c93170a",
-          "title": "180: Conti"
-        },
-        {
-          "id": "57e61e672a2bf401800ba01c90202eeb",
-          "title": "Facebook Marketplace scam uses your name and number - Malwarebytes"
-        }
-      ]
-    },
-    {
-      "id": "9fd6d934148511cd680b95a1aa81e9aa",
-      "title": "LSU Cyber Team Releases First Open-Source Tool to Recover Fragmented Digital Evidence at Scale, Solves Two 20-year-old Grand Challenges, Wins $750K from NSA - Louisiana State University",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51c2VadElYWlZQNmoxZy04RUhqendudGpfd3NKQi1NMG5HNXV6UWpDRS0xaGg1VEcxWEJjRktaSmNTcVY2a3hhdXNPX1d0Y0Y4VmFzWkxjZzY?oc=5",
-      "source": "DFRWS",
-      "source_icon": "🏆",
-      "image": "images/github_1.png",
-      "published": "2026-10-06T20:19:53Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "LSU Cyber Team Releases First Open-Source Tool to Recover Fragmented Digital Evidence at Scale, Solves Two 20-year-old Grand Challenges, Wins $750K from NSA Louisiana State University",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "578321abc9dbe0a741882364907fcdc1",
-          "title": "Physicist Jun Ye Wins Wolf Prize in Physics - National Institute of Standards and Technology (.gov)"
-        },
-        {
-          "id": "d55e5b63feeae2c9397a01d28b83a676",
-          "title": "How Big Must a DNA Database Be? Massive Argentine Study Redefines Forensic Sampling Rules - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "5ca8361878724a1e9ae65094e5745408",
-      "title": "Research Paper: CCDF: A Benchmark Dataset for Deepfake Detection in Real-World Surveillance Footage",
-      "link": "https://arxiv.org/abs/2610.07939v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-06T08:13:10Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Due to rapid advances in Generative AI, commercial video generation tools can be used to produce fabricated surveillance footage that can fool both human viewers and automated synthetic video detectors.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#media-forensics"
+        "#cve",
+        "#nvd",
+        "#critical-severity"
       ],
       "read_time": "2 min read",
-      "forensic_score": 20,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "96dbb34375cc851d079b31778f9034b9",
-          "title": "Research Paper: Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection"
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
         },
         {
-          "id": "e3307195dd52540ed9ec2f959f667f2a",
-          "title": "Research Paper: SIGMA: Self-Improving Alignment Generalization from a Model Spec"
+          "id": "9c9f89650b8a50e3b70317adc6909d43",
+          "title": "[CRITICAL CVE] CVE-2025-41753 in Various Systems"
         }
       ]
     },
     {
-      "id": "36f5a60778bbe6f78f0b900f3509730d",
-      "title": "Research Paper: MARCO: The Radioactive Watermark for Protein Generative Models",
-      "link": "https://arxiv.org/abs/2610.08316v1",
+      "id": "7c2e4c490d695be4b73ddd1dd6f8a712",
+      "title": "[HIGH CVE] CVE-2026-19807 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19807",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-10-01T08:16:51Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "The ByteCoreStack – MCP Connector for AI Tools plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2.3 This is due to the `wp_update_user_meta` MCP tool in `execute_tool` gating writes solely with `current_user_can('edit_user', $uid)` — a check that WordPress core's `map_meta_cap` resolves to the `read` primitive when the target user ID matches the caller's own — while enforcing an incomplete meta key blocklist that covers only `user_pass`, `user_activation_key`, and `session_tokens`, leaving the `wp_capabilities` and `wp_user_level` meta keys entirely unprotected.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "1af80372cdf1c8761a709830819becb5",
+          "title": "[HIGH CVE] CVE-2026-103651 in Various Systems"
+        },
+        {
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a939ccd09e540ff5dc8265fc1beb3b48",
+      "title": "[MEDIUM CVE] CVE-2026-19902 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19902",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-10-01T08:16:51Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "The Ad Inserter – Ad Manager & AdSense Ads plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the Referer header in all versions up to, and including, 2.8.18 due to insufficient input sanitization and output escaping on the '{search-query}' dynamic tag.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "0894740508d0c437bae7871ffb51937a",
+          "title": "[MEDIUM CVE] CVE-2026-78249 in Various Systems"
+        },
+        {
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "19fe276ca64754f25fb090b2deb65370",
+      "title": "[LOW CVE] CVE-2026-103544 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103544",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-10-01T07:16:33Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "A vulnerability was found in datadrivenconstruction OpenConstructionERP up to 14.8.1. The impacted element is an unknown function of the file backend/app/modules/ai/ai_client.py of the component Al Provider Configuration Handler.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#low-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
+        },
+        {
+          "id": "0894740508d0c437bae7871ffb51937a",
+          "title": "[MEDIUM CVE] CVE-2026-78249 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "9c9f89650b8a50e3b70317adc6909d43",
+      "title": "[CRITICAL CVE] CVE-2025-41753 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-41753",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-10-01T07:16:32Z",
+      "published_fmt": "01 Oct 2026",
+      "plain_summary": "The object name of a dynamically created BACnet File Object is interpreted as a file path without sufficient validation.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "8fd92a100a1306ae47f97a4505bc3a8f",
+          "title": "[CRITICAL CVE] CVE-2026-75957 in Various Systems"
+        },
+        {
+          "id": "435d5c5e8dd4bcf5f8c707c3aa914283",
+          "title": "[CRITICAL CVE] CVE-2026-15989 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "dc516c4ce8095a40ee5d3d0287b0db9e",
+      "title": "Research Paper: Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs",
+      "link": "https://arxiv.org/abs/2610.09581v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-06T13:18:22Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Protein Generative Models (PGMs) have revolutionized structural biology by enabling the design of complex 3D protein structures from sequence data.",
+      "image": "images/research_3.png",
+      "published": "2026-10-07T07:26:33Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Forensic reconstruction of LLM-agent actions requires not only recovering the correct value, but establishing which preserved record supports that finding.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -1221,119 +950,123 @@
         "#digital-forensics"
       ],
       "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "07 Oct 2026",
+      "forensic_score": 70,
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "e3307195dd52540ed9ec2f959f667f2a",
-          "title": "Research Paper: SIGMA: Self-Improving Alignment Generalization from a Model Spec"
+          "id": "1e44747a2ac826ebea06e952d4345721",
+          "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection"
         },
         {
-          "id": "96dbb34375cc851d079b31778f9034b9",
-          "title": "Research Paper: Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection"
+          "id": "b0f7416ca3b880acb0fa884c4ba423e5",
+          "title": "Research Paper: Quantum anomaly detection in real scarce data"
         }
       ]
     },
     {
-      "id": "e59b52e348cbb6dc904aea72ef1bb0b0",
-      "title": "InfoSec News Nuggets – 10/06/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-10-06-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/cve_1.png",
-      "published": "2026-10-06T10:46:16Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users’ Mailboxes Microsoft has shipped out-of-band security updates for CVE-2026-96940, a high-severity (CVSS 8.8) weak authorization flaw in Exchange Server that lets an authenticated attacker escalate privileges and access other users’ mailboxes within the same organization, reading their messages and attachments.",
+      "id": "77a1faaf0505273c9d7648118f59a04b",
+      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg93cv3mDcrVCz0IYIpCH3eRNzbDYkM2Z_N2acg9D6bCFGvE3cr3eJ1uGJblGasKplvyvuO6pSuMCxamTwHJSP2ztJ7WBswe1igBdzoadRJPZSDfs5K2og83_iMDMZYuh-LpFdA4qb4Pv7SyJ1A4EQtO_gi6nuxV5ioid32rXABiS0Il9t8boUATp2lTes/s1600/sonicwall.png",
+      "published": "2026-10-07T16:17:44Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "GitHub Releases",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#github",
+        "#release"
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "55757333f21122e8e940360bd686a1ac",
-          "title": "Atlassian warns of critical file-access flaw in Jira, Confluence"
+          "id": "648826eb9de41886bbf69ce37a02afe8",
+          "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways"
         },
         {
-          "id": "9f8147165c318d8e93b89cb816e3ed49",
-          "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports"
+          "id": "d559fd6f0a8aee3cbc5479b30e822609",
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely"
         }
       ]
     },
     {
-      "id": "c4edadaf50c5537f67b4db863c93170a",
-      "title": "180: Conti",
-      "link": "https://darknetdiaries.com/episode/180/",
-      "source": "Darknet Diaries",
-      "source_icon": "🎙️",
-      "image": "https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/7057/141e0c43-f935-41de-be94-708448052c4d/darknet-diaries-ep180-conti.mp3",
-      "published": "2026-10-06T07:00:00Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "The word Conti struck fear in IT departments across the world. It's a type of ransomware that you hope to never come across. Like most ransomware gangs, the Conti group fell apart. But what's special about this story is how it fell apart.",
+      "id": "eee444d5199c06faf8119f8060ad5a11",
+      "title": "Research Paper: MOTIF: Person-of-Interest Deepfake Detection Beyond 3DMM Coefficients",
+      "link": "https://arxiv.org/abs/2610.09830v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-10-07T10:51:29Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Video deepfakes targeting a specific individual, the Person-of-Interest (POI), are the most harmful ones, and, since a public figure is abundantly recorded, a detector can be built from genuine footage of that individual.",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "Research Papers",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#media-forensics"
       ],
-      "read_time": "2 min read",
+      "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "e49702709a68c6e3b040bd19663e47cc",
-          "title": "How to run a ransomware investigation: five phases from containment to recovery"
+          "id": "1e44747a2ac826ebea06e952d4345721",
+          "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection"
         },
         {
-          "id": "57e61e672a2bf401800ba01c90202eeb",
-          "title": "Facebook Marketplace scam uses your name and number - Malwarebytes"
+          "id": "b0f7416ca3b880acb0fa884c4ba423e5",
+          "title": "Research Paper: Quantum anomaly detection in real scarce data"
         }
       ]
     },
     {
-      "id": "55757333f21122e8e940360bd686a1ac",
-      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-      "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+      "id": "07231de71a888550a1505bfaed1137be",
+      "title": "Research Paper: Sigma-Hunter: A Domain-Specific Language Model for Threat Hunting and Detection Engineering",
+      "link": "https://arxiv.org/abs/2610.09007v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-10-06T19:02:42Z",
+      "published_fmt": "06 Oct 2026",
+      "plain_summary": "Detection engineers must translate threat reports, forensic observations, and hunt hypotheses into precise, testable rules.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "b0f7416ca3b880acb0fa884c4ba423e5",
+          "title": "Research Paper: Quantum anomaly detection in real scarce data"
+        },
+        {
+          "id": "1e44747a2ac826ebea06e952d4345721",
+          "title": "Research Paper: MSU Team at the Explainable Deepfake Detection Challenge 2026: Grounded Artifact Evidence for Deepfake Detection"
+        }
+      ]
+    },
+    {
+      "id": "9d06369585a14786b160dc5ed4053370",
+      "title": "Ransomware recovery CEO charged over secret ransom payments",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_4.png",
-      "published": "2026-10-06T17:34:59Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbucket. [...]",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
-      "related": [
-        {
-          "id": "91a521b73dac5688d120e8e544bc5b6a",
-          "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products"
-        },
-        {
-          "id": "e59b52e348cbb6dc904aea72ef1bb0b0",
-          "title": "InfoSec News Nuggets – 10/06/2026"
-        }
-      ]
-    },
-    {
-      "id": "57e61e672a2bf401800ba01c90202eeb",
-      "title": "Facebook Marketplace scam uses your name and number - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRTY1TTFscnI2SU9jZTd1eEFQQURqTHdFOVRRQUExN0gtQXBFbjJZeDBRWUhMbUd3a0VCajJDMWtOUVloSVZaQmZmc1gzUHlzTFk3dnNOTjFYZnk0ZnVjcllwVGFFaFZSQndUWHBQNXlYRTNzX3hhTWRzRjhYdVZwTlhZaFVLSWh2V1ltLXNHQXB0Sk9RODB1YUxMWl9fZG9mZ0JhUlItNmhtZUE?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
       "image": "images/malware_4.png",
-      "published": "2026-10-06T12:30:28Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Facebook Marketplace scam uses your name and number Malwarebytes",
+      "published": "2026-10-07T23:04:37Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attackers for decryptors while claiming to use proprietary technology to recover encrypted data.",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1342,28 +1075,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "2c5e25496a47755c12b6b64710d64710",
-          "title": "Proposed anti-Flock bills could spell trouble for license plate readers - Malwarebytes"
+          "id": "08c85093b0131fc855f2e150334878e2",
+          "title": "Ransomware has a new target. Is your backup ready?"
         },
         {
-          "id": "e49702709a68c6e3b040bd19663e47cc",
-          "title": "How to run a ransomware investigation: five phases from containment to recovery"
+          "id": "ea9dc6811ce80a95fe19ca16fb5323eb",
+          "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer"
         }
       ]
     },
     {
-      "id": "a859adcdc04f899cc101d6f47a9ce79e",
-      "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
-      "link": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
-      "source": "Unit 42",
-      "source_icon": "🔍",
-      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/05_Malware_Category_1920x900-1.jpg",
-      "published": "2026-10-06T10:00:33Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure.",
+      "id": "418a7c23a865240cfe63aac88d3cb0e4",
+      "title": "Microsoft, Adobe, Apple, and Foxit vulnerabilities",
+      "link": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+      "source": "Cisco Talos Blog",
+      "source_icon": "🛡️",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/10/vuln_roundup.jpg",
+      "published": "2026-10-07T19:27:08Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed vulnerabilities in Adobe, Apple, Foxit Reader, and Microsoft.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "d559fd6f0a8aee3cbc5479b30e822609",
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely"
+        },
+        {
+          "id": "05644b967a5292671daea09a252ec1b6",
+          "title": "Hackers exploit critical Atlassian flaw after public PoC release"
+        }
+      ]
+    },
+    {
+      "id": "ea9dc6811ce80a95fe19ca16fb5323eb",
+      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgopANe3MXyNNOXog__x1pF53wYoQxinI47tN9gLrZSzJfumz-Dg05ZfyjiGsqF47Pugj71iZ1buX7OEiupWYa09xVQdu7DKOMX5NO-uGKCF0UjNila0x5fNiYw5NWEX1TUQTPidjT5NnGmPwM_6mGfKcOxqcjZuPAZLdzRX5u_TXJM76GQ6mQOkikw_kxo/s1600/npm-malware.jpg",
+      "published": "2026-10-07T17:43:20Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts.",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1372,28 +1135,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "e49702709a68c6e3b040bd19663e47cc",
-          "title": "How to run a ransomware investigation: five phases from containment to recovery"
+          "id": "9d06369585a14786b160dc5ed4053370",
+          "title": "Ransomware recovery CEO charged over secret ransom payments"
         },
         {
-          "id": "c4edadaf50c5537f67b4db863c93170a",
-          "title": "180: Conti"
+          "id": "09b5d57f6def77594167117d617722ae",
+          "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet"
         }
       ]
     },
     {
-      "id": "9f8147165c318d8e93b89cb816e3ed49",
-      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-      "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+      "id": "d559fd6f0a8aee3cbc5479b30e822609",
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCWoelMB7H9bFZJdDV7vP5M3a1ByvpHs8ub2SrBGOM1gz6r0Fg9cV1fplW5Q6mNBFtRlW99wDCSC-_6_sZBw0l4HsFvUDP5cCH2zmgcF4NK5wCOInv05K4hH2WMlKCA_G_psX4zB_hUcXid2MWx5fGDjaJvD1YjWBechwUdrhXK51dJYZ3PGsu0JQcT1U/s1600/google-bug-bounty.jpg",
-      "published": "2026-10-06T09:21:47Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyMSiFF8XNm1OpF4uWou7e4nt4fqsuPc0IXyUXhHky9w8ydKkauWm_j0yxdpMsRFlDx-5PHhtAxYNg3Z-rYqvexgILhokXO8tARRTtDHn2P83GOlUhiD6jN7rtkf3Ul1-Hp7O4VyvwV6EGNUgjmcC-B_o_P-xQy9eD7RaTnO_RoDpDwgjTePDvkjC9xso/s1600/lm.jpg",
+      "published": "2026-10-07T15:34:53Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1402,28 +1165,118 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "e59b52e348cbb6dc904aea72ef1bb0b0",
-          "title": "InfoSec News Nuggets – 10/06/2026"
+          "id": "05644b967a5292671daea09a252ec1b6",
+          "title": "Hackers exploit critical Atlassian flaw after public PoC release"
         },
         {
-          "id": "55757333f21122e8e940360bd686a1ac",
-          "title": "Atlassian warns of critical file-access flaw in Jira, Confluence"
+          "id": "bb0e666a1e58f2062a22cb3866b7752e",
+          "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details"
         }
       ]
     },
     {
-      "id": "91a521b73dac5688d120e8e544bc5b6a",
-      "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-      "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+      "id": "09b5d57f6def77594167117d617722ae",
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGQge2pd9O29G6qjsswRMYKnpM66wzyEWHOnRljkIZUZpCGVGACovyKIiji1HQ4jZOsypuaveJUBxx0r7-tT-Icd3COeo_prgm0TbMWDJBYFYpWHOC3lBjb8sZo6f2qWPkzeztOAjMW1CjrE_fDe3nWBU2FEOOjUWDpNUbtY1okTyx_iFE7xcI5jxOeiQ/s1600/file.jpg",
-      "published": "2026-10-06T06:58:56Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDjQ8O0UFcl1dpOxEJoAM0s1mXXZHJNpJF4uJV_4jg7UPhHlDEvGHVxHKtyZQpnFC4HC3stGB-jJOSYUB5vdayfwx_eWPq-0F_l_ViYZNcA768t1N95JWhhbhUzY8anGOjVSL06QtsKVv_mz4lKgGrBMNBckAtFPxaW-KuG3mbWuUJrsyJP2vdWVbq8r9P/s1600/crypto.jpg",
+      "published": "2026-10-07T15:33:51Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "c3fcc673098f351e2cb23bd66ff31718",
+          "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks"
+        },
+        {
+          "id": "9d06369585a14786b160dc5ed4053370",
+          "title": "Ransomware recovery CEO charged over secret ransom payments"
+        }
+      ]
+    },
+    {
+      "id": "c3fcc673098f351e2cb23bd66ff31718",
+      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_3.png",
+      "published": "2026-10-07T15:04:08Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "09b5d57f6def77594167117d617722ae",
+          "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet"
+        },
+        {
+          "id": "9d06369585a14786b160dc5ed4053370",
+          "title": "Ransomware recovery CEO charged over secret ransom payments"
+        }
+      ]
+    },
+    {
+      "id": "08c85093b0131fc855f2e150334878e2",
+      "title": "Ransomware has a new target. Is your backup ready?",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_1.png",
+      "published": "2026-10-07T14:01:11Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "9d06369585a14786b160dc5ed4053370",
+          "title": "Ransomware recovery CEO charged over secret ransom payments"
+        },
+        {
+          "id": "ea9dc6811ce80a95fe19ca16fb5323eb",
+          "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer"
+        }
+      ]
+    },
+    {
+      "id": "05644b967a5292671daea09a252ec1b6",
+      "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_5.png",
+      "published": "2026-10-07T12:49:01Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "A critical vulnerability (CVE-2026-21589) affecting multiple Atlassian product families, including Jira, Confluence, and Bitbucket, is being exploited in attacks that do not require authentication. [...]",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1432,28 +1285,88 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "55757333f21122e8e940360bd686a1ac",
-          "title": "Atlassian warns of critical file-access flaw in Jira, Confluence"
+          "id": "bb0e666a1e58f2062a22cb3866b7752e",
+          "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details"
         },
         {
-          "id": "e59b52e348cbb6dc904aea72ef1bb0b0",
-          "title": "InfoSec News Nuggets – 10/06/2026"
+          "id": "d559fd6f0a8aee3cbc5479b30e822609",
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely"
         }
       ]
     },
     {
-      "id": "2c5e25496a47755c12b6b64710d64710",
-      "title": "Proposed anti-Flock bills could spell trouble for license plate readers - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON04wRHJkTkZyV1JJVndqSFJtVUl3LW94dF9hVl9MMlItT05qb1ZZOVBJUFVra1pjcTkwTDlkTk1Xb3B5SHlpTzdoeWRlSDFyd2E4S3NrUzd6OWEzRUNIU1VmM2s2SV9aRTE4NW9PMjlSenF0enV0ZklrTlRrT3dobUhjWndIcGtyUVl5ZUp3N28zMWwzX1JPTmlrSDJWdWJGQ3ZxZkZvR1p4WW4ySU40RmttLXEwM0hiTWc?oc=5",
+      "id": "bb0e666a1e58f2062a22cb3866b7752e",
+      "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEityRbZfy1N9Y0SuqWl7yeWTYMjeirrTbDx719fM65Be6yXOt2Zl0YweAi0hAfswNzV_LrHa4eFCpcCemC3FNwxZve4bPkSelQiRnCdXpZofAnI7Si96nULBV6i25jgFaZkEY1T3LuPRhj6QzTSsWHZtLuoH1zXlLKZN3WwSiKS7QoY_Zug0CtaaCGozT6N/s1600/jira-attack.jpg",
+      "published": "2026-10-07T11:49:26Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "05644b967a5292671daea09a252ec1b6",
+          "title": "Hackers exploit critical Atlassian flaw after public PoC release"
+        },
+        {
+          "id": "d559fd6f0a8aee3cbc5479b30e822609",
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely"
+        }
+      ]
+    },
+    {
+      "id": "648826eb9de41886bbf69ce37a02afe8",
+      "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/github_1.png",
+      "published": "2026-10-07T11:37:07Z",
+      "published_fmt": "07 Oct 2026",
+      "plain_summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "08 Oct 2026",
+      "related": [
+        {
+          "id": "77a1faaf0505273c9d7648118f59a04b",
+          "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances"
+        },
+        {
+          "id": "1c8e775c40f90c0b3614da28b7f8c04f",
+          "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials"
+        }
+      ]
+    },
+    {
+      "id": "268aedd39ac063ea2fd3f36b6968c263",
+      "title": "ASOS \"hackers\" send push notifications to customers - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUDhRVV9RSEVsSWczT3RZVzNfNU84bm9qSUotMXMxOWxQS3VraWhoeHoxZWl3QVoxa3REMVdqd1VMSFZMdS01WUNUS3d5cldDQkd1Uy1yM0VJcE9pLU1GR2JKb2xYOV9veTEzbzFia1RSc2JGZE5QRlM0cEJGbmU3dWtyTnVNNUpnNklzanllczhZU1gxaHNqSFBCVjQ?oc=5",
       "source": "Malwarebytes Labs",
       "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-10-05T15:57:28Z",
-      "published_fmt": "05 Oct 2026",
-      "plain_summary": "Proposed anti-Flock bills could spell trouble for license plate readers Malwarebytes",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-10-06T14:30:08Z",
+      "published_fmt": "06 Oct 2026",
+      "plain_summary": "ASOS \"hackers\" send push notifications to customers Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1462,15 +1375,15 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "07 Oct 2026",
+      "collected_date": "08 Oct 2026",
       "related": [
         {
-          "id": "57e61e672a2bf401800ba01c90202eeb",
-          "title": "Facebook Marketplace scam uses your name and number - Malwarebytes"
+          "id": "9d06369585a14786b160dc5ed4053370",
+          "title": "Ransomware recovery CEO charged over secret ransom payments"
         },
         {
-          "id": "e49702709a68c6e3b040bd19663e47cc",
-          "title": "How to run a ransomware investigation: five phases from containment to recovery"
+          "id": "ea9dc6811ce80a95fe19ca16fb5323eb",
+          "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer"
         }
       ]
     }
