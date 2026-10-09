@@ -1,11 +1,11 @@
 {
-  "last_update": "08 Oct 2026, 11:53 IST",
+  "last_update": "09 Oct 2026, 11:55 IST",
   "sources_healthy": 73,
   "sources_failed": 1,
-  "articles_today": 45,
-  "duplicates_discarded": 10,
-  "articles_total": 13383,
-  "runtime": "1 min 11 sec",
+  "articles_today": 57,
+  "duplicates_discarded": 13,
+  "articles_total": 13440,
+  "runtime": "1 min 5 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -17,7 +17,7 @@
   "errors_list": [
     {
       "name": "CrowdStrike Blog",
-      "error": "<unknown>:2:1: syntax error"
+      "error": "<unknown>:2:2: not well-formed (invalid token)"
     }
   ]
 }

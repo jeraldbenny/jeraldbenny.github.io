@@ -2928,5 +2928,28 @@
         "error": "<unknown>:2:1: syntax error"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-09T06:25:22.173483+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 70,
+    "total_articles": 13440,
+    "runtime": "1 min 5 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:2: not well-formed (invalid token)"
+      }
+    ]
   }
 ]
