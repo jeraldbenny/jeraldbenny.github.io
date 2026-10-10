@@ -2951,5 +2951,28 @@
         "error": "<unknown>:2:2: not well-formed (invalid token)"
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-10T06:07:13.895322+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 55,
+    "total_articles": 13483,
+    "runtime": "1 min 4 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:2: not well-formed (invalid token)"
+      }
+    ]
   }
 ]
