@@ -1,167 +1,17 @@
 {
-  "last_updated": "11 October 2026, 11:34 IST",
-  "total": 26,
+  "last_updated": "12 October 2026, 11:44 IST",
+  "total": 22,
   "articles": [
     {
-      "id": "3344a2cc49bdc4555b367854a02ca9fa",
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-10T15:07:54Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "2eafd0cd7ead45c4a6b5f43108350bf9",
-          "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks"
-        },
-        {
-          "id": "089597e941ccf2bb776eb110f587aaaa",
-          "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management"
-        }
-      ]
-    },
-    {
-      "id": "2eafd0cd7ead45c4a6b5f43108350bf9",
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-10T14:16:17Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "0302a04637bcbea1992917c4a9b46c59",
-          "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't"
-        },
-        {
-          "id": "646ca68e658dffb9a5832be44c41043d",
-          "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws"
-        }
-      ]
-    },
-    {
-      "id": "089597e941ccf2bb776eb110f587aaaa",
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-10T12:30:39Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "3344a2cc49bdc4555b367854a02ca9fa",
-          "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers"
-        },
-        {
-          "id": "2eafd0cd7ead45c4a6b5f43108350bf9",
-          "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks"
-        }
-      ]
-    },
-    {
-      "id": "0302a04637bcbea1992917c4a9b46c59",
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghemGbtxM2amUYAlxUPHPdMiyDMQJFWZeY-dDODRqCRD0phZXXQv0rrKHiOsLPW3t0Fq2XxvvFyCC-OmNs7TXhXXKSRVMPpC1GPKSUsyzN9t-W6L4jtiA2DUiTLgou4iyw0QXN-6Wfz0H2zWYGgC6-OxtlQrfb0PygOeBWwDnR11nl3Gl8W5pL07sExNc/s1600/reco.gif",
-      "published": "2026-10-10T11:00:00Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "2eafd0cd7ead45c4a6b5f43108350bf9",
-          "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks"
-        },
-        {
-          "id": "646ca68e658dffb9a5832be44c41043d",
-          "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws"
-        }
-      ]
-    },
-    {
-      "id": "646ca68e658dffb9a5832be44c41043d",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6Q5kUrLA2Pfuqcghyphenhyphen1q3pECWSE72HYp9BB9GM5i3b_6XxNHMtwlR7yrPj_xTpcwoIaMy0vJt8A1g_D9Riz6JhbU5WyVPV69DFvk1oIzv2jp-eG-qbfx8lIHF2zX_XEAxz5gC51xn2hPUwYVh9thUuQslxqfIp1Pg3bgmWQYaXXW4LuUxTdUZzUo2R22C/s1600/claude-internet.jpg",
-      "published": "2026-10-10T09:18:45Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "2eafd0cd7ead45c4a6b5f43108350bf9",
-          "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks"
-        },
-        {
-          "id": "0302a04637bcbea1992917c4a9b46c59",
-          "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't"
-        }
-      ]
-    },
-    {
-      "id": "b628b14b3b5818bc6850a8a7d53e7198",
-      "title": "New forensic science and protective medicine facility opens in Wauwatosa - Daily Dodge",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxON29ESjdYczVxeWlqYkVLN0o3eTROb2VfMkozS0pkM2RPR05xSzVQYzBJUmRIRXNsamtyRmJGUjFFdGVCS0xPUE9sbHFpVWQzT19ZZFdabnp3NmpfN2hJM3RyczNvVXlfU2NnWlFmVEQxYXI1ZmtLY0Y1VXI3M2dFRUVWa3o1Ujc0VFlFV2FrdHp3MWhPX3Q4RTRQZFM?oc=5",
+      "id": "edb70e0cf7c6993cf172bc071768e91d",
+      "title": "New $245 million Forensic Science facility brings crime lab, medical examiner together - BizTimes - Milwaukee Business News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanQxbHhVWFllTURFR0dWS3BOUkVZZk1UU190UVUzZVI4SVhpTEt1TTVfOFZvZU94bzFpaURTdkIwY0c5bXVoWkFLblJvbDNEUE1yUmVqVTdSR3VuRUFKZ0x4c0Rzd1RQcHdRN1g4VDFINWpfTllDNkZZMDJJM3k3NjBmRnNGN3RoM2VvWEJBZWl0N3FWYUxNajV0dVFqbjJ6S3RUTURpSi04dw?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-10-10T11:15:00Z",
-      "published_fmt": "10 Oct 2026",
-      "plain_summary": "New forensic science and protective medicine facility opens in Wauwatosa Daily Dodge",
+      "image": "images/forensics_2.png",
+      "published": "2026-10-12T06:05:23Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "New $245 million Forensic Science facility brings crime lab, medical examiner together BizTimes - Milwaukee Business News",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -170,143 +20,115 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "11 Oct 2026",
-      "related": []
-    },
-    {
-      "id": "e9577710b215143104aaaa2f775b3e50",
-      "title": "Research Paper: DFRWS 2026 Report of Practitioner Perspectives on Applying AI in Digital Forensics",
-      "link": "https://dfrws.org/dfrws-2026-report-of-practitioner-perspectives-on-applying-ai-in-digital-forensics/",
-      "source": "DFRWS Research",
-      "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-08T10:50:27Z",
-      "published_fmt": "08 Oct 2026",
-      "plain_summary": "DFRWS has published the report on an interactive working session of practitioner perspectives regarding use of AI in digital forensics casework.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#dfir-paper",
-        "#open-science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "498f1a99af7883dbb1c6fc596f2bb608",
-          "title": "Research Paper: GenAI-assisted Digital Forensics Weaknesses and Mitigations in SOLVE-IT"
+          "id": "2d1a966565f815e3c40e1091ef3fa156",
+          "title": "New $245 Million Forensic Science Facility Is a ‘Watershed Moment’ - Urban Milwaukee"
         },
         {
-          "id": "f7c5b4a85a4908ad8aa5536385c44dd0",
-          "title": "Research Paper: Shape what AI and the next generation learn"
+          "id": "4b43583c5556d5acdf0c55ca309924e9",
+          "title": "State opens new forensic science building in Milwaukee County - In Business Madison"
         }
       ]
     },
     {
-      "id": "f7c5b4a85a4908ad8aa5536385c44dd0",
-      "title": "Research Paper: Shape what AI and the next generation learn",
-      "link": "https://dfrws.org/shape-what-ai-and-the-next-generation-learn/",
-      "source": "DFRWS Research",
+      "id": "2d1a966565f815e3c40e1091ef3fa156",
+      "title": "New $245 Million Forensic Science Facility Is a ‘Watershed Moment’ - Urban Milwaukee",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWG9hYno0R09IQ3pwZUx2NkVCVEdnRzFYYWk5eDJFMzFzcVV1a21wU1hlTEN2UUZMMS1SbnJ1Y0hjN3ozUGV1N2I3Ulk5UDJmVkdPYkw4VnFxelZ3RkZyc3RvUklLS1h0dGYxVlV1Q05qVTlIdmdyWEpza2FVb1otUTFQLUFQVHoyZmhudVVMc29yamYwMklKZWxSdDhDODI2bGlSZg?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_3.png",
+      "published": "2026-10-11T22:03:00Z",
+      "published_fmt": "11 Oct 2026",
+      "plain_summary": "New $245 Million Forensic Science Facility Is a ‘Watershed Moment’ Urban Milwaukee",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "edb70e0cf7c6993cf172bc071768e91d",
+          "title": "New $245 million Forensic Science facility brings crime lab, medical examiner together - BizTimes - Milwaukee Business News"
+        },
+        {
+          "id": "4b43583c5556d5acdf0c55ca309924e9",
+          "title": "State opens new forensic science building in Milwaukee County - In Business Madison"
+        }
+      ]
+    },
+    {
+      "id": "4b43583c5556d5acdf0c55ca309924e9",
+      "title": "State opens new forensic science building in Milwaukee County - In Business Madison",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOek9FSHduS0Mzcjd2Y3B1eUk4NUpTWldwdHJPNmtySGEyVWNYenVTZlB0R1BLcFZhY01Vc0JfeDg1VU5UM1NLUGg2TmFvdURIQmxEXzhoc3RhNXVwSHhocmNsYWFKVzk2eXhpODdtcGVOSmN1SzQ5ZEJLelZZSm9vTzQ2TUdNTUtnQ2djVg?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_4.png",
+      "published": "2026-10-09T18:07:23Z",
+      "published_fmt": "09 Oct 2026",
+      "plain_summary": "State opens new forensic science building in Milwaukee County In Business Madison",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "edb70e0cf7c6993cf172bc071768e91d",
+          "title": "New $245 million Forensic Science facility brings crime lab, medical examiner together - BizTimes - Milwaukee Business News"
+        },
+        {
+          "id": "2d1a966565f815e3c40e1091ef3fa156",
+          "title": "New $245 Million Forensic Science Facility Is a ‘Watershed Moment’ - Urban Milwaukee"
+        }
+      ]
+    },
+    {
+      "id": "10eda223616b194aa72012dac572c909",
+      "title": "Research Paper: Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi",
+      "link": "https://arxiv.org/abs/2610.13367v1",
+      "source": "arXiv",
       "source_icon": "🏆",
       "image": "images/research_2.png",
-      "published": "2026-10-07T10:01:10Z",
-      "published_fmt": "07 Oct 2026",
-      "plain_summary": "For more than a quarter-century, the international digital forensics community has been sharing knowledge through the conferences and challenges organized by DFRWS.org.",
+      "published": "2026-10-09T10:40:30Z",
+      "published_fmt": "09 Oct 2026",
+      "plain_summary": "Physical layer (PHY) information hiding refers to the concealment of secrets within PHY waveforms without compromising the integrity of the primary communication link, thereby enabling critical applications such as covert communication, PHY steganography, and watermarking.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
         "#research",
-        "#dfir-paper",
-        "#open-science"
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
       ],
       "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "e9577710b215143104aaaa2f775b3e50",
-          "title": "Research Paper: DFRWS 2026 Report of Practitioner Perspectives on Applying AI in Digital Forensics"
-        },
-        {
-          "id": "498f1a99af7883dbb1c6fc596f2bb608",
-          "title": "Research Paper: GenAI-assisted Digital Forensics Weaknesses and Mitigations in SOLVE-IT"
+          "id": "81595a4891e86ebbf9a54f00eae9f630",
+          "title": "Research Paper: From Imbalance to Evidence: Deep Nonparametric Testing for Complex Data under Severe Sample Imbalance"
         }
       ]
     },
     {
-      "id": "498f1a99af7883dbb1c6fc596f2bb608",
-      "title": "Research Paper: GenAI-assisted Digital Forensics Weaknesses and Mitigations in SOLVE-IT",
-      "link": "https://dfrws.org/genai-assisted-digital-forensics-weaknesses-and-mitigations-added-to-solve-it/",
-      "source": "DFRWS Research",
-      "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-06T15:20:34Z",
-      "published_fmt": "06 Oct 2026",
-      "plain_summary": "“To do more faster, cyber investigators are adopting AI and large language models (LLMs), not realizing that these systems lack requisite knowledge.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#dfir-paper",
-        "#open-science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "e9577710b215143104aaaa2f775b3e50",
-          "title": "Research Paper: DFRWS 2026 Report of Practitioner Perspectives on Applying AI in Digital Forensics"
-        },
-        {
-          "id": "f7c5b4a85a4908ad8aa5536385c44dd0",
-          "title": "Research Paper: Shape what AI and the next generation learn"
-        }
-      ]
-    },
-    {
-      "id": "a0ba51653a46d7c5b3bcf375bbc45eee",
-      "title": "[Threat IOC] Remus url: http://arqtsop.shop:9932/reviews",
-      "link": "https://threatfox.abuse.ch/ioc/1960479/",
+      "id": "9c24b04575317bb5e97c7c8eb8cfed9b",
+      "title": "[Threat IOC] Vidar url: https://rrj.6666k.org",
+      "link": "https://threatfox.abuse.ch/ioc/1961326/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-11T06:00:07Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remus. Type: url. Threat Category: botnet_cc. Reporter: Myrtus0x0.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#remus"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "679a8cc6bd579ee1e3b33af119779ffb",
-          "title": "[Threat IOC] Vidar url: https://gp.54toto.org"
-        },
-        {
-          "id": "e819094676209dafdf428d8771150371",
-          "title": "[Threat IOC] Unknown malware url: https://web.aloha-hk.com/"
-        }
-      ]
-    },
-    {
-      "id": "679a8cc6bd579ee1e3b33af119779ffb",
-      "title": "[Threat IOC] Vidar url: https://gp.54toto.org",
-      "link": "https://threatfox.abuse.ch/ioc/1960478/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-11T05:53:58Z",
-      "published_fmt": "11 Oct 2026",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-10-12T06:11:42Z",
+      "published_fmt": "12 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: Bitsight.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -318,124 +140,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "a0ba51653a46d7c5b3bcf375bbc45eee",
-          "title": "[Threat IOC] Remus url: http://arqtsop.shop:9932/reviews"
+          "id": "49bb3ae79ee59f3560443316586c6186",
+          "title": "[Threat IOC] ValleyRAT url: https://unby6r.oss-cn-beijing.aliyuncs.com/tad"
         },
         {
-          "id": "e819094676209dafdf428d8771150371",
-          "title": "[Threat IOC] Unknown malware url: https://web.aloha-hk.com/"
+          "id": "562142faa0d1d0ece2174295fc4ebdd6",
+          "title": "[Threat IOC] ValleyRAT url: https://yu8y1w.oss-cn-beijing.aliyuncs.com/tad"
         }
       ]
     },
     {
-      "id": "eee0058bc69c4d01ff5ef19deb1d0fd1",
-      "title": "[Threat IOC] AsyncRAT domain: alladie.store",
-      "link": "https://threatfox.abuse.ch/ioc/1960477/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-10-11T05:45:22Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: domain. Threat Category: botnet_cc. Reporter: abuse_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "17b313b597291982975c2b8235d22b50",
-          "title": "[Threat IOC] Quasar RAT domain: ufabet88.vip"
-        },
-        {
-          "id": "1308866211666171f69d549e9ab9dc07",
-          "title": "[Threat IOC] php.shin_webshell domain: myquqljcq9.workers.dev"
-        }
-      ]
-    },
-    {
-      "id": "17b313b597291982975c2b8235d22b50",
-      "title": "[Threat IOC] Quasar RAT domain: ufabet88.vip",
-      "link": "https://threatfox.abuse.ch/ioc/1960476/",
+      "id": "ce81f1c99616d31036991410aad0bb18",
+      "title": "[Threat IOC] Unknown malware ip:port: 172.111.138.100:4427",
+      "link": "https://threatfox.abuse.ch/ioc/1960907/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_5.png",
-      "published": "2026-10-11T05:40:17Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Quasar RAT. Type: domain. Threat Category: botnet_cc. Reporter: abuse_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#quasarrat"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "578b531a125e63584227302962a899d2",
-          "title": "[Threat IOC] Quasar RAT domain: uvach.in"
-        },
-        {
-          "id": "eee0058bc69c4d01ff5ef19deb1d0fd1",
-          "title": "[Threat IOC] AsyncRAT domain: alladie.store"
-        }
-      ]
-    },
-    {
-      "id": "1308866211666171f69d549e9ab9dc07",
-      "title": "[Threat IOC] php.shin_webshell domain: myquqljcq9.workers.dev",
-      "link": "https://threatfox.abuse.ch/ioc/1960475/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-11T05:36:48Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: payload_delivery. Reporter: xscon.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#php.shin_webshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "eee0058bc69c4d01ff5ef19deb1d0fd1",
-          "title": "[Threat IOC] AsyncRAT domain: alladie.store"
-        },
-        {
-          "id": "17b313b597291982975c2b8235d22b50",
-          "title": "[Threat IOC] Quasar RAT domain: ufabet88.vip"
-        }
-      ]
-    },
-    {
-      "id": "e819094676209dafdf428d8771150371",
-      "title": "[Threat IOC] Unknown malware url: https://web.aloha-hk.com/",
-      "link": "https://threatfox.abuse.ch/ioc/1960474/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-11T05:30:54Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: CarsonWilliams.",
+      "published": "2026-10-12T06:11:36Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: milonn.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -446,114 +172,251 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "a0ba51653a46d7c5b3bcf375bbc45eee",
-          "title": "[Threat IOC] Remus url: http://arqtsop.shop:9932/reviews"
+          "id": "590a851bd334c9b0450de3d31661b6f8",
+          "title": "[Threat IOC] Mirai ip:port: 45.135.194.96:1999"
         },
         {
-          "id": "679a8cc6bd579ee1e3b33af119779ffb",
-          "title": "[Threat IOC] Vidar url: https://gp.54toto.org"
+          "id": "9c24b04575317bb5e97c7c8eb8cfed9b",
+          "title": "[Threat IOC] Vidar url: https://rrj.6666k.org"
         }
       ]
     },
     {
-      "id": "578b531a125e63584227302962a899d2",
-      "title": "[Threat IOC] Quasar RAT domain: uvach.in",
-      "link": "https://threatfox.abuse.ch/ioc/1960473/",
+      "id": "49bb3ae79ee59f3560443316586c6186",
+      "title": "[Threat IOC] ValleyRAT url: https://unby6r.oss-cn-beijing.aliyuncs.com/tad",
+      "link": "https://threatfox.abuse.ch/ioc/1960910/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-11T05:10:19Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Quasar RAT. Type: domain. Threat Category: botnet_cc. Reporter: abuse_ch.",
+      "image": "images/malware_1.png",
+      "published": "2026-10-12T06:11:35Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ValleyRAT. Type: url. Threat Category: payload_delivery. Reporter: Daydream.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#quasarrat"
+        "#valleyrat"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "17b313b597291982975c2b8235d22b50",
-          "title": "[Threat IOC] Quasar RAT domain: ufabet88.vip"
+          "id": "562142faa0d1d0ece2174295fc4ebdd6",
+          "title": "[Threat IOC] ValleyRAT url: https://yu8y1w.oss-cn-beijing.aliyuncs.com/tad"
         },
         {
-          "id": "eee0058bc69c4d01ff5ef19deb1d0fd1",
-          "title": "[Threat IOC] AsyncRAT domain: alladie.store"
+          "id": "f28333c6d3c2fdc3f4bcfcfba72fcd1d",
+          "title": "[Threat IOC] ValleyRAT url: https://26usdm.oss-cn-beijing.aliyuncs.com/tad"
         }
       ]
     },
     {
-      "id": "9be7379257d14ae570e5e3d0ec280feb",
-      "title": "[Threat IOC] VShell ip:port: 27.50.63.50:8084",
-      "link": "https://threatfox.abuse.ch/ioc/1960472/",
+      "id": "562142faa0d1d0ece2174295fc4ebdd6",
+      "title": "[Threat IOC] ValleyRAT url: https://yu8y1w.oss-cn-beijing.aliyuncs.com/tad",
+      "link": "https://threatfox.abuse.ch/ioc/1960911/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-12T06:11:35Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ValleyRAT. Type: url. Threat Category: payload_delivery. Reporter: Daydream.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#valleyrat"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "49bb3ae79ee59f3560443316586c6186",
+          "title": "[Threat IOC] ValleyRAT url: https://unby6r.oss-cn-beijing.aliyuncs.com/tad"
+        },
+        {
+          "id": "f28333c6d3c2fdc3f4bcfcfba72fcd1d",
+          "title": "[Threat IOC] ValleyRAT url: https://26usdm.oss-cn-beijing.aliyuncs.com/tad"
+        }
+      ]
+    },
+    {
+      "id": "f28333c6d3c2fdc3f4bcfcfba72fcd1d",
+      "title": "[Threat IOC] ValleyRAT url: https://26usdm.oss-cn-beijing.aliyuncs.com/tad",
+      "link": "https://threatfox.abuse.ch/ioc/1960912/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-10-11T05:05:05Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "published": "2026-10-12T06:11:34Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ValleyRAT. Type: url. Threat Category: payload_delivery. Reporter: Daydream.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#vshell"
+        "#valleyrat"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "a0ba51653a46d7c5b3bcf375bbc45eee",
-          "title": "[Threat IOC] Remus url: http://arqtsop.shop:9932/reviews"
+          "id": "49bb3ae79ee59f3560443316586c6186",
+          "title": "[Threat IOC] ValleyRAT url: https://unby6r.oss-cn-beijing.aliyuncs.com/tad"
         },
         {
-          "id": "679a8cc6bd579ee1e3b33af119779ffb",
-          "title": "[Threat IOC] Vidar url: https://gp.54toto.org"
+          "id": "562142faa0d1d0ece2174295fc4ebdd6",
+          "title": "[Threat IOC] ValleyRAT url: https://yu8y1w.oss-cn-beijing.aliyuncs.com/tad"
         }
       ]
     },
     {
-      "id": "ed095833a419be4afcee374988f026e2",
-      "title": "[Malware Intel] Threat propagation url detected (malware_download)",
-      "link": "https://urlhaus.abuse.ch/url/3947791/",
-      "source": "URLhaus",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-10-11T05:47:07Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "Identified active malware threat propagation URL. Threat: malware_download. Reporter: adliwahid. Tags: .",
+      "id": "7502419432391eff068dffca53af7197",
+      "title": "[Threat IOC] AMOS sha256_hash: fb9464c262d2e61dfb1be8a7f5733fd9fcae77531d748ec376400c4da2966274",
+      "link": "https://threatfox.abuse.ch/ioc/1960940/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-10-12T06:11:34Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#malware",
-        "#urlhaus",
-        "#malware_download"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#amos"
       ],
       "read_time": "2 min read",
-      "forensic_score": 78,
-      "collected_date": "11 Oct 2026",
-      "related": []
+      "forensic_score": 80,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "589e9fb75fa7d2a2114675e97900c37e",
+          "title": "[Threat IOC] AMOS sha256_hash: f55a01024912947929929639773eb9baad087a90aa346ff1cd8e9ba25474a3ee"
+        },
+        {
+          "id": "9c24b04575317bb5e97c7c8eb8cfed9b",
+          "title": "[Threat IOC] Vidar url: https://rrj.6666k.org"
+        }
+      ]
     },
     {
-      "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-      "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86817",
+      "id": "589e9fb75fa7d2a2114675e97900c37e",
+      "title": "[Threat IOC] AMOS sha256_hash: f55a01024912947929929639773eb9baad087a90aa346ff1cd8e9ba25474a3ee",
+      "link": "https://threatfox.abuse.ch/ioc/1960941/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-12T06:11:34Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#amos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "7502419432391eff068dffca53af7197",
+          "title": "[Threat IOC] AMOS sha256_hash: fb9464c262d2e61dfb1be8a7f5733fd9fcae77531d748ec376400c4da2966274"
+        },
+        {
+          "id": "9c24b04575317bb5e97c7c8eb8cfed9b",
+          "title": "[Threat IOC] Vidar url: https://rrj.6666k.org"
+        }
+      ]
+    },
+    {
+      "id": "590a851bd334c9b0450de3d31661b6f8",
+      "title": "[Threat IOC] Mirai ip:port: 45.135.194.96:1999",
+      "link": "https://threatfox.abuse.ch/ioc/1961005/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-12T06:11:33Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: ip:port. Threat Category: botnet_cc. Reporter: seckle.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#mirai"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "ce81f1c99616d31036991410aad0bb18",
+          "title": "[Threat IOC] Unknown malware ip:port: 172.111.138.100:4427"
+        },
+        {
+          "id": "9c24b04575317bb5e97c7c8eb8cfed9b",
+          "title": "[Threat IOC] Vidar url: https://rrj.6666k.org"
+        }
+      ]
+    },
+    {
+      "id": "6425bdaccccb3315ac66ee1db243835a",
+      "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105301",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_3.png",
+      "published": "2026-10-05T06:16:58Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A flaw was found in the X.509 client-certificate authenticator of Keycloak, a solution for identity and access management. The issue occurs when the server is configured to check certificate revocation using CRL Distribution Points or OCSP.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+          "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems"
+        },
+        {
+          "id": "a4a81a00155ff17a896381f666982527",
+          "title": "[MEDIUM CVE] CVE-2026-105306 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+      "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105302",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-10-04T07:16:34Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "The Five Star Business Profile and Schema WordPress plugin before 2.4.0 does not properly restrict the callbacks used to resolve schema field default values, allowing authenticated users with Author-level access and above to store input that discloses sensitive data, including other users' password hashes and arbitrary site option values, in public output readable by unauthenticated visitors.",
+      "published": "2026-10-05T06:16:58Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A flaw was found in the User Session Note mapper of the Keycloak identity and access management solution.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -563,152 +426,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "82c1062ac9d13546dc335ae60a39857b",
-          "title": "[MEDIUM CVE] CVE-2026-105133 in Various Systems"
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
         },
         {
-          "id": "ea15c875dc63a186b36d63591abd8fb7",
-          "title": "[MEDIUM CVE] CVE-2026-17005 in Various Systems"
+          "id": "a4a81a00155ff17a896381f666982527",
+          "title": "[MEDIUM CVE] CVE-2026-105306 in Various Systems"
         }
       ]
     },
     {
-      "id": "8841cc34fe627e1907eb86452b7d5e34",
-      "title": "[HIGH CVE] CVE-2026-93549 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-93549",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-10-04T07:16:34Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "The CoCart WordPress plugin before 4.9.7 does not scope its REST API authentication filter to its own endpoints, which disables WordPress core's REST nonce protection for every route, allowing an attacker to perform a cross-site request forgery attack that creates a new administrator account using a logged-in administrator's session.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
-        },
-        {
-          "id": "82c1062ac9d13546dc335ae60a39857b",
-          "title": "[MEDIUM CVE] CVE-2026-105133 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "82c1062ac9d13546dc335ae60a39857b",
-      "title": "[MEDIUM CVE] CVE-2026-105133 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-10-04T07:16:33Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "A vulnerability was detected in Ahsay AhsayCBS up to 10.3.2. This affects the function checkSysPwd of the file com/ahsay/obs/api/ApiStructsAction.java of the component API.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
-        },
-        {
-          "id": "ea15c875dc63a186b36d63591abd8fb7",
-          "title": "[MEDIUM CVE] CVE-2026-17005 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "e0476b03916fd853e84cec809c7bf782",
-      "title": "[CRITICAL CVE] CVE-2026-105134 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-10-04T07:16:33Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "A flaw has been found in Ahsay AhsayCBS up to 10.3.2. This vulnerability affects unknown code of the file /rps/api/json/UpdateReceivers.do of the component Replication Receiver.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#critical-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "42ea3d15cb09ab5845eaaa935f6952d5",
-          "title": "[CRITICAL CVE] CVE-2026-105135 in Various Systems"
-        },
-        {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "42ea3d15cb09ab5845eaaa935f6952d5",
-      "title": "[CRITICAL CVE] CVE-2026-105135 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105135",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-10-04T07:16:33Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "A vulnerability has been found in InternLM MindSearch 0.1.0. This issue affects the function ExecutionAction.run of the file mindsearch/agent/graph.py of the component Planner Agent.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#critical-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
-      "related": [
-        {
-          "id": "e0476b03916fd853e84cec809c7bf782",
-          "title": "[CRITICAL CVE] CVE-2026-105134 in Various Systems"
-        },
-        {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "ea15c875dc63a186b36d63591abd8fb7",
-      "title": "[MEDIUM CVE] CVE-2026-17005 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-17005",
+      "id": "a4a81a00155ff17a896381f666982527",
+      "title": "[MEDIUM CVE] CVE-2026-105306 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105306",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-10-04T07:16:33Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "The Horizontal scrolling announcements WordPress plugin through 2.6 does not sanitise and escape one of its announcement settings before outputting it into an attribute context on the front end, allowing users granted access to the announcement management page (Contributor and above, once permitted) to perform Stored Cross-Site Scripting attacks that execute in the browser of anyone viewing the announcement.",
+      "published": "2026-10-05T06:16:58Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A flaw was found in the Dynamic Client Registration flow of the Keycloak identity and access management server.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -718,28 +457,90 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
         },
         {
-          "id": "82c1062ac9d13546dc335ae60a39857b",
-          "title": "[MEDIUM CVE] CVE-2026-105133 in Various Systems"
+          "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+          "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems"
         }
       ]
     },
     {
-      "id": "ca30516b6a247b3243afad2ddb1d97b0",
-      "title": "[LOW CVE] CVE-2026-104119 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104119",
+      "id": "f40093f328d96b451774ba9960f6aaaf",
+      "title": "[MEDIUM CVE] CVE-2026-105231 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105231",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-10-04T07:16:32Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "The Simple Shopping Cart WordPress plugin before 5.2.6 does not escape some of its settings field values before outputting them on an admin settings page, allowing high-privilege users such as administrators to perform Stored Cross-Site Scripting attacks, which is notably impactful on multisite installations where administrators do not have the unfiltered_html capability.",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-05T06:16:57Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A vulnerability was detected in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
+        },
+        {
+          "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+          "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "af591e05cf347b4e6e68fa844b9b73d6",
+      "title": "[MEDIUM CVE] CVE-2026-105232 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105232",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-05T06:16:57Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A flaw has been found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
+        },
+        {
+          "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+          "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "0c4a62962dc0d2c3a3d2d532c4ac5769",
+      "title": "[LOW CVE] CVE-2026-105233 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105233",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-10-05T06:16:57Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A vulnerability has been found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. This affects an unknown function of the file login.php of the component Login Flow.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -749,28 +550,59 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
+          "id": "0eada1a2d8525562988beccb01ea3c2d",
+          "title": "[LOW CVE] CVE-2026-105237 in Various Systems"
         },
         {
-          "id": "8841cc34fe627e1907eb86452b7d5e34",
-          "title": "[HIGH CVE] CVE-2026-93549 in Various Systems"
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
         }
       ]
     },
     {
-      "id": "dba976e03dcd59e02992cf8d3427dd13",
-      "title": "[MEDIUM CVE] CVE-2026-104118 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104118",
+      "id": "0eada1a2d8525562988beccb01ea3c2d",
+      "title": "[LOW CVE] CVE-2026-105237 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105237",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-10-04T07:16:31Z",
-      "published_fmt": "04 Oct 2026",
-      "plain_summary": "The Razorpay for WooCommerce WordPress plugin before 4.8.8 does not perform ownership or authorization checks on a REST API route used during checkout, allowing unauthenticated attackers to modify the shipping information stored on arbitrary orders.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-10-05T06:16:57Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A vulnerability was detected in linlinjava litemall up to 1.8.0. This affects an unknown part of the file litemall-admin-api/src/main/java/org/linlinjava/litemall/admin/web/AdminAuthController.java of the component Login Endpoint.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#low-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "0c4a62962dc0d2c3a3d2d532c4ac5769",
+          "title": "[LOW CVE] CVE-2026-105233 in Various Systems"
+        },
+        {
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "da707b67e91266bdc8bb73762d44199a",
+      "title": "[MEDIUM CVE] CVE-2026-105230 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105230",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-10-05T06:16:56Z",
+      "published_fmt": "05 Oct 2026",
+      "plain_summary": "A security vulnerability has been detected in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. Impacted is an unknown function of the file delivery/deliverymyord.php.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -780,15 +612,73 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Oct 2026",
+      "collected_date": "12 Oct 2026",
       "related": [
         {
-          "id": "8d835fbcf8ae02caf6fbf9c288c452fe",
-          "title": "[MEDIUM CVE] CVE-2026-86817 in Various Systems"
+          "id": "6425bdaccccb3315ac66ee1db243835a",
+          "title": "[MEDIUM CVE] CVE-2026-105301 in Various Systems"
         },
         {
-          "id": "82c1062ac9d13546dc335ae60a39857b",
-          "title": "[MEDIUM CVE] CVE-2026-105133 in Various Systems"
+          "id": "2fc008e4d6e9926dc79f9c4d0c7cc93e",
+          "title": "[MEDIUM CVE] CVE-2026-105302 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "81595a4891e86ebbf9a54f00eae9f630",
+      "title": "Research Paper: From Imbalance to Evidence: Deep Nonparametric Testing for Complex Data under Severe Sample Imbalance",
+      "link": "https://arxiv.org/abs/2610.12946v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_3.png",
+      "published": "2026-10-09T03:44:28Z",
+      "published_fmt": "09 Oct 2026",
+      "plain_summary": "Comparing distributions under severe sample imbalance requires effectively using abundant majority observations while retaining sensitivity to differences involving the smaller sample.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 40,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "10eda223616b194aa72012dac572c909",
+          "title": "Research Paper: Secrets in Preamble: Practical and Robust PHY Information Hiding for Wi-Fi"
+        }
+      ]
+    },
+    {
+      "id": "9855780aaf69650a1ddbd1d39e499855",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_5.png",
+      "published": "2026-10-11T14:23:46Z",
+      "published_fmt": "11 Oct 2026",
+      "plain_summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Oct 2026",
+      "related": [
+        {
+          "id": "edb70e0cf7c6993cf172bc071768e91d",
+          "title": "New $245 million Forensic Science facility brings crime lab, medical examiner together - BizTimes - Milwaukee Business News"
+        },
+        {
+          "id": "2d1a966565f815e3c40e1091ef3fa156",
+          "title": "New $245 Million Forensic Science Facility Is a ‘Watershed Moment’ - Urban Milwaukee"
         }
       ]
     }
