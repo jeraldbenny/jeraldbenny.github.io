@@ -379,7 +379,7 @@
   {
     "name": "Wireshark",
     "version": "4.6.9",
-    "released": "12 October 2026",
+    "released": "13 October 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [
@@ -761,15 +761,16 @@
   },
   {
     "name": "Hayabusa",
-    "version": "4.1.0",
-    "released": "12 September 2026",
+    "version": "4.2.0",
+    "released": "13 October 2026",
     "category": "Timeline & Decryption",
     "github_repo": "Yamato-Security/hayabusa",
     "features": [
-      "Anti-Virus False Positives"
+      "Released 2026/10/12.",
+      "Log files found with -d, --directory or -l, --live-analysis are now scanned in sorted path order, making unsorted timeline output deterministic across operating systems, filesystems, and directory copies. (1929)"
     ],
     "bugs": [
-      "General bug fixes and code optimizations"
+      "Rule files loaded from a rules directory are now loaded in sorted path order, making same-batch detection ordering deterministic. Rules loaded from encoded_rules.yml retain their existing fixed order. (1929)"
     ]
   }
 ]
