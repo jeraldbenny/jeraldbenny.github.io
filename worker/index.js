@@ -414,34 +414,42 @@ ${contextText || "No matching articles found in index."}
 
   // 6. Multi-Tier Language Model & Resilient Fallback Execution
   // Tier 1: Cloudflare Workers AI (Fast, Free Native Inference, 0 Hugging Face Credits)
+  const CF_AI_MODELS = [
+    "@cf/meta/llama-3.2-3b-instruct",
+    "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "@cf/meta/llama-3.2-1b-instruct"
+  ];
+
   if (env.AI && typeof env.AI.run === "function") {
-    try {
-      if (wantStream) {
-        const stream = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-          messages: messages,
-          max_tokens: 2500,
-          temperature: 0.25,
-          stream: true
-        });
-        return new Response(stream, {
-          headers: {
-            "Content-Type": "text/event-stream",
-            "Cache-Control": "no-cache",
-            "Connection": "keep-alive"
+    for (const cfModel of CF_AI_MODELS) {
+      try {
+        if (wantStream) {
+          const stream = await env.AI.run(cfModel, {
+            messages: messages,
+            max_tokens: 2048,
+            temperature: 0.25,
+            stream: true
+          });
+          return new Response(stream, {
+            headers: {
+              "Content-Type": "text/event-stream",
+              "Cache-Control": "no-cache",
+              "Connection": "keep-alive"
+            }
+          });
+        } else {
+          const aiRes = await env.AI.run(cfModel, {
+            messages: messages,
+            max_tokens: 2048,
+            temperature: 0.25
+          });
+          if (aiRes && aiRes.response) {
+            return aiRes.response.trim();
           }
-        });
-      } else {
-        const aiRes = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
-          messages: messages,
-          max_tokens: 2500,
-          temperature: 0.25
-        });
-        if (aiRes && aiRes.response) {
-          return aiRes.response.trim();
         }
+      } catch (e) {
+        console.warn(`Workers AI model ${cfModel} failed:`, e);
       }
-    } catch (e) {
-      console.warn("Workers AI chat failed, attempting Hugging Face fallback:", e);
     }
   }
 
@@ -657,6 +665,33 @@ _Or send ANY question directly to query the RAG database!_`;
       const cleanMsg = message.trim();
       if (cleanMsg.toLowerCase() === "ping") {
         return new Response(JSON.stringify({ reply: "Pong. Ready to breach your queries." }), {
+          headers: { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" }
+        });
+      }
+
+      if (cleanMsg.toLowerCase() === "debug-ai") {
+        let embedStatus = "not run", chatStatus = "not run";
+        try {
+          if (!env.AI) {
+            embedStatus = "env.AI is undefined";
+          } else {
+            const eRes = await env.AI.run("@cf/baai/bge-small-en-v1.5", { text: ["cybersecurity"] });
+            embedStatus = eRes ? `ok (shape: ${JSON.stringify(eRes.shape)})` : "empty response";
+          }
+        } catch (e) {
+          embedStatus = `error: ${e.message}`;
+        }
+        try {
+          if (!env.AI) {
+            chatStatus = "env.AI is undefined";
+          } else {
+            const cRes = await env.AI.run("@cf/meta/llama-3.2-3b-instruct", { prompt: "Say hello in 5 words" });
+            chatStatus = cRes ? `ok (response: ${cRes.response})` : "empty response";
+          }
+        } catch (e) {
+          chatStatus = `error: ${e.message}`;
+        }
+        return new Response(JSON.stringify({ embedStatus, chatStatus, hasTelegramToken: Boolean(env.TELEGRAM_BOT_TOKEN) }), {
           headers: { "Access-Control-Allow-Origin": "*", "Content-Type": "application/json" }
         });
       }
