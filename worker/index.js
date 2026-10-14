@@ -481,7 +481,7 @@ export default {
           return new Response(JSON.stringify({ ok: true }), { status: 200 });
         }
 
-        const botToken = env.TELEGRAM_BOT_TOKEN || "8830406849:AAF5vunUjZULM7Lr3eGiweODP0s4l7_ExG0";
+        const botToken = env.TELEGRAM_BOT_TOKEN;
         if (!botToken) {
           return new Response(JSON.stringify({ error: "Missing TELEGRAM_BOT_TOKEN" }), { status: 500 });
         }
