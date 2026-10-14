@@ -207,6 +207,7 @@
     font-size: 16px;
     line-height: 1.4;
     word-wrap: break-word;
+    overflow-wrap: anywhere;
     border: 2px solid;
     border-radius: 2px;
 }
@@ -472,6 +473,7 @@
     text-decoration: underline;
     font-weight: bold;
     word-break: break-word;
+    overflow-wrap: anywhere;
     transition: color 0.15s ease;
 }
 

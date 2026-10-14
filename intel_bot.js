@@ -185,11 +185,20 @@
         function parseMarkdown(text) {
             if (!text) return '';
             
-            // 0. Normalize broken markdown links and nested bracket headlines
-            // e.g. [[Tag] Title](url) -> [Tag: Title](url)
-            text = text.replace(/\[\[([^\]]+)\]\s*([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
-            // e.g. [Tag] Title](url) -> [Tag: Title](url)
-            text = text.replace(/\[([^\]\n]+)\]\s*([^\]\n]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
+            // 0. Cut off severe repetition loops (e.g. 5+ repeats of identical token/word sequences like "gationgation" or "aW9uZ2F0")
+            text = text.replace(/(.{4,35}?)\1{5,}/gs, '$1');
+
+            // Normalize broken markdown links where [Title] and (URL) have whitespace or newlines between them
+            // e.g. [Title]\n(url) -> [Title](url)
+            text = text.replace(/\[([^\]\r\n]+)\][\s\r\n]+(\((?:https?:\/\/|mailto:)[^\s)]+\))/g, '[$1]$2');
+
+            // Clean up any Google News base64 tracking redirect URLs into clean DigiFeed URLs
+            text = text.replace(/https:\/\/news\.google\.com\/rss\/articles\/[A-Za-z0-9_\-\+]+(?:\?[^\s\)]+)?/g, 'https://jeraldbenny.github.io/digifeed/');
+
+            // Normalize nested bracket headlines: [[Tag] Title](url) -> [Tag: Title](url)
+            text = text.replace(/\[\[([^\]]+)\]\s*([^\]]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
+            // [Tag] Title](url) -> [Tag: Title](url)
+            text = text.replace(/\[([^\]\n]+)\]\s*([^\]\n]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '[$1: $2]($3)');
 
             // 1. Escape HTML entities
             let html = text
@@ -217,11 +226,14 @@
             html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
             html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
-            // 5. Links (http/https and mailto) - Embedded in Title
-            html = html.replace(/\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+            // 5. Links (http/https and mailto) - Embedded in Title (allowing optional whitespace between ] and ()
+            html = html.replace(/\[([^\]]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
 
-            // Fallback: If any stray ](http...) exists after a bullet dash, turn preceding text into a link
-            html = html.replace(/—\s*([^<\n]+)\]\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '— <a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+            // Fallback 1: If any stray ](http...) exists after a bullet dash, turn preceding text into a link
+            html = html.replace(/—\s*([^<\n]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, '— <a href="$2" target="_blank" rel="noopener noreferrer">$1</a>');
+
+            // Fallback 2: Any orphaned (https://...) in parentheses turned into a clean clickable link
+            html = html.replace(/\(((?:https?:\/\/)[^\s)]+)\)/g, '(<a href="$1" target="_blank" rel="noopener noreferrer">Source Link</a>)');
 
             // 6. Bullet lists
             // Normalize bullets: ensure bullets start on a newline even if squished against prior text
@@ -401,7 +413,7 @@
                             let reply = `📡 **DIGIFEED ${categoryHeader}**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
                             topArticles.forEach(a => {
                                 const cleanTitle = (a.title || "Headline").replace(/^\[[^\]]+\]\s*/, "");
-                                const link = a.link || "https://jeraldbenny.github.io/digifeed/";
+                                const link = (a.link && !a.link.includes("news.google.com/rss/articles/")) ? a.link : "https://jeraldbenny.github.io/digifeed/";
                                 const date = (a.published_fmt || "Recent").replace(/20(\d\d)/g, "$1");
                                 const desc = (a.plain_summary || "").slice(0, 190);
                                 reply += `• **${date}** — [${cleanTitle}](${link}): ${desc}\n\n`;
@@ -446,7 +458,7 @@
                                     if (dataStr === '[DONE]') continue;
                                     try {
                                         const parsed = JSON.parse(dataStr);
-                                        const token = parsed.choices?.[0]?.delta?.content || "";
+                                        const token = parsed.response || parsed.choices?.[0]?.delta?.content || "";
                                         accumulated += token;
                                         msgDiv.innerHTML = parseMarkdown(accumulated);
                                         historyArea.scrollTop = historyArea.scrollHeight;
@@ -461,7 +473,7 @@
                         if (dataStr !== '[DONE]') {
                             try {
                                 const parsed = JSON.parse(dataStr);
-                                const token = parsed.choices?.[0]?.delta?.content || "";
+                                const token = parsed.response || parsed.choices?.[0]?.delta?.content || "";
                                 accumulated += token;
                             } catch (e) {}
                         }

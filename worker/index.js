@@ -41,6 +41,30 @@ async function sendTelegram(botToken, chatId, text) {
   } catch (e) {}
 }
 
+// Helper: clean and shorten URLs before giving to LLM to prevent base64 token loops
+function cleanArticleUrl(url) {
+  if (!url || typeof url !== "string") return "https://jeraldbenny.github.io/digifeed/";
+  if (url.includes("news.google.com/rss/articles/")) {
+    return "https://jeraldbenny.github.io/digifeed/";
+  }
+  return url;
+}
+
+// Helper: post-process and sanitize bot replies to ensure 100% hyperlink integrity
+function sanitizeBotReply(text) {
+  if (!text) return "";
+  // 1. Cut off severe repetition loops (e.g. 5+ repeats of identical token/word sequence)
+  text = text.replace(/(.{4,35}?)\1{5,}/gs, "$1");
+  // 2. Fix broken markdown links where [Title] and (URL) are separated by spaces or newlines
+  text = text.replace(/\[([^\]\r\n]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, "[$1]($2)");
+  // 3. Fix nested brackets [[Tag] Title](URL) -> [Tag: Title](URL)
+  text = text.replace(/\[\[([^\]]+)\]\s*([^\]]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, "[$1: $2]($3)");
+  text = text.replace(/\[([^\]\n]+)\]\s*([^\]\n]+)\][\s\r\n]*\(((?:https?:\/\/|mailto:)[^\s)]+)\)/g, "[$1: $2]($3)");
+  // 4. Sanitize any remaining Google News base64 tracking redirect URLs into clean DigiFeed URLs
+  text = text.replace(/https:\/\/news\.google\.com\/rss\/articles\/[A-Za-z0-9_\-\+]+(?:\?[^\s\)]+)?/g, "https://jeraldbenny.github.io/digifeed/");
+  return text.trim();
+}
+
 // Helper: edge-cached JSON fetch with 5-minute TTL
 async function fetchCachedJson(url, ctx, ttl = 300) {
   try {
@@ -210,7 +234,7 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
                 let date = m.metadata.date || "Recent";
                 date = date.replace(/20(\d\d)/g, "$1");
                 const category = m.metadata.category || m.metadata.category_tag || "General";
-                const link = m.metadata.link || "https://jeraldbenny.github.io/digifeed/";
+                const link = cleanArticleUrl(m.metadata.link);
                 const content = m.metadata.content || m.metadata.plain_summary || "";
                 contextArticles.push(`[ARTICLE ${i + 1}: ${title}]
 - Published Date: ${date}
@@ -325,7 +349,7 @@ ${content}`);
       aTitle = aTitle.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
       aTitle = aTitle.replace(/^\[([^\]]+)\]\s*/, "$1: ");
       aTitle = aTitle.replace(/[\[\]]/g, "");
-      const aLink = a.link || "https://jeraldbenny.github.io/digifeed/";
+      const aLink = cleanArticleUrl(a.link);
       let aDate = a.published_fmt || todayUTCShort;
       aDate = aDate.replace(/20(\d\d)/g, "$1");
       const aSummary = a.plain_summary || a.deep_lore || "";
@@ -362,6 +386,9 @@ ${liveStatusInfo}
 MANDATORY CITATION & FORMATTING RULES:
 1. CITATION & HYPERLINK INTEGRITY (CRITICAL):
    - For ANY and EVERY news item, vulnerability, tool release, research paper, or security alert: NEVER display the raw URL as text. The link MUST be embedded directly in the headline title: [Headline Name](URL).
+   - STRICT SYNTAX: [Headline](URL) with NO space and NO newline between ']' and '('. The '(' MUST touch ']'.
+   - NEVER write [Headline] (URL) or [Headline]
+(URL). Keep [Headline](URL) strictly together on the same line.
    - When clicked, the headline title must redirect directly to the article URL.
    - NEVER put square brackets inside the headline title. Write [Research Paper: Title](URL) or [Title](URL), NEVER [[Tag] Title](URL) or [Tag] Title](URL).
    - Do NOT write a separate "(Source: ...)" or "(Reference: ...)" at the end. The link MUST be on the headline itself.
@@ -444,7 +471,7 @@ ${contextText || "No matching articles found in index."}
             temperature: 0.25
           });
           if (aiRes && aiRes.response) {
-            return aiRes.response.trim();
+            return sanitizeBotReply(aiRes.response);
           }
         }
       } catch (e) {
@@ -479,7 +506,7 @@ ${contextText || "No matching articles found in index."}
           }
           const chatData = await chatRes.json();
           if (chatData.choices && chatData.choices[0] && chatData.choices[0].message) {
-            return chatData.choices[0].message.content.trim();
+            return sanitizeBotReply(chatData.choices[0].message.content);
           }
         }
       } catch (e) {
@@ -490,7 +517,8 @@ ${contextText || "No matching articles found in index."}
 
   // Tier 3: Zero-Crash Resilient Intelligence Fallback
   // If external AI inference is out of credits or unreachable, provide verified live intelligence
-  const fallbackText = generateSmartFallback(cleanMsg, history, contextArticles, todayUTCStr, todayUTCShort, targetCategory, targetCount, candidateArticles);
+  const rawFallback = generateSmartFallback(cleanMsg, history, contextArticles, todayUTCStr, todayUTCShort, targetCategory, targetCount, candidateArticles);
+  const fallbackText = sanitizeBotReply(rawFallback);
 
   if (wantStream) {
     const encoder = new TextEncoder();
@@ -548,7 +576,7 @@ function generateSmartFallback(cleanMsg, history, contextArticles, todayUTCStr, 
       title = title.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
       title = title.replace(/^\[([^\]]+)\]\s*/, "$1: ");
       title = title.replace(/[\[\]]/g, "");
-      const link = a.link || "https://jeraldbenny.github.io/digifeed/";
+      const link = cleanArticleUrl(a.link);
       const date = (a.published_fmt || todayUTCShort).replace(/20(\d\d)/g, "$1");
       const summary = a.plain_summary || a.deep_lore || "";
       return `• **${date}** — [${title}](${link}): ${summary.slice(0, 240)}`;
@@ -639,7 +667,7 @@ _Or send ANY question directly to query the RAG database!_`;
 
         // Generate response via DigiBot pipeline
         const reply = await generateIntelligence(queryMsg, [], env, ctx, false);
-        await sendTelegram(botToken, chatId, reply);
+        await sendTelegram(botToken, chatId, sanitizeBotReply(reply));
 
         return new Response(JSON.stringify({ ok: true }), { status: 200 });
       } catch (err) {
