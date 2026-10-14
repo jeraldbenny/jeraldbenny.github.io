@@ -1,29 +1,29 @@
 {
   "sources_checked": 80,
-  "new_articles": 37,
+  "new_articles": 50,
   "critical_cves": 1,
-  "known_exploited": 0,
-  "new_tool_releases": 1,
-  "threat_reports": 11,
-  "top_story": "Researchers escape OpenAI Codex sandbox to run commands on host",
-  "top_story_link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+  "known_exploited": 2,
+  "new_tool_releases": 4,
+  "threat_reports": 10,
+  "top_story": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
+  "top_story_link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/",
   "trending_topics": [
     "Botnet",
     "Arxiv",
-    "Vshell"
+    "CVE-2026-96951"
   ],
   "recommended_reads": [
     {
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
+      "title": "The Noise Inside the Network: How an Unsophisticated Attack Exposed a Third-Party Risk",
+      "link": "https://unit42.paloaltonetworks.com/noise-inside-network-third-party-risk/"
     },
     {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html"
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html"
     },
     {
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/"
+      "title": "InfoSec News Nuggets – 10/13/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-10-13-2026/"
     }
   ]
 }
