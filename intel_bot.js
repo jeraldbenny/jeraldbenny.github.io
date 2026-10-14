@@ -324,45 +324,86 @@
                 removeTyping();
                 
                 if (!response.ok) {
-                    console.warn("API bridge error, engaging client-side intelligence fallback...");
+                    console.warn("API bridge unavailable, engaging client-side intelligence engine...");
                     try {
-                        const fallbackResp = await fetch("https://jeraldbenny.github.io/digifeed/data.json");
+                        const lower = text.toLowerCase();
+                        
+                        // 1. Cybersecurity Career & Guidance
+                        if (lower.includes("career") || (lower.includes("start") && lower.includes("cyber")) || lower.includes("become") || lower.includes("roadmap") || lower.includes("getting started") || lower.includes("learn cyber")) {
+                            appendMessage(`🎯 **HOW TO START A CAREER IN CYBERSECURITY & FORENSICS**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nA structured roadmap based on modern industry standards:\n\n1. **Core Networking & System Fundamentals**:\n   • Understand TCP/IP, OSI model, subnetting, DNS, and packet analysis with **Wireshark**.\n   • Master Windows Internals (Registry, Event Logs, NTFS) and Linux CLI navigation.\n\n2. **Hands-On Lab Practice & Investigations**:\n   • Practice real-world defense on **TryHackMe** and **Hack The Box**.\n   • Examine forensic artifacts & cryptographic hashes in [DigiLab](https://jeraldbenny.github.io/digilab/).\n   • Investigate 3D WebGL crime scenes & evidence in [DigiPlay](https://jeraldbenny.github.io/digiplay/).\n\n3. **Industry Certifications to Target**:\n   • **Foundation**: ISC2 Certified in Cybersecurity (CC) or CompTIA Security+.\n   • **DFIR & Blue Team**: Blue Team Level 1 (BTL1), CHFI, or GIAC GCIH / GCFA.\n\n4. **Stay Ahead with Live Intelligence**:\n   • Track daily CVEs, malware reports, and forensic case studies on [DigiFeed](https://jeraldbenny.github.io/digifeed/).`, 'bot');
+                            return;
+                        }
+
+                        // 2. Questions about Jerald Benny
+                        if (lower.includes("jerald") || lower.includes("who are you") || lower.includes("creator") || lower.includes("author") || lower.includes("who made")) {
+                            appendMessage(`👤 **Jerald Benny** — Digital Forensics & Cyber Analyst\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n• **Academics**: M.Sc. in Forensic Science (GPA: 8.41/10) · B.Sc. Forensic Science (GPA: 7.86/10)\n• **Certifications**: Certified in Cybersecurity (CC by ISC2), CEFR C1 Advanced English\n• **Recent Publication**: *File Integrity Verifier (FIV): A Cryptographic Hash-Based Approach* in Academic Journal IASR (Oct 2026)\n• **Ecosystem Platforms**:\n  • [DigiFeed](https://jeraldbenny.github.io/digifeed/): Threat intelligence archive tracking DFIR dispatches daily.\n  • [DigiLab](https://jeraldbenny.github.io/digilab/): Browser forensic workstation (multi-hash, EXIF, email triage).\n  • [DigiPlay](https://jeraldbenny.github.io/digiplay/): 3D gamified cyber forensics investigation arena.`, 'bot');
+                            return;
+                        }
+
+                        // 3. Platform Links (DigiLab / DigiPlay / DigiFeed)
+                        if (lower.includes("digilab")) {
+                            appendMessage(`🔬 **DigiLab Workstation**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nClient-side forensics suite featuring multi-hash cryptographic verification (MD5, SHA-1, SHA-256, SHA-512), EXIF metadata extraction, email header analyzer, and network OSINT.\n👉 [Launch DigiLab](https://jeraldbenny.github.io/digilab/)`, 'bot');
+                            return;
+                        }
+                        if (lower.includes("digiplay")) {
+                            appendMessage(`🎮 **DigiPlay 3D Forensics Arena**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nInteractive WebGL 3D cyber forensics investigation arena with 3D crime scene evidence examination, cyber forensic quiz battles, and puzzle CTF challenges.\n👉 [Launch DigiPlay](https://jeraldbenny.github.io/digiplay/)`, 'bot');
+                            return;
+                        }
+
+                        // 4. Intelligence & News Search via local data.json
+                        const jsonPath = window.location.pathname.includes('/digifeed') ? 'data.json' : '/digifeed/data.json';
+                        const fallbackResp = await fetch(jsonPath);
                         if (fallbackResp.ok) {
                             const fData = await fallbackResp.json();
                             const articles = fData.articles || [];
-                            const lower = text.toLowerCase();
-                            
-                            if (lower.includes("jerald") || lower.includes("who are you") || lower.includes("creator") || lower.includes("author") || lower.includes("who made")) {
-                                appendMessage(`👤 **Jerald Benny** — Digital Forensics & Cyber Analyst\n• **Academics**: M.Sc. in Forensic Science (GPA: 8.41/10) · B.Sc. Forensic Science (GPA: 7.86/10)\n• **Certifications**: Certified in Cybersecurity (CC by ISC2), CEFR C1 Advanced English\n• **Recent Publication**: *File Integrity Verifier (FIV)* in Academic Journal IASR (Oct 2026)\n• **Ecosystem**: Creator of [DigiFeed](https://jeraldbenny.github.io/digifeed/), [DigiLab](https://jeraldbenny.github.io/digilab/), and [DigiPlay](https://jeraldbenny.github.io/digiplay/).`, 'bot');
-                                return;
-                            }
-                            if (lower.includes("digilab")) {
-                                appendMessage(`🔬 **DigiLab Workstation**\nClient-side forensics suite featuring multi-hash cryptographic verification (MD5, SHA-1, SHA-256, SHA-512), EXIF metadata extraction, email header analyzer, and network OSINT. [Launch DigiLab](https://jeraldbenny.github.io/digilab/)`, 'bot');
-                                return;
-                            }
-                            if (lower.includes("digiplay")) {
-                                appendMessage(`🎮 **DigiPlay 3D Forensics Arena**\nInteractive WebGL 3D cyber forensics investigation arena with 3D crime scene evidence examination, cyber forensic quiz battles, and puzzle CTF challenges. [Launch DigiPlay](https://jeraldbenny.github.io/digiplay/)`, 'bot');
-                                return;
+
+                            // Parse requested count (e.g. "top 10", "5 items")
+                            const countMatch = lower.match(/(?:top|show|give me|list|latest|get)\s+(\d+)/i) || lower.match(/(\d+)\s+(?:items|articles|stories|news|dfir|cves)/i);
+                            const requestedCount = countMatch && countMatch[1] ? Math.min(Math.max(parseInt(countMatch[1], 10), 1), 15) : 6;
+
+                            let matches = articles;
+                            let categoryHeader = "VERIFIED DISPATCHES";
+
+                            if (lower.includes("dfir") || lower.includes("digital forensic")) {
+                                matches = articles.filter(a => (a.category_tag || "").toLowerCase().includes("dfir") || (a.title || "").toLowerCase().includes("dfir") || (a.title || "").toLowerCase().includes("forensic"));
+                                categoryHeader = "DFIR & DIGITAL FORENSICS";
+                            } else if (lower.includes("malware") || lower.includes("ransomware")) {
+                                matches = articles.filter(a => (a.category_tag || "").toLowerCase().includes("malware") || (a.title || "").toLowerCase().includes("malware") || (a.title || "").toLowerCase().includes("ransomware"));
+                                categoryHeader = "MALWARE INTELLIGENCE";
+                            } else if (lower.includes("cve") || lower.includes("vulnerab") || lower.includes("flaw")) {
+                                matches = articles.filter(a => (a.category_tag || "").toLowerCase().includes("cve") || (a.title || "").toLowerCase().includes("cve") || (a.title || "").toLowerCase().includes("vulnerab"));
+                                categoryHeader = "CVE & VULNERABILITIES";
+                            } else if (lower.includes("paper") || lower.includes("research") || lower.includes("journal")) {
+                                matches = articles.filter(a => (a.category_tag || "").toLowerCase().includes("research") || (a.title || "").toLowerCase().includes("paper") || (a.title || "").toLowerCase().includes("arxiv"));
+                                categoryHeader = "RESEARCH PAPERS";
+                            } else if (lower.includes("tool") || lower.includes("release")) {
+                                matches = articles.filter(a => (a.category_tag || "").toLowerCase().includes("release") || (a.category_tag || "").toLowerCase().includes("tool"));
+                                categoryHeader = "SECURITY TOOLS & RELEASES";
+                            } else {
+                                // Keyword search
+                                const terms = lower.replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(w => w.length > 3 && !["what", "when", "where", "which", "about", "today", "news", "show", "give"].includes(w));
+                                if (terms.length > 0) {
+                                    const scored = articles.map(a => {
+                                        const text = ((a.title || "") + " " + (a.plain_summary || "")).toLowerCase();
+                                        const score = terms.reduce((acc, t) => acc + (text.includes(t) ? 1 : 0), 0);
+                                        return { article: a, score };
+                                    }).filter(s => s.score > 0);
+                                    if (scored.length > 0) {
+                                        scored.sort((a, b) => b.score - a.score);
+                                        matches = scored.map(s => s.article);
+                                    }
+                                }
                             }
 
-                            // Filter or search articles
-                            let matches = articles;
-                            if (lower.includes("dfir") || lower.includes("forensic")) {
-                                matches = articles.filter(a => (a.category_tag || "").includes("DFIR") || (a.category_tag || "").includes("Forensic"));
-                            } else if (lower.includes("malware") || lower.includes("ransomware")) {
-                                matches = articles.filter(a => (a.category_tag || "").includes("Malware"));
-                            } else if (lower.includes("cve") || lower.includes("vulnerab")) {
-                                matches = articles.filter(a => (a.category_tag || "").includes("CVE"));
-                            }
                             if (!matches || matches.length === 0) matches = articles;
 
-                            const topArticles = matches.slice(0, 5);
-                            let reply = `📡 **DigiFeed Verified Dispatches**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+                            const topArticles = matches.slice(0, requestedCount);
+                            let reply = `📡 **DIGIFEED ${categoryHeader}**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
                             topArticles.forEach(a => {
                                 const cleanTitle = (a.title || "Headline").replace(/^\[[^\]]+\]\s*/, "");
                                 const link = a.link || "https://jeraldbenny.github.io/digifeed/";
                                 const date = (a.published_fmt || "Recent").replace(/20(\d\d)/g, "$1");
-                                const desc = (a.plain_summary || "").slice(0, 180);
+                                const desc = (a.plain_summary || "").slice(0, 190);
                                 reply += `• **${date}** — [${cleanTitle}](${link}): ${desc}\n\n`;
                             });
                             appendMessage(reply.trim(), 'bot');
@@ -372,7 +413,7 @@
                         console.warn("Client fallback failed:", fbErr);
                     }
 
-                    appendMessage(`📡 **DigiBot Terminal**: The intelligence pipeline is synchronizing live dispatches. You can browse all verified updates in [DigiFeed](https://jeraldbenny.github.io/digifeed/) or test artifacts in [DigiLab](https://jeraldbenny.github.io/digilab/).`, 'bot');
+                    appendMessage(`📡 **DigiBot Terminal**: Verified dispatches are available directly in [DigiFeed](https://jeraldbenny.github.io/digifeed/). You can also test digital artifacts in [DigiLab](https://jeraldbenny.github.io/digilab/).`, 'bot');
                     return;
                 }
 
