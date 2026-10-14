@@ -324,15 +324,55 @@
                 removeTyping();
                 
                 if (!response.ok) {
-                    const errTextRaw = await response.text();
-                    let errText = "API bridge disconnected.";
+                    console.warn("API bridge error, engaging client-side intelligence fallback...");
                     try {
-                        const errData = JSON.parse(errTextRaw);
-                        errText = errData.error || response.statusText;
-                    } catch (e) {
-                        errText = errTextRaw || response.statusText || "Unknown API Error";
+                        const fallbackResp = await fetch("https://jeraldbenny.github.io/digifeed/data.json");
+                        if (fallbackResp.ok) {
+                            const fData = await fallbackResp.json();
+                            const articles = fData.articles || [];
+                            const lower = text.toLowerCase();
+                            
+                            if (lower.includes("jerald") || lower.includes("who are you") || lower.includes("creator") || lower.includes("author") || lower.includes("who made")) {
+                                appendMessage(`👤 **Jerald Benny** — Digital Forensics & Cyber Analyst\n• **Academics**: M.Sc. in Forensic Science (GPA: 8.41/10) · B.Sc. Forensic Science (GPA: 7.86/10)\n• **Certifications**: Certified in Cybersecurity (CC by ISC2), CEFR C1 Advanced English\n• **Recent Publication**: *File Integrity Verifier (FIV)* in Academic Journal IASR (Oct 2026)\n• **Ecosystem**: Creator of [DigiFeed](https://jeraldbenny.github.io/digifeed/), [DigiLab](https://jeraldbenny.github.io/digilab/), and [DigiPlay](https://jeraldbenny.github.io/digiplay/).`, 'bot');
+                                return;
+                            }
+                            if (lower.includes("digilab")) {
+                                appendMessage(`🔬 **DigiLab Workstation**\nClient-side forensics suite featuring multi-hash cryptographic verification (MD5, SHA-1, SHA-256, SHA-512), EXIF metadata extraction, email header analyzer, and network OSINT. [Launch DigiLab](https://jeraldbenny.github.io/digilab/)`, 'bot');
+                                return;
+                            }
+                            if (lower.includes("digiplay")) {
+                                appendMessage(`🎮 **DigiPlay 3D Forensics Arena**\nInteractive WebGL 3D cyber forensics investigation arena with 3D crime scene evidence examination, cyber forensic quiz battles, and puzzle CTF challenges. [Launch DigiPlay](https://jeraldbenny.github.io/digiplay/)`, 'bot');
+                                return;
+                            }
+
+                            // Filter or search articles
+                            let matches = articles;
+                            if (lower.includes("dfir") || lower.includes("forensic")) {
+                                matches = articles.filter(a => (a.category_tag || "").includes("DFIR") || (a.category_tag || "").includes("Forensic"));
+                            } else if (lower.includes("malware") || lower.includes("ransomware")) {
+                                matches = articles.filter(a => (a.category_tag || "").includes("Malware"));
+                            } else if (lower.includes("cve") || lower.includes("vulnerab")) {
+                                matches = articles.filter(a => (a.category_tag || "").includes("CVE"));
+                            }
+                            if (!matches || matches.length === 0) matches = articles;
+
+                            const topArticles = matches.slice(0, 5);
+                            let reply = `📡 **DigiFeed Verified Dispatches**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+                            topArticles.forEach(a => {
+                                const cleanTitle = (a.title || "Headline").replace(/^\[[^\]]+\]\s*/, "");
+                                const link = a.link || "https://jeraldbenny.github.io/digifeed/";
+                                const date = (a.published_fmt || "Recent").replace(/20(\d\d)/g, "$1");
+                                const desc = (a.plain_summary || "").slice(0, 180);
+                                reply += `• **${date}** — [${cleanTitle}](${link}): ${desc}\n\n`;
+                            });
+                            appendMessage(reply.trim(), 'bot');
+                            return;
+                        }
+                    } catch (fbErr) {
+                        console.warn("Client fallback failed:", fbErr);
                     }
-                    appendMessage(`[SYSTEM ERROR] ${errText}`, 'system');
+
+                    appendMessage(`📡 **DigiBot Terminal**: The intelligence pipeline is synchronizing live dispatches. You can browse all verified updates in [DigiFeed](https://jeraldbenny.github.io/digifeed/) or test artifacts in [DigiLab](https://jeraldbenny.github.io/digilab/).`, 'bot');
                     return;
                 }
 

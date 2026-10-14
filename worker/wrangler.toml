@@ -2,6 +2,9 @@ name = "jb-intel-bot-api"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
+[ai]
+binding = "AI"
+
 [vars]
 TELEGRAM_CHAT_ID = "629509562"
 

@@ -132,7 +132,7 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
     topicKeywords = ["paper", "research", "arxiv", "journal", "study"];
   }
 
-  // 2. Query Embedding via Hugging Face BAAI/bge-small-en-v1.5
+  // 2. Query Embedding via Cloudflare Workers AI or Hugging Face
   let embedText = cleanMsg;
   if (Array.isArray(history) && history.length > 0) {
     const lastUserTurn = [...history].reverse().find(h => h && (h.role === "user" || !h.role));
@@ -141,71 +141,91 @@ async function generateIntelligence(cleanMsg, history, env, ctx, wantStream = fa
     }
   }
 
-  const hfEmbedUrl = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5";
-  let embedRes = await fetch(hfEmbedUrl, {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${env.HF_TOKEN}`,
-      "Content-Type": "application/json",
-      "x-use-pipeline": "feature-extraction"
-    },
-    body: JSON.stringify({ inputs: embedText })
-  });
-  
-  if (!embedRes.ok) {
-    const errText = await embedRes.text();
-    throw new Error(`Embedding API Error ${embedRes.status}: ${errText}`);
-  }
-  const embedding = await embedRes.json();
-
-  // 3. Query Pinecone Vector DB
-  const pcHost = await getPineconeHost(env);
-  if (!pcHost || !env.PINECONE_API_KEY) {
-    throw new Error(`Missing Pinecone host configuration.`);
-  }
-
-  const pineconeTopK = Math.min(Math.max(targetCount, 5), 12);
-  let pcRes = await fetch(`https://${pcHost}/query`, {
-    method: "POST",
-    headers: {
-      "Api-Key": env.PINECONE_API_KEY,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      vector: embedding,
-      topK: pineconeTopK,
-      includeMetadata: true
-    })
-  });
-
-  if (!pcRes.ok) {
-    const errText = await pcRes.text();
-    throw new Error(`Pinecone API Error ${pcRes.status}: ${errText}`);
-  }
-  const pcData = await pcRes.json();
-
   let contextArticles = [];
-  if (pcData.matches && pcData.matches.length > 0) {
-    for (let i = 0; i < pcData.matches.length; i++) {
-      const m = pcData.matches[i];
-      if (m.metadata && (m.metadata.content || m.metadata.plain_summary)) {
-        let title = m.metadata.title || "Untitled Intelligence";
-        title = title.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
-        title = title.replace(/^\[([^\]]+)\]\s*/, "$1: ");
-        title = title.replace(/[\[\]]/g, "");
-        let date = m.metadata.date || "Recent";
-        date = date.replace(/20(\d\d)/g, "$1");
-        const category = m.metadata.category || m.metadata.category_tag || "General";
-        const link = m.metadata.link || "https://jeraldbenny.github.io/digifeed/";
-        const content = m.metadata.content || m.metadata.plain_summary || "";
-        contextArticles.push(`[ARTICLE ${i + 1}: ${title}]
+
+  try {
+    let embedding = null;
+
+    // Check Cloudflare Workers AI first
+    if (env.AI && typeof env.AI.run === "function") {
+      try {
+        const aiEmbedRes = await env.AI.run("@cf/baai/bge-small-en-v1.5", { text: [embedText] });
+        if (aiEmbedRes && aiEmbedRes.data && aiEmbedRes.data[0]) {
+          embedding = aiEmbedRes.data[0];
+        }
+      } catch (e) {
+        console.warn("Workers AI embedding error:", e);
+      }
+    }
+
+    // Fallback to Hugging Face
+    if (!embedding && env.HF_TOKEN) {
+      try {
+        const hfEmbedUrl = "https://router.huggingface.co/hf-inference/models/BAAI/bge-small-en-v1.5";
+        const embedRes = await fetch(hfEmbedUrl, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${env.HF_TOKEN}`,
+            "Content-Type": "application/json",
+            "x-use-pipeline": "feature-extraction"
+          },
+          body: JSON.stringify({ inputs: embedText })
+        });
+        if (embedRes.ok) {
+          embedding = await embedRes.json();
+        }
+      } catch (e) {
+        console.warn("Hugging Face embedding error:", e);
+      }
+    }
+
+    // 3. Query Pinecone Vector DB if embedding is available
+    if (embedding && Array.isArray(embedding)) {
+      const pcHost = await getPineconeHost(env);
+      if (pcHost && env.PINECONE_API_KEY) {
+        const pineconeTopK = Math.min(Math.max(targetCount, 5), 12);
+        const pcRes = await fetch(`https://${pcHost}/query`, {
+          method: "POST",
+          headers: {
+            "Api-Key": env.PINECONE_API_KEY,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            vector: embedding,
+            topK: pineconeTopK,
+            includeMetadata: true
+          })
+        });
+
+        if (pcRes.ok) {
+          const pcData = await pcRes.json();
+          if (pcData.matches && pcData.matches.length > 0) {
+            for (let i = 0; i < pcData.matches.length; i++) {
+              const m = pcData.matches[i];
+              if (m.metadata && (m.metadata.content || m.metadata.plain_summary)) {
+                let title = m.metadata.title || "Untitled Intelligence";
+                title = title.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
+                title = title.replace(/^\[([^\]]+)\]\s*/, "$1: ");
+                title = title.replace(/[\[\]]/g, "");
+                let date = m.metadata.date || "Recent";
+                date = date.replace(/20(\d\d)/g, "$1");
+                const category = m.metadata.category || m.metadata.category_tag || "General";
+                const link = m.metadata.link || "https://jeraldbenny.github.io/digifeed/";
+                const content = m.metadata.content || m.metadata.plain_summary || "";
+                contextArticles.push(`[ARTICLE ${i + 1}: ${title}]
 - Published Date: ${date}
 - Category: ${category}
 - Reference URL: ${link}
 - Intelligence Content:
 ${content}`);
+              }
+            }
+          }
+        }
       }
     }
+  } catch (err) {
+    console.warn("Vector search failed, proceeding with direct feed data matching:", err);
   }
 
   // 4. Determine Current Date in UTC & Live System Status
@@ -254,8 +274,9 @@ ${content}`);
 
   // Always fetch feedData from edge cache (0ms overhead)
   const feedData = await fetchCachedJson("https://jeraldbenny.github.io/digifeed/data.json", ctx, 300);
+  let candidateArticles = [];
   if (feedData) {
-    let candidateArticles = feedData.articles || [];
+    candidateArticles = feedData.articles || [];
     if (targetCategory) {
       const catMatches = candidateArticles.filter(a => a.category_tag === targetCategory);
       if (catMatches.length > 0) {
@@ -391,50 +412,144 @@ ${contextText || "No matching articles found in index."}
     messages.push({ role: "user", content: cleanMsg });
   }
 
-  // 6. Multi-Model Fallback Execution
-  const hfChatUrl = "https://router.huggingface.co/v1/chat/completions";
-  let lastError = null;
-
-  for (const model of FALLBACK_MODELS) {
+  // 6. Multi-Tier Language Model & Resilient Fallback Execution
+  // Tier 1: Cloudflare Workers AI (Fast, Free Native Inference, 0 Hugging Face Credits)
+  if (env.AI && typeof env.AI.run === "function") {
     try {
-      const chatRes = await fetch(hfChatUrl, {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${env.HF_TOKEN}`,
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          model: model,
+      if (wantStream) {
+        const stream = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
           messages: messages,
           max_tokens: 2500,
           temperature: 0.25,
-          stream: wantStream
-        })
-      });
-
-      if (!chatRes.ok) {
-        const errText = await chatRes.text();
-        lastError = new Error(`HF Model ${model} returned ${chatRes.status}: ${errText}`);
-        continue; // Try next model
-      }
-
-      if (wantStream) {
-        return chatRes; // Return streaming response object directly
-      }
-
-      const chatData = await chatRes.json();
-      if (chatData.choices && chatData.choices[0] && chatData.choices[0].message) {
-        return chatData.choices[0].message.content.trim();
-      } else if (chatData.error) {
-        lastError = new Error(`Model error: ${JSON.stringify(chatData.error)}`);
-        continue;
+          stream: true
+        });
+        return new Response(stream, {
+          headers: {
+            "Content-Type": "text/event-stream",
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive"
+          }
+        });
+      } else {
+        const aiRes = await env.AI.run("@cf/meta/llama-3.1-8b-instruct", {
+          messages: messages,
+          max_tokens: 2500,
+          temperature: 0.25
+        });
+        if (aiRes && aiRes.response) {
+          return aiRes.response.trim();
+        }
       }
     } catch (e) {
-      lastError = e;
+      console.warn("Workers AI chat failed, attempting Hugging Face fallback:", e);
     }
   }
 
-  throw lastError || new Error("All language model fallbacks failed.");
+  // Tier 2: Hugging Face Serverless Router (if credits/token available)
+  if (env.HF_TOKEN) {
+    const hfChatUrl = "https://router.huggingface.co/v1/chat/completions";
+    for (const model of FALLBACK_MODELS) {
+      try {
+        const chatRes = await fetch(hfChatUrl, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${env.HF_TOKEN}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            model: model,
+            messages: messages,
+            max_tokens: 2500,
+            temperature: 0.25,
+            stream: wantStream
+          })
+        });
+
+        if (chatRes.ok) {
+          if (wantStream) {
+            return chatRes; // Return streaming response object directly
+          }
+          const chatData = await chatRes.json();
+          if (chatData.choices && chatData.choices[0] && chatData.choices[0].message) {
+            return chatData.choices[0].message.content.trim();
+          }
+        }
+      } catch (e) {
+        console.warn(`HF Model ${model} failed:`, e);
+      }
+    }
+  }
+
+  // Tier 3: Zero-Crash Resilient Intelligence Fallback
+  // If external AI inference is out of credits or unreachable, provide verified live intelligence
+  const fallbackText = generateSmartFallback(cleanMsg, history, contextArticles, todayUTCStr, todayUTCShort, targetCategory, targetCount, candidateArticles);
+
+  if (wantStream) {
+    const encoder = new TextEncoder();
+    const stream = new ReadableStream({
+      start(controller) {
+        const payload = JSON.stringify({ choices: [{ delta: { content: fallbackText } }] });
+        controller.enqueue(encoder.encode(`data: ${payload}\n\n`));
+        controller.enqueue(encoder.encode(`data: [DONE]\n\n`));
+        controller.close();
+      }
+    });
+    return new Response(stream, {
+      headers: {
+        "Content-Type": "text/event-stream",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive"
+      }
+    });
+  }
+
+  return fallbackText;
+}
+
+// Resilient Fallback Intelligence Generator
+function generateSmartFallback(cleanMsg, history, contextArticles, todayUTCStr, todayUTCShort, targetCategory, targetCount, candidateArticles) {
+  const lowerMsg = cleanMsg.toLowerCase();
+
+  // 1. System status or date queries
+  if (lowerMsg.includes("date") || lowerMsg.includes("status") || lowerMsg.includes("updated") || lowerMsg.includes("last sync")) {
+    return `🤖 **DIGIBOT SYSTEM STATUS**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n• **Current Date**: ${todayUTCStr} (${todayUTCShort})\n• **Platform Status**: ONLINE / OPERATIONAL\n• **Threat Feed**: Synchronized with DigiFeed Archive\n• **Security Protocol**: Strict UTC Timestamps\n\nDigiBot is operational and connected to the live cyber intelligence repository. What would you like to investigate?`;
+  }
+
+  // 2. Questions about Jerald Benny
+  if (lowerMsg.includes("jerald") || lowerMsg.includes("who are you") || lowerMsg.includes("creator") || lowerMsg.includes("author") || lowerMsg.includes("who made")) {
+    return `👤 **JERALD BENNY** — *Digital Forensics & Cyber Analyst*\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n• **Specialization**: Digital Forensics, DFIR, Volatile Memory & Disk Acquisition, Explainable AI for Deepfake Detection.\n• **Academics**: M.Sc. Forensic Science (GPA: 8.41/10) · B.Sc. Forensic Science (GPA: 7.86/10).\n• **Certifications**: Certified in Cybersecurity (CC by ISC2), CEFR C1 Advanced English.\n• **Recent Publication**: *File Integrity Verifier (FIV): A Cryptographic Hash-Based Approach* in Academic Journal IASR (Oct 2026).\n• **Ecosystem Platforms**:\n  • [DigiFeed](https://jeraldbenny.github.io/digifeed/): Automated threat intelligence & research aggregator.\n  • [DigiLab](https://jeraldbenny.github.io/digilab/): Browser workstation for cryptographic hashing, EXIF forensics, and email headers.\n  • [DigiPlay](https://jeraldbenny.github.io/digiplay/): 3D gamified cyber forensics investigation arena.`;
+  }
+
+  // 3. Questions about DigiLab / DigiPlay / DigiFeed
+  if (lowerMsg.includes("digilab")) {
+    return `🔬 **DIGILAB FORENSIC WORKSTATION**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n[DigiLab](https://jeraldbenny.github.io/digilab/) is a browser-based forensic investigation suite built by Jerald Benny featuring:\n• Multi-hash cryptographic verification (MD5, SHA-1, SHA-256, SHA-512)\n• EXIF metadata extraction & GPS coordinate mapping\n• Email header analyzer for SPF, DKIM, and spoofing detection\n• Network OSINT and threat indicator triaging.`;
+  }
+  if (lowerMsg.includes("digiplay")) {
+    return `🎮 **DIGIPLAY 3D FORENSICS ARENA**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n[DigiPlay](https://jeraldbenny.github.io/digiplay/) is an interactive WebGL 3D forensic investigation arena featuring interactive 3D crime scene examination, cyber forensic quiz battles, and investigative CTF challenges.`;
+  }
+  if (lowerMsg.includes("digifeed")) {
+    return `📡 **DIGIFEED INTELLIGENCE ARCHIVE**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n[DigiFeed](https://jeraldbenny.github.io/digifeed/) is an automated intelligence hub tracking daily DFIR articles, research papers, tool releases, malware intelligence, IOC feeds, and CVEs across verified global cybersecurity sources.`;
+  }
+
+  // 4. Intelligence and News queries
+  const items = Array.isArray(candidateArticles) && candidateArticles.length > 0 ? candidateArticles.slice(0, targetCount || 6) : [];
+  if (items.length > 0) {
+    const catTitle = targetCategory ? targetCategory.toUpperCase() : "VERIFIED LIVE INTELLIGENCE";
+    const formatted = items.map(a => {
+      let title = a.title || "Dispatched Intelligence";
+      title = title.replace(/^\[Research Paper\]\s*/i, "Research Paper: ");
+      title = title.replace(/^\[([^\]]+)\]\s*/, "$1: ");
+      title = title.replace(/[\[\]]/g, "");
+      const link = a.link || "https://jeraldbenny.github.io/digifeed/";
+      const date = (a.published_fmt || todayUTCShort).replace(/20(\d\d)/g, "$1");
+      const summary = a.plain_summary || a.deep_lore || "";
+      return `• **${date}** — [${title}](${link}): ${summary.slice(0, 240)}`;
+    }).join("\n\n");
+
+    return `📡 **${catTitle} DISPATCHES** (${todayUTCStr})\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n${formatted}\n\n*Source: DigiFeed Automated Cyber Intelligence Hub*`;
+  }
+
+  return `🤖 **DIGIBOT CYBER INTELLIGENCE ASSISTANT**\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nOperating Date: **${todayUTCStr}**\n\nI am ready to help you explore Jerald Benny's cyber intelligence platform. You can ask me:\n• **"What are today's top DFIR articles?"**\n• **"Show latest malware reports"**\n• **"Tell me about Jerald Benny's research & publications"**\n• **"What tools are available in DigiLab?"**`;
 }
 
 export default {
