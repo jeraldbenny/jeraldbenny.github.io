@@ -14,6 +14,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <meta name="description" content="Portfolio of Jerald Benny, a Digital Forensics & Cybersecurity professional specializing in malware analysis, OSINT, and incident response.">
 <link rel="canonical" href="https://jeraldbenny.qd.je/" />
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:title" content="Jerald Benny | Digital Forensics & Cybersecurity Analyst">
@@ -69,7 +71,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   },
   "sameAs": [
     "https://github.com/jeraldbenny",
-    "https://www.linkedin.com/in/jerald-benny-8b9a6a36a"
+    "https://www.linkedin.com/in/jerald-benny-8b9a6a36a",
+    "https://www.xournals.com/journal/file-integrity-verifier-fiv-a-cryptographic-hash-based-approach-for-digital-file-integrity-verification"
   ],
   "knowsAbout": [
     "Digital Forensics",
@@ -326,6 +329,267 @@ section{padding:24px 0;}
 .pub-venue{font-size:14px;color:#3cc8c0;margin-bottom:2px;}
 .pub-date{font-family:'Press Start 2P',monospace;font-size:5px;color:#3a4a6a;margin-bottom:8px;}
 
+/* ── SHOWCASE / MULTI-CARD CAROUSEL ── */
+.sc-header-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.sc-subtitle-desc {
+  font-size: 15px;
+  color: #6a7e9e;
+  margin-top: 4px;
+}
+.sc-header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sc-btn-group {
+  display: flex;
+  gap: 6px;
+}
+.sc-ctrl-btn {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6.5px;
+  color: #f5d888;
+  background: linear-gradient(180deg,#9a4820 0%,#6a2808 100%);
+  border: 1px solid #c06030;
+  padding: 6px 11px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.sc-ctrl-btn:hover {
+  filter: brightness(1.25);
+  box-shadow: 0 0 8px rgba(192,96,48,0.5);
+}
+
+/* CAROUSEL VIEWPORT */
+.sc-carousel-outer {
+  position: relative;
+  width: 100%;
+  padding: 10px 0 16px;
+  user-select: none;
+  touch-action: pan-y;
+  background: #080b18;
+  z-index: 10000;
+}
+.sc-viewport {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 14px 0;
+}
+.sc-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.3, 1);
+  will-change: transform;
+}
+
+/* CARDS */
+.sc-card-item {
+  width: 290px;
+  flex: 0 0 290px;
+  min-height: 430px;
+  background: #101524;
+  border: 1.5px solid #23304a;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.35s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  cursor: pointer;
+  position: relative;
+  z-index: 10001;
+  opacity: 0.42;
+  filter: brightness(0.7);
+}
+.sc-card-item.active {
+  background: #172033;
+  border-color: #f0c040;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.7), 0 0 16px rgba(240,192,64,0.3);
+  transform: translateY(-4px);
+  opacity: 1 !important;
+  filter: none !important;
+}
+.sc-card-item:hover {
+  opacity: 0.85;
+  filter: brightness(0.95);
+  border-color: #3cc8c0;
+  transform: translateY(-3px);
+}
+.sc-card-item.active:hover {
+  opacity: 1 !important;
+  filter: none !important;
+  border-color: #ffe080;
+  transform: translateY(-5px);
+}
+
+/* Image container - 100% clean, NO overlay */
+.sc-card-img-wrap {
+  width: 100%;
+  height: 195px;
+  position: relative;
+  overflow: hidden;
+  background: #080b18;
+  cursor: zoom-in;
+  z-index: 10001;
+}
+.sc-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.sc-card-item:hover .sc-card-img {
+  transform: scale(1.02);
+}
+
+/* Card Body */
+.sc-card-body {
+  padding: 16px 16px 18px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.sc-card-meta {
+  font-size: 13px;
+  color: #3cc8c0;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sc-card-title {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7.5px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 10px;
+  min-height: 24px;
+}
+.sc-card-item.active .sc-card-title {
+  color: #f0c040;
+}
+.sc-card-desc {
+  font-size: 14.5px;
+  color: #9ab0cf;
+  line-height: 1.45;
+  margin-bottom: 14px;
+  flex: 1;
+}
+
+/* Digital Forensic Session Button */
+.sc-session-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 6.5px;
+  color: #f0c040;
+  text-decoration: none;
+  padding: 8px 14px;
+  background: rgba(240,192,64,0.1);
+  border: 1px solid rgba(240,192,64,0.35);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+  margin-top: auto;
+}
+.sc-session-link:hover {
+  background: #f0c040;
+  color: #080b18;
+  border-color: #ffe080;
+  box-shadow: 0 0 10px rgba(240,192,64,0.4);
+}
+.sc-card-item.active .sc-session-link {
+  background: rgba(240,192,64,0.18);
+  border-color: #f0c040;
+}
+
+/* Bottom Bar */
+.sc-bottom-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0 8px;
+  gap: 16px;
+}
+.sc-counter-badge {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  color: #f0c040;
+}
+.sc-dots {
+  display: flex;
+  gap: 6px;
+}
+.sc-dot {
+  width: 10px;
+  height: 10px;
+  background: #1c263c;
+  border: 1px solid #364668;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.sc-dot.active {
+  background: #f0c040;
+  border-color: #ffe080;
+  box-shadow: 0 0 6px rgba(240,192,64,0.6);
+}
+
+/* Lightbox Modal */
+.sc-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10001;
+  background: rgba(4, 6, 12, 0.94);
+  backdrop-filter: blur(5px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: zoom-out;
+}
+.sc-lightbox.show {
+  display: flex;
+}
+.sc-lightbox-img {
+  max-width: 95vw;
+  max-height: 92vh;
+  object-fit: contain;
+  box-shadow: 0 0 40px rgba(0,0,0,0.9);
+  border: 2px solid #562711;
+  border-radius: 4px;
+}
+.sc-lightbox-close {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 14px;
+  color: #f0c040;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid #a07820;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
 /* ── CERTS — 2 COLUMNS ALWAYS ── */
 .cert-grid{
   display:grid;
@@ -407,6 +671,7 @@ footer em{color:#f0c040;font-style:normal;}
   .char-grid{grid-template-columns:1fr;}
   .contact-grid{grid-template-columns:1fr;}
   .ach-grid{grid-template-columns:repeat(2,1fr);}
+  .sc-header-row{flex-direction:column;align-items:flex-start;}
   .wrap{padding:0 16px;}
   section{padding:48px 0;}
 }
@@ -418,6 +683,7 @@ footer em{color:#f0c040;font-style:normal;}
   .ach-grid{grid-template-columns:repeat(2,1fr);}
   .proj-grid{grid-template-columns:1fr;}
   .skill-grid{grid-template-columns:1fr;}
+  .sc-card-item{width:260px;flex:0 0 260px;}
   .hero-btns{gap:6px;}
 }
 
@@ -497,6 +763,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="#skills">EXPERTISE</a></li>
       <li><a href="#projects">PROJECTS</a></li>
       <li><a href="#pubs">PUBLICATIONS</a></li>
+      <li><a href="#showcase">SHOWCASE</a></li>
       <li><a href="#certs">CERTIFICATIONS</a></li>
       <li><a href="#achievements">ACHIEVEMENTS</a></li>
       <li><a href="#contact">CONTACT</a></li>
@@ -520,6 +787,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#skills" onclick="closeMob()">▶ EXPERTISE</a>
   <a href="#projects" onclick="closeMob()">▶ PROJECTS</a>
   <a href="#pubs" onclick="closeMob()">▶ PUBLICATIONS</a>
+  <a href="#showcase" onclick="closeMob()">▶ SHOWCASE</a>
   <a href="#certs" onclick="closeMob()">▶ CERTIFICATIONS</a>
   <a href="#achievements" onclick="closeMob()">▶ ACHIEVEMENTS</a>
   <a href="#contact" onclick="closeMob()">▶ CONTACT</a>
@@ -599,7 +867,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="kv"><span class="kv-k">B.SC. GPA</span><span class="kv-v gold">7.86 / 10.0</span></div>
       <div class="kv"><span class="kv-k">STATUS</span><span class="kv-v green">● ACTIVE</span></div>
       <div class="kv"><span class="kv-k">ENGLISH</span><span class="kv-v">CEFR C1 · Advanced</span></div>
-      <div class="kv"><span class="kv-k">PUBS</span><span class="kv-v gold">4 Entries</span></div>
+      <div class="kv"><span class="kv-k">PUBS</span><span class="kv-v gold">5 Entries</span></div>
     </div>
     <div class="panel">
       <div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div>
@@ -650,7 +918,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h2 class="sec-hd">PROJECTS <span class="sec-sub">· Field Missions</span></h2>
   <div class="proj-grid">
     <div class="proj-card reveal"><div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div><div class="proj-ico">🔬</div><p class="proj-name">GENDER IN EVERY RIDGE</p><p class="proj-type">▸ M.SC. DISSERTATION · ML + DEEP LEARNING</p><p class="proj-desc">AI-powered fingerprint gender classification using Machine Learning and Deep Learning. Explored pattern-based prediction from fingerprint ridge structures.</p><div class="proj-btns"><span class="wpx-btn wpx-ghost" style="opacity:0.4;cursor:not-allowed;font-size:6px;height:34px;padding:0 12px;">⌨ NO REPO YET</span></div></div>
-    <div class="proj-card reveal"><div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div><div class="proj-ico">🛡️</div><p class="proj-name">FILE INTEGRITY VERIFIER (FIV)</p><p class="proj-type">▸ PYTHON TOOL · DIGITAL FORENSICS</p><p class="proj-desc">Python-based digital forensics tool for multi-hash forensic verification with PDF/TXT reporting and tamper detection capabilities.</p><div class="proj-btns"><a href="https://github.com/jeraldbenny/File_Integrity_Verifier_FIV" target="_blank" rel="noopener" class="wpx-btn wpx-wood" style="font-size:6px;height:34px;padding:0 12px;">⌨ VIEW CODE</a></div></div>
+    <div class="proj-card reveal"><div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div><div class="proj-ico">🛡️</div><p class="proj-name">FILE INTEGRITY VERIFIER (FIV)</p><p class="proj-type">▸ PYTHON TOOL · DIGITAL FORENSICS</p><p class="proj-desc">Python-based digital forensics tool for multi-hash forensic verification with PDF/TXT reporting and tamper detection capabilities. Research published in Academic Journal of Forensic Sciences (AJFSc).</p><div class="proj-btns"><a href="https://github.com/jeraldbenny/File_Integrity_Verifier_FIV" target="_blank" rel="noopener" class="wpx-btn wpx-wood" style="font-size:6px;height:34px;padding:0 12px;" data-track="Project: FIV Code">⌨ VIEW CODE</a><a href="https://www.xournals.com/journal/file-integrity-verifier-fiv-a-cryptographic-hash-based-approach-for-digital-file-integrity-verification" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:6px;height:34px;padding:0 12px;" data-track="Project: FIV Paper">📜 PAPER</a></div></div>
     <div class="proj-card reveal"><div class="c tl"></div><div class="c tr"></div><div class="c bl"></div><div class="c br"></div><div class="proj-ico">🌐</div><p class="proj-name">OSINT PROFILER</p><p class="proj-type">▸ INTELLIGENCE TOOL · OPEN SOURCE</p><p class="proj-desc">Open-source intelligence tool for collecting, analysing, and organizing publicly available digital information from multiple online sources.</p><div class="proj-btns"><a href="https://github.com/jeraldbenny/OSINT-Profiler" target="_blank" rel="noopener" class="wpx-btn wpx-wood" style="font-size:6px;height:34px;padding:0 12px;">⌨ VIEW CODE</a></div></div>
   </div>
   <div style="margin-top:24px;text-align:center;"><a href="https://github.com/jeraldbenny" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:7px;height:38px;padding:0 22px;">⌨ ALL REPOS ON GITHUB</a></div>
@@ -661,12 +929,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- PUBLICATIONS -->
 <section id="pubs">
   <h2 class="sec-hd">PUBLICATIONS <span class="sec-sub">· Codices</span></h2>
+  <p style="font-family:'Press Start 2P',monospace;font-size:7px;color:#3cc8c0;margin-bottom:14px;">▸ JOURNAL PUBLICATION</p>
+  <div class="pub reveal" style="border-left-color:#f0c040;margin-bottom:24px;">
+    <div class="pub-ico" style="color:#f0c040;">📜</div>
+    <div style="flex:1;">
+      <p class="pub-title">File Integrity Verifier (FIV): A Cryptographic Hash-Based Approach for Digital File Integrity Verification</p>
+      <p class="pub-venue">Academic Journal of Forensic Sciences (AJFSc) · Volume 09 | Issue 02 | October - 2026 · pp. 1–9</p>
+      <p class="pub-date">ISSN: 2581-4273 · Article No: AXB765921 · Published: October 10, 2026</p>
+      <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
+        <a href="https://www.xournals.com/journal/file-integrity-verifier-fiv-a-cryptographic-hash-based-approach-for-digital-file-integrity-verification" target="_blank" rel="noopener" class="wpx-btn wpx-gold" style="font-size:6px;height:34px;padding:0 12px;" data-track="Publication: FIV Journal Paper">📜 READ ARTICLE</a>
+        <a href="https://www.xournals.com/assets/publications//AJFSc_V09_I02_P01-09_October-2026.pdf" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:6px;height:34px;padding:0 12px;" data-track="Publication: FIV PDF Download">&#11015; DOWNLOAD PDF</a>
+      </div>
+    </div>
+  </div>
   <p style="font-family:'Press Start 2P',monospace;font-size:7px;color:#3cc8c0;margin-bottom:14px;">▸ CHAPTER PUBLICATION</p>
   <div class="pub reveal" style="border-left-color:#a070e8;margin-bottom:24px;"><div class="pub-ico" style="color:#a070e8;">📖</div><div style="flex:1;"><p class="pub-title">Deepfake Image Detection in Digital Forensics: An Explainable AI Approach</p><p class="pub-venue">Forensic Reflections Volume II — Krino Forensics</p><p class="pub-date">ISBN 978-81-69026-50-5</p><div style="margin-top:8px;"><a href="https://everlastingpublication.odoo.com/shop/forensic-reflections-volume-2-355" target="_blank" rel="noopener" class="wpx-btn wpx-gem" style="font-size:6px;height:34px;padding:0 12px;">📖 VIEW CHAPTER</a></div></div></div>
   <p style="font-family:'Press Start 2P',monospace;font-size:7px;color:#3cc8c0;margin-bottom:14px;">▸ ARTICLES</p>
   <div class="pub reveal"><div class="pub-ico">📰</div><div style="flex:1;"><p class="pub-title">Mobile Forensics: The Hurdles of Physical Extraction from Today's Smartphones</p><p class="pub-venue">FORENSICS Magazine — Aditya College of Forensics &amp; Cyber Security</p><p class="pub-date">June–July 2025</p><div style="margin-top:8px;"><a href="https://aditya.ac.in/forensic-science/assets/img/June-july-2025.pdf" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:6px;height:32px;padding:0 12px;">📎 READ</a></div></div></div>
   <div class="pub reveal"><div class="pub-ico">📰</div><div style="flex:1;"><p class="pub-title">Scientific Examination of Image Manipulation: A Forensic Evaluation with Amped Authenticate</p><p class="pub-venue">FORENSICS Magazine</p><p class="pub-date">August–September 2025</p><div style="margin-top:8px;"><a href="https://heyzine.com/flip-book/f768d7c4a3.html" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:6px;height:32px;padding:0 12px;">📎 READ</a></div></div></div>
   <div class="pub reveal"><div class="pub-ico">📰</div><div style="flex:1;"><p class="pub-title">OSINT in Forensics: Turning Public Data into Court-Ready Intelligence</p><p class="pub-venue">FORENSICS Magazine</p><p class="pub-date">December 2025 – January 2026</p><div style="margin-top:8px;"><a href="https://heyzine.com/flip-book/d53d75c884.html" target="_blank" rel="noopener" class="wpx-btn wpx-ghost" style="font-size:6px;height:32px;padding:0 12px;">📎 READ</a></div></div></div>
+</section>
+
+<div class="div"></div>
+
+<!-- SHOWCASE -->
+<section id="showcase">
+  <div class="sc-header-row reveal">
+    <div>
+      <h2 class="sec-hd">SHOWCASE <span class="sec-sub">· Presentations &amp; Workshops</span></h2>
+      <p class="sc-subtitle-desc">Interactive deck featuring forensic training sessions, keynotes, book chapters &amp; research.</p>
+    </div>
+    
+    <div class="sc-header-controls">
+      <div class="sc-btn-group">
+        <button type="button" class="sc-ctrl-btn" onclick="scUserNav(-1)" aria-label="Previous">◀ PREV</button>
+        <button type="button" class="sc-ctrl-btn" onclick="scUserNav(1)" aria-label="Next">NEXT ▶</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="sc-carousel-outer reveal" id="scCarouselOuter">
+    <div class="sc-viewport" id="scViewport">
+      <div class="sc-track" id="scTrack">
+        <!-- Rendered dynamically by showcase JS engine -->
+      </div>
+    </div>
+  </div>
+
+  <div class="sc-bottom-bar reveal">
+    <div class="sc-counter-badge" id="scCounter">CARD 1 OF 5</div>
+    <div class="sc-dots" id="scDots"></div>
+  </div>
 </section>
 
 <div class="div"></div>
@@ -996,7 +1309,352 @@ if(card){
   }, 2000);
 })();
 
+// ── SHOWCASE / MULTI-CARD CAROUSEL ENGINE ──
+const SHOWCASE_SLIDES = [
+  {
+    id: "crimex-ftk-imager",
+    tag: "GUEST SPEAKER",
+    sub: "CrimeX Intelligence · Special Session",
+    title: "Digital Forensics & FTK Imager",
+    desc: "Live hands-on demonstration of FTK Imager including forensic imaging, volatile RAM triage, and evidence authentication workflows tailored for courtroom admissibility and chain of custody.",
+    image: "assets/slides/ftk_imager_crimex_session.jpg",
+    link: "https://lnkd.in/p/gccmAJ3M",
+    hasButton: true,
+    btnText: "Digital Forensic Session ↗"
+  },
+  {
+    id: "forensic-lab-demonstration",
+    tag: "WORKSHOP",
+    sub: "Practical Forensic Lab · Mentoring",
+    title: "Digital Forensic Lab",
+    desc: "Interactive lab training instructing students and trainees on digital evidence extraction, forensic acquisitions, filesystem artifact parsing, volatile memory triaging, and evidentiary preservation methods.",
+    image: "assets/slides/sifs_hands_on_forensics.jpg",
+    imgPos: "0% 20%",
+    hasButton: false
+  },
+  {
+    id: "forensic-classroom-seminar",
+    tag: "TRAINER",
+    sub: "Forensic Science Training",
+    title: "Intro to Digital & Cyber Forensic",
+    desc: "Session exploring modern cyber incident triage methodologies, forensic workflows, volatile data acquisition standards, incident response best practices, and forensic reporting compliant with legal proceedings.",
+    image: "assets/slides/sifs_forensic_training.png",
+    hasButton: false
+  },
+  {
+    id: "xai-deepfake-forensics",
+    tag: "RESEARCH",
+    sub: "Chapter Publication",
+    title: "Explainable AI Deepfake Detection",
+    desc: "Peer-reviewed research chapter presenting a ResNet50 deep learning model trained across 100,000 manipulated images from CelebA, FFHQ, and Fake-Faces datasets, achieving 98.99% validation accuracy with LIME Explainable AI for transparent forensic evidence attribution.",
+    image: "assets/slides/deepfake_xai_chapter.png",
+    hasButton: false
+  },
+  {
+    id: "fiv-journal-paper",
+    tag: "JOURNAL",
+    sub: "Academic Journal IASR · October 2026",
+    title: "File Integrity Verifier (FIV)",
+    desc: "Published academic paper introducing an interactive multi-algorithm cryptographic verification architecture supporting MD5, SHA-1/256/512, BLAKE2, and SHA-3 with automated tamper detection and formatted PDF audit trail reporting.",
+    image: "assets/slides/fiv_journal_paper.png",
+    hasButton: false
+  }
+];
+
+const scTotalCards = SHOWCASE_SLIDES.length;
+let scVirtualIndex = scTotalCards; // start at middle set (index 5)
+let scAutoDir = 1; // 1 = forward, -1 = backward
+let scIsInteracting = false;
+let scAutoTimer = null;
+let scResumeTimer = null;
+let scIsSwiping = false;
+
+function scGetMetrics() {
+  const track = document.getElementById('scTrack');
+  const firstCard = track ? track.querySelector('.sc-card-item') : null;
+  const width = firstCard ? firstCard.offsetWidth : (window.innerWidth <= 560 ? 260 : 290);
+  const gap = 20;
+  return { width, gap, step: width + gap };
+}
+
+function initShowcaseCarousel() {
+  const track = document.getElementById('scTrack');
+  const dotsEl = document.getElementById('scDots');
+  if (!track) return;
+
+  // Render 3 sets of cards for seamless infinite looping
+  let html = '';
+  for (let s = 0; s < 3; s++) {
+    SHOWCASE_SLIDES.forEach((slide, idx) => {
+      const vIdx = s * scTotalCards + idx;
+      html += `
+        <div class="sc-card-item" data-vidx="${vIdx}" data-realidx="${idx}" onclick="scSelectCard(${vIdx})">
+          <div class="sc-card-img-wrap" onclick="scCardImgClick(event, '${slide.image}')" title="Click to view full image">
+            <img src="${slide.image}" alt="${slide.title}" class="sc-card-img" style="${slide.imgPos ? `object-position: ${slide.imgPos} !important;` : ''}" loading="lazy">
+          </div>
+          <div class="sc-card-body">
+            <div class="sc-card-meta">${slide.sub}</div>
+            <h3 class="sc-card-title">${slide.title}</h3>
+            <p class="sc-card-desc">${slide.desc}</p>
+            ${slide.hasButton ? `<a href="${slide.link}" target="_blank" rel="noopener" class="sc-session-link" onclick="event.stopPropagation()" data-track="Showcase Session: ${slide.title}">${slide.btnText}</a>` : ''}
+          </div>
+        </div>
+      `;
+    });
+  }
+  track.innerHTML = html;
+
+  if (dotsEl) {
+    dotsEl.innerHTML = SHOWCASE_SLIDES.map((_, i) => 
+      `<div class="sc-dot" onclick="scSelectDot(${i})" title="Slide ${i+1}"></div>`
+    ).join('');
+  }
+
+  track.addEventListener('transitionend', function() {
+    if (scVirtualIndex >= scTotalCards * 2) {
+      scVirtualIndex -= scTotalCards;
+      scUpdateTrackPosition(false);
+    } else if (scVirtualIndex < scTotalCards) {
+      scVirtualIndex += scTotalCards;
+      scUpdateTrackPosition(false);
+    }
+  });
+
+  scUpdateTrackPosition(false);
+  scStartAutoPlay();
+}
+
+function scGetOffsetForIndex(idx) {
+  const viewport = document.getElementById('scViewport');
+  const vpWidth = viewport ? viewport.offsetWidth : (window.innerWidth || 1000);
+  const m = scGetMetrics();
+  const cardCenter = idx * m.step + (m.width / 2);
+  return (vpWidth / 2) - cardCenter;
+}
+
+function scUpdateTrackPosition(animate = true) {
+  const track = document.getElementById('scTrack');
+  const counterEl = document.getElementById('scCounter');
+  const dotsEl = document.getElementById('scDots');
+  if (!track) return;
+
+  track.style.transition = animate ? 'transform 0.45s cubic-bezier(0.2, 0.9, 0.3, 1)' : 'none';
+  const offset = scGetOffsetForIndex(scVirtualIndex);
+  track.style.transform = `translateX(${offset}px)`;
+
+  const realIdx = ((scVirtualIndex % scTotalCards) + scTotalCards) % scTotalCards;
+  const cards = track.querySelectorAll('.sc-card-item');
+  cards.forEach(card => {
+    const cVidx = parseInt(card.getAttribute('data-vidx'), 10);
+    if (cVidx === scVirtualIndex) {
+      card.classList.add('active');
+    } else {
+      card.classList.remove('active');
+    }
+  });
+
+  if (counterEl) counterEl.textContent = `CARD ${realIdx + 1} OF ${scTotalCards}`;
+  if (dotsEl) {
+    const dots = dotsEl.querySelectorAll('.sc-dot');
+    dots.forEach((dot, i) => {
+      if (i === realIdx) dot.classList.add('active');
+      else dot.classList.remove('active');
+    });
+  }
+}
+
+function scNavigate(dir, isUser = false) {
+  scVirtualIndex += dir;
+  scUpdateTrackPosition(true);
+
+  if (isUser) {
+    scAutoDir = dir;
+    scIsInteracting = true;
+    scUpdateTrackPosition(true);
+    clearTimeout(scResumeTimer);
+    scResumeTimer = setTimeout(() => {
+      scIsInteracting = false;
+      scUpdateTrackPosition(false);
+    }, 2500);
+  }
+}
+
+function scUserNav(dir) {
+  scNavigate(dir, true);
+}
+
+function scSelectDot(targetRealIdx) {
+  const currentRealIdx = ((scVirtualIndex % scTotalCards) + scTotalCards) % scTotalCards;
+  const diff = targetRealIdx - currentRealIdx;
+  if (diff === 0) return;
+  scAutoDir = diff > 0 ? 1 : -1;
+  scVirtualIndex += diff;
+  scUpdateTrackPosition(true);
+
+  scIsInteracting = true;
+  clearTimeout(scResumeTimer);
+  scResumeTimer = setTimeout(() => {
+    scIsInteracting = false;
+    scUpdateTrackPosition(false);
+  }, 2500);
+}
+
+function scSelectCard(vIdx) {
+  if (scIsSwiping) return;
+  if (vIdx === scVirtualIndex) return;
+  const dir = vIdx > scVirtualIndex ? 1 : -1;
+  scAutoDir = dir;
+  scVirtualIndex = vIdx;
+  scUpdateTrackPosition(true);
+
+  scIsInteracting = true;
+  clearTimeout(scResumeTimer);
+  scResumeTimer = setTimeout(() => {
+    scIsInteracting = false;
+    scUpdateTrackPosition(false);
+  }, 2500);
+}
+
+function scStartAutoPlay() {
+  if (scAutoTimer) clearInterval(scAutoTimer);
+  scAutoTimer = setInterval(() => {
+    if (!scIsInteracting) {
+      scNavigate(scAutoDir, false);
+    }
+  }, 3200);
+}
+
+function scCardImgClick(e, src) {
+  if (scIsSwiping) return;
+  openLightbox(src);
+}
+
+// Swipe & Interaction Handlers
+(function initShowcaseInteractions() {
+  const outer = document.getElementById('scCarouselOuter');
+  if (!outer) return;
+
+  let startX = 0;
+  let startY = 0;
+  let isMouseDown = false;
+
+  outer.addEventListener('mouseenter', () => {
+    scIsInteracting = true;
+    scUpdateTrackPosition(false);
+  });
+  outer.addEventListener('mouseleave', () => {
+    clearTimeout(scResumeTimer);
+    scResumeTimer = setTimeout(() => {
+      scIsInteracting = false;
+      scUpdateTrackPosition(false);
+    }, 1500);
+  });
+
+  outer.addEventListener('touchstart', (e) => {
+    scIsInteracting = true;
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+  }, { passive: true });
+
+  outer.addEventListener('touchend', (e) => {
+    const diffX = e.changedTouches[0].clientX - startX;
+    const diffY = e.changedTouches[0].clientY - startY;
+    if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 30) {
+      scIsSwiping = true;
+      setTimeout(() => { scIsSwiping = false; }, 250);
+      if (diffX < 0) {
+        // Swiped left -> move forward
+        scAutoDir = 1;
+        scNavigate(1, true);
+      } else {
+        // Swiped right -> move backward
+        scAutoDir = -1;
+        scNavigate(-1, true);
+      }
+    } else {
+      clearTimeout(scResumeTimer);
+      scResumeTimer = setTimeout(() => {
+        scIsInteracting = false;
+        scUpdateTrackPosition(false);
+      }, 2000);
+    }
+  }, { passive: true });
+
+  outer.addEventListener('mousedown', (e) => {
+    if (e.target.closest('a') || e.target.closest('button')) return;
+    isMouseDown = true;
+    startX = e.clientX;
+    scIsInteracting = true;
+  });
+
+  window.addEventListener('mouseup', (e) => {
+    if (!isMouseDown) return;
+    isMouseDown = false;
+    const diffX = e.clientX - startX;
+    if (Math.abs(diffX) > 40) {
+      scIsSwiping = true;
+      setTimeout(() => { scIsSwiping = false; }, 250);
+      if (diffX < 0) {
+        scAutoDir = 1;
+        scNavigate(1, true);
+      } else {
+        scAutoDir = -1;
+        scNavigate(-1, true);
+      }
+    } else {
+      clearTimeout(scResumeTimer);
+      scResumeTimer = setTimeout(() => {
+        scIsInteracting = false;
+        scUpdateTrackPosition(false);
+      }, 2000);
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+    const sc = document.getElementById('showcase');
+    if (!sc) return;
+    const rect = sc.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      if (e.key === 'ArrowLeft') scUserNav(-1);
+      if (e.key === 'ArrowRight') scUserNav(1);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    scUpdateTrackPosition(false);
+  });
+
+  initShowcaseCarousel();
+})();
+
+function openLightbox(src) {
+  if (scIsSwiping) return;
+  const lb = document.getElementById('scLightbox');
+  const lbImg = document.getElementById('scLightboxImg');
+  if (lb && lbImg) {
+    lbImg.src = src || 'assets/slides/ftk_imager_crimex_session.jpg';
+    lb.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeLightbox() {
+  const lb = document.getElementById('scLightbox');
+  if (lb) {
+    lb.classList.remove('show');
+    document.body.style.overflow = '';
+  }
+}
+
 </script>
+
+<!-- SHOWCASE FULLSCREEN LIGHTBOX -->
+<div id="scLightbox" class="sc-lightbox" onclick="closeLightbox()">
+  <span class="sc-lightbox-close" onclick="closeLightbox()" title="Close">&times;</span>
+  <img id="scLightboxImg" src="assets/slides/ftk_imager_crimex_session.jpg" alt="Showcase High Resolution View" class="sc-lightbox-img" onclick="event.stopPropagation()">
+</div>
+
 <script src="intel_bot.js"></script>
 </body>
 </html>

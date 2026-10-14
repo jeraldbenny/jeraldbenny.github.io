@@ -7,6 +7,8 @@
 <meta name="description" content="DigiLab (DigiTool) is a free browser-based digital forensics workstation by Jerald Benny. Features multi-hash verification (MD5, SHA-1, SHA-256, SHA-512), EXIF metadata & GPS extraction, email header analyzer, and network OSINT.">
 <meta name="keywords" content="DigiLab, DigiTool, digital forensics tool, online forensics tools, EXIF metadata viewer, hash generator, email header analyzer, network OSINT, cybersecurity workstation, Jerald Benny">
 <link rel="canonical" href="https://jeraldbenny.qd.je/digilab/" />
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:title" content="DIGILAB (DigiTool) | Digital Forensics & OSINT Workstation">
@@ -1685,6 +1687,21 @@ footer a:hover { color: #ffffff; text-decoration: underline; }
 <script src="../intel_bot.js"></script>
 
 <script>
+// Security: HTML Entity Sanitizer to defend against DOM XSS
+function escapeHtml(str) {
+  if (str === undefined || str === null) return '';
+  return String(str).replace(/[&<>"']/g, function(m) {
+    switch (m) {
+      case '&': return '&amp;';
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '"': return '&quot;';
+      case "'": return '&#039;';
+      default: return m;
+    }
+  });
+}
+
 // Ambient Audio Toggle Logic
 (function(){
   const audioBtn = document.getElementById('audio-toggle');
@@ -2408,7 +2425,7 @@ function processHexFile(file) {
           }
           if (exifTableBody) {
             const tr = document.createElement('tr');
-            tr.innerHTML = `<td class="kv-key">${item.label}:</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;">${val}</td>`;
+            tr.innerHTML = `<td class="kv-key">${escapeHtml(item.label)}:</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;">${escapeHtml(val)}</td>`;
             exifTableBody.appendChild(tr);
           }
         }
@@ -2591,7 +2608,7 @@ function processHexFile(file) {
       const zipFiles = extractZipFilenames(buffer);
       const listEl = document.getElementById('archiveFileList');
       if (zipFiles.length > 0) {
-        listEl.innerHTML = zipFiles.map(f => `<div style="padding:2px 0;border-bottom:1px solid rgba(255,255,255,0.05);">📁 ${f}</div>`).join('');
+        listEl.innerHTML = zipFiles.map(f => `<div style="padding:2px 0;border-bottom:1px solid rgba(255,255,255,0.05);">📁 ${escapeHtml(f)}</div>`).join('');
       } else {
         listEl.innerHTML = '<div style="color:var(--subtext);">Compressed Archive / Office Container</div>';
       }
@@ -3095,13 +3112,13 @@ function processEmlRawText(text) {
   const ipRegex = /\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b/g;
   const ips = Array.from(new Set(text.match(ipRegex) || [])).filter(ip => !ip.startsWith('127.') && !ip.startsWith('10.') && !ip.startsWith('192.168.'));
   const ipList = document.getElementById('emlIPs');
-  ipList.innerHTML = ips.length > 0 ? ips.map(ip => `<li><span style="color:var(--gold);">${ip}</span> <a href="https://ipinfo.io/${ip}" target="_blank" style="font-size:9px;color:var(--subtext);text-decoration:none;margin-left:6px;">[GEOLOCATE ↗]</a></li>`).join('') : '<li>No public relay IPs extracted.</li>';
+  ipList.innerHTML = ips.length > 0 ? ips.map(ip => `<li><span style="color:var(--gold);">${escapeHtml(ip)}</span> <a href="https://ipinfo.io/${encodeURIComponent(ip)}" target="_blank" rel="noopener noreferrer" style="font-size:9px;color:var(--subtext);text-decoration:none;margin-left:6px;">[GEOLOCATE ↗]</a></li>`).join('') : '<li>No public relay IPs extracted.</li>';
 
   // Extracted URLs & External Links
   const urlRegex = /https?:\/\/[^\s<">]+/g;
   const urls = Array.from(new Set(text.match(urlRegex) || []));
   const urlDiv = document.getElementById('emlURLs');
-  urlDiv.innerHTML = urls.length > 0 ? urls.map(u => `<div style="margin-bottom:6px;word-break:break-all;">• <a href="${u}" target="_blank" rel="noopener" style="color:var(--gold);text-decoration:none;">${u}</a></div>`).join('') : 'No embedded external URLs found.';
+  urlDiv.innerHTML = urls.length > 0 ? urls.map(u => `<div style="margin-bottom:6px;word-break:break-all;">• <a href="${encodeURI(u)}" target="_blank" rel="noopener noreferrer" style="color:var(--gold);text-decoration:none;">${escapeHtml(u)}</a></div>`).join('') : 'No embedded external URLs found.';
 
   // EXTRACT EML BODY CONTENT & MIME STRUCTURE
   const headerBodySplit = text.split(/\r?\n\r?\n/);
@@ -3116,9 +3133,12 @@ function processEmlRawText(text) {
 
     let cleanPreview = bodyText;
     if (cleanPreview.includes('<html') || cleanPreview.includes('<body') || cleanPreview.includes('<div')) {
-      const tmp = document.createElement('div');
-      tmp.innerHTML = cleanPreview;
-      cleanPreview = tmp.innerText || tmp.textContent || cleanPreview;
+      try {
+        const doc = new DOMParser().parseFromString(cleanPreview, 'text/html');
+        cleanPreview = doc.body.textContent || cleanPreview;
+      } catch(e) {
+        cleanPreview = cleanPreview.replace(/<[^>]*>/g, '');
+      }
     }
     if (cleanPreview.length > 5000) cleanPreview = cleanPreview.substring(0, 5000) + '\n... [Truncated for Display]';
     if (bodyContentEl) bodyContentEl.textContent = cleanPreview;
@@ -3141,9 +3161,9 @@ function processEmlRawText(text) {
             const tr = document.createElement('tr');
             tr.innerHTML = `
               <td style="padding:6px;color:var(--gold);font-family:'JetBrains Mono',monospace;">#${partIdx++}</td>
-              <td style="padding:6px;color:#fff;">${pType}</td>
-              <td style="padding:6px;color:${pName!=='N/A'?'var(--gold)':'var(--subtext)'};">${pDisp} ${pName !== 'N/A' ? '(' + pName + ')' : ''}</td>
-              <td style="padding:6px;color:var(--subtext);font-family:'JetBrains Mono',monospace;">${pEnc}</td>
+              <td style="padding:6px;color:#fff;">${escapeHtml(pType)}</td>
+              <td style="padding:6px;color:${pName!=='N/A'?'var(--gold)':'var(--subtext)'};">${escapeHtml(pDisp)} ${pName !== 'N/A' ? '(' + escapeHtml(pName) + ')' : ''}</td>
+              <td style="padding:6px;color:var(--subtext);font-family:'JetBrains Mono',monospace;">${escapeHtml(pEnc)}</td>
             `;
             mimeTableBody.appendChild(tr);
           }
@@ -3152,7 +3172,7 @@ function processEmlRawText(text) {
         const tr = document.createElement('tr');
         tr.innerHTML = `
           <td style="padding:6px;color:var(--gold);">#1</td>
-          <td style="padding:6px;color:#fff;">${getHeader('Content-Type') !== 'Not Found' ? getHeader('Content-Type') : 'text/plain'}</td>
+          <td style="padding:6px;color:#fff;">${escapeHtml(getHeader('Content-Type') !== 'Not Found' ? getHeader('Content-Type') : 'text/plain')}</td>
           <td style="padding:6px;color:var(--subtext);">Inline Message Body</td>
           <td style="padding:6px;color:var(--subtext);">7bit / UTF-8</td>
         `;
@@ -3433,11 +3453,11 @@ async function runDomainIntel() {
       <div class="step-card">
         <div class="step-num" style="line-height:1.4;">DOMAIN REGISTRATION & WHOIS DETAILS</div>
         <table class="kv-table">
-          <tr><td class="kv-key">Domain Name:</td><td style="color:var(--gold);font-weight:bold;word-break:break-all;">${cleanDomain}</td></tr>
-          <tr><td class="kv-key">Registrar:</td><td style="color:#fff;word-break:break-all;">${whoisData.registrar}</td></tr>
-          <tr><td class="kv-key">Registration Date:</td><td style="color:#fff;word-break:break-all;">${whoisData.created}</td></tr>
-          <tr><td class="kv-key">Expiration Date:</td><td style="color:var(--gold);word-break:break-all;">${whoisData.expires}</td></tr>
-          <tr><td class="kv-key">Registrant / Owner:</td><td style="color:var(--subtext);word-break:break-all;">${whoisData.registrant}</td></tr>
+          <tr><td class="kv-key">Domain Name:</td><td style="color:var(--gold);font-weight:bold;word-break:break-all;">${escapeHtml(cleanDomain)}</td></tr>
+          <tr><td class="kv-key">Registrar:</td><td style="color:#fff;word-break:break-all;">${escapeHtml(whoisData.registrar)}</td></tr>
+          <tr><td class="kv-key">Registration Date:</td><td style="color:#fff;word-break:break-all;">${escapeHtml(whoisData.created)}</td></tr>
+          <tr><td class="kv-key">Expiration Date:</td><td style="color:var(--gold);word-break:break-all;">${escapeHtml(whoisData.expires)}</td></tr>
+          <tr><td class="kv-key">Registrant / Owner:</td><td style="color:var(--subtext);word-break:break-all;">${escapeHtml(whoisData.registrant)}</td></tr>
         </table>
       </div>
 
@@ -3445,15 +3465,15 @@ async function runDomainIntel() {
       <div class="step-card">
         <div class="step-num" style="line-height:1.4;">SERVER GEOLOCATION & EXTERNAL INTEL</div>
         <table class="kv-table" style="margin-bottom:12px;">
-          <tr><td class="kv-key">Primary Server IP:</td><td style="color:#fff;font-weight:bold;word-break:break-all;">${serverIp}</td></tr>
-          <tr><td class="kv-key">Hosting Provider / Org:</td><td style="color:#fff;word-break:break-all;">${ipGeo.org}</td></tr>
-          <tr><td class="kv-key">Server Location:</td><td style="color:var(--gold);word-break:break-all;">${ipGeo.city !== 'Unknown' ? ipGeo.city + ', ' : ''}${ipGeo.country}</td></tr>
+          <tr><td class="kv-key">Primary Server IP:</td><td style="color:#fff;font-weight:bold;word-break:break-all;">${escapeHtml(serverIp)}</td></tr>
+          <tr><td class="kv-key">Hosting Provider / Org:</td><td style="color:#fff;word-break:break-all;">${escapeHtml(ipGeo.org)}</td></tr>
+          <tr><td class="kv-key">Server Location:</td><td style="color:var(--gold);word-break:break-all;">${ipGeo.city !== 'Unknown' ? escapeHtml(ipGeo.city) + ', ' : ''}${escapeHtml(ipGeo.country)}</td></tr>
         </table>
         
         <div style="font-family:'Press Start 2P',monospace;font-size:7px;line-height:1.4;color:var(--gold);margin-bottom:6px;">EXTERNAL INTEL LAUNCHERS</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px;">
-          <a href="https://www.virustotal.com/gui/domain/${cleanDomain}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 14px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;">VIRUSTOTAL ↗</a>
-          <a href="https://crt.sh/?q=${cleanDomain}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 14px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;">CRT.SH CERTS ↗</a>
+          <a href="https://www.virustotal.com/gui/domain/${encodeURIComponent(cleanDomain)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 14px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;">VIRUSTOTAL ↗</a>
+          <a href="https://crt.sh/?q=${encodeURIComponent(cleanDomain)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 14px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;">CRT.SH CERTS ↗</a>
         </div>
       </div>
 
@@ -3462,7 +3482,7 @@ async function runDomainIntel() {
     <!-- CARD 3: DNS SECURITY & EMAIL AUTHENTICATION AUDIT -->
     <div class="step-card" style="margin-bottom:16px;">
       <div class="step-num" style="line-height:1.4;">DNS SECURITY & EMAIL AUTHENTICATION AUDIT</div>
-      <div style="font-size:11px;color:#fff;margin-bottom:8px;word-break:break-all;"><strong>Email Provider Detected:</strong> <span style="color:var(--gold);">${mailProvider}</span></div>
+      <div style="font-size:11px;color:#fff;margin-bottom:8px;word-break:break-all;"><strong>Email Provider Detected:</strong> <span style="color:var(--gold);">${escapeHtml(mailProvider)}</span></div>
       ${spfWarn}
       ${dmarcWarn}
     </div>
@@ -3483,10 +3503,10 @@ async function runDomainIntel() {
           <tbody>
             ${dnsRecords.length > 0 ? dnsRecords.map(r => `
               <tr>
-                <td style="color:var(--gold);font-weight:bold;font-family:'JetBrains Mono',monospace;">${r.type}</td>
-                <td style="font-size:10px;color:#ddd;word-break:normal;overflow-wrap:break-word;">${getImplication(r.type)}</td>
-                <td style="font-family:'JetBrains Mono',monospace;color:var(--subtext);text-align:center;">${r.ttl}s</td>
-                <td style="word-break:break-all;font-family:'JetBrains Mono',monospace;font-size:10px;color:#fff;">${r.data}</td>
+                <td style="color:var(--gold);font-weight:bold;font-family:'JetBrains Mono',monospace;">${escapeHtml(r.type)}</td>
+                <td style="font-size:10px;color:#ddd;word-break:normal;overflow-wrap:break-word;">${escapeHtml(getImplication(r.type))}</td>
+                <td style="font-family:'JetBrains Mono',monospace;color:var(--subtext);text-align:center;">${escapeHtml(r.ttl)}s</td>
+                <td style="word-break:break-all;font-family:'JetBrains Mono',monospace;font-size:10px;color:#fff;">${escapeHtml(r.data)}</td>
               </tr>
             `).join('') : '<tr><td colspan="4" style="color:var(--subtext);text-align:center;">No public DNS records returned for this domain.</td></tr>'}
           </tbody>
@@ -3622,9 +3642,9 @@ function renderLocationMenu(filterText = '') {
   });
 
   if (filtered.length === 0) {
-    const safeVal = filterText.replace(/'/g, "\\'");
+    const safeVal = filterText.replace(/'/g, "\\'").replace(/"/g, '&quot;');
     menu.innerHTML = `<div class="social-loc-item selected" onclick="selectCustomLocation('${safeVal}')" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;">
-      <span>Search area "${filterText}"</span>
+      <span>Search area "${escapeHtml(filterText)}"</span>
       <span style="color:var(--gold);font-size:10px;font-weight:bold;">[Enter ↵]</span>
     </div>`;
     return;
@@ -3633,10 +3653,10 @@ function renderLocationMenu(filterText = '') {
   menu.innerHTML = filtered.map(c => {
     const isSel = currentVal === c.name.toLowerCase() || (c.code && currentVal === c.code.toLowerCase());
     const selClass = isSel ? 'selected' : '';
-    const safeName = c.name.replace(/'/g, "\\'");
-    return `<div class="social-loc-item ${selClass}" onclick="selectLocationItem('${c.code}', '${safeName}')">
-      <span>${c.name}</span>
-      ${c.code ? `<span style="color:var(--subtext);font-size:10px;">${c.code.toUpperCase()}</span>` : ''}
+    const safeName = c.name.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    return `<div class="social-loc-item ${selClass}" onclick="selectLocationItem('${escapeHtml(c.code)}', '${safeName}')">
+      <span>${escapeHtml(c.name)}</span>
+      ${c.code ? `<span style="color:var(--subtext);font-size:10px;">${escapeHtml(c.code.toUpperCase())}</span>` : ''}
     </div>`;
   }).join('');
 }
@@ -4052,9 +4072,9 @@ function runImageIntel(file) {
       <div class="step-card">
         <div class="step-num" style="line-height:1.4;">IMAGE FILE METRICS</div>
         <table class="kv-table">
-          <tr><td class="kv-key">Image Name:</td><td style="color:#fff;word-break:break-all;">${file.name}</td></tr>
+          <tr><td class="kv-key">Image Name:</td><td style="color:#fff;word-break:break-all;">${escapeHtml(file.name)}</td></tr>
           <tr><td class="kv-key">File Size:</td><td>${(file.size/1024).toFixed(2)} KB</td></tr>
-          <tr><td class="kv-key">MIME Type:</td><td>${file.type}</td></tr>
+          <tr><td class="kv-key">MIME Type:</td><td>${escapeHtml(file.type || 'image/unknown')}</td></tr>
         </table>
       </div>
 
@@ -4280,11 +4300,11 @@ async function runCryptoIntel() {
           <div class="step-num" style="line-height:1.4;">ETHEREUM TRANSACTION BREAKDOWN</div>
           <table class="kv-table">
             <tr><td class="kv-key">Identifier Type:</td><td style="color:var(--gold);font-weight:bold;word-break:break-all;">Ethereum Transaction Hash (TxHash)</td></tr>
-            <tr><td class="kv-key">Sender (From):</td><td style="color:var(--accent-green);font-family:'JetBrains Mono',monospace;font-size:10px;word-break:break-all;">${sender}</td></tr>
-            <tr><td class="kv-key">Recipient (To):</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;word-break:break-all;">${recipient}</td></tr>
-            <tr><td class="kv-key">Amount Sent:</td><td style="color:var(--gold);font-weight:bold;">${valEth}</td></tr>
-            <tr><td class="kv-key">Transaction Fee:</td><td style="color:#ccc;">${feeEth}</td></tr>
-            <tr><td class="kv-key">Block Height:</td><td style="color:#aaa;">${blockNum}</td></tr>
+            <tr><td class="kv-key">Sender (From):</td><td style="color:var(--accent-green);font-family:'JetBrains Mono',monospace;font-size:10px;word-break:break-all;">${escapeHtml(sender)}</td></tr>
+            <tr><td class="kv-key">Recipient (To):</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;word-break:break-all;">${escapeHtml(recipient)}</td></tr>
+            <tr><td class="kv-key">Amount Sent:</td><td style="color:var(--gold);font-weight:bold;">${escapeHtml(valEth)}</td></tr>
+            <tr><td class="kv-key">Transaction Fee:</td><td style="color:#ccc;">${escapeHtml(feeEth)}</td></tr>
+            <tr><td class="kv-key">Block Height:</td><td style="color:#aaa;">${escapeHtml(blockNum)}</td></tr>
           </table>
         </div>
 
@@ -4295,10 +4315,10 @@ async function runCryptoIntel() {
               Click below to inspect the live wallet balance and portfolio of either participant:
             </div>
             <div style="display:flex;flex-wrap:wrap;gap:8px;">
-              ${sender !== 'N/A' ? `<button class="btn-action" style="font-size:7px;padding:6px 10px;" onclick="inspectCryptoTarget('${sender}')">INSPECT SENDER WALLET ↗</button>` : ''}
-              ${recipient !== 'N/A' && recipient.startsWith('0x') ? `<button class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;border:1px solid var(--gold);color:var(--gold);" onclick="inspectCryptoTarget('${recipient}')">INSPECT RECIPIENT WALLET ↗</button>` : ''}
-              <a href="https://etherscan.io/tx/${query}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;text-decoration:none;">ETHERSCAN RECEIPT ↗</a>
-              <a href="https://blockchair.com/ethereum/transaction/${query}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;text-decoration:none;">BLOCKCHAIR TX ↗</a>
+              ${sender !== 'N/A' ? `<button class="btn-action" style="font-size:7px;padding:6px 10px;" onclick="inspectCryptoTarget('${encodeURIComponent(sender)}')">INSPECT SENDER WALLET ↗</button>` : ''}
+              ${recipient !== 'N/A' && recipient.startsWith('0x') ? `<button class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;border:1px solid var(--gold);color:var(--gold);" onclick="inspectCryptoTarget('${encodeURIComponent(recipient)}')">INSPECT RECIPIENT WALLET ↗</button>` : ''}
+              <a href="https://etherscan.io/tx/${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;text-decoration:none;">ETHERSCAN RECEIPT ↗</a>
+              <a href="https://blockchair.com/ethereum/transaction/${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 10px;text-decoration:none;">BLOCKCHAIR TX ↗</a>
             </div>
           </div>
         </div>
@@ -4365,11 +4385,11 @@ async function runCryptoIntel() {
           <div class="step-num">ETHEREUM WALLET BALANCE & ON-CHAIN IDENTITY</div>
           <table class="kv-table">
             <tr><td class="kv-key">Identifier Type:</td><td style="color:var(--gold);font-weight:bold;">Ethereum Wallet Address</td></tr>
-            <tr><td class="kv-key">Account Username / Handle:</td><td style="color:var(--gold);font-weight:bold;font-size:12px;">${ensName}</td></tr>
-            <tr><td class="kv-key">Current Balance:</td><td style="color:var(--accent-green);font-weight:bold;font-size:12px;">${ethBal}</td></tr>
-            <tr><td class="kv-key">Tx Count (Nonce):</td><td style="color:#fff;">${txCount}</td></tr>
+            <tr><td class="kv-key">Account Username / Handle:</td><td style="color:var(--gold);font-weight:bold;font-size:12px;">${escapeHtml(ensName)}</td></tr>
+            <tr><td class="kv-key">Current Balance:</td><td style="color:var(--accent-green);font-weight:bold;font-size:12px;">${escapeHtml(ethBal)}</td></tr>
+            <tr><td class="kv-key">Tx Count (Nonce):</td><td style="color:#fff;">${escapeHtml(txCount)}</td></tr>
             <tr><td class="kv-key">Network / Standard:</td><td style="color:#ccc;">EVM / ERC-20 Compatible</td></tr>
-            <tr><td class="kv-key">Address String:</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;word-break:break-all;font-size:10px;">${query}</td></tr>
+            <tr><td class="kv-key">Address String:</td><td style="color:#fff;font-family:'JetBrains Mono',monospace;word-break:break-all;font-size:10px;">${escapeHtml(query)}</td></tr>
           </table>
         </div>
 
@@ -4377,9 +4397,9 @@ async function runCryptoIntel() {
           <div>
             <div class="step-num">PORTFOLIO EXPLORERS & OSINT</div>
             <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">
-              <a href="https://etherscan.io/address/${query}" target="_blank" rel="noopener" class="btn-action" style="font-size:7px;padding:6px 12px;text-decoration:none;">ETHERSCAN ADDRESS ↗</a>
-              <a href="https://debank.com/profile/${query}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 12px;text-decoration:none;border:1px solid var(--gold);color:var(--gold);">DEBANK PORTFOLIO ↗</a>
-              <a href="https://blockchair.com/ethereum/address/${query}" target="_blank" rel="noopener" class="btn-action btn-secondary" style="font-size:7px;padding:6px 12px;text-decoration:none;">BLOCKCHAIR ETH ↗</a>
+              <a href="https://etherscan.io/address/${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer" class="btn-action" style="font-size:7px;padding:6px 12px;text-decoration:none;">ETHERSCAN ADDRESS ↗</a>
+              <a href="https://debank.com/profile/${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 12px;text-decoration:none;border:1px solid var(--gold);color:var(--gold);">DEBANK PORTFOLIO ↗</a>
+              <a href="https://blockchair.com/ethereum/address/${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer" class="btn-action btn-secondary" style="font-size:7px;padding:6px 12px;text-decoration:none;">BLOCKCHAIR ETH ↗</a>
             </div>
           </div>
         </div>

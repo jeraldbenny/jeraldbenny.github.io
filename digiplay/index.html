@@ -7,6 +7,8 @@
 <meta name="description" content="DigiPlay is an interactive 3D digital forensics playground and gamified CTF challenge arena by Jerald Benny. Features 3D crime scene evidence inspection, cyber forensic quiz battles, and forensic investigative puzzle solving.">
 <meta name="keywords" content="DigiPlay, digital forensics playground, 3D crime scene investigation, cybersecurity CTF, interactive forensics game, forensics CTF challenge, forensic science simulation, Jerald Benny">
 <link rel="canonical" href="https://jeraldbenny.qd.je/digiplay/" />
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:title" content="DIGIPLAY | 3D Digital Forensics Playground & CTF Arena">
@@ -3983,6 +3985,10 @@ function runAutoEvidenceTest() {
 }
 
 window.addEventListener('message', (e) => {
+  // Security: Origin verification to prevent cross-origin message spoofing
+  if (e.origin && e.origin !== window.location.origin && !e.origin.includes('localhost') && !e.origin.includes('127.0.0.1')) {
+    return;
+  }
   if (!e.data || typeof e.data !== 'object') return;
   if (e.data.action === 'loadCase') {
     document.documentElement.classList.add('ops-embed');

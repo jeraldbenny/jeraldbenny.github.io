@@ -1421,6 +1421,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="../tracker.js" defer></script>
 <meta name="description" content="DigiFeed is a daily automated digest of the latest Digital Forensics & Cybersecurity news, curated by Jerald Benny from top industry sources.">
 <link rel="canonical" href="https://jeraldbenny.qd.je/digifeed/" />
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:title" content="DigiFeed | Daily Digital Forensics & Cybersecurity News">
@@ -2723,6 +2725,8 @@ function showArchiveDate(dateStr, btn) {{
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DigiFeed Ops</title>
 <meta name="robots" content="noindex, nofollow">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="icon" type="image/png" href="../favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -4143,7 +4147,7 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
           <tr style="background:rgba(0,0,0,0.4);border-bottom:2px solid var(--border);font-family:'Press Start 2P',monospace;font-size:6px;color:var(--gold);text-align:left;">
             <th style="padding:10px;">#</th>
             <th style="padding:10px;">TIMESTAMP</th>
-            <th style="padding:10px;">EVENT</th>
+            <th style="padding:10px;white-space:nowrap;">EVENT</th>
             <th style="padding:10px;color:var(--teal);">PAGE</th>
             <th style="padding:10px;color:#fff;">ACTION / TARGET</th>
             <th style="padding:10px;color:var(--gold);">REFERRER</th>
@@ -4179,9 +4183,38 @@ code{{background:rgba(0,0,0,0.3);padding:2px 6px;color:#3cc8c0;}}
 </div>
 
 <script>
-// Password check using SHA-256 hash
+// Security: HTML Entity Sanitizer for Ops Dashboard
+function opsEscapeHtml(str) {{
+  if (str === undefined || str === null) return '';
+  return String(str).replace(/[&<>"']/g, function(m) {{
+    switch (m) {{
+      case '&': return '&amp;';
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '"': return '&quot;';
+      case "'": return '&#039;';
+      default: return m;
+    }}
+  }});
+}}
+
+// Password check using SHA-256 hash with attempt throttling
 var PW_HASH = "cfd80897f9e1536bc273ca5951c961c08e88fa5c2fde1394b2382cc3be25920f";
+var pwAttempts = 0;
+var pwLockedUntil = 0;
+
 async function checkPw(){{
+  var now = Date.now();
+  if (now < pwLockedUntil) {{
+    var remainingSec = Math.ceil((pwLockedUntil - now) / 1000);
+    var errEl = document.getElementById("pwError");
+    if (errEl) {{
+      errEl.textContent = "TOO MANY FAILED ATTEMPTS. LOCKED FOR " + remainingSec + "s.";
+      errEl.style.display = "block";
+    }}
+    return;
+  }}
+
   var val = document.getElementById("pwInput").value;
   var encoder = new TextEncoder();
   var data = encoder.encode(val);
@@ -4190,17 +4223,31 @@ async function checkPw(){{
   var hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
   
   if(hashHex === PW_HASH){{
+    pwAttempts = 0;
     document.getElementById("pwOverlay").style.display="none";
     document.getElementById("mainContent").style.display="block";
-    sessionStorage.setItem("ops_auth","1");
+    sessionStorage.setItem("ops_auth", hashHex);
   }} else {{
-    document.getElementById("pwError").style.display="block";
+    pwAttempts++;
+    var errEl = document.getElementById("pwError");
+    if (pwAttempts >= 5) {{
+      pwLockedUntil = Date.now() + 30000;
+      if (errEl) {{
+        errEl.textContent = "TOO MANY FAILED ATTEMPTS. LOCKED FOR 30s.";
+        errEl.style.display = "block";
+      }}
+    }} else {{
+      if (errEl) {{
+        errEl.textContent = "INVALID CREDENTIALS. ACCESS DENIED (" + (5 - pwAttempts) + " attempts left).";
+        errEl.style.display = "block";
+      }}
+    }}
     document.getElementById("pwInput").value="";
     document.getElementById("pwInput").focus();
   }}
 }}
-// Check session
-if(sessionStorage.getItem("ops_auth")==="1"){{
+// Check session with cryptographically verified auth token
+if(sessionStorage.getItem("ops_auth") === PW_HASH){{
   document.getElementById("pwOverlay").style.display="none";
   document.getElementById("mainContent").style.display="block";
 }}
@@ -4903,6 +4950,8 @@ async function opsAutoTestAllCases() {{
 
 // Global Message Listener for DigiPlay Iframe Events
 window.addEventListener('message', function(e) {{
+  // Security: Origin verification to prevent cross-origin message spoofing
+  if (e.origin && e.origin !== window.location.origin && !e.origin.includes('localhost') && !e.origin.includes('127.0.0.1')) return;
   if (!e.data || typeof e.data !== 'object') return;
 
   if (e.data.type === 'digiplay-click') {{
@@ -4921,13 +4970,13 @@ window.addEventListener('message', function(e) {{
         : '<span style="color:#e04848;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5.5px;background:rgba(224,72,72,0.2);padding:2px 5px;border-radius:2px;">✖ DISTRACTOR</span>';
 
       logBox.innerHTML = '<div style="display:flex;justify-content:space-between;margin-bottom:4px;">' +
-        '<span style="color:#fff;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:13px;font-weight:600;">' + e.data.objName + '</span>' +
+        '<span style="color:#fff;font-family:&quot;JetBrains Mono&quot;,monospace;font-size:13px;font-weight:600;">' + opsEscapeHtml(e.data.objName) + '</span>' +
         badgeHtml +
       '</div>' +
       '<div style="color:var(--subtext);font-size:13px;line-height:1.4;">' +
-        'ID: <span style="color:var(--teal);">' + e.data.objId + '</span> | Hit Point: <span style="color:var(--gold);">[' + (e.data.pos ? e.data.pos.join(', ') : '0,0,0') + ']</span> | Distance: ' + (e.data.distance || '0') + 'm' +
+        'ID: <span style="color:var(--teal);">' + opsEscapeHtml(e.data.objId) + '</span> | Hit Point: <span style="color:var(--gold);">[' + (e.data.pos ? opsEscapeHtml(e.data.pos.join(', ')) : '0,0,0') + ']</span> | Distance: ' + opsEscapeHtml(e.data.distance || '0') + 'm' +
       '</div>' +
-      (e.data.desc ? '<div style="color:#b8c8e0;font-size:14px;margin-top:4px;border-top:1px dashed rgba(86,39,17,0.3);padding-top:4px;">' + e.data.desc.replace(/</g, '&lt;') + '</div>' : '');
+      (e.data.desc ? '<div style="color:#b8c8e0;font-size:14px;margin-top:4px;border-top:1px dashed rgba(86,39,17,0.3);padding-top:4px;">' + opsEscapeHtml(e.data.desc) + '</div>' : '');
     }}
   }} else if (e.data.type === 'digiplay-auto-test-result') {{
     if (e.data.results && Array.isArray(e.data.results)) {{
@@ -4942,7 +4991,7 @@ window.addEventListener('message', function(e) {{
       banner.style.borderColor = '#40d060';
       banner.style.color = '#40d060';
       banner.style.background = 'rgba(64,208,96,0.12)';
-      banner.innerHTML = '✔ TEST PASSED: ' + e.data.passed + ' / ' + e.data.total + ' ARTIFACTS VERIFIED (' + (e.data.caseTitle || 'Case ' + e.data.caseId) + ')';
+      banner.innerHTML = '✔ TEST PASSED: ' + opsEscapeHtml(e.data.passed) + ' / ' + opsEscapeHtml(e.data.total) + ' ARTIFACTS VERIFIED (' + opsEscapeHtml(e.data.caseTitle || 'Case ' + e.data.caseId) + ')';
     }}
   }} else if (e.data.type === 'digiplay-ready') {{
     var ifr = document.getElementById('opsDigiplayIframe');
@@ -5399,12 +5448,13 @@ function opsRenderTrafficTable() {{
     var isClick = r.event === 'click';
     var badgeColor = isClick ? 'var(--gold)' : '#40d060';
     var badgeBg = isClick ? 'rgba(240,192,64,0.15)' : 'rgba(64,208,96,0.15)';
-    var badgeText = isClick ? '⚡ CLICK' : '👁 PAGEVIEW';
+    var badgeIcon = isClick ? '⚡' : '👁';
+    var badgeLabel = isClick ? 'CLICK' : 'PAGEVIEW';
 
     rowsHtml += '<tr style="border-bottom:1px solid rgba(86,39,17,0.3);font-family:&quot;JetBrains Mono&quot;,monospace;font-size:12.5px;">' +
       '<td style="padding:10px;color:var(--gold);font-weight:600;font-size:12px;">' + (idx + 1) + '</td>' +
       '<td style="padding:10px;color:var(--subtext);font-size:11.5px;white-space:nowrap;">' + r.timestamp + '</td>' +
-      '<td style="padding:10px;"><span style="color:' + badgeColor + ';background:' + badgeBg + ';border:1px solid ' + badgeColor + ';padding:2px 6px;border-radius:2px;font-family:&quot;Press Start 2P&quot;,monospace;font-size:5px;">' + badgeText + '</span></td>' +
+      '<td style="padding:10px;white-space:nowrap;"><span style="color:' + badgeColor + ';background:' + badgeBg + ';border:1px solid ' + badgeColor + ';padding:3px 7px;border-radius:2px;font-family:&quot;Press Start 2P&quot;,monospace;font-size:6px;letter-spacing:0.5px;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;line-height:1;"><span style="font-size:9px;line-height:1;">' + badgeIcon + '</span><span>' + badgeLabel + '</span></span></td>' +
       '<td style="padding:10px;color:var(--teal);font-weight:600;">' + (r.page || '/').replace(/</g, '&lt;') + '</td>' +
       '<td style="padding:10px;color:#fff;">' + (r.label || '').replace(/</g, '&lt;') + '</td>' +
       '<td style="padding:10px;color:var(--gold);">' + (r.referrer || 'Direct').replace(/</g, '&lt;') + '</td>' +

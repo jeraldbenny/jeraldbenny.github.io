@@ -94,6 +94,12 @@
     }
   }
 
+  // Security: Rate limiting & session cap to protect webhook from automated loop exhaustion
+  var lastEventTime = 0;
+  var sessionEventCount = 0;
+  var MAX_EVENTS_PER_SESSION = 60;
+  var MIN_EVENT_INTERVAL_MS = 600;
+
   // Dispatch event payload
   function dispatchEvent(eventData) {
     if (isBot()) return;
@@ -105,6 +111,12 @@
     if (q.includes('ops=') || q.includes('case=') || q.includes('autotest=')) return;
     if (document.documentElement.classList.contains('ops-embed') || (document.body && document.body.classList.contains('ops-embed'))) return;
     if (window.jbTrackerDisabled) return;
+
+    var now = Date.now();
+    if (now - lastEventTime < MIN_EVENT_INTERVAL_MS) return;
+    if (sessionEventCount >= MAX_EVENTS_PER_SESSION) return;
+    lastEventTime = now;
+    sessionEventCount++;
 
     var endpoint = getWebhookUrl();
     if (!endpoint) return;
@@ -120,7 +132,9 @@
       device: getDeviceType(),
       screen: window.innerWidth + 'x' + window.innerHeight,
       language: navigator.language || 'en',
-      sessionId: getSessionId()
+      sessionId: getSessionId(),
+      source: 'jb_web_client',
+      origin: window.location.origin || 'unknown'
     };
 
     var jsonString = JSON.stringify(payload);
