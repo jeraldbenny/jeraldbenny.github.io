@@ -10,7 +10,8 @@
 
     const isSubFolder = window.location.pathname.includes('/digifeed/') || 
                         window.location.pathname.includes('/digilab/') || 
-                        window.location.pathname.includes('/toolkit/');
+                        window.location.pathname.includes('/toolkit/') ||
+                        window.location.pathname.includes('/ops/');
 
     const link = document.createElement('link');
     link.rel = 'stylesheet';

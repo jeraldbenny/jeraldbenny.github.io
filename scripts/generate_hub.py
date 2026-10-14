@@ -5801,6 +5801,7 @@ async function opsViewLog(filename, btn) {{
 
 
 </script>
+<script src="../intel_bot.js"></script>
 </body>
 </html>'''
 
