@@ -243,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -379,7 +379,7 @@
   {
     "name": "Wireshark",
     "version": "4.6.9",
-    "released": "14 October 2026",
+    "released": "15 October 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [
@@ -756,7 +756,7 @@
       "Added `Azure.Monitor.Upload`, which uploads server-side artifact results to an Azure Monitor Log Analytics workspace. Takes a table name, a Data Collection Rule id, and either a client secret or a managed identity. (4974, 2026-09-04)"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
