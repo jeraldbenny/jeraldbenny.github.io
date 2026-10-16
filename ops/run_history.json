@@ -1,22 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T15:19:08.841584+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 5,
-    "sources_failed": 0,
-    "new_articles_count": 72,
-    "total_articles": 6027,
-    "runtime": "43 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": []
-  },
-  {
     "timestamp": "2026-07-09T15:57:59.575067+00:00",
     "sources_checked": 62,
     "sources_healthy": 10,
@@ -3023,6 +3006,29 @@
     "new_articles_count": 66,
     "total_articles": 13676,
     "runtime": "1 min 6 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:1: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-16T04:47:19.074534+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 63,
+    "total_articles": 13729,
+    "runtime": "1 min 8 sec",
     "api_status": {
       "NVD": "✔",
       "CISA": "✔",
