@@ -1,47 +1,17 @@
 {
-  "last_updated": "18 October 2026, 10:21 IST",
-  "total": 25,
+  "last_updated": "19 October 2026, 10:29 IST",
+  "total": 23,
   "articles": [
     {
-      "id": "c549025bcffd73d0a57b903087bba598",
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-17T15:18:51Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "9a0cd5bfb89f4150853a0548edfae29b",
-          "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants"
-        },
-        {
-          "id": "75d56c9332c3425f2c738a35e20169eb",
-          "title": "Inbox flooded with sign-up messages? How to handle email bombing - WeLiveSecurity"
-        }
-      ]
-    },
-    {
-      "id": "9a0cd5bfb89f4150853a0548edfae29b",
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "id": "7c86a93f000579e53fd839a06913eec3",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1600/connectwise.jpg",
-      "published": "2026-10-17T06:16:46Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTJ5xsWsmrBmF1q18Gi5uaokNeC6-M0VbSf0T5X3KMQH7QGMhC7mz4XB6TUJuE7P9tjknMAqaGQ-Iz_7UuQ-NdKKXJTgqLhHMipRcd57VUOpwfJ2xxO8Hq_PX8hotdp_KZddNDzfQFw3bLHbYYLasThNbqGlidzhZ485ApBIKh2KUgn4g6PeBbhMwhc0T/s1600/ms-connect.jpg",
+      "published": "2026-10-18T08:23:02Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,88 +20,587 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "c549025bcffd73d0a57b903087bba598",
-          "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack"
-        },
-        {
-          "id": "75d56c9332c3425f2c738a35e20169eb",
-          "title": "Inbox flooded with sign-up messages? How to handle email bombing - WeLiveSecurity"
-        }
-      ]
+      "collected_date": "19 Oct 2026",
+      "related": []
     },
     {
-      "id": "75d56c9332c3425f2c738a35e20169eb",
-      "title": "Inbox flooded with sign-up messages? How to handle email bombing - WeLiveSecurity",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOGIycnBZWHNkSTBXdnV0RmJTN0RRYW1BbVJhRGtFT083SUVrSi10dFhxRmw2OG1rcXpyOWJ0azJWVUhmMnliZEFCY0plam1vQ2hJbnVVSUFTQnZzbE01RTViYk5fMWZnYWpKVnJ5b0RJZmJkU05UWWpRMHJKSVlNeFA1S01CM0VkeWZuOGlqR3lGbXlJbUlB?oc=5",
-      "source": "ESET Research",
-      "source_icon": "🦠",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-16T15:35:18Z",
-      "published_fmt": "16 Oct 2026",
-      "plain_summary": "Inbox flooded with sign-up messages? How to handle email bombing WeLiveSecurity",
+      "id": "e18c0541529060ba7d125a6a1df99b96",
+      "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/",
+      "link": "https://threatfox.abuse.ch/ioc/1973878/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-19T04:55:48Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
       "deep_lore": "",
-      "category_tag": "DFIR Articles",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#dfir",
-        "#analysis"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
       ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
       "related": [
         {
-          "id": "c549025bcffd73d0a57b903087bba598",
-          "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack"
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
         },
         {
-          "id": "9a0cd5bfb89f4150853a0548edfae29b",
-          "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants"
+          "id": "f8f1fa1f16639f18f447af1189a95d8d",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/s/"
         }
       ]
     },
     {
-      "id": "79a06885d0a76736961d6a0c729d8c60",
-      "title": "Journal History - MDPI",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zWF8xaTBPM1dUR2RVcnFnTGJleDFnNnFrRWNIRWdjTW0tOHJLLUhnWWUxbF9XaEl6MHpQMzQ3ZzdCRWhKYWpVUjRtSm9sSFBpRm91b3hwQ0ZOUlFV?oc=5",
-      "source": "MDPI – Forensic Sciences",
-      "source_icon": "🔬",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-16T19:57:44Z",
-      "published_fmt": "16 Oct 2026",
-      "plain_summary": "Journal History MDPI",
+      "id": "73f002b3495118d8238b8d2afb8dfd21",
+      "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/",
+      "link": "https://threatfox.abuse.ch/ioc/1973876/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-10-19T04:50:48Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#forensics",
-        "#science"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
       ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
       "related": [
         {
-          "id": "75d56c9332c3425f2c738a35e20169eb",
-          "title": "Inbox flooded with sign-up messages? How to handle email bombing - WeLiveSecurity"
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
         },
         {
-          "id": "be100a7809ced2811e5154af8ad53577",
-          "title": "Update Chrome: Google fixes 37 security flaws, including seven critical bugs - Malwarebytes"
+          "id": "f8f1fa1f16639f18f447af1189a95d8d",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/s/"
         }
       ]
     },
     {
-      "id": "dec55b4b91b38d7fd5304ef3798258f2",
-      "title": "Research Paper: When do quantum views help? Complementary classical-quantum representations in multi-view fusion",
-      "link": "https://arxiv.org/abs/2610.21395v1",
+      "id": "f8f1fa1f16639f18f447af1189a95d8d",
+      "title": "[Threat IOC] Vidar url: https://v6.9wing.org/s/",
+      "link": "https://threatfox.abuse.ch/ioc/1973877/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-19T04:50:48Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "9ac6bad3c3fc67b67483011a61a2523a",
+      "title": "[Threat IOC] Vidar url: https://v6.9wing.org/k8/",
+      "link": "https://threatfox.abuse.ch/ioc/1973875/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-10-19T04:45:48Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "6f7b2a36bba25d742da839635e64a8b3",
+      "title": "[Threat IOC] Unknown malware url: https://ps-ps.cc/powershell/Loader.ps1",
+      "link": "https://threatfox.abuse.ch/ioc/1973874/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-10-19T04:44:21Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: wristhulk.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "06855bfb443fa27b11347e0aafb77615",
+      "title": "[Threat IOC] Vidar url: https://v6.9wing.org/r/",
+      "link": "https://threatfox.abuse.ch/ioc/1973873/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-10-19T04:40:48Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "fc6fc2e084906ada713be8d641b726bf",
+      "title": "[Threat IOC] Remcos ip:port: 172.111.150.135:29811",
+      "link": "https://threatfox.abuse.ch/ioc/1973872/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-19T04:40:04Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: ip:port. Threat Category: botnet_cc. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remcos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "c69a44c6b292d7dfd3a450b6344826ed",
+      "title": "[Threat IOC] AMOS sha256_hash: aeba6d2af47c87977b0525c6e640cb769b4bd3d866956f7dc8d0c6bab48e7495",
+      "link": "https://threatfox.abuse.ch/ioc/1973871/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-10-19T04:37:07Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#amos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "e18c0541529060ba7d125a6a1df99b96",
+          "title": "[Threat IOC] Vidar url: https://v6.9wing.org/az/"
+        },
+        {
+          "id": "73f002b3495118d8238b8d2afb8dfd21",
+          "title": "[Threat IOC] Vidar url: https://j.9kio.org/m/"
+        }
+      ]
+    },
+    {
+      "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+      "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21116",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-10-12T05:17:00Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "Out-of-bounds write in libsmkvextractor.so prior to SMR Oct-2026 Release 1 allows local attackers to write out-of-bounds memory.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        },
+        {
+          "id": "3f10bddbb60ab6e6179e379f7f598205",
+          "title": "[MEDIUM CVE] CVE-2026-21118 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "11069f8a07ab15f24d690a54af125787",
+      "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21117",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-10-12T05:17:00Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "Improper access control in CocktailBarService prior to SMR Oct-2026 Release 1 allows local attackers to access sensitive information.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "3f10bddbb60ab6e6179e379f7f598205",
+          "title": "[MEDIUM CVE] CVE-2026-21118 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "3f10bddbb60ab6e6179e379f7f598205",
+      "title": "[MEDIUM CVE] CVE-2026-21118 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21118",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-10-12T05:17:00Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "Improper access control in DownloadProvider prior to SMR Oct-2026 Release 1 allows local attackers to access files in scoped storage.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "fceb72480c93d7bbfc0b2d18b6f7e474",
+      "title": "[MEDIUM CVE] CVE-2026-108799 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108799",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-10-12T05:16:59Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "A vulnerability was determined in jackq XCMS up to 3fab5342cc509945a7ce1b8ec39d19f701b89261.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "b062c375a8bb27795f1a78daf100ea24",
+      "title": "[MEDIUM CVE] CVE-2026-108800 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108800",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-10-12T05:16:59Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "A vulnerability was identified in yangzongzhuan RuoYi 4.8.3. The affected element is an unknown function. Such manipulation leads to cross-site request forgery. The attack can be executed remotely.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a57deeece79e07ec98d8a212e171c677",
+      "title": "[LOW CVE] CVE-2026-108801 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108801",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-10-12T05:16:59Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "A security flaw has been discovered in prasathmani TinyFileManager up to 2.6. The impacted element is the function move_uploaded_file of the file tinyfilemanager.php.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#low-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "d4bc6a0c7528f9d3f0223af7bd8c68e9",
+      "title": "[HIGH CVE] CVE-2026-21114 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21114",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-10-12T05:16:59Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "Out-of-bounds write in libsmkvextractor.so prior to SMR Oct-2026 Release 1 allows local attackers to execute arbitrary code.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "d71d6dac72d2dd7ee549b91d998f7465",
+      "title": "[MEDIUM CVE] CVE-2026-21115 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21115",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-10-12T05:16:59Z",
+      "published_fmt": "12 Oct 2026",
+      "plain_summary": "Out-of-bounds write in libcodec2-sec-flacdec.so prior to SMR Oct-2026 Release 1 allows local attackers to write out-of-bounds memory.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
+        },
+        {
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "c4be13273d2ade365eee4de480b1a408",
+      "title": "Research Paper: ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+      "link": "https://arxiv.org/abs/2610.23656v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-10-15T07:15:23Z",
+      "image": "images/research_1.png",
+      "published": "2026-10-16T15:51:03Z",
+      "published_fmt": "16 Oct 2026",
+      "plain_summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at mixers or custodial services, and change tactics from one incident to the next.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 50,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "95c2264cb1f10a158716a63ff1d98702",
+          "title": "Research Paper: An Agentic ENF Framework for Forensic Video Authentication Against Generative AI"
+        },
+        {
+          "id": "d8bc220b4f89ef09dc2b274cd3c037e7",
+          "title": "Research Paper: From GAN-Based Models to GPT-5: A Taxonomy-Guided Study of Human Performance in Detecting Deepfake Face Images"
+        }
+      ]
+    },
+    {
+      "id": "95c2264cb1f10a158716a63ff1d98702",
+      "title": "Research Paper: An Agentic ENF Framework for Forensic Video Authentication Against Generative AI",
+      "link": "https://arxiv.org/abs/2610.22440v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-10-15T14:44:48Z",
       "published_fmt": "15 Oct 2026",
-      "plain_summary": "Recent studies have reported promising results from quantum machine learning in drug discovery, healthcare, materials science and cybersecurity.",
+      "plain_summary": "Generative models now synthesise video that is hard to distinguish from genuine footage, and learned detectors that key on a generator's artefacts degrade sharply on unseen models.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 30,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "c4be13273d2ade365eee4de480b1a408",
+          "title": "Research Paper: ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics"
+        },
+        {
+          "id": "d8bc220b4f89ef09dc2b274cd3c037e7",
+          "title": "Research Paper: From GAN-Based Models to GPT-5: A Taxonomy-Guided Study of Human Performance in Detecting Deepfake Face Images"
+        }
+      ]
+    },
+    {
+      "id": "d8bc220b4f89ef09dc2b274cd3c037e7",
+      "title": "Research Paper: From GAN-Based Models to GPT-5: A Taxonomy-Guided Study of Human Performance in Detecting Deepfake Face Images",
+      "link": "https://arxiv.org/abs/2610.23144v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-10-16T08:41:12Z",
+      "published_fmt": "16 Oct 2026",
+      "plain_summary": "Generative models for deepfakes have rapidly evolved from GAN-based architectures to diffusion models and multimodal large language models (MLLMs).",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -141,630 +610,109 @@
         "#machine-learning"
       ],
       "read_time": "2 min read",
-      "forensic_score": 85,
-      "collected_date": "18 Oct 2026",
+      "forensic_score": 20,
+      "collected_date": "19 Oct 2026",
       "related": [
         {
-          "id": "fe51c40d47401988ca77ee4b42ec6495",
-          "title": "Research Paper: CARE-SD: Explainable Reasoning Architecture for Local SLM Self-Disclosure Analysis in Textual Data"
-        }
-      ]
-    },
-    {
-      "id": "07fbb077e4364796442128c7ea96babd",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/",
-      "link": "https://threatfox.abuse.ch/ioc/1972246/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-10-18T04:50:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
+          "id": "84662dbeaee49eb0aaaacab112ed284d",
+          "title": "Research Paper: Deep Learning for Deepfake Image Detection: Comparative Model Evaluation and Gradient-Based Visual Attribution"
         },
         {
-          "id": "afa9ccd6cfd7120fdd4226789e67ad44",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/b7/"
+          "id": "0359d44cc6373ecfbc6fa8048245ab88",
+          "title": "Research Paper: Interpreting SSL Representations for Spoof Detection: a WavLM Study"
         }
       ]
     },
     {
-      "id": "7213dd74c115a83983cb7a2a61644dd5",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/",
-      "link": "https://threatfox.abuse.ch/ioc/1972245/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-10-18T04:45:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "afa9ccd6cfd7120fdd4226789e67ad44",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/b7/"
-        }
-      ]
-    },
-    {
-      "id": "afa9ccd6cfd7120fdd4226789e67ad44",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/b7/",
-      "link": "https://threatfox.abuse.ch/ioc/1972244/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-10-18T04:40:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "b328c4c925764b94cefa17b5091bd939",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/x5/",
-      "link": "https://threatfox.abuse.ch/ioc/1972243/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-10-18T04:35:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "39506aef738e08c5442a55b981345867",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/mf/",
-      "link": "https://threatfox.abuse.ch/ioc/1972242/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-18T04:30:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "573a96e85ad1fbb23f7afcad4b8a9d8f",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/sg/",
-      "link": "https://threatfox.abuse.ch/ioc/1972241/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-10-18T04:25:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "e846ee0cf3f82bb64e9b8f102ba45957",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/tx/",
-      "link": "https://threatfox.abuse.ch/ioc/1972240/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-10-18T04:20:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "58675e0256c83af562fe4bd1e1ad446b",
-      "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/d6/",
-      "link": "https://threatfox.abuse.ch/ioc/1972239/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-18T04:15:48Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#vidar"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "07fbb077e4364796442128c7ea96babd",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/vn/"
-        },
-        {
-          "id": "7213dd74c115a83983cb7a2a61644dd5",
-          "title": "[Threat IOC] Vidar url: https://hm.9nawin.org/rr/"
-        }
-      ]
-    },
-    {
-      "id": "c840ba93900272073fbfa6ef1e98254a",
-      "title": "[HIGH CVE] CVE-2026-103694 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103694",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-10-11T07:17:22Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "The Mobile builder WordPress plugin through 1.4.2 does not properly restrict which user meta keys a logged-in user can update through one of its REST routes, allowing any user with a self-registered account, such as a customer, to grant themselves the administrator role.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "188d4f51d3a9958a5c034723b2ce666e",
-          "title": "[HIGH CVE] CVE-2026-103695 in Various Systems"
-        },
-        {
-          "id": "5a998b305de4fb7587743100441df5ab",
-          "title": "[HIGH CVE] CVE-2026-104680 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "188d4f51d3a9958a5c034723b2ce666e",
-      "title": "[HIGH CVE] CVE-2026-103695 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103695",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_1.png",
-      "published": "2026-10-11T07:17:22Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "The Mobile builder WordPress plugin through 1.4.2 does not sanitise and escape a parameter before using it in a SQL statement, allowing unauthenticated users to perform SQL injection attacks.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "c840ba93900272073fbfa6ef1e98254a",
-          "title": "[HIGH CVE] CVE-2026-103694 in Various Systems"
-        },
-        {
-          "id": "5a998b305de4fb7587743100441df5ab",
-          "title": "[HIGH CVE] CVE-2026-104680 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "157a1471265e0fdcba05224a2f62fb97",
-      "title": "[CRITICAL CVE] CVE-2026-104028 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104028",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-10-11T07:17:22Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "The Anton Extensions WordPress plugin through 1.2.2 does not perform any capability check, nonce verification, or file-type validation before writing attacker-supplied content to an attacker-chosen path, allowing unauthenticated attackers to upload arbitrary PHP files and achieve remote code execution.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#critical-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "c840ba93900272073fbfa6ef1e98254a",
-          "title": "[HIGH CVE] CVE-2026-103694 in Various Systems"
-        },
-        {
-          "id": "188d4f51d3a9958a5c034723b2ce666e",
-          "title": "[HIGH CVE] CVE-2026-103695 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "5a998b305de4fb7587743100441df5ab",
-      "title": "[HIGH CVE] CVE-2026-104680 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104680",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-10-11T07:17:22Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "The Envira Gallery WordPress plugin before 1.16.2 does not verify that a user holds the capability WordPress reserves for installing Envira Gallery WordPress plugin before 1.16.2 code before processing its setup-wizard Envira Gallery WordPress plugin before 1.16.2-installation request, and does not restrict the installation to its own curated list, allowing a Multisite subsite Administrator to install an arbitrary WordPress.org-published Envira Gallery WordPress plugin before 1.16.2 into the network-shared Envira Gallery WordPress plugin before 1.16.2 directory, a privilege Multisite reserves for the network Super Admin.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "c840ba93900272073fbfa6ef1e98254a",
-          "title": "[HIGH CVE] CVE-2026-103694 in Various Systems"
-        },
-        {
-          "id": "188d4f51d3a9958a5c034723b2ce666e",
-          "title": "[HIGH CVE] CVE-2026-103695 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "4e85df58b1dc5a7dfabb4535d50b5f2e",
-      "title": "[HIGH CVE] CVE-2026-103305 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103305",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-10-11T07:17:21Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "The Prenotazioni WordPress plugin through 1.7.5 does not have authorisation and CSRF checks when saving its settings, and does not escape some of them when outputting them, allowing unauthenticated users to perform Stored Cross-Site Scripting attacks against administrators and site visitors.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "c840ba93900272073fbfa6ef1e98254a",
-          "title": "[HIGH CVE] CVE-2026-103694 in Various Systems"
-        },
-        {
-          "id": "188d4f51d3a9958a5c034723b2ce666e",
-          "title": "[HIGH CVE] CVE-2026-103695 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "4d0de3cb8f3da77fdc1d859f7a8b1697",
-      "title": "[LOW CVE] CVE-2026-108538 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108538",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-10-11T05:16:53Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "A security vulnerability has been detected in GPAC up to 26.07.0. The impacted element is the function gf_mx_v of the file utils/os_thread.c of the component MP4Box. Such manipulation leads to use after free.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "cc7b93465112f2223719b656bc802d0a",
-          "title": "[LOW CVE] CVE-2026-108539 in Various Systems"
-        },
-        {
-          "id": "2cb0ae1311228a0ade357d30279c9507",
-          "title": "[LOW CVE] CVE-2026-108523 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "cc7b93465112f2223719b656bc802d0a",
-      "title": "[LOW CVE] CVE-2026-108539 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108539",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
-      "published": "2026-10-11T05:16:53Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "A vulnerability was detected in GPAC up to 26.07.0. This affects the function gf_fq_pop of the file filter_core/filter_queue.c of the component MP4Box. Performing a manipulation results in use after free.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "4d0de3cb8f3da77fdc1d859f7a8b1697",
-          "title": "[LOW CVE] CVE-2026-108538 in Various Systems"
-        },
-        {
-          "id": "2cb0ae1311228a0ade357d30279c9507",
-          "title": "[LOW CVE] CVE-2026-108523 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2cb0ae1311228a0ade357d30279c9507",
-      "title": "[LOW CVE] CVE-2026-108523 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108523",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-10-11T05:16:52Z",
-      "published_fmt": "11 Oct 2026",
-      "plain_summary": "A vulnerability was determined in Studio-Saelix Sencho up to 0.94.1. This vulnerability affects unknown code of the file outboundTarget.ts of the component git-sources Browse API Endpoint.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "4d0de3cb8f3da77fdc1d859f7a8b1697",
-          "title": "[LOW CVE] CVE-2026-108538 in Various Systems"
-        },
-        {
-          "id": "cc7b93465112f2223719b656bc802d0a",
-          "title": "[LOW CVE] CVE-2026-108539 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "fe51c40d47401988ca77ee4b42ec6495",
-      "title": "Research Paper: CARE-SD: Explainable Reasoning Architecture for Local SLM Self-Disclosure Analysis in Textual Data",
-      "link": "https://arxiv.org/abs/2610.21151v1",
+      "id": "84662dbeaee49eb0aaaacab112ed284d",
+      "title": "Research Paper: Deep Learning for Deepfake Image Detection: Comparative Model Evaluation and Gradient-Based Visual Attribution",
+      "link": "https://arxiv.org/abs/2610.22676v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-10-15T03:07:24Z",
+      "image": "images/research_4.png",
+      "published": "2026-10-15T21:47:45Z",
       "published_fmt": "15 Oct 2026",
-      "plain_summary": "Cybersecurity interviews uncover critical security experiences, behaviors, and privacy concerns often not fully captured by conventional technical assessments.",
+      "plain_summary": "Synthetic facial imagery has made the distinction between authentic and generated content increasingly important for digital forensics and online trust.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
         "#research",
         "#arxiv",
         "#ai",
-        "#digital-forensics"
+        "#deep-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "19 Oct 2026",
+      "related": [
+        {
+          "id": "d8bc220b4f89ef09dc2b274cd3c037e7",
+          "title": "Research Paper: From GAN-Based Models to GPT-5: A Taxonomy-Guided Study of Human Performance in Detecting Deepfake Face Images"
+        },
+        {
+          "id": "0359d44cc6373ecfbc6fa8048245ab88",
+          "title": "Research Paper: Interpreting SSL Representations for Spoof Detection: a WavLM Study"
+        }
+      ]
+    },
+    {
+      "id": "0359d44cc6373ecfbc6fa8048245ab88",
+      "title": "Research Paper: Interpreting SSL Representations for Spoof Detection: a WavLM Study",
+      "link": "https://arxiv.org/abs/2610.23526v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-10-16T14:26:55Z",
+      "published_fmt": "16 Oct 2026",
+      "plain_summary": "Self-supervised speech models such as WavLM achieve strong spoofing detection performance, yet which layers encode the most spoof-relevant information and what acoustic properties they capture remain opaque.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai"
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "18 Oct 2026",
+      "collected_date": "19 Oct 2026",
       "related": [
         {
-          "id": "dec55b4b91b38d7fd5304ef3798258f2",
-          "title": "Research Paper: When do quantum views help? Complementary classical-quantum representations in multi-view fusion"
+          "id": "d8bc220b4f89ef09dc2b274cd3c037e7",
+          "title": "Research Paper: From GAN-Based Models to GPT-5: A Taxonomy-Guided Study of Human Performance in Detecting Deepfake Face Images"
+        },
+        {
+          "id": "84662dbeaee49eb0aaaacab112ed284d",
+          "title": "Research Paper: Deep Learning for Deepfake Image Detection: Comparative Model Evaluation and Gradient-Based Visual Attribution"
         }
       ]
     },
     {
-      "id": "4864321055de1de413aae9b760271b85",
-      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "id": "e0ea47db9537eb54b44b9ba80b19713c",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/github_3.png",
-      "published": "2026-10-17T14:32:48Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "image": "images/cve_3.png",
+      "published": "2026-10-18T14:23:16Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
       "deep_lore": "",
-      "category_tag": "GitHub Releases",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#github",
-        "#release"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
+      "collected_date": "19 Oct 2026",
       "related": [
         {
-          "id": "0ed9a47ea1d5b1959040499011b7744c",
-          "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon"
+          "id": "d3f7de6948a9097c6d0fed98174a3a1e",
+          "title": "[MEDIUM CVE] CVE-2026-21116 in Various Systems"
         },
         {
-          "id": "be100a7809ced2811e5154af8ad53577",
-          "title": "Update Chrome: Google fixes 37 security flaws, including seven critical bugs - Malwarebytes"
-        }
-      ]
-    },
-    {
-      "id": "0ed9a47ea1d5b1959040499011b7744c",
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8fNb_yEvP6C_CENfQMUx3EDGofY1ejEHusnumTjCLnX3s8pevEbl_cgrtFHhzeEUhyphenhyphenyKe_X41OzQOGL5zlXeLLBnj_ZrLqH1IUag1QWm4QS9V2hgc5ucEzEZKjhstvtde8CFs8anPSZv9w3op67F8Q_MHVC_demESnH8lpAYLLpIRizCyvF5gsi5PDKzm/s1600/npm-dll.jpg",
-      "published": "2026-10-17T11:11:56Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "4864321055de1de413aae9b760271b85",
-          "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon"
-        }
-      ]
-    },
-    {
-      "id": "be100a7809ced2811e5154af8ad53577",
-      "title": "Update Chrome: Google fixes 37 security flaws, including seven critical bugs - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzNsMmNlenZDS3dWU09zRXFkaVpGLUZRVFJobXRmU2RkNWs0Vm93c0ZENloxS2o3UVk3UHVicF9wZkhMTnpYNE9iZXc1c083cllUVGhrdlEwTW1zLVpWRnZpTUlFdWNzdXdaY3B3cmwzaWlFYWpOSDBFeWR2eS0zUkJiYWduRjkxTTdLWXV3OUJyOHdESmRnaW9fWHB5NTZsOTlyQnM3RzBBVU9HbmlMaE45RktONGlReUM4RzNR?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-15T14:28:50Z",
-      "published_fmt": "15 Oct 2026",
-      "plain_summary": "Update Chrome: Google fixes 37 security flaws, including seven critical bugs Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "18 Oct 2026",
-      "related": [
-        {
-          "id": "4864321055de1de413aae9b760271b85",
-          "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon"
-        },
-        {
-          "id": "75d56c9332c3425f2c738a35e20169eb",
-          "title": "Inbox flooded with sign-up messages? How to handle email bombing - WeLiveSecurity"
+          "id": "11069f8a07ab15f24d690a54af125787",
+          "title": "[MEDIUM CVE] CVE-2026-21117 in Various Systems"
         }
       ]
     }
