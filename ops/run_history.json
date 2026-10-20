@@ -1,31 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09T16:31:34.414170+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 20,
-    "sources_failed": 2,
-    "new_articles_count": 2,
-    "total_articles": 6175,
-    "runtime": "46 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "DFIR.Training",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "BleepingComputer",
-        "error": "403 Forbidden - WAF Block"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-11T07:58:10.368747+00:00",
     "sources_checked": 62,
     "sources_healthy": 19,
@@ -3028,6 +3002,29 @@
     "new_articles_count": 33,
     "total_articles": 13819,
     "runtime": "46 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:1: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-20T05:04:52.678552+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 60,
+    "total_articles": 13869,
+    "runtime": "1 min 2 sec",
     "api_status": {
       "NVD": "✔",
       "CISA": "✔",
