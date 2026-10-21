@@ -1,47 +1,17 @@
 {
-  "last_updated": "20 October 2026, 10:34 IST",
-  "total": 50,
+  "last_updated": "21 October 2026, 10:35 IST",
+  "total": 54,
   "articles": [
     {
-      "id": "c549dc21bc07713c650bc322bbc33da4",
-      "title": "Investigations and Analysis",
-      "link": "https://windowsir.blogspot.com/2026/10/investigations-and-analysis.html",
-      "source": "Windows Incident Response",
-      "source_icon": "🕵",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-19T14:03:16Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Something I've seen consistently, from the very beginning when I first brushed up against this business of \"digital forensics\", is the default focus on, \"...this is how you analyze this artifact...\", and rarely extending beyond that.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "4 min read",
-      "forensic_score": 30,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
-        },
-        {
-          "id": "75ec39f9f00f39652133a400c3593d1b",
-          "title": "Nikkei discloses third data breach in a month, 1.8M records exposed"
-        }
-      ]
-    },
-    {
-      "id": "727513399ff8eb70fe64e1f12abf7fe3",
-      "title": "InfoSec News Nuggets – 10/19/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-10-19-2026/",
+      "id": "a305b1a4a11244372430c29947c307f8",
+      "title": "InfoSec News Nuggets – 10/20/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-10-20-2026/",
       "source": "AboutDFIR",
       "source_icon": "📋",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-19T11:26:08Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Stolen ConnectWise ‘SkyKick’ credential exposed Microsoft 365 tenants ConnectWise has switched off its Cloud Backup service (formerly SkyKick) worldwide after attackers stole an application credential that let them sign into customers’ Microsoft 365 environments.",
+      "image": "images/dfir_3.png",
+      "published": "2026-10-20T12:02:25Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "ConnectWise suspends Cloud Backup service as hacker targets Microsoft 365 users ConnectWise has suspended its Cloud Backup service, formerly SkyKick, along with connected SaaS Security and Cloud Management services, after attackers abused a compromised credential tied to the app’s trusted OAuth integration to sign in to customers’ Microsoft 365 tenants.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,28 +20,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "8d3ffccd08b0c3eeca1ccb30aca80b70",
-          "title": "Week 42 – 2026 - This Week In 4n6"
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
         },
         {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
+          "id": "60d0ea043847f0285edcfd4f15bf6471",
+          "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates"
         }
       ]
     },
     {
-      "id": "75ec39f9f00f39652133a400c3593d1b",
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+      "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+      "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-19T21:49:48Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records. [...]",
+      "image": "images/dfir_1.png",
+      "published": "2026-10-21T01:01:50Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "A threat actor breached TeamUpdraft's website, a developer of popular WordPress backup and security plugins, potentially compromising UpdraftCentral connection keys that can send commands to connected websites. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -80,118 +50,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
+          "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software"
         },
         {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
+          "id": "670e4070fca889f9149d3a858d2d4a6b",
+          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites"
         }
       ]
     },
     {
-      "id": "0474b88715d072a16c3af9f9890c4498",
-      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-19T18:51:13Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
-        },
-        {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
-        }
-      ]
-    },
-    {
-      "id": "84ab166d5f429ade4864c3b89b60eac9",
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "link": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_Xo8mH5AxIDYx4hFrS1_uhblD0IoGUTo6bioM38mwy-whZAbcq1aaGeH1iZrS8nmk5Ow25NfX67HRXKiWFfzLc8C1A2zs2n948DwyW_NSSkowFDnEzxUofGxhNV72vTEWkgPmbO6XJyDUPwBR-lzSekj5_m8tY3JHjozUXETGEBg6GrLZrekhilW9W_R/s1600/plex-hack.jpg",
-      "published": "2026-10-19T17:32:13Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "1ee483b7d1d5fa7a24e80a9e9f2ed466",
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More"
-        },
-        {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
-        }
-      ]
-    },
-    {
-      "id": "0b3f51a826820dec848fb7f4388f2a6e",
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-19T17:27:15Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "The open-source AI coding project OpenCode has notified a small number of users that API keys they used with external providers were exposed in a security breach. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "921fe88e336054c9d69e3adcbdb93cd5",
-          "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia"
-        },
-        {
-          "id": "1ee483b7d1d5fa7a24e80a9e9f2ed466",
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More"
-        }
-      ]
-    },
-    {
-      "id": "3b11d16f1e05a4cca41d39b4f0fd10c3",
-      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+      "id": "60d0ea043847f0285edcfd4f15bf6471",
+      "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_2.png",
-      "published": "2026-10-19T14:55:23Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Microsoft has resolved a bug that caused games and apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 Windows 11 preview update (KB5124010). [...]",
+      "published": "2026-10-21T00:46:42Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "Certificate authority eMudhra revoked eight compromised intermediate certificates after researchers found their private keys were so weak that anyone could recover them almost instantly and use them to forge trusted certificates for legitimate websites.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -200,58 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
+          "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software"
         },
         {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
         }
       ]
     },
     {
-      "id": "1ee483b7d1d5fa7a24e80a9e9f2ed466",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTvDNJzlrpPvCifQ9zNcdkc0vjmmRwGCap_kODFlX5W_IimpUgTyObjSefO7gHjXKUMhEkIlmgnH1GbbbWna6eZWa8xcRDLXeRmYX0oSrhAgS8YXth6_T2CPXMMnZvgsf1Psq_DUB9JkjeELLHjnB2xFl9-8bM5BW19fJ1aHcOruzwKErZJkjwRBSRedBq/s1600/recap-1.jpg",
-      "published": "2026-10-19T14:14:07Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "921fe88e336054c9d69e3adcbdb93cd5",
-          "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia"
-        },
-        {
-          "id": "84ab166d5f429ade4864c3b89b60eac9",
-          "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor"
-        }
-      ]
-    },
-    {
-      "id": "38795045631e44fb14224fc393099bd3",
-      "title": "Inside the Underground Market for Know Your Client Services",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+      "id": "2ea30e32de9c30bf8ae6275e7b410544",
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-19T14:00:10Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Cybercriminals are selling forged identity documents, deepfake videos, and live verification services to help buyers bypass Know Your Client (KYC) checks.",
+      "image": "images/dfir_1.png",
+      "published": "2026-10-20T20:56:43Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -260,28 +110,88 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "921fe88e336054c9d69e3adcbdb93cd5",
-          "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia"
+          "id": "548ac6aa2a87eb986684185457d5e208",
+          "title": "Zeabur shutting down after second security breach in two months"
         },
         {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
+          "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software"
         }
       ]
     },
     {
-      "id": "4e575b1d65dbbb1f019f53e86d0b823e",
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "id": "548ac6aa2a87eb986684185457d5e208",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-10-20T19:33:02Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "2ea30e32de9c30bf8ae6275e7b410544",
+          "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow"
+        },
+        {
+          "id": "670e4070fca889f9149d3a858d2d4a6b",
+          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites"
+        }
+      ]
+    },
+    {
+      "id": "8f8c21de5192a6576a1ec1f5bbbc71fe",
+      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-10-20T18:11:03Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "d5e8e42ed380641415373cdb47fc6e4c",
+          "title": "What Security Teams Can Do To Tame Wild Code"
+        },
+        {
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
+        }
+      ]
+    },
+    {
+      "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1uAZRypeHl_8TjAU-3mwmvjdbCH0SZJwZBZOoEXcehaQfod9rpBvAl72JCjV8xF2KF4VbSVzWezAmkXjmbaxdIkK854Pa-yV4nkkRNe-l82mPM_VW1fLSE5Ib-RhyphenhypheneGga3KZ_9wQu76clTABJwGp_3N_M-6QBZMXFSISC56JWHVHpylO-uTenNO3kRlg/s1600/reco.gif",
-      "published": "2026-10-19T11:50:00Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1600/ecert.jpg",
+      "published": "2026-10-20T17:09:53Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -290,28 +200,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "1ee483b7d1d5fa7a24e80a9e9f2ed466",
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More"
+          "id": "60d0ea043847f0285edcfd4f15bf6471",
+          "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates"
         },
         {
-          "id": "921fe88e336054c9d69e3adcbdb93cd5",
-          "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia"
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
         }
       ]
     },
     {
-      "id": "fe8d0b1bc1ec14dcefb9d7f63ec5d63d",
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "id": "20aec5b8023e226c132721d94ce47566",
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-10-20T14:19:05Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software"
+        },
+        {
+          "id": "c8de6b8ee31844700fcc9799419df9a5",
+          "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies"
+        }
+      ]
+    },
+    {
+      "id": "670e4070fca889f9149d3a858d2d4a6b",
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKR22_EY_V4kc68OQN7vGigoOrsBiy_aMnJVifzUg15itznrR-KdvcSdcaVSGnA6A2kAgMCSUNbIoqzh10gy8wQzkpK55LJPTjPPoV73VzoJlNCtZOn0LltkE7gq8PwH29hLNlUn41qQV8A7fTGkCwHu2LQ0OtvvTFtNRHll7xY0_PUfQ5K08JtCWriXg/s1600/wifi.gif",
-      "published": "2026-10-19T06:29:44Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser&nbsp;disclosed&nbsp;on October 16.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYic0qXjDFjrKdw3Ed58Uv28Xt2G7GTuEZhXrAiV07Xnn_I9DPNeQuntZ-TNMi_4i0JdPOyLj4geWCj8K_Zv2OBO4qaujmlDFzBDljcRvvbDx-3r1hSDDaDN-mI3u61F2gJW6zhShFGLZBKrLM0k0Y9yl5-VOVXFHiJaEg3V65-yfT1yXWc5FSfaYLCKg/s1600/bot-attack.jpg",
+      "published": "2026-10-20T14:07:17Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -320,28 +260,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "c549dc21bc07713c650bc322bbc33da4",
-          "title": "Investigations and Analysis"
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
         },
         {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
+          "id": "548ac6aa2a87eb986684185457d5e208",
+          "title": "Zeabur shutting down after second security breach in two months"
         }
       ]
     },
     {
-      "id": "921fe88e336054c9d69e3adcbdb93cd5",
-      "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKMEs1Z25hNXg3bDh5QUdUcGFyVDFuRGZmQ3psYkNxczc0VDhpUDQwOUx2dHVESEhUcmpVclA3YmZ4ekRfZTlEaTVYVG5BQU9uSFpjOERza2IwWG5na2o2WWRsOERaQkpkYXpCbFRfZlgxcVRhMTZV?oc=5",
-      "source": "Google Threat Intel",
-      "source_icon": "🌐",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-18T19:52:06Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "AI agents don’t know what a hack is, and that is becoming an enterprise problem Tech Wire Asia",
+      "id": "c8de6b8ee31844700fcc9799419df9a5",
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "link": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-10-20T13:51:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -350,28 +290,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "0b3f51a826820dec848fb7f4388f2a6e",
-          "title": "OpenCode hack exposes API keys amid AI distillation attacks"
+          "id": "20aec5b8023e226c132721d94ce47566",
+          "title": "DHS bans DeepSeek products across US federal civilian agencies"
         },
         {
-          "id": "1ee483b7d1d5fa7a24e80a9e9f2ed466",
-          "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More"
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
         }
       ]
     },
     {
-      "id": "8d3ffccd08b0c3eeca1ccb30aca80b70",
-      "title": "Week 42 – 2026 - This Week In 4n6",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vT1R6RVhtYWM1ZnlnMkM0SWZJWlVQdXFVNURSSzRsaFdtOFhKRkJpa3RxbVZMTFM5LXA2YUdoS1RWaDhiMHVtQWxVakpySnNsbFk3LXQ3Sk9UVlNpYmtv?oc=5",
-      "source": "This Week in 4n6",
-      "source_icon": "📆",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-18T11:27:55Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "Week 42 – 2026 This Week In 4n6",
+      "id": "59b560383089d106f5388c6b72039a06",
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-10-20T13:18:36Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -380,28 +320,178 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "727513399ff8eb70fe64e1f12abf7fe3",
-          "title": "InfoSec News Nuggets – 10/19/2026"
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
         },
         {
-          "id": "921fe88e336054c9d69e3adcbdb93cd5",
-          "title": "AI agents don’t know what a hack is, and that is becoming an enterprise problem - Tech Wire Asia"
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
         }
       ]
     },
     {
-      "id": "a79549d7128797d92945c2adc884bac7",
-      "title": "How forensic science opened a student’s eyes to agriculture - AgriLife Today",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMS0tSENPTXRreTRsQS1FTVU0SjhXRkQzLWVBWFdYT1NZSUpJZTlQQ2hzZ1NfV2IyVFdXa2ZyLWJaYll2Q0hYS3RUTkladzN4SHNTOGVnR084ejVtVU5JYmRNakNvT3I4YUctVHpfMGd1STB3VHNQcEhpZXNJLUVaOGc3R0N5UGM1RE4wWVRhLVFHcWpsdE02QS1peWhxNG5PWlJF?oc=5",
+      "id": "0a7ec541bf67663142efc05d7d6389d8",
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "link": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cQrX8zsqCvWd9Pl1mfmh8oQBwRAG_IcrKQB-EpiVEn2GXf5UJBh0UrLXCKzAmJo2Z-Di9G7-16n5hV-gmtfMi-JtB9sOd9neC-b1-6CpErVOYE7CUjBmZhunV45nzsFcDr03rK5RA8q7gFZXIuJZ4c6ND0VSQHYuppDkdTqq04MI7nVCz-10-K-xmc0/s1600/iphone-spyware.jpg",
+      "published": "2026-10-20T12:59:44Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
+        },
+        {
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
+        }
+      ]
+    },
+    {
+      "id": "39cb5c3016ca64710be697dd569356ae",
+      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+      "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTtrA7WSHbxSgTUKrOz8Swz6vdK1sarnVj8fCSEjFPdIMyLbOCOIytF60D82szAQpXLHR0mXI3j4zcIobCRS2g8ZI6GkbuLTHkoM4OmkUAWD0P1D1KyYuYrSxWvbq7Yy6zJ-B03VGWxy49q1BUF4owk5gUAVBBd6g2v7xl28TT_ax7Il5ixELfwcBawpA/s1600/whatsapp-chatbot.jpg",
+      "published": "2026-10-20T11:41:06Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "670e4070fca889f9149d3a858d2d4a6b",
+          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites"
+        },
+        {
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
+        }
+      ]
+    },
+    {
+      "id": "d5e8e42ed380641415373cdb47fc6e4c",
+      "title": "What Security Teams Can Do To Tame Wild Code",
+      "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7Q3156iY5WJRnphGSZ5PuIiMopF0sG7ku3FR-WROda9fE4jCSIOQpClG1HOBRCvbuqDyLHgsC0N3UFjowgnXzZN4T1mDpkQbTz2gX7z4NRZsfoEpimVlZ7hevcXmeTfpOt1iFrHqvLXubegNIRz15gjlQNHIBBYzQVAmy8MNAGiZs6OXIEuWNntLwTlI/s1600/tines-main.jpg",
+      "published": "2026-10-20T11:33:04Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "548ac6aa2a87eb986684185457d5e208",
+          "title": "Zeabur shutting down after second security breach in two months"
+        },
+        {
+          "id": "8f8c21de5192a6576a1ec1f5bbbc71fe",
+          "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code"
+        }
+      ]
+    },
+    {
+      "id": "beb196cd477be6f42780dcb7b15511a7",
+      "title": "The journey of a paper unicorn: adventures inside a modern warehouse",
+      "link": "https://securelist.com/paper-unicorn-warehouse-security/121537/",
+      "source": "Securelist",
+      "source_icon": "🦠",
+      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/10/19144935/sas-paper-unicorn-warehouse-featured-image.jpg",
+      "published": "2026-10-20T07:00:45Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Kaspersky experts explain the security issues affecting warehouse environments. We break down initial access vectors specific to warehouses, and discuss the impact of a compromise.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
+        },
+        {
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
+        }
+      ]
+    },
+    {
+      "id": "4b8a57587b4f441a324da6faaff79ecc",
+      "title": "181: Ricky",
+      "link": "https://darknetdiaries.com/episode/181/",
+      "source": "Darknet Diaries",
+      "source_icon": "🎙️",
+      "image": "https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/7057/88c4d72a-2377-4fef-9dac-3cd23529b881/darknet-diaries-ep181-ricky.mp3",
+      "published": "2026-10-20T07:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Imagine driving down the road and your phone loses signal. Not just a lost signal, but it starts displaying SOS. Meaning no service configured at all. You can't make any calls, no data, no service. What goes through your head?",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "a305b1a4a11244372430c29947c307f8",
+          "title": "InfoSec News Nuggets – 10/20/2026"
+        },
+        {
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
+        }
+      ]
+    },
+    {
+      "id": "e3a2b00574e6ff8175eddde9d74bbe37",
+      "title": "Naughty Brad Pitt! Se7en’s Sloth Scene, What Would Real Forensics Find? - University of Lincoln",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaEVCMzFtRFRuMGtELWU3TkRNdXNocXlibzBYZjNWdUI0TVVPSHBZM2NBTi1HWUpuOEFHUzhUbnp1T0JVOVV1N29pYXMxVkgxVFlqX194NnZMcUJTbFRlTFdnUTdOUHBIZGN4d05mS1NSVVpLTUIzS2ZrbWpiWjRMX0VKM09ybEJZaWdKbDNFMHp4NmJxS3JoM3BOR2VBZGtoZS1LR3N5NXVDUQ?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-10-19T22:18:20Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "How forensic science opened a student’s eyes to agriculture AgriLife Today",
+      "image": "images/forensics_5.png",
+      "published": "2026-10-20T10:29:29Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Naughty Brad Pitt! Se7en’s Sloth Scene, What Would Real Forensics Find? University of Lincoln",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -410,88 +500,60 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "88026fad8dd301b51cf1a100ea428bbf",
-          "title": "Darmstadt Forensic Science Center: Lecture on DNA analysis - da.news"
+          "id": "0a7ec541bf67663142efc05d7d6389d8",
+          "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election"
         },
         {
-          "id": "8c4264a5054ca60c63cdde383cb7a53a",
-          "title": "Criminal justice researchers use statistical modeling to examine wrongful-conviction risk"
+          "id": "d5e8e42ed380641415373cdb47fc6e4c",
+          "title": "What Security Teams Can Do To Tame Wild Code"
         }
       ]
     },
     {
-      "id": "88026fad8dd301b51cf1a100ea428bbf",
-      "title": "Darmstadt Forensic Science Center: Lecture on DNA analysis - da.news",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01R2hZczJIdUFuRmZQalFGblV1ZVYwckxFY2dSeGdmdjlPcllhdUU0TXBBMHJRUWpJRVJNLXdRT3Zud1NfTjJfU2Q4SjZlQ0k3a0lnNG9YUVhzWGtWRjE0azF0WDdHdjh4TElUcHlsUWk0T1A2dkE?oc=5",
-      "source": "Google News: Forensic Biology",
-      "source_icon": "🧬",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-19T10:07:06Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Darmstadt Forensic Science Center: Lecture on DNA analysis da.news",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "a79549d7128797d92945c2adc884bac7",
-          "title": "How forensic science opened a student’s eyes to agriculture - AgriLife Today"
-        },
-        {
-          "id": "8c4264a5054ca60c63cdde383cb7a53a",
-          "title": "Criminal justice researchers use statistical modeling to examine wrongful-conviction risk"
-        }
-      ]
-    },
-    {
-      "id": "8c4264a5054ca60c63cdde383cb7a53a",
-      "title": "Criminal justice researchers use statistical modeling to examine wrongful-conviction risk",
-      "link": "https://phys.org/news/2026-10-criminal-justice-statistical-wrongful-conviction.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-sketch-of-a-clock-is.jpg",
-      "published": "2026-10-19T19:00:01Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "A University of Mississippi study is adding nuance to a debate over how often police interrogation tactics can produce false confessions leading to wrongful convictions.",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "a79549d7128797d92945c2adc884bac7",
-          "title": "How forensic science opened a student’s eyes to agriculture - AgriLife Today"
-        },
-        {
-          "id": "88026fad8dd301b51cf1a100ea428bbf",
-          "title": "Darmstadt Forensic Science Center: Lecture on DNA analysis - da.news"
-        }
-      ]
-    },
-    {
-      "id": "ec939fb9f65ff0bc7c7d02a1544687dc",
-      "title": "Research Paper: MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models",
-      "link": "https://arxiv.org/abs/2610.25626v1",
+      "id": "acf3a6febcc2518c3345d19e282a12e6",
+      "title": "Research Paper: Evidence-Grounded LLM-Assisted Android Mobile Forensic Reporting",
+      "link": "https://arxiv.org/abs/2610.26946v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-19T01:07:51Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Knowledge acquisition from black-box large language models (LLMs) offers a practical approach to adapting smaller student models.",
+      "image": "images/research_3.png",
+      "published": "2026-10-18T06:22:11Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "Large language models can assist forensic report drafting, but fluent output does not ensure evidentiary reliability.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 90,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "105ced1589fe900f0da9cc294beb70d0",
+          "title": "Research Paper: A Digital Twin to Improve Cyber-Social Impact"
+        },
+        {
+          "id": "1ed8f9876069140cce1910c11c88595a",
+          "title": "Research Paper: Bridging Digital Deception and Physical Fidelity: A Spatio-Temporal Attack on Cognitive Radars"
+        }
+      ]
+    },
+    {
+      "id": "105ced1589fe900f0da9cc294beb70d0",
+      "title": "Research Paper: A Digital Twin to Improve Cyber-Social Impact",
+      "link": "https://arxiv.org/abs/2610.28430v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-10-20T15:58:33Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The increasing complexity of Industrial Control Systems (ICS) and their integration with IT infrastructures has significantly expanded the cyber threat landscape.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -501,58 +563,283 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "55ed1983ee1fe1f914e7419b1aace096",
-          "title": "Research Paper: SemVideoSte: Agentic AI for Cross-Modal Semantic Video Steganography Communication"
+          "id": "1ed8f9876069140cce1910c11c88595a",
+          "title": "Research Paper: Bridging Digital Deception and Physical Fidelity: A Spatio-Temporal Attack on Cognitive Radars"
         },
         {
-          "id": "04306e46d07339d04d97a19890be46bd",
-          "title": "Research Paper: Spectrum of Liability: Forensically Sound Acquisition of Wireless Evidence for the Reconstruction of Maritime Cyber-Physical Incidents"
+          "id": "acf3a6febcc2518c3345d19e282a12e6",
+          "title": "Research Paper: Evidence-Grounded LLM-Assisted Android Mobile Forensic Reporting"
         }
       ]
     },
     {
-      "id": "55ed1983ee1fe1f914e7419b1aace096",
-      "title": "Research Paper: SemVideoSte: Agentic AI for Cross-Modal Semantic Video Steganography Communication",
-      "link": "https://arxiv.org/abs/2610.25257v1",
+      "id": "1ed8f9876069140cce1910c11c88595a",
+      "title": "Research Paper: Bridging Digital Deception and Physical Fidelity: A Spatio-Temporal Attack on Cognitive Radars",
+      "link": "https://arxiv.org/abs/2610.27585v1",
       "source": "arXiv",
       "source_icon": "🏆",
       "image": "images/research_1.png",
-      "published": "2026-10-18T13:20:45Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "We propose an agentic artificial intelligence (AI)-driven cross-modal semantic video steganography communication (SemVideoSte) scheme for secure cross-modal information transmission.",
+      "published": "2026-10-20T03:52:45Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "As cognitive radars evolve towards the end-to-end processing of one-dimensional complex baseband sequences, deep networks face severe adversarial threats.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
         "#research",
         "#arxiv",
-        "#ai"
+        "#ai",
+        "#deep-learning"
       ],
       "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "b05a7b0f0154dc96b11ea1776ca8c04b",
-          "title": "Research Paper: Shared-Private Cross-Modal Discrepancy Learning for Imbalanced Multi-Source Audio-Visual Deepfake Detection"
+          "id": "64fd8141be68049f6316097a8dcfee4e",
+          "title": "Research Paper: Media Intelligence Platform: Multimodal Detection of Synthetic and Manipulated Content"
         },
         {
-          "id": "ec939fb9f65ff0bc7c7d02a1544687dc",
-          "title": "Research Paper: MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models"
+          "id": "105ced1589fe900f0da9cc294beb70d0",
+          "title": "Research Paper: A Digital Twin to Improve Cyber-Social Impact"
         }
       ]
     },
     {
-      "id": "e46cfd407bddfebc810d58da41d82d3e",
-      "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/uf/",
-      "link": "https://threatfox.abuse.ch/ioc/1975057/",
+      "id": "47e9c996936339e93e723768e7d380e4",
+      "title": "Research Paper: Securing Agentic Commerce Through Behavior-Aware Fraud Detection and Cybersecurity for Trusted AI-Agent Payment Authorization",
+      "link": "https://arxiv.org/abs/2610.27483v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-10-20T01:48:14Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The growing use of autonomous artificial intelligence agents in digital commerce creates new security concerns involving agent impersonation, unauthorized payments, compromised agents, and misuse of delegated authority.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "df4fd1d8a7d2de4296af598beae0031d",
+          "title": "Research Paper: CyberHull: Deterministic Malicious URL Isolation via Convex Hull"
+        },
+        {
+          "id": "64fd8141be68049f6316097a8dcfee4e",
+          "title": "Research Paper: Media Intelligence Platform: Multimodal Detection of Synthetic and Manipulated Content"
+        }
+      ]
+    },
+    {
+      "id": "7a35d72270c1f1b05b05a1e6b1cf5a4a",
+      "title": "[KEV Active Exploit] CVE-2026-106931 in EG Secure Solutions SiteGuard Server Edition",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#egsecuresolutions"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "d15ee88a2ed1c5713ac6b76465709406",
+          "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server"
+        },
+        {
+          "id": "8e71282be32b090368dcda7dc95cdad6",
+          "title": "[KEV Active Exploit] CVE-2026-96655 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "d15ee88a2ed1c5713ac6b76465709406",
+      "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "images/cve_2.png",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#plex"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "8e71282be32b090368dcda7dc95cdad6",
+          "title": "[KEV Active Exploit] CVE-2026-96655 in Plex Media Server"
+        },
+        {
+          "id": "4362a74771a41d5cb24cb930a8e0ad93",
+          "title": "[KEV Active Exploit] CVE-2026-96654 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "8e71282be32b090368dcda7dc95cdad6",
+      "title": "[KEV Active Exploit] CVE-2026-96655 in Plex Media Server",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "images/cve_1.png",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#plex"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "d15ee88a2ed1c5713ac6b76465709406",
+          "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server"
+        },
+        {
+          "id": "4362a74771a41d5cb24cb930a8e0ad93",
+          "title": "[KEV Active Exploit] CVE-2026-96654 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "4362a74771a41d5cb24cb930a8e0ad93",
+      "title": "[KEV Active Exploit] CVE-2026-96654 in Plex Media Server",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#plex"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "d15ee88a2ed1c5713ac6b76465709406",
+          "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server"
+        },
+        {
+          "id": "8e71282be32b090368dcda7dc95cdad6",
+          "title": "[KEV Active Exploit] CVE-2026-96655 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "59adb61e49fd93bba3bf6d066b398af6",
+      "title": "[KEV Active Exploit] CVE-2026-96652 in Plex Media Server",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "images/cve_5.png",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#plex"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "d15ee88a2ed1c5713ac6b76465709406",
+          "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server"
+        },
+        {
+          "id": "8e71282be32b090368dcda7dc95cdad6",
+          "title": "[KEV Active Exploit] CVE-2026-96655 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "671a048c011b8338e36c4edaebc485d2",
+      "title": "[KEV Active Exploit] CVE-2026-110936 in Siemens Software Center",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-10-20T00:00:00Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#siemens"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "7a35d72270c1f1b05b05a1e6b1cf5a4a",
+          "title": "[KEV Active Exploit] CVE-2026-106931 in EG Secure Solutions SiteGuard Server Edition"
+        },
+        {
+          "id": "d15ee88a2ed1c5713ac6b76465709406",
+          "title": "[KEV Active Exploit] CVE-2026-96656 in Plex Media Server"
+        }
+      ]
+    },
+    {
+      "id": "f1ce14207ffc2bae722fbc7b2ea15540",
+      "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/oc/",
+      "link": "https://threatfox.abuse.ch/ioc/1976973/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-10-20T05:00:48Z",
-      "published_fmt": "20 Oct 2026",
+      "image": "images/malware_4.png",
+      "published": "2026-10-21T05:00:49Z",
+      "published_fmt": "21 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -564,27 +851,91 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "cebf15c7388fd50156f12c05dba0bbdd",
-          "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/x9/"
+          "id": "8780c97767d63ce6211204390507c1bc",
+          "title": "[Threat IOC] Vidar url: https://c.9winn.org/g"
         },
         {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
+          "id": "7e936703bdea91f6274347fd723ab449",
+          "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/aw/"
         }
       ]
     },
     {
-      "id": "cebf15c7388fd50156f12c05dba0bbdd",
-      "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/x9/",
-      "link": "https://threatfox.abuse.ch/ioc/1975056/",
+      "id": "8780c97767d63ce6211204390507c1bc",
+      "title": "[Threat IOC] Vidar url: https://c.9winn.org/g",
+      "link": "https://threatfox.abuse.ch/ioc/1976972/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-20T04:55:48Z",
-      "published_fmt": "20 Oct 2026",
+      "image": "images/malware_4.png",
+      "published": "2026-10-21T04:57:52Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "f1ce14207ffc2bae722fbc7b2ea15540",
+          "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/oc/"
+        },
+        {
+          "id": "7e936703bdea91f6274347fd723ab449",
+          "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/aw/"
+        }
+      ]
+    },
+    {
+      "id": "fffe3348dee5060c87d1f44968530a97",
+      "title": "[Threat IOC] Unknown Stealer sha256_hash: 0f36a0f09f9f24a507427f50d42c695e3ae81fc018a9f5dc4e3ff004f8307ab7",
+      "link": "https://threatfox.abuse.ch/ioc/1976971/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-10-21T04:57:15Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Stealer. Type: sha256_hash. Threat Category: payload. Reporter: rc4.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownstealer"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "951fc79cfc83c01880c4e6037c5a769b",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 717feceb76cec2ccef8269c1c738f5e22f3ce3181d399f75bda574ce3203657f"
+        },
+        {
+          "id": "268f615adf616dd438c3fe1df6c5ff28",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 85f18f0474af06d73ff543e5e1265e05dd8da7ea4549c1c24a0e9b140edb4466"
+        }
+      ]
+    },
+    {
+      "id": "7e936703bdea91f6274347fd723ab449",
+      "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/aw/",
+      "link": "https://threatfox.abuse.ch/ioc/1976970/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-10-21T04:55:48Z",
+      "published_fmt": "21 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: url. Threat Category: botnet_cc. Reporter: crep1x.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -596,27 +947,27 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "e46cfd407bddfebc810d58da41d82d3e",
-          "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/uf/"
+          "id": "f1ce14207ffc2bae722fbc7b2ea15540",
+          "title": "[Threat IOC] Vidar url: https://yb.abblbet.org/oc/"
         },
         {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
+          "id": "8780c97767d63ce6211204390507c1bc",
+          "title": "[Threat IOC] Vidar url: https://c.9winn.org/g"
         }
       ]
     },
     {
-      "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-      "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17",
-      "link": "https://threatfox.abuse.ch/ioc/1975055/",
+      "id": "951fc79cfc83c01880c4e6037c5a769b",
+      "title": "[Threat IOC] Unknown Loader sha256_hash: 717feceb76cec2ccef8269c1c738f5e22f3ce3181d399f75bda574ce3203657f",
+      "link": "https://threatfox.abuse.ch/ioc/1976969/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-10-20T04:54:22Z",
-      "published_fmt": "20 Oct 2026",
+      "image": "images/malware_4.png",
+      "published": "2026-10-21T04:54:33Z",
+      "published_fmt": "21 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Loader. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -628,59 +979,27 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "633796802fa010f5e3313c0bca323511",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 0229775513f13eec54bf2105537fb9512fb0741deed0f07b1f0a323f0600279a"
+          "id": "268f615adf616dd438c3fe1df6c5ff28",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 85f18f0474af06d73ff543e5e1265e05dd8da7ea4549c1c24a0e9b140edb4466"
         },
         {
-          "id": "aa30d69cd2d26cbb56910997b27876e1",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: c47583ad7634aae58698370056ca7317a9856e48d381f7cf1412eaa7f7b73476"
+          "id": "fffe3348dee5060c87d1f44968530a97",
+          "title": "[Threat IOC] Unknown Stealer sha256_hash: 0f36a0f09f9f24a507427f50d42c695e3ae81fc018a9f5dc4e3ff004f8307ab7"
         }
       ]
     },
     {
-      "id": "633796802fa010f5e3313c0bca323511",
-      "title": "[Threat IOC] Unknown Loader sha256_hash: 0229775513f13eec54bf2105537fb9512fb0741deed0f07b1f0a323f0600279a",
-      "link": "https://threatfox.abuse.ch/ioc/1975054/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-20T04:54:20Z",
-      "published_fmt": "20 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Loader. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownloader"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
-        },
-        {
-          "id": "aa30d69cd2d26cbb56910997b27876e1",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: c47583ad7634aae58698370056ca7317a9856e48d381f7cf1412eaa7f7b73476"
-        }
-      ]
-    },
-    {
-      "id": "aa30d69cd2d26cbb56910997b27876e1",
-      "title": "[Threat IOC] Unknown Loader sha256_hash: c47583ad7634aae58698370056ca7317a9856e48d381f7cf1412eaa7f7b73476",
-      "link": "https://threatfox.abuse.ch/ioc/1975053/",
+      "id": "268f615adf616dd438c3fe1df6c5ff28",
+      "title": "[Threat IOC] Unknown Loader sha256_hash: 85f18f0474af06d73ff543e5e1265e05dd8da7ea4549c1c24a0e9b140edb4466",
+      "link": "https://threatfox.abuse.ch/ioc/1976968/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_5.png",
-      "published": "2026-10-20T04:54:19Z",
-      "published_fmt": "20 Oct 2026",
+      "published": "2026-10-21T04:54:32Z",
+      "published_fmt": "21 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Loader. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -692,27 +1011,27 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
+          "id": "951fc79cfc83c01880c4e6037c5a769b",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 717feceb76cec2ccef8269c1c738f5e22f3ce3181d399f75bda574ce3203657f"
         },
         {
-          "id": "633796802fa010f5e3313c0bca323511",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 0229775513f13eec54bf2105537fb9512fb0741deed0f07b1f0a323f0600279a"
+          "id": "fffe3348dee5060c87d1f44968530a97",
+          "title": "[Threat IOC] Unknown Stealer sha256_hash: 0f36a0f09f9f24a507427f50d42c695e3ae81fc018a9f5dc4e3ff004f8307ab7"
         }
       ]
     },
     {
-      "id": "6a441fc2728aa28b8e04e5f460c40853",
-      "title": "[Threat IOC] Mirai sha256_hash: a6a8f49be35200b6d8121dac963fd319bbf334c765b20a177f66ae118a77e975",
-      "link": "https://threatfox.abuse.ch/ioc/1975052/",
+      "id": "4dcee3d6d65fd4f10c5f2fca47209fb3",
+      "title": "[Threat IOC] Mirai sha256_hash: a68c66b3945a66e75877accfc954b18f4323ac4e4cf027418449470c0af78b76",
+      "link": "https://threatfox.abuse.ch/ioc/1976967/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-10-20T04:54:18Z",
-      "published_fmt": "20 Oct 2026",
+      "image": "images/malware_2.png",
+      "published": "2026-10-21T04:54:31Z",
+      "published_fmt": "21 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -724,154 +1043,184 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
+          "id": "fffe3348dee5060c87d1f44968530a97",
+          "title": "[Threat IOC] Unknown Stealer sha256_hash: 0f36a0f09f9f24a507427f50d42c695e3ae81fc018a9f5dc4e3ff004f8307ab7"
         },
         {
-          "id": "633796802fa010f5e3313c0bca323511",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 0229775513f13eec54bf2105537fb9512fb0741deed0f07b1f0a323f0600279a"
+          "id": "951fc79cfc83c01880c4e6037c5a769b",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 717feceb76cec2ccef8269c1c738f5e22f3ce3181d399f75bda574ce3203657f"
         }
       ]
     },
     {
-      "id": "97b757439bdd483226afd26e26ae1cb3",
-      "title": "[Threat IOC] Aisuru ip:port: 89.19.220.21:8080",
-      "link": "https://threatfox.abuse.ch/ioc/1975051/",
+      "id": "61001d6ae88a1ce4a878b663c43d142d",
+      "title": "[Threat IOC] Chisel sha256_hash: 63c9066cae62f8ceb39f98088e6094ec59685bda55a49ad75164e17109bd397b",
+      "link": "https://threatfox.abuse.ch/ioc/1976966/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-20T04:53:50Z",
-      "published_fmt": "20 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Aisuru. Type: ip:port. Threat Category: botnet_cc. Reporter: Bitsight.",
+      "image": "images/malware_5.png",
+      "published": "2026-10-21T04:54:29Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Chisel. Type: sha256_hash. Threat Category: payload. Reporter: whack_sh.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#aisuru"
+        "#chisel"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "e46cfd407bddfebc810d58da41d82d3e",
-          "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/uf/"
+          "id": "fffe3348dee5060c87d1f44968530a97",
+          "title": "[Threat IOC] Unknown Stealer sha256_hash: 0f36a0f09f9f24a507427f50d42c695e3ae81fc018a9f5dc4e3ff004f8307ab7"
         },
         {
-          "id": "cebf15c7388fd50156f12c05dba0bbdd",
-          "title": "[Threat IOC] Vidar url: https://htj.abanda88.org/x9/"
+          "id": "951fc79cfc83c01880c4e6037c5a769b",
+          "title": "[Threat IOC] Unknown Loader sha256_hash: 717feceb76cec2ccef8269c1c738f5e22f3ce3181d399f75bda574ce3203657f"
         }
       ]
     },
     {
-      "id": "1ca47746b78a4186c1ecbf89a1045bbc",
-      "title": "[Threat IOC] AMOS sha256_hash: 9d0c0819b915625b6c7bc2898cb5f1248df6ab941ce86447c059c4d6de5e0002",
-      "link": "https://threatfox.abuse.ch/ioc/1975050/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-20T04:51:48Z",
-      "published_fmt": "20 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
+      "id": "843561239a8fc83d3f871bce95ae024d",
+      "title": "[MEDIUM CVE] CVE-2026-110451 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110451",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-10-14T05:16:43Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "Nix before 2.35.3 and Lix before 2.95.4 on macOS allow a Seatbelt sandbox escape (for an unconfined build) because a certain size threshold is mishandled.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#amos"
+        "#cve",
+        "#nvd",
+        "#medium-severity"
       ],
       "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "20 Oct 2026",
+      "forensic_score": 75,
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "d8f97f0ce51bf7972fb9cecdd3d9e85a",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 61806fd27c93892b7c553a0bfc9f1f40c129506a828596db61b73ef9023bdd17"
+          "id": "fbd7e85ac1f7da21267262feced8c84f",
+          "title": "[MEDIUM CVE] CVE-2026-110452 in Various Systems"
         },
         {
-          "id": "633796802fa010f5e3313c0bca323511",
-          "title": "[Threat IOC] Unknown Loader sha256_hash: 0229775513f13eec54bf2105537fb9512fb0741deed0f07b1f0a323f0600279a"
+          "id": "a1e6daf7df7564914dc4f1691f69825b",
+          "title": "[MEDIUM CVE] CVE-2026-101926 in Various Systems"
         }
       ]
     },
     {
-      "id": "8eab9573724f5230944a7daa5e6b8d14",
-      "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-54867",
+      "id": "fbd7e85ac1f7da21267262feced8c84f",
+      "title": "[MEDIUM CVE] CVE-2026-110452 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110452",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-14T05:16:43Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "The multi-user installer in Nix before 2.35.3 sets the ownership of store contents to the user (who invoked the installer) even though it should be root ownership.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "843561239a8fc83d3f871bce95ae024d",
+          "title": "[MEDIUM CVE] CVE-2026-110451 in Various Systems"
+        },
+        {
+          "id": "a1e6daf7df7564914dc4f1691f69825b",
+          "title": "[MEDIUM CVE] CVE-2026-101926 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a1e6daf7df7564914dc4f1691f69825b",
+      "title": "[MEDIUM CVE] CVE-2026-101926 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101926",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-10-14T05:16:42Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "The Hyyan WooCommerce Polylang Integration plugin for WordPress is vulnerable to SQL Injection via the 'variation_ids' parameter of the 'woocommerce_remove_variations' AJAX action in versions up to, and including, 1.5.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "843561239a8fc83d3f871bce95ae024d",
+          "title": "[MEDIUM CVE] CVE-2026-110451 in Various Systems"
+        },
+        {
+          "id": "fbd7e85ac1f7da21267262feced8c84f",
+          "title": "[MEDIUM CVE] CVE-2026-110452 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "c7bf087c6efd0f996cf805a42bc7dc99",
+      "title": "[MEDIUM CVE] CVE-2026-103369 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103369",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-10-14T05:16:42Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "The Social Share Buttons & Analytics Plugin – GetSocial.io plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'response' parameter in all versions up to, and including, 4.5 due to insufficient input sanitization and output escaping.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "843561239a8fc83d3f871bce95ae024d",
+          "title": "[MEDIUM CVE] CVE-2026-110451 in Various Systems"
+        },
+        {
+          "id": "fbd7e85ac1f7da21267262feced8c84f",
+          "title": "[MEDIUM CVE] CVE-2026-110452 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "227da7440bbb92ef54e6cc3786d4cb64",
+      "title": "[HIGH CVE] CVE-2026-105429 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105429",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-10-13T06:16:56Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Griden Responsive Slider responsive-slider allows Stored XSS.This issue affects Responsive Slider: from n/a through 0.1.9.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
-        },
-        {
-          "id": "e000238847ba3be4acfe583af15d0835",
-          "title": "[MEDIUM CVE] CVE-2026-108970 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-      "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108972",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-10-13T06:16:53Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A vulnerability was found in SourceCodester Human Resource Management System 1.0. Affected by this vulnerability is the function session_start of the file controller/employee.php of the component Employee Endpoint.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
-        },
-        {
-          "id": "e000238847ba3be4acfe583af15d0835",
-          "title": "[MEDIUM CVE] CVE-2026-108970 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "5bc09ee90cc2e95ca0aabfb4034310fd",
-      "title": "[HIGH CVE] CVE-2026-108971 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108971",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-10-13T06:16:50Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of the file bootloader_region.bin of the component Emergency HTTP Recovery Server.",
+      "published": "2026-10-14T05:16:42Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "Improper neutralization of special elements in the NetBird client SSH configuration manager (client/ssh/config/manager.go) in NetBird versions 0.60.0 through 0.74.6 allows a malicious or compromised peer to execute arbitrary commands on other NetBird client hosts.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -881,215 +1230,121 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
+          "id": "299632e789eb510a64bb423701acb2c0",
+          "title": "[HIGH CVE] CVE-2026-106931 in Various Systems"
         },
         {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
+          "id": "23b03f6632ca5de24ff84683cf222340",
+          "title": "[HIGH CVE] CVE-2026-110450 in Various Systems"
         }
       ]
     },
     {
-      "id": "e000238847ba3be4acfe583af15d0835",
-      "title": "[MEDIUM CVE] CVE-2026-108970 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108970",
+      "id": "299632e789eb510a64bb423701acb2c0",
+      "title": "[HIGH CVE] CVE-2026-106931 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-10-14T05:16:42Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "SiteGuard Server Edition contains an OS command injection vulnerability, which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "227da7440bbb92ef54e6cc3786d4cb64",
+          "title": "[HIGH CVE] CVE-2026-105429 in Various Systems"
+        },
+        {
+          "id": "23b03f6632ca5de24ff84683cf222340",
+          "title": "[HIGH CVE] CVE-2026-110450 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "23b03f6632ca5de24ff84683cf222340",
+      "title": "[HIGH CVE] CVE-2026-110450 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110450",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_3.png",
-      "published": "2026-10-13T06:16:47Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A vulnerability was detected in itsmeravitejak Online-Examination-System up to e6208e630b14657999bbfe4c9912302d2a1e2449. This affects the function MySQLDB::addNewUser of the file include/database.php of the component Registration Form.",
+      "published": "2026-10-14T05:16:42Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "Nix before 2.35.3 and Lix before 2.95.4 allow privilege escalation via a repair operation because it could destroy and then replace a store path before content verification.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
+          "id": "227da7440bbb92ef54e6cc3786d4cb64",
+          "title": "[HIGH CVE] CVE-2026-105429 in Various Systems"
         },
         {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
+          "id": "299632e789eb510a64bb423701acb2c0",
+          "title": "[HIGH CVE] CVE-2026-106931 in Various Systems"
         }
       ]
     },
     {
-      "id": "3e145617a4717990fb66f01efae65afc",
-      "title": "[MEDIUM CVE] CVE-2026-108969 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108969",
+      "id": "9773071431cbfa04ff9b2cb17a653e86",
+      "title": "[HIGH CVE] CVE-2026-101924 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101924",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-10-13T06:16:34Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A security vulnerability has been detected in itsmeravitejak Online-Examination-System up to e6208e630b14657999bbfe4c9912302d2a1e2449.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-14T05:16:41Z",
+      "published_fmt": "14 Oct 2026",
+      "plain_summary": "The NewStatPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions up to, and including, 1.4.5 via the 'Last referrers' meta box on the plugin's Overview admin page.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
+          "id": "227da7440bbb92ef54e6cc3786d4cb64",
+          "title": "[HIGH CVE] CVE-2026-105429 in Various Systems"
         },
         {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
+          "id": "299632e789eb510a64bb423701acb2c0",
+          "title": "[HIGH CVE] CVE-2026-106931 in Various Systems"
         }
       ]
     },
     {
-      "id": "33c4ec281609253acf52846c4b451f07",
-      "title": "[MEDIUM CVE] CVE-2026-108968 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108968",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-10-13T05:16:32Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A weakness has been identified in SourceCodester Performance Indicator System 1.0. The affected element is an unknown function of the file /opils/staff/sales_history.php. This manipulation of the argument ID causes sql injection.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
-        },
-        {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "b04f25f37e7a1ea0b077021c7ae44241",
-      "title": "[MEDIUM CVE] CVE-2026-108966 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108966",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-10-13T05:16:31Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A vulnerability was identified in SourceCodester Performance Indicator System 1.0. This issue affects some unknown processing of the file /opils/staff/product.php. The manipulation of the argument Category leads to sql injection.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
-        },
-        {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "405487bb7f9261ce4b7de57a0ffb06f5",
-      "title": "[MEDIUM CVE] CVE-2026-108967 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108967",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-10-13T05:16:31Z",
-      "published_fmt": "13 Oct 2026",
-      "plain_summary": "A security flaw has been discovered in SourceCodester Performance Indicator System 1.0. Impacted is an unknown function of the file /opils/staff/edit_credit.php. The manipulation of the argument credit results in sql injection.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
-        },
-        {
-          "id": "b5a3c9a78a744246ea63c9e07f77cc87",
-          "title": "[MEDIUM CVE] CVE-2026-108972 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "04306e46d07339d04d97a19890be46bd",
-      "title": "Research Paper: Spectrum of Liability: Forensically Sound Acquisition of Wireless Evidence for the Reconstruction of Maritime Cyber-Physical Incidents",
-      "link": "https://arxiv.org/abs/2610.25411v1",
+      "id": "64fd8141be68049f6316097a8dcfee4e",
+      "title": "Research Paper: Media Intelligence Platform: Multimodal Detection of Synthetic and Manipulated Content",
+      "link": "https://arxiv.org/abs/2610.27974v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-10-18T17:09:31Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "Modern maritime navigation depends on mandatory wireless inputs, most notably GNSS and AIS, whose reception can be spoofed or jammed.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 60,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "ec939fb9f65ff0bc7c7d02a1544687dc",
-          "title": "Research Paper: MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models"
-        },
-        {
-          "id": "55ed1983ee1fe1f914e7419b1aace096",
-          "title": "Research Paper: SemVideoSte: Agentic AI for Cross-Modal Semantic Video Steganography Communication"
-        }
-      ]
-    },
-    {
-      "id": "b05a7b0f0154dc96b11ea1776ca8c04b",
-      "title": "Research Paper: Shared-Private Cross-Modal Discrepancy Learning for Imbalanced Multi-Source Audio-Visual Deepfake Detection",
-      "link": "https://arxiv.org/abs/2610.25301v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-10-18T14:34:38Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "Audio-visual deepfake detectors are often trained under a single dataset or manipulation regime, but multi-source training collections may contain heterogeneous attacks and uneven source distributions.",
+      "image": "images/research_3.png",
+      "published": "2026-10-20T10:18:49Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The rapid progress of generative artificial intelligence has led to a significant increase in manipulated multimedia content, including synthetic faces, forged videos, AI-generated images, fake audio, and locally edited images.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -1100,60 +1355,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 40,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "83201fcb9fdf1d8ab79c938b84f95575",
-          "title": "Research Paper: From Spectrograms to Shallow Speech SSL: Audio-Frontend Design for Generator-Disjoint and Low-Latency Audio--Visual Deepfake Detection"
+          "id": "1ed8f9876069140cce1910c11c88595a",
+          "title": "Research Paper: Bridging Digital Deception and Physical Fidelity: A Spatio-Temporal Attack on Cognitive Radars"
         },
         {
-          "id": "8250bf7e9224c8642288e230efb06e18",
-          "title": "Research Paper: SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection"
+          "id": "47e9c996936339e93e723768e7d380e4",
+          "title": "Research Paper: Securing Agentic Commerce Through Behavior-Aware Fraud Detection and Cybersecurity for Trusted AI-Agent Payment Authorization"
         }
       ]
     },
     {
-      "id": "8250bf7e9224c8642288e230efb06e18",
-      "title": "Research Paper: SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection",
-      "link": "https://arxiv.org/abs/2610.24468v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-17T05:22:59Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "Real-time voice cloning has enabled large-scale streaming deepfake and vishing attacks, while existing Network Detection and Response (NDR) solutions rely on GPU-based post-processing that requires buffered audio and generalizes poorly to unseen speech synthesis models.",
+      "id": "c0aaca7debf3ee818379d60a87af42b7",
+      "title": "Operation FlashHole: Lazarus breaks security, defies control",
+      "link": "https://securelist.com/lazarus-operation-flashhole/121541/",
+      "source": "Securelist",
+      "source_icon": "🦠",
+      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/10/20205657/sas-lazarus-3_securelist-featured_1200x600.jpg",
+      "published": "2026-10-21T02:07:29Z",
+      "published_fmt": "21 Oct 2026",
+      "plain_summary": "Kaspersky researchers analyze Operation FlashHole – a recent complex attack by Lazarus, involving a sophisticated malware set, watering-hole technique and abuse of CrossWeb EX financial security software.",
       "deep_lore": "",
-      "category_tag": "Research Papers",
+      "category_tag": "Malware Intelligence",
       "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#media-forensics"
+        "#malware",
+        "#malware-bazaar"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Oct 2026",
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "b05a7b0f0154dc96b11ea1776ca8c04b",
-          "title": "Research Paper: Shared-Private Cross-Modal Discrepancy Learning for Imbalanced Multi-Source Audio-Visual Deepfake Detection"
+          "id": "c4669b7c7395592006e01982768e3711",
+          "title": "A week in security (October 12 – October 18) - Malwarebytes"
         },
         {
-          "id": "83201fcb9fdf1d8ab79c938b84f95575",
-          "title": "Research Paper: From Spectrograms to Shallow Speech SSL: Audio-Frontend Design for Generator-Disjoint and Low-Latency Audio--Visual Deepfake Detection"
+          "id": "2c3f5addfe62365baab1827052ce2cc1",
+          "title": "Man seeking love travels 2,000 km to meet an AI-generated woman - Malwarebytes"
         }
       ]
     },
     {
-      "id": "fcf1931a76753dc1190fa9ec6dcab96e",
-      "title": "Research Paper: Heart Signal (ECG) as Vibration Signature for Human Authentication Using TinyML",
-      "link": "https://arxiv.org/abs/2610.24761v1",
+      "id": "df4fd1d8a7d2de4296af598beae0031d",
+      "title": "Research Paper: CyberHull: Deterministic Malicious URL Isolation via Convex Hull",
+      "link": "https://arxiv.org/abs/2610.27675v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_1.png",
-      "published": "2026-10-17T16:06:20Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "Ensuring data security in the era of Artificial Intelligence (AI) and deepfake technology requires robust biometric systems.",
+      "image": "images/research_4.png",
+      "published": "2026-10-20T05:43:17Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The emergence of increasingly sophisticated and evasion-resistant phishing attack strategies represents a significant threat to modern cybersecurity, particularly in cyber-physical systems and internet-based networks.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -1162,124 +1415,30 @@
         "#ai",
         "#machine-learning"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 10,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "ec939fb9f65ff0bc7c7d02a1544687dc",
-          "title": "Research Paper: MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models"
-        },
-        {
-          "id": "55ed1983ee1fe1f914e7419b1aace096",
-          "title": "Research Paper: SemVideoSte: Agentic AI for Cross-Modal Semantic Video Steganography Communication"
-        }
-      ]
-    },
-    {
-      "id": "88b89d3537808f448b8dc604ece71434",
-      "title": "Research Paper: RiSE: Residual Subspace Expert for Generalizable Text-Centric Image Forgery Localization",
-      "link": "https://arxiv.org/abs/2610.24480v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-10-17T05:53:11Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "As AI-assisted image editing becomes increasingly prevalent, Text-Centric Image Forgery Localization (TFL) is essential for protecting trust in financial and legal records.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#media-forensics"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 10,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "8250bf7e9224c8642288e230efb06e18",
-          "title": "Research Paper: SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection"
-        },
-        {
-          "id": "ec939fb9f65ff0bc7c7d02a1544687dc",
-          "title": "Research Paper: MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models"
-        }
-      ]
-    },
-    {
-      "id": "83201fcb9fdf1d8ab79c938b84f95575",
-      "title": "Research Paper: From Spectrograms to Shallow Speech SSL: Audio-Frontend Design for Generator-Disjoint and Low-Latency Audio--Visual Deepfake Detection",
-      "link": "https://arxiv.org/abs/2610.24138v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-10-16T19:07:55Z",
-      "published_fmt": "16 Oct 2026",
-      "plain_summary": "Video-mediated conversational systems rely on synchronized speech and facial video, making audio--visual input integrity important for reliable perception.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#deep-learning"
-      ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "b05a7b0f0154dc96b11ea1776ca8c04b",
-          "title": "Research Paper: Shared-Private Cross-Modal Discrepancy Learning for Imbalanced Multi-Source Audio-Visual Deepfake Detection"
+          "id": "47e9c996936339e93e723768e7d380e4",
+          "title": "Research Paper: Securing Agentic Commerce Through Behavior-Aware Fraud Detection and Cybersecurity for Trusted AI-Agent Payment Authorization"
         },
         {
-          "id": "8250bf7e9224c8642288e230efb06e18",
-          "title": "Research Paper: SENTRY: A Streaming Edge Network Trust Engine for Real-Time Audio Deepfake Detection"
+          "id": "acf3a6febcc2518c3345d19e282a12e6",
+          "title": "Research Paper: Evidence-Grounded LLM-Assisted Android Mobile Forensic Reporting"
         }
       ]
     },
     {
-      "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+      "id": "58eae5ce988b0592a7d19fd87b64e331",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8zydF3pRz3L86iRbEdX23esEuSWg0nt4Zq-6jV1oJy7HCuQ0oxZThFma1tspyuxRo0VG0kkCA_GZNobZkykxlZIKUb22Iq7DSwRepN3yIEk5Lfn7EeYUX52_Gkbz0GmerEPMuRP2EZTGegoGZd-p_8zvZKen5n8IZ9bm3_533b1aMXzdRKCNICkYzYJ7z/s1600/romulus.jpg",
-      "published": "2026-10-20T04:05:58Z",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3BuJLxcpzxzxwpUcwsPb7L-gNCeXeyuPtNysOMHtf06VmANCx2DR3O52Puw9AQwUu0C8ccQ77MF_l0bAf4zL-hrvYO8jSHs6Km0Xz6-Q4yYm1thRvJ-y59qLRX9Qni0zD161qJ53oCgzEIo3NjOLKtgOrIAbOMsAhITOhL9qoy2v9D6tRU26m0fBoMDhJ/s1600/fort-poc.jpg",
+      "published": "2026-10-20T15:38:52Z",
       "published_fmt": "20 Oct 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "bd6e182ba5e2b738a4ad7182d9eeb5a7",
-          "title": "Hackers hijack AOMEI update servers to secretly spread malware"
-        },
-        {
-          "id": "5cc0925281903e23ec690fe7574ff95a",
-          "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor"
-        }
-      ]
-    },
-    {
-      "id": "dfc854f2e2f81ed0067f1173b81ef497",
-      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
-      "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
-      "source": "Unit 42",
-      "source_icon": "🔍",
-      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/06/07_Vulnerabilities_1920x900.jpg",
-      "published": "2026-10-19T22:35:42Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257.",
+      "plain_summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1288,88 +1447,88 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "a854a870346786d44850c693592c1fc4",
-          "title": "BeyondTrust Remote Support CVE-2026-102764: Zero-Day Exploited Since August, Now in CISA KEV - Rescana"
+          "id": "641b8aa619ca3778d2a2ded5fa1bede2",
+          "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA"
         },
         {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
+          "id": "9c5dc91d0e8de2f811fd71fb2263507a",
+          "title": "There's only so much code: the rise in vulnerability numbers"
         }
       ]
     },
     {
-      "id": "8b434aa1867a282c823507c367fedca5",
-      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/malware_2.png",
-      "published": "2026-10-19T21:24:51Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack last week. [...]",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "5cc0925281903e23ec690fe7574ff95a",
-          "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor"
-        },
-        {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
-        }
-      ]
-    },
-    {
-      "id": "bd6e182ba5e2b738a4ad7182d9eeb5a7",
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/malware_5.png",
-      "published": "2026-10-19T19:40:58Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.a [...]",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "6443aaaa2192120573b9a19eda5b8b37",
-          "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic"
-        },
-        {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
-        }
-      ]
-    },
-    {
-      "id": "5cc0925281903e23ec690fe7574ff95a",
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "link": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "id": "641b8aa619ca3778d2a2ded5fa1bede2",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja-6AhEjL8YvRsoNjXIIDEnsVd8gMMW_cUqMvLNcRukJXjatSuo-phLfYxt2A76gSCk-uZFmo4EbJjQuMr8_k8Pxl2ho1TnUL_50Q_VknkR8JqnTiVOqZ48i5W6Mv6HB0cQfJoAjs8xHUu6urkucsPClURVP3aWM0aivfngCFZLykMYzJITwenYfSb9Sk/s1600/wordpress-rank.jpg",
-      "published": "2026-10-19T16:28:47Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd71tvun8MRT5muo9ZiruSzkyqhGkeh-_5dP4QardwiC54o4wW3PtC7I1jtP_vVX1rPujN_YdrmILFSZw_Ikl6v8Gn2w75v-90aSHpnngi2WE-Ezv6OAO37YY4pJpNwe_DcGWRMgIOUxAEPyVisI3SxXnV30HejoGfGtlXDfAgGkdqrdFJjAI7x6jjFFj-/s1600/palo-ransomware.jpg",
+      "published": "2026-10-20T15:32:27Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "58eae5ce988b0592a7d19fd87b64e331",
+          "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution"
+        },
+        {
+          "id": "9c5dc91d0e8de2f811fd71fb2263507a",
+          "title": "There's only so much code: the rise in vulnerability numbers"
+        }
+      ]
+    },
+    {
+      "id": "9c5dc91d0e8de2f811fd71fb2263507a",
+      "title": "There's only so much code: the rise in vulnerability numbers",
+      "link": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+      "source": "Cisco Talos Blog",
+      "source_icon": "🛡️",
+      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/10/on_the_radar.jpg",
+      "published": "2026-10-20T15:31:22Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "The September Microsoft Patch Tuesday release included 975 vulnerability advisories. This month, 1,415 vulnerabilities were just dropped. Compared to a pre-June average of 100 a month, that increase is staggering. Where did they come from?",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "58eae5ce988b0592a7d19fd87b64e331",
+          "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution"
+        },
+        {
+          "id": "641b8aa619ca3778d2a2ded5fa1bede2",
+          "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA"
+        }
+      ]
+    },
+    {
+      "id": "2c3f5addfe62365baab1827052ce2cc1",
+      "title": "Man seeking love travels 2,000 km to meet an AI-generated woman - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdmN4ZDlaNF9JZzBQOVNzamNDVjB5a1czOV94R3dBNTFqMHhsX1hMaHZDUjNWUVgwMnhaNkNCMENxblZUZUt3ZWwtMzVkTk1JTDk5YWtMSDNSTXdSSkhjV1FUcXlsRGdTRFRBVVBHUXQ1SmQzWmtjbzNOSXVHQUhaeTRKb2FsVVI1clJaTmhmVGZzMW8zWDJQVmVSTmV4MVE4QmVVVVFwY1RZUURFWW9V?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_5.png",
+      "published": "2026-10-20T13:29:23Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Man seeking love travels 2,000 km to meet an AI-generated woman Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1378,28 +1537,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "8b434aa1867a282c823507c367fedca5",
-          "title": "WordPress SEO plugin Rank Math compromised to backdoor websites"
+          "id": "4819f4284bbb71fb4b36473e38e761a3",
+          "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC - Malwarebytes"
         },
         {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
+          "id": "27074bda66ffd0132b9a6b854d3cf513",
+          "title": "Millions of California students’ sensitive data stolen in breach - Malwarebytes"
         }
       ]
     },
     {
-      "id": "2fe00a1e5958fa2133aa9af50b9b00c5",
-      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/github_3.png",
-      "published": "2026-10-19T13:49:24Z",
-      "published_fmt": "19 Oct 2026",
-      "plain_summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems. [...]",
+      "id": "179a7337cfd034c5098734f2f3494f36",
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "link": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgh12Jum-ReZMOyqaMubiLlMwx4-uDVxEJkD6-CJabWhHfCKV-Csw7P4MoeRX85Ag-3rxZMftHE6KGcdh059DoOPvF1Mirv05BQsflmg8RroWBt_t00BGTHsdhqkmVWVuRHKAs56AhNfdsq_YH0QWrMJ1z4dFT3I3xOK7Dwqu7aPp_P7tFSxQ-bzqyz8e4/s1600/go-certs.jpg",
+      "published": "2026-10-20T11:32:59Z",
+      "published_fmt": "20 Oct 2026",
+      "plain_summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -1408,19 +1567,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": []
+      "collected_date": "21 Oct 2026",
+      "related": [
+        {
+          "id": "9f9695e97b94ae78b7291c6c5ca2af4f",
+          "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software"
+        },
+        {
+          "id": "d9b959b2b3f8a99be2c1f83a201b49b8",
+          "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites"
+        }
+      ]
     },
     {
-      "id": "1f5b4f3065bd928abd02dd5fdc667387",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "source": "Krebs on Security",
-      "source_icon": "🕵️",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/10/shinywire-home.png",
-      "published": "2026-10-19T13:48:56Z",
+      "id": "4819f4284bbb71fb4b36473e38e761a3",
+      "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmNmRm9Kc0RyUnlIUDBkRXJMcmdmM3NQd2FPajNyNVhXVW1WQmE1bXpBTUZyZFdFejZLUGNTcWlHUlFEM3hEMFdkSTZhTHFsSWl0eGU5MjgyckxtU2tHQnRXWm1EeW5tRHg1X013bE1RU3dFSVAyeFVnQmZYQllsT01LdGhuX214TUlIbWh0Nk5RTWg2TGJkaWFkR0NESWlSMzAxSURrUzhvS0E0LWFUcDdYWDNJMVE?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_2.png",
+      "published": "2026-10-19T15:14:24Z",
       "published_fmt": "19 Oct 2026",
-      "plain_summary": "U.S.",
+      "plain_summary": "AOMEI Backupper update servers hijacked to push malware: Check your PC Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1429,28 +1597,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
+          "id": "2c3f5addfe62365baab1827052ce2cc1",
+          "title": "Man seeking love travels 2,000 km to meet an AI-generated woman - Malwarebytes"
         },
         {
-          "id": "8b434aa1867a282c823507c367fedca5",
-          "title": "WordPress SEO plugin Rank Math compromised to backdoor websites"
+          "id": "27074bda66ffd0132b9a6b854d3cf513",
+          "title": "Millions of California students’ sensitive data stolen in breach - Malwarebytes"
         }
       ]
     },
     {
-      "id": "e1bea989412a5be2a113fd63487a187d",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1600/git-font.jpg",
-      "published": "2026-10-19T13:05:45Z",
+      "id": "27074bda66ffd0132b9a6b854d3cf513",
+      "title": "Millions of California students’ sensitive data stolen in breach - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeVpCd0h1R3dkdDRlYXVtbGxrcmNWR2pXN2U0Q2M0c0JDa0wtZFlINHdtaXAyNHFGZFhmQjlTMEo5MTFESTBWWnFRQUZQZDhORjJQQ25DNGxYb0M4UWM4aWZWeWdXRmEwbVhneGRrdXpkRXBRWU5tUFJ1bVltdzJ0ZXE1RmR2V2oxSTVqdzR1eWRtcUZCREVFck82aXZtd2swSlowUkpzTkp4WTFIYW0zaEdSbThNeGlqTVlj?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_5.png",
+      "published": "2026-10-19T12:00:41Z",
       "published_fmt": "19 Oct 2026",
-      "plain_summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.",
+      "plain_summary": "Millions of California students’ sensitive data stolen in breach Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1459,28 +1627,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
+          "id": "2c3f5addfe62365baab1827052ce2cc1",
+          "title": "Man seeking love travels 2,000 km to meet an AI-generated woman - Malwarebytes"
         },
         {
-          "id": "8b434aa1867a282c823507c367fedca5",
-          "title": "WordPress SEO plugin Rank Math compromised to backdoor websites"
+          "id": "4819f4284bbb71fb4b36473e38e761a3",
+          "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC - Malwarebytes"
         }
       ]
     },
     {
-      "id": "6443aaaa2192120573b9a19eda5b8b37",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAw5A6yrE0NkMreq5lBZaS4ndrFrorAZaVrjJ218aS1RcJoQVYOJOVejIn8rBH5RHIIZ_cpvtzHnQMwMMWVOFbpfcs01tolLCmlYAY3qy-onWaOUQhzB6H2VjlWaUgBCL_0vAjRB7VmumClnaiIxDds6j9wD3lt9vD-kptWl6bUft29O6Z0cTNgBQV6t76/s1600/npm-apex.jpg",
-      "published": "2026-10-19T10:06:40Z",
+      "id": "c4669b7c7395592006e01982768e3711",
+      "title": "A week in security (October 12 – October 18) - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc09BY3RYM25hZGtxNnhnb2hqOVM2TGoyc3hZdjZfenQ5Zl9hTjdFWFNFQlo1ZGFpZS1KMjVXWWl6QV9sYU1aZXFrVEVvaWFtaTlHUzdmcUFNQ19nUW5fMWNHZVNJYVRXODdzZWlSc3BBOWJ0ZzQyU3ZBVHhBVnVxcmk5cFVXa1luS2lSNjNYbHg?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-10-19T07:07:36Z",
       "published_fmt": "19 Oct 2026",
-      "plain_summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.",
+      "plain_summary": "A week in security (October 12 – October 18) Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1489,45 +1657,15 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
+      "collected_date": "21 Oct 2026",
       "related": [
         {
-          "id": "bd6e182ba5e2b738a4ad7182d9eeb5a7",
-          "title": "Hackers hijack AOMEI update servers to secretly spread malware"
+          "id": "2c3f5addfe62365baab1827052ce2cc1",
+          "title": "Man seeking love travels 2,000 km to meet an AI-generated woman - Malwarebytes"
         },
         {
-          "id": "7ecbfdc7418eef49fc97fce7028c2a74",
-          "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware"
-        }
-      ]
-    },
-    {
-      "id": "a854a870346786d44850c693592c1fc4",
-      "title": "BeyondTrust Remote Support CVE-2026-102764: Zero-Day Exploited Since August, Now in CISA KEV - Rescana",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdVk1V2trVnB5MTd0VEVPT1lkRG15N0dzZXB6SlBJWW8wVXZTdTNHazNZRmdQVHhBRi1xUWV1NDRkOUZhYmZZeG1taTBlMFhrR1hEN3Z0SXNkMzJCWktpbTNsWm8yTHJ0dW5fTU8xeXh0UGVnVFRJSE9YZEx6ZDhENg?oc=5",
-      "source": "Google Threat Intel",
-      "source_icon": "🌐",
-      "image": "images/cve_1.png",
-      "published": "2026-10-17T07:00:00Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "BeyondTrust Remote Support CVE-2026-102764: Zero-Day Exploited Since August, Now in CISA KEV Rescana",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Oct 2026",
-      "related": [
-        {
-          "id": "dfc854f2e2f81ed0067f1173b81ef497",
-          "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)"
-        },
-        {
-          "id": "8eab9573724f5230944a7daa5e6b8d14",
-          "title": "[MEDIUM CVE] CVE-2026-54867 in Various Systems"
+          "id": "4819f4284bbb71fb4b36473e38e761a3",
+          "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC - Malwarebytes"
         }
       ]
     }

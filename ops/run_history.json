@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T07:58:10.368747+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 19,
-    "sources_failed": 3,
-    "new_articles_count": 50,
-    "total_articles": 6225,
-    "runtime": "1 min 2 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "DFIR.Training",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "This Week in 4n6",
-        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-      },
-      {
-        "name": "Didier Stevens",
-        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-11T07:59:56.177184+00:00",
     "sources_checked": 62,
     "sources_healthy": 19,
@@ -3037,6 +3007,29 @@
       {
         "name": "CrowdStrike Blog",
         "error": "<unknown>:2:1: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-21T05:05:54.120587+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 64,
+    "total_articles": 13923,
+    "runtime": "1 min 15 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
       }
     ]
   }
