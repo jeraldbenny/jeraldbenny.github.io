@@ -459,17 +459,16 @@
   },
   {
     "name": "Snort",
-    "version": "3.12.2.0",
-    "released": "23 April 2026",
+    "version": "3.12.4.0",
+    "released": "21 October 2026",
     "category": "Network Forensics",
     "github_repo": "snort3/snort3",
     "features": [
-      "Libdaq v3.0.27",
+      "Libdaq v3.0.28",
       "LibML v2.0.0"
     ],
     "bugs": [
-      "Appid: add nullchecks for appidDebug and appidthreadpegs",
-      "Appid: fix lua detector use-after-free during reload"
+      "Dce_rpc: fix uid, tid, fid quadratic search for splayed list"
     ]
   },
   {
