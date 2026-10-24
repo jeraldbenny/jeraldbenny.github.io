@@ -1,29 +1,29 @@
 {
   "sources_checked": 80,
-  "new_articles": 40,
+  "new_articles": 45,
   "critical_cves": 1,
-  "known_exploited": 0,
-  "new_tool_releases": 5,
-  "threat_reports": 10,
-  "top_story": "Railway warns devs to rotate secrets after potential breach",
-  "top_story_link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+  "known_exploited": 2,
+  "new_tool_releases": 2,
+  "threat_reports": 11,
+  "top_story": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts",
+  "top_story_link": "https://www.magnetforensics.com/blog/rdp-forensic-analysis-of-windows-remote-desktop-protocol-artifacts/",
   "trending_topics": [
     "Botnet",
-    "Vshell",
-    "Zero-Day"
+    "Arxiv",
+    "Jackskid"
   ],
   "recommended_reads": [
     {
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+      "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts",
+      "link": "https://www.magnetforensics.com/blog/rdp-forensic-analysis-of-windows-remote-desktop-protocol-artifacts/"
     },
     {
-      "title": "Capcom confirms data breach affecting 11.7 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/"
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
     },
     {
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
     }
   ]
 }

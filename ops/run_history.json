@@ -1,27 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11T08:16:05.678981+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 21,
-    "sources_failed": 1,
-    "new_articles_count": 5,
-    "total_articles": 6230,
-    "runtime": "47 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "DFIR.Training",
-        "error": "403 Forbidden - WAF Block"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-11T12:18:22.536366+00:00",
     "sources_checked": 62,
     "sources_healthy": 21,
@@ -3004,6 +2982,29 @@
     "new_articles_count": 48,
     "total_articles": 14019,
     "runtime": "3 min 5 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-24T04:51:47.864883+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 56,
+    "total_articles": 14070,
+    "runtime": "1 min 10 sec",
     "api_status": {
       "NVD": "✔",
       "CISA": "✔",
