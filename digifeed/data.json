@@ -1,437 +1,107 @@
 {
-  "last_updated": "24 October 2026, 10:21 IST",
-  "total": 51,
+  "last_updated": "25 October 2026, 10:30 IST",
+  "total": 30,
   "articles": [
     {
-      "id": "745df7d85a39902b0ffcd779742a9d54",
-      "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts",
-      "link": "https://www.magnetforensics.com/blog/rdp-forensic-analysis-of-windows-remote-desktop-protocol-artifacts/",
-      "source": "Magnet Forensics",
-      "source_icon": "🧲",
-      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/10/Remote-Desktop-Protocol-Blog-img-1.png",
-      "published": "2026-10-23T19:07:12Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Remote Desktop Protocol (RDP) leaves evidence on both sides of a connection. Learn what each RDP artifact can and can’t prove, and how to correlate them into a timeline.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "0f2175cedd51fb279a88a1757ec502bc",
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations"
-        },
-        {
-          "id": "33414c46bda9d120376c67b93235e751",
-          "title": "Microsoft: Windows Server 2016 reaches end of support in January"
-        }
-      ]
-    },
-    {
-      "id": "0f2175cedd51fb279a88a1757ec502bc",
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1600/uefi.jpg",
-      "published": "2026-10-23T18:50:13Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        },
-        {
-          "id": "33414c46bda9d120376c67b93235e751",
-          "title": "Microsoft: Windows Server 2016 reaches end of support in January"
-        }
-      ]
-    },
-    {
-      "id": "bad04b31d5974f86cde7a84cadbb0040",
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1600/1000117358.jpg",
-      "published": "2026-10-23T13:50:56Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "3c8eb4755a6259613b4866221c727a36",
-          "title": "Quest Diagnostics confirms data breach exposed patient records"
-        },
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        }
-      ]
-    },
-    {
-      "id": "e0c2be9d991af15cad6f21dfe8ba55f7",
-      "title": "InfoSec News Nuggets – 10/23/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-10-23-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-23T11:37:53Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "The internet is having a very bad cybersecurity day Security teams faced a pile-up of serious problems this week as AI-discovered critical vulnerabilities in PHP knocked government websites offline around the world and prompted the NSA to urge organizations to patch immediately or take affected systems offline.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        },
-        {
-          "id": "0f2175cedd51fb279a88a1757ec502bc",
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations"
-        }
-      ]
-    },
-    {
-      "id": "e258f9402b73fb095b3a7d15b860521b",
-      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-10-23T20:55:05Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "3c8eb4755a6259613b4866221c727a36",
-          "title": "Quest Diagnostics confirms data breach exposed patient records"
-        },
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        }
-      ]
-    },
-    {
-      "id": "2ffdf1770876de82ceaa58fd7392f26d",
-      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-23T18:54:41Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "15e33bd18084dcdf39a75495555781a1",
-          "title": "Detection Engineering: Stop Drowning in Alerts and Start Catching Bad Guys - Black Hills Information Security"
-        },
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        }
-      ]
-    },
-    {
-      "id": "33414c46bda9d120376c67b93235e751",
-      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-10-23T17:05:07Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        },
-        {
-          "id": "0f2175cedd51fb279a88a1757ec502bc",
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations"
-        }
-      ]
-    },
-    {
-      "id": "3c8eb4755a6259613b4866221c727a36",
-      "title": "Quest Diagnostics confirms data breach exposed patient records",
-      "link": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_3.png",
-      "published": "2026-10-23T16:40:07Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "bad04b31d5974f86cde7a84cadbb0040",
-          "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials"
-        },
-        {
-          "id": "e258f9402b73fb095b3a7d15b860521b",
-          "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks"
-        }
-      ]
-    },
-    {
-      "id": "6e639bb845f7c834a16168f2c63f2883",
-      "title": "You gave your AI agent access, but who is giving it orders?",
-      "link": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_5.png",
-      "published": "2026-10-23T14:00:10Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        },
-        {
-          "id": "0f2175cedd51fb279a88a1757ec502bc",
-          "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations"
-        }
-      ]
-    },
-    {
-      "id": "15e33bd18084dcdf39a75495555781a1",
-      "title": "Detection Engineering: Stop Drowning in Alerts and Start Catching Bad Guys - Black Hills Information Security",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvaVN1cDg0YVlDNWcxaHk5VXBsTTkycnFnejViaW5RclJocDhHWnpMeDVuVGx6el8xVGhGeXN5ZkhvcHdTdVIyc1hmUWFjUGFwUnVrb2hiVTluMEFJSTJHNlNnS2FaNUE?oc=5",
-      "source": "Black Hills InfoSec",
-      "source_icon": "⛰️",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-22T21:13:25Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Detection Engineering: Stop Drowning in Alerts and Start Catching Bad Guys Black Hills Information Security",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "2ffdf1770876de82ceaa58fd7392f26d",
-          "title": "Microsoft Teams to get AI-powered, context-aware phishing detection"
-        },
-        {
-          "id": "a5dea0943b6006b7499984e49d626b55",
-          "title": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration - WeLiveSecurity"
-        }
-      ]
-    },
-    {
-      "id": "a5dea0943b6006b7499984e49d626b55",
-      "title": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration - WeLiveSecurity",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXRLWVE0dFpCRDJFY05aYkF6Yi16Ni1CeDZpOWFyYzlMVmtmbzlETWdpc1JvZzRCSHJ2NzZuWHIzdWVSNkhWbGs4T3FpN1c1RkJNTnc2XzczcmlISlN6Y1ZIWUV0dDAwVGFkTkZBaE1oNnJvSzdreEVOaVYwZnBENFl6VFJkbXJhekNpa2VZanRUajc0UC1qRDFnanJXWHBEZkJxeXZnbUVMSDZRU3loU2RqWXdZWi16U3dWVFMzWmxjaUM0T2M1MHVESQ?oc=5",
-      "source": "ESET Research",
-      "source_icon": "🦠",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-22T14:06:48Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration WeLiveSecurity",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "15e33bd18084dcdf39a75495555781a1",
-          "title": "Detection Engineering: Stop Drowning in Alerts and Start Catching Bad Guys - Black Hills Information Security"
-        },
-        {
-          "id": "745df7d85a39902b0ffcd779742a9d54",
-          "title": "RDP: Forensic analysis of Windows Remote Desktop Protocol artifacts"
-        }
-      ]
-    },
-    {
-      "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-      "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWZJeG85ZzNIS01tZU50aGx5ajliUExaQ0czbEV1Z3d0bkNuSE1LZGtKR3NjMGszT2tRZ2lYUV8wUVV5bjZIMjZuQ09wZkxINThOby04em9HeTcwZkx0U2FwSGtjNFl1cllwdVlXekJMalJ4bTJhclIyTDMzWEVSeFk2QVpmNzhsMFp6dUpn?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-10-24T01:29:49Z",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROXFilBwGnS1Jb3AQ6nIinoxB1mh-7gsbdRfToYn8VReagY7IMb3CCVyZkzPFEfOHIkwnRxmOSeM30Gxp7e9uRzvuvEqQTmIMPilPM_IfujygTv6OfExi8kWoEhF42lBKok_gzwD4Md_daCMvVOtlf2pQT7mgtYuJA0TzJnhkM4PCycgKpf0XxIBQmI57/s1600/google-ai.jpg",
+      "published": "2026-10-24T10:36:33Z",
       "published_fmt": "24 Oct 2026",
-      "plain_summary": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case 조선일보",
+      "plain_summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "DFIR Articles",
       "tags": [
-        "#forensics",
-        "#science"
+        "#dfir",
+        "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "b5c8b64cc8848fb19912768f18be74f5",
-          "title": "Influential Women Highlights Kelly Crockett: Advancing Cold Case Investigations And Mentoring Forensic Professionals - EIN News"
+          "id": "f76395b595c2377d38f29d9979dd7593",
+          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
         },
         {
-          "id": "368df46b3db84e0da17cc41c73672b18",
-          "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com"
+          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
+          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
         }
       ]
     },
     {
-      "id": "368df46b3db84e0da17cc41c73672b18",
-      "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlhBMjVveXROQ0FCNVBsLUxCS3RHNlhNZkVoRXZGVVh4WGxDc05GbFl3OXRhd3VJRXJyZVlHWDk1ajkzQ2dIQzh3T0s1TjFjOTBhendoYURhRkNuNy1mQUxhR0l0U1N6aVUwaDhHWFh6WThaQlM2Y3A5NExNbHhJeVJ0QjVfVFUyNjBRUFhIVEVfSnVLZk9CaUx3UjdCaGRjS2R0RmtER3Z3cjdOWGx6YWE0Zw?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_2.png",
-      "published": "2026-10-23T20:00:42Z",
+      "id": "f76395b595c2377d38f29d9979dd7593",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1600/popcorn.jpg",
+      "published": "2026-10-24T09:04:24Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
+          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads"
+        },
+        {
+          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
+          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
+        }
+      ]
+    },
+    {
+      "id": "51625a9fa1dac9ad78ad709c05dd20ff",
+      "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iRjdBeTBqSS1xYVllU0lHLWJXOWtvem5zcDY5UEdlbF9tcGZla09PTUk1NTgzZmFJRmxscktXSEdOalNVbDQtYVJNVFZWaElldDJGZzJtcC1neVJINXM0ckpDUWNEMGp2Qjc1OUdYTlFqZnZa?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-10-23T20:04:47Z",
       "published_fmt": "23 Oct 2026",
-      "plain_summary": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science InkFreeNews.com",
+      "plain_summary": "(Reliable)? php2shell exploitability SANS Internet Storm Center",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "DFIR Articles",
       "tags": [
-        "#forensics",
-        "#science"
+        "#dfir",
+        "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-          "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보"
+          "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
+          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads"
         },
         {
-          "id": "cb49cab853905526c1afac424732fc8b",
-          "title": "Eritrea: Police personnel receive training in forensic chemistry - Zawya"
+          "id": "f76395b595c2377d38f29d9979dd7593",
+          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
         }
       ]
     },
     {
-      "id": "cb49cab853905526c1afac424732fc8b",
-      "title": "Eritrea: Police personnel receive training in forensic chemistry - Zawya",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONnI3alFGUW1aOU1yYl94T3c2NndXa1VDR2ZqRl9xTWFwbFl4XzllVXgwMmpFVVdBQXAxNzZFMjhBSlMzeXYzNzFrUTEwOVJBaXpKWmZlMDNQYUZDUWQwUnZ2NEk3QzlvcTQ3ZktaZVYzd0M5aElwd1Z0R05ab21mSjRIMzZCQXBBRXNUdnpjSHVsbk9RWEYzbGpib2Y4YVhLNHhMZEViREwwOHZZLUVDMnB5OFNiTjVGUGVIdWZzdUllWTVYcHQ5UnlnaUw?oc=5",
-      "source": "Google News: Forensic Chemistry",
-      "source_icon": "🧪",
-      "image": "images/forensics_5.png",
-      "published": "2026-10-23T19:11:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Eritrea: Police personnel receive training in forensic chemistry Zawya",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-          "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보"
-        },
-        {
-          "id": "368df46b3db84e0da17cc41c73672b18",
-          "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com"
-        }
-      ]
-    },
-    {
-      "id": "b5c8b64cc8848fb19912768f18be74f5",
-      "title": "Influential Women Highlights Kelly Crockett: Advancing Cold Case Investigations And Mentoring Forensic Professionals - EIN News",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMVpOc1dTS2dDb21ZZ3pfSHhzckpNSExkVzY2RHlQX1lTdk5WdXR4QkwtTjA2WC1MazZKUmdWRTVpQmlIS0tKWnpTdExfVFBGNGRYN3RpNnFaMWNlNEdqT3k2TzJBbElTcEIzYTlLakU2UXkyR1pFVlA3dGk5NlBubmU1Q0piWmxMNjBtbjZSRFVkZ0Y4RE8zVDgwUGdDUmdjeGl2TE1ZS1c4TVMxckJ6Y1RsLXR6SEU2bUtOMzJTZ3lLUDFSOUliaWdXUEl0RTBuLXFMQ2VNMWowVlVwYkNTdk90cXR6ZWllTDIyVXlR?oc=5",
+      "id": "239a454038b93b0358b119147b4033ee",
+      "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOa3JsTkU3cl9oZl9RYUgzYk1JNTJCMEpQRFZyQldCT1lIUE9RbDVMTEp0Y1dYZ0dXRGxqaEtlMkdrT2w0VDdCRi1BaExWY2ZWTElxMmFvYnRxakx5RmUxWFF2dHN0ZTlWQXc3dkRuZXZDMllfU0YtV3hzcV96ZDBJb3hnejBNQVpJcUhzX1R3OFg5UGVEbGF6X0c3NFVyVzdQMDk5QWtUN1JPaWF0SkJ2WFVlVGhLRG9UZ0JhNFZTR3Y1dzcwNlRLZVNBM1lCX2ZDbHdfVkFPUlY1UHhaR1lKeXoyMDRxeFRxVUZOT1ZyNjIwVEpvUE9XZTVuLXFwdUE?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
       "image": "images/forensics_4.png",
-      "published": "2026-10-23T12:04:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Influential Women Highlights Kelly Crockett: Advancing Cold Case Investigations And Mentoring Forensic Professionals EIN News",
+      "published": "2026-10-24T09:45:00Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "Federal grant will help Marshall forensic center complete genetic genealogy testing herald-dispatch.com",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -440,28 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-          "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보"
+          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
         },
         {
-          "id": "368df46b3db84e0da17cc41c73672b18",
-          "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com"
+          "id": "513ab0a8f1463993f8d8ba8fb9703256",
+          "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions"
         }
       ]
     },
     {
-      "id": "103e12427ade072bee9de53b38d4b9b3",
-      "title": "Former RISP detective Brian Andrews, mob associate Tony Fiore to deliver Oct. 23 URI Forensic Series lecture - The University of Rhode Island",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcHVsZHI3WEVGeUZFMGVxMlkwek83U2sya2RfMjBZR3pFeXBQWWI5bGMxV2l2UGkxY0hhWXlfel9vbzZ0N253ci1LTGk1RGZ1NTZOaDhWcmFlT1Ixcjg3dVFqYXdSOWl3QzVwSndHTk1QNW1OWWczanRhQWdwdEhsOHo5OTBXVzgtTHJHS3ZjV1VyM1U1RDNGTnRqbmVTVmd2ZHQzcDFkaF9HTEF0dFdLR2dvcGJtaS1Va1F0NVlNcVpuUDl6aVcxZXg2RlRhcXRxT0FBOHVFWQ?oc=5",
+      "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
+      "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZDY5Y3BlQ3ZDMEVEMmpOdG9sblBwNWJwNGtBUVNpT0JZdWpoOUlra0dxaWF1Ql9HUmpIbW1CUHZhVzl5U3pmc1hKTEVRcGdSdTcwWWlJVjc2SHhsckpHV2dxeW1IbmZFT0FuVEtGU2RsSUlGSmFsenJGTDFoWm9YRzNfTUdfN09UNldQdVVmY2hTamE2Z3huX01LZ3llTTVlel8tZjRNeUxPRnZ3b3Jfb1laR2czNFdHRDZMVTZJQUhpaXgzYXh1UWMybGswb056VVZqQ2FmN3BTVXVUZzFDdXoyQURCWmlIUnFhcVFjQkhYSTEyZzdod0cwNk5PUQ?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-10-22T16:00:59Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Former RISP detective Brian Andrews, mob associate Tony Fiore to deliver Oct. 23 URI Forensic Series lecture The University of Rhode Island",
+      "image": "images/forensics_2.png",
+      "published": "2026-10-24T09:45:00Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "Federal grant will help Marshall forensic center complete genetic genealogy testing lincolnjournal.com",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -470,28 +140,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-          "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보"
+          "id": "239a454038b93b0358b119147b4033ee",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
         },
         {
-          "id": "368df46b3db84e0da17cc41c73672b18",
-          "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com"
+          "id": "513ab0a8f1463993f8d8ba8fb9703256",
+          "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions"
         }
       ]
     },
     {
-      "id": "f539cd0347c263ae9e7a3e001703d0b5",
-      "title": "Paleolithic human DNA reveals east-west connections across Ice Age Europe",
-      "link": "https://phys.org/news/2026-10-paleolithic-human-dna-reveals-east.html",
-      "source": "Phys.org Forensics",
-      "source_icon": "📰",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ancient-human-dna-reve.jpg",
-      "published": "2026-10-23T14:00:11Z",
+      "id": "513ab0a8f1463993f8d8ba8fb9703256",
+      "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2taek91Q3Z2UVZfNGUtdl9IV2J3UVR5UmxaeEwxQ2VrSXZJb29UZDRRWUdvM0ppX2RKNWx2Qzhhb1NRVkt5YUJYdlpxVHZ3U01pY2t1U2szOVk0MGYxSTcwUzREZjJxVnFueGhFTEpnUnpDWWttc21MNHVfcnZHTWRlY0NqQ2xKYXhtWnhsRjF5dzNtRWpNQlYxUTVBZTRPMFdPUA?oc=5",
+      "source": "Google News: Forensic Chemistry",
+      "source_icon": "🧪",
+      "image": "images/forensics_4.png",
+      "published": "2026-10-23T21:01:05Z",
       "published_fmt": "23 Oct 2026",
-      "plain_summary": "More than 30,000 years ago, people associated with one of Europe's major Paleolithic cultures (the Gravettian) were more interconnected than previously thought.",
+      "plain_summary": "Eritrea: Police personnel receive training in forensic chemistry pan african visions",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -499,315 +169,120 @@
         "#science"
       ],
       "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 20,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "db278f4453cc2c5b2efb5e7f33e666c4",
-          "title": "Forensic Science Solves Neighbor Murder, 12-Year Cold Case - 조선일보"
+          "id": "239a454038b93b0358b119147b4033ee",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
         },
         {
-          "id": "368df46b3db84e0da17cc41c73672b18",
-          "title": "Science Of Decomposition: Where Fall Fun Meets Real‑World Forensic Science - InkFreeNews.com"
+          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
         }
       ]
     },
     {
-      "id": "bf793b03c81eec46eae1994af6813086",
-      "title": "[KEV Active Exploit] CVE-2026-114625 in Arista VeloCloud Orchestrator",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-10-23T00:00:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host.",
+      "id": "9bb7c91227ec72f19db1543674636592",
+      "title": "Delaware Missing Persons Day aims to help loved ones find answers - Delawareonline.com",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSW15V1ZxYTU1WlNybmZtdmZxTk9IcG02ZVotREo4aGlpUlp6TUpTVDFnYWdueFROSDZJX2tKWG1JQmhYTlQ1R1oxLWRCc2Jia2paSVN1ems5NzNEQl8yUlBuNHN0MTB3bkxmWU5KejFOTm5yMURVcFhqdHRyeGMxdW5ZSTVqTmtOOXNFeTV2dHlNRGZIUkpWdm9idlFMS195TTRkc05SMXE0Yk5aXzcwYU1DcTJHVHlxLWtaWUNtZUFLSl9JTjVKLTBQa0MxZTVYX08yODBGaURCdGxIQ1B4UWxhUWc3U3B6Q3hNRjJiMllFQ09UaE5uYkNnX0M?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_5.png",
+      "published": "2026-10-24T19:45:00Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "Delaware Missing Persons Day aims to help loved ones find answers Delawareonline.com",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Forensics",
       "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#arista"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "1c5c9c85288995d8beb81f2c820a180f",
-          "title": "[KEV Active Exploit] CVE-2026-110447 in Collabora Collabora Online – Built-in CODE Server"
-        },
-        {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "1c5c9c85288995d8beb81f2c820a180f",
-      "title": "[KEV Active Exploit] CVE-2026-110447 in Collabora Collabora Online – Built-in CODE Server",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-10-23T00:00:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#collabora"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "bf793b03c81eec46eae1994af6813086",
-          "title": "[KEV Active Exploit] CVE-2026-114625 in Arista VeloCloud Orchestrator"
-        },
-        {
-          "id": "b5d49dae84277ca11c14f052ddd37fa7",
-          "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image"
-        }
-      ]
-    },
-    {
-      "id": "0cbc4ddab5af5a475b6f950be69af19d",
-      "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition",
-      "link": "https://arxiv.org/abs/2610.30914v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-22T08:34:47Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Despite recent advances, deepfake detectors remain vulnerable to adversarial examples, particularly in diverse, real-world settings.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#deep-learning"
+        "#forensics",
+        "#science"
       ],
       "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "fecb4dbf669cb8811e2ad374e7ffae22",
-          "title": "Research Paper: Beyond End-to-End Recovery: Towards a Better Understanding of LLM Steganography via Rolewise Decomposition"
+          "id": "239a454038b93b0358b119147b4033ee",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
         },
         {
-          "id": "0174dbeb99c5d492fb7391603f02bea5",
-          "title": "Research Paper: Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems"
+          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
         }
       ]
     },
     {
-      "id": "bd53e20817da84b1ef7dd805f33ecc4e",
-      "title": "Research Paper: AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things",
-      "link": "https://arxiv.org/abs/2610.30713v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-22T04:30:48Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Modern Industrial Internet of Things (IIoT) im- plementations now connect edge gateways, cloud dashboards and business applications. This improves visibility and remote monitoring.",
+      "id": "92c9538a1f56a6e7dbc2fee8a858ae65",
+      "title": "Diatom Test Matches Lung Tissue to Drowning Site with 95 Percent Accuracy - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHdEYk1ycTc2SHpnaW1XRUUtLW5YWU9wcG9TbTJRXzJPRm1Dc0VXdGlWeWdoTllGamo0aW1YcEJPQ2RTaFNObXhKQTVtY0tuZWhLdWZZbVYxS2JHQjFwaEIwRlNiR2NuUGlVUGx6UW5KOG56NUZ1YXF1aDdJQ0g3aWZKa2dVdFRDYWRtSWVYZU9MQ0FLd0xQeFlxaVg5XzA?oc=5",
+      "source": "Intl Journal of Legal Medicine",
+      "source_icon": "⚖️",
+      "image": "images/forensics_2.png",
+      "published": "2026-10-24T09:48:40Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "Diatom Test Matches Lung Tissue to Drowning Site with 95 Percent Accuracy Bioengineer.org",
       "deep_lore": "",
-      "category_tag": "Research Papers",
+      "category_tag": "Forensics",
       "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#machine-learning"
+        "#forensics",
+        "#science"
       ],
       "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "e721badf5701b9620825ae155afc8427",
-          "title": "Research Paper: Bridging the Closed-World Gap: Interpretable Anomaly Detection via a Hybrid TSK-FCM Ensemble on the BETH Dataset"
+          "id": "239a454038b93b0358b119147b4033ee",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
         },
         {
-          "id": "0cbc4ddab5af5a475b6f950be69af19d",
-          "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition"
+          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
+          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
         }
       ]
     },
     {
-      "id": "e721badf5701b9620825ae155afc8427",
-      "title": "Research Paper: Bridging the Closed-World Gap: Interpretable Anomaly Detection via a Hybrid TSK-FCM Ensemble on the BETH Dataset",
-      "link": "https://arxiv.org/abs/2610.30576v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-22T01:11:25Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "A fundamental paradox plagues the deployment of Machine Learning in cybersecurity: supervised models generalize poorly to novel, Out-of-Distribution (OoD) attacks, whereas unsupervised models often suffer from poor separability, leading to unmanageable false-alarm rates.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#machine-learning"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "bd53e20817da84b1ef7dd805f33ecc4e",
-          "title": "Research Paper: AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things"
-        },
-        {
-          "id": "0cbc4ddab5af5a475b6f950be69af19d",
-          "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition"
-        }
-      ]
-    },
-    {
-      "id": "fecb4dbf669cb8811e2ad374e7ffae22",
-      "title": "Research Paper: Beyond End-to-End Recovery: Towards a Better Understanding of LLM Steganography via Rolewise Decomposition",
-      "link": "https://arxiv.org/abs/2610.30516v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-21T22:52:40Z",
-      "published_fmt": "21 Oct 2026",
-      "plain_summary": "In large language model (LLM) steganography, an encoder hides a private message in an otherwise ordinary response, as text transmitted to a decoder, who attempts to recover it.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "0cbc4ddab5af5a475b6f950be69af19d",
-          "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition"
-        },
-        {
-          "id": "e721badf5701b9620825ae155afc8427",
-          "title": "Research Paper: Bridging the Closed-World Gap: Interpretable Anomaly Detection via a Hybrid TSK-FCM Ensemble on the BETH Dataset"
-        }
-      ]
-    },
-    {
-      "id": "0174dbeb99c5d492fb7391603f02bea5",
-      "title": "Research Paper: Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-      "link": "https://arxiv.org/abs/2610.30418v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-10-21T20:25:11Z",
-      "published_fmt": "21 Oct 2026",
-      "plain_summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#deep-learning"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "0cbc4ddab5af5a475b6f950be69af19d",
-          "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition"
-        },
-        {
-          "id": "fecb4dbf669cb8811e2ad374e7ffae22",
-          "title": "Research Paper: Beyond End-to-End Recovery: Towards a Better Understanding of LLM Steganography via Rolewise Decomposition"
-        }
-      ]
-    },
-    {
-      "id": "2b759e1dd1a7d281d9a8ebb3d341132c",
-      "title": "[Threat IOC] Stealc url: https://claude-ai-fuliapi.pages.dev/downloads/latest.exe",
-      "link": "https://threatfox.abuse.ch/ioc/1982617/",
+      "id": "5f9308f155649f5d68491a0112f4dc55",
+      "title": "[Threat IOC] SmartLoader sha256_hash: 790568a9875ce37719c50249738e282d3e5a9dbf1e37199cbe86c65ca15ad980",
+      "link": "https://threatfox.abuse.ch/ioc/1984401/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-24T04:50:26Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Stealc. Type: url. Threat Category: payload_delivery. Reporter: LocalReporter.",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-10-25T04:55:14Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for SmartLoader. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#stealc"
+        "#smartloader"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "7618e08bd9b4dda1b2a9ea76325c5f94",
-          "title": "[Threat IOC] Stealc url: https://download-latest-ai-application.pages.dev/downloads/ChatGPT.exe"
+          "id": "1374f1e36327c085b527e0cf412650a3",
+          "title": "[Threat IOC] StrelaStealer domain: ontimejo.com"
         },
         {
-          "id": "db2ae4b51e1686378b11afe63f8cb562",
-          "title": "[Threat IOC] StrelaStealer domain: icysoftsolutions.com"
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
         }
       ]
     },
     {
-      "id": "7618e08bd9b4dda1b2a9ea76325c5f94",
-      "title": "[Threat IOC] Stealc url: https://download-latest-ai-application.pages.dev/downloads/ChatGPT.exe",
-      "link": "https://threatfox.abuse.ch/ioc/1982616/",
+      "id": "1374f1e36327c085b527e0cf412650a3",
+      "title": "[Threat IOC] StrelaStealer domain: ontimejo.com",
+      "link": "https://threatfox.abuse.ch/ioc/1984400/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-10-24T04:50:17Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Stealc. Type: url. Threat Category: payload_delivery. Reporter: LocalReporter.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#stealc"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "2b759e1dd1a7d281d9a8ebb3d341132c",
-          "title": "[Threat IOC] Stealc url: https://claude-ai-fuliapi.pages.dev/downloads/latest.exe"
-        },
-        {
-          "id": "db2ae4b51e1686378b11afe63f8cb562",
-          "title": "[Threat IOC] StrelaStealer domain: icysoftsolutions.com"
-        }
-      ]
-    },
-    {
-      "id": "db2ae4b51e1686378b11afe63f8cb562",
-      "title": "[Threat IOC] StrelaStealer domain: icysoftsolutions.com",
-      "link": "https://threatfox.abuse.ch/ioc/1982615/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-10-24T04:48:55Z",
-      "published_fmt": "24 Oct 2026",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-10-25T04:51:52Z",
+      "published_fmt": "25 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for StrelaStealer. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -819,188 +294,251 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "2b759e1dd1a7d281d9a8ebb3d341132c",
-          "title": "[Threat IOC] Stealc url: https://claude-ai-fuliapi.pages.dev/downloads/latest.exe"
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
         },
         {
-          "id": "7618e08bd9b4dda1b2a9ea76325c5f94",
-          "title": "[Threat IOC] Stealc url: https://download-latest-ai-application.pages.dev/downloads/ChatGPT.exe"
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
         }
       ]
     },
     {
-      "id": "ebe0459c0f7a5ab1ea0653a87c2d4ce4",
-      "title": "[Threat IOC] Jackskid ip:port: 142.93.10.139:443",
-      "link": "https://threatfox.abuse.ch/ioc/1982610/",
+      "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+      "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se",
+      "link": "https://threatfox.abuse.ch/ioc/1984398/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_4.png",
-      "published": "2026-10-24T04:44:11Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "published": "2026-10-25T04:51:26Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#jackskid"
+        "#clearfake"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "195f45fffaf137905e994d2effc96d79",
-          "title": "[Threat IOC] Jackskid ip:port: 159.223.142.230:443"
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
         },
         {
-          "id": "1fec6cf8c220f65b1d214d5849bbcd13",
-          "title": "[Threat IOC] Jackskid ip:port: 164.92.166.123:443"
+          "id": "051728a7d90829b578b5122d3ea73cc0",
+          "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app"
         }
       ]
     },
     {
-      "id": "195f45fffaf137905e994d2effc96d79",
-      "title": "[Threat IOC] Jackskid ip:port: 159.223.142.230:443",
-      "link": "https://threatfox.abuse.ch/ioc/1982611/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-24T04:44:11Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#jackskid"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "ebe0459c0f7a5ab1ea0653a87c2d4ce4",
-          "title": "[Threat IOC] Jackskid ip:port: 142.93.10.139:443"
-        },
-        {
-          "id": "1fec6cf8c220f65b1d214d5849bbcd13",
-          "title": "[Threat IOC] Jackskid ip:port: 164.92.166.123:443"
-        }
-      ]
-    },
-    {
-      "id": "1fec6cf8c220f65b1d214d5849bbcd13",
-      "title": "[Threat IOC] Jackskid ip:port: 164.92.166.123:443",
-      "link": "https://threatfox.abuse.ch/ioc/1982612/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-10-24T04:44:11Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#jackskid"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "ebe0459c0f7a5ab1ea0653a87c2d4ce4",
-          "title": "[Threat IOC] Jackskid ip:port: 142.93.10.139:443"
-        },
-        {
-          "id": "195f45fffaf137905e994d2effc96d79",
-          "title": "[Threat IOC] Jackskid ip:port: 159.223.142.230:443"
-        }
-      ]
-    },
-    {
-      "id": "1c60e6e0b8676ab963ce6567b87f84af",
-      "title": "[Threat IOC] Jackskid ip:port: 165.245.187.53:443",
-      "link": "https://threatfox.abuse.ch/ioc/1982613/",
+      "id": "df4cd3b10ccbd761aec400806b1fda01",
+      "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it",
+      "link": "https://threatfox.abuse.ch/ioc/1984399/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-10-24T04:44:11Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "published": "2026-10-25T04:51:26Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#jackskid"
+        "#clearfake"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "ebe0459c0f7a5ab1ea0653a87c2d4ce4",
-          "title": "[Threat IOC] Jackskid ip:port: 142.93.10.139:443"
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
         },
         {
-          "id": "195f45fffaf137905e994d2effc96d79",
-          "title": "[Threat IOC] Jackskid ip:port: 159.223.142.230:443"
+          "id": "051728a7d90829b578b5122d3ea73cc0",
+          "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app"
         }
       ]
     },
     {
-      "id": "5c6a43200731cf9614f8b2885a21d616",
-      "title": "[Threat IOC] Jackskid ip:port: 68.183.183.60:443",
-      "link": "https://threatfox.abuse.ch/ioc/1982614/",
+      "id": "051728a7d90829b578b5122d3ea73cc0",
+      "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app",
+      "link": "https://threatfox.abuse.ch/ioc/1984397/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-10-24T04:44:11Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Jackskid. Type: ip:port. Threat Category: botnet_cc. Reporter: deepfield.",
+      "image": "images/malware_3.png",
+      "published": "2026-10-25T04:47:16Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#jackskid"
+        "#clearfake"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "ebe0459c0f7a5ab1ea0653a87c2d4ce4",
-          "title": "[Threat IOC] Jackskid ip:port: 142.93.10.139:443"
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
         },
         {
-          "id": "195f45fffaf137905e994d2effc96d79",
-          "title": "[Threat IOC] Jackskid ip:port: 159.223.142.230:443"
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
         }
       ]
     },
     {
-      "id": "af3a0a41adce20e61f03bb9958758aae",
-      "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104122",
+      "id": "140ce060eb119d97fe1d5aeebc4c6da2",
+      "title": "[Threat IOC] ClearFake domain: punitbalangroup.com",
+      "link": "https://threatfox.abuse.ch/ioc/1984395/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-10-25T04:41:24Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+        },
+        {
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+        }
+      ]
+    },
+    {
+      "id": "0cc265c998484a9a4a70108c1f2a1f56",
+      "title": "[Threat IOC] ClearFake domain: rjcruzeiro.com.br",
+      "link": "https://threatfox.abuse.ch/ioc/1984396/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-10-25T04:41:24Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+        },
+        {
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+        }
+      ]
+    },
+    {
+      "id": "1405fc69c61cfcc121f3f3caeb907d60",
+      "title": "[Threat IOC] ClearFake domain: oticamel.com.br",
+      "link": "https://threatfox.abuse.ch/ioc/1984393/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-10-25T04:41:23Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
+          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+        },
+        {
+          "id": "df4cd3b10ccbd761aec400806b1fda01",
+          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+        }
+      ]
+    },
+    {
+      "id": "8f3ad11ae22669aed0930a060b9676e1",
+      "title": "[HIGH CVE] CVE-2026-110031 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110031",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The Ukr-To-Lat WordPress plugin through 1.3.5 does not sanitize and escape a term name before using it in a SQL query, allowing users with Contributor-level access and above to perform SQL injection attacks.",
+      "image": "images/cve_3.png",
+      "published": "2026-10-18T07:16:52Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "The Salon Booking System WordPress plugin before 10.31.11 does not prevent users holding its custom salon staff role from assigning arbitrary capabilities to other accounts when editing a customer, allowing them to escalate any account to administrator and take over the site.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "98ddadb579652a8e2481d09140f9ffe4",
+          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
+        },
+        {
+          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
+          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "98ddadb579652a8e2481d09140f9ffe4",
+      "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110032",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_3.png",
+      "published": "2026-10-18T07:16:52Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "The Salon Booking System WordPress plugin before 10.31.11 does not restrict which user account its salon staff roles may edit through the customers management screen, allowing users with the Salon Staff or Salon Worker role to reset any other user's role, including administrators, to a customer and to overwrite arbitrary profile fields on any account, leading to loss of administrative access and potential site lockout.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1010,28 +548,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
+          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
+          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
         },
         {
-          "id": "a701355143bcfea15c928bb5254366b1",
-          "title": "[MEDIUM CVE] CVE-2026-106470 in Various Systems"
+          "id": "e3ea0ad7576c8584666f96e76d54314d",
+          "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems"
         }
       ]
     },
     {
-      "id": "236ccdce321792faac229aa9b69dad21",
-      "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104246",
+      "id": "7a0a47207b299a2c047dc8865bb3d4ff",
+      "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110026",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The Contact Form 7 Signature Addon WordPress plugin through 4.2.2 does not sanitize a signature field value before building an email attachment path from it, allowing unauthenticated users to attach arbitrary files (bounded to wp-content on current Contact Form 7) to a form's outgoing email via path traversal; when a form is configured to email a copy to a submitter-controlled address, the attacker can read the targeted file.",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-18T07:16:51Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "The Tasty Recipes Lite WordPress plugin before 1.2.11 does not correctly check user capabilities when creating, renaming and deleting taxonomy terms, allowing users with a role as low as Contributor to add, rename and permanently delete terms in any taxonomy on the site, including categories, tags and navigation menus.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1041,28 +579,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
+          "id": "98ddadb579652a8e2481d09140f9ffe4",
+          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
         },
         {
-          "id": "a701355143bcfea15c928bb5254366b1",
-          "title": "[MEDIUM CVE] CVE-2026-106470 in Various Systems"
+          "id": "e3ea0ad7576c8584666f96e76d54314d",
+          "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems"
         }
       ]
     },
     {
-      "id": "a701355143bcfea15c928bb5254366b1",
-      "title": "[MEDIUM CVE] CVE-2026-106470 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106470",
+      "id": "e3ea0ad7576c8584666f96e76d54314d",
+      "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109937",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The WP Data Access WordPress plugin before 5.5.88 does not have authorisation and CSRF checks in one of its actions, allowing any authenticated user, such as a subscriber, to make the server open connections to arbitrary hosts and ports, including internal ones, and read back the outcome.",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-10-18T07:16:50Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "The Otter Blocks WordPress plugin before 3.2.3 does not validate that a user-supplied return URL belongs to the site before using it to build the return destination of a Stripe Checkout session, allowing unauthenticated attackers to redirect victims who complete or cancel checkout to an arbitrary external URL.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1072,152 +610,121 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
+          "id": "98ddadb579652a8e2481d09140f9ffe4",
+          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
         },
         {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
+          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
+          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
         }
       ]
     },
     {
-      "id": "f9d2cd08c21bf0987b001a27fa859aa9",
-      "title": "[MEDIUM CVE] CVE-2026-110527 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110527",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The WP User Manager WordPress plugin before 2.9.20 does not roll back the WordPress account it creates during payment-gated registration when the subsequent payment step fails, allowing unauthenticated users to create functional accounts without completing payment.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
-        },
-        {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "353a81afcf4b3d031405bb0b5bbb80a1",
-      "title": "[MEDIUM CVE] CVE-2026-81343 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81343",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The ACF Frontend Admin by DynamiApps WordPress plugin through 3.29.13 does not perform a capability check on one of its form-submission actions before writing submitted values into the site's global ACF options store, allowing unauthenticated visitors to overwrite site-wide option values via a public form.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
-        },
-        {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "daa8d215fe420881b31fdf9fc6143aa6",
-      "title": "[MEDIUM CVE] CVE-2026-81344 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81344",
+      "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
+      "title": "[LOW CVE] CVE-2026-111876 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111876",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The ACF Frontend Admin by DynamiApps WordPress plugin through 3.29.13 does not restrict which PHP classes may be instantiated when it deserialises stored post content that is rendered on public-facing pages, allowing high-privilege users such as administrators to inject a PHP object which, given a suitable POP chain in another installed ACF Frontend Admin by DynamiApps WordPress plugin through 3.29.13 or in WordPress core, can be leveraged to achieve remote code execution.",
+      "published": "2026-10-18T06:16:57Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "A vulnerability was found in alexpasmantier television up to 0.15.9. Affected by this issue is the function Entry::output of the file television/channels/entry.rs. Performing a manipulation of the argument raw results in command injection.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#low-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
+          "id": "46ab0c4d04b90162852871eb828ea941",
+          "title": "[LOW CVE] CVE-2026-111874 in Various Systems"
         },
         {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
+          "id": "1a86e1ee3bef8abea458e514ef595be4",
+          "title": "[LOW CVE] CVE-2026-111875 in Various Systems"
         }
       ]
     },
     {
-      "id": "ebbedaf4c53cc31d3510d5c1f4f8889a",
-      "title": "[MEDIUM CVE] CVE-2026-91074 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-91074",
+      "id": "46ab0c4d04b90162852871eb828ea941",
+      "title": "[LOW CVE] CVE-2026-111874 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111874",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
-      "published": "2026-10-17T06:16:33Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The BSK PDF Manager WordPress plugin through 3.8.1 does not properly sanitise and escape a parameter before using it in a SQL statement, which could allow authenticated users with contributor-level access and above to perform SQL injection attacks and read sensitive data such as administrator password hashes from the database.",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-10-18T06:16:56Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "A flaw has been found in OpenCATS 0.10.0. Affected is the function processLogin of the file modules/careers/CareersUI.php of the component Career Portal.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#low-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
+          "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
+          "title": "[LOW CVE] CVE-2026-111876 in Various Systems"
         },
         {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
+          "id": "1a86e1ee3bef8abea458e514ef595be4",
+          "title": "[LOW CVE] CVE-2026-111875 in Various Systems"
         }
       ]
     },
     {
-      "id": "d4d9b11e561a084241b2c6b91628615c",
-      "title": "[MEDIUM CVE] CVE-2026-103376 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103376",
+      "id": "1a86e1ee3bef8abea458e514ef595be4",
+      "title": "[LOW CVE] CVE-2026-111875 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111875",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-10-17T06:16:30Z",
-      "published_fmt": "17 Oct 2026",
-      "plain_summary": "The PeachPay — Payments & Express Checkout for WooCommerce (supports Stripe, PayPal, Square, Authorize.net, NMI) WordPress plugin before 1.120.70 does not perform any capability or ownership check before returning an order's secret key in response to an unauthenticated request, allowing anyone to retrieve the key for any paid order and use it to view that order's customer name, email address, postal address and contents.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-10-18T06:16:56Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "A vulnerability has been found in David-Crty Databasement up to 1.8.1. Affected by this vulnerability is an unknown functionality of the file app/Http/Requests/Api/V1/SaveScheduledRestoreRequest.php of the component Scheduled Restore.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#low-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
+          "title": "[LOW CVE] CVE-2026-111876 in Various Systems"
+        },
+        {
+          "id": "46ab0c4d04b90162852871eb828ea941",
+          "title": "[LOW CVE] CVE-2026-111874 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "dcace266dfd1e6fe2a4e2c8373ab5298",
+      "title": "[MEDIUM CVE] CVE-2026-111873 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111873",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-10-18T05:16:27Z",
+      "published_fmt": "18 Oct 2026",
+      "plain_summary": "A vulnerability was detected in itsmeravitejak Online-Examination-System up to e6208e630b14657999bbfe4c9912302d2a1e2449. This impacts the function MySQLDB::topicslist of the file exammanger.php of the component AJAX Endpoint.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1227,60 +734,88 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "af3a0a41adce20e61f03bb9958758aae",
-          "title": "[MEDIUM CVE] CVE-2026-104122 in Various Systems"
+          "id": "98ddadb579652a8e2481d09140f9ffe4",
+          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
         },
         {
-          "id": "236ccdce321792faac229aa9b69dad21",
-          "title": "[MEDIUM CVE] CVE-2026-104246 in Various Systems"
+          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
+          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
         }
       ]
     },
     {
-      "id": "0f0c69f850d9d5986a9686bb2ba28828",
-      "title": "Research Paper: SecLog-Bench: A Scalable Benchmark for Cybersecurity Log Reasoning with Scaffolded Evidence",
-      "link": "https://arxiv.org/abs/2610.31000v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-10-22T09:41:16Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Large language models (LLMs) have shown strong potential for cybersecurity, leading to growing interest in LLM-based automated cybersecurity log analysis.",
+      "id": "e7f9610cf94e548f5505ad28a20f1c8c",
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_4.png",
+      "published": "2026-10-24T14:17:32Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.",
       "deep_lore": "",
-      "category_tag": "Research Papers",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
-      "forensic_score": 40,
-      "collected_date": "24 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "0cbc4ddab5af5a475b6f950be69af19d",
-          "title": "Research Paper: MIG-COW: Transferable Adversarial Attacks on Deepfake Detectors via Gradient Decomposition"
+          "id": "0f71ebe7a492d15c9a932e8296f3a142",
+          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software"
         },
         {
-          "id": "bd53e20817da84b1ef7dd805f33ecc4e",
-          "title": "Research Paper: AIRO: A Streaming-Based Machine Learning Framework for Threat Detection and Security in Industrial Internet of Things"
+          "id": "68af383958504ee6331831dccfd3f9b0",
+          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud"
         }
       ]
     },
     {
-      "id": "ce370a80c5a374bbebd128599a670301",
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "id": "0f71ebe7a492d15c9a932e8296f3a142",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1600/ruby-rce.jpg",
-      "published": "2026-10-23T17:54:08Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1600/br-nodejs.jpg",
+      "published": "2026-10-24T11:09:29Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "e7f9610cf94e548f5505ad28a20f1c8c",
+          "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot"
+        },
+        {
+          "id": "68af383958504ee6331831dccfd3f9b0",
+          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud"
+        }
+      ]
+    },
+    {
+      "id": "9d52cbe35a240de8dd0dac040558a025",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipiDo2Yur6TXZHLped9EQgORAH65rC4APGTaq_EZzlDnspAaULTQCKblBC0FeIah7nOCKTiQa2Oi8cyx-bbxHj042Km9oYAf2s78XmStFxzPBTSQ_oqv4ZcWGEkUP1wo5JfJ1UDrWQpAtz8ZHd9i3ZbGWWe8s6CMeUU_nObp5tCEywMWGovqFh9NA1H8Sv/s1600/lite.jpg",
+      "published": "2026-10-24T11:03:33Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -1289,58 +824,19 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "50843fd93cdff96c8c09f3cee4637fca",
-          "title": "HPE patches eight max severity RCE and auth bypass AOS flaws"
-        },
-        {
-          "id": "e258f9402b73fb095b3a7d15b860521b",
-          "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks"
-        }
-      ]
+      "collected_date": "25 Oct 2026",
+      "related": []
     },
     {
-      "id": "be64687d24f1bbf2a7604916b947603e",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "id": "68af383958504ee6331831dccfd3f9b0",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1600/ai-hacker-kimi.jpg",
-      "published": "2026-10-23T17:50:47Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "a6eed5393d92647a813f67abf289b12b",
-          "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack"
-        },
-        {
-          "id": "0b3862be7966e891eddfdcdfe2087a41",
-          "title": "Woman faces years in prison over a Cash App account she says she never opened - Malwarebytes"
-        }
-      ]
-    },
-    {
-      "id": "a484d23ffe72fdabe0925c7086d45ef3",
-      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
-      "link": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-10-23T15:38:05Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmm0pKX3kbfMC2GKemUiMT8PH1uDJIHn4AcmoiQ5nUK4TWZl0Ni_-k6kjpAFUrFzEWSSq_G307YJXTXmn9FZ7q6oOr5OEMASP9mrXOXrk9lSOGzqPCAbkQqpHsMxFe1q5CnyDZnqeDq_FiiC7jEzp0ie1r_nnQOSKcbPcKBdoXI-ycAjCZA9AuxemUhE5k/s1600/arista-cisa.jpg",
+      "published": "2026-10-24T06:25:57Z",
+      "published_fmt": "24 Oct 2026",
+      "plain_summary": "The U.S.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1349,208 +845,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "1068b0e2e4d368d52fde3023fec64da7",
-          "title": "PHP Vulnerability Wrap-Up - SANS Internet Storm Center"
+          "id": "e7f9610cf94e548f5505ad28a20f1c8c",
+          "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot"
         },
         {
-          "id": "a8f2ff613e28ab482d08155bf69a1639",
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches"
+          "id": "0f71ebe7a492d15c9a932e8296f3a142",
+          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software"
         }
       ]
     },
     {
-      "id": "1068b0e2e4d368d52fde3023fec64da7",
-      "title": "PHP Vulnerability Wrap-Up - SANS Internet Storm Center",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1mV1VQOFhVbE9nbkpFUUduR0FrbFpVTWRRRmZ4SUNRYjE4d2ExU294QWppWkNxLU9OMkJCLUpQSjdRQmJmNnJZWTk3bjA?oc=5",
-      "source": "SANS Stormcast",
-      "source_icon": "📡",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-23T13:37:07Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "PHP Vulnerability Wrap-Up SANS Internet Storm Center",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "a484d23ffe72fdabe0925c7086d45ef3",
-          "title": "PHP shares mitigation for new RCE vulnerability with no patch"
-        },
-        {
-          "id": "a8f2ff613e28ab482d08155bf69a1639",
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches"
-        }
-      ]
-    },
-    {
-      "id": "50843fd93cdff96c8c09f3cee4637fca",
-      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/github_2.png",
-      "published": "2026-10-23T12:48:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "ce370a80c5a374bbebd128599a670301",
-          "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws"
-        },
-        {
-          "id": "a8f2ff613e28ab482d08155bf69a1639",
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches"
-        }
-      ]
-    },
-    {
-      "id": "a8f2ff613e28ab482d08155bf69a1639",
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXE1XecomGt7TSLi_DCDVL8oQjsLEtppNNGjkuW1cbVl-cXZkMG-rqTr-oSVz_6XfoU8aoScw3rjGxsnTpV3JaV5eWfj431lg09Rnrrk1UjwNq1ZEofkwR4FaM2qatC_FD9ZNBZk-T9_9ddu8n-BtUkhwVgWzc2ZvaWAHP8eMxlLU19qxIjlXeHOJYHs/s1600/php2.jpg",
-      "published": "2026-10-23T11:25:43Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "a484d23ffe72fdabe0925c7086d45ef3",
-          "title": "PHP shares mitigation for new RCE vulnerability with no patch"
-        },
-        {
-          "id": "1068b0e2e4d368d52fde3023fec64da7",
-          "title": "PHP Vulnerability Wrap-Up - SANS Internet Storm Center"
-        }
-      ]
-    },
-    {
-      "id": "a6eed5393d92647a813f67abf289b12b",
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s1600/uk-russia.jpg",
-      "published": "2026-10-23T11:11:23Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "be64687d24f1bbf2a7604916b947603e",
-          "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions"
-        },
-        {
-          "id": "0b3862be7966e891eddfdcdfe2087a41",
-          "title": "Woman faces years in prison over a Cash App account she says she never opened - Malwarebytes"
-        }
-      ]
-    },
-    {
-      "id": "b5d49dae84277ca11c14f052ddd37fa7",
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg",
-      "published": "2026-10-23T09:36:00Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "ba1203a8b8e3fdeb950898ef7199f418",
-          "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data"
-        },
-        {
-          "id": "a484d23ffe72fdabe0925c7086d45ef3",
-          "title": "PHP shares mitigation for new RCE vulnerability with no patch"
-        }
-      ]
-    },
-    {
-      "id": "ba1203a8b8e3fdeb950898ef7199f418",
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDudJHAM27KiE-F4E5vX1WOgITTdawUaZrFoXUIrf7lscEHIl7fgGQY5Qo60bRxr-o7UKloYK1sp23i5cvWPpc6XXttZa8GFvYxqSV7pp0B6vdBTp0sIBCX8r8oC5CAXO1mdJfshaIpLFyrFDCm9HPiYyBZMECEcSHKzbVzOk_VpGL2kEQDjB1rNk21Y8/s1600/node2shell.gif",
-      "published": "2026-10-23T08:40:43Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
-      "related": [
-        {
-          "id": "a484d23ffe72fdabe0925c7086d45ef3",
-          "title": "PHP shares mitigation for new RCE vulnerability with no patch"
-        },
-        {
-          "id": "a8f2ff613e28ab482d08155bf69a1639",
-          "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches"
-        }
-      ]
-    },
-    {
-      "id": "0b3862be7966e891eddfdcdfe2087a41",
-      "title": "Woman faces years in prison over a Cash App account she says she never opened - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRDJIOGlMX0JMMWVpTEpkSFVmUkljZnlDeDlJVWdMQjVPQXByQzA1RHJPa25rcnNUWURHYVlBQ2Q2QURhc3V3dFgzTXJ3RGU2NGFJYlQwWk13TzV4Zk1HcTJHb3lJX2NYcnl5aFZyMnRaR1RrM0VHZXAyR0tyS1dmaXpvUHhyZWdxQjVaN1llRTdScngzanBTTDNVY3hvX1Z3WktzWjhyWFViMWtybXpyV2RPa1FZaGdOalFhQ3dma1lfUQ?oc=5",
+      "id": "730e4e2f09001bcdd17eda5f516808a3",
+      "title": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcnBlTnMwY1FyNmRReExFa28tdmMxODhwNm1rSjh4MVJVWGpZTTQ5ZmZtbzcySFZLS1RWMHdlTndfZlJ1UUVXUDNyb0p2TURhOEtrd2J0VHdyZXhkQk1FM0xnZ2tEM0tmVERmbmRsenhmRmhxdVg4T2FLbDZ1SDNtNzlJQ3JwSzRTdnBPdE5iUDdNTHQyVzRQM1A2aUtCaEJNQTFqcW52a0V0bGZfSXBRT3BvcElickc3YnFxbklVcGdWLWF3OTlNZnF0RjV4SXVn?oc=5",
       "source": "Malwarebytes Labs",
       "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-10-22T12:07:21Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Woman faces years in prison over a Cash App account she says she never opened Malwarebytes",
+      "image": "images/malware_2.png",
+      "published": "2026-10-23T13:23:40Z",
+      "published_fmt": "23 Oct 2026",
+      "plain_summary": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed Malwarebytes",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1559,15 +875,45 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "24 Oct 2026",
+      "collected_date": "25 Oct 2026",
       "related": [
         {
-          "id": "be64687d24f1bbf2a7604916b947603e",
-          "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions"
+          "id": "82665933cfe8031b8563ad4ea6f90020",
+          "title": "Facebook’s misleading privacy claims land Meta a $25 billion penalty - Malwarebytes"
         },
         {
-          "id": "a6eed5393d92647a813f67abf289b12b",
-          "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack"
+          "id": "f76395b595c2377d38f29d9979dd7593",
+          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
+        }
+      ]
+    },
+    {
+      "id": "82665933cfe8031b8563ad4ea6f90020",
+      "title": "Facebook’s misleading privacy claims land Meta a $25 billion penalty - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkNrbzVISGlrSlB2OXl0aDJrOWgxdHRkOVlRSUdDYXhRR290UDNZYTdaWE50YXVEbmZTNUxzM2ZldFRVR1U0NFh2Y0wyMXh0alhxODBEUXpFaTR2bU5DRHdCYklraUNOSDJnTGpNekx0Ni13V041YXhpQkpWTUhZd0NzYmdLVEQ4T1BBV093WlBoTDc1LTd0cnlkc2tHLTJZUm9vSEFwTWcwNFNEekQ0WmgySQ?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_1.png",
+      "published": "2026-10-22T17:09:00Z",
+      "published_fmt": "22 Oct 2026",
+      "plain_summary": "Facebook’s misleading privacy claims land Meta a $25 billion penalty Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "25 Oct 2026",
+      "related": [
+        {
+          "id": "730e4e2f09001bcdd17eda5f516808a3",
+          "title": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed - Malwarebytes"
+        },
+        {
+          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
+          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
         }
       ]
     }
