@@ -1,17 +1,17 @@
 {
-  "last_updated": "25 October 2026, 10:30 IST",
-  "total": 30,
+  "last_updated": "26 October 2026, 10:34 IST",
+  "total": 25,
   "articles": [
     {
-      "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "id": "a015bc5461fffee62222e948bc6d41d4",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROXFilBwGnS1Jb3AQ6nIinoxB1mh-7gsbdRfToYn8VReagY7IMb3CCVyZkzPFEfOHIkwnRxmOSeM30Gxp7e9uRzvuvEqQTmIMPilPM_IfujygTv6OfExi8kWoEhF42lBKok_gzwD4Md_daCMvVOtlf2pQT7mgtYuJA0TzJnhkM4PCycgKpf0XxIBQmI57/s1600/google-ai.jpg",
-      "published": "2026-10-24T10:36:33Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+      "published": "2026-10-25T17:44:09Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,28 +20,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "f76395b595c2377d38f29d9979dd7593",
-          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
+          "id": "0f2325be7a104e58c762057e345c1c5e",
+          "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity"
         },
         {
-          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
-          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
+          "id": "3a31401ab19236c338b49f37de0f6925",
+          "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder"
         }
       ]
     },
     {
-      "id": "f76395b595c2377d38f29d9979dd7593",
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "id": "0f2325be7a104e58c762057e345c1c5e",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1600/popcorn.jpg",
-      "published": "2026-10-24T09:04:24Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+      "published": "2026-10-25T17:19:46Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,28 +50,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
-          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads"
+          "id": "a015bc5461fffee62222e948bc6d41d4",
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers"
         },
         {
-          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
-          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
+          "id": "3a31401ab19236c338b49f37de0f6925",
+          "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder"
         }
       ]
     },
     {
-      "id": "51625a9fa1dac9ad78ad709c05dd20ff",
-      "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iRjdBeTBqSS1xYVllU0lHLWJXOWtvem5zcDY5UEdlbF9tcGZla09PTUk1NTgzZmFJRmxscktXSEdOalNVbDQtYVJNVFZWaElldDJGZzJtcC1neVJINXM0ckpDUWNEMGp2Qjc1OUdYTlFqZnZa?oc=5",
-      "source": "SANS Stormcast",
-      "source_icon": "📡",
+      "id": "3a31401ab19236c338b49f37de0f6925",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_4.png",
+      "published": "2026-10-25T15:49:38Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "26 Oct 2026",
+      "related": [
+        {
+          "id": "059df2aa94c42d1f21ae4b5a4a72a769",
+          "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication"
+        },
+        {
+          "id": "a015bc5461fffee62222e948bc6d41d4",
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers"
+        }
+      ]
+    },
+    {
+      "id": "3978042f0069b5920ccb1863d62497b5",
+      "title": "Week 43 – 2026 - This Week In 4n6",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5TEpQSmNYUmpfMXhZRUpiWlJWMUxPU0NsTUNXbkNXMFBJOEZLTFdYOWZ4ZGdKZGJReGYxVzNVZVFKRkJFd3FsTkNsVU9mSzMyeWJVa1VNSG1UdGp1RUVV?oc=5",
+      "source": "This Week in 4n6",
+      "source_icon": "📆",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-23T20:04:47Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "(Reliable)? php2shell exploitability SANS Internet Storm Center",
+      "published": "2026-10-25T11:25:03Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "Week 43 – 2026 This Week In 4n6",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -80,118 +110,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "c874b23267c2dd7cbaad8d2ebb6a1840",
-          "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads"
+          "id": "a015bc5461fffee62222e948bc6d41d4",
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers"
         },
         {
-          "id": "f76395b595c2377d38f29d9979dd7593",
-          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
+          "id": "0f2325be7a104e58c762057e345c1c5e",
+          "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity"
         }
       ]
     },
     {
-      "id": "239a454038b93b0358b119147b4033ee",
-      "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOa3JsTkU3cl9oZl9RYUgzYk1JNTJCMEpQRFZyQldCT1lIUE9RbDVMTEp0Y1dYZ0dXRGxqaEtlMkdrT2w0VDdCRi1BaExWY2ZWTElxMmFvYnRxakx5RmUxWFF2dHN0ZTlWQXc3dkRuZXZDMllfU0YtV3hzcV96ZDBJb3hnejBNQVpJcUhzX1R3OFg5UGVEbGF6X0c3NFVyVzdQMDk5QWtUN1JPaWF0SkJ2WFVlVGhLRG9UZ0JhNFZTR3Y1dzcwNlRLZVNBM1lCX2ZDbHdfVkFPUlY1UHhaR1lKeXoyMDRxeFRxVUZOT1ZyNjIwVEpvUE9XZTVuLXFwdUE?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-24T09:45:00Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Federal grant will help Marshall forensic center complete genetic genealogy testing herald-dispatch.com",
+      "id": "059df2aa94c42d1f21ae4b5a4a72a769",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1600/ai-agents.jpg",
+      "published": "2026-10-25T06:54:29Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "DFIR Articles",
       "tags": [
-        "#forensics",
-        "#science"
+        "#dfir",
+        "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "25 Oct 2026",
+      "forensic_score": 0,
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
+          "id": "3a31401ab19236c338b49f37de0f6925",
+          "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder"
         },
         {
-          "id": "513ab0a8f1463993f8d8ba8fb9703256",
-          "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions"
+          "id": "a015bc5461fffee62222e948bc6d41d4",
+          "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers"
         }
       ]
     },
     {
-      "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
-      "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZDY5Y3BlQ3ZDMEVEMmpOdG9sblBwNWJwNGtBUVNpT0JZdWpoOUlra0dxaWF1Ql9HUmpIbW1CUHZhVzl5U3pmc1hKTEVRcGdSdTcwWWlJVjc2SHhsckpHV2dxeW1IbmZFT0FuVEtGU2RsSUlGSmFsenJGTDFoWm9YRzNfTUdfN09UNldQdVVmY2hTamE2Z3huX01LZ3llTTVlel8tZjRNeUxPRnZ3b3Jfb1laR2czNFdHRDZMVTZJQUhpaXgzYXh1UWMybGswb056VVZqQ2FmN3BTVXVUZzFDdXoyQURCWmlIUnFhcVFjQkhYSTEyZzdod0cwNk5PUQ?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_2.png",
-      "published": "2026-10-24T09:45:00Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Federal grant will help Marshall forensic center complete genetic genealogy testing lincolnjournal.com",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "239a454038b93b0358b119147b4033ee",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
-        },
-        {
-          "id": "513ab0a8f1463993f8d8ba8fb9703256",
-          "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions"
-        }
-      ]
-    },
-    {
-      "id": "513ab0a8f1463993f8d8ba8fb9703256",
-      "title": "Eritrea: Police personnel receive training in forensic chemistry - pan african visions",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2taek91Q3Z2UVZfNGUtdl9IV2J3UVR5UmxaeEwxQ2VrSXZJb29UZDRRWUdvM0ppX2RKNWx2Qzhhb1NRVkt5YUJYdlpxVHZ3U01pY2t1U2szOVk0MGYxSTcwUzREZjJxVnFueGhFTEpnUnpDWWttc21MNHVfcnZHTWRlY0NqQ2xKYXhtWnhsRjF5dzNtRWpNQlYxUTVBZTRPMFdPUA?oc=5",
-      "source": "Google News: Forensic Chemistry",
-      "source_icon": "🧪",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-23T21:01:05Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Eritrea: Police personnel receive training in forensic chemistry pan african visions",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "239a454038b93b0358b119147b4033ee",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
-        },
-        {
-          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
-        }
-      ]
-    },
-    {
-      "id": "9bb7c91227ec72f19db1543674636592",
-      "title": "Delaware Missing Persons Day aims to help loved ones find answers - Delawareonline.com",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSW15V1ZxYTU1WlNybmZtdmZxTk9IcG02ZVotREo4aGlpUlp6TUpTVDFnYWdueFROSDZJX2tKWG1JQmhYTlQ1R1oxLWRCc2Jia2paSVN1ems5NzNEQl8yUlBuNHN0MTB3bkxmWU5KejFOTm5yMURVcFhqdHRyeGMxdW5ZSTVqTmtOOXNFeTV2dHlNRGZIUkpWdm9idlFMS195TTRkc05SMXE0Yk5aXzcwYU1DcTJHVHlxLWtaWUNtZUFLSl9JTjVKLTBQa0MxZTVYX08yODBGaURCdGxIQ1B4UWxhUWc3U3B6Q3hNRjJiMllFQ09UaE5uYkNnX0M?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
+      "id": "da332f7aa2fcdea2b169fd127e11f431",
+      "title": "Crime drama inspired by renowned trace-evidence expert leads China’s holiday box office - Borneo Post",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM3JES3hBNjZucmdINm0zbjkwTlBrN3VBYWhjcU9SdUcycmVIUV9udnluYUUzT2MxMEVNSUMzcnd1SGxCZV9zbGZFSnNiTGRMM2EyUDZHNndqRmJSTV9GRExscGZnTlpnYVNndmpYQU0wRGRneTF5ZUFVTWl1M2FaS3BHVFFOYmwzZW44WUxiU1JPbFJDSHBJb1RRZ2NHZ2tjd3dzZmdsVExEN3U3LUttbGtRQkJDNklFUko4X09qTWlsbllhd3lV?oc=5",
+      "source": "Google News: Trace Evidence",
+      "source_icon": "🔍",
       "image": "images/forensics_5.png",
-      "published": "2026-10-24T19:45:00Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Delaware Missing Persons Day aims to help loved ones find answers Delawareonline.com",
+      "published": "2026-10-25T22:00:07Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "Crime drama inspired by renowned trace-evidence expert leads China’s holiday box office Borneo Post",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -199,122 +169,55 @@
         "#science"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "forensic_score": 20,
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "239a454038b93b0358b119147b4033ee",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
-        },
-        {
-          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
+          "id": "3978042f0069b5920ccb1863d62497b5",
+          "title": "Week 43 – 2026 - This Week In 4n6"
         }
       ]
     },
     {
-      "id": "92c9538a1f56a6e7dbc2fee8a858ae65",
-      "title": "Diatom Test Matches Lung Tissue to Drowning Site with 95 Percent Accuracy - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZHdEYk1ycTc2SHpnaW1XRUUtLW5YWU9wcG9TbTJRXzJPRm1Dc0VXdGlWeWdoTllGamo0aW1YcEJPQ2RTaFNObXhKQTVtY0tuZWhLdWZZbVYxS2JHQjFwaEIwRlNiR2NuUGlVUGx6UW5KOG56NUZ1YXF1aDdJQ0g3aWZKa2dVdFRDYWRtSWVYZU9MQ0FLd0xQeFlxaVg5XzA?oc=5",
-      "source": "Intl Journal of Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_2.png",
-      "published": "2026-10-24T09:48:40Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "Diatom Test Matches Lung Tissue to Drowning Site with 95 Percent Accuracy Bioengineer.org",
+      "id": "b0f3a26283493896026ed8222660af16",
+      "title": "Research Paper: Agentic AI Defense: Decode-Time Provenance Binding for MCP",
+      "link": "https://arxiv.org/abs/2610.31974v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-10-22T22:27:13Z",
+      "published_fmt": "22 Oct 2026",
+      "plain_summary": "Agentic AI systems using the Model Context Protocol (MCP) are vulnerable to indirect prompt injection through untrusted tool outputs.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "Research Papers",
       "tags": [
-        "#forensics",
-        "#science"
+        "#research",
+        "#arxiv",
+        "#ai"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "forensic_score": 85,
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "239a454038b93b0358b119147b4033ee",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - herald-dispatch.com"
+          "id": "548cbccf2f55709c392d9f4204639ad0",
+          "title": "Research Paper: Spectra: Multi-Scale Implicit Decomposition for Deepfake Detection"
         },
         {
-          "id": "bc34ec58ed6d4a2a15681fad0c56ebc1",
-          "title": "Federal grant will help Marshall forensic center complete genetic genealogy testing - lincolnjournal.com"
+          "id": "3a31401ab19236c338b49f37de0f6925",
+          "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder"
         }
       ]
     },
     {
-      "id": "5f9308f155649f5d68491a0112f4dc55",
-      "title": "[Threat IOC] SmartLoader sha256_hash: 790568a9875ce37719c50249738e282d3e5a9dbf1e37199cbe86c65ca15ad980",
-      "link": "https://threatfox.abuse.ch/ioc/1984401/",
+      "id": "e62e44927c8b398784b0142ce2daa964",
+      "title": "[Threat IOC] ClearFake domain: www.yo-yoga.fr",
+      "link": "https://threatfox.abuse.ch/ioc/1990245/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-10-25T04:55:14Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for SmartLoader. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#smartloader"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "1374f1e36327c085b527e0cf412650a3",
-          "title": "[Threat IOC] StrelaStealer domain: ontimejo.com"
-        },
-        {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
-        }
-      ]
-    },
-    {
-      "id": "1374f1e36327c085b527e0cf412650a3",
-      "title": "[Threat IOC] StrelaStealer domain: ontimejo.com",
-      "link": "https://threatfox.abuse.ch/ioc/1984400/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-10-25T04:51:52Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for StrelaStealer. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#strelastealer"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
-        },
-        {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
-        }
-      ]
-    },
-    {
-      "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-      "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se",
-      "link": "https://threatfox.abuse.ch/ioc/1984398/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-10-25T04:51:26Z",
-      "published_fmt": "25 Oct 2026",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-10-26T05:02:36Z",
+      "published_fmt": "26 Oct 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -326,188 +229,252 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+          "id": "3b3a0b1d5446e714c4b9e8688a5f67b6",
+          "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup2.com"
         },
         {
-          "id": "051728a7d90829b578b5122d3ea73cc0",
-          "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app"
+          "id": "20777bc93be085f7f9680b153b68b1a7",
+          "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup1.com"
         }
       ]
     },
     {
-      "id": "df4cd3b10ccbd761aec400806b1fda01",
-      "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it",
-      "link": "https://threatfox.abuse.ch/ioc/1984399/",
+      "id": "79b4f188ddf8f8faa03cca3241c1749e",
+      "title": "[Threat IOC] Mirai sha256_hash: cb01c2973a9a95fe148c0b675efcaa9bd696f5309ef9bfd8affe123ef161a5f7",
+      "link": "https://threatfox.abuse.ch/ioc/1990244/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-10-25T04:51:26Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "published": "2026-10-26T04:55:25Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mirai. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#mirai"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+          "id": "b4a16cbe03232b24a67b3a000bb35a90",
+          "title": "[Threat IOC] SalatStealer sha256_hash: 4ffd58dd83a3f89cade6d58e13b5919410e0cf1f30afdbf60bad1f716a061ac0"
         },
         {
-          "id": "051728a7d90829b578b5122d3ea73cc0",
-          "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app"
+          "id": "f24d54939a49d34b37b053cf219df35f",
+          "title": "[Threat IOC] AMOS sha256_hash: 92be3f4aa18c01d31c68120317c9cf8774380d983d3b562afea3c8ca918b5e29"
         }
       ]
     },
     {
-      "id": "051728a7d90829b578b5122d3ea73cc0",
-      "title": "[Threat IOC] ClearFake domain: 6qnia8r3.pooker.app",
-      "link": "https://threatfox.abuse.ch/ioc/1984397/",
+      "id": "b4a16cbe03232b24a67b3a000bb35a90",
+      "title": "[Threat IOC] SalatStealer sha256_hash: 4ffd58dd83a3f89cade6d58e13b5919410e0cf1f30afdbf60bad1f716a061ac0",
+      "link": "https://threatfox.abuse.ch/ioc/1990243/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-10-25T04:47:16Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "published": "2026-10-26T04:55:24Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for SalatStealer. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#salatstealer"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+          "id": "79b4f188ddf8f8faa03cca3241c1749e",
+          "title": "[Threat IOC] Mirai sha256_hash: cb01c2973a9a95fe148c0b675efcaa9bd696f5309ef9bfd8affe123ef161a5f7"
         },
         {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+          "id": "f24d54939a49d34b37b053cf219df35f",
+          "title": "[Threat IOC] AMOS sha256_hash: 92be3f4aa18c01d31c68120317c9cf8774380d983d3b562afea3c8ca918b5e29"
         }
       ]
     },
     {
-      "id": "140ce060eb119d97fe1d5aeebc4c6da2",
-      "title": "[Threat IOC] ClearFake domain: punitbalangroup.com",
-      "link": "https://threatfox.abuse.ch/ioc/1984395/",
+      "id": "f24d54939a49d34b37b053cf219df35f",
+      "title": "[Threat IOC] AMOS sha256_hash: 92be3f4aa18c01d31c68120317c9cf8774380d983d3b562afea3c8ca918b5e29",
+      "link": "https://threatfox.abuse.ch/ioc/1990242/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-10-25T04:41:24Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "images/malware_1.png",
+      "published": "2026-10-26T04:53:14Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+          "id": "bd311494a6e23a93d330a3e7116699b9",
+          "title": "[Threat IOC] AMOS sha256_hash: 3e09d56000216c730f880258f97f9d2bb0222ad59444c8bb00c2170f65c98e69"
         },
         {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+          "id": "a277385c00758ce703617e1562b31eb9",
+          "title": "[Threat IOC] AMOS sha256_hash: aa9b946c3d8bef248e531acf80571ebe2bd06821b80cd5ceb1632384fab50bd3"
         }
       ]
     },
     {
-      "id": "0cc265c998484a9a4a70108c1f2a1f56",
-      "title": "[Threat IOC] ClearFake domain: rjcruzeiro.com.br",
-      "link": "https://threatfox.abuse.ch/ioc/1984396/",
+      "id": "bd311494a6e23a93d330a3e7116699b9",
+      "title": "[Threat IOC] AMOS sha256_hash: 3e09d56000216c730f880258f97f9d2bb0222ad59444c8bb00c2170f65c98e69",
+      "link": "https://threatfox.abuse.ch/ioc/1990241/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-10-26T04:49:34Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#amos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "26 Oct 2026",
+      "related": [
+        {
+          "id": "f24d54939a49d34b37b053cf219df35f",
+          "title": "[Threat IOC] AMOS sha256_hash: 92be3f4aa18c01d31c68120317c9cf8774380d983d3b562afea3c8ca918b5e29"
+        },
+        {
+          "id": "a277385c00758ce703617e1562b31eb9",
+          "title": "[Threat IOC] AMOS sha256_hash: aa9b946c3d8bef248e531acf80571ebe2bd06821b80cd5ceb1632384fab50bd3"
+        }
+      ]
+    },
+    {
+      "id": "a277385c00758ce703617e1562b31eb9",
+      "title": "[Threat IOC] AMOS sha256_hash: aa9b946c3d8bef248e531acf80571ebe2bd06821b80cd5ceb1632384fab50bd3",
+      "link": "https://threatfox.abuse.ch/ioc/1990240/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_4.png",
-      "published": "2026-10-25T04:41:24Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "published": "2026-10-26T04:45:59Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#amos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+          "id": "f24d54939a49d34b37b053cf219df35f",
+          "title": "[Threat IOC] AMOS sha256_hash: 92be3f4aa18c01d31c68120317c9cf8774380d983d3b562afea3c8ca918b5e29"
         },
         {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+          "id": "bd311494a6e23a93d330a3e7116699b9",
+          "title": "[Threat IOC] AMOS sha256_hash: 3e09d56000216c730f880258f97f9d2bb0222ad59444c8bb00c2170f65c98e69"
         }
       ]
     },
     {
-      "id": "1405fc69c61cfcc121f3f3caeb907d60",
-      "title": "[Threat IOC] ClearFake domain: oticamel.com.br",
-      "link": "https://threatfox.abuse.ch/ioc/1984393/",
+      "id": "3b3a0b1d5446e714c4b9e8688a5f67b6",
+      "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup2.com",
+      "link": "https://threatfox.abuse.ch/ioc/1990239/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-10-25T04:41:23Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-10-26T04:45:23Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: domain. Threat Category: botnet_cc. Reporter: abuse_ch.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#remcos"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "a7b8306eb33a253ed9a19f95c3d291a0",
-          "title": "[Threat IOC] ClearFake domain: www.riosflyttochstad.se"
+          "id": "20777bc93be085f7f9680b153b68b1a7",
+          "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup1.com"
         },
         {
-          "id": "df4cd3b10ccbd761aec400806b1fda01",
-          "title": "[Threat IOC] ClearFake domain: www.ristoranteisolina.it"
+          "id": "e62e44927c8b398784b0142ce2daa964",
+          "title": "[Threat IOC] ClearFake domain: www.yo-yoga.fr"
         }
       ]
     },
     {
-      "id": "8f3ad11ae22669aed0930a060b9676e1",
-      "title": "[HIGH CVE] CVE-2026-110031 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110031",
+      "id": "20777bc93be085f7f9680b153b68b1a7",
+      "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup1.com",
+      "link": "https://threatfox.abuse.ch/ioc/1990238/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-10-26T04:45:23Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Remcos. Type: domain. Threat Category: botnet_cc. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#remcos"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "26 Oct 2026",
+      "related": [
+        {
+          "id": "3b3a0b1d5446e714c4b9e8688a5f67b6",
+          "title": "[Threat IOC] Remcos domain: www.valleyintmdbackup2.com"
+        },
+        {
+          "id": "e62e44927c8b398784b0142ce2daa964",
+          "title": "[Threat IOC] ClearFake domain: www.yo-yoga.fr"
+        }
+      ]
+    },
+    {
+      "id": "c01d7b149c8c8c6b92a5fb0f074fdb60",
+      "title": "[HIGH CVE] CVE-2026-108120 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-108120",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_3.png",
-      "published": "2026-10-18T07:16:52Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "The Salon Booking System WordPress plugin before 10.31.11 does not prevent users holding its custom salon staff role from assigning arbitrary capabilities to other accounts when editing a customer, allowing them to escalate any account to administrator and take over the site.",
+      "published": "2026-10-19T06:17:21Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "Brian Mariani from DigitalCanion SA has discovered a path traversal vulnerability in the View Logs functionality of koozali's SME Server version 11.0rc1-215 allowing an unauthenticated attacker to access files outside of the intended directory, leading to exfiltration of files located outside the intended system logs directory, including potentially sensitive system and application files.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -517,28 +484,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "98ddadb579652a8e2481d09140f9ffe4",
-          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
+          "id": "ea87a902391626eaf7d32f001fe9b43e",
+          "title": "[MEDIUM CVE] CVE-2026-106028 in Various Systems"
         },
         {
-          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
-          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
+          "id": "902916a2b3326ebc0ace284abfabc99d",
+          "title": "[MEDIUM CVE] CVE-2026-106933 in Various Systems"
         }
       ]
     },
     {
-      "id": "98ddadb579652a8e2481d09140f9ffe4",
-      "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110032",
+      "id": "ea87a902391626eaf7d32f001fe9b43e",
+      "title": "[MEDIUM CVE] CVE-2026-106028 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106028",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-10-18T07:16:52Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "The Salon Booking System WordPress plugin before 10.31.11 does not restrict which user account its salon staff roles may edit through the customers management screen, allowing users with the Salon Staff or Salon Worker role to reset any other user's role, including administrators, to a customer and to overwrite arbitrary profile fields on any account, leading to loss of administrative access and potential site lockout.",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-10-19T06:17:20Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "The ActiveTrail for WooCommerce WordPress plugin through 1.2.6 does not perform any authorization check before creating WooCommerce coupons, allowing unauthenticated attackers to create arbitrary coupons, including 100%-off and free-shipping coupons.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -548,28 +515,90 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
-          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
+          "id": "902916a2b3326ebc0ace284abfabc99d",
+          "title": "[MEDIUM CVE] CVE-2026-106933 in Various Systems"
         },
         {
-          "id": "e3ea0ad7576c8584666f96e76d54314d",
-          "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems"
+          "id": "54484365f424d51425cda95afe009e50",
+          "title": "[MEDIUM CVE] CVE-2026-106014 in Various Systems"
         }
       ]
     },
     {
-      "id": "7a0a47207b299a2c047dc8865bb3d4ff",
-      "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110026",
+      "id": "902916a2b3326ebc0ace284abfabc99d",
+      "title": "[MEDIUM CVE] CVE-2026-106933 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106933",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_2.png",
+      "published": "2026-10-19T06:17:20Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "The Blaze Demo Importer WordPress plugin before 1.0.17 does not sanitize uploaded SVG files and registers the SVG MIME type for the WordPress media library unconditionally, allowing authenticated users with the Author role or higher to upload a crafted SVG that executes arbitrary JavaScript in the browser of any user who opens the file.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "26 Oct 2026",
+      "related": [
+        {
+          "id": "ea87a902391626eaf7d32f001fe9b43e",
+          "title": "[MEDIUM CVE] CVE-2026-106028 in Various Systems"
+        },
+        {
+          "id": "54484365f424d51425cda95afe009e50",
+          "title": "[MEDIUM CVE] CVE-2026-106014 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "54484365f424d51425cda95afe009e50",
+      "title": "[MEDIUM CVE] CVE-2026-106014 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106014",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_1.png",
+      "published": "2026-10-19T06:17:17Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "The Gateway for Vantiv on WC WordPress plugin through 1.0.1 does not verify the authenticity of the payment notification received on its hosted-payment return handler, allowing unauthenticated attackers to mark orders as paid without actually paying.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "26 Oct 2026",
+      "related": [
+        {
+          "id": "ea87a902391626eaf7d32f001fe9b43e",
+          "title": "[MEDIUM CVE] CVE-2026-106028 in Various Systems"
+        },
+        {
+          "id": "902916a2b3326ebc0ace284abfabc99d",
+          "title": "[MEDIUM CVE] CVE-2026-106933 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "d25a3e78ff8e14fa666e758c3e06314f",
+      "title": "[MEDIUM CVE] CVE-2026-112077 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-112077",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-10-18T07:16:51Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "The Tasty Recipes Lite WordPress plugin before 1.2.11 does not correctly check user capabilities when creating, renaming and deleting taxonomy terms, allowing users with a role as low as Contributor to add, rename and permanently delete terms in any taxonomy on the site, including categories, tags and navigation menus.",
+      "published": "2026-10-19T05:17:04Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "A vulnerability was detected in radareorg radare2 6.2.0/6.2.2. This issue affects the function r_core_cmd_str_pipe in the library libr/core/rtr_http.inc.c of the component HTTP Sandbox Policy Handler.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -579,59 +608,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "98ddadb579652a8e2481d09140f9ffe4",
-          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
+          "id": "ea87a902391626eaf7d32f001fe9b43e",
+          "title": "[MEDIUM CVE] CVE-2026-106028 in Various Systems"
         },
         {
-          "id": "e3ea0ad7576c8584666f96e76d54314d",
-          "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems"
+          "id": "902916a2b3326ebc0ace284abfabc99d",
+          "title": "[MEDIUM CVE] CVE-2026-106933 in Various Systems"
         }
       ]
     },
     {
-      "id": "e3ea0ad7576c8584666f96e76d54314d",
-      "title": "[MEDIUM CVE] CVE-2026-109937 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109937",
+      "id": "82817485efab074854e9845ffa6da340",
+      "title": "[LOW CVE] CVE-2026-112078 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-112078",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-10-18T07:16:50Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "The Otter Blocks WordPress plugin before 3.2.3 does not validate that a user-supplied return URL belongs to the site before using it to build the return destination of a Stripe Checkout session, allowing unauthenticated attackers to redirect victims who complete or cancel checkout to an arbitrary external URL.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "98ddadb579652a8e2481d09140f9ffe4",
-          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
-        },
-        {
-          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
-          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
-      "title": "[LOW CVE] CVE-2026-111876 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111876",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-10-18T06:16:57Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "A vulnerability was found in alexpasmantier television up to 0.15.9. Affected by this issue is the function Entry::output of the file television/channels/entry.rs. Performing a manipulation of the argument raw results in command injection.",
+      "published": "2026-10-19T05:17:04Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "A flaw has been found in RVC-Project Retrieval-based-Voice-Conversion-WebUI up to 2.3.260718. Impacted is the function change_info_ of the file webui.py. Executing a manipulation of the argument ckpt_path can lead to code injection.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -641,28 +639,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "46ab0c4d04b90162852871eb828ea941",
-          "title": "[LOW CVE] CVE-2026-111874 in Various Systems"
+          "id": "d6f6f6b3202d92ef55a02c1e9c46e5dc",
+          "title": "[LOW CVE] CVE-2026-112079 in Various Systems"
         },
         {
-          "id": "1a86e1ee3bef8abea458e514ef595be4",
-          "title": "[LOW CVE] CVE-2026-111875 in Various Systems"
+          "id": "d158bb2a0526aab22f176820a6fbc618",
+          "title": "[LOW CVE] CVE-2026-112080 in Various Systems"
         }
       ]
     },
     {
-      "id": "46ab0c4d04b90162852871eb828ea941",
-      "title": "[LOW CVE] CVE-2026-111874 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111874",
+      "id": "d6f6f6b3202d92ef55a02c1e9c46e5dc",
+      "title": "[LOW CVE] CVE-2026-112079 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-112079",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-10-18T06:16:56Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "A flaw has been found in OpenCATS 0.10.0. Affected is the function processLogin of the file modules/careers/CareersUI.php of the component Career Portal.",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-10-19T05:17:04Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "A vulnerability has been found in hankcs HanLP up to 2.1.0-beta.64. The affected element is the function load_word2vec_as_vocab_tensor of the file hanlp/utils/torch_util.py.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -672,150 +670,87 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
-          "title": "[LOW CVE] CVE-2026-111876 in Various Systems"
+          "id": "82817485efab074854e9845ffa6da340",
+          "title": "[LOW CVE] CVE-2026-112078 in Various Systems"
         },
         {
-          "id": "1a86e1ee3bef8abea458e514ef595be4",
-          "title": "[LOW CVE] CVE-2026-111875 in Various Systems"
+          "id": "d158bb2a0526aab22f176820a6fbc618",
+          "title": "[LOW CVE] CVE-2026-112080 in Various Systems"
         }
       ]
     },
     {
-      "id": "1a86e1ee3bef8abea458e514ef595be4",
-      "title": "[LOW CVE] CVE-2026-111875 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111875",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-10-18T06:16:56Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "A vulnerability has been found in David-Crty Databasement up to 1.8.1. Affected by this vulnerability is an unknown functionality of the file app/Http/Requests/Api/V1/SaveScheduledRestoreRequest.php of the component Scheduled Restore.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "2e67b9a18d3cae52cfb047ee8eba9d56",
-          "title": "[LOW CVE] CVE-2026-111876 in Various Systems"
-        },
-        {
-          "id": "46ab0c4d04b90162852871eb828ea941",
-          "title": "[LOW CVE] CVE-2026-111874 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "dcace266dfd1e6fe2a4e2c8373ab5298",
-      "title": "[MEDIUM CVE] CVE-2026-111873 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111873",
+      "id": "d158bb2a0526aab22f176820a6fbc618",
+      "title": "[LOW CVE] CVE-2026-112080 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-112080",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-10-18T05:16:27Z",
-      "published_fmt": "18 Oct 2026",
-      "plain_summary": "A vulnerability was detected in itsmeravitejak Online-Examination-System up to e6208e630b14657999bbfe4c9912302d2a1e2449. This impacts the function MySQLDB::topicslist of the file exammanger.php of the component AJAX Endpoint.",
+      "published": "2026-10-19T05:17:04Z",
+      "published_fmt": "19 Oct 2026",
+      "plain_summary": "A vulnerability was found in LlamaChinese Llama-Chinese up to 6fa0fffb0dd82fe3cfaa1449ee54a5806d26ae9b.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#medium-severity"
+        "#low-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "98ddadb579652a8e2481d09140f9ffe4",
-          "title": "[MEDIUM CVE] CVE-2026-110032 in Various Systems"
+          "id": "82817485efab074854e9845ffa6da340",
+          "title": "[LOW CVE] CVE-2026-112078 in Various Systems"
         },
         {
-          "id": "7a0a47207b299a2c047dc8865bb3d4ff",
-          "title": "[MEDIUM CVE] CVE-2026-110026 in Various Systems"
+          "id": "d6f6f6b3202d92ef55a02c1e9c46e5dc",
+          "title": "[LOW CVE] CVE-2026-112079 in Various Systems"
         }
       ]
     },
     {
-      "id": "e7f9610cf94e548f5505ad28a20f1c8c",
-      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
-      "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_4.png",
-      "published": "2026-10-24T14:17:32Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.",
+      "id": "548cbccf2f55709c392d9f4204639ad0",
+      "title": "Research Paper: Spectra: Multi-Scale Implicit Decomposition for Deepfake Detection",
+      "link": "https://arxiv.org/abs/2610.31979v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_3.png",
+      "published": "2026-10-22T22:36:28Z",
+      "published_fmt": "22 Oct 2026",
+      "plain_summary": "Deepfakes increasingly undermine trust in digital media, yet existing detectors often struggle to generalize across unseen manipulation techniques, compression levels, and dataset shifts.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Research Papers",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#media-forensics"
       ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "read_time": "2 min read",
+      "forensic_score": 60,
+      "collected_date": "26 Oct 2026",
       "related": [
         {
-          "id": "0f71ebe7a492d15c9a932e8296f3a142",
-          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software"
-        },
-        {
-          "id": "68af383958504ee6331831dccfd3f9b0",
-          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud"
+          "id": "b0f3a26283493896026ed8222660af16",
+          "title": "Research Paper: Agentic AI Defense: Decode-Time Provenance Binding for MCP"
         }
       ]
     },
     {
-      "id": "0f71ebe7a492d15c9a932e8296f3a142",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1600/br-nodejs.jpg",
-      "published": "2026-10-24T11:09:29Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "e7f9610cf94e548f5505ad28a20f1c8c",
-          "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot"
-        },
-        {
-          "id": "68af383958504ee6331831dccfd3f9b0",
-          "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud"
-        }
-      ]
-    },
-    {
-      "id": "9d52cbe35a240de8dd0dac040558a025",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipiDo2Yur6TXZHLped9EQgORAH65rC4APGTaq_EZzlDnspAaULTQCKblBC0FeIah7nOCKTiQa2Oi8cyx-bbxHj042Km9oYAf2s78XmStFxzPBTSQ_oqv4ZcWGEkUP1wo5JfJ1UDrWQpAtz8ZHd9i3ZbGWWe8s6CMeUU_nObp5tCEywMWGovqFh9NA1H8Sv/s1600/lite.jpg",
-      "published": "2026-10-24T11:03:33Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.",
+      "id": "ecc19217ed3e07568b394d7064b976e6",
+      "title": "plaso-20261025",
+      "link": "https://github.com/log2timeline/plaso/releases/tag/20261025",
+      "source": "Plaso Releases",
+      "source_icon": "📦",
+      "image": "https://avatars.githubusercontent.com/u/3888750?s=60&v=4",
+      "published": "2026-10-25T08:28:48Z",
+      "published_fmt": "25 Oct 2026",
+      "plain_summary": "Pre-release of version 20261025, for testing purposes",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -824,98 +759,8 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
+      "collected_date": "26 Oct 2026",
       "related": []
-    },
-    {
-      "id": "68af383958504ee6331831dccfd3f9b0",
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmm0pKX3kbfMC2GKemUiMT8PH1uDJIHn4AcmoiQ5nUK4TWZl0Ni_-k6kjpAFUrFzEWSSq_G307YJXTXmn9FZ7q6oOr5OEMASP9mrXOXrk9lSOGzqPCAbkQqpHsMxFe1q5CnyDZnqeDq_FiiC7jEzp0ie1r_nnQOSKcbPcKBdoXI-ycAjCZA9AuxemUhE5k/s1600/arista-cisa.jpg",
-      "published": "2026-10-24T06:25:57Z",
-      "published_fmt": "24 Oct 2026",
-      "plain_summary": "The U.S.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "e7f9610cf94e548f5505ad28a20f1c8c",
-          "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot"
-        },
-        {
-          "id": "0f71ebe7a492d15c9a932e8296f3a142",
-          "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software"
-        }
-      ]
-    },
-    {
-      "id": "730e4e2f09001bcdd17eda5f516808a3",
-      "title": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcnBlTnMwY1FyNmRReExFa28tdmMxODhwNm1rSjh4MVJVWGpZTTQ5ZmZtbzcySFZLS1RWMHdlTndfZlJ1UUVXUDNyb0p2TURhOEtrd2J0VHdyZXhkQk1FM0xnZ2tEM0tmVERmbmRsenhmRmhxdVg4T2FLbDZ1SDNtNzlJQ3JwSzRTdnBPdE5iUDdNTHQyVzRQM1A2aUtCaEJNQTFqcW52a0V0bGZfSXBRT3BvcElickc3YnFxbklVcGdWLWF3OTlNZnF0RjV4SXVn?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_2.png",
-      "published": "2026-10-23T13:23:40Z",
-      "published_fmt": "23 Oct 2026",
-      "plain_summary": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "82665933cfe8031b8563ad4ea6f90020",
-          "title": "Facebook’s misleading privacy claims land Meta a $25 billion penalty - Malwarebytes"
-        },
-        {
-          "id": "f76395b595c2377d38f29d9979dd7593",
-          "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet"
-        }
-      ]
-    },
-    {
-      "id": "82665933cfe8031b8563ad4ea6f90020",
-      "title": "Facebook’s misleading privacy claims land Meta a $25 billion penalty - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQkNrbzVISGlrSlB2OXl0aDJrOWgxdHRkOVlRSUdDYXhRR290UDNZYTdaWE50YXVEbmZTNUxzM2ZldFRVR1U0NFh2Y0wyMXh0alhxODBEUXpFaTR2bU5DRHdCYklraUNOSDJnTGpNekx0Ni13V041YXhpQkpWTUhZd0NzYmdLVEQ4T1BBV093WlBoTDc1LTd0cnlkc2tHLTJZUm9vSEFwTWcwNFNEekQ0WmgySQ?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_1.png",
-      "published": "2026-10-22T17:09:00Z",
-      "published_fmt": "22 Oct 2026",
-      "plain_summary": "Facebook’s misleading privacy claims land Meta a $25 billion penalty Malwarebytes",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "25 Oct 2026",
-      "related": [
-        {
-          "id": "730e4e2f09001bcdd17eda5f516808a3",
-          "title": "Resident Evil maker Capcom warns of phishing after 11.7 million records exposed - Malwarebytes"
-        },
-        {
-          "id": "51625a9fa1dac9ad78ad709c05dd20ff",
-          "title": "(Reliable)? php2shell exploitability - SANS Internet Storm Center"
-        }
-      ]
     }
   ]
 }
