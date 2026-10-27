@@ -179,16 +179,15 @@
   },
   {
     "name": "Andriller",
-    "version": "3.8.2",
-    "released": "4 May 2026",
+    "version": "3.6.3",
+    "released": "30 April 2022",
     "category": "Mobile Forensics",
     "github_repo": "den4uk/andriller",
     "features": [
-      "Android backup decryption updates",
-      "Updated WhatsApp extraction parser"
+      "Support for Python 3.10"
     ],
     "bugs": [
-      "Unicode encoding inside chat databases"
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -244,7 +243,7 @@
       "The new drivers implement Fast IO mode so should be faster than before."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -380,7 +379,7 @@
   {
     "name": "Wireshark",
     "version": "4.6.9",
-    "released": "26 October 2026",
+    "released": "27 October 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [
@@ -432,14 +431,13 @@
   },
   {
     "name": "Zeek",
-    "version": "9.0.0",
-    "released": "21 August 2026",
+    "version": "9.0.1",
+    "released": "26 October 2026",
     "category": "Network Forensics",
     "github_repo": "zeek/zeek",
     "features": [
-      "We'd like to thank Aaron J. Scantlin (@scantlina), @airshelley, Alexey Rubanik",
-      "(@Rubanik-Alexei), Azil (@achill06), Bauti Peirone (@bautipeirone), Blair",
-      "McCormick (@blairSmcc03), Craig Leres (@leres), Craig P (@detection-labs),"
+      "(@dopheide-esnet), @dotMuny, @Gido822, Aashish Sharma (@initconf), James Gurung",
+      "(@jmass-ggg), Pavan Nallamothu (@pavanchow), Peter Cullen (@pbcullen), Alexey Rubanik"
     ],
     "bugs": [
       "General bug fixes and code optimizations"
@@ -500,16 +498,18 @@
   },
   {
     "name": "x64dbg",
-    "version": "2026.06.01",
-    "released": "1 June 2026",
+    "version": "2026.05.27",
+    "released": "27 May 2026",
     "category": "Malware Analysis",
     "github_repo": "x64dbg/x64dbg",
     "features": [
-      "Updated memory map layout views",
-      "Enhanced scripts compiling debugger"
+      "📜 Changelog",
+      "Added CPUStack (Linux) by @3rdit in 3839",
+      "Make tests declarative by @mrexodia in 3837"
     ],
     "bugs": [
-      "Breakpoint listing crash"
+      "May 2026: Small hotfix release",
+      "This is a small hotfix release after the April release. It fixes an `r8` register modification issue, a trace reader memory fault, dark theme label coloring, and support for passing an absolute path to `-cf`. It also includes a few small UI, packaging, testing, and experimental Linux debugger updates."
     ]
   },
   {
@@ -593,7 +593,7 @@
       "Crafted `.viv` files could execute code when FLOSS analyzed a sample: either the sample itself named `*.viv`, or a `.viv` next to it. FLOSS now always parses samples as PE or ELF and only loads an existing `.viv` when `FLOSSLOADVIV_WORKSPACE=1` is set. Only enable this for `.viv` files you trust. The IDA Pro plugin follows the same rule."
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
@@ -612,45 +612,43 @@
   },
   {
     "name": "OSINT-Profiler",
-    "version": "1.2.0",
-    "released": "3 July 2026",
+    "version": "1.0",
+    "released": "30 April 2026",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/OSINT-Profiler",
     "features": [
-      "Social profile crawler updates",
-      "Integrated API key secure management",
-      "Comprehensive HTML reports output"
+      "Dynamic GitHub release updates",
+      "General improvements"
     ],
     "bugs": [
-      "Search timeouts on specific platforms"
+      "General bug fixes and code optimizations"
     ]
   },
   {
     "name": "File_Integrity_Verifier_FIV",
-    "version": "1.0.4",
-    "released": "15 June 2026",
+    "version": "1.0",
+    "released": "26 November 2025",
     "category": "OSINT & Email",
     "github_repo": "jeraldbenny/File_Integrity_Verifier_FIV",
     "features": [
-      "Parallel multi-file hashing calculations",
-      "Automated DB integrity checks"
+      "🎉 First official release of File Integrity Verifier (FIV)",
+      "Full GUI with Light/Dark mode"
     ],
     "bugs": [
-      "Path parsing bugs on Windows drives"
+      "General bug fixes and code optimizations"
     ]
   },
   {
     "name": "Spiderfoot",
-    "version": "4.0.0",
-    "released": "10 May 2026",
+    "version": "4.0",
+    "released": "07 April 2022",
     "category": "OSINT & Email",
     "github_repo": "smicallef/spiderfoot",
     "features": [
-      "New API data leak modules",
-      "Enhanced graph exports interface"
+      "General system improvements and updates"
     ],
     "bugs": [
-      "Module connection drop issues"
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -668,16 +666,15 @@
   },
   {
     "name": "Sherlock",
-    "version": "4.4.0",
-    "released": "22 June 2026",
+    "version": "0.16.2",
+    "released": "08 September 2026",
     "category": "OSINT & Email",
     "github_repo": "sherlock-project/sherlock",
     "features": [
-      "Added 45 new sites definitions",
-      "Async multi-threaded lookups"
+      "Release created because its been a long time since the previous one and several minor changes have been made."
     ],
     "bugs": [
-      "False positives on cloudflare checks"
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -735,15 +732,15 @@
   },
   {
     "name": "Hashcat",
-    "version": "7.1.2",
-    "released": "23 August 2025",
+    "version": "8.0.0",
+    "released": "25 October 2026",
     "category": "Timeline & Decryption",
     "github_repo": "hashcat/hashcat",
     "features": [
-      "General system improvements and updates"
+      "We're proud to announce the release of hashcat v8.0.0. This is the largest update in the history of hashcat. No earlier release changed as many files, and no earlier release collected as many changelog entries."
     ],
     "bugs": [
-      "This hotfix restores backward compatibility in machine-readable status view mode, which was broken in v7.1.0 and affected third-party overlays such as the Hashtopolis agent. It also fixes issues in the Argon2 libraries when used in multi-hash modes. If you are using hashcat v7.1.0+ with LUKS2 or KeePass KDBX4, updating is strongly recommended."
+      "General bug fixes and code optimizations"
     ]
   },
   {
@@ -758,7 +755,7 @@
       "Added `Azure.Monitor.Upload`, which uploads server-side artifact results to an Azure Monitor Log Analytics workspace. Takes a table name, a Data Collection Rule id, and either a client secret or a managed identity. (4974, 2026-09-04)"
     ],
     "bugs": [
-      "Minor stability and performance issues"
+      "Resolved minor stability and performance issues"
     ]
   },
   {
