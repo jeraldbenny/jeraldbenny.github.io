@@ -557,16 +557,18 @@
   },
   {
     "name": "YARA",
-    "version": "4.5.8",
-    "released": "28 July 2026",
+    "version": "4.6.0",
+    "released": "27 October 2026",
     "category": "Malware Analysis",
     "github_repo": "VirusTotal/yara",
     "features": [
-      "Document the `YRRESCAN_LIMIT` regular expression scan limit (2223)."
+      "Add `yrgetversion` to report the version of the library loaded at runtime (2247).",
+      "Expose nine more `e_machine` values in `elf` module (2248).",
+      "Sync `yara` man page with current CLI options (2256)."
     ],
     "bugs": [
-      "Bound rule table index in `OPPUSHRULE` and `OPINITRULE` (2230).",
-      "Bound tilde stream row-count read in `dotnet` module (2224)."
+      "Validate string, rule, and namespace indices in `yrrulesfrom_arena` (c19fa616).",
+      "C-stack overflow on deeply nested regex and hex string ASTs (034623f5)."
     ]
   },
   {
