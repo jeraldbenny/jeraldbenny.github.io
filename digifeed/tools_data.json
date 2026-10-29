@@ -695,12 +695,12 @@
   },
   {
     "name": "Plaso",
-    "version": "20260720",
-    "released": "20 July 2026",
+    "version": "20261027",
+    "released": "27 October 2026",
     "category": "Timeline & Decryption",
     "github_repo": "log2timeline/plaso",
     "features": [
-      "Release of version 20260720"
+      "Release of version 20261027"
     ],
     "bugs": [
       "General bug fixes and code optimizations"
@@ -762,16 +762,17 @@
   },
   {
     "name": "Hayabusa",
-    "version": "4.2.0",
-    "released": "13 October 2026",
+    "version": "4.3.1",
+    "released": "28 October 2026",
     "category": "Timeline & Decryption",
     "github_repo": "Yamato-Security/hayabusa",
     "features": [
-      "Released 2026/10/12.",
-      "Log files found with -d, --directory or -l, --live-analysis are now scanned in sorted path order, making unsorted timeline output deterministic across operating systems, filesystems, and directory copies. (1929)"
+      "Released 2026/10/29.",
+      "> [!WARNING]",
+      "> Antivirus and EDR products may report false positives when downloading or extracting Hayabusa release files. If you are using Hayabusa for live response on a running Windows system, use the appropriate Windows `live-response` build to lower the chance of false positives from antivirus and EDR products. This does not guarantee that no alert will occur."
     ],
     "bugs": [
-      "Rule files loaded from a rules directory are now loaded in sorted path order, making same-batch detection ordering deterministic. Rules loaded from encoded_rules.yml retain their existing fixed order. (1929)"
+      "CSV and JSON/JSONL timelines repeating fields in `ExtraFieldInfo` when the same values were already shown in `Details` but their whitespace or trailing-comma representations differed during processing. The comparison now applies the same canonicalization to both sides without changing the displayed values. (1950) (@YamatoSecurity)"
     ]
   }
 ]
