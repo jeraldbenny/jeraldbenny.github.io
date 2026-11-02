@@ -1,17 +1,17 @@
 {
-  "last_updated": "01 November 2026, 12:01 IST",
-  "total": 27,
+  "last_updated": "02 November 2026, 12:02 IST",
+  "total": 37,
   "articles": [
     {
-      "id": "b0ff533efc672b514c91c9bcf10ec02a",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "link": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "id": "107b7771a2cb7eff23d19e6eca63ab39",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_5.png",
-      "published": "2026-10-31T18:01:12Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "published": "2026-11-01T19:57:53Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,28 +20,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "390feb96420434d589a95e125a2fa41a",
-          "title": "Chainalysis discloses data breach from \"offensive agentic techniques\""
+          "id": "a18021832e4899eecedd397871a53614",
+          "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist"
         },
         {
-          "id": "c9bba5656d415800ccb0276159159d7d",
-          "title": "Reddit to lock content behind logins to fight scrapers"
+          "id": "28646d9dcd9888e2807256f1b37827f6",
+          "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script"
         }
       ]
     },
     {
-      "id": "c9bba5656d415800ccb0276159159d7d",
-      "title": "Reddit to lock content behind logins to fight scrapers",
-      "link": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "id": "709c87e1e35ad2d72ec2697bd40e3984",
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_4.png",
-      "published": "2026-10-31T14:05:15Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-01T13:53:11Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,58 +50,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "b0ff533efc672b514c91c9bcf10ec02a",
-          "title": "Northflank security breach leads to abuse of customers' AI API keys"
+          "id": "107b7771a2cb7eff23d19e6eca63ab39",
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
         },
         {
-          "id": "390feb96420434d589a95e125a2fa41a",
-          "title": "Chainalysis discloses data breach from \"offensive agentic techniques\""
+          "id": "4215f7796e3907e8b22c683a1ae114ca",
+          "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key"
         }
       ]
     },
     {
-      "id": "390feb96420434d589a95e125a2fa41a",
-      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
-      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-10-31T12:50:09Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "065d6fd5d0631ffc27d73b8c2b655996",
-          "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data"
-        },
-        {
-          "id": "b0ff533efc672b514c91c9bcf10ec02a",
-          "title": "Northflank security breach leads to abuse of customers' AI API keys"
-        }
-      ]
-    },
-    {
-      "id": "065d6fd5d0631ffc27d73b8c2b655996",
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "id": "4215f7796e3907e8b22c683a1ae114ca",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1600/chain.jpg",
-      "published": "2026-10-31T12:01:56Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Vibbj3miGalyf0avn_Z2WlLhFh5cC5ImXGFlOL0cisgxikHCcLzHjOVM3qO5B47V3uw62rWH6m6fP1svsH3TCG6i9sS19BIXn1CsDjKK3gnG6VQxkFwghemdeBlV4_AM5Ah-_TJ3T_5Gv-D5Pygrm-B5yzQnDqvIXmI2FyAeuzk57_l6esdhNrTMBj0/s1600/linux-vm.jpg",
+      "published": "2026-11-01T08:51:31Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -110,28 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "390feb96420434d589a95e125a2fa41a",
-          "title": "Chainalysis discloses data breach from \"offensive agentic techniques\""
+          "id": "107b7771a2cb7eff23d19e6eca63ab39",
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
         },
         {
-          "id": "b0ff533efc672b514c91c9bcf10ec02a",
-          "title": "Northflank security breach leads to abuse of customers' AI API keys"
+          "id": "709c87e1e35ad2d72ec2697bd40e3984",
+          "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat"
         }
       ]
     },
     {
-      "id": "1a31ef5d4a3ce9fcdec1ecfd91328453",
-      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
-      "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/10/VOLTA.jpg",
-      "published": "2026-10-31T12:00:00Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets.",
+      "id": "28646d9dcd9888e2807256f1b37827f6",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe0B28qLAtUMfqN29_phxZJVJORICkj_98MZFwDiXAxFTABw8G9qbsVyD98pg7T_Rvgv83NXyR5tNGYH4dRwlxs3QFTUZxDPHQs2BgFsnmGcOuVW1HkFVCfiCR3Y05kPQrfFx4S7A8DiFXXAAgdc5SiEKx0-0xrW5rNlNSyN3jZJcyXasdpCr5AG7KM3s/s1600/Polymarket.jpg",
+      "published": "2026-11-01T07:25:40Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -140,28 +110,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "b0ff533efc672b514c91c9bcf10ec02a",
-          "title": "Northflank security breach leads to abuse of customers' AI API keys"
+          "id": "107b7771a2cb7eff23d19e6eca63ab39",
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
         },
         {
-          "id": "c9bba5656d415800ccb0276159159d7d",
-          "title": "Reddit to lock content behind logins to fight scrapers"
+          "id": "709c87e1e35ad2d72ec2697bd40e3984",
+          "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat"
         }
       ]
     },
     {
-      "id": "84327c7399668a5b172269494bc42069",
-      "title": "WeLiveSecurity - WeLiveSecurity",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vZ2dHSnR3TzFWUnlKbUh2U01ibFdKWUZfNDZabUVwekdjc3l3QWFlc0haUURJTjVKR3V6OC04bmJVbTF3Mm1keENvRmNfUGRxT2YySVNBQjZ2YUhFM05OdWUzUmJXNXBsVjY0c1Z2SV8?oc=5",
-      "source": "ESET Research",
-      "source_icon": "🦠",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-10-30T13:43:42Z",
+      "id": "a18021832e4899eecedd397871a53614",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmb1j0HC3RkKxZ4bBQPaOa5GaLqC2EBtxXHOMnebPlgHGDJG7ryIuSBIR-9YBQuUm6HwD15-OJQgBvIkhbLIApM8XoU0DptSEF6DNhEpinxPA-06wQZhLhRiKmFGO5cVjONcaouGC3lqybhkeEsZj-xebX6u6hSR19mS7sVqOrpR02qNOlpHZJEUjf1HtB/s1600/binance-hack.png",
+      "published": "2026-11-01T07:03:00Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "The U.S.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "107b7771a2cb7eff23d19e6eca63ab39",
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
+        },
+        {
+          "id": "709c87e1e35ad2d72ec2697bd40e3984",
+          "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat"
+        }
+      ]
+    },
+    {
+      "id": "1676ba1442a38cef7260eacc7d52b7eb",
+      "title": "Painting with impaired vision: Vincent van Gogh - The Eclectic Light Company",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVVwUVo2Q3FsR2FWTmtxOFdacXh0b3k0Rmg1VjNOREdpQVRPRE42SkdINV9memZDNW1UdWhGOFJaR21jTFJTeFZlWE96Yk5OakVScENGR1RYYllhTTNWSU0xRUdScXVVaTdpQnYwOUxRZkl6ZDJXWWh2SVlhVlZEWGtwWXN4MEZRZzNr?oc=5",
+      "source": "Howard Oakley",
+      "source_icon": "🍏",
+      "image": "images/dfir_2.png",
+      "published": "2026-10-30T12:30:00Z",
       "published_fmt": "30 Oct 2026",
-      "plain_summary": "WeLiveSecurity WeLiveSecurity",
+      "plain_summary": "Painting with impaired vision: Vincent van Gogh The Eclectic Light Company",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -170,28 +170,118 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "b0ff533efc672b514c91c9bcf10ec02a",
-          "title": "Northflank security breach leads to abuse of customers' AI API keys"
+          "id": "107b7771a2cb7eff23d19e6eca63ab39",
+          "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
         },
         {
-          "id": "c9bba5656d415800ccb0276159159d7d",
-          "title": "Reddit to lock content behind logins to fight scrapers"
+          "id": "709c87e1e35ad2d72ec2697bd40e3984",
+          "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat"
         }
       ]
     },
     {
-      "id": "811b17b23abb96aeb7bcbd4dd60b9b80",
-      "title": "‘My hands are shaking’ - what it’s like to be an expert witness - video - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQXFCZmNBdzRnVHJTaF9RcHNEcUQ5Yl9nT1dvWWRvWFBsN3J0RGVMaFIwSFA1WFVjOWxJV0dSTTBIQVBybEozV3Z4T0tmbEk0T3VDZnhWSWJOZFJCZkgxbGhCbThTTGROaFppeVBRMXE4SzNSTzItbWVIMkp6RUxHZ2JmOVQ4STZOZEREaDg2b0xtN2FPR3dYV0VFNUJ5cTZqYm5ZLTRJbmE4Z25TX1dUWEp5eXhGRi14V3c?oc=5",
+      "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+      "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU1VpeDlfQTRyRmFKN0VhNF9GRU5KdTFjZXRSM0MwRFZrUW5QMUo3OGlPZWFmb2xGdXVwLTJmdm1LeVlKVnZpMlp4azdpcE9HcTlVVzRLZDZvV216MmR1dlVoc3JfVTRYZ0JMYmJZNDZyVTVvWkZsMDlnZXJuQy1nTTVzWF8wZUlEM0JHNVRqdkZqUERqQmcwdUl6dHMwQ1RFWVdMUTliTkNmUdIBvAFBVV95cUxOang3NTlzbXBReEc0cVRhVGl5a19abV8xRWRRanRBWl82UlF2bV9Zc2Q5Z3ZhODMzZnRqZjFTNnkwakVOcG9PYUJFSkc3azExX0NsOW4tcjlCTnZGRW50U2RwYWU5b2s1RnR4NmI5Nmd1TmNUc3c4TGhfWHZKOUlBZmVNUzZCcDZyTGVwMmdObHNhM3F6T25oWEg1eWVsM3RrQjk1TGlqNGd3ZHV0dmxndjBzbWtjR0VVQWNkTw?oc=5",
+      "source": "Google News: Forensic Toxicology",
+      "source_icon": "🧪",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-02T01:02:44Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "Dubai Police cuts forensic test time from 60 minutes to seconds Gulf News",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "162607c28d467433af9997a30e429f96",
+          "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times"
+        },
+        {
+          "id": "97a58ab424151ecbb1dd290fc559a5e6",
+          "title": "Pennsylvania State Police awarded for DNA program - standard-journal.com"
+        }
+      ]
+    },
+    {
+      "id": "162607c28d467433af9997a30e429f96",
+      "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT01PbUpsNFBzU29ndHZIblEydTJkaDZhVlFnWTNNaE8xWGxEVHNzSVlORXE5TEw3MkZXdDlHeEMxX0V4TnhsbFpFRGx4N1owYXYzeGZlOGJROTFUc0pWZ003UlFKb1BpZlNQNTFET1VlZlBZVlVvSi1hQmxmQVhSVlR0cmttd0wtOG5nTTRycEc3TWJnckdF0gGfAUFVX3lxTE9jTXc5NDQxSHZ2NEJWZ2ZPZmk1blhNd0tIel9SV3lSVUpTZG9qLUllbC1UdzViMC11cWYzdWNyUlZ0cWpUVXNoNFBXS3ZqYWUtQy1wQXF3VzNxTkdOTTBnd3hnOVRzbWVENVFhNklfQk9QWWIzYWR6Y3BEekhnOHZfd0ZWcTA1MTJFWUdNeUlBN0hxSExjOEd6STJtTGtoOA?oc=5",
+      "source": "Google News: Forensic Toxicology",
+      "source_icon": "🧪",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-01T09:59:05Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 Khaleej Times",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
+        },
+        {
+          "id": "97a58ab424151ecbb1dd290fc559a5e6",
+          "title": "Pennsylvania State Police awarded for DNA program - standard-journal.com"
+        }
+      ]
+    },
+    {
+      "id": "eb520f784d8f39d39c2515fe317a7614",
+      "title": "2,700-year-old mummy head yields first molecular evidence linking aloe to Egyptian embalming",
+      "link": "https://phys.org/news/2026-10-year-mummy-yields-molecular-evidence.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-at-the-uni.jpg",
+      "published": "2026-11-01T09:00:01Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "What materials did ancient Egyptians use to preserve the dead, and how can their composition still be investigated thousands of years later?",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
+        },
+        {
+          "id": "162607c28d467433af9997a30e429f96",
+          "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times"
+        }
+      ]
+    },
+    {
+      "id": "97a58ab424151ecbb1dd290fc559a5e6",
+      "title": "Pennsylvania State Police awarded for DNA program - standard-journal.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZVRBNC05SVI2eE9mVC1oeXNVOW5zLUk0S3lnNFZOUmpyVDcwQnM1VHFFeUctam9qc2k3ZFZKNGZRXy00ME5BbmxaN0V6c2NnUGFwVk9WalhmVjFWUGZWRnIzUndCTTNZTzZRWjh0UE0za2UzeDF0aVJGLVhqZVhPMk1CVWo1ZW5zNnFtLVJIRnU5SWhXWmNFNWRUWHlKcy1hLWE4UTJKb29RWkpISnFqUnZBdGFOTDFLVjdiaHpzM2V1eWs4dTExbzBpMTk4QjJMaW83dzdJY2ZBWTQ?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
-      "image": "images/forensics_4.png",
-      "published": "2026-10-29T18:20:00Z",
-      "published_fmt": "29 Oct 2026",
-      "plain_summary": "‘My hands are shaking’ - what it’s like to be an expert witness - video The Guardian",
+      "image": "images/forensics_1.png",
+      "published": "2026-11-02T05:00:00Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "Pennsylvania State Police awarded for DNA program standard-journal.com",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -200,24 +290,120 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "84327c7399668a5b172269494bc42069",
-          "title": "WeLiveSecurity - WeLiveSecurity"
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
+        },
+        {
+          "id": "162607c28d467433af9997a30e429f96",
+          "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times"
         }
       ]
     },
     {
-      "id": "5cfdad0df43d03b3ef3377ab325f7ded",
-      "title": "Research Paper: Efficient Scalable Oversight via Rewinding",
-      "link": "https://arxiv.org/abs/2610.40535v1",
+      "id": "ac5c7debdcbf4a9c70a33f2142536e35",
+      "title": "Judge weighs expert science as 1985 Vernon County cold-case murder moves toward trial - VernonReporter",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGJsNjFvdmI4cVdMSkNoMW96X3N4a183NVZldkZvVzJWaW5ISDJDTGJabXNOSWoxcXBpeFY4SWYwNFhTdnNLWFR2SzcycUhmWXBZRkhZek9XQjEzVm1GZV9VdHhNcm1yNVllWkVHLWY2RzIwLU9MdVZ5cU9XMFE5azlaODF6LVdzMElDakVjbmtseWFBNlVGRWhuQkhWaWN5eWFhNlpFeWdYRTIxcmQ1UUdEcw?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_1.png",
+      "published": "2026-11-01T19:31:56Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "Judge weighs expert science as 1985 Vernon County cold-case murder moves toward trial VernonReporter",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
+        },
+        {
+          "id": "162607c28d467433af9997a30e429f96",
+          "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times"
+        }
+      ]
+    },
+    {
+      "id": "668922a0cbb63309d76756b2435bc890",
+      "title": "Cisco Quarry: How AI-Agent Trace Detection Works - NeoTeo",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRmJ5RjVyWVdmTGJjZ2JqUU1rUFFJT0JBNEtMODlDOVVRMHVIT1ZfTm5vcFhDY2ZsYWtMZE1PTG01S0NlZ2dQM0JXUDNWT2h2Z3B4Qm54bWdFTG50UFJ0NFRJWjBVRDlGT01QWGhwdnRhRk5CTlBKeFhoYkwyNmF5TTdDUmdHNHlwak5NMFZlSm5BUQ?oc=5",
+      "source": "Google News: Trace Evidence",
+      "source_icon": "🔍",
+      "image": "images/forensics_3.png",
+      "published": "2026-10-30T20:27:11Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "Cisco Quarry: How AI-Agent Trace Detection Works NeoTeo",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
+        },
+        {
+          "id": "162607c28d467433af9997a30e429f96",
+          "title": "Dubai Police platform cuts forensic toxicology processing time from 60 mins to under 1 - Khaleej Times"
+        }
+      ]
+    },
+    {
+      "id": "f25e1dfe9facea502da07121ae42e68d",
+      "title": "Research Paper: Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+      "link": "https://arxiv.org/abs/2610.42139v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-10-29T17:34:28Z",
-      "published_fmt": "29 Oct 2026",
-      "plain_summary": "Scalable oversight asks how a weak verifier can check the outputs of computations performed by more powerful AI systems.",
+      "image": "images/research_5.png",
+      "published": "2026-10-30T17:58:42Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 85,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "50dad5ebfece9f0158c79193c7097a30",
+          "title": "Research Paper: Spectral Haar Binarizer: Compact Boolean Contrast Representations for Hyperspectral Classification"
+        },
+        {
+          "id": "cb730fd226f0f8ad3ca6bf8ee26f1c46",
+          "title": "Research Paper: SecPO: Principled Adversarial Training for Prompt Injection Security"
+        }
+      ]
+    },
+    {
+      "id": "cb730fd226f0f8ad3ca6bf8ee26f1c46",
+      "title": "Research Paper: SecPO: Principled Adversarial Training for Prompt Injection Security",
+      "link": "https://arxiv.org/abs/2610.41998v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-10-30T16:43:17Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
@@ -225,308 +411,441 @@
         "#arxiv",
         "#ai"
       ],
-      "read_time": "2 min read",
+      "read_time": "1 min read",
       "forensic_score": 85,
-      "collected_date": "01 Nov 2026",
-      "related": []
-    },
-    {
-      "id": "97c46857432680a57016b50ace1d2c4e",
-      "title": "[Threat IOC] ClearFake domain: bh.majobeautyclub.com.br",
-      "link": "https://threatfox.abuse.ch/ioc/2007505/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-11-01T06:24:21Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#clearfake"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "0bbb4cd28ba91dc98c6eb5c896afcf0c",
-          "title": "[Threat IOC] php.shin_webshell domain: proxy-us-east009-cip14.ahrefs.net"
+          "id": "9d5e4272ebec3f3576b2059c0a514160",
+          "title": "Research Paper: Clinical-Protocol-Aware Cyber Resilience for Connected Clinical Technologies Under AI-Enabled Adversarial Conditions"
         },
         {
-          "id": "4cb3003a01dfa931acea2b675d111184",
-          "title": "[Threat IOC] Mozi url: http://103.176.16.101:51023/Mozi.7"
+          "id": "f25e1dfe9facea502da07121ae42e68d",
+          "title": "Research Paper: Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches"
         }
       ]
     },
     {
-      "id": "4cb3003a01dfa931acea2b675d111184",
-      "title": "[Threat IOC] Mozi url: http://103.176.16.101:51023/Mozi.7",
-      "link": "https://threatfox.abuse.ch/ioc/2007504/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-11-01T06:19:57Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mozi. Type: url. Threat Category: payload_delivery. Reporter: HoneyLabs.",
+      "id": "ce46bb5815d9cfeaf1c789023011a473",
+      "title": "Research Paper: On-Chain Behavioral Signatures for Classifying Centralized Exchange Addresses on Ethereum Using Proof-of-Reserves",
+      "link": "https://arxiv.org/abs/2610.41888v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-10-30T15:32:04Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "Centralized exchanges (CEXs) are key gateways between traditional finance and digital asset markets, yet identifying their blockchain addresses remains challenging.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#mozi"
+        "#research",
+        "#arxiv",
+        "#ai"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "da0f4c230805286f1359d5d2b927415b",
-          "title": "[Threat IOC] Mozi url: http://42.242.128.26:40193/Mozi.m"
+          "id": "f25e1dfe9facea502da07121ae42e68d",
+          "title": "Research Paper: Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches"
         },
         {
-          "id": "97c46857432680a57016b50ace1d2c4e",
-          "title": "[Threat IOC] ClearFake domain: bh.majobeautyclub.com.br"
+          "id": "cb730fd226f0f8ad3ca6bf8ee26f1c46",
+          "title": "Research Paper: SecPO: Principled Adversarial Training for Prompt Injection Security"
         }
       ]
     },
     {
-      "id": "da0f4c230805286f1359d5d2b927415b",
-      "title": "[Threat IOC] Mozi url: http://42.242.128.26:40193/Mozi.m",
-      "link": "https://threatfox.abuse.ch/ioc/2007503/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-11-01T06:19:56Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Mozi. Type: url. Threat Category: payload_delivery. Reporter: HoneyLabs.",
+      "id": "9d5e4272ebec3f3576b2059c0a514160",
+      "title": "Research Paper: Clinical-Protocol-Aware Cyber Resilience for Connected Clinical Technologies Under AI-Enabled Adversarial Conditions",
+      "link": "https://arxiv.org/abs/2610.41784v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-10-30T14:18:39Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "Healthcare increasingly relies on connected medical devices, clinical information systems, cloud services, and distributed-care technologies, creating cybersecurity risks across clinical workflows.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#mozi"
+        "#research",
+        "#arxiv",
+        "#ai"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "4cb3003a01dfa931acea2b675d111184",
-          "title": "[Threat IOC] Mozi url: http://103.176.16.101:51023/Mozi.7"
+          "id": "cb730fd226f0f8ad3ca6bf8ee26f1c46",
+          "title": "Research Paper: SecPO: Principled Adversarial Training for Prompt Injection Security"
         },
         {
-          "id": "97c46857432680a57016b50ace1d2c4e",
-          "title": "[Threat IOC] ClearFake domain: bh.majobeautyclub.com.br"
+          "id": "f25e1dfe9facea502da07121ae42e68d",
+          "title": "Research Paper: Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches"
         }
       ]
     },
     {
-      "id": "f0433ef8211b147beb8de47e45154a61",
-      "title": "[Threat IOC] AMOS sha256_hash: a80db01f9d80275cf85543c9ed0dbd70963b8e373a6806a99edbdb2b429a2b24",
-      "link": "https://threatfox.abuse.ch/ioc/2007502/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-11-01T06:17:52Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AMOS. Type: sha256_hash. Threat Category: payload. Reporter: c4ffeine.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#amos"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "97c46857432680a57016b50ace1d2c4e",
-          "title": "[Threat IOC] ClearFake domain: bh.majobeautyclub.com.br"
-        },
-        {
-          "id": "4cb3003a01dfa931acea2b675d111184",
-          "title": "[Threat IOC] Mozi url: http://103.176.16.101:51023/Mozi.7"
-        }
-      ]
-    },
-    {
-      "id": "0bbb4cd28ba91dc98c6eb5c896afcf0c",
-      "title": "[Threat IOC] php.shin_webshell domain: proxy-us-east009-cip14.ahrefs.net",
-      "link": "https://threatfox.abuse.ch/ioc/2007501/",
+      "id": "ef6b94df22b0aef557b936beb4ddde9c",
+      "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app",
+      "link": "https://threatfox.abuse.ch/ioc/2008926/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-11-01T06:10:24Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: payload_delivery. Reporter: xscon.",
+      "published": "2026-11-02T06:29:30Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#php.shin_webshell"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "97c46857432680a57016b50ace1d2c4e",
-          "title": "[Threat IOC] ClearFake domain: bh.majobeautyclub.com.br"
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
         },
         {
-          "id": "4cb3003a01dfa931acea2b675d111184",
-          "title": "[Threat IOC] Mozi url: http://103.176.16.101:51023/Mozi.7"
+          "id": "7ed6103c70684f0d335f3c307891efd0",
+          "title": "[Threat IOC] Unknown malware domain: auth-rho-dun.vercel.app"
         }
       ]
     },
     {
-      "id": "5b0cbc572f761f8bdaf59f7825333f09",
-      "title": "[Threat IOC] VShell ip:port: 154.91.53.163:9097",
-      "link": "https://threatfox.abuse.ch/ioc/2007500/",
+      "id": "68ee0ea3e12ef0e49262e818b61d137a",
+      "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app",
+      "link": "https://threatfox.abuse.ch/ioc/2008927/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-11-01T06:05:07Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "image": "images/malware_1.png",
+      "published": "2026-11-02T06:29:30Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#vshell"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "f24e68c64bf6d4b9ac2bf453b685e555",
-          "title": "[Threat IOC] VShell ip:port: 154.91.53.162:9097"
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
         },
         {
-          "id": "1ad4a44735d40144a8d8a4998bd93c7b",
-          "title": "[Threat IOC] VShell ip:port: 154.91.52.190:9097"
+          "id": "7ed6103c70684f0d335f3c307891efd0",
+          "title": "[Threat IOC] Unknown malware domain: auth-rho-dun.vercel.app"
         }
       ]
     },
     {
-      "id": "f24e68c64bf6d4b9ac2bf453b685e555",
-      "title": "[Threat IOC] VShell ip:port: 154.91.53.162:9097",
-      "link": "https://threatfox.abuse.ch/ioc/2007499/",
+      "id": "7ed6103c70684f0d335f3c307891efd0",
+      "title": "[Threat IOC] Unknown malware domain: auth-rho-dun.vercel.app",
+      "link": "https://threatfox.abuse.ch/ioc/2008928/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_3.png",
-      "published": "2026-11-01T06:05:06Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "published": "2026-11-02T06:29:30Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#vshell"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "5b0cbc572f761f8bdaf59f7825333f09",
-          "title": "[Threat IOC] VShell ip:port: 154.91.53.163:9097"
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
         },
         {
-          "id": "1ad4a44735d40144a8d8a4998bd93c7b",
-          "title": "[Threat IOC] VShell ip:port: 154.91.52.190:9097"
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
         }
       ]
     },
     {
-      "id": "1ad4a44735d40144a8d8a4998bd93c7b",
-      "title": "[Threat IOC] VShell ip:port: 154.91.52.190:9097",
-      "link": "https://threatfox.abuse.ch/ioc/2007498/",
+      "id": "1c1dba5e7f0b8ac2bd66f014ba5d74c9",
+      "title": "[Threat IOC] Unknown malware domain: parallelchain-labs.com",
+      "link": "https://threatfox.abuse.ch/ioc/2008929/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-11-02T06:29:29Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
+        },
+        {
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
+        }
+      ]
+    },
+    {
+      "id": "d22092006f509c4db810e26b355aa534",
+      "title": "[Threat IOC] Unknown malware domain: tsoftlabs.com",
+      "link": "https://threatfox.abuse.ch/ioc/2008930/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-11-02T06:29:29Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
+        },
+        {
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
+        }
+      ]
+    },
+    {
+      "id": "62cef5311cdfcda6b9daa359bbe70063",
+      "title": "[Threat IOC] Unknown malware domain: hamdingersoft.com",
+      "link": "https://threatfox.abuse.ch/ioc/2008931/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-11-02T06:29:28Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
+        },
+        {
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
+        }
+      ]
+    },
+    {
+      "id": "3811852cc3977f02eff33e85eef92dfb",
+      "title": "[Threat IOC] Unknown malware domain: githooks.homes",
+      "link": "https://threatfox.abuse.ch/ioc/2008932/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_4.png",
-      "published": "2026-11-01T06:05:05Z",
-      "published_fmt": "01 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "published": "2026-11-02T06:29:28Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#vshell"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "5b0cbc572f761f8bdaf59f7825333f09",
-          "title": "[Threat IOC] VShell ip:port: 154.91.53.163:9097"
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
         },
         {
-          "id": "f24e68c64bf6d4b9ac2bf453b685e555",
-          "title": "[Threat IOC] VShell ip:port: 154.91.53.162:9097"
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
         }
       ]
     },
     {
-      "id": "5a17ee6eed0fc9e1f056c331d989bb12",
-      "title": "[HIGH CVE] CVE-2026-116067 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116067",
+      "id": "cb76cee633015fc4d586b9e9cdf13578",
+      "title": "[Threat IOC] Unknown malware domain: gitupdate.lol",
+      "link": "https://threatfox.abuse.ch/ioc/2008933/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
+      "published": "2026-11-02T06:29:28Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: CMPC9.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "ef6b94df22b0aef557b936beb4ddde9c",
+          "title": "[Threat IOC] Unknown malware domain: fortesting-alpha.vercel.app"
+        },
+        {
+          "id": "68ee0ea3e12ef0e49262e818b61d137a",
+          "title": "[Threat IOC] Unknown malware domain: auth-confirm-seven.vercel.app"
+        }
+      ]
+    },
+    {
+      "id": "d2f604bb0b08b63e58c861638e3b52b9",
+      "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103306",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-10-26T07:17:07Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The Online Payments with iK Pay Gateway WordPress plugin before 3.0.4 does not properly verify the authenticity of its payment gateway callback on a default installation, allowing unauthenticated attackers to forge a successful payment notification and mark arbitrary orders as paid without any payment being made, and to mark arbitrary unprocessed orders as failed.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
+        },
+        {
+          "id": "5bcd5556288871a8e61ec8587a5a0b1b",
+          "title": "[MEDIUM CVE] CVE-2026-103381 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "fd0154757e86143808500ddb9bcaef92",
+      "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103319",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-10-25T12:16:28Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "Paisa before 0.7.8 contains a path traversal vulnerability in the GetFile, GetSheet, DeleteBackups, and DeleteSheetBackups handlers that lets unauthenticated attackers read files and delete backups through ../ sequences in file names.",
+      "published": "2026-10-26T07:17:07Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The OPay Payment Gateway for WooCommerce WordPress plugin through 2.5.5 does not properly verify that payment notifications originate from the payment provider, as the secret used to validate their signature is empty by default, allowing unauthenticated attackers to forge a valid notification and mark arbitrary orders as paid, cancelled or failed.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#medium-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "24474b7875e62437e1111b99cb01d763",
-          "title": "[HIGH CVE] CVE-2026-116066 in Various Systems"
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
         },
         {
-          "id": "d9659a37e1dcde8a331dae610631db00",
-          "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems"
+          "id": "5bcd5556288871a8e61ec8587a5a0b1b",
+          "title": "[MEDIUM CVE] CVE-2026-103381 in Various Systems"
         }
       ]
     },
     {
-      "id": "24474b7875e62437e1111b99cb01d763",
-      "title": "[HIGH CVE] CVE-2026-116066 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116066",
+      "id": "5bcd5556288871a8e61ec8587a5a0b1b",
+      "title": "[MEDIUM CVE] CVE-2026-103381 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103381",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_1.png",
-      "published": "2026-10-25T12:16:27Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "Firecrawl before 2.11.586 contains a server-side request forgery vulnerability in the Playwright service SSRF proxy that allows attackers to bypass isInternalHost checks via DNS rebinding.",
+      "published": "2026-10-26T07:17:07Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The Mintpay for WooCommerce WordPress plugin through 2.2.3 does not verify the authenticity of the payment callback it processes, allowing unauthenticated attackers to mark arbitrary orders as paid, to cancel arbitrary orders, and to disclose order details including customer contact information.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
+        },
+        {
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "2d3b884c2d8c60774ded8343aed9da80",
+      "title": "[HIGH CVE] CVE-2026-107894 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107894",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-10-26T07:17:07Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains a stack-based buffer overflow vulnerability. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -536,28 +855,121 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "5a17ee6eed0fc9e1f056c331d989bb12",
-          "title": "[HIGH CVE] CVE-2026-116067 in Various Systems"
+          "id": "31bb2353c5380acb9d0223a8edfa0dca",
+          "title": "[HIGH CVE] CVE-2026-107895 in Various Systems"
         },
         {
-          "id": "d9659a37e1dcde8a331dae610631db00",
-          "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems"
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
         }
       ]
     },
     {
-      "id": "d9659a37e1dcde8a331dae610631db00",
-      "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116049",
+      "id": "31bb2353c5380acb9d0223a8edfa0dca",
+      "title": "[HIGH CVE] CVE-2026-107895 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107895",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-10-26T07:17:07Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "V-SFT provided by FUJI ELECTRIC CO., LTD. contains an out-of-bounds write vulnerability. Opening a crafted V7 file may lead to information exposure or arbitrary code execution on the affected product.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "2d3b884c2d8c60774ded8343aed9da80",
+          "title": "[HIGH CVE] CVE-2026-107894 in Various Systems"
+        },
+        {
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "74f859b2684772a3a9b73a08cb7e388f",
+      "title": "[MEDIUM CVE] CVE-2026-103298 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103298",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-10-26T07:17:06Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The CCAvenue Payment Gateway for WooCommerce WordPress plugin through 3.1 does not verify that a payment-confirmation request genuinely originates from the payment provider, and derives its verification key from a value that is empty on a default install, allowing unauthenticated attackers to forge a confirmation and mark any WooCommerce order as paid without payment.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
+        },
+        {
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "cb3177d472b0c1eb49522a2c00a7d0db",
+      "title": "[MEDIUM CVE] CVE-2026-103299 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103299",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-10-26T07:17:06Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The Payment Gateway WordPress plugin through 2.2.0 does not ensure a shared secret is configured before using it to authenticate the bank's payment-notification callback, allowing unauthenticated attackers to forge a valid notification and mark any WooCommerce order as paid on installs where the secret has not been set, and the same callback lets them move any pending order to a failed state whether or not the secret is configured.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
+        },
+        {
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "fb6dc9babb9b0f80bc51be269ad60f70",
+      "title": "[MEDIUM CVE] CVE-2026-103300 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103300",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-10-25T09:16:27Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A flaw has been found in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. Affected by this issue is the function mysql_query of the file /source/registerform2.php of the component Registration Wizard.",
+      "published": "2026-10-26T07:17:06Z",
+      "published_fmt": "26 Oct 2026",
+      "plain_summary": "The Eurobank WooCommerce Payment Gateway WordPress plugin through 2.1.1 does not verify that a payment-confirmation request genuinely originates from the payment provider, and ships with the secret that would authenticate it empty by default, allowing unauthenticated attackers to mark any pending order as paid, and to force any order into a failed status without any secret at all.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -567,243 +979,116 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "7385cede31511bbe5600e6e34955f2bd",
-          "title": "[MEDIUM CVE] CVE-2026-116050 in Various Systems"
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
         },
         {
-          "id": "2b457755ebfd862a87558a560697dd43",
-          "title": "[MEDIUM CVE] CVE-2026-116048 in Various Systems"
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
         }
       ]
     },
     {
-      "id": "7385cede31511bbe5600e6e34955f2bd",
-      "title": "[MEDIUM CVE] CVE-2026-116050 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116050",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-10-25T09:16:27Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A vulnerability has been found in krupalshah Employee Recruitment System up to 922ff6d208278282e7c8e36d70d9ae356adec9fe. This affects an unknown part of the file /source/registerform3.php of the component Registration.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "d9659a37e1dcde8a331dae610631db00",
-          "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems"
-        },
-        {
-          "id": "2b457755ebfd862a87558a560697dd43",
-          "title": "[MEDIUM CVE] CVE-2026-116048 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "9250f9140f0ed1472fae3e45b6dc15d3",
-      "title": "[LOW CVE] CVE-2026-116047 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116047",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-10-25T08:16:26Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A vulnerability has been found in Privoce Vocechat up to 0.9.121. This issue affects some unknown processing of the file widget.html of the component Query Parameter Handler.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "16918b343fedcb21e47c5f5def6a80d5",
-          "title": "[LOW CVE] CVE-2026-116045 in Various Systems"
-        },
-        {
-          "id": "5a17ee6eed0fc9e1f056c331d989bb12",
-          "title": "[HIGH CVE] CVE-2026-116067 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2b457755ebfd862a87558a560697dd43",
-      "title": "[MEDIUM CVE] CVE-2026-116048 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116048",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-10-25T08:16:26Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A vulnerability was detected in krupalshah EmployeeRecruitmentSystem up to 922ff6d208278282e7c8e36d70d9ae356adec9fe.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "d9659a37e1dcde8a331dae610631db00",
-          "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems"
-        },
-        {
-          "id": "7385cede31511bbe5600e6e34955f2bd",
-          "title": "[MEDIUM CVE] CVE-2026-116050 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "c067bdc91276ac567885472883341025",
-      "title": "[MEDIUM CVE] CVE-2026-116046 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116046",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-10-25T07:16:47Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A flaw has been found in eventcatalog sdk up to 2.29.0. This vulnerability affects the function getCustomDoc/writeCustomDoc/rmCustomDoc of the file packages/sdk/src/custom-docs.ts of the component Custom Documentation Helpers.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "d9659a37e1dcde8a331dae610631db00",
-          "title": "[MEDIUM CVE] CVE-2026-116049 in Various Systems"
-        },
-        {
-          "id": "7385cede31511bbe5600e6e34955f2bd",
-          "title": "[MEDIUM CVE] CVE-2026-116050 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "16918b343fedcb21e47c5f5def6a80d5",
-      "title": "[LOW CVE] CVE-2026-116045 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116045",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-10-25T07:16:46Z",
-      "published_fmt": "25 Oct 2026",
-      "plain_summary": "A vulnerability was detected in 1999AZZAR designer-mcp up to 2.1.0. This affects the function get_reference of the file skills/motion-designer/references/motion-dev-guidelines.md of the component MCP Interface.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "9250f9140f0ed1472fae3e45b6dc15d3",
-          "title": "[LOW CVE] CVE-2026-116047 in Various Systems"
-        },
-        {
-          "id": "5a17ee6eed0fc9e1f056c331d989bb12",
-          "title": "[HIGH CVE] CVE-2026-116067 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "c8a9e4d99f4eeda40b7951427b8173b8",
-      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
-      "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_5.png",
-      "published": "2026-10-31T15:35:11Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "4bc7fcf06de138f18bd7fed3b4029cef",
-          "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
-        },
-        {
-          "id": "6c360090011ba79dbeda4ab126f73505",
-          "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
-        }
-      ]
-    },
-    {
-      "id": "4bc7fcf06de138f18bd7fed3b4029cef",
-      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-      "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_2.png",
-      "published": "2026-10-31T13:10:19Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
-      "related": [
-        {
-          "id": "c8a9e4d99f4eeda40b7951427b8173b8",
-          "title": "New Android SMS of Death exploit can remotely crash unpatched phones"
-        },
-        {
-          "id": "6c360090011ba79dbeda4ab126f73505",
-          "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
-        }
-      ]
-    },
-    {
-      "id": "6c360090011ba79dbeda4ab126f73505",
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "id": "2f9741a86a774804a662ef6b0c13bd01",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1600/1000120841.jpg",
-      "published": "2026-10-31T08:27:43Z",
-      "published_fmt": "31 Oct 2026",
-      "plain_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1600/windows-hacker.jpg",
+      "published": "2026-11-01T07:02:58Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "adcbbc84114f434320834d6055b08165",
+          "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value"
+        },
+        {
+          "id": "28646d9dcd9888e2807256f1b37827f6",
+          "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script"
+        }
+      ]
+    },
+    {
+      "id": "50dad5ebfece9f0158c79193c7097a30",
+      "title": "Research Paper: Spectral Haar Binarizer: Compact Boolean Contrast Representations for Hyperspectral Classification",
+      "link": "https://arxiv.org/abs/2610.41478v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-10-30T09:31:11Z",
+      "published_fmt": "30 Oct 2026",
+      "plain_summary": "Tsetlin Machines offer an interpretable, hardware-friendly alternative to conventional machine learning models, but applying them to continuous hyperspectral measurements requires converting spectral signals into Boolean representations.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "f25e1dfe9facea502da07121ae42e68d",
+          "title": "Research Paper: Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches"
+        },
+        {
+          "id": "cb730fd226f0f8ad3ca6bf8ee26f1c46",
+          "title": "Research Paper: SecPO: Principled Adversarial Training for Prompt Injection Security"
+        }
+      ]
+    },
+    {
+      "id": "adcbbc84114f434320834d6055b08165",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd5V8QVweKn56_SnTCKZkhmOip6paz9noBrJn7znyZqUtFbOEaLuALQUNlmjcSAb7RIUW8GDETB6J0kFpQQe6vq7wAjk3ogxKUeQ0-2rKeO6TveLdqHNs9KnTN6zC6rwPzWE2IBWMokqQOUzAA0XPM2BWHTUTE7_U7XDfUGKTDIC1PYttxHGnAq_Kr_hMq/s1600/hacker-ai.jpg",
+      "published": "2026-11-02T05:51:07Z",
+      "published_fmt": "02 Nov 2026",
+      "plain_summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "2f9741a86a774804a662ef6b0c13bd01",
+          "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection"
+        }
+      ]
+    },
+    {
+      "id": "ab82e558acc959d7d6eddbc4f299acc7",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_2.png",
+      "published": "2026-11-01T15:11:21Z",
+      "published_fmt": "01 Nov 2026",
+      "plain_summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -812,15 +1097,45 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "01 Nov 2026",
+      "collected_date": "02 Nov 2026",
       "related": [
         {
-          "id": "c8a9e4d99f4eeda40b7951427b8173b8",
-          "title": "New Android SMS of Death exploit can remotely crash unpatched phones"
+          "id": "d2f604bb0b08b63e58c861638e3b52b9",
+          "title": "[MEDIUM CVE] CVE-2026-103306 in Various Systems"
         },
         {
-          "id": "4bc7fcf06de138f18bd7fed3b4029cef",
-          "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
+          "id": "fd0154757e86143808500ddb9bcaef92",
+          "title": "[MEDIUM CVE] CVE-2026-103319 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "3c52b21344d5833d12397aa645fc6ad8",
+      "title": "Wireshark 5.0.0rc1 Release - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VQXFFcmNTazZBTWJZQ3BScFdaYlRLN044c3VSLXN5SkxZTERoajdRdENlbW5ZbS0wSXE3NHZFdUk1ZFkwalBsYms3cy0?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-10-31T10:52:53Z",
+      "published_fmt": "31 Oct 2026",
+      "plain_summary": "Wireshark 5.0.0rc1 Release SANS Internet Storm Center",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "02 Nov 2026",
+      "related": [
+        {
+          "id": "1676ba1442a38cef7260eacc7d52b7eb",
+          "title": "Painting with impaired vision: Vincent van Gogh - The Eclectic Light Company"
+        },
+        {
+          "id": "33827668ddc9f1e6f66c7de8d76c28fa",
+          "title": "Dubai Police cuts forensic test time from 60 minutes to seconds - Gulf News"
         }
       ]
     }
