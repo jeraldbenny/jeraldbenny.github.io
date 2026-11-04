@@ -1,17 +1,15 @@
 [
   {
     "name": "Magnet AXIOM",
-    "version": "10.2.0",
-    "released": "June 2026",
+    "version": "10.5",
+    "released": "04 November 2026",
     "category": "Computer Forensics",
     "features": [
-      "Artifact Post Processing iteratives",
-      "Native integration with Griffeye Database",
-      "Decodes Apple Intelligence & ChatGPT logs"
+      "Dynamic release parsed from news feed",
+      "Updates matched automatically"
     ],
     "bugs": [
-      "Memory leak in APFS parsing",
-      "Database lock crash on nested containers"
+      "Bugs identified in latest release logs"
     ]
   },
   {
@@ -379,7 +377,7 @@
   {
     "name": "Wireshark",
     "version": "5.0.0",
-    "released": "02 November 2026",
+    "released": "04 November 2026",
     "category": "Network Forensics",
     "github_repo": "wireshark/wireshark",
     "features": [

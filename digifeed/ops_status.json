@@ -1,11 +1,11 @@
 {
-  "last_update": "03 Nov 2026, 12:35 IST",
-  "sources_healthy": 73,
-  "sources_failed": 1,
-  "articles_today": 59,
-  "duplicates_discarded": 1,
-  "articles_total": 14506,
-  "runtime": "3 min 1 sec",
+  "last_update": "04 Nov 2026, 12:18 IST",
+  "sources_healthy": 72,
+  "sources_failed": 2,
+  "articles_today": 50,
+  "duplicates_discarded": 3,
+  "articles_total": 14556,
+  "runtime": "1 min 44 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -16,8 +16,12 @@
   },
   "errors_list": [
     {
+      "name": "AboutDFIR",
+      "error": "'NoneType' object has no attribute 'status_code'"
+    },
+    {
       "name": "CrowdStrike Blog",
-      "error": "<unknown>:2:2: not well-formed (invalid token)"
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
     }
   ]
 }
