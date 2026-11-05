@@ -1,11 +1,11 @@
 {
-  "last_update": "04 Nov 2026, 12:18 IST",
-  "sources_healthy": 72,
-  "sources_failed": 2,
-  "articles_today": 50,
-  "duplicates_discarded": 3,
-  "articles_total": 14556,
-  "runtime": "1 min 44 sec",
+  "last_update": "05 Nov 2026, 12:37 IST",
+  "sources_healthy": 73,
+  "sources_failed": 1,
+  "articles_today": 47,
+  "duplicates_discarded": 4,
+  "articles_total": 14603,
+  "runtime": "58 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -15,10 +15,6 @@
     "MalwareBazaar": "✔"
   },
   "errors_list": [
-    {
-      "name": "AboutDFIR",
-      "error": "'NoneType' object has no attribute 'status_code'"
-    },
     {
       "name": "CrowdStrike Blog",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
