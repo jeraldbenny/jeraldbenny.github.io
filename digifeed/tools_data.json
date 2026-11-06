@@ -2,7 +2,7 @@
   {
     "name": "Magnet AXIOM",
     "version": "10.5",
-    "released": "05 November 2026",
+    "released": "06 November 2026",
     "category": "Computer Forensics",
     "features": [
       "Dynamic release parsed from news feed",
@@ -456,16 +456,16 @@
   },
   {
     "name": "Snort",
-    "version": "3.12.4.0",
-    "released": "21 October 2026",
+    "version": "3.13.2.0",
+    "released": "05 November 2026",
     "category": "Network Forensics",
     "github_repo": "snort3/snort3",
     "features": [
-      "Libdaq v3.0.28",
+      "Libdaq v3.0.29",
       "LibML v2.0.0"
     ],
     "bugs": [
-      "Dce_rpc: fix uid, tid, fid quadratic search for splayed list"
+      "General bug fixes and code optimizations"
     ]
   },
   {
