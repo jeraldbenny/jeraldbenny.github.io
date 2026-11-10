@@ -1,17 +1,77 @@
 {
-  "last_updated": "09 November 2026, 12:27 IST",
-  "total": 24,
+  "last_updated": "10 November 2026, 13:04 IST",
+  "total": 63,
   "articles": [
     {
-      "id": "e2acf784261ba1abba8c75cbc91621cc",
-      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-      "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
+      "id": "bf8e05232ef32cc9d2c70bf11d6d7063",
+      "title": "Where digital investigations stall: 5 findings from 300+ public sector professionals",
+      "link": "https://www.magnetforensics.com/blog/where-digital-investigations-stall-5-findings-from-300-public-sector-professionals/",
+      "source": "Magnet Forensics",
+      "source_icon": "🧲",
+      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/11/LE-report_inline_Images_Impact-of-access-limitations.svg",
+      "published": "2026-11-09T19:59:18Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Our 2027 public sector digital investigations report surveyed 306 professionals to find where investigations stall: accessing, sharing, and verifying evidence.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 30,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "aceadc8071f537ea73639ba79403ae33",
+          "title": "InfoSec News Nuggets – 11/09/2026"
+        },
+        {
+          "id": "0b81109e9bc9855292ad734ce9b741ab",
+          "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits"
+        }
+      ]
+    },
+    {
+      "id": "aceadc8071f537ea73639ba79403ae33",
+      "title": "InfoSec News Nuggets – 11/09/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-11-09-2026/",
+      "source": "AboutDFIR",
+      "source_icon": "📋",
       "image": "images/dfir_4.png",
-      "published": "2026-11-08T15:43:08Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.",
+      "published": "2026-11-09T13:23:40Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Trio accused of using deepfake CEOs and bogus lawyers to scam businesses out of $129 million The US Justice Department has charged three men with running a two-year fraud scheme that used AI-generated deepfakes of company CEOs and impersonated attorneys at major international law firms to convince employees to wire more than $129 million into […] The post InfoSec News Nuggets – 11/09/2026 appeared first on AboutDFIR - The Definitive Compendium Project .",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "cdf9a1e72af8042af5b02e68103ee755",
+          "title": "AI-fueled hacking is getting worse — top cyber companies are turning away some victims - NBC News"
+        },
+        {
+          "id": "f71071fd58f16e3b16889fc1ef2076f9",
+          "title": "Week 45 – 2026 - This Week In 4n6"
+        }
+      ]
+    },
+    {
+      "id": "0b81109e9bc9855292ad734ce9b741ab",
+      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
+      "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-DkzHcZpJVVEU3e3wmGB2DiyRsnWXkf_2bfT1fiDJG4Wn92cartbhyphenhyphenqZHOjXGasigHqJAyXM0kjOlYipgEkahrCi9KGa1s8gpINVT-oFldgOc1bZMUQ-nmFqsSMNwIe6463fXOxSqX1dNroXgwn9MwsmCx41jvPdtdygITxfKyTRDUWKS19YVTFTZY8sr/s1600/n-able.jpg",
+      "published": "2026-11-10T06:44:36Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,19 +80,418 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "09 Nov 2026",
-      "related": []
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bbd51e2b0f6667123cc555aabca8be63",
+          "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published"
+        },
+        {
+          "id": "1cd841b3a2c4556f8b32da1a4662440a",
+          "title": "New survey finds enterprises trapped between legacy software and AI modernization - Google Cloud"
+        }
+      ]
     },
     {
-      "id": "caa510c569e206fe52fdd5bf13250628",
-      "title": "Ethiopian DNA Study Maps Forensic Markers in Addis Ababa - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUThmeFh3dm13UG1POEdWaGl1WnFWZjFTRF80Z3hXYnFsR19jMnFjUjNSWWt3RE5JbmJLUFpTajdMcTdiMFdfREhQYlRqclNBMmxOSmsza0NERm4tRm9PZGM1QzRtUktBX2NPRHpKaThYaE82ZWc4Y2FfR212aDhYb2xrS3h5Umkt?oc=5",
-      "source": "Journal of Forensic Sciences",
-      "source_icon": "🔬",
-      "image": "images/forensics_4.png",
-      "published": "2026-11-08T22:40:18Z",
+      "id": "bd03996757d02871fc500bc403977180",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-09T22:09:33Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "199419dac4261c5db01791a9f44e1ba6",
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+        },
+        {
+          "id": "5644d590367156d967e9179d17d9bd63",
+          "title": "Binance denies data breach after alleged ShinyHunters claims"
+        }
+      ]
+    },
+    {
+      "id": "bbd51e2b0f6667123cc555aabca8be63",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-09T21:26:25Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "0b81109e9bc9855292ad734ce9b741ab",
+          "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits"
+        },
+        {
+          "id": "1cd841b3a2c4556f8b32da1a4662440a",
+          "title": "New survey finds enterprises trapped between legacy software and AI modernization - Google Cloud"
+        }
+      ]
+    },
+    {
+      "id": "5ad63623387ce16d9a4afffbf35889a0",
+      "title": "York University breach exposed personal information dating to 2007",
+      "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_5.png",
+      "published": "2026-11-09T21:22:31Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bd03996757d02871fc500bc403977180",
+          "title": "SEGA newsletter data breach exposes 2.2 million email addresses"
+        },
+        {
+          "id": "199419dac4261c5db01791a9f44e1ba6",
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+        }
+      ]
+    },
+    {
+      "id": "5147b30c16c0a50d3d1bbd5685821b01",
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-09T18:32:42Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "199419dac4261c5db01791a9f44e1ba6",
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+        },
+        {
+          "id": "361a84eba57ec028f01ac000cfb95773",
+          "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia"
+        }
+      ]
+    },
+    {
+      "id": "199419dac4261c5db01791a9f44e1ba6",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
+      "published": "2026-11-09T17:51:21Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bd03996757d02871fc500bc403977180",
+          "title": "SEGA newsletter data breach exposes 2.2 million email addresses"
+        },
+        {
+          "id": "5644d590367156d967e9179d17d9bd63",
+          "title": "Binance denies data breach after alleged ShinyHunters claims"
+        }
+      ]
+    },
+    {
+      "id": "1cd841b3a2c4556f8b32da1a4662440a",
+      "title": "New survey finds enterprises trapped between legacy software and AI modernization - Google Cloud",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT20yWElkZ1RNa2NPSzVacmpwbW1PZEt3WnNkRnJmNllfQVNaWW9IYVR6YnVYbUVMaHJubDc3MGhTckphNEh3dXc4Z2RFZnhidndmcmpiRklnSjhDWnNKQWpaRF9mb044R09kSm1MNTgyX3RIcXZzMC1tbGFrbkotamdwQU00RjF0cmNDS3pEOENLUmcxc2d4dU5uN3FkNXBrcFFaYVBEYVBBQnBFVGpsSkFTS3NzQ2JZMEY0RXJ0dlBSc2wtdE93ZHcyRmR6WUE2bGQyN1BOdw?oc=5",
+      "source": "Google Threat Intel",
+      "source_icon": "🌐",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-09T17:19:43Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "New survey finds enterprises trapped between legacy software and AI modernization Google Cloud",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "0b81109e9bc9855292ad734ce9b741ab",
+          "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits"
+        },
+        {
+          "id": "bbd51e2b0f6667123cc555aabca8be63",
+          "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published"
+        }
+      ]
+    },
+    {
+      "id": "5644d590367156d967e9179d17d9bd63",
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_5.png",
+      "published": "2026-11-09T16:12:39Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bd03996757d02871fc500bc403977180",
+          "title": "SEGA newsletter data breach exposes 2.2 million email addresses"
+        },
+        {
+          "id": "199419dac4261c5db01791a9f44e1ba6",
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+        }
+      ]
+    },
+    {
+      "id": "361a84eba57ec028f01ac000cfb95773",
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s1600/command.jpg",
+      "published": "2026-11-09T14:31:29Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "5147b30c16c0a50d3d1bbd5685821b01",
+          "title": "France blames Iranian hackers for supermarket attacks that sparked fires"
+        },
+        {
+          "id": "199419dac4261c5db01791a9f44e1ba6",
+          "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+        }
+      ]
+    },
+    {
+      "id": "097299fa07e96ecd3b41f26e733e4035",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLQ4v79OUmrbGdf2uJWMlUUmpCSu70Pr6v7oyodgSjFMfLU6JIe6Mr7xpp7AnqIX_vmKca44ImxEkczL88e_4sr2oBw0NL3Zh_JVEOb4cYmYg5pjbrITVv6KgPsv13-RrlBjq6bu7inR7w5-seDsUZvoqn6q7idkElfWysH1itsfgI5-NmFZ-BybjG0gR0/s1600/rr.jpg",
+      "published": "2026-11-09T13:28:25Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bf8e05232ef32cc9d2c70bf11d6d7063",
+          "title": "Where digital investigations stall: 5 findings from 300+ public sector professionals"
+        },
+        {
+          "id": "aceadc8071f537ea73639ba79403ae33",
+          "title": "InfoSec News Nuggets – 11/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "cdf9a1e72af8042af5b02e68103ee755",
+      "title": "AI-fueled hacking is getting worse — top cyber companies are turning away some victims - NBC News",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeXVxQ2NIajM5YzN4MjFBX0pWOHV2QkdoX3RpazYteDY5TGcwSHduaGx1WVRPX2Rza1BtRk8zcGM5ZHFqbWhMRXA4Y1RDNkRSdERfa1ctamthWkt0TUlkbzliUnFIeWpSbm93TW9pNlRpQ2U1RVpXYkEzY1Jhb29xa3kwendzNTZDY0FSdDRvQTJRQWFtS0N4RU9tWnBTMFJrTmJzdWFxS1pzZkMtRjVV?oc=5",
+      "source": "Mandiant Blog",
+      "source_icon": "🔥",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-09T12:00:41Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "AI-fueled hacking is getting worse — top cyber companies are turning away some victims NBC News",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "aceadc8071f537ea73639ba79403ae33",
+          "title": "InfoSec News Nuggets – 11/09/2026"
+        },
+        {
+          "id": "1cd841b3a2c4556f8b32da1a4662440a",
+          "title": "New survey finds enterprises trapped between legacy software and AI modernization - Google Cloud"
+        }
+      ]
+    },
+    {
+      "id": "3a5c5e5fdd996bae9ba42aa2f9d823b3",
+      "title": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
+      "link": "https://www.cisa.gov/news-events/news/cisa-announces-enhanced-reporting-form-cyber-incidents",
+      "source": "CISA Alerts",
+      "source_icon": "🏛️",
+      "image": "images/dfir_4.png",
+      "published": "2026-11-09T12:00:00Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Click the source link to read the full dispatch.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "cdf9a1e72af8042af5b02e68103ee755",
+          "title": "AI-fueled hacking is getting worse — top cyber companies are turning away some victims - NBC News"
+        },
+        {
+          "id": "bf8e05232ef32cc9d2c70bf11d6d7063",
+          "title": "Where digital investigations stall: 5 findings from 300+ public sector professionals"
+        }
+      ]
+    },
+    {
+      "id": "7b474482f4b9f64422b758a37f6ef630",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI85M0pHHPiXe5ar2VpaGsBVRzxoYfZhpQTKgWqd8YGjK9Nyaca-z6XrGT3jT0lqh41qe-cAjb33_r7JErd7rB1CfuWkgTP_z-_IJkpQPWebz1GeEvSu9QpE5XYWRMOfhYTHmzhbkFB07hzSuV1FYARdaIWjfB_mUoX1_eMjl_3dOaSUFpTQvjt-34eQo/s1600/login-car.jpg",
+      "published": "2026-11-09T11:27:53Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "bf8e05232ef32cc9d2c70bf11d6d7063",
+          "title": "Where digital investigations stall: 5 findings from 300+ public sector professionals"
+        },
+        {
+          "id": "aceadc8071f537ea73639ba79403ae33",
+          "title": "InfoSec News Nuggets – 11/09/2026"
+        }
+      ]
+    },
+    {
+      "id": "f71071fd58f16e3b16889fc1ef2076f9",
+      "title": "Week 45 – 2026 - This Week In 4n6",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iUkJ2NUw0RjZjZzcxSV9mZndhWTdrZ2ltZXIwZmlxVG8tMi1OVDNPeFVTbnd5dmhUOTVpaXFSTlREcEZBRThWem04NW5Oem50emF1dHBTTVdKQm9ITVgw?oc=5",
+      "source": "This Week in 4n6",
+      "source_icon": "📆",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-11-08T11:33:49Z",
       "published_fmt": "08 Nov 2026",
-      "plain_summary": "Ethiopian DNA Study Maps Forensic Markers in Addis Ababa Bioengineer.org",
+      "plain_summary": "Week 45 – 2026 This Week In 4n6",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "aceadc8071f537ea73639ba79403ae33",
+          "title": "InfoSec News Nuggets – 11/09/2026"
+        },
+        {
+          "id": "1cd841b3a2c4556f8b32da1a4662440a",
+          "title": "New survey finds enterprises trapped between legacy software and AI modernization - Google Cloud"
+        }
+      ]
+    },
+    {
+      "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+      "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdkRwSEFJVDVhZnhxTklscTRHdXFMRVN0UmI5QWN1THNlR3oyRFhHQTE2ZVRnQkd2cjA0ckJKOXBHMTBFRFI2YlpYS2lKWV9wMV84SThlTjI2ekJDcklVZVhDWHhrZ2FqMFFIOE5VLWNfWmZEMFlXcklPOWV2ejBkNzBOd3JQWFFla0JKM0h4djUwTUx0ZlhyZjZhR2JlRlRvM1lPbmtzWjc5NXpRSW5kVmJlbTM5MlVweVdfaHlTcDBZbVU?oc=5",
+      "source": "Egyptian Journal of FS",
+      "source_icon": "🔬",
+      "image": "images/forensics_2.png",
+      "published": "2026-11-10T04:29:05Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling Bioengineer.org",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -41,28 +500,178 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "416f5d992980444ebf4470b537b625bc",
-          "title": "Siberian Tomb Hair and Seeds Hint at Cannabis Use 2,800 Years Ago - Around Prague"
+          "id": "70909ec4af304cf75b44a2337c874755",
+          "title": "How Four-Dimensional Imaging Is Transforming Virtual Autopsies and Forensic Investigations - Bioengineer.org"
         },
         {
-          "id": "a5f609aaa23057fed85413a430b10431",
-          "title": "Analysis of crime-scene blood and bullets can be pivotal in court cases. But how reliable is it? - CBC"
+          "id": "e6375682f7c914f0b26197ae5b362be9",
+          "title": "Deep learning estimates dental age from panoramic radiographs - Bioengineer.org"
         }
       ]
     },
     {
-      "id": "416f5d992980444ebf4470b537b625bc",
-      "title": "Siberian Tomb Hair and Seeds Hint at Cannabis Use 2,800 Years Ago - Around Prague",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSmZ6WlUyck5CZGF0YWVBM3NzSENDb1pncVFNMzVNczhhcDFJc0NZWTRWZWxJSEdMeTFyNm1nNXkzODl3Y1ZFbE1LYTc0N2hQVDZnU1hVRmVwSWRSV1RFQ3czMVNFc3Fad3ZTVmpMUW9RMThnNG5xM2VQeW1YNGxoT2I0UFpPTXh1N0EwU1plajBGZ3VzRUc5eFFHNjhUdTBFU0FaX0U4OVU?oc=5",
+      "id": "c306caa6d8cfdfb084f26d00b9850a25",
+      "title": "Syracuse University forensic science professor dies at 62 - The Daily Orange",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE81R3hUM201VXdwekNscXh6dlpRMTZ4Q3k2U1pmdDRFcGhFaTc1N3pGTWdtOEwzQWx3NVZLX2VELWlpNHpWRG5HdzlQNzFPX3NHa1dNNW9PNVgwaWFEYXg2UnA4X3NyUDdDdHJHTDl3aXlUeXdtcHI5bEh3?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
+      "image": "images/forensics_2.png",
+      "published": "2026-11-10T02:04:04Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "Syracuse University forensic science professor dies at 62 The Daily Orange",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "3e4981862618c30ebdcfedff3840ffa2",
+          "title": "DNA on the Shroud of Turin reveals centuries of hidden secrets - Science Daily"
+        },
+        {
+          "id": "70909ec4af304cf75b44a2337c874755",
+          "title": "How Four-Dimensional Imaging Is Transforming Virtual Autopsies and Forensic Investigations - Bioengineer.org"
+        }
+      ]
+    },
+    {
+      "id": "70909ec4af304cf75b44a2337c874755",
+      "title": "How Four-Dimensional Imaging Is Transforming Virtual Autopsies and Forensic Investigations - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmhzN1M4ZHNkbldIdS1XMjFkVlBzTWNDUTFZNTNoOFk0N3BoX2Y4SnpnNFlwZHl3Y3Y4bWxXbE52VkNXZ3FycUJzXzJQN3U0alVhWGVCOXREWGVJVEw0c3dGNjJKYXFHSGZURy12Zk1qand1ekRVaGR0bXB5Z21qN1BfRnlOVDBOdTVOUEpvQ3BFOF9IZnJFU2FoWTlpU0JmWTBGSTdneXRxcFlYOFo1WmFDRjFlUQ?oc=5",
+      "source": "Google News: Forensic Pathology",
+      "source_icon": "🔬",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-09T13:38:12Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "How Four-Dimensional Imaging Is Transforming Virtual Autopsies and Forensic Investigations Bioengineer.org",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+          "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org"
+        },
+        {
+          "id": "c306caa6d8cfdfb084f26d00b9850a25",
+          "title": "Syracuse University forensic science professor dies at 62 - The Daily Orange"
+        }
+      ]
+    },
+    {
+      "id": "43302078b86dc93749877405e48a791a",
+      "title": "Math anxiety may be stopping students from learning useful AI and data skills",
+      "link": "https://phys.org/news/2026-11-math-anxiety-students-ai-skills.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/mathematics.jpg",
+      "published": "2026-11-09T22:40:07Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Artificial intelligence is increasingly becoming part of everyday life and work. AI can generate information, summarize evidence and perform calculations.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "e6375682f7c914f0b26197ae5b362be9",
+          "title": "Deep learning estimates dental age from panoramic radiographs - Bioengineer.org"
+        },
+        {
+          "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+          "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org"
+        }
+      ]
+    },
+    {
+      "id": "458e00edb4dd6278af8daf85534a7567",
+      "title": "Archaeological finds at an Irish fort reveal insights into the finer side of medieval life",
+      "link": "https://phys.org/news/2026-11-archaeological-irish-fort-reveal-insights.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-collection-of-miscel.jpg",
+      "published": "2026-11-09T18:40:05Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Popular media, from computer games to movies, often portray medieval life as being dominated by fighters and farmers. In these depictions, there's little evidence of a world beyond political struggle and simple subsistence.",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+          "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org"
+        },
+        {
+          "id": "c306caa6d8cfdfb084f26d00b9850a25",
+          "title": "Syracuse University forensic science professor dies at 62 - The Daily Orange"
+        }
+      ]
+    },
+    {
+      "id": "e6375682f7c914f0b26197ae5b362be9",
+      "title": "Deep learning estimates dental age from panoramic radiographs - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2NaMjlfNGZ0ZXIwei0wcVZTTEJPNVFuamE4dmIwQTA3Rl9PWTRIdXZpZTUxNTVhcHRSeGR3TW5VcVg4T0pwbWRIY0xDZkVBQUhhVDByX3Jmekw1bTA2d2ZTdzRROVc4b19pSWVBb09tV3BoQzlxdHl2OFhFcF9wWmo4ektITW1TTlptN0JFQQ?oc=5",
+      "source": "Intl Journal of Legal Medicine",
+      "source_icon": "⚖️",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-10T04:37:35Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "Deep learning estimates dental age from panoramic radiographs Bioengineer.org",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+          "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org"
+        },
+        {
+          "id": "70909ec4af304cf75b44a2337c874755",
+          "title": "How Four-Dimensional Imaging Is Transforming Virtual Autopsies and Forensic Investigations - Bioengineer.org"
+        }
+      ]
+    },
+    {
+      "id": "2b384044320bc6ad6029422fdadf2408",
+      "title": "Fatal polysubstance intoxications involving inhalation of nitazene analogues: identification of fluetonitazepyne and 5-methyl etodesnitazene - Springer Nature Link",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tZXBsSjBlWndDOF8ya0pKWTdfcS1sdkU4WUJ0aVl5M1AzYm1aVmlxTmZDWFJESDBMdlRYMkZENWhLRWx0ODlqSktkTFFOb0hZeFFXM0dBd1dBUjZrU25TQXVTandmSGxpVUFfNg?oc=5",
       "source": "Forensic Toxicology",
       "source_icon": "🧪",
       "image": "images/forensics_5.png",
-      "published": "2026-11-08T14:46:35Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "Siberian Tomb Hair and Seeds Hint at Cannabis Use 2,800 Years Ago Around Prague",
+      "published": "2026-11-10T03:04:36Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "Fatal polysubstance intoxications involving inhalation of nitazene analogues: identification of fluetonitazepyne and 5-methyl etodesnitazene Springer Nature Link",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -71,28 +680,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "caa510c569e206fe52fdd5bf13250628",
-          "title": "Ethiopian DNA Study Maps Forensic Markers in Addis Ababa - Bioengineer.org"
+          "id": "b0599d7e0d22b9dd5895783bf9c0ab6d",
+          "title": "Siberian Royal Burial Mound Points to Psychoactive Cannabis Use 2,800 Years Ago, About Three Centuries Earlier Than Known - Nature World News"
         },
         {
-          "id": "a5f609aaa23057fed85413a430b10431",
-          "title": "Analysis of crime-scene blood and bullets can be pivotal in court cases. But how reliable is it? - CBC"
+          "id": "48cd2b2b442c5810c4e531bd8aed2c5a",
+          "title": "Emergency Physicians Face Significant Challenges in Medico-Legal Documentation and Evidence Handling - Bioengineer.org"
         }
       ]
     },
     {
-      "id": "a5f609aaa23057fed85413a430b10431",
-      "title": "Analysis of crime-scene blood and bullets can be pivotal in court cases. But how reliable is it? - CBC",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDM2Ym1PTFBuNGRIQWlaTTluVXdfZWNPUC1OX0FLZi1NMERGS2J2VENQbkZ2N3lab1ZCUS1ESnFxMWc3d3RWb3hva094SmhJTEJhZldvQVQ4S0N3VGZOSlZ4V3oxMVNCVWNPRkZkaUZLUU9oX0FCM2VleVdCU1BtRm1FcG1KdGZ2U2s1bWlsWGppWWZUalgxTFV1bldrZw?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-11-08T09:00:35Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "Analysis of crime-scene blood and bullets can be pivotal in court cases. But how reliable is it? CBC",
+      "id": "b0599d7e0d22b9dd5895783bf9c0ab6d",
+      "title": "Siberian Royal Burial Mound Points to Psychoactive Cannabis Use 2,800 Years Ago, About Three Centuries Earlier Than Known - Nature World News",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPU01WYjN4YUtVbHQyRWdGUWJCbV80UXVJaWQ4RlZ4ZWNROTBhVHNUU2wtSzBvc2pYS0RleldBOFBIVDRDblh6N2pKWEV6RmxZaGQydXI5T2xUUi1vWTRmZFpOdUNSRW9ZN0psVjFuZkx0Z19uODlSanU4Z2ktdGgzVU9GREVMRTk3S3g3OV93ZlI0dy1IblhWUW5JOUVMZEROSVVWZzJON1FzTU1WUzdxQ1ZDMTR5b2kwb0FQUEJVV1FvdGtSMENYSUxDSUFMMmdFVzdpX0l1Y3hGNC1STE1FaA?oc=5",
+      "source": "Forensic Toxicology",
+      "source_icon": "🧪",
+      "image": "images/forensics_2.png",
+      "published": "2026-11-09T16:52:12Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Siberian Royal Burial Mound Points to Psychoactive Cannabis Use 2,800 Years Ago, About Three Centuries Earlier Than Known Nature World News",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -101,220 +710,345 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "caa510c569e206fe52fdd5bf13250628",
-          "title": "Ethiopian DNA Study Maps Forensic Markers in Addis Ababa - Bioengineer.org"
+          "id": "2b384044320bc6ad6029422fdadf2408",
+          "title": "Fatal polysubstance intoxications involving inhalation of nitazene analogues: identification of fluetonitazepyne and 5-methyl etodesnitazene - Springer Nature Link"
         },
         {
-          "id": "416f5d992980444ebf4470b537b625bc",
-          "title": "Siberian Tomb Hair and Seeds Hint at Cannabis Use 2,800 Years Ago - Around Prague"
+          "id": "3e4981862618c30ebdcfedff3840ffa2",
+          "title": "DNA on the Shroud of Turin reveals centuries of hidden secrets - Science Daily"
         }
       ]
     },
     {
-      "id": "4221b1b1483eb6cce004868c5308da53",
-      "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300",
-      "link": "https://threatfox.abuse.ch/ioc/2021815/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-11-09T06:55:31Z",
+      "id": "3e4981862618c30ebdcfedff3840ffa2",
+      "title": "DNA on the Shroud of Turin reveals centuries of hidden secrets - Science Daily",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TYnZBZ1VoZE83MFBZa3VEVmNoYm1ZR2FueTlnYnN5eGYtQnRzMWNWRHNFOENIN2NDdXEtbDUwYXZMVnNmQW0ySlJNeHVKMkxMNjBzcWl3eFdPMlFpWDZmZC1vLWVhVUFqNEhxOHhabw?oc=5",
+      "source": "ScienceDaily Forensics",
+      "source_icon": "📰",
+      "image": "images/forensics_2.png",
+      "published": "2026-11-09T02:49:58Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "DNA on the Shroud of Turin reveals centuries of hidden secrets Science Daily",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Forensics",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
+        "#forensics",
+        "#science"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "c306caa6d8cfdfb084f26d00b9850a25",
+          "title": "Syracuse University forensic science professor dies at 62 - The Daily Orange"
         },
         {
-          "id": "9e925be2fcbff6c5a0868b83dcf4daaf",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:5005"
+          "id": "b0599d7e0d22b9dd5895783bf9c0ab6d",
+          "title": "Siberian Royal Burial Mound Points to Psychoactive Cannabis Use 2,800 Years Ago, About Three Centuries Earlier Than Known - Nature World News"
         }
       ]
     },
     {
-      "id": "a751fc83db646f4aa2000cd0c908b7d7",
-      "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600",
-      "link": "https://threatfox.abuse.ch/ioc/2021813/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-11-09T06:55:30Z",
+      "id": "63b6c156c6290d33273af04ac79476b3",
+      "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics",
+      "link": "https://arxiv.org/abs/2611.12100v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-09T09:18:43Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "AI systems increasingly appear in criminal investigations as tools, targets, and sources of evidence, yet AI forensics lacks a systematic account of the artifacts they produce: investigators often do not know which traces to look for, and for many traces they do find, no established analysis technique exists.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 140,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "9c4e8213bbebf1baef3f34381174237f",
+          "title": "Research Paper: Writer-independent handedness identification from offline Bangla handwriting under controlled acquisition"
         },
         {
-          "id": "9e925be2fcbff6c5a0868b83dcf4daaf",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:5005"
+          "id": "89a330d87daa0cd61cae709925240647",
+          "title": "Research Paper: MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos"
         }
       ]
     },
     {
-      "id": "9e925be2fcbff6c5a0868b83dcf4daaf",
-      "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:5005",
-      "link": "https://threatfox.abuse.ch/ioc/2021814/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-11-09T06:55:30Z",
+      "id": "5f9d57f34f1a3ed742aaae697a3e5d14",
+      "title": "Research Paper: Color wave: A systematic evaluation of active screen illumination for injection attack detection in remote face authentication",
+      "link": "https://arxiv.org/abs/2611.12070v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-09T08:44:26Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "Remote face authentication requires protection against both presentation attacks and biometric data injection attacks prior to face matching.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#media-forensics"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "7a4a2d63ec24f9773bc85fe2d0c0fefc",
+          "title": "Research Paper: Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "142bad927886ee3ca9abc3c0f231c74c",
+          "title": "Research Paper: MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection"
         }
       ]
     },
     {
-      "id": "a9f0b3cc62d2c9c3e286242538a98e25",
-      "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:20500",
-      "link": "https://threatfox.abuse.ch/ioc/2021812/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-11-09T06:55:29Z",
+      "id": "c5c08637783db244bad2f74e41587aca",
+      "title": "Research Paper: MUTE: Multi-Level Alignment Uncoupling Against Talking-Head Exploitation for Voice Protection",
+      "link": "https://arxiv.org/abs/2611.11989v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-09T07:16:57Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "Talking-head generation models, which synthesize realistic facial animations from audio, are increasingly vulnerable to misuse in multimodal deepfake scenarios.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "Research Papers",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#asyncrat"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#deep-learning"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "7a4a2d63ec24f9773bc85fe2d0c0fefc",
+          "title": "Research Paper: Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "dd541e5481985032c664de7a5555a26b",
+          "title": "Research Paper: When Normality Shifts: Multi-Level WavLM Modeling for Open-World Audio Deepfake Detection"
         }
       ]
     },
     {
-      "id": "5a5b14f604d124779a41207b8b612f71",
-      "title": "[Threat IOC] Cobalt Strike ip:port: 43.163.242.241:53",
-      "link": "https://threatfox.abuse.ch/ioc/2021811/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
+      "id": "df5f0c7d73deb4ab2d7071aa2fc97b26",
+      "title": "Research Paper: LEGION: Benchmarking Language Agents on Sparse-Signal Investigation Under Adversarial Noise",
+      "link": "https://arxiv.org/abs/2611.11896v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_5.png",
+      "published": "2026-11-09T05:17:35Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Autonomous language-model agents are increasingly deployed on discovery-driven tasks where signal is sparse and most retrieved information is irrelevant.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "9c4e8213bbebf1baef3f34381174237f",
+          "title": "Research Paper: Writer-independent handedness identification from offline Bangla handwriting under controlled acquisition"
+        },
+        {
+          "id": "63b6c156c6290d33273af04ac79476b3",
+          "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics"
+        }
+      ]
+    },
+    {
+      "id": "7a4a2d63ec24f9773bc85fe2d0c0fefc",
+      "title": "Research Paper: Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes",
+      "link": "https://arxiv.org/abs/2611.11800v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-09T02:55:38Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Currently, artificial intelligence-generated content (AIGC) poses a severe threat to facial video deepfakes, and many AIGC companies employ video watermarking to mitigate unauthorized fake video usage, but its effectiveness is limited due to watermark tampering and private-model forgery.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#media-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "5f9d57f34f1a3ed742aaae697a3e5d14",
+          "title": "Research Paper: Color wave: A systematic evaluation of active screen illumination for injection attack detection in remote face authentication"
+        },
+        {
+          "id": "142bad927886ee3ca9abc3c0f231c74c",
+          "title": "Research Paper: MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection"
+        }
+      ]
+    },
+    {
+      "id": "60e6ea68ed23f733aa45d9a2e355b397",
+      "title": "[KEV Active Exploit] CVE-2026-102895 in GPUStack GPUStack",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-11-09T00:00:00Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/from-yaml.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#gpustack"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "49164d3c418d5cfa8411987b3c667a81",
+          "title": "[KEV Active Exploit] CVE-2026-123158 in OpenBSD OpenSSH"
+        },
+        {
+          "id": "a904df5e84f4239b7ef45ca5968e1e99",
+          "title": "[KEV Active Exploit] CVE-2026-116779 in SignalWire FreeSwitch"
+        }
+      ]
+    },
+    {
+      "id": "49164d3c418d5cfa8411987b3c667a81",
+      "title": "[KEV Active Exploit] CVE-2026-123158 in OpenBSD OpenSSH",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
       "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-11-09T06:55:25Z",
+      "published": "2026-11-09T00:00:00Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Cobalt Strike. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#cobaltstrike"
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#openbsd"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "60e6ea68ed23f733aa45d9a2e355b397",
+          "title": "[KEV Active Exploit] CVE-2026-102895 in GPUStack GPUStack"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "a904df5e84f4239b7ef45ca5968e1e99",
+          "title": "[KEV Active Exploit] CVE-2026-116779 in SignalWire FreeSwitch"
         }
       ]
     },
     {
-      "id": "09f3b1219e7429c8d3219613adaee425",
-      "title": "[Threat IOC] Sliver ip:port: 146.103.42.94:31337",
-      "link": "https://threatfox.abuse.ch/ioc/2021810/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-11-09T06:55:24Z",
+      "id": "a904df5e84f4239b7ef45ca5968e1e99",
+      "title": "[KEV Active Exploit] CVE-2026-116779 in SignalWire FreeSwitch",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-11-09T00:00:00Z",
       "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Sliver. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "plain_summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
       "deep_lore": "",
-      "category_tag": "IOC Feed",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#sliver"
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#signalwire"
       ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "60e6ea68ed23f733aa45d9a2e355b397",
+          "title": "[KEV Active Exploit] CVE-2026-102895 in GPUStack GPUStack"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "49164d3c418d5cfa8411987b3c667a81",
+          "title": "[KEV Active Exploit] CVE-2026-123158 in OpenBSD OpenSSH"
         }
       ]
     },
     {
-      "id": "156d373d86aa44b8d0eda19207f8fede",
-      "title": "[Threat IOC] Unknown malware ip:port: 148.66.18.107:8888",
-      "link": "https://threatfox.abuse.ch/ioc/2021809/",
+      "id": "3a75669d3da8c1f189911b812c55a754",
+      "title": "[KEV Active Exploit] CVE-2026-123218 in IBM Aspera Faspex",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-11-09T00:00:00Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#ibm"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "60e6ea68ed23f733aa45d9a2e355b397",
+          "title": "[KEV Active Exploit] CVE-2026-102895 in GPUStack GPUStack"
+        },
+        {
+          "id": "49164d3c418d5cfa8411987b3c667a81",
+          "title": "[KEV Active Exploit] CVE-2026-123158 in OpenBSD OpenSSH"
+        }
+      ]
+    },
+    {
+      "id": "3ccf8d88b143453d077aca24d224e6b3",
+      "title": "[Threat IOC] Unknown malware url: https://livaisilti.com/",
+      "link": "https://threatfox.abuse.ch/ioc/2022859/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
-      "published": "2026-11-09T06:55:20Z",
-      "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "image": "images/malware_4.png",
+      "published": "2026-11-10T07:30:57Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: CarsonWilliams.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -325,153 +1059,252 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "6934c1ebdd6eda8079c279578953806c",
+          "title": "[Threat IOC] WARDENStealer url: https://govbed.co/"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "90be729a464736d9bc6fc667edbffdb1",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php"
         }
       ]
     },
     {
-      "id": "34d0757e4f78a553b344a817c555936b",
-      "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10100",
-      "link": "https://threatfox.abuse.ch/ioc/2021808/",
+      "id": "e3031b5221f515d672594c8ded47e7a1",
+      "title": "[Threat IOC] ClearFake domain: dve4us1d.coffeeshopcrawler.com",
+      "link": "https://threatfox.abuse.ch/ioc/2022858/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-11-09T06:55:18Z",
-      "published_fmt": "09 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for AsyncRAT. Type: ip:port. Threat Category: botnet_cc. Reporter: juroots.",
+      "image": "images/malware_3.png",
+      "published": "2026-11-10T07:27:35Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#asyncrat"
+        "#clearfake"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "4221b1b1483eb6cce004868c5308da53",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:30300"
+          "id": "df3f64ecb0f8138c592109a5df929fae",
+          "title": "[Threat IOC] ClearFake domain: coffeeshopcrawler.com"
         },
         {
-          "id": "a751fc83db646f4aa2000cd0c908b7d7",
-          "title": "[Threat IOC] AsyncRAT ip:port: 207.180.250.181:10600"
+          "id": "886f38781e924f210369b63eaf930aa0",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net"
         }
       ]
     },
     {
-      "id": "9a3414810c0f470fae277d479c536a34",
-      "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101173",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-11-02T07:18:02Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "DoS vulnerability in the DSoftBus module. Impact: Successful exploitation of this vulnerability may affect availability.",
+      "id": "df3f64ecb0f8138c592109a5df929fae",
+      "title": "[Threat IOC] ClearFake domain: coffeeshopcrawler.com",
+      "link": "https://threatfox.abuse.ch/ioc/2022857/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-11-10T07:26:31Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#clearfake"
       ],
       "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
+          "id": "e3031b5221f515d672594c8ded47e7a1",
+          "title": "[Threat IOC] ClearFake domain: dve4us1d.coffeeshopcrawler.com"
         },
         {
-          "id": "e2846fe37f101d33f539c7ce536186d7",
-          "title": "[MEDIUM CVE] CVE-2026-101175 in Various Systems"
+          "id": "886f38781e924f210369b63eaf930aa0",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net"
         }
       ]
     },
     {
-      "id": "411779b282245154be1ba335991837fd",
-      "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101174",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-11-02T07:18:02Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "DoS vulnerability in the DSoftBus module. Impact: Successful exploitation of this vulnerability may affect availability.",
+      "id": "6934c1ebdd6eda8079c279578953806c",
+      "title": "[Threat IOC] WARDENStealer url: https://govbed.co/",
+      "link": "https://threatfox.abuse.ch/ioc/2022856/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-11-10T07:25:53Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for WARDENStealer. Type: url. Threat Category: botnet_cc. Reporter: Myrtus0x0.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#wardenstealer"
       ],
       "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "3ccf8d88b143453d077aca24d224e6b3",
+          "title": "[Threat IOC] Unknown malware url: https://livaisilti.com/"
         },
         {
-          "id": "e2846fe37f101d33f539c7ce536186d7",
-          "title": "[MEDIUM CVE] CVE-2026-101175 in Various Systems"
+          "id": "90be729a464736d9bc6fc667edbffdb1",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php"
         }
       ]
     },
     {
-      "id": "e2846fe37f101d33f539c7ce536186d7",
-      "title": "[MEDIUM CVE] CVE-2026-101175 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101175",
+      "id": "886f38781e924f210369b63eaf930aa0",
+      "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net",
+      "link": "https://threatfox.abuse.ch/ioc/2022855/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-11-10T07:20:54Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Grandoreiro. Type: domain. Threat Category: payload_delivery. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#grandoreiro"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "1aa76b7495ca03aa069e2b0134d66fab",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3731120.contaboserver.net"
+        },
+        {
+          "id": "90be729a464736d9bc6fc667edbffdb1",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php"
+        }
+      ]
+    },
+    {
+      "id": "90be729a464736d9bc6fc667edbffdb1",
+      "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php",
+      "link": "https://threatfox.abuse.ch/ioc/2022854/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-11-10T07:20:51Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Grandoreiro. Type: url. Threat Category: payload_delivery. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#grandoreiro"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "4e6f292fce3fc43bfba2b1ec44dbbc4a",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3731120.contaboserver.net/"
+        },
+        {
+          "id": "886f38781e924f210369b63eaf930aa0",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net"
+        }
+      ]
+    },
+    {
+      "id": "4e6f292fce3fc43bfba2b1ec44dbbc4a",
+      "title": "[Threat IOC] Grandoreiro url: https://vmi3731120.contaboserver.net/",
+      "link": "https://threatfox.abuse.ch/ioc/2022853/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-11-10T07:18:27Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Grandoreiro. Type: url. Threat Category: payload_delivery. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#grandoreiro"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "90be729a464736d9bc6fc667edbffdb1",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php"
+        },
+        {
+          "id": "886f38781e924f210369b63eaf930aa0",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net"
+        }
+      ]
+    },
+    {
+      "id": "1aa76b7495ca03aa069e2b0134d66fab",
+      "title": "[Threat IOC] Grandoreiro domain: vmi3731120.contaboserver.net",
+      "link": "https://threatfox.abuse.ch/ioc/2022852/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_3.png",
+      "published": "2026-11-10T07:18:26Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Grandoreiro. Type: domain. Threat Category: payload_delivery. Reporter: abuse_ch.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#grandoreiro"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "886f38781e924f210369b63eaf930aa0",
+          "title": "[Threat IOC] Grandoreiro domain: vmi3728358.contaboserver.net"
+        },
+        {
+          "id": "90be729a464736d9bc6fc667edbffdb1",
+          "title": "[Threat IOC] Grandoreiro url: https://vmi3728358.contaboserver.net/hKDRKgVgLQGFLgP05G.php"
+        }
+      ]
+    },
+    {
+      "id": "c0517fb1732802bf11d481b6d1ab0aad",
+      "title": "[HIGH CVE] CVE-2026-105978 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105978",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_2.png",
-      "published": "2026-11-02T07:18:02Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "Null pointer dereference vulnerability in the ArkWeb module. Impact: Successful exploitation of this vulnerability may affect availability.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
-      "related": [
-        {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
-        },
-        {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "0407b539d15ddf285bcbfc90df340dfb",
-      "title": "[HIGH CVE] CVE-2026-101176 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101176",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-11-02T07:18:02Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "Permission control vulnerability in the event notification management module. Impact: Successful exploitation of this vulnerability may affect service confidentiality.",
+      "published": "2026-11-03T09:17:09Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "Improper input validation in management control functions may allow a remote attacker with high privileges to inject operating system commands and execute them with root privileges.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -481,59 +1314,59 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "932fb09f2158e08f86d406fb624c82be",
+          "title": "[HIGH CVE] CVE-2026-16900 in Various Systems"
         },
         {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
+          "id": "4482f6e7166b7530e6e7fe12353d457b",
+          "title": "[HIGH CVE] CVE-2026-74846 in Various Systems"
         }
       ]
     },
     {
-      "id": "f2d17888c8d8294a6a8f26417eb08f88",
-      "title": "[LOW CVE] CVE-2026-101177 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101177",
+      "id": "b752e1507845304a3ce13a2f15b388c0",
+      "title": "[MEDIUM CVE] CVE-2026-103327 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103327",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-11-03T09:17:08Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "The CryptoCloud WordPress plugin from 3.0.0 through 3.0.1 does not verify the authenticity of the payment notifications received by its gateway callback, as the integrity check is skipped while the webhook secret is left at its empty default, allowing unauthenticated attackers to mark arbitrary orders as paid or failed without any payment being made.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "000837356ac51d2f3ef5ec7cdc5abdf8",
+          "title": "[MEDIUM CVE] CVE-2026-120988 in Various Systems"
+        },
+        {
+          "id": "dc2a76680cc1eae4b9b61d4787ed4bca",
+          "title": "[MEDIUM CVE] CVE-2026-103653 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "000837356ac51d2f3ef5ec7cdc5abdf8",
+      "title": "[MEDIUM CVE] CVE-2026-120988 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120988",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-11-02T07:18:02Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "Permission control vulnerability in the Optimizer module. Impact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
-      "related": [
-        {
-          "id": "9fa460c4d0511fd8fd95ace2c7e2abd7",
-          "title": "[LOW CVE] CVE-2026-101171 in Various Systems"
-        },
-        {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "68ea266ec927467cd6b65f87aa40128f",
-      "title": "[MEDIUM CVE] CVE-2026-101170 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101170",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-11-02T07:18:01Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "DoS vulnerability in the file parsing module. Impact: Successful exploitation of this vulnerability may affect availability.",
+      "published": "2026-11-03T08:17:15Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "billboard.js before 4.1.3 allows an attacker to execute malicious JavaScript due to improper sanitization of series ids during legend template rendering.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -543,59 +1376,152 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "b752e1507845304a3ce13a2f15b388c0",
+          "title": "[MEDIUM CVE] CVE-2026-103327 in Various Systems"
         },
         {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
+          "id": "dc2a76680cc1eae4b9b61d4787ed4bca",
+          "title": "[MEDIUM CVE] CVE-2026-103653 in Various Systems"
         }
       ]
     },
     {
-      "id": "9fa460c4d0511fd8fd95ace2c7e2abd7",
-      "title": "[LOW CVE] CVE-2026-101171 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101171",
+      "id": "af3462793772e2a58a7cd1be8be330b2",
+      "title": "[CRITICAL CVE] CVE-2026-13594 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-13594",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-11-02T07:18:01Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "Permission control vulnerability in the background task management module. Impact: Successful exploitation of this vulnerability may affect service integrity.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-11-03T08:17:15Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "Zoho Corporation's ManageEngine Log360 and EventLog Analyzer versions 13062 and below are vulnerable to an issue that could allow an adversary to gain unauthorized access to the product.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "f2d17888c8d8294a6a8f26417eb08f88",
-          "title": "[LOW CVE] CVE-2026-101177 in Various Systems"
+          "id": "a7baff9afbb998aae99441a7e99cc973",
+          "title": "[CRITICAL CVE] CVE-2026-4052 in Various Systems"
         },
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "c0517fb1732802bf11d481b6d1ab0aad",
+          "title": "[HIGH CVE] CVE-2026-105978 in Various Systems"
         }
       ]
     },
     {
-      "id": "e56c3148a1c5c7801a05bdee64c41476",
-      "title": "[MEDIUM CVE] CVE-2026-101172 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-101172",
+      "id": "932fb09f2158e08f86d406fb624c82be",
+      "title": "[HIGH CVE] CVE-2026-16900 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16900",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-11-02T07:18:01Z",
-      "published_fmt": "02 Nov 2026",
-      "plain_summary": "Permission control vulnerability in the graphics module. Impact: Successful exploitation of this vulnerability may affect confidentiality.",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-11-03T08:17:15Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "Zohocorp ManageEngine Log360 and EventLog Analyzer versions 13071 and below are vulnerable to an authentication bypass in local collector registration, allowing unauthenticated actor to register a local collector by sending a specially crafted registration request.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "c0517fb1732802bf11d481b6d1ab0aad",
+          "title": "[HIGH CVE] CVE-2026-105978 in Various Systems"
+        },
+        {
+          "id": "4482f6e7166b7530e6e7fe12353d457b",
+          "title": "[HIGH CVE] CVE-2026-74846 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a7baff9afbb998aae99441a7e99cc973",
+      "title": "[CRITICAL CVE] CVE-2026-4052 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-4052",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-11-03T08:17:15Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "This issue only impacts deployments where WSO2 Identity Server is configured as a Resident Key Manager with database sharing.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "af3462793772e2a58a7cd1be8be330b2",
+          "title": "[CRITICAL CVE] CVE-2026-13594 in Various Systems"
+        },
+        {
+          "id": "c0517fb1732802bf11d481b6d1ab0aad",
+          "title": "[HIGH CVE] CVE-2026-105978 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "4482f6e7166b7530e6e7fe12353d457b",
+      "title": "[HIGH CVE] CVE-2026-74846 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-74846",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-11-03T08:17:15Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "Catalyst::Plugin::Authentication versions before 0.10029 for Perl allow timing attacks on stored passwords via eq comparisons in the legacy password verifier. CVE-2026-5091 was fixed in the realm-based verifier.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "c0517fb1732802bf11d481b6d1ab0aad",
+          "title": "[HIGH CVE] CVE-2026-105978 in Various Systems"
+        },
+        {
+          "id": "932fb09f2158e08f86d406fb624c82be",
+          "title": "[HIGH CVE] CVE-2026-16900 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "dc2a76680cc1eae4b9b61d4787ed4bca",
+      "title": "[MEDIUM CVE] CVE-2026-103653 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103653",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-11-03T08:17:13Z",
+      "published_fmt": "03 Nov 2026",
+      "plain_summary": "An out-of-bounds read vulnerability in the Qt CoAP message parsing (QCoapInternalReply::createFromFrame()) of the Qt CoAP module.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -605,123 +1531,155 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "b752e1507845304a3ce13a2f15b388c0",
+          "title": "[MEDIUM CVE] CVE-2026-103327 in Various Systems"
         },
         {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
+          "id": "000837356ac51d2f3ef5ec7cdc5abdf8",
+          "title": "[MEDIUM CVE] CVE-2026-120988 in Various Systems"
         }
       ]
     },
     {
-      "id": "264d30258f3fe9b9c9daf27752c89d4b",
-      "title": "Research Paper: Federated Forensics: Jurisdictional constraints as a design driver for multi-agency federated learning",
-      "link": "https://arxiv.org/abs/2611.09277v1",
+      "id": "9c4e8213bbebf1baef3f34381174237f",
+      "title": "Research Paper: Writer-independent handedness identification from offline Bangla handwriting under controlled acquisition",
+      "link": "https://arxiv.org/abs/2611.10744v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-11-06T10:33:05Z",
-      "published_fmt": "06 Nov 2026",
-      "plain_summary": "Digital forensic investigations increasingly cross borders, and law enforcement agencies need to build analytical models together without centralizing their data.",
+      "image": "images/research_1.png",
+      "published": "2026-11-07T14:03:11Z",
+      "published_fmt": "07 Nov 2026",
+      "plain_summary": "Handedness is a soft-biometric cue for forensic document examination and writer profiling, yet reported accuracies from offline handwriting rarely keep writers, texts and image acquisition apart, so models may recognise the writer or capture conditions rather than the writing hand.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
         "#research",
         "#arxiv",
         "#ai",
-        "#deep-learning"
+        "#digital-forensics"
       ],
       "read_time": "1 min read",
       "forensic_score": 50,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "154740161e80baa4b5c1e9c1ba50830f",
-          "title": "Research Paper: Grounding-Aware Judge Reward Reinforcement Learning for Out-of-Domain Face Anti-Spoofing"
+          "id": "63b6c156c6290d33273af04ac79476b3",
+          "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics"
         },
         {
-          "id": "b68788e8fef0a90250791766133564a4",
-          "title": "Research Paper: PHISHREV+: An ASP-Based Post-Hoc Defeasible Machine Learning Framework for Phishing Detection"
+          "id": "89a330d87daa0cd61cae709925240647",
+          "title": "Research Paper: MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos"
         }
       ]
     },
     {
-      "id": "154740161e80baa4b5c1e9c1ba50830f",
-      "title": "Research Paper: Grounding-Aware Judge Reward Reinforcement Learning for Out-of-Domain Face Anti-Spoofing",
-      "link": "https://arxiv.org/abs/2611.09047v1",
+      "id": "89a330d87daa0cd61cae709925240647",
+      "title": "Research Paper: MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos",
+      "link": "https://arxiv.org/abs/2611.12443v1",
       "source": "arXiv",
       "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-11-06T06:20:50Z",
-      "published_fmt": "06 Nov 2026",
-      "plain_summary": "Face Anti-Spoofing (FAS) must distinguish genuine faces from presentation attacks.",
+      "image": "images/research_1.png",
+      "published": "2026-11-09T14:02:42Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Generalizable deepfake video detection remains challenging because forgery artifacts vary substantially across manipulation types and often combine diverse spatial and temporal inconsistencies.",
       "deep_lore": "",
       "category_tag": "Research Papers",
       "tags": [
         "#research",
         "#arxiv",
         "#ai",
-        "#machine-learning"
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "2a63c2850cef028622eef94117c3347e",
+          "title": "Research Paper: An Agentic Multi-Agent Framework for System Log Anomaly Detection"
+        },
+        {
+          "id": "dd541e5481985032c664de7a5555a26b",
+          "title": "Research Paper: When Normality Shifts: Multi-Level WavLM Modeling for Open-World Audio Deepfake Detection"
+        }
+      ]
+    },
+    {
+      "id": "7cd5514b55a9da78525b6314b97486ba",
+      "title": "Research Paper: Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment",
+      "link": "https://arxiv.org/abs/2611.10908v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-07T18:54:23Z",
+      "published_fmt": "07 Nov 2026",
+      "plain_summary": "Forensic verification has converged on a binary \"real vs. fake\" label that confates fully synthetic, tampered, and AI-retouched images despite their very different consequences.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "5600f679afd32b84b4d5a2a5cdfd4fbe",
+          "title": "Research Paper: Governed Self-Improvement for a Local-First Security Analyzer: Baseline Measurements and a Preregistered Evaluation Protocol for Tantular Cyber"
+        },
+        {
+          "id": "63b6c156c6290d33273af04ac79476b3",
+          "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics"
+        }
+      ]
+    },
+    {
+      "id": "5600f679afd32b84b4d5a2a5cdfd4fbe",
+      "title": "Research Paper: Governed Self-Improvement for a Local-First Security Analyzer: Baseline Measurements and a Preregistered Evaluation Protocol for Tantular Cyber",
+      "link": "https://arxiv.org/abs/2611.10425v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-11-07T03:06:47Z",
+      "published_fmt": "07 Nov 2026",
+      "plain_summary": "Local-first security tools let organizations analyze code without sending it to third-party services, but the small language models they can run locally are weaker than hosted ones and are hard to improve without breaching the privacy guarantee that motivates them.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
       ],
       "read_time": "2 min read",
       "forensic_score": 30,
-      "collected_date": "09 Nov 2026",
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "b68788e8fef0a90250791766133564a4",
-          "title": "Research Paper: PHISHREV+: An ASP-Based Post-Hoc Defeasible Machine Learning Framework for Phishing Detection"
+          "id": "7cd5514b55a9da78525b6314b97486ba",
+          "title": "Research Paper: Beyond Real or Fake: A Dual-Channel Authenticity and Reasoning Protocol for Photographic Assessment"
         },
         {
-          "id": "264d30258f3fe9b9c9daf27752c89d4b",
-          "title": "Research Paper: Federated Forensics: Jurisdictional constraints as a design driver for multi-agency federated learning"
+          "id": "63b6c156c6290d33273af04ac79476b3",
+          "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics"
         }
       ]
     },
     {
-      "id": "b68788e8fef0a90250791766133564a4",
-      "title": "Research Paper: PHISHREV+: An ASP-Based Post-Hoc Defeasible Machine Learning Framework for Phishing Detection",
-      "link": "https://arxiv.org/abs/2611.09273v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-11-06T10:28:38Z",
-      "published_fmt": "06 Nov 2026",
-      "plain_summary": "Phishing website detection remains a critical cybersecurity challenge.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#machine-learning"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 10,
-      "collected_date": "09 Nov 2026",
-      "related": [
-        {
-          "id": "154740161e80baa4b5c1e9c1ba50830f",
-          "title": "Research Paper: Grounding-Aware Judge Reward Reinforcement Learning for Out-of-Domain Face Anti-Spoofing"
-        },
-        {
-          "id": "264d30258f3fe9b9c9daf27752c89d4b",
-          "title": "Research Paper: Federated Forensics: Jurisdictional constraints as a design driver for multi-agency federated learning"
-        }
-      ]
-    },
-    {
-      "id": "f50243e39e3e5b1e0245e07161370396",
-      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-      "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "id": "8bef716afb506c785aceaae2a4f930fe",
+      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+      "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s1600/sonicss.jpg",
-      "published": "2026-11-09T06:05:24Z",
-      "published_fmt": "09 Nov 2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVAsrcYxVs8sJe7IiSD6WkTC4yPv0eLfup7dwcsS0NLcAAgoY__wyC3UFCR90PL2ziKCEW-vMNIEQXES-8uAG-MxuXlyIDdQGeNREm8yFv3tbvsCVXXRyRGT4ORirvcVKP_uD62XHYy9w3x_P0o7XzkguJPwq_1vV2jPxxnZWbhAHHUJ3YJ6HbTlXb0shyphenhyphen/s1600/openssh.png",
+      "published": "2026-11-10T06:31:42Z",
+      "published_fmt": "10 Nov 2026",
       "plain_summary": "The U.S.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
@@ -730,16 +1688,262 @@
         "#vulnerability"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "09 Nov 2026",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
       "related": [
         {
-          "id": "9a3414810c0f470fae277d479c536a34",
-          "title": "[MEDIUM CVE] CVE-2026-101173 in Various Systems"
+          "id": "5c87c6d836bf5a57125563ae4c7afa16",
+          "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems"
         },
         {
-          "id": "411779b282245154be1ba335991837fd",
-          "title": "[MEDIUM CVE] CVE-2026-101174 in Various Systems"
+          "id": "60e6ea68ed23f733aa45d9a2e355b397",
+          "title": "[KEV Active Exploit] CVE-2026-102895 in GPUStack GPUStack"
+        }
+      ]
+    },
+    {
+      "id": "142bad927886ee3ca9abc3c0f231c74c",
+      "title": "Research Paper: MARS: Multiscale Appearance-Residual Streams for Video Forgery Detection",
+      "link": "https://arxiv.org/abs/2611.12508v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_3.png",
+      "published": "2026-11-09T14:48:33Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Generalizing deepfake detection across facial manipulation and fully generated video remains challenging due to forgery traces varying with the manipulation method and scene content.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#media-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "5f9d57f34f1a3ed742aaae697a3e5d14",
+          "title": "Research Paper: Color wave: A systematic evaluation of active screen illumination for injection attack detection in remote face authentication"
+        },
+        {
+          "id": "7a4a2d63ec24f9773bc85fe2d0c0fefc",
+          "title": "Research Paper: Ultrasound-Assisted Biometric Watermarking Against Face Video Deepfakes"
+        }
+      ]
+    },
+    {
+      "id": "dd541e5481985032c664de7a5555a26b",
+      "title": "Research Paper: When Normality Shifts: Multi-Level WavLM Modeling for Open-World Audio Deepfake Detection",
+      "link": "https://arxiv.org/abs/2611.11465v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_2.png",
+      "published": "2026-11-08T15:54:07Z",
+      "published_fmt": "08 Nov 2026",
+      "plain_summary": "Audio deepfake detectors trained with known synthesis attacks can learn generator-specific shortcuts that fail as synthesis systems and acoustic conditions evolve.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "89a330d87daa0cd61cae709925240647",
+          "title": "Research Paper: MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos"
+        },
+        {
+          "id": "5f9d57f34f1a3ed742aaae697a3e5d14",
+          "title": "Research Paper: Color wave: A systematic evaluation of active screen illumination for injection attack detection in remote face authentication"
+        }
+      ]
+    },
+    {
+      "id": "2a63c2850cef028622eef94117c3347e",
+      "title": "Research Paper: An Agentic Multi-Agent Framework for System Log Anomaly Detection",
+      "link": "https://arxiv.org/abs/2611.10612v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-11-07T09:30:17Z",
+      "published_fmt": "07 Nov 2026",
+      "plain_summary": "As enterprise systems grow in scale and complexity, manual log analysis and conventional SIEM tools struggle to keep pace with the volume and diversity of incidents.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "89a330d87daa0cd61cae709925240647",
+          "title": "Research Paper: MoSTE: Mixture of Spatio-Temporal Experts for Deepfake Detection in Videos"
+        },
+        {
+          "id": "63b6c156c6290d33273af04ac79476b3",
+          "title": "Research Paper: FALC: An Artifact-Centric Life Cycle Model and Research Agenda for AI Forensics"
+        }
+      ]
+    },
+    {
+      "id": "e4500c9627437081d126fd12e78a4df4",
+      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+      "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjk5S9J891bQS8W6TgyoiEPQ7geGia8FqqWjckFlo9qMH2wXIXv-7gyod1XKUpI9BfgcliN2Re8A85rJ121jxqgfnw1LsjYBvAYtX7694GVgMF7B94G0n5MzqMaKqLAbr-No1nqrN0gyF8MFR_bYQIYlqiTh_FzobmWrq4NOCLbcW_78uEMMW5FE4eqJoo/s1600/chrome-0day.jpg",
+      "published": "2026-11-10T06:52:54Z",
+      "published_fmt": "10 Nov 2026",
+      "plain_summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "8bef716afb506c785aceaae2a4f930fe",
+          "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws"
+        },
+        {
+          "id": "5c87c6d836bf5a57125563ae4c7afa16",
+          "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems"
+        }
+      ]
+    },
+    {
+      "id": "87252b3802f69bd21935508a3c310f1a",
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_4.png",
+      "published": "2026-11-09T23:52:12Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "76dbedcda80e8728af6a0d923757c64c",
+          "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack"
+        },
+        {
+          "id": "64c0fe9ae1aacbc31d3e94389ec8141e",
+          "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware"
+        }
+      ]
+    },
+    {
+      "id": "76dbedcda80e8728af6a0d923757c64c",
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_2.png",
+      "published": "2026-11-09T17:50:32Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "87252b3802f69bd21935508a3c310f1a",
+          "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed"
+        },
+        {
+          "id": "64c0fe9ae1aacbc31d3e94389ec8141e",
+          "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware"
+        }
+      ]
+    },
+    {
+      "id": "64c0fe9ae1aacbc31d3e94389ec8141e",
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1600/bees.jpg",
+      "published": "2026-11-09T17:36:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "87252b3802f69bd21935508a3c310f1a",
+          "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed"
+        },
+        {
+          "id": "76dbedcda80e8728af6a0d923757c64c",
+          "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack"
+        }
+      ]
+    },
+    {
+      "id": "5c87c6d836bf5a57125563ae4c7afa16",
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/cve_4.png",
+      "published": "2026-11-09T16:04:57Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#vulnerability"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "10 Nov 2026",
+      "related": [
+        {
+          "id": "8bef716afb506c785aceaae2a4f930fe",
+          "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws"
+        },
+        {
+          "id": "e4500c9627437081d126fd12e78a4df4",
+          "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026"
         }
       ]
     }
