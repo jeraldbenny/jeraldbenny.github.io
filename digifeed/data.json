@@ -1,17 +1,17 @@
 {
-  "last_updated": "11 November 2026, 12:22 IST",
-  "total": 61,
+  "last_updated": "12 November 2026, 12:59 IST",
+  "total": 48,
   "articles": [
     {
-      "id": "0bc37e6955ca179411e0c63a202bf8d2",
-      "title": "InfoSec News Nuggets – 11/10/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-11-10-2026/",
-      "source": "AboutDFIR",
-      "source_icon": "📋",
-      "image": "images/dfir_3.png",
-      "published": "2026-11-10T12:37:49Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators France on Monday blamed Iran for the October 12 cyberattack that remotely seized refrigeration systems in roughly 700 French supermarkets, pushing temperatures as high as 50°C for about six hours and forcing stores to discard fresh and frozen goods.",
+      "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+      "title": "Meet the Magnet Forensics Training Team: Grant Hazell",
+      "link": "https://www.magnetforensics.com/blog/meet-the-magnet-forensics-training-team-grant-hazell/",
+      "source": "Magnet Forensics",
+      "source_icon": "🧲",
+      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/11/18-Grant-Hazell-1600x550-1.png",
+      "published": "2026-11-11T14:34:17Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Meet Grant Hazell, a Magnet Forensics trainer in Perth, Australia, on a path from military and policing careers to the classroom and why certification matters.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -19,29 +19,59 @@
         "#analysis"
       ],
       "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "11 Nov 2026",
+      "forensic_score": 80,
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "b768de6431fa067a79604dc274607b9e",
+          "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center"
         },
         {
-          "id": "cd21f33e2e3d647f789b06f5612e02a1",
-          "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities"
+          "id": "204f42457ffb5b4d7ce1734d82e9bbe4",
+          "title": "Baker Tilly notifies clients of data breach at third-party provider"
         }
       ]
     },
     {
-      "id": "747f5843e9291d3fd670eb6049138ee2",
-      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-      "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "id": "b768de6431fa067a79604dc274607b9e",
+      "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLR19BS1Zyd3NkZ3dZa1NFNXBydy15RWRPSElKMzY0MW5ISWJydWJjX2Rxdkp4NVVqc0g2dVZNeldFTnduaHMwU1JQRWM?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-12T02:02:14Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 SANS Internet Storm Center",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
+        },
+        {
+          "id": "204f42457ffb5b4d7ce1734d82e9bbe4",
+          "title": "Baker Tilly notifies clients of data breach at third-party provider"
+        }
+      ]
+    },
+    {
+      "id": "204f42457ffb5b4d7ce1734d82e9bbe4",
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-11-10T22:20:19Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces.",
+      "image": "images/dfir_4.png",
+      "published": "2026-11-11T23:01:31Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,28 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "c5e183005c5090814ae428870afc8140",
-          "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats"
+          "id": "af1dee618a2e66d7a4491140d0c47ad2",
+          "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
         },
         {
-          "id": "17bb127e596a25c6448ca336e33cc898",
-          "title": "Hackers exploit trusted AWS access to breach multiple cloud environments"
+          "id": "76db4888ae750859d07496c8f176cd7f",
+          "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords"
         }
       ]
     },
     {
-      "id": "cd21f33e2e3d647f789b06f5612e02a1",
-      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
-      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
-      "source": "Krebs on Security",
-      "source_icon": "🕵️",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/ss-orangemencomputer.png",
-      "published": "2026-11-10T21:55:03Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software.",
+      "id": "a509b8509edd953a4434bb5b940b9a87",
+      "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know",
+      "link": "https://unit42.paloaltonetworks.com/artex-and-ai-powered-red-teaming-tools/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/11/02_General_Category_1505x922.jpg",
+      "published": "2026-11-11T23:00:53Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Learn what Unit 42 discovered about attacker use of AI-powered red team tools, and how to mitigate these attacks. The post ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know appeared first on Unit 42 .",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -80,28 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "0bc37e6955ca179411e0c63a202bf8d2",
-          "title": "InfoSec News Nuggets – 11/10/2026"
+          "id": "a6fe07d3eb0ff8def70762b4627ec297",
+          "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned."
         },
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
         }
       ]
     },
     {
-      "id": "b062f0203dcc0373fc7f55fbbf00c5a4",
-      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "id": "15fbadba4fbdd15567b7a85302898c4c",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_5.png",
-      "published": "2026-11-10T20:54:55Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
+      "published": "2026-11-11T21:27:40Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -110,28 +140,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "17bb127e596a25c6448ca336e33cc898",
-          "title": "Hackers exploit trusted AWS access to breach multiple cloud environments"
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
         },
         {
-          "id": "c5e183005c5090814ae428870afc8140",
-          "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats"
+          "id": "b768de6431fa067a79604dc274607b9e",
+          "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center"
         }
       ]
     },
     {
-      "id": "17bb127e596a25c6448ca336e33cc898",
-      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "id": "af1dee618a2e66d7a4491140d0c47ad2",
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-11-10T19:31:11Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-11T20:54:20Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -140,28 +170,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "204f42457ffb5b4d7ce1734d82e9bbe4",
+          "title": "Baker Tilly notifies clients of data breach at third-party provider"
         },
         {
-          "id": "b062f0203dcc0373fc7f55fbbf00c5a4",
-          "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records"
+          "id": "1e5084b7044859f6140c419ed30b0808",
+          "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets"
         }
       ]
     },
     {
-      "id": "53a7456826e888c67a96f362f9f60092",
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-      "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "id": "2e6aadd321736555cabfaa333ddf2fb8",
+      "title": "Chainsaw v2.17.2-beta.0",
+      "link": "https://github.com/WithSecureOpenSource/chainsaw/releases/tag/v2.17.2-beta.0",
+      "source": "Chainsaw Releases",
+      "source_icon": "📦",
+      "image": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+      "published": "2026-11-11T18:10:19Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "No content.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
+        },
+        {
+          "id": "b768de6431fa067a79604dc274607b9e",
+          "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center"
+        }
+      ]
+    },
+    {
+      "id": "1e5084b7044859f6140c419ed30b0808",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifQOwa1ngLZRATbbZyg_iud4SNx-9ugjo2iOG6crnJzatc_uS9FjGScBnNUy-uNIuOEE3Y6kJTpUVMVtOR1bW5sse_pRNJA1SQALCGjshDx6-CF1t8HXlUI2CCb6yp7Uepz6uk3ctMLUlSx4Q36Q7pZcx1nb9wPgbYAZqvd6CnSJ6WM6Kn_ZENtHpESoM/s1600/nearai.jpg",
-      "published": "2026-11-10T19:19:39Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
+      "published": "2026-11-11T15:34:27Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -170,28 +230,118 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "f1718a16d22ea68530d094ef985ec7a2",
+          "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks"
         },
         {
-          "id": "17bb127e596a25c6448ca336e33cc898",
-          "title": "Hackers exploit trusted AWS access to breach multiple cloud environments"
+          "id": "af1dee618a2e66d7a4491140d0c47ad2",
+          "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
         }
       ]
     },
     {
-      "id": "58c14603cc636cc7042d853dfc2541ba",
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "id": "f1718a16d22ea68530d094ef985ec7a2",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-11T15:12:59Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "1e5084b7044859f6140c419ed30b0808",
+          "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets"
+        },
+        {
+          "id": "af1dee618a2e66d7a4491140d0c47ad2",
+          "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
+        }
+      ]
+    },
+    {
+      "id": "3c25cf76a89c3a5f8e66b196af786297",
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_3.png",
+      "published": "2026-11-11T15:01:11Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
+        },
+        {
+          "id": "b768de6431fa067a79604dc274607b9e",
+          "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center"
+        }
+      ]
+    },
+    {
+      "id": "d37f068bdcf6927884507476585da3b0",
+      "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "link": "https://unit42.paloaltonetworks.com/falcon-c2-browser-compromise/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/11/06_Malware_Category_1920x900-8.jpg",
+      "published": "2026-11-11T15:00:23Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant. The post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on Unit 42 .",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
+        },
+        {
+          "id": "b768de6431fa067a79604dc274607b9e",
+          "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176 - SANS Internet Storm Center"
+        }
+      ]
+    },
+    {
+      "id": "0ba244cf0e376eaf40a698cc58fc928f",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs4UHnKTj_NJCPa7Jqdntj8tEvZ2PgaY7s9kKK8_X2bxehTUcJeZPFfguJzvW_D0H9XD_q-qLZV2Qq6hqRYDQRYMXpyAzw-6T2yDjFjIY7zhGRLPDPjOalASUgX_Z-M2cEsNqiuys_4QjQ8vY_xl0fnWi2Y_9tT9aAH0WQOAB3D6uDf8yZY8VuphL4TRFG/s1600/court-phish.jpg",
-      "published": "2026-11-10T15:58:44Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
+      "published": "2026-11-11T14:01:00Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -200,28 +350,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "17bb127e596a25c6448ca336e33cc898",
-          "title": "Hackers exploit trusted AWS access to breach multiple cloud environments"
+          "id": "f1718a16d22ea68530d094ef985ec7a2",
+          "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks"
         },
         {
-          "id": "0bc37e6955ca179411e0c63a202bf8d2",
-          "title": "InfoSec News Nuggets – 11/10/2026"
+          "id": "10b12a7d5ad43e9992dc5fd15aea3c9f",
+          "title": "Meet the Magnet Forensics Training Team: Grant Hazell"
         }
       ]
     },
     {
-      "id": "c5e183005c5090814ae428870afc8140",
-      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-      "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "id": "76db4888ae750859d07496c8f176cd7f",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-mBJN_E4CjW3MXyjYYdeCGcyR052aVnG3uUWjaEfafvPAdatcJhn9LbtngqXBb5JsVwJVoorc8i41nTbYR9UcwVrwWNzU-WAfVk2yL32hYW1elVMJtwauW53nhRG37EwbovnFCW8InensI8tKoR9pqcWnZx54t6xOU_HsjjR9KWTLwVr_MBcknFeGShZU/s1600/fire.jpg",
-      "published": "2026-11-10T15:33:59Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\" In a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+      "published": "2026-11-11T12:19:40Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -230,28 +380,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "204f42457ffb5b4d7ce1734d82e9bbe4",
+          "title": "Baker Tilly notifies clients of data breach at third-party provider"
         },
         {
-          "id": "b062f0203dcc0373fc7f55fbbf00c5a4",
-          "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records"
+          "id": "af1dee618a2e66d7a4491140d0c47ad2",
+          "title": "Notion says Fireworks breach exposed customer AI chat transcripts"
         }
       ]
     },
     {
-      "id": "3b0c3d446c04c9b981cc1013c2d2c2d3",
-      "title": "Exchange for breakfast: Turla’s Cereal tricks are not for kids - WeLiveSecurity",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjRtazY1VkhMZ2RfMjZ1dUpfRW9wZ0tnd2hEalhTRC1CMG93VlFrZUNERkxFeWNQUl91WXhUc2ZnQkExOGlVRU02NGdjdHd5VjNMTEYwUEhnRkl4Z3BVWW03YTVyNmRwZWI4RHhJWDVBZ2tsbzFjcllYdWF1YlpfWjkwdy1LVURyMUxSMDhVM195dndyaDZka0pTb2tMSzRjODliX09QaGlXbE9PR3c?oc=5",
-      "source": "ESET Research",
-      "source_icon": "🦠",
-      "image": "images/dfir_2.png",
-      "published": "2026-11-10T11:25:51Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Exchange for breakfast: Turla’s Cereal tricks are not for kids WeLiveSecurity",
+      "id": "a6fe07d3eb0ff8def70762b4627ec297",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
+      "published": "2026-11-11T12:01:59Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -260,28 +410,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "0bc37e6955ca179411e0c63a202bf8d2",
-          "title": "InfoSec News Nuggets – 11/10/2026"
+          "id": "a509b8509edd953a4434bb5b940b9a87",
+          "title": "ARTEX and AI-Powered Red Teaming Tools: What Defenders Need to Know"
         },
         {
-          "id": "747f5843e9291d3fd670eb6049138ee2",
-          "title": "Railway breach leads to $740,000 in fraudulent AI charges"
+          "id": "1e5084b7044859f6140c419ed30b0808",
+          "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets"
         }
       ]
     },
     {
-      "id": "eb928b213e208d8447c0db56ac8720dc",
-      "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR1BMRWFtN01ZbHI5QWxFMXVtM3VTU01zckhpWVA0TFN4a0NyelBMOXhIb05TaENwUU1NbkVCb2NGQlBqZ3lxTm45WF9JNnRaSjVrUEZVNXZXc3BMcFVkc3dTd2VxVW9oWFBQWGFrdW9kZm1RRUs2dktzT1E0a2VrN0Z6bE5iT2VTcy1UTTNJaWlvbktBZEhRZHNiUDlxWFM2c1l6Wlpyc1BJMUtCWDZIdXljMmwySlhQczBDWE9jWQ?oc=5",
+      "id": "eabe3c2f30a8885818729df123fb2c24",
+      "title": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkNjSjNfVzdUWktRODR6eHFiTnhqc2g5UzAtUlRSWXkzMkFZSG0xeTNzZWRXZVZlVFdhc0Y4N0x3c0JoakxlVU05MlBQWk5kMkhKcEFJLWVhNHpuUlFBS3k1Y093TG53VHV3R2tTZVJpa3hWOGJ6b0xlZ3N0NGpzbExhcVhhMW1FeGtqM0tBMnV2cThfbUp5bFhfRzIwcFVMMTVualZrcXF0dml6NFE?oc=5",
       "source": "Journal of Forensic Sciences",
       "source_icon": "🔬",
-      "image": "images/forensics_1.png",
-      "published": "2026-11-11T01:45:21Z",
+      "image": "images/forensics_5.png",
+      "published": "2026-11-12T07:00:33Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims Bioengineer.org",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "2586a9e2df0c6be3d9abebff4d408555",
+          "title": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies - Bioengineer.org"
+        },
+        {
+          "id": "dc218313c6fbc6ce254d0e8a1b964f13",
+          "title": "Nolla Method Outperforms Haavikko for Egyptian Children’s Dental Age - Bioengineer.org"
+        }
+      ]
+    },
+    {
+      "id": "3c3fc5521ad9d343312383d4f7dbbf61",
+      "title": "Symbolic clay figurines change our understanding of the prehistoric Middle East",
+      "link": "https://phys.org/news/2026-11-clay-figurines-prehistoric-middle-east.html",
+      "source": "Phys.org Forensics",
+      "source_icon": "📰",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/newly-discovered-clay-2.jpg",
+      "published": "2026-11-11T14:00:29Z",
       "published_fmt": "11 Nov 2026",
-      "plain_summary": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden Bioengineer.org",
+      "plain_summary": "Newly discovered artifacts are evidence of the earliest known example of a tradition of making clay figurines in the Middle East—and challenge long-held beliefs about when and how clay began to be used for symbolic purposes in the region, according to a study published in PLOS One by Laurent Davin from The Hebrew University of Jerusalem, Israel, and colleagues.",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -290,148 +470,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "34020646db3b5e09e84a5b21583f2f12",
-          "title": "Novel Urine Biomarker GHB-Pentose Extends Detection Window in Real Forensic Cases - Bioengineer.org"
+          "id": "eabe3c2f30a8885818729df123fb2c24",
+          "title": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims - Bioengineer.org"
         },
         {
-          "id": "330a9e4fb0cb5288fd7e47f9c96fb917",
-          "title": "Traces of Justice review – arresting forensic cop thriller chases the science - IMDb"
+          "id": "2586a9e2df0c6be3d9abebff4d408555",
+          "title": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies - Bioengineer.org"
         }
       ]
     },
     {
-      "id": "62c49a766d05c2a1e7195f3947e80e04",
-      "title": "Judge limits DNA evidence in Bozeman homicide trial - Fairfield Sun Times",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbnFuU2N5MTlLM3ZzV0tUc2d3b0d5V0dkTVlXOGppWHVnN3VhUlJGYnJOWUJvWjhNdk9VcTZLNkcxZjhldGpfNWZtVDVCN1dvemtoUkp5X1dtZ2J4Z0ZZbGdzLTFWMlpNb3JweWRFVVJSeEItSjJPMmJuYTVWY3VxbUxmR0RXTkwyX3gxUDJ2MW5yOGUyOEFnRXZnLUFmMGpHWE5ITjh0ZWFrUXlEVHNyWkhET0hWcjViX19RWGt6UmliTXM1Q3NwMXo5cm5ESURqZ0hfanQ5NU1FX0hqWHBZ?oc=5",
-      "source": "Google News: DNA Profiling",
-      "source_icon": "🧬",
-      "image": "images/forensics_3.png",
-      "published": "2026-11-11T00:08:00Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "Judge limits DNA evidence in Bozeman homicide trial Fairfield Sun Times",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "eb928b213e208d8447c0db56ac8720dc",
-          "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org"
-        },
-        {
-          "id": "34020646db3b5e09e84a5b21583f2f12",
-          "title": "Novel Urine Biomarker GHB-Pentose Extends Detection Window in Real Forensic Cases - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "34020646db3b5e09e84a5b21583f2f12",
-      "title": "Novel Urine Biomarker GHB-Pentose Extends Detection Window in Real Forensic Cases - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaWljNjlDMm5KMkliUzBrcU1yQ1ZYdzRZbnZzMU5XdGtjYU1kZXAzRmZQUmVYRUZUX3JpdUVuVWE1WDhoWUpWN1Z5LTJ4REw4SF9kbmtyM0JtMm9ZX1BFS3ZtdG9kVzdBSHNqS25nM2pZV2VjVl9IdlhPaEpYczE4ei0yM0dFN1JRS2lBbU40UmtCRlRnaWRXWVpmZVVQWEp5SFJDSmUtakpWdw?oc=5",
-      "source": "Google News: Forensic Toxicology",
-      "source_icon": "🧪",
-      "image": "images/forensics_3.png",
-      "published": "2026-11-10T17:09:38Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Novel Urine Biomarker GHB-Pentose Extends Detection Window in Real Forensic Cases Bioengineer.org",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "eb928b213e208d8447c0db56ac8720dc",
-          "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org"
-        },
-        {
-          "id": "330a9e4fb0cb5288fd7e47f9c96fb917",
-          "title": "Traces of Justice review – arresting forensic cop thriller chases the science - IMDb"
-        }
-      ]
-    },
-    {
-      "id": "330a9e4fb0cb5288fd7e47f9c96fb917",
-      "title": "Traces of Justice review – arresting forensic cop thriller chases the science - IMDb",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wV2ZBb2QwWkRUck9PdzdqUG5JN1BrNXFhMVMtbDJzc1dFMEV2VW5Xb0JPM3RadFdoNVc0bWlPclQxQXNpd0t5RnEwM2U3S2J5NGRYRzZlb2I3WENTQ1VJT3ZQOEI2eDhqbWc?oc=5",
-      "source": "Google News: Forensic Science",
+      "id": "2586a9e2df0c6be3d9abebff4d408555",
+      "title": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWWpoamkwWF92TDRHX1lVcFlLdzFSMVpqRHRma3hpRkY1b0dPTTZZQU1nZ0xMSVFUV1RQNGdSeGp2aXhBWDhqTDFyVTBTbnBiLTU3Y2F5VEhtb0RWanAwM2dGXzk4dGlENkVCcnhXRExKN01VS3ZYekJDWnNtZTdCVGtWak1sS1Rpa0xRQ2huZ3ZRaUYzeTBNQTFFWnJ4YWRNYjZlU1V4QXU?oc=5",
+      "source": "Journal of Forensic Sciences",
       "source_icon": "🔬",
-      "image": "images/forensics_1.png",
-      "published": "2026-11-10T11:54:06Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Traces of Justice review – arresting forensic cop thriller chases the science IMDb",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "0b9bf2727acb43ae6c5143b05c7feee7",
-          "title": "Traces of Justice review – ‘Chinese Sherlock Holmes’ at centre of arresting forensic cop thriller - The Guardian"
-        },
-        {
-          "id": "eb928b213e208d8447c0db56ac8720dc",
-          "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "0b9bf2727acb43ae6c5143b05c7feee7",
-      "title": "Traces of Justice review – ‘Chinese Sherlock Holmes’ at centre of arresting forensic cop thriller - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT0J4NVlNMDNhNHVEemNYeVZfeFpNNThzNXVXZUtvTFIwTGZBakJ1SlRrWExVWnVWX2pYdVRzeVU4cmFxZ3dlcHJCUmFsMUZ5Y2NfWk1nMDhuVThWVkhYRlduaFZlQUZsMzR4d2czd1pveFRucW5MN1AwYVRtOWs2b2pUQ2R3QVkxSXF0M1ZkS3BLTXVVZ2RJbzVHMElnQzlHeEQ3N0pseTBPVS1lcDMxalNKZmxSajBweWV4UA?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_1.png",
-      "published": "2026-11-10T11:33:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Traces of Justice review – ‘Chinese Sherlock Holmes’ at centre of arresting forensic cop thriller The Guardian",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "330a9e4fb0cb5288fd7e47f9c96fb917",
-          "title": "Traces of Justice review – arresting forensic cop thriller chases the science - IMDb"
-        },
-        {
-          "id": "eb928b213e208d8447c0db56ac8720dc",
-          "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "2057f54a4f7e5c9f22307660f5bedbac",
-      "title": "Deepfake Image Tracing Framework Achieves High Accuracy Through Latent Feature Analysis - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOejlmeXJCMGx1N3h1UHlqaHVmaUZ1cDV6U3hQY0owc1R1VHRjTVJVU2NYaS1wWjY3Q0gwZUVqMlNPRVcyTS1QenBpZ1lRbEthSDEwaGtzUEdMeElnajdKaWpUYzl6c0NUemxQdklPc1pHZ1NUV3V1UUNBVkkyeW5PcU53bmhVSjZhMlNEX255cVZkaXZhLTVKR1JOanJFYVZrWHFIdC04V0FxT1BKR0FIY0pB?oc=5",
-      "source": "Intl Journal of Legal Medicine",
-      "source_icon": "⚖️",
-      "image": "images/forensics_1.png",
-      "published": "2026-11-11T04:00:28Z",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-11T06:40:33Z",
       "published_fmt": "11 Nov 2026",
-      "plain_summary": "Deepfake Image Tracing Framework Achieves High Accuracy Through Latent Feature Analysis Bioengineer.org",
+      "plain_summary": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies Bioengineer.org",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "eabe3c2f30a8885818729df123fb2c24",
+          "title": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims - Bioengineer.org"
+        },
+        {
+          "id": "dc218313c6fbc6ce254d0e8a1b964f13",
+          "title": "Nolla Method Outperforms Haavikko for Egyptian Children’s Dental Age - Bioengineer.org"
+        }
+      ]
+    },
+    {
+      "id": "dc218313c6fbc6ce254d0e8a1b964f13",
+      "title": "Nolla Method Outperforms Haavikko for Egyptian Children’s Dental Age - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTHBncF9MVnltRDJkM3hka3FBREdHS2p6QUhLTWhWMUlROXN6a0JYMGdUVGF3anByQ1U5S3JLaERWcmdiVDg5MWxyVWV6U3N3T3htRnBTaXBta29BSFJJRGdXOXA0VVhhb2lVVjVZZGllUUtnNnp2bmhyWkdIemFjeENUYm1KblIyYjFsNm45cXFRVGdiNXpv?oc=5",
+      "source": "Egyptian Journal of FS",
+      "source_icon": "🔬",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-12T00:32:54Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "Nolla Method Outperforms Haavikko for Egyptian Children’s Dental Age Bioengineer.org",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -440,410 +530,89 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "eb928b213e208d8447c0db56ac8720dc",
-          "title": "Disaster Victim Identification Exposes Forensic Workers to Substantial Occupational Trauma Burden - Bioengineer.org"
+          "id": "eabe3c2f30a8885818729df123fb2c24",
+          "title": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims - Bioengineer.org"
         },
         {
-          "id": "34020646db3b5e09e84a5b21583f2f12",
-          "title": "Novel Urine Biomarker GHB-Pentose Extends Detection Window in Real Forensic Cases - Bioengineer.org"
+          "id": "2586a9e2df0c6be3d9abebff4d408555",
+          "title": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies - Bioengineer.org"
         }
       ]
     },
     {
-      "id": "a7591515913a6216646567aab762a290",
-      "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-11-10T00:00:00Z",
+      "id": "a2f0454077be27621613937c28e01af7",
+      "title": "UNILAG Department of Cell Biology and Genetics Celebrates Pioneering M.Sc. Graduates, Charges Them to Pursue Career Excellence - University Of Lagos",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbjFGTXVYUUg5NGVhWnVJWmY2WU8xMm1hcVdobW9EM1E2YzltRWR5aGl6cU5ndmZRVktWZmdxejZVSXZiUXU5dkRQSmtqdkxIeDZOODR0UHloVklXeHR6Z01GLXFkdjh1UlBZVW1rU0VnOU5VSFlSalItVlZrU3BFT29UVFNWR1JENUhYTG5QQVFvc1doQVlwZ2o0bEpUMklKblFGQTFuZ1NuTHo0MktxZFRRQW5EdVJ1T1N3OUlyMDJXeGpzTFJHOE5HMXRNVkRHOVotQUN5eWttODlLckpsSw?oc=5",
+      "source": "Google News: Forensic Biology",
+      "source_icon": "🧬",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-10T18:11:22Z",
       "published_fmt": "10 Nov 2026",
-      "plain_summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "plain_summary": "UNILAG Department of Cell Biology and Genetics Celebrates Pioneering M.Sc. Graduates, Charges Them to Pursue Career Excellence University Of Lagos",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Forensics",
       "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#microsoft"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "72b4d2fd4635cad46c1cfb69141bc941",
-          "title": "[KEV Active Exploit] CVE-2026-111793 in Openwave Messaging Limited Webtop Media Transcoder"
-        },
-        {
-          "id": "71a3815ffaae7b9097a1299c134018df",
-          "title": "[KEV Active Exploit] CVE-2026-20320 in Cisco BroadWorks"
-        }
-      ]
-    },
-    {
-      "id": "72b4d2fd4635cad46c1cfb69141bc941",
-      "title": "[KEV Active Exploit] CVE-2026-111793 in Openwave Messaging Limited Webtop Media Transcoder",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#openwavemessaginglimited"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "a7591515913a6216646567aab762a290",
-          "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office"
-        },
-        {
-          "id": "71a3815ffaae7b9097a1299c134018df",
-          "title": "[KEV Active Exploit] CVE-2026-20320 in Cisco BroadWorks"
-        }
-      ]
-    },
-    {
-      "id": "71a3815ffaae7b9097a1299c134018df",
-      "title": "[KEV Active Exploit] CVE-2026-20320 in Cisco BroadWorks",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_2.png",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#cisco"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "a7591515913a6216646567aab762a290",
-          "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office"
-        },
-        {
-          "id": "72b4d2fd4635cad46c1cfb69141bc941",
-          "title": "[KEV Active Exploit] CVE-2026-111793 in Openwave Messaging Limited Webtop Media Transcoder"
-        }
-      ]
-    },
-    {
-      "id": "0c2d5600abb74a5592a96920f61bbce2",
-      "title": "[KEV Active Exploit] CVE-2026-111560 in Barracuda Networks Multiple Products",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#barracudanetworks"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "75fdbcf5300747d6c6d2967ad0e5ec95",
-          "title": "[KEV Active Exploit] CVE-2026-116606 in Barracuda Networks Barracuda Email Security Gateway (ESG)"
-        },
-        {
-          "id": "a7591515913a6216646567aab762a290",
-          "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office"
-        }
-      ]
-    },
-    {
-      "id": "75fdbcf5300747d6c6d2967ad0e5ec95",
-      "title": "[KEV Active Exploit] CVE-2026-116606 in Barracuda Networks Barracuda Email Security Gateway (ESG)",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#barracudanetworks"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "0c2d5600abb74a5592a96920f61bbce2",
-          "title": "[KEV Active Exploit] CVE-2026-111560 in Barracuda Networks Multiple Products"
-        },
-        {
-          "id": "a7591515913a6216646567aab762a290",
-          "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office"
-        }
-      ]
-    },
-    {
-      "id": "3dd24b64b618e0c402d9ac6b18146ad0",
-      "title": "[KEV Active Exploit] CVE-2026-125350 in Google Chromium",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
-      "source": "CISA KEV",
-      "source_icon": "🚨",
-      "image": "images/cve_1.png",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cisa-kev",
-        "#active-exploit",
-        "#cve",
-        "#google"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "a7591515913a6216646567aab762a290",
-          "title": "[KEV Active Exploit] CVE-2026-124194 in Microsoft Office"
-        },
-        {
-          "id": "72b4d2fd4635cad46c1cfb69141bc941",
-          "title": "[KEV Active Exploit] CVE-2026-111793 in Openwave Messaging Limited Webtop Media Transcoder"
-        }
-      ]
-    },
-    {
-      "id": "812bfd6b01d0ef0f94624f6ebd32c01b",
-      "title": "Research Paper: When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition",
-      "link": "https://arxiv.org/abs/2611.13356v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-11-09T23:30:52Z",
-      "published_fmt": "09 Nov 2026",
-      "plain_summary": "Practitioners often combine independently trained models while keeping their weights frozen.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#media-forensics"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "2655b862d4c169bc24cd1e0398a0ea19",
-          "title": "Research Paper: Which Acoustic Features Survive Compression? Tracker-Estimated First-Formant Statistics for Codec-Robust Audio DeepfakeDetection"
-        },
-        {
-          "id": "893ba89dfa9f73cdb17a7ad4e9b84f37",
-          "title": "Research Paper: Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection"
-        }
-      ]
-    },
-    {
-      "id": "2655b862d4c169bc24cd1e0398a0ea19",
-      "title": "Research Paper: Which Acoustic Features Survive Compression? Tracker-Estimated First-Formant Statistics for Codec-Robust Audio DeepfakeDetection",
-      "link": "https://arxiv.org/abs/2611.13258v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-11-09T21:28:48Z",
-      "published_fmt": "09 Nov 2026",
-      "plain_summary": "Audio deepfake detectors that work well on clean lab recordings often degrade after telephone or platform compression. This paper asks a specific question: which low-dimensional acoustic descriptors stay informative after codec degradation?",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#media-forensics"
+        "#forensics",
+        "#science"
       ],
       "read_time": "1 min read",
-      "forensic_score": 85,
-      "collected_date": "11 Nov 2026",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "812bfd6b01d0ef0f94624f6ebd32c01b",
-          "title": "Research Paper: When Are Predictions Enough? An Evaluation Protocol for Frozen Expert Composition"
+          "id": "eabe3c2f30a8885818729df123fb2c24",
+          "title": "Forensic Review Evaluates Tattoo Marks for Identifying Deceased and Disaster Victims - Bioengineer.org"
         },
         {
-          "id": "893ba89dfa9f73cdb17a7ad4e9b84f37",
-          "title": "Research Paper: Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection"
+          "id": "2586a9e2df0c6be3d9abebff4d408555",
+          "title": "Scoping Review Maps Global Forensic Nursing Education Across Forty-Eight Studies - Bioengineer.org"
         }
       ]
     },
     {
-      "id": "66a202adaf525850f9792d15356a5c87",
-      "title": "[Threat IOC] ClearFake domain: dibay.store",
-      "link": "https://threatfox.abuse.ch/ioc/2024058/",
+      "id": "d1343e135105e8e3f63310dc6424ea6e",
+      "title": "[Threat IOC] Unknown malware url: https://nexguard.pro/ae8ouxb9gx/192b4974276f69d3",
+      "link": "https://threatfox.abuse.ch/ioc/2025569/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-11-11T06:50:46Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-11-12T07:26:31Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "0476d32f27c46fde55467ea6fc429e82",
-          "title": "[Threat IOC] ClearFake domain: lzssroq6.hlepump.com"
+          "id": "356000a893e057fab5e62c97ac55c1a0",
+          "title": "[Threat IOC] ClearFake domain: geted.site"
         },
         {
-          "id": "42d9dd55d68b63ecb141e237f780cc28",
-          "title": "[Threat IOC] ClearFake domain: hlepump.com"
+          "id": "9a9a7f7bdff29ef111259c400b6d65f3",
+          "title": "[Threat IOC] Vidar domain: xhj.amerika88.org"
         }
       ]
     },
     {
-      "id": "47d0ea6c922e48a66e91f7f8da877c56",
-      "title": "[Threat IOC] IClickFix domain: distnode.biz",
-      "link": "https://threatfox.abuse.ch/ioc/2024057/",
+      "id": "356000a893e057fab5e62c97ac55c1a0",
+      "title": "[Threat IOC] ClearFake domain: geted.site",
+      "link": "https://threatfox.abuse.ch/ioc/2025568/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-11-11T06:34:26Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: threatcat_ch.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#iclickfix"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
-        },
-        {
-          "id": "0476d32f27c46fde55467ea6fc429e82",
-          "title": "[Threat IOC] ClearFake domain: lzssroq6.hlepump.com"
-        }
-      ]
-    },
-    {
-      "id": "0476d32f27c46fde55467ea6fc429e82",
-      "title": "[Threat IOC] ClearFake domain: lzssroq6.hlepump.com",
-      "link": "https://threatfox.abuse.ch/ioc/2024056/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-11-11T06:23:47Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#clearfake"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
-        },
-        {
-          "id": "42d9dd55d68b63ecb141e237f780cc28",
-          "title": "[Threat IOC] ClearFake domain: hlepump.com"
-        }
-      ]
-    },
-    {
-      "id": "d9fa8d872d146098a9158d305da0850d",
-      "title": "[Threat IOC] php.shin_webshell domain: fuzuwivu.workers.dev",
-      "link": "https://threatfox.abuse.ch/ioc/2024055/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-11-11T06:20:46Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for php.shin_webshell. Type: domain. Threat Category: payload_delivery. Reporter: xscon.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#php.shin_webshell"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
-        },
-        {
-          "id": "47d0ea6c922e48a66e91f7f8da877c56",
-          "title": "[Threat IOC] IClickFix domain: distnode.biz"
-        }
-      ]
-    },
-    {
-      "id": "42d9dd55d68b63ecb141e237f780cc28",
-      "title": "[Threat IOC] ClearFake domain: hlepump.com",
-      "link": "https://threatfox.abuse.ch/ioc/2024054/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-11-11T06:13:54Z",
-      "published_fmt": "11 Nov 2026",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-11-12T07:16:18Z",
+      "published_fmt": "12 Nov 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: Gi7w0rm.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -855,27 +624,27 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
+          "id": "9a9a7f7bdff29ef111259c400b6d65f3",
+          "title": "[Threat IOC] Vidar domain: xhj.amerika88.org"
         },
         {
-          "id": "0476d32f27c46fde55467ea6fc429e82",
-          "title": "[Threat IOC] ClearFake domain: lzssroq6.hlepump.com"
+          "id": "ff0ed446aebd87eebf55b6b59c220bf6",
+          "title": "[Threat IOC] Vidar domain: r0.angsa44d.org"
         }
       ]
     },
     {
-      "id": "74a64c6e88c8718860d8b64cffd41d06",
-      "title": "[Threat IOC] Vidar domain: lv.andraslotlink.org",
-      "link": "https://threatfox.abuse.ch/ioc/2024053/",
+      "id": "9a9a7f7bdff29ef111259c400b6d65f3",
+      "title": "[Threat IOC] Vidar domain: xhj.amerika88.org",
+      "link": "https://threatfox.abuse.ch/ioc/2025566/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_4.png",
-      "published": "2026-11-11T06:05:34Z",
-      "published_fmt": "11 Nov 2026",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-11-12T07:05:34Z",
+      "published_fmt": "12 Nov 2026",
       "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: domain. Threat Category: botnet_cc. Reporter: crep1x.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
@@ -887,185 +656,312 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
+          "id": "ff0ed446aebd87eebf55b6b59c220bf6",
+          "title": "[Threat IOC] Vidar domain: r0.angsa44d.org"
         },
         {
-          "id": "47d0ea6c922e48a66e91f7f8da877c56",
-          "title": "[Threat IOC] IClickFix domain: distnode.biz"
+          "id": "356000a893e057fab5e62c97ac55c1a0",
+          "title": "[Threat IOC] ClearFake domain: geted.site"
         }
       ]
     },
     {
-      "id": "f475d6f534b2c91f39fc63af5e92e60c",
-      "title": "[Threat IOC] Havoc ip:port: 52.64.238.126:80",
-      "link": "https://threatfox.abuse.ch/ioc/2024052/",
+      "id": "ff0ed446aebd87eebf55b6b59c220bf6",
+      "title": "[Threat IOC] Vidar domain: r0.angsa44d.org",
+      "link": "https://threatfox.abuse.ch/ioc/2025567/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-11-12T07:05:34Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Vidar. Type: domain. Threat Category: botnet_cc. Reporter: crep1x.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vidar"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "9a9a7f7bdff29ef111259c400b6d65f3",
+          "title": "[Threat IOC] Vidar domain: xhj.amerika88.org"
+        },
+        {
+          "id": "356000a893e057fab5e62c97ac55c1a0",
+          "title": "[Threat IOC] ClearFake domain: geted.site"
+        }
+      ]
+    },
+    {
+      "id": "bbd7f2ef0272a1f7a655fe62383e0285",
+      "title": "[Threat IOC] VShell ip:port: 20.189.122.18:44446",
+      "link": "https://threatfox.abuse.ch/ioc/2025564/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_4.png",
-      "published": "2026-11-11T06:05:06Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Havoc. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "published": "2026-11-12T07:05:06Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#havoc"
+        "#vshell"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
+          "id": "680d0ad88745bb52d8224158f1345d32",
+          "title": "[Threat IOC] VShell ip:port: 206.238.123.12:19001"
         },
         {
-          "id": "47d0ea6c922e48a66e91f7f8da877c56",
-          "title": "[Threat IOC] IClickFix domain: distnode.biz"
+          "id": "879cd103b45d126c3411153b1736bbdd",
+          "title": "[Threat IOC] VShell ip:port: 154.8.143.185:9999"
         }
       ]
     },
     {
-      "id": "e21dd045f25510800155dae6068f7a91",
-      "title": "[Threat IOC] Unknown Loader sha256_hash: 1657be4761097a31ccacd3cdad1b1c8a5210761bd66b36923238ed99b21c96fa",
-      "link": "https://threatfox.abuse.ch/ioc/2024051/",
+      "id": "680d0ad88745bb52d8224158f1345d32",
+      "title": "[Threat IOC] VShell ip:port: 206.238.123.12:19001",
+      "link": "https://threatfox.abuse.ch/ioc/2025565/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-11-11T05:58:48Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Loader. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-11-12T07:05:06Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#unknownloader"
+        "#vshell"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "66a202adaf525850f9792d15356a5c87",
-          "title": "[Threat IOC] ClearFake domain: dibay.store"
+          "id": "bbd7f2ef0272a1f7a655fe62383e0285",
+          "title": "[Threat IOC] VShell ip:port: 20.189.122.18:44446"
         },
         {
-          "id": "47d0ea6c922e48a66e91f7f8da877c56",
-          "title": "[Threat IOC] IClickFix domain: distnode.biz"
+          "id": "879cd103b45d126c3411153b1736bbdd",
+          "title": "[Threat IOC] VShell ip:port: 154.8.143.185:9999"
         }
       ]
     },
     {
-      "id": "1fc34d9d6e51a82fabf388ed54c3fcf6",
-      "title": "[Tool Release] Hayabusa v4.4.0 published on GitHub",
-      "link": "https://github.com/Yamato-Security/hayabusa/releases/latest",
-      "source": "GitHub API",
-      "source_icon": "⌨",
-      "image": "images/github_5.png",
-      "published": "2026-11-10T00:00:00Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "New GitHub release of Hayabusa (v4.4.0). Highlights: Released 2026/11/10., > [!WARNING], > Antivirus and EDR products may report false positives when downloading or extracting Hayabusa release files. If you are using Hayabusa for live response on a running Windows system, use the appropriate Windows `live-response` build to lower the chance of false positives from antivirus and EDR products. This does not guarantee that no alert will occur..",
+      "id": "879cd103b45d126c3411153b1736bbdd",
+      "title": "[Threat IOC] VShell ip:port: 154.8.143.185:9999",
+      "link": "https://threatfox.abuse.ch/ioc/2025562/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_1.png",
+      "published": "2026-11-12T07:05:05Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for VShell. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
       "deep_lore": "",
-      "category_tag": "GitHub Releases",
+      "category_tag": "IOC Feed",
       "tags": [
-        "#github",
-        "#release",
-        "#hayabusa"
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#vshell"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "bbd7f2ef0272a1f7a655fe62383e0285",
+          "title": "[Threat IOC] VShell ip:port: 20.189.122.18:44446"
+        },
+        {
+          "id": "680d0ad88745bb52d8224158f1345d32",
+          "title": "[Threat IOC] VShell ip:port: 206.238.123.12:19001"
+        }
+      ]
+    },
+    {
+      "id": "52f7773b4b03c8e6454d71e8c459e51c",
+      "title": "[Threat IOC] Quasar RAT ip:port: 143.246.203.148:8080",
+      "link": "https://threatfox.abuse.ch/ioc/2025563/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-11-12T07:05:05Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Quasar RAT. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#quasarrat"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "bbd7f2ef0272a1f7a655fe62383e0285",
+          "title": "[Threat IOC] VShell ip:port: 20.189.122.18:44446"
+        },
+        {
+          "id": "680d0ad88745bb52d8224158f1345d32",
+          "title": "[Threat IOC] VShell ip:port: 206.238.123.12:19001"
+        }
+      ]
+    },
+    {
+      "id": "5d4ed4e363422377392dea7d05cdc0ff",
+      "title": "[CRITICAL CVE] CVE-2026-121489 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-121489",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-11-05T12:17:49Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Juneau. The microservice DirectoryResource does not keep request paths inside its configured root directory.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "3592d0b17a61970be89b60b80e7f5a5c",
-          "title": "Hayabusa v4.4.0 - CODE BLUE Release"
+          "id": "82de2c342aea7ae1fd042feb06da3bd5",
+          "title": "[CRITICAL CVE] CVE-2026-100109 in Various Systems"
         },
         {
-          "id": "815b55e016589f2aefce6e5367c59464",
-          "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities"
+          "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+          "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems"
         }
       ]
     },
     {
-      "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-      "title": "[HIGH CVE] CVE-2026-119366 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119366",
+      "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+      "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123036",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_4.png",
+      "published": "2026-11-05T10:16:38Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "A flaw was found in ansible-core.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "91666268848f01f5ff4caad556b9fe7c",
+          "title": "[MEDIUM CVE] CVE-2026-117679 in Various Systems"
+        },
+        {
+          "id": "ae69b67b2a2350691afdb3b9185939d8",
+          "title": "[MEDIUM CVE] CVE-2026-112072 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "6d26feba45dc662e42aa1e28cab4d29a",
+      "title": "[HIGH CVE] CVE-2026-118869 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118869",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-11-05T09:17:05Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "An OS command injection vulnerability exists in SHIRASAGI, which may allow an authenticated attacker to execute arbitrary OS commands on the system running the product.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "14147997faf50f07879ea3f3ab4e2c77",
+          "title": "[HIGH CVE] CVE-2026-109408 in Various Systems"
+        },
+        {
+          "id": "5d4ed4e363422377392dea7d05cdc0ff",
+          "title": "[CRITICAL CVE] CVE-2026-121489 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "91666268848f01f5ff4caad556b9fe7c",
+      "title": "[MEDIUM CVE] CVE-2026-117679 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-117679",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-11-05T09:17:04Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "A cross-site scripting vulnerability exists in SHIRASAGI, which may allow an authenticated attacker to execute arbitrary script in a user's web browser when the user accesses a website using the affected product.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+          "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems"
+        },
+        {
+          "id": "ae69b67b2a2350691afdb3b9185939d8",
+          "title": "[MEDIUM CVE] CVE-2026-112072 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "60fe7ebb44969cfb21951617346afad8",
+      "title": "[LOW CVE] CVE-2026-107776 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-107776",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-11-04T08:17:16Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AdvancedCoding wpDiscuz wpdiscuz allows Stored XSS.This issue affects wpDiscuz: from n/a through 7.6.73.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
-        },
-        {
-          "id": "82fa4841666a6e4d21999d5d243ba91f",
-          "title": "[HIGH CVE] CVE-2026-121817 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2c2574196ae3800985d563022da2db2f",
-      "title": "[HIGH CVE] CVE-2026-119477 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119477",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_3.png",
-      "published": "2026-11-04T08:17:16Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Jacob N.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
-        },
-        {
-          "id": "82fa4841666a6e4d21999d5d243ba91f",
-          "title": "[HIGH CVE] CVE-2026-121817 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "d7036cace080029655652a7c8e255970",
-      "title": "[LOW CVE] CVE-2026-110944 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110944",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-11-04T08:17:15Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Resource exhaustion vulnerability in the HTTP request handling of the QHttpServer component of Qt HTTP Server.",
+      "published": "2026-11-05T08:17:03Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "The Dokan WordPress plugin before 5.3.3 does not reconcile the amount credited to a vendor's reverse-withdrawal ledger against the amount actually collected for the payment order, allowing a vendor to clear their outstanding commission debt while paying less than the balance owed when a discount coupon is applied at checkout.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1075,28 +971,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
+          "id": "5d4ed4e363422377392dea7d05cdc0ff",
+          "title": "[CRITICAL CVE] CVE-2026-121489 in Various Systems"
         },
         {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
+          "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+          "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems"
         }
       ]
     },
     {
-      "id": "82fa4841666a6e4d21999d5d243ba91f",
-      "title": "[HIGH CVE] CVE-2026-121817 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-121817",
+      "id": "14147997faf50f07879ea3f3ab4e2c77",
+      "title": "[HIGH CVE] CVE-2026-109408 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109408",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-11-04T07:17:12Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Herowatch Go Server developed by About Time Technologies has a Insecure Direct Object Reference vulnerability. Authenticated remote attackers can modify specific parameters to access or operate other users' data and functions.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-11-05T08:17:03Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "vault-java-driver, a Java client for HashiCorp Vault, silently disables TLS certificate and hostname verification in three states where the caller asked for verification: an SslConfig passed to VaultConfig without calling build(), an SslConfig restored by Java deserialization, and VAULT_SSL_VERIFY set to a truthy value other than \"true\", such as 1, yes or on.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1106,368 +1002,90 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
+          "id": "6d26feba45dc662e42aa1e28cab4d29a",
+          "title": "[HIGH CVE] CVE-2026-118869 in Various Systems"
         },
         {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
+          "id": "5d4ed4e363422377392dea7d05cdc0ff",
+          "title": "[CRITICAL CVE] CVE-2026-121489 in Various Systems"
         }
       ]
     },
     {
-      "id": "a748c39a8c4d22869b6281421dad1d24",
-      "title": "[HIGH CVE] CVE-2026-121818 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-121818",
+      "id": "ae69b67b2a2350691afdb3b9185939d8",
+      "title": "[MEDIUM CVE] CVE-2026-112072 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-112072",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-11-04T07:17:12Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Herowatch Mini developed by About Time Technologies has a system signing vulnerability.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
-        },
-        {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "1a7787aa445b10ce7e4fdf0625ed21ec",
-      "title": "[HIGH CVE] CVE-2026-54851 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-54851",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-11-04T07:17:12Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Awesomemotive Contact Form by WPForms wpforms-lite allows Reflected XSS.This issue affects Contact Form by WPForms: from n/a through 2.0.3.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
-        },
-        {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "1aecb853682d03afa3cbd94713c12026",
-      "title": "[HIGH CVE] CVE-2026-62000 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62000",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-11-04T07:17:12Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Missing Authorization vulnerability in WC Lovers WCFM Marketplace wc-multivendor-marketplace allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WCFM Marketplace: from n/a through 3.8.2.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
-        },
-        {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "d0eb5ee6d7f72184bda3186426acd9ab",
-      "title": "[HIGH CVE] CVE-2026-121816 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-121816",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-11-04T07:17:11Z",
-      "published_fmt": "04 Nov 2026",
-      "plain_summary": "Herowatch Mini developed by About Time Technologies has a Missing Authentication vulnerability.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#high-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1ffd6fae5c7e5c55629dbd787657a1d8",
-          "title": "[HIGH CVE] CVE-2026-119366 in Various Systems"
-        },
-        {
-          "id": "2c2574196ae3800985d563022da2db2f",
-          "title": "[HIGH CVE] CVE-2026-119477 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "893ba89dfa9f73cdb17a7ad4e9b84f37",
-      "title": "Research Paper: Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection",
-      "link": "https://arxiv.org/abs/2611.14436v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-11-10T18:08:35Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Deepfake detectors are commonly evaluated on real/fake classification alone, but real-world applications require explanations of the visual evidence behind each prediction.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 50,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "5b7a88990d18a6f0866d8bbbb487f182",
-          "title": "Research Paper: Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn"
-        },
-        {
-          "id": "0167c6fe1bd47b16976a3e48e2d46271",
-          "title": "Research Paper: PUMA: Probability-Constrained Sequential Interaction for Forensic Localization"
-        }
-      ]
-    },
-    {
-      "id": "0167c6fe1bd47b16976a3e48e2d46271",
-      "title": "Research Paper: PUMA: Probability-Constrained Sequential Interaction for Forensic Localization",
-      "link": "https://arxiv.org/abs/2611.13621v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_3.png",
-      "published": "2026-11-10T06:03:20Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Image manipulation localization must jointly exploit semantic structure and noise-sensitive forensic evidence. However, the effects of spatial correspondence, matching quality, and interaction order are often conflated.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 40,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "893ba89dfa9f73cdb17a7ad4e9b84f37",
-          "title": "Research Paper: Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection"
-        },
-        {
-          "id": "5b7a88990d18a6f0866d8bbbb487f182",
-          "title": "Research Paper: Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn"
-        }
-      ]
-    },
-    {
-      "id": "5b7a88990d18a6f0866d8bbbb487f182",
-      "title": "Research Paper: Pulse or Provenance? What rPPG-Based Deepfake Detectors Learn",
-      "link": "https://arxiv.org/abs/2611.13992v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-11-10T12:36:56Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Remote photoplethysmography (rPPG) has been proposed as a physiological cue for deepfake detection, based on the premise that synthesized faces lack a genuine cardiac signal.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 20,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "893ba89dfa9f73cdb17a7ad4e9b84f37",
-          "title": "Research Paper: Metric-Aligned Group Relative Policy Optimization for Explainable Deepfake Detection"
-        },
-        {
-          "id": "0167c6fe1bd47b16976a3e48e2d46271",
-          "title": "Research Paper: PUMA: Probability-Constrained Sequential Interaction for Forensic Localization"
-        }
-      ]
-    },
-    {
-      "id": "abd93facc520e02e6d47b017d28cd038",
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s1600/cisa-cisco.jpg",
-      "published": "2026-11-11T06:04:02Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "The U.S.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "24b011f57ea44b17946a6bb6fb3f9b4a",
-          "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones"
-        },
-        {
-          "id": "fe53b13de72471c251fe142484c65f41",
-          "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day"
-        }
-      ]
-    },
-    {
-      "id": "3592d0b17a61970be89b60b80e7f5a5c",
-      "title": "Hayabusa v4.4.0 - CODE BLUE Release",
-      "link": "https://github.com/Yamato-Security/hayabusa/releases/tag/v4.4.0",
-      "source": "Hayabusa Releases",
-      "source_icon": "📦",
-      "image": "https://avatars.githubusercontent.com/u/43838376?s=60&v=4",
-      "published": "2026-11-10T12:40:32Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Released 2026/11/10. Warning Antivirus and EDR products may report false positives when downloading or extracting Hayabusa release files.",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "3 min read",
-      "forensic_score": 10,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "1fc34d9d6e51a82fabf388ed54c3fcf6",
-          "title": "[Tool Release] Hayabusa v4.4.0 published on GitHub"
-        },
-        {
-          "id": "815b55e016589f2aefce6e5367c59464",
-          "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities"
-        }
-      ]
-    },
-    {
-      "id": "815b55e016589f2aefce6e5367c59464",
-      "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
-      "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/size/w1200/2022/10/GnericCiscoTalos-Header-1.jpg",
-      "published": "2026-11-11T01:41:17Z",
-      "published_fmt": "11 Nov 2026",
-      "plain_summary": "Microsoft has released its monthly security update for November 2026, which includes 1328 vulnerabilities affecting a range of products, including 60 that Microsoft marked as \"critical.\" Out of 60 \"critical\" vulnerabilities, 45 are remote code execution (RCE) vulnerabilities.",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "096194eb103f1c8150e6e2c6a1ac5af0",
-          "title": "Microsoft releases Windows 10 KB5131096 extended security update"
-        },
-        {
-          "id": "fe53b13de72471c251fe142484c65f41",
-          "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day"
-        }
-      ]
-    },
-    {
-      "id": "3dc27ee1afac0aa30fbc2d1fbc0c8530",
-      "title": "NVD-CVE-2026-125298 - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wRGlXcHRwRW9sMzhKdEM3OGctSzVnUTlnNVBQM0trQzlybllPaV9oR1R5TVB2OEhUSks2TkZ5bXItaVZYZm9ycll6VnFMNjRMSjJ0ZzV1cVcydmZZ?oc=5",
-      "source": "NIST Cybersecurity",
-      "source_icon": "🏢",
-      "image": "images/cve_2.png",
-      "published": "2026-11-10T22:35:19Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "NVD-CVE-2026-125298 National Institute of Standards and Technology (.gov)",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "efec8091df12d8ab148119487897da85",
-          "title": "NVD-CVE-2026-126123 - National Institute of Standards and Technology (.gov)"
-        },
-        {
-          "id": "43c5e2d8f5fc21e3a045d3f44a3de7d9",
-          "title": "NVD-CVE-2026-67175 - National Institute of Standards and Technology (.gov)"
-        }
-      ]
-    },
-    {
-      "id": "efec8091df12d8ab148119487897da85",
-      "title": "NVD-CVE-2026-126123 - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PYzF2S1JuYjU5Q0FnQXRIRnB4dmxyN2VETENLbWtTaUFBc1U0OVl1VlR6TU5zUW1DbTNFYUdHOFBhVWlEbl9IczdDMDI0dm1vQzVwaXlTbl95YkVO?oc=5",
-      "source": "NIST Cybersecurity",
-      "source_icon": "🏢",
       "image": "images/cve_4.png",
-      "published": "2026-11-10T22:25:11Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "NVD-CVE-2026-126123 National Institute of Standards and Technology (.gov)",
+      "published": "2026-11-05T08:17:03Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "vault-java-driver, a Java client for HashiCorp Vault, parses Vault's JSON responses with a vendored minimal-json parser that has no nesting depth limit.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#medium-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+          "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems"
+        },
+        {
+          "id": "91666268848f01f5ff4caad556b9fe7c",
+          "title": "[MEDIUM CVE] CVE-2026-117679 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "82de2c342aea7ae1fd042feb06da3bd5",
+      "title": "[CRITICAL CVE] CVE-2026-100109 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-100109",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-11-05T08:17:01Z",
+      "published_fmt": "05 Nov 2026",
+      "plain_summary": "The Security For WooCommerce WordPress plugin from 1.0.10 to 1.0.16 does not perform capability checks when creating users through an action available to unauthenticated visitors, and lets the caller choose the new account's role, allowing unauthenticated attackers to create administrator accounts and take over the site.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "5d4ed4e363422377392dea7d05cdc0ff",
+          "title": "[CRITICAL CVE] CVE-2026-121489 in Various Systems"
+        },
+        {
+          "id": "1ad22494114b8f17cfdeadcbd20c33f5",
+          "title": "[MEDIUM CVE] CVE-2026-123036 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "359238dcdbcfcbee3f9b77bbe28f9e28",
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
+      "published": "2026-11-12T04:39:48Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1475,59 +1093,29 @@
         "#vulnerability"
       ],
       "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "forensic_score": 10,
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "3dc27ee1afac0aa30fbc2d1fbc0c8530",
-          "title": "NVD-CVE-2026-125298 - National Institute of Standards and Technology (.gov)"
+          "id": "968c2e5da9a495997af171c89553db37",
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely"
         },
         {
-          "id": "43c5e2d8f5fc21e3a045d3f44a3de7d9",
-          "title": "NVD-CVE-2026-67175 - National Institute of Standards and Technology (.gov)"
+          "id": "a59f63d021cca1e45552a10a931f2af8",
+          "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation"
         }
       ]
     },
     {
-      "id": "43c5e2d8f5fc21e3a045d3f44a3de7d9",
-      "title": "NVD-CVE-2026-67175 - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUDlmWkhIQnFsN09fSklTcDdfOFR4eTYydmx2WUZITHBXM0JUa2tyRkYtZnIxTkIwZGQ2cDA0RG9SUWpZYU96aXBXS2N4Q2pabXRxSHktWm96SDA?oc=5",
-      "source": "NIST Cybersecurity",
-      "source_icon": "🏢",
-      "image": "images/cve_5.png",
-      "published": "2026-11-10T22:19:13Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "NVD-CVE-2026-67175 National Institute of Standards and Technology (.gov)",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "3dc27ee1afac0aa30fbc2d1fbc0c8530",
-          "title": "NVD-CVE-2026-125298 - National Institute of Standards and Technology (.gov)"
-        },
-        {
-          "id": "efec8091df12d8ab148119487897da85",
-          "title": "NVD-CVE-2026-126123 - National Institute of Standards and Technology (.gov)"
-        }
-      ]
-    },
-    {
-      "id": "096194eb103f1c8150e6e2c6a1ac5af0",
-      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/github_2.png",
-      "published": "2026-11-10T20:04:36Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
+      "id": "a2f9fe039c16b30f290097f30b1e98f0",
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "link": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
+      "published": "2026-11-12T06:42:47Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -1536,28 +1124,24 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "815b55e016589f2aefce6e5367c59464",
-          "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities"
-        },
-        {
-          "id": "a7f938bfc9ab374e0554d8de0c091438",
-          "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released"
+          "id": "73ff5e5cc99506c230f662b5223f7c91",
+          "title": "N-able releases security hotfixes for zero-day vulnerabilities"
         }
       ]
     },
     {
-      "id": "24b011f57ea44b17946a6bb6fb3f9b4a",
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "id": "968c2e5da9a495997af171c89553db37",
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "link": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoPlLYj_xfJ8bsfRTONwa3estE9I2un_9OBx2fVuxEp-zoiADgipn-gGOeU4TqqyjqjrCpoGXC4jmuF7o1e_PUMbr-QoHDdPZEDWavb4VbjtWbOxMfmz-E9fIPT2DHEXYCN53l2jtiJGVfEFjHsR8gaHeyF59Yii0oTnP73vaslLWPzuideEGxTy6S9U/s1600/gits.jpg",
-      "published": "2026-11-10T19:23:10Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+      "published": "2026-11-12T05:12:26Z",
+      "published_fmt": "12 Nov 2026",
+      "plain_summary": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1566,118 +1150,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "b814b6458d1e119308eec71b4f5407d7",
-          "title": "Binance warns of iOS flaw that could leak crypto wallet secrets"
+          "id": "a59f63d021cca1e45552a10a931f2af8",
+          "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation"
         },
         {
-          "id": "abd93facc520e02e6d47b017d28cd038",
-          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
+          "id": "359238dcdbcfcbee3f9b77bbe28f9e28",
+          "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients"
         }
       ]
     },
     {
-      "id": "fe53b13de72471c251fe142484c65f41",
-      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "id": "49cf031666b989b96b23d7515d1511f0",
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_3.png",
-      "published": "2026-11-10T19:07:36Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "abd93facc520e02e6d47b017d28cd038",
-          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
-        },
-        {
-          "id": "815b55e016589f2aefce6e5367c59464",
-          "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities"
-        }
-      ]
-    },
-    {
-      "id": "a7f938bfc9ab374e0554d8de0c091438",
-      "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/github_2.png",
-      "published": "2026-11-10T18:33:26Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "096194eb103f1c8150e6e2c6a1ac5af0",
-          "title": "Microsoft releases Windows 10 KB5131096 extended security update"
-        },
-        {
-          "id": "1fc34d9d6e51a82fabf388ed54c3fcf6",
-          "title": "[Tool Release] Hayabusa v4.4.0 published on GitHub"
-        }
-      ]
-    },
-    {
-      "id": "46e9a0b4b613a459ae54dcb446a58527",
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMH_u7t-U3KIejAItsfC_js20xJgxT2ITYLsR0DAxzfcwDvPrzBHkpZlDuALWPnACOoknX2IALwHIUxIzfhbA24M7e8cGWTZpBMWqpX-wn6xqe8_U3fAtnR-9RsRdFHMCjvNnBsMXrEUKhVYS5bbTGL3B50UMO0aydtHIomY89s2iDAQMq0jXJJ3vh4Nvi/s1600/XEN-attack.jpg",
-      "published": "2026-11-10T18:12:21Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "6ba7d81c96257ae7873b16811bbad036",
-          "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers"
-        },
-        {
-          "id": "24b011f57ea44b17946a6bb6fb3f9b4a",
-          "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones"
-        }
-      ]
-    },
-    {
-      "id": "3f40027609a9c8ec45a355e6eb90975e",
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJzh3KQXtsNe_Hb53sMmMSiGIRHL-ybly73FQY1F-RNeFR181cAeiYkvBDi80Upvlea0WqHLNW6ydto2DhfeD3PlISviNhaTUtVBdQMziXOtKybeWLKj7O3UmmeKP0vGX5ufVBkf1dbShyphenhyphenXgawm2sMttXPfbTTDtmYxbXo7Lw0jkGXtt-E-X7W7PtNxfD-/s1600/chinese-telecom.jpg",
-      "published": "2026-11-10T17:43:23Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.",
+      "image": "images/malware_5.png",
+      "published": "2026-11-11T22:56:21Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1686,58 +1180,88 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "7f139b01ce433a2da705b412ffc07d0f",
-          "title": "IT threat evolution in Q3 2026. Non-mobile statistics"
+          "id": "4d1bbe363802620baae91b01490d6cf0",
+          "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million"
         },
         {
-          "id": "0a082258e94be9a32839f1667b67f0fe",
-          "title": "IT threat evolution in Q3 2026. Mobile statistics"
+          "id": "a29bdb614c93f81a61a7810fac77b788",
+          "title": "Who Runs the Ransomware Group Qilin?"
         }
       ]
     },
     {
-      "id": "6ba7d81c96257ae7873b16811bbad036",
-      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_5.png",
-      "published": "2026-11-10T16:17:16Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+      "id": "a29bdb614c93f81a61a7810fac77b788",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "source_icon": "🕵️",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/haise-ramp-kela.png",
+      "published": "2026-11-11T18:06:01Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Malware Intelligence",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#malware",
+        "#malware-bazaar"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "46e9a0b4b613a459ae54dcb446a58527",
-          "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access"
+          "id": "4d1bbe363802620baae91b01490d6cf0",
+          "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million"
         },
         {
-          "id": "abd93facc520e02e6d47b017d28cd038",
-          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
+          "id": "49cf031666b989b96b23d7515d1511f0",
+          "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations"
         }
       ]
     },
     {
-      "id": "264e6842930600ae03eacedb78ca68a0",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "id": "4d1bbe363802620baae91b01490d6cf0",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/malware_4.png",
+      "published": "2026-11-11T16:24:18Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "49cf031666b989b96b23d7515d1511f0",
+          "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations"
+        },
+        {
+          "id": "a29bdb614c93f81a61a7810fac77b788",
+          "title": "Who Runs the Ransomware Group Qilin?"
+        }
+      ]
+    },
+    {
+      "id": "a59f63d021cca1e45552a10a931f2af8",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Z8hFA8uMe4HXLf_4QRk4Z4VLuUCDRL89LcgpXfsj9YAwLsLHIZL46pn2SLz0BBhCKPUKBhChDRRsKYPSkZPwmsDIhozGQ-4YemxOSol0AiwBEgtGX9OSZ_L3SQZVoebBX1fWGkh8TQ_hNVYHho0eCrBQzLlhnjPhhymXqcWePyuhdQDCMb6KJi6pmIe/s1600/cbs.jpg",
-      "published": "2026-11-10T16:00:55Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
+      "published": "2026-11-11T16:12:46Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1746,58 +1270,178 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "abd93facc520e02e6d47b017d28cd038",
-          "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches"
+          "id": "968c2e5da9a495997af171c89553db37",
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely"
         },
         {
-          "id": "fe53b13de72471c251fe142484c65f41",
-          "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day"
+          "id": "359238dcdbcfcbee3f9b77bbe28f9e28",
+          "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients"
         }
       ]
     },
     {
-      "id": "b814b6458d1e119308eec71b4f5407d7",
-      "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "id": "47f3cfa0aff3b1d31d4e15fdc1f23279",
+      "title": "Remus malware claims Gmail access even after you change your password - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOWtuX250SUFOZVNHaFFXelVmSGdJZ09rNnlwSXBTc2hmWHVpVnY5aFBuWWZUUlZZTHpRMXNwa2VCWl8zeXNTYnluNWRVLUl4M0RmZmx4ai1oSnhsNzVPYWZlQVc0eUoyNE0zNlMyMTVmanNlT0lvRmJZU0VneFFsQzVFQlVBSDUwZ2JOcFk3enptY1AxT3ZfbkVkM084RGd4cm1mcUVUYTdyaWM0ckZwM0d5b25pSEU?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_1.png",
+      "published": "2026-11-11T13:46:35Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Remus malware claims Gmail access even after you change your password Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "7b0a6a12755a990599b391b2894840cf",
+          "title": "Muse sleep band users weren’t told their brain data was training AI - Malwarebytes"
+        },
+        {
+          "id": "05bc57ed4de1f4d006b477e5a2a4694f",
+          "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "7b0a6a12755a990599b391b2894840cf",
+      "title": "Muse sleep band users weren’t told their brain data was training AI - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZnl3ZDMyQWltSGZ4SGJxMlJqb1MxZzh0a3FURWJlcFVPMkh3VmRmZVN2d01fLVVkSERYUjZ6NEdwWGVxUG5TaHNXV1dLdG4tbnhRSVk1UHNkUWhFbmJYbG13WnQ2bEdYczBLQ3ZXOEFEdkpzdlBjS3Atck5nTHBPS2dUT2ItXzZlWTNFVDd1dWY3b3gxVVRaV0paNGlxMGFVVEtRNXBINW9HcjlxSHdOTQ?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_2.png",
+      "published": "2026-11-11T12:40:46Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Muse sleep band users weren’t told their brain data was training AI Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "47f3cfa0aff3b1d31d4e15fdc1f23279",
+          "title": "Remus malware claims Gmail access even after you change your password - Malwarebytes"
+        },
+        {
+          "id": "05bc57ed4de1f4d006b477e5a2a4694f",
+          "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "73ff5e5cc99506c230f662b5223f7c91",
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_4.png",
-      "published": "2026-11-10T15:59:19Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials. [...]",
+      "image": "images/github_3.png",
+      "published": "2026-11-11T12:32:27Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "GitHub Releases",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#github",
+        "#release"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "24b011f57ea44b17946a6bb6fb3f9b4a",
-          "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones"
+          "id": "a2f9fe039c16b30f290097f30b1e98f0",
+          "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories"
         },
         {
-          "id": "46e9a0b4b613a459ae54dcb446a58527",
-          "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access"
+          "id": "a6fe07d3eb0ff8def70762b4627ec297",
+          "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned."
         }
       ]
     },
     {
-      "id": "a66dfc9e5faeafa1c4772da19399914d",
-      "title": "NVD-CVE-2026-125350 - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aV1gtQ2VXWEMtdjNHczFyU0JsSjhqUHF4ZGktMkNoNUVsX0U4a2ZnZXpyNDFaOXByMWt2VVdLOVRQaHdRWks4aFRWeWRONlBjZDgtS0h0dmFEUnk2?oc=5",
+      "id": "05bc57ed4de1f4d006b477e5a2a4694f",
+      "title": "Microsoft Patch Tuesday fixes Outlook flaw already under attack - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZi10TUVNU0xMNmhRUTVkRlhLazB1V2lSdjFIU09ma0gzaFZnNHBBQUtPZnNqUE45MXB2M1lWMGRuM2RtU2phNVlPTHFqN0pDTTdUU2dqSzFmVS03YUJid0VxdWZ2X0tqZGxLS1gxZ0FQUWtqcHc2N09vNDVjaGdRQUw5c3AtZ0YzZ3ZHUjBTYm9ET0J1Q2J4VTVjajltVUJWeHFCNTRod3g1Snk0anBz?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_2.png",
+      "published": "2026-11-11T11:37:02Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "Microsoft Patch Tuesday fixes Outlook flaw already under attack Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "47f3cfa0aff3b1d31d4e15fdc1f23279",
+          "title": "Remus malware claims Gmail access even after you change your password - Malwarebytes"
+        },
+        {
+          "id": "7b0a6a12755a990599b391b2894840cf",
+          "title": "Muse sleep band users weren’t told their brain data was training AI - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "0148e4830ef487e8ccbf39dba5a900e4",
+      "title": "Citrus Ransomware: VLESS for traffic, Sn00py for encryption, and LLMs lending a hand",
+      "link": "https://securelist.com/citrus-ransomware/121879/",
+      "source": "Securelist",
+      "source_icon": "🦠",
+      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/11/10223610/citrus1_securelist-featured_1200x600_x2.jpg",
+      "published": "2026-11-11T10:00:25Z",
+      "published_fmt": "11 Nov 2026",
+      "plain_summary": "We break down the Citrus Ransomware group's attacks: the attackers' TTPs and tooling, including VLESS traffic tunneling and LLM use, plus their links to Toy Ghouls.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "12 Nov 2026",
+      "related": [
+        {
+          "id": "49cf031666b989b96b23d7515d1511f0",
+          "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations"
+        },
+        {
+          "id": "a29bdb614c93f81a61a7810fac77b788",
+          "title": "Who Runs the Ransomware Group Qilin?"
+        }
+      ]
+    },
+    {
+      "id": "5ed5a9fda035007a4bfa58d0978e927e",
+      "title": "NVD-CVE-2026-124194 - National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWR3hPaXRneHcwNkI4Q3QtWmVrT2xUa18yaDB0a3p2VnhzYno2bEk4ZGdkeUh5WEh1U2YyRVZ4NElxUkY2cGZySTBMejR4bGV4d1RGTmNoM1NOaFZk?oc=5",
       "source": "NIST Cybersecurity",
       "source_icon": "🏢",
       "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-11-10T14:10:28Z",
+      "published": "2026-11-10T19:31:33Z",
       "published_fmt": "10 Nov 2026",
-      "plain_summary": "NVD-CVE-2026-125350 National Institute of Standards and Technology (.gov)",
+      "plain_summary": "NVD-CVE-2026-124194 National Institute of Standards and Technology (.gov)",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1806,75 +1450,15 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
+      "collected_date": "12 Nov 2026",
       "related": [
         {
-          "id": "3dc27ee1afac0aa30fbc2d1fbc0c8530",
-          "title": "NVD-CVE-2026-125298 - National Institute of Standards and Technology (.gov)"
+          "id": "359238dcdbcfcbee3f9b77bbe28f9e28",
+          "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients"
         },
         {
-          "id": "efec8091df12d8ab148119487897da85",
-          "title": "NVD-CVE-2026-126123 - National Institute of Standards and Technology (.gov)"
-        }
-      ]
-    },
-    {
-      "id": "7f139b01ce433a2da705b412ffc07d0f",
-      "title": "IT threat evolution in Q3 2026. Non-mobile statistics",
-      "link": "https://securelist.com/malware-report-q3-2026-pc-iot-statistics/121843/",
-      "source": "Securelist",
-      "source_icon": "🦠",
-      "image": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2026/11/10070730/malware-report-q3-2026-featured-image.jpg",
-      "published": "2026-11-10T08:00:37Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Key trends and statistics on malware targeting Windows and macOS computers and Internet of Things (IoT) devices in Q3 2026.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "0a082258e94be9a32839f1667b67f0fe",
-          "title": "IT threat evolution in Q3 2026. Mobile statistics"
-        },
-        {
-          "id": "3f40027609a9c8ec45a355e6eb90975e",
-          "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem"
-        }
-      ]
-    },
-    {
-      "id": "0a082258e94be9a32839f1667b67f0fe",
-      "title": "IT threat evolution in Q3 2026. Mobile statistics",
-      "link": "https://securelist.com/malware-report-q3-2026-mobile-statistics/121844/",
-      "source": "Securelist",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-11-10T08:00:17Z",
-      "published_fmt": "10 Nov 2026",
-      "plain_summary": "Q3 2026 mobile threat statistics for Android malware, adware, and unwanted software, plus the most notable malware found during the quarter.",
-      "deep_lore": "",
-      "category_tag": "Malware Intelligence",
-      "tags": [
-        "#malware",
-        "#malware-bazaar"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "11 Nov 2026",
-      "related": [
-        {
-          "id": "7f139b01ce433a2da705b412ffc07d0f",
-          "title": "IT threat evolution in Q3 2026. Non-mobile statistics"
-        },
-        {
-          "id": "3f40027609a9c8ec45a355e6eb90975e",
-          "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem"
+          "id": "968c2e5da9a495997af171c89553db37",
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely"
         }
       ]
     }

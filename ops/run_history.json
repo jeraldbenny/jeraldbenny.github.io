@@ -1,35 +1,5 @@
 [
   {
-    "timestamp": "2026-07-18T07:18:23.564489+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 71,
-    "sources_failed": 3,
-    "new_articles_count": 172,
-    "total_articles": 7345,
-    "runtime": "4 min 31 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "DFIR.Training",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "Mandiant Blog",
-        "error": "<unknown>:2:0: syntax error"
-      },
-      {
-        "name": "Google Threat Intel",
-        "error": "<unknown>:2:0: syntax error"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-09T10:18:05.746141+00:00",
     "sources_checked": 62,
     "sources_healthy": 62,
@@ -3006,6 +2976,29 @@
     "sources_failed": 1,
     "new_articles_count": 62,
     "total_articles": 14881,
+    "runtime": "1 min 1 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-12T07:29:38.031732+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 53,
+    "total_articles": 14929,
     "runtime": "1 min 1 sec",
     "api_status": {
       "NVD": "✔",
