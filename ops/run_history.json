@@ -1,72 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T10:18:05.746141+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 62,
-    "sources_failed": 12,
-    "new_articles_count": 326,
-    "total_articles": 7605,
-    "runtime": "6 min 52 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "DFIR.Training",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "This Week in 4n6",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "Didier Stevens",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "Black Hills InfoSec",
-        "error": "404 Client Error: Not Found for url: https://www.blackhillsinfosec.com/feed/"
-      },
-      {
-        "name": "Mandiant Blog",
-        "error": "<unknown>:2:0: syntax error"
-      },
-      {
-        "name": "Google Threat Intel",
-        "error": "<unknown>:2:0: syntax error"
-      },
-      {
-        "name": "Howard Oakley",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "Craig Ball",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "Forensic Toxicology",
-        "error": "<unknown>:15:4: not well-formed (invalid token)"
-      },
-      {
-        "name": "Intl Journal of Legal Medicine",
-        "error": "<unknown>:15:4: not well-formed (invalid token)"
-      },
-      {
-        "name": "FS, Medicine and Pathology",
-        "error": "<unknown>:15:4: not well-formed (invalid token)"
-      },
-      {
-        "name": "Egyptian Journal of FS",
-        "error": "<unknown>:15:4: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-09T10:42:51.049818+00:00",
     "sources_checked": 62,
     "sources_healthy": 74,
@@ -3000,6 +2933,29 @@
     "new_articles_count": 53,
     "total_articles": 14929,
     "runtime": "1 min 1 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-13T07:00:39.742234+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 60,
+    "total_articles": 14986,
+    "runtime": "1 min 11 sec",
     "api_status": {
       "NVD": "✔",
       "CISA": "✔",
