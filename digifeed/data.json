@@ -1,17 +1,107 @@
 {
-  "last_updated": "15 November 2026, 12:23 IST",
-  "total": 26,
+  "last_updated": "16 November 2026, 12:27 IST",
+  "total": 33,
   "articles": [
     {
-      "id": "60f9b9b30062155ebc9aae0921be29bf",
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+      "title": "Siri app conversations",
+      "link": "http://www.swiftforensics.com/2026/11/siri-app-conversations.html",
+      "source": "Swift Forensics",
+      "source_icon": "🔬",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAPTOL725Rs4tYEryyai2xFxfo5128OA7gFYI84CkxpoZs9-4LXmtFv1WLX0TFEfr7ar_4AJWtKjuXhkSdaf1MkQInbANr40kY5dIZ68REdacX_a9GlI_ES8_d5mN6ZitHDt2LygWcx9FQMF7xy-QJIMGpYExIL-3I51ggGyekyXuBUsNsoe4zxHgg0Lc/s72-w200-h200-c/siri_med_size.png",
+      "published": "2026-11-15T07:52:16Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "macOS 27, aka Golden Gate featured a new Siri app, which allows a user to store their conversations with Siri unlike the default Siri invocations where they disppear after use.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "4 min read",
+      "forensic_score": 30,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "2f4e11372aecb524ec2ae102bccf89d0",
+          "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center"
+        },
+        {
+          "id": "345716007b6508ccc17682c74f56db87",
+          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks"
+        }
+      ]
+    },
+    {
+      "id": "2f4e11372aecb524ec2ae102bccf89d0",
+      "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TTk1QRHBUOWlRd0c3cjdnTFFwOUVvUTVQTThDcGxLTGdYWXR3SzN3ZEtRa2hZNEI1OWJyUmRLMDRIQllqaVpGdFNNdzh4cjVxVUE?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-11-16T02:01:24Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "Daily Network Security News Summary; Cyber Security Podcast SANS Internet Storm Center",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "558c1182039f81c53a87c1b1d47760a5",
+          "title": "YARA-X 1.23.0 Release - SANS Internet Storm Center"
+        },
+        {
+          "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+          "title": "Siri app conversations"
+        }
+      ]
+    },
+    {
+      "id": "345716007b6508ccc17682c74f56db87",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_1.png",
+      "published": "2026-11-15T18:29:53Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "5b8a9ede72c8184be8ce368cc695308d",
+          "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident"
+        },
+        {
+          "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+          "title": "Siri app conversations"
+        }
+      ]
+    },
+    {
+      "id": "5a4f53d8f5e13b220a1abbdaf6150b1c",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_3.png",
-      "published": "2026-11-14T17:27:25Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "published": "2026-11-15T15:23:48Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,24 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "f828612ff6ba10492a2c1d8114964c3f",
-          "title": "US disrupts North Korean campaign behind $400 million crypto theft"
+          "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+          "title": "Siri app conversations"
+        },
+        {
+          "id": "2f4e11372aecb524ec2ae102bccf89d0",
+          "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center"
         }
       ]
     },
     {
-      "id": "f828612ff6ba10492a2c1d8114964c3f",
-      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-      "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_2.png",
-      "published": "2026-11-14T15:15:49Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "id": "fb43e89fb20d8cbb7138fb0348a8f6be",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
+      "published": "2026-11-15T11:27:31Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -46,24 +140,88 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "60f9b9b30062155ebc9aae0921be29bf",
-          "title": "Cursor confirms security breach led to malicious Claude Code extension"
+          "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+          "title": "Siri app conversations"
+        },
+        {
+          "id": "2f4e11372aecb524ec2ae102bccf89d0",
+          "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center"
         }
       ]
     },
     {
-      "id": "326315697cb736aaf2a1d096726361a8",
-      "title": "Apply Now - The Chartered Society of Forensic Sciences",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vX0dINm8zM1pRSWRPdUJPazJqdUtaRWpQZ093WVRob0ZYQno5WkJvS09HRjJHaWZ6NFVtSVMtN3BGb3piTjctMTF1NXUzN2p1NTg0Ty01WFRWR1VtbkhDaktJdVJTdnNDV3d6TWZoM1Z1aWVLSzNvVE50Yno?oc=5",
+      "id": "5b8a9ede72c8184be8ce368cc695308d",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
+      "published": "2026-11-15T08:22:04Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "345716007b6508ccc17682c74f56db87",
+          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks"
+        },
+        {
+          "id": "5ea5f0e06f8379797c7477d2dbcf4362",
+          "title": "Siri app conversations"
+        }
+      ]
+    },
+    {
+      "id": "5cb545402a52b583db927d34c7236d3e",
+      "title": "undefined - Abstract Submission | Forensic Sciences - MDPI",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbXdCNFpMVmNxSXZucjdjVDY4SzRaR0R6RDhnaWlEdk1SbHNFRVMtb3hSbzJ5bXBmempDZlhBR25EZzVLR1plMVJKWG15Z0RpdlFTNEZEZUJNSHhsQldnWEFGN3A1SXhibXhFcUo5SjM5OFh4elNubVRpVnJ5c3k0SXpzSDJhOU5kNGR3?oc=5",
+      "source": "MDPI – Forensic Sciences",
+      "source_icon": "🔬",
+      "image": "images/forensics_1.png",
+      "published": "2026-11-16T00:15:36Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "undefined - Abstract Submission | Forensic Sciences MDPI",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
+        },
+        {
+          "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+          "title": "International Providers - The Chartered Society of Forensic Sciences"
+        }
+      ]
+    },
+    {
+      "id": "6404a0fe1d1381be04558f09f278657c",
+      "title": "Benefits for attendees - The Chartered Society of Forensic Sciences",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQazVBT0R4SlVqa19GT2lBOHJDOWVZaWdmdVo1aEYxcHRvalFIOFlHNkxTZ1FfYndxRDFBNFg4dEZHdEs4VVhJMzE2MGRDQWNZUXU5bWE3WDcwd3hQNEk5STdmQ1FaNkxxUVh6aDZNZE5YU1JOaGZLM2tSejBYY1lvYklXMnMxTXFCc19QV0lCYlNRM2FYWkJwMTNmdC16RzEycVFZR3Bn?oc=5",
       "source": "The Forensic Science Society",
       "source_icon": "🎓",
       "image": "images/forensics_3.png",
-      "published": "2026-11-15T01:46:15Z",
+      "published": "2026-11-15T23:44:30Z",
       "published_fmt": "15 Nov 2026",
-      "plain_summary": "Apply Now The Chartered Society of Forensic Sciences",
+      "plain_summary": "Benefits for attendees The Chartered Society of Forensic Sciences",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -72,28 +230,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "e7c22a259b2a592cbaead7ac4ac490be",
-          "title": "Ongoing development - The Chartered Society of Forensic Sciences"
+          "id": "eb6b28a343d1d9d7780c71c50895f3f7",
+          "title": "Benefits for external providers - The Chartered Society of Forensic Sciences"
         },
         {
-          "id": "cdc750c3794989604b4cd37f902d0aa1",
-          "title": "How it works - The Chartered Society of Forensic Sciences"
+          "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+          "title": "International Providers - The Chartered Society of Forensic Sciences"
         }
       ]
     },
     {
-      "id": "e7c22a259b2a592cbaead7ac4ac490be",
-      "title": "Ongoing development - The Chartered Society of Forensic Sciences",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTnJkZDJ1bFlSNEVYU25JSWwzYjcyTlFQd2tTOF9wM2phRENpSFFfWG5VdERLSHlvV2xSbS1PYzNwNkd1TnFVMTZUbmt5b3REdFJpVS1FUUw1d2NSREdCQmVfWnFWR01hOHZTcWpqVzZ2VFlzOV9GQ0NzT19RV2tzOUdSdWxqNUYtNnN5RzZwc2dSUmdHcHE0UUhnTDVSU2c5NXc?oc=5",
+      "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+      "title": "International Providers - The Chartered Society of Forensic Sciences",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOGgxZUc2V09FR0pUOVNZcnp5UWhva19kOVVsSGxtNFJRdUFTNEtmWkNLdGdWQ1FoNExFYmt6cHdFOEpvRDlkZkNxZHZ5MGtCenZUbjF2YXUzZl9QYktpdDh5N2tPSEYtU3ZVV01teS1BQWt3MHdjR2tSNURINV9LTlJ2UWVEQ0plTFhFSlNJZw?oc=5",
       "source": "The Forensic Science Society",
       "source_icon": "🎓",
-      "image": "images/forensics_2.png",
-      "published": "2026-11-14T18:23:43Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "Ongoing development The Chartered Society of Forensic Sciences",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-15T11:13:16Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "International Providers The Chartered Society of Forensic Sciences",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -102,28 +260,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "326315697cb736aaf2a1d096726361a8",
-          "title": "Apply Now - The Chartered Society of Forensic Sciences"
+          "id": "eb6b28a343d1d9d7780c71c50895f3f7",
+          "title": "Benefits for external providers - The Chartered Society of Forensic Sciences"
         },
         {
-          "id": "cdc750c3794989604b4cd37f902d0aa1",
-          "title": "How it works - The Chartered Society of Forensic Sciences"
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
         }
       ]
     },
     {
-      "id": "cdc750c3794989604b4cd37f902d0aa1",
-      "title": "How it works - The Chartered Society of Forensic Sciences",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTZsZUUwSnVoc0ZfQms4VTVwS3UxTHFUY3BXZW5ObmluSzdIOUYwNzIybmF4R1N2ZWFyUmhaaVM1MUFESnlDa3JNZFp2VVJjWmhuSGN0T2txTVp5bndPc0lIckFObXAtWFl0eGVzTi1meGxmRzBMUFVnTHNValZjcnVORDdEcGZz?oc=5",
+      "id": "4c12235aa8ef719394a38e1651dc8362",
+      "title": "Who do we contact? - The Chartered Society of Forensic Sciences",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yWDRWZ2FwMnBDSTI2eEdnS3FzNjl0cG54S3pyejRublFaWFltNVhQcEczSVVRcWJydlV5SFNmWmJMbVdJVXYtUmJfMDZUU1luRGxSYmw0YVVvcHlKZENMQWVkeEtmdlVOdVlwWWpCcXJsMUdCRW1KUklR?oc=5",
       "source": "The Forensic Science Society",
       "source_icon": "🎓",
-      "image": "images/forensics_5.png",
-      "published": "2026-11-14T13:19:42Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "How it works The Chartered Society of Forensic Sciences",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-15T06:51:36Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "Who do we contact? The Chartered Society of Forensic Sciences",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -132,28 +290,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "326315697cb736aaf2a1d096726361a8",
-          "title": "Apply Now - The Chartered Society of Forensic Sciences"
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
         },
         {
-          "id": "e7c22a259b2a592cbaead7ac4ac490be",
-          "title": "Ongoing development - The Chartered Society of Forensic Sciences"
+          "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+          "title": "International Providers - The Chartered Society of Forensic Sciences"
         }
       ]
     },
     {
-      "id": "ff4d35965c227606450d795038b37d6a",
-      "title": "Final autopsy report released following Muscoda police officer death - WCAX",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOXpGTjlBU1dlM2drdGM5RWR3eFVmV1ExejJYN0huWmVQY2xjb1JreUx1Smd3NmhzakQ1NktlM0ZlT2wwRDBtcmlHT2F4em9zMXBNc3JjTmNfR240VF9zQ2ZHaUdsMzJOdTMyZU56NGpUQUcydWNmblh5VklyN3RYdHd5Z1ZxQ05qSVdaNml0OUs5R1FkZlFMQ3ZaZkpub1dhZmZwSF9MZnE5dVU?oc=5",
+      "id": "eb6b28a343d1d9d7780c71c50895f3f7",
+      "title": "Benefits for external providers - The Chartered Society of Forensic Sciences",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM09MRkVNUXAwX2h1THFKN2tWUnhwRzZLeDVJTnhGVHJaeVFHRVNoYlJXZ1ZJTW1ON1RQZnduUmQzZS1lMVpkTEIxUGJRWVd1N3lwYTlDN2RpMnAzbC1IV19HeG0zQXhDQlhKS3NBTjRsUWFtWU5hbHN6d1phVU5wcDhxU0FVVE9ZSE8wLXpDcU16TVp2VlI1RjVfT0dhQ0hPQmkwUGQzbUJoRExjcnpBdEd3?oc=5",
+      "source": "The Forensic Science Society",
+      "source_icon": "🎓",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-15T06:13:12Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "Benefits for external providers The Chartered Society of Forensic Sciences",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 20,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
+        },
+        {
+          "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+          "title": "International Providers - The Chartered Society of Forensic Sciences"
+        }
+      ]
+    },
+    {
+      "id": "a23156fbe2e83f964475272f6c6149df",
+      "title": "Final autopsy report released following Muscoda police officer death - WMTV 15 NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX3ZZM1FOM2taLTliZjNnZ0hKUXRJY0h2MXZ4Rk13VmhXYzhvUHVHSVRuSHlSZk1jY2ZwbDNJVXJoZnA0clR2eG44SHlSWU1mTW9falRVQm5zMDk2bjN4X2NiMlVNOU90NTRCOFRlSWFvTXR6X1BtMWRrWnc2RmVRTUNjU3lnMHlSSEk0Mmg3Zk9YNWc1YWlhQl80dWZnQzg3MTRDalVOWS1obkxiZXAxdTEtRQ?oc=5",
       "source": "Google News: Forensic Pathology",
       "source_icon": "🔬",
-      "image": "images/forensics_1.png",
-      "published": "2026-11-14T12:39:10Z",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-14T18:43:58Z",
       "published_fmt": "14 Nov 2026",
-      "plain_summary": "Final autopsy report released following Muscoda police officer death WCAX",
+      "plain_summary": "Final autopsy report released following Muscoda police officer death WMTV 15 NEWS",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -162,28 +350,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 20,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "326315697cb736aaf2a1d096726361a8",
-          "title": "Apply Now - The Chartered Society of Forensic Sciences"
+          "id": "5cb545402a52b583db927d34c7236d3e",
+          "title": "undefined - Abstract Submission | Forensic Sciences - MDPI"
         },
         {
-          "id": "e7c22a259b2a592cbaead7ac4ac490be",
-          "title": "Ongoing development - The Chartered Society of Forensic Sciences"
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
         }
       ]
     },
     {
-      "id": "5f8429ffb2c6f46ec30d063c25b288a5",
-      "title": "Nashville crime lab on pace to eliminate sexual assault kit backlog by end of 2026 - WZTV",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOHgxc1EwUFdmMV91Y2FsdmxlX3QyanVlWURRb2JTX3BPZUN4TnRiQmI1MnBIanpaZ1F3M0JLNU5uREJ4b1NZempDOWRGQ0ZiRGx1ZlFwcDZ0VHBPcy1sVDUzVEUyUmF0dXhwOUMyN1lRU1dFVlR4OVRIVFNQbGJBQUJhYzE2WUNEelh1MTJZa3NrUktTQmJnMjZ3a2NFbDhxRDBfVzRwXzVfZGY4UVhSeA?oc=5",
-      "source": "Google News: Forensic Biology",
-      "source_icon": "🧬",
+      "id": "3c1c564bdebe73df3a35700810b6fdc9",
+      "title": "Vital primer on evidentiary integrity - The Law Society Gazette",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQndHWDZ3dk03bTFMVjdtc1pSbmlLNTV0NldoUFQ4VTFtTzA0cHMweWlVYzdwMUlydHpBOXNSbXBpbzZEYlJueGFkU1FleDcxOFFZT2NKQmthZmFqaC00ZVE1eDBKU2pobnk2ZGhhekpLc0VaMzRudUpWblA2THBKbUpjREw2UHlGU0QydW1VenRXbGlM?oc=5",
+      "source": "Google News: Forensic Science",
+      "source_icon": "🔬",
       "image": "images/forensics_4.png",
-      "published": "2026-11-14T04:31:54Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "Nashville crime lab on pace to eliminate sexual assault kit backlog by end of 2026 WZTV",
+      "published": "2026-11-16T00:07:35Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "Vital primer on evidentiary integrity The Law Society Gazette",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -192,407 +380,315 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "326315697cb736aaf2a1d096726361a8",
-          "title": "Apply Now - The Chartered Society of Forensic Sciences"
+          "id": "6404a0fe1d1381be04558f09f278657c",
+          "title": "Benefits for attendees - The Chartered Society of Forensic Sciences"
         },
         {
-          "id": "e7c22a259b2a592cbaead7ac4ac490be",
-          "title": "Ongoing development - The Chartered Society of Forensic Sciences"
+          "id": "7d4ce14ee228cd3284b1bb4ec869a5c0",
+          "title": "International Providers - The Chartered Society of Forensic Sciences"
         }
       ]
     },
     {
-      "id": "78927e61b6027e91a31f170314a4af15",
-      "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings - Science Daily",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXazRZMG91MjJ4bzlyaEF2VTgyZnV0OEgtVEVBVnhnX1E3aWJKcWcwQ0xyZWRTSnhzM001MWZ2VS1ZdmZ2aGxEcGhFallsRGhCTWZFbmx4QTBqSFYySGRnUVQyc1hDT3lvTFpUR2FvZw?oc=5",
-      "source": "ScienceDaily Forensics",
-      "source_icon": "📰",
-      "image": "images/forensics_5.png",
-      "published": "2026-11-14T03:00:51Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings Science Daily",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "326315697cb736aaf2a1d096726361a8",
-          "title": "Apply Now - The Chartered Society of Forensic Sciences"
-        },
-        {
-          "id": "e7c22a259b2a592cbaead7ac4ac490be",
-          "title": "Ongoing development - The Chartered Society of Forensic Sciences"
-        }
-      ]
-    },
-    {
-      "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-      "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br",
-      "link": "https://threatfox.abuse.ch/ioc/2029547/",
+      "id": "74595090b17fcca39909e9836153fd1c",
+      "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com",
+      "link": "https://threatfox.abuse.ch/ioc/2030532/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-11-15T06:50:10Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
+      "published": "2026-11-16T06:53:26Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
         },
         {
-          "id": "0a7632ebd2a1efd8a188bfb5341f0598",
-          "title": "[Threat IOC] ClearFake domain: archtivedesigns.com"
+          "id": "efcd4684009fc7e95175096c5ebe10ee",
+          "title": "[Threat IOC] Unknown malware domain: ocautismfoundation.fund"
         }
       ]
     },
     {
-      "id": "db64327317239e7c25b351c631d2ee15",
-      "title": "[Threat IOC] ClearFake domain: dralouise.com",
-      "link": "https://threatfox.abuse.ch/ioc/2029546/",
+      "id": "e2bcf69f9fc04c9e047dceba93862f43",
+      "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd",
+      "link": "https://threatfox.abuse.ch/ioc/2030533/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_5.png",
-      "published": "2026-11-15T06:40:08Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-11-16T06:53:25Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
         },
         {
-          "id": "0a7632ebd2a1efd8a188bfb5341f0598",
-          "title": "[Threat IOC] ClearFake domain: archtivedesigns.com"
+          "id": "efcd4684009fc7e95175096c5ebe10ee",
+          "title": "[Threat IOC] Unknown malware domain: ocautismfoundation.fund"
         }
       ]
     },
     {
-      "id": "0a7632ebd2a1efd8a188bfb5341f0598",
-      "title": "[Threat IOC] ClearFake domain: archtivedesigns.com",
-      "link": "https://threatfox.abuse.ch/ioc/2029544/",
+      "id": "efcd4684009fc7e95175096c5ebe10ee",
+      "title": "[Threat IOC] Unknown malware domain: ocautismfoundation.fund",
+      "link": "https://threatfox.abuse.ch/ioc/2030531/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_5.png",
+      "published": "2026-11-16T06:53:25Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
+        },
+        {
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
+        }
+      ]
+    },
+    {
+      "id": "6af0eeca33d5bbb462b61e1077e498e5",
+      "title": "[Threat IOC] Unknown malware domain: manmsedatasgsesdehsg.com",
+      "link": "https://threatfox.abuse.ch/ioc/2030536/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-11-16T06:53:24Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#unknownmalware"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
+        },
+        {
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
+        }
+      ]
+    },
+    {
+      "id": "a3c936bef7b42b36b3b32bb18a8a5368",
+      "title": "[Threat IOC] Unknown malware domain: adelphltech.com",
+      "link": "https://threatfox.abuse.ch/ioc/2030535/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80",
-      "published": "2026-11-15T06:30:02Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "published": "2026-11-16T06:53:24Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
         },
         {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
         }
       ]
     },
     {
-      "id": "db25e17a80e93feafb77c06262fdf619",
-      "title": "[Threat IOC] ClearFake domain: bhhcare.ae",
-      "link": "https://threatfox.abuse.ch/ioc/2029545/",
+      "id": "b6e14f2a0e9597c879cddfc261563bab",
+      "title": "[Threat IOC] Unknown malware domain: 21scteg.com",
+      "link": "https://threatfox.abuse.ch/ioc/2030534/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
-      "published": "2026-11-15T06:30:02Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "images/malware_1.png",
+      "published": "2026-11-16T06:53:24Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
         },
         {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
         }
       ]
     },
     {
-      "id": "e7dcad91d96da04455dc6f8711e27085",
-      "title": "[Threat IOC] ClearFake domain: cozy-room.ru",
-      "link": "https://threatfox.abuse.ch/ioc/2029541/",
+      "id": "5922363f0778c61b4a879e4ce2d02b5a",
+      "title": "[Threat IOC] Unknown malware url: https://oneaxepursuits-access-rfp-docs-95xwo.w-c6wkca.workers.dev/",
+      "link": "https://threatfox.abuse.ch/ioc/2030538/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_3.png",
-      "published": "2026-11-15T06:30:01Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
+      "published": "2026-11-16T06:53:23Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: url. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#clearfake"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
         },
         {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
         }
       ]
     },
     {
-      "id": "096e636b71eea0473af5f52e289f0917",
-      "title": "[Threat IOC] ClearFake domain: cdcleaning.co.uk",
-      "link": "https://threatfox.abuse.ch/ioc/2029542/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-11-15T06:30:01Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#clearfake"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
-        },
-        {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
-        }
-      ]
-    },
-    {
-      "id": "54ee1b4c0bfcca608b2bcdd459f6499d",
-      "title": "[Threat IOC] ClearFake domain: dublinsolar.com.br",
-      "link": "https://threatfox.abuse.ch/ioc/2029543/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-11-15T06:30:01Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for ClearFake. Type: domain. Threat Category: payload_delivery. Reporter: anonymous.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#clearfake"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
-        },
-        {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
-        }
-      ]
-    },
-    {
-      "id": "cb9b1e6845a5ee0b034a1635656a42ca",
-      "title": "[Threat IOC] IClickFix domain: 777locc.online",
-      "link": "https://threatfox.abuse.ch/ioc/2029540/",
+      "id": "c7dbb403b0e97db411d7d3055a95732e",
+      "title": "[Threat IOC] Unknown malware domain: cloudnativeapplicationservices.ccwu.cc",
+      "link": "https://threatfox.abuse.ch/ioc/2030537/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_2.png",
-      "published": "2026-11-15T06:23:34Z",
-      "published_fmt": "15 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for IClickFix. Type: domain. Threat Category: payload_delivery. Reporter: wristhulk.",
+      "published": "2026-11-16T06:53:23Z",
+      "published_fmt": "16 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: domain. Threat Category: payload_delivery. Reporter: EPASA.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#iclickfix"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "5e01975d8fc4c9a651f7c2cd156e72f6",
-          "title": "[Threat IOC] ClearFake domain: ecosustentaengenharia.com.br"
+          "id": "74595090b17fcca39909e9836153fd1c",
+          "title": "[Threat IOC] Unknown malware domain: amplifyhumanresourcesgroup.com"
         },
         {
-          "id": "db64327317239e7c25b351c631d2ee15",
-          "title": "[Threat IOC] ClearFake domain: dralouise.com"
+          "id": "e2bcf69f9fc04c9e047dceba93862f43",
+          "title": "[Threat IOC] Unknown malware domain: gfhjv.cfd"
         }
       ]
     },
     {
-      "id": "a1a49ce1bef019e341af3f005d326025",
-      "title": "[LOW CVE] CVE-2026-124425 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124425",
+      "id": "28c86d6a208b8f9c6af03375e95e3621",
+      "title": "[CRITICAL CVE] CVE-2026-115237 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115237",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
-      "published": "2026-11-08T14:18:08Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "Parse Server 8.6.109 before 8.6.116 and 9.10.6-alpha.1 before 9.10.7-alpha.2 contains an information disclosure vulnerability in which create or update responses mark fields as deleted based on stored values the caller cannot read.",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-11-09T07:17:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The Grand Job WordPress plugin through 1.2.1 does not correctly verify the password reset code before updating a user's password, allowing unauthenticated attackers to set the password of arbitrary accounts, including administrators, and fully take over the site.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#critical-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "2b093c076e8d2bac7025a9fcd2c46414",
-          "title": "[LOW CVE] CVE-2026-124330 in Various Systems"
+          "id": "296a102cf9bc848a128c2f320b91bf1b",
+          "title": "[CRITICAL CVE] CVE-2026-115213 in Various Systems"
         },
         {
-          "id": "164e0ed2d087af55e975b2b90ff20f3a",
-          "title": "[LOW CVE] CVE-2026-124329 in Various Systems"
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
         }
       ]
     },
     {
-      "id": "cfd092d7cff4a1b7df51cf5b8b3529cc",
-      "title": "[MEDIUM CVE] CVE-2026-124426 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124426",
+      "id": "9d656671e744d1cd7f59dcc264a01ade",
+      "title": "[HIGH CVE] CVE-2026-115256 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115256",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "images/cve_4.png",
-      "published": "2026-11-08T14:18:08Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that allows unauthenticated attackers to read content from sites outside a GraphQL schema's Sites scope.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "b816f8829f2b0e0b288dcf0491decbb6",
-          "title": "[MEDIUM CVE] CVE-2026-124331 in Various Systems"
-        },
-        {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "b816f8829f2b0e0b288dcf0491decbb6",
-      "title": "[MEDIUM CVE] CVE-2026-124331 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124331",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-11-08T14:18:07Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "A vulnerability was identified in Jinher OA C6. This impacts an unknown function of the file /C6/JHSoft.Web.Project/OfficeReadOnly/ProjectAfficheManage.aspx. Such manipulation of the argument ProjID leads to sql injection.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "cfd092d7cff4a1b7df51cf5b8b3529cc",
-          "title": "[MEDIUM CVE] CVE-2026-124426 in Various Systems"
-        },
-        {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "2d8aeb6f5f61279768f02ff55bd4609b",
-      "title": "[HIGH CVE] CVE-2026-124424 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124424",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
-      "published": "2026-11-08T14:18:07Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "WWBN AVideo contains a path traversal vulnerability in plugin/AI/receiveAsync.json.php that allows holders of any valid AI token to write arbitrary .vtt files by injecting traversal sequences into the unsanitized response[lang] parameter.",
+      "published": "2026-11-09T07:17:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The Mail Debug for WooCommerce WordPress plugin through 1.3.0 does not perform any capability, authentication, or nonce check on one of its email-logging actions, which is exposed to unauthenticated users and is not restricted to its own data, allowing anyone to read the full body of every email the site has sent, including password-reset emails whose reset key lets an attacker take over an administrator account.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -602,199 +698,313 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "ef9426b0272b8a45e32d88fbbd2d3947",
+          "title": "[HIGH CVE] CVE-2026-118201 in Various Systems"
         },
         {
-          "id": "cfd092d7cff4a1b7df51cf5b8b3529cc",
-          "title": "[MEDIUM CVE] CVE-2026-124426 in Various Systems"
+          "id": "d45d3d755a8abcb4892c4803dad6a6de",
+          "title": "[HIGH CVE] CVE-2026-118202 in Various Systems"
         }
       ]
     },
     {
-      "id": "2b093c076e8d2bac7025a9fcd2c46414",
-      "title": "[LOW CVE] CVE-2026-124330 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124330",
+      "id": "ef9426b0272b8a45e32d88fbbd2d3947",
+      "title": "[HIGH CVE] CVE-2026-118201 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118201",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-11-08T13:16:33Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "A vulnerability was determined in FlowCI flow-core-x up to 1.23.49. This affects the function exist/save/read/remove of the file store/src/main/java/com/flowci/store/LocalFileManager.java of the component LocalFileManager.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+      "published": "2026-11-09T07:17:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The Limit Login Attempts Security WordPress plugin before 3.4.1 does not enforce its two-factor authentication on every password-authentication route, so an attacker who already knows a protected user's password can authenticate through an alternative login interface and obtain that user's access without completing the second factor.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
         },
         {
-          "id": "164e0ed2d087af55e975b2b90ff20f3a",
-          "title": "[LOW CVE] CVE-2026-124329 in Various Systems"
+          "id": "d45d3d755a8abcb4892c4803dad6a6de",
+          "title": "[HIGH CVE] CVE-2026-118202 in Various Systems"
         }
       ]
     },
     {
-      "id": "164e0ed2d087af55e975b2b90ff20f3a",
-      "title": "[LOW CVE] CVE-2026-124329 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124329",
+      "id": "d45d3d755a8abcb4892c4803dad6a6de",
+      "title": "[HIGH CVE] CVE-2026-118202 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118202",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
-      "published": "2026-11-08T12:17:48Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "A vulnerability was found in FlowCI flow-core-x up to 1.23.49. The impacted element is the function FileHelper.unzip of the file common/src/main/java/com/flowci/common/helper/FileHelper.java. The manipulation results in path traversal.",
+      "image": "images/cve_3.png",
+      "published": "2026-11-09T07:17:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The Limit Login Attempts Security WordPress plugin before 3.4.1 does not confirm that its two-factor authentication step succeeded before completing a login and treats a failure to build that step as success, so an attacker who holds a protected user's password can bypass the second factor by sending a request header that breaks the step.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#high-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
         },
         {
-          "id": "2b093c076e8d2bac7025a9fcd2c46414",
-          "title": "[LOW CVE] CVE-2026-124330 in Various Systems"
+          "id": "ef9426b0272b8a45e32d88fbbd2d3947",
+          "title": "[HIGH CVE] CVE-2026-118201 in Various Systems"
         }
       ]
     },
     {
-      "id": "905a523b8f65b6a346e9d19756f88e7c",
-      "title": "[LOW CVE] CVE-2026-124328 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124328",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&q=80",
-      "published": "2026-11-08T11:16:34Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "A vulnerability has been found in FlowCI flow-core-x up to 1.23.49.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#low-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
-      "related": [
-        {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
-        },
-        {
-          "id": "2b093c076e8d2bac7025a9fcd2c46414",
-          "title": "[LOW CVE] CVE-2026-124330 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "34448f9ebaa4a0dbbb39d722fe0eae06",
-      "title": "[LOW CVE] CVE-2026-124326 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124326",
+      "id": "9c583717124627906f57c76b7565a5f6",
+      "title": "[MEDIUM CVE] CVE-2026-120409 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120409",
       "source": "NVD API",
       "source_icon": "🛡️",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-11-08T10:16:51Z",
-      "published_fmt": "08 Nov 2026",
-      "plain_summary": "A flaw has been found in DataLinkDC Dinky up to 1.2.5. Impacted is the function file.getOriginalFilename of the file CatalogueController.java of the component Catalogue Upload.",
+      "published": "2026-11-09T07:17:28Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The All-in-One Video Gallery WordPress plugin before 5.1.1 does not check whether a video is password protected before serving it through its standalone player page and its download link, allowing unauthenticated visitors to obtain the media source of password-protected videos, such as unlisted YouTube or Vimeo links and external file URLs.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#low-severity"
+        "#medium-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "28c86d6a208b8f9c6af03375e95e3621",
+          "title": "[CRITICAL CVE] CVE-2026-115237 in Various Systems"
         },
         {
-          "id": "2b093c076e8d2bac7025a9fcd2c46414",
-          "title": "[LOW CVE] CVE-2026-124330 in Various Systems"
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
         }
       ]
     },
     {
-      "id": "d6bc4ec6947cb8494312aaf3ce57dfe9",
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s1600/cisaa.jpg",
-      "published": "2026-11-14T12:38:35Z",
-      "published_fmt": "14 Nov 2026",
-      "plain_summary": "The U.S.",
+      "id": "eb7995e1af4e8b5ceaf7487c9abb1dbe",
+      "title": "[HIGH CVE] CVE-2026-115204 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115204",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-11-09T07:17:27Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The AZEXO Store Locator WordPress plugin through 1.4 does not perform capability or nonce checks on its AJAX actions and does not sanitise a request header used to build a file path, allowing any authenticated user such as a subscriber to write a file with an arbitrary name, location, and content, leading to remote code execution.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
-        "#vulnerability"
+        "#nvd",
+        "#high-severity"
       ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "ae480fa2948c56b0ecc5f965cfc163b6",
-          "title": "NVD-CVE-2026-123039 - National Institute of Standards and Technology (.gov)"
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
         },
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "ef9426b0272b8a45e32d88fbbd2d3947",
+          "title": "[HIGH CVE] CVE-2026-118201 in Various Systems"
         }
       ]
     },
     {
-      "id": "ae480fa2948c56b0ecc5f965cfc163b6",
-      "title": "NVD-CVE-2026-123039 - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9oMF9uaFkyRk1wTko4ams2d0I0STEzWmNHM05UYWp2WXhJdS1YeWpsT0Z6UW9FNmJNQ2c4dXd5aFozUWdYbS1jNVVpRHNVaGtzeURXUlFlLXo0cGh2?oc=5",
-      "source": "NIST Cybersecurity",
-      "source_icon": "🏢",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-11-12T14:22:06Z",
+      "id": "134c0a9d1df4ee6fe20053d050d46fdd",
+      "title": "[HIGH CVE] CVE-2026-115212 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115212",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
+      "published": "2026-11-09T07:17:27Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The mView 豆瓣电影 WordPress plugin through 1.0.3 does not validate the type, name, or source of a remotely fetched file, nor perform any capability or authorization check, before saving it to a web-accessible directory, allowing any authenticated user such as a subscriber to upload arbitrary PHP files and achieve remote code execution.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
+        },
+        {
+          "id": "ef9426b0272b8a45e32d88fbbd2d3947",
+          "title": "[HIGH CVE] CVE-2026-118201 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "296a102cf9bc848a128c2f320b91bf1b",
+      "title": "[CRITICAL CVE] CVE-2026-115213 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115213",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-11-09T07:17:27Z",
+      "published_fmt": "09 Nov 2026",
+      "plain_summary": "The EASY-JS-WPAPI Client HANDLE for the WordPress REST-API WordPress plugin through 2.0 does not prevent the administrator credentials it stores from being disclosed to unauthenticated users and does not correctly verify authentication, allowing unauthenticated attackers to obtain administrator credentials and gain full administrator access to the site.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#critical-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "28c86d6a208b8f9c6af03375e95e3621",
+          "title": "[CRITICAL CVE] CVE-2026-115237 in Various Systems"
+        },
+        {
+          "id": "9d656671e744d1cd7f59dcc264a01ade",
+          "title": "[HIGH CVE] CVE-2026-115256 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "4b1dc956a3461e77f2ba3d829a661b8a",
+      "title": "Research Paper: I2C-GRPO: Insight Importance Checklist for Reinforcement Learning in a Multi-Agent DDoS Alert Triage Workflow",
+      "link": "https://arxiv.org/abs/2611.17534v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_1.png",
+      "published": "2026-11-12T21:41:24Z",
       "published_fmt": "12 Nov 2026",
-      "plain_summary": "NVD-CVE-2026-123039 National Institute of Standards and Technology (.gov)",
+      "plain_summary": "Large language model (LLM) agents are increasingly used for investigative tasks over incomplete evidence, such as cybersecurity alert triage, but reinforcement learning (RL) for such tasks is difficult: intermediate steps have no verifiable labels, rollouts are costly, and outcome rewards are sparse.",
       "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
+      "category_tag": "Research Papers",
       "tags": [
-        "#cve",
-        "#vulnerability"
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#digital-forensics"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 70,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "46b763830ceab5c2fae0cf4b06b8a01f",
+          "title": "Research Paper: From Bytes to Behavior: Request-Level Attribution from Live GPU Hidden States"
+        }
+      ]
+    },
+    {
+      "id": "46b763830ceab5c2fae0cf4b06b8a01f",
+      "title": "Research Paper: From Bytes to Behavior: Request-Level Attribution from Live GPU Hidden States",
+      "link": "https://arxiv.org/abs/2611.18272v1",
+      "source": "arXiv",
+      "source_icon": "🏆",
+      "image": "images/research_4.png",
+      "published": "2026-11-13T15:04:05Z",
+      "published_fmt": "13 Nov 2026",
+      "plain_summary": "Existing memory forensics for machine learning systems typically targets static artifacts, such as model weights or prompt logs, rather than the transient computational states of a live inference process.",
+      "deep_lore": "",
+      "category_tag": "Research Papers",
+      "tags": [
+        "#research",
+        "#arxiv",
+        "#ai",
+        "#machine-learning"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 30,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "4b1dc956a3461e77f2ba3d829a661b8a",
+          "title": "Research Paper: I2C-GRPO: Insight Importance Checklist for Reinforcement Learning in a Multi-Agent DDoS Alert Triage Workflow"
+        }
+      ]
+    },
+    {
+      "id": "558c1182039f81c53a87c1b1d47760a5",
+      "title": "YARA-X 1.23.0 Release - SANS Internet Storm Center",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9TdllQTkxNS2hKUmRRQkNyMVBXblE1S1hVekNCMEdaaHZLdVJqUWJYRHp3YnFmaHlLNGRSSElxdnZsWkFqeVJvNHp0V0M?oc=5",
+      "source": "SANS Stormcast",
+      "source_icon": "📡",
+      "image": "images/github_3.png",
+      "published": "2026-11-15T18:42:55Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "YARA-X 1.23.0 Release SANS Internet Storm Center",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "15 Nov 2026",
+      "collected_date": "16 Nov 2026",
       "related": [
         {
-          "id": "d6bc4ec6947cb8494312aaf3ce57dfe9",
-          "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection"
+          "id": "2f4e11372aecb524ec2ae102bccf89d0",
+          "title": "Daily Network Security News Summary; Cyber Security Podcast - SANS Internet Storm Center"
         },
         {
-          "id": "a1a49ce1bef019e341af3f005d326025",
-          "title": "[LOW CVE] CVE-2026-124425 in Various Systems"
+          "id": "44f18c8b5ddf24566160c7128a93fc94",
+          "title": "Chainsaw v2.18.0"
+        }
+      ]
+    },
+    {
+      "id": "44f18c8b5ddf24566160c7128a93fc94",
+      "title": "Chainsaw v2.18.0",
+      "link": "https://github.com/WithSecureOpenSource/chainsaw/releases/tag/v2.18.0",
+      "source": "Chainsaw Releases",
+      "source_icon": "📦",
+      "image": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+      "published": "2026-11-15T14:04:18Z",
+      "published_fmt": "15 Nov 2026",
+      "plain_summary": "This release contains the following changes of note: Updates the upstream EVTX library, this introduces some breaking changes ( #248 ) Fixes a new batch of issues in the sigma to tau parser ( #251 ) Adds permutation support to the windash expansion ( #251 )",
+      "deep_lore": "",
+      "category_tag": "GitHub Releases",
+      "tags": [
+        "#github",
+        "#release"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "16 Nov 2026",
+      "related": [
+        {
+          "id": "558c1182039f81c53a87c1b1d47760a5",
+          "title": "YARA-X 1.23.0 Release - SANS Internet Storm Center"
         }
       ]
     }
