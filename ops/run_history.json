@@ -1,23 +1,5 @@
 [
   {
-    "timestamp": "2026-08-09T11:17:48.078793+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 74,
-    "sources_failed": 0,
-    "new_articles_count": 205,
-    "total_articles": 7877,
-    "runtime": "5 min 47 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": []
-  },
-  {
     "timestamp": "2026-08-10T02:42:13.021482+00:00",
     "sources_checked": 62,
     "sources_healthy": 65,
@@ -2983,6 +2965,73 @@
       {
         "name": "CrowdStrike Blog",
         "error": "<unknown>:2:0: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-17T08:13:24.880146+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 62,
+    "sources_failed": 12,
+    "new_articles_count": 48,
+    "total_articles": 15134,
+    "runtime": "1 min 2 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "DFIR.Training",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22DFIR+Training%22+OR+%22dfir.training%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "This Week in 4n6",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:thisweekin4n6.com+OR+%22thisweekin4n6%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "DFRWS",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22DFRWS%22+forensics&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "SANS Stormcast",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:isc.sans.edu+OR+%22SANS+Internet+Storm+Center%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Malwarebytes Labs",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:malwarebytes.com/blog&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Mandiant Blog",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Mandiant%22+cybersecurity&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      },
+      {
+        "name": "ESET Research",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:welivesecurity.com&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Intl Journal of Legal Medicine",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22International+Journal+of+Legal+Medicine%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "The Forensic Science Society",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Chartered+Society+of+Forensic+Sciences%22+OR+site:csofs.org&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Google News: Forensic Toxicology",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22forensic+toxicology%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "MDPI – Forensic Sciences",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:mdpi.com/journal/forensicsci+OR+%22MDPI+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
       }
     ]
   }
