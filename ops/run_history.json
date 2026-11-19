@@ -1,60 +1,5 @@
 [
   {
-    "timestamp": "2026-08-11T02:35:17.393566+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 65,
-    "sources_failed": 9,
-    "new_articles_count": 208,
-    "total_articles": 8092,
-    "runtime": "2 min 23 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "Forensic Focus",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "DFRWS",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "SANS Stormcast",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Malwarebytes Labs",
-        "error": "<unknown>:2:1: not well-formed (invalid token)"
-      },
-      {
-        "name": "MSAB Blog",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ESET Research",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Journal of Forensic Sciences",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "WIREs Forensic Science",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "ScienceDaily Forensics",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-12T03:04:52.166912+00:00",
     "sources_checked": 62,
     "sources_healthy": 65,
@@ -3004,6 +2949,41 @@
       {
         "name": "NIST Forensic Science",
         "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-19T07:43:30.206020+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 70,
+    "sources_failed": 4,
+    "new_articles_count": 51,
+    "total_articles": 15239,
+    "runtime": "50 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      },
+      {
+        "name": "FS, Medicine and Pathology",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "NIST Forensic Science",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Google News: Forensic Biology",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en"
       }
     ]
   }

@@ -1,11 +1,11 @@
 {
-  "last_update": "18 Nov 2026, 13:18 IST",
-  "sources_healthy": 72,
-  "sources_failed": 2,
-  "articles_today": 56,
+  "last_update": "19 Nov 2026, 13:13 IST",
+  "sources_healthy": 70,
+  "sources_failed": 4,
+  "articles_today": 49,
   "duplicates_discarded": 2,
-  "articles_total": 15190,
-  "runtime": "2 min 3 sec",
+  "articles_total": 15239,
+  "runtime": "50 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -20,8 +20,16 @@
       "error": "<unknown>:2:0: not well-formed (invalid token)"
     },
     {
+      "name": "FS, Medicine and Pathology",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
       "name": "NIST Forensic Science",
       "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:nist.gov+forensics&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: Forensic Biology",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }
