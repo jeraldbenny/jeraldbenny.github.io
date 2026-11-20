@@ -1,60 +1,5 @@
 [
   {
-    "timestamp": "2026-08-12T03:04:52.166912+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 65,
-    "sources_failed": 9,
-    "new_articles_count": 221,
-    "total_articles": 8211,
-    "runtime": "2 min 32 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "Forensic Focus",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "DFRWS",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "SANS Stormcast",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Malwarebytes Labs",
-        "error": "<unknown>:2:1: not well-formed (invalid token)"
-      },
-      {
-        "name": "MSAB Blog",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ESET Research",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Journal of Forensic Sciences",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "WIREs Forensic Science",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "ScienceDaily Forensics",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-13T03:08:25.993879+00:00",
     "sources_checked": 62,
     "sources_healthy": 64,
@@ -2984,6 +2929,29 @@
       {
         "name": "Google News: Forensic Biology",
         "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22forensic+biology%22&hl=en-US&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-20T07:34:14.517472+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 54,
+    "total_articles": 15288,
+    "runtime": "57 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:2: not well-formed (invalid token)"
       }
     ]
   }
