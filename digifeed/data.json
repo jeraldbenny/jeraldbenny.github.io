@@ -1,17 +1,47 @@
 {
-  "last_updated": "20 November 2026, 13:04 IST",
-  "total": 49,
+  "last_updated": "21 November 2026, 13:00 IST",
+  "total": 45,
   "articles": [
     {
-      "id": "4f259a98db3ff2adc498a93eb3b2405a",
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnUdcazdCteyaE1EC_aLit8CioDaJ5yvsWnawFVWQrJvYFktNRJXlW9MOJLimG_-aS1IZChVHJbjPI4CXjIbNFLjn5W686xynepfC0oWyEG81NX5CxdS-9ayumfRljgy32e2bYXDD72T6VpIFFzeCcPKwG48RDKiZExwNdF-4XDFicISSaaRtT3W2dt0/s1600/windows-lockscreen.jpg",
-      "published": "2026-11-20T05:30:01Z",
+      "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+      "title": "Beyond the phone: where confidence in evidence access drops",
+      "link": "https://www.magnetforensics.com/blog/beyond-the-phone-where-confidence-in-evidence-access-drops/",
+      "source": "Magnet Forensics",
+      "source_icon": "🧲",
+      "image": "https://www.magnetforensics.com/wp-content/uploads/2026/11/LE_Report_Trend1_in-line-image-souce-data.svg",
+      "published": "2026-11-20T21:04:52Z",
       "published_fmt": "20 Nov 2026",
-      "plain_summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in.",
+      "plain_summary": "More than eight in 10 professionals are confident accessing mobile data, but fewer than half say so for vehicles and drones as encryption spreads.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "ef594533cfbdfde88d533d004c01fe66",
+          "title": "Dialing for Data: Inside the Com’s High-Profile Heists"
+        },
+        {
+          "id": "247a71d624897d715c8145b40bad3c29",
+          "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
+        }
+      ]
+    },
+    {
+      "id": "ef594533cfbdfde88d533d004c01fe66",
+      "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+      "link": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+      "source": "Unit 42",
+      "source_icon": "🔍",
+      "image": "https://unit42.paloaltonetworks.com/wp-content/uploads/2026/11/12_Cybercrime_Category_1920x900.jpg",
+      "published": "2026-11-20T22:00:25Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -20,28 +50,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "d34a04be557c8e39794255864a37ff1d",
-          "title": "Hackers steal data of 1.6 million SBC Medical Group customers"
+          "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+          "title": "Beyond the phone: where confidence in evidence access drops"
         },
         {
-          "id": "0d7c2e4bb6f0449cc2b40859cf782b98",
-          "title": "The internet needs a nap (and you do, too)"
+          "id": "247a71d624897d715c8145b40bad3c29",
+          "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
         }
       ]
     },
     {
-      "id": "d34a04be557c8e39794255864a37ff1d",
-      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "id": "247a71d624897d715c8145b40bad3c29",
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/dfir_4.png",
-      "published": "2026-11-19T22:25:42Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people.",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-20T18:51:43Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -50,88 +80,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "0bde8e37c6bf91856e2b923983e40243",
-          "title": "Transport for London breach exposes 265,000 Oyster card users' data"
+          "id": "eab77a63bf1e96bad199166b6b2171f7",
+          "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info"
         },
         {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
+          "id": "ced8fb9dc519888c87ee4efda4ff8263",
+          "title": "N-able says recent security breach led to major service outage"
         }
       ]
     },
     {
-      "id": "0d7c2e4bb6f0449cc2b40859cf782b98",
-      "title": "The internet needs a nap (and you do, too)",
-      "link": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/",
-      "source": "Cisco Talos Blog",
-      "source_icon": "🛡️",
-      "image": "https://storage.ghost.io/c/af/a0/afa04ee3-414f-4481-8d23-7e7c146f192e/content/images/2026/11/threat_source-2.jpg",
-      "published": "2026-11-19T19:00:00Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Bill takes a break from the non-stop breaking news to promote prioritizing environmental awareness and team stability over reactive patching.",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
-        },
-        {
-          "id": "d34a04be557c8e39794255864a37ff1d",
-          "title": "Hackers steal data of 1.6 million SBC Medical Group customers"
-        }
-      ]
-    },
-    {
-      "id": "0bde8e37c6bf91856e2b923983e40243",
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/dfir_1.png",
-      "published": "2026-11-19T18:20:01Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
-      "deep_lore": "",
-      "category_tag": "DFIR Articles",
-      "tags": [
-        "#dfir",
-        "#analysis"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "d34a04be557c8e39794255864a37ff1d",
-          "title": "Hackers steal data of 1.6 million SBC Medical Group customers"
-        },
-        {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
-        }
-      ]
-    },
-    {
-      "id": "fc871365b08e1f1bfd2a72a9eb56a9ac",
-      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "id": "eab77a63bf1e96bad199166b6b2171f7",
+      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+      "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/dfir_3.png",
-      "published": "2026-11-19T14:57:24Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access.",
+      "published": "2026-11-20T15:58:06Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -140,28 +110,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
+          "id": "247a71d624897d715c8145b40bad3c29",
+          "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
         },
         {
-          "id": "d34a04be557c8e39794255864a37ff1d",
-          "title": "Hackers steal data of 1.6 million SBC Medical Group customers"
+          "id": "ced8fb9dc519888c87ee4efda4ff8263",
+          "title": "N-able says recent security breach led to major service outage"
         }
       ]
     },
     {
-      "id": "4885a0be74ca9bcf2477cb8161efca2a",
-      "title": "ARMORY CASTLE Exploits vSphere - Google Cloud",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbUY1dUhCSjB3Sk0tN05ETHZxbXphRTVzZy1fME1yQmhLcEpBamNNc0Q4cnhYMmp0dVhQdDdzejgwcWJrSzdiV0VZZXBCYTVCLUctc0FtMDEzX3Mwelp3OERMbVBjcHI1T0hYQ0hmWGVrR096cVJKTDZNZVZ3d0FOTXJyS09rWUJET1pIRHNxVVQ?oc=5",
-      "source": "Google Threat Intel",
-      "source_icon": "🌐",
-      "image": "images/dfir_5.png",
-      "published": "2026-11-19T14:13:53Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "ARMORY CASTLE Exploits vSphere Google Cloud",
+      "id": "0aee25c02bfae3635d7e664eff7242bd",
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_1.png",
+      "published": "2026-11-20T15:00:10Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems.",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -170,28 +140,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "b3c275d0f6c1757e0151c1570081d9f8",
-          "title": "NIST Project Aims to Accelerate Mobile Driver’s License Adoption - National Institute of Standards and Technology (.gov)"
+          "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+          "title": "Beyond the phone: where confidence in evidence access drops"
         },
         {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
+          "id": "ef594533cfbdfde88d533d004c01fe66",
+          "title": "Dialing for Data: Inside the Com’s High-Profile Heists"
         }
       ]
     },
     {
-      "id": "b3c275d0f6c1757e0151c1570081d9f8",
-      "title": "NIST Project Aims to Accelerate Mobile Driver’s License Adoption - National Institute of Standards and Technology (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkMzSFlBRWZZQk5jM2FvQk5tWE5adVdqQndJTVRJbGtDcGFuc1UwOFZiUG9QX0lGVzVtcTRrX2dtXzQ1aHVZODJkUTdyNWQ5bUZTdktDRGpKZlhjdkZldGM4XzVlMWxvREdLUmFGT3Y0OGxhMFJjcXlGYm5FYWwtcDVaU3VXNkpITk5kSkxkQXg0amdNNVJkaTZSb0VFb0l1SXVLMU9KbGdpUQ?oc=5",
-      "source": "NIST Cybersecurity",
-      "source_icon": "🏢",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
-      "published": "2026-11-19T12:00:00Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "NIST Project Aims to Accelerate Mobile Driver’s License Adoption National Institute of Standards and Technology (.gov)",
+      "id": "ced8fb9dc519888c87ee4efda4ff8263",
+      "title": "N-able says recent security breach led to major service outage",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-20T13:18:36Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
       "deep_lore": "",
       "category_tag": "DFIR Articles",
       "tags": [
@@ -200,178 +170,148 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "4885a0be74ca9bcf2477cb8161efca2a",
-          "title": "ARMORY CASTLE Exploits vSphere - Google Cloud"
+          "id": "247a71d624897d715c8145b40bad3c29",
+          "title": "Bell Canada says 'agentic' hacker stole enterprise customer data"
         },
         {
-          "id": "4f259a98db3ff2adc498a93eb3b2405a",
-          "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It"
+          "id": "eab77a63bf1e96bad199166b6b2171f7",
+          "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info"
         }
       ]
     },
     {
-      "id": "34d32ca2e0b4ca6d77bc21224efde2a4",
-      "title": "APPSC invites applications for Assistant Director post in Forensic Science Service - The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdlNsYVBZOFpZNGJRZmtYOGwzdGxab2NQYW56aHVBaFFBQUtMY1NKLVl6MTEwM3RTX2Q1ekpjSXBoaW9veG5NZndmTTNxV0p5b3Y5c0ZXV2UyU1JXRURkWE10eFBuN1JjNUtWOTJZQlRwZ0JhYXlsY3B3WHV5X1pYOTZHNnFMRWdUMHNPcnB1dElLV0Jlc0x1MUJHeUZ4cHNERDNEQWZ0WnRQTnIzN3FIWVVUU2lQZmNBQVRHZXdPRVp3U0RuVnZvXzN3dWwyV2RRZWRwaDZDdUNuVFd6MWpYMTFWaTEwaWZxcXIzZNIB8wFBVV95cUxNdWJlOE9WWUpidmRwbnptbkJ5bm1hcGVIVDgtUDJZMUR4Z2lCSWZZZ0FIQkJfVWVQUGZRcGZFczRabUU5anFUSmQxT2gxOExETURGRXdBcDczdEYxMjR1aXl1UXNDNVcxckM5eFJuQnY5cmZPRnRlMDR4dVhvaTNWOGlEZWhoLWlsSlVVd1BXMkhrNFJFMkdaY3Y4XzVKUS1YWUdUcDZieE9Mc2RPTlZPU3liRXdQZ0RjZXQ3ME1CQ3pnRUZnWUdFX3JtX0RpbkMzVC1ZdS1qeTMzTHhQTVBlTEtKZFNPcjNMcnN5YmNzZTAtemc?oc=5",
+      "id": "591bae00358714f1c8858d1d4efaa38e",
+      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/dfir_2.png",
+      "published": "2026-11-20T12:14:28Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+          "title": "Beyond the phone: where confidence in evidence access drops"
+        },
+        {
+          "id": "ef594533cfbdfde88d533d004c01fe66",
+          "title": "Dialing for Data: Inside the Com’s High-Profile Heists"
+        }
+      ]
+    },
+    {
+      "id": "fb4a18f34f813feba7e5581cb908c441",
+      "title": "The Path to AI Autonomy in the SOC",
+      "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn0ym0Vqfakc2h3h2W6AT6gf5qd6RPkfrgV-Z2UgwDErad91v-nJoIu3OYwEC3IvLQ6rVGm6FIQypMcoTahAgL5_62ipKE1aQsZvqGsdJzu_4ZGaiFlCYKEpg1N5z3FRSk7O5n4uRlfDuNz7i99Ls9z1Ysee3iV4OCMTxG2rF8YLgCtfTOL2KA-hSQXY/s1600/INT.png",
+      "published": "2026-11-20T12:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Security leaders are about to hand AI agents a lot more authority.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+          "title": "Beyond the phone: where confidence in evidence access drops"
+        },
+        {
+          "id": "ef594533cfbdfde88d533d004c01fe66",
+          "title": "Dialing for Data: Inside the Com’s High-Profile Heists"
+        }
+      ]
+    },
+    {
+      "id": "ad718c0cc3d82317989206a7413d8aa3",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "source": "The Hacker News",
+      "source_icon": "💻",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn5oji8gd4l_d6wKemSflqTX-q-eiuu4CbbV2ROvzK6Gzpeq8zPsQyGb-UO80f_M8L2pDNNyNqF1ZIdyMPGReyW0KmPb7uuAuRu1M-ZVyNu-GJvx1CRaBsaEOVjV-asFG0P__0MK0Jp3WPJmcNxATiSd6NeBzcCmy-6dLvS5yvpen0cRrwLZvgVpYAvn0/s1600/sonicwall.jpg",
+      "published": "2026-11-20T10:38:22Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks.",
+      "deep_lore": "",
+      "category_tag": "DFIR Articles",
+      "tags": [
+        "#dfir",
+        "#analysis"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "ced8fb9dc519888c87ee4efda4ff8263",
+          "title": "N-able says recent security breach led to major service outage"
+        },
+        {
+          "id": "079ef9a873b9cb8d5834d8e63cf6b31f",
+          "title": "Beyond the phone: where confidence in evidence access drops"
+        }
+      ]
+    },
+    {
+      "id": "afa9be8a46aa12fd94443ac3dd47c6ca",
+      "title": "American Kratom Association Calls on Sen. Grassley to Produce Forensic Evidence Behind Deaths He Attributes to Kratom - Rutland Herald",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQTzRIM01wZnBIRzNVckJ1NzJfZVJVWHZyeFhPM3FYcHpFM3dhQkNYRmZDZHJYeENfNmtWaERKazFoakRoUFBlNUhISG9BcnJPdGZ4bTVpUmVTSFZXWHU1YVdQS3ZDWHRWaHdjN2s1YjZnVnpacGNlREpxUUVKZ3pvTUdDZTlRckRNaC1zWldPUG5mZUYxaEpoZ0JMRHZXLXFBSUR2MXZIMmNvMWtZanpMUmswYndkbm1HOFQ1THo0bFdBTGpCQjBKYzJqeGh2ZWJHR1VtN2FxcGJkY0tHWmNVTDZuWnR0ZV9KQ01HYjJkbHgtVVIycFZxOG5MLWFxczlXT0Jmbl9kWE1icVVzb2N2ME03aTRxYjNzNkdaWjV3ZUlKTXZaTVdtaXhR?oc=5",
+      "source": "Forensic Toxicology",
+      "source_icon": "🧪",
+      "image": "images/forensics_3.png",
+      "published": "2026-11-19T02:10:30Z",
+      "published_fmt": "19 Nov 2026",
+      "plain_summary": "American Kratom Association Calls on Sen. Grassley to Produce Forensic Evidence Behind Deaths He Attributes to Kratom Rutland Herald",
+      "deep_lore": "",
+      "category_tag": "Forensics",
+      "tags": [
+        "#forensics",
+        "#science"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 40,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "914c7ce5585466e945432ff1699378c0",
+          "title": "Calcasieu Parish Sheriff's Office. . 🎥 EVERY DIVISION, ONE MISSION | Crime Lab Every division within CPSO plays an important role in serving and protecting Calcasieu Parish. Through Every Division, One Mission, Sheriff Guillory is highlighting the people w - Facebook"
+        },
+        {
+          "id": "b1f33e87a1681dfe518283515a3c0d34",
+          "title": "Man becomes first known death from r****l explosion - The Mary Sue"
+        }
+      ]
+    },
+    {
+      "id": "914c7ce5585466e945432ff1699378c0",
+      "title": "Calcasieu Parish Sheriff's Office. . 🎥 EVERY DIVISION, ONE MISSION | Crime Lab Every division within CPSO plays an important role in serving and protecting Calcasieu Parish. Through Every Division, One Mission, Sheriff Guillory is highlighting the people w - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcW9DNjlsdUVzLTZmMkE3VGkwLUxmSF80SzJ2SWx6WXJQZnctZ2tMREI2NEhyNFI4M2ZJT2lxMW45LUNOOE5yRS1pNFRvSWVEazRmcHNDVmNCTVh0TXB3MFM1N1pKcjgydzdiYjg3SFRMOURvWWZuZ3NaWDAybkJNZWprRG5BOVJzQ0RYZGRlTF81WmpZLVhWN2stRTU1aGVjTndIUE5n?oc=5",
       "source": "Google News: Forensic Science",
       "source_icon": "🔬",
       "image": "images/forensics_4.png",
-      "published": "2026-11-20T05:57:08Z",
+      "published": "2026-11-20T20:00:29Z",
       "published_fmt": "20 Nov 2026",
-      "plain_summary": "APPSC invites applications for Assistant Director post in Forensic Science Service The Hindu",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
-        },
-        {
-          "id": "c69574df477fdb2c80d09c2028819356",
-          "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "91dc7a97b6e5055c386ae201ab294fae",
-      "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZGtIUVJhYkdqMEZ0TW8wOGFhZDZTZnNYRkhxVFpsNXBoWGpDWE1FYXdfY29HcjJkcnAzOVBTUXZIRWF0UFJKSVpJeFpSWlVmSkltTF9vRl95OWN3V2dJclhTUE81T0YtRGZ3U29lRjVvUGU3aE5kRUl3aV9QVzJTZDBKQUtaNE1jX0h2ZmlqYm11T1lIQW81VFBNUjJyOGtXbkxZbmhIcFRuQ1BrNTZ6R3hQdFF0QzBqZG5oMlpNV3pCMldZc0ltWDZNSm5SRXBUU0RB?oc=5",
-      "source": "Google News: Forensic Pathology",
-      "source_icon": "🔬",
-      "image": "images/forensics_3.png",
-      "published": "2026-11-20T05:16:05Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage Bioengineer.org",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "c69574df477fdb2c80d09c2028819356",
-          "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org"
-        },
-        {
-          "id": "c7d0003904ddef26c6590ca916e1067e",
-          "title": "Colloidal Engineered Blood Simulant Enhances Forensic Bloodstain Pattern Analysis Reproducibility - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "9a744901150f6b73e77264e4062dec8e",
-      "title": "Forensics Students Earn National Honors - Syracuse University Today",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnN0pGNUlqZ0hJdzlSNVVOOW5kVXRSV0FQSmNGWXpjXzhVbVhrWVZCS0tVNUtZX2x4RDVENnlNY0kybGVVZ2NPUHlER2F6cFFPZ2lKWHAtNlA4b2RXUGNmSWZfRlpTWUpRUUcteTVKQTlzeVBMQXBPYlRjNXY?oc=5",
-      "source": "Google News: Forensic Science",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-11-19T15:42:32Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Forensics Students Earn National Honors Syracuse University Today",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "34d32ca2e0b4ca6d77bc21224efde2a4",
-          "title": "APPSC invites applications for Assistant Director post in Forensic Science Service - The Hindu"
-        },
-        {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "c69574df477fdb2c80d09c2028819356",
-      "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcUtCaXVOdmFVWVh2NlI5RWNEajdlbEM0dnZROEZvRnZFQzBFQ3Zxbzdwc2VaMkd2RHZjaURscnRtSnllR0hzM0tBeVlVdWs0elRHcDVIU1hPdzN4QllpazRuQk1Id3RLWGlNYVZkSWNMd0hnVkZmOUFHZGNpa0txTlVIb3NxcGtrTkIxN1B5UTdxN2tzdTY2cUppY2JUa3FSR2NTLTFyVHpEM08tZUVlY3ZCVnZiR2RmVWNoUUpGQ3doUQ?oc=5",
-      "source": "Journal of Forensic Sciences",
-      "source_icon": "🔬",
-      "image": "images/forensics_5.png",
-      "published": "2026-11-19T10:30:01Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration Bioengineer.org",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
-        },
-        {
-          "id": "c7d0003904ddef26c6590ca916e1067e",
-          "title": "Colloidal Engineered Blood Simulant Enhances Forensic Bloodstain Pattern Analysis Reproducibility - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "c7d0003904ddef26c6590ca916e1067e",
-      "title": "Colloidal Engineered Blood Simulant Enhances Forensic Bloodstain Pattern Analysis Reproducibility - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQmJYdmxLckV2NDRVc0FJREptRF9VeEpQOTcydDMxV2RfeXFKajRSdnZYOXluRVBQY1FsclF1VUNHa25qQk1hU19BN3VpajE1YTdVcUk3ZGg4RzZRUXFJdzZvWkdCSVZlekJMZUY0Y2lLOHNUelBMUEExc3E5bHQwaHJiVVdxSVg2NVk1RGdWSDNnMUhFNXRRVXVxMFBteUJ1ZG1ET21tcTR2aUhjQVBmempXZVl1cDlSQ3hnNjFLMA?oc=5",
-      "source": "Google News: Bloodstain Pattern",
-      "source_icon": "🩸",
-      "image": "images/forensics_2.png",
-      "published": "2026-11-19T07:57:33Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Colloidal Engineered Blood Simulant Enhances Forensic Bloodstain Pattern Analysis Reproducibility Bioengineer.org",
-      "deep_lore": "",
-      "category_tag": "Forensics",
-      "tags": [
-        "#forensics",
-        "#science"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 20,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
-        },
-        {
-          "id": "c69574df477fdb2c80d09c2028819356",
-          "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "6b5b1777e289ee86c24de5deb62fb54d",
-      "title": "Novel Synthetic Opioid Spirochlorphine Shows Potency Surpassing Fentanyl in Laboratory Tests - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQjA0Zlp3QjJrZENqOEhhZnJOT3JmV0pia0dNa3VOZWtYT254R1JxdG9iRVJacWZkS2p1UnVZUFQ5NWJraFhIanNDWDFzdGNjZ2xxaGs3cWFuV1l3eEZCbGpobWJRMW1wbkwzRkxrQmppRDgzWDhGVEtaeVhVenkzdnliOWotY0FEMjFjLXFJYWdnLWE3TGQtc21BcEJ1eE1Dd1JfSnhwSm8xUnU2NjZteVlIRzM2SkFE?oc=5",
-      "source": "Forensic Toxicology",
-      "source_icon": "🧪",
-      "image": "images/forensics_2.png",
-      "published": "2026-11-19T18:05:19Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Novel Synthetic Opioid Spirochlorphine Shows Potency Surpassing Fentanyl in Laboratory Tests Bioengineer.org",
+      "plain_summary": "Calcasieu Parish Sheriff's Office. . 🎥 EVERY DIVISION, ONE MISSION | Crime Lab Every division within CPSO plays an important role in serving and protecting Calcasieu Parish.",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -380,28 +320,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
+          "id": "afa9be8a46aa12fd94443ac3dd47c6ca",
+          "title": "American Kratom Association Calls on Sen. Grassley to Produce Forensic Evidence Behind Deaths He Attributes to Kratom - Rutland Herald"
         },
         {
-          "id": "c69574df477fdb2c80d09c2028819356",
-          "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org"
+          "id": "b1f33e87a1681dfe518283515a3c0d34",
+          "title": "Man becomes first known death from r****l explosion - The Mary Sue"
         }
       ]
     },
     {
-      "id": "19885bafa0a68bd2edec9b14a241cce3",
-      "title": "Automated Dental CBCT Phenotyping Accurately Estimates Adult Age and Sex - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGpkaVJPU29kVGkwRTluZGRxV25ZUk8xU3FxZGhuSkJwSGJtRHJyODc2bHpnSHZhVDdFOEdJNkY2OTdEOEdpQVlELTFoRF9qWnhyaTFOMlVyVVFSTEtsX0s3cmJLXzgxd2lYa3ZvNmFFX291TzVjMWZSeF9rZ3VHamtvV0dwejBqMUR0Q3JHTUxjVF9tWmxWcHZ0SmczZw?oc=5",
+      "id": "b1f33e87a1681dfe518283515a3c0d34",
+      "title": "Man becomes first known death from r****l explosion - The Mary Sue",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTGRPODZ3Uzl4VkprUHJCbGwwNVM0aWhhQ1kwWFJNTENON3J4NGJvbm91LXFsQkRvMGdtcUtwa0hLTXlhUmgtU0tVQlg3bkJDbE1nU2k1RncwaUM5WDNwa3FtXzNtNWU5REJ2Q3BZbVByT2hXTTN5ZjVwbWN6Y3BSZEliQTYwLXZMbjVWTTNtMURkV0VHcFFfZTk5a2lxMUVaUHlTd1JmUUROUVUwNGpFSWxHbl9ub0taYnFVeFR2UTBkZERuZ1NzcDhKZEh3Ny1MY1lXajl2STZTNWZ3SFFXTDNGZngxZHc2Y3dMNzdMdEU?oc=5",
       "source": "Intl Journal of Legal Medicine",
       "source_icon": "⚖️",
-      "image": "images/forensics_3.png",
-      "published": "2026-11-19T15:35:04Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Automated Dental CBCT Phenotyping Accurately Estimates Adult Age and Sex Bioengineer.org",
+      "image": "images/forensics_4.png",
+      "published": "2026-11-20T16:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Man becomes first known death from r****l explosion The Mary Sue",
       "deep_lore": "",
       "category_tag": "Forensics",
       "tags": [
@@ -410,121 +350,252 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
+          "id": "afa9be8a46aa12fd94443ac3dd47c6ca",
+          "title": "American Kratom Association Calls on Sen. Grassley to Produce Forensic Evidence Behind Deaths He Attributes to Kratom - Rutland Herald"
         },
         {
-          "id": "c69574df477fdb2c80d09c2028819356",
-          "title": "Global Forensic Insect Succession Research Shares Core Foundations Despite Fragmented Collaboration - Bioengineer.org"
+          "id": "914c7ce5585466e945432ff1699378c0",
+          "title": "Calcasieu Parish Sheriff's Office. . 🎥 EVERY DIVISION, ONE MISSION | Crime Lab Every division within CPSO plays an important role in serving and protecting Calcasieu Parish. Through Every Division, One Mission, Sheriff Guillory is highlighting the people w - Facebook"
         }
       ]
     },
     {
-      "id": "b218a699960edd9cc981a85cfc4b6435",
-      "title": "Three Decades Later, Partnership Brings Identification in McMinn County Case - TBINewsroom.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTU1sbjV2eGxaN2pseTNaekxkZDhDZDcxRkstbm9NcWJtaWJLNEZQMWZBSm1VOHU5MnI3eVlSanllS1NybmwtUXNSSTNxWXllTnlVUVBEZFJlVUppeTc3NzRTSnYwVnBqYjhXcnZDeG9MN2J1Qk5XeXVsckpOUkFmNjY3N042N3BWbUJqS1UwaWFnSmozTVFCS3JEUlRQVVNzOEhrYUxKbTN0YUNuYmpDcg?oc=5",
-      "source": "Google News: Forensic Anthropology",
-      "source_icon": "🦴",
-      "image": "images/forensics_3.png",
-      "published": "2026-11-19T15:00:16Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Three Decades Later, Partnership Brings Identification in McMinn County Case TBINewsroom.com",
+      "id": "4b4af2256c016d3833aa0e5ea8182133",
+      "title": "[KEV Active Exploit] CVE-2026-129448 in Apache Roller",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
+      "published": "2026-11-20T00:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication.",
       "deep_lore": "",
-      "category_tag": "Forensics",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#forensics",
-        "#science"
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#apache"
       ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "34d32ca2e0b4ca6d77bc21224efde2a4",
-          "title": "APPSC invites applications for Assistant Director post in Forensic Science Service - The Hindu"
-        },
-        {
-          "id": "91dc7a97b6e5055c386ae201ab294fae",
-          "title": "Forensic Investigation Uncovers Rare Vertebrobasilar Dolichoectasia Rupture Behind Fatal Subarachnoid Hemorrhage - Bioengineer.org"
-        }
-      ]
-    },
-    {
-      "id": "6da40c5caa63e178659cb26241a98f6d",
-      "title": "Research Paper: Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study",
-      "link": "https://arxiv.org/abs/2611.25590v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_2.png",
-      "published": "2026-11-19T06:35:05Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Large language models (LLMs) are increasingly used in cyber threat intelligence (CTI) tasks, such as summarization and question answering.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai"
-      ],
-      "read_time": "1 min read",
+      "read_time": "3 min read",
       "forensic_score": 85,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "4f45c3f2918e19c660609aacfe66b20f",
-          "title": "Research Paper: TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis"
+          "id": "1291b1d56a7e5017da664e345441ded1",
+          "title": "[KEV Active Exploit] CVE-2026-123890 in Broadcom VMware vCenter"
         },
         {
-          "id": "5e6c2ddcdff70c7913c4ed4cceb03d54",
-          "title": "Research Paper: Decision Boundaries Matter: Graph-Regularized Residual Adaptation for Cross-Domain Fake Image Detection"
+          "id": "6dba6af58dad9a425878fa8a2b9cb4d2",
+          "title": "[KEV Active Exploit] CVE-2025-42884 in SAP NetWeaver"
         }
       ]
     },
     {
-      "id": "76b719526e9c17a324361690d2a85b67",
-      "title": "[Threat IOC] Unknown Loader domain: zhfa.zhwkr.co.uk",
-      "link": "https://threatfox.abuse.ch/ioc/2035668/",
+      "id": "1291b1d56a7e5017da664e345441ded1",
+      "title": "[KEV Active Exploit] CVE-2026-123890 in Broadcom VMware vCenter",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
+      "published": "2026-11-20T00:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#broadcom"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "4b4af2256c016d3833aa0e5ea8182133",
+          "title": "[KEV Active Exploit] CVE-2026-129448 in Apache Roller"
+        },
+        {
+          "id": "6dba6af58dad9a425878fa8a2b9cb4d2",
+          "title": "[KEV Active Exploit] CVE-2025-42884 in SAP NetWeaver"
+        }
+      ]
+    },
+    {
+      "id": "6dba6af58dad9a425878fa8a2b9cb4d2",
+      "title": "[KEV Active Exploit] CVE-2025-42884 in SAP NetWeaver",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+      "published": "2026-11-20T00:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#sap"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "4b4af2256c016d3833aa0e5ea8182133",
+          "title": "[KEV Active Exploit] CVE-2026-129448 in Apache Roller"
+        },
+        {
+          "id": "1291b1d56a7e5017da664e345441ded1",
+          "title": "[KEV Active Exploit] CVE-2026-123890 in Broadcom VMware vCenter"
+        }
+      ]
+    },
+    {
+      "id": "13db88177f4f8aa04a8616054bf952c1",
+      "title": "[KEV Active Exploit] CVE-2026-76466 in Cisco Expressway Series",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+      "source": "CISA KEV",
+      "source_icon": "🚨",
+      "image": "images/cve_5.png",
+      "published": "2026-11-20T00:00:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cisa-kev",
+        "#active-exploit",
+        "#cve",
+        "#cisco"
+      ],
+      "read_time": "3 min read",
+      "forensic_score": 85,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "4b4af2256c016d3833aa0e5ea8182133",
+          "title": "[KEV Active Exploit] CVE-2026-129448 in Apache Roller"
+        },
+        {
+          "id": "1291b1d56a7e5017da664e345441ded1",
+          "title": "[KEV Active Exploit] CVE-2026-123890 in Broadcom VMware vCenter"
+        }
+      ]
+    },
+    {
+      "id": "6e1046a3f8e016001ebd1fc2048c5dc9",
+      "title": "[Threat IOC] Coinminer ip:port: 46.21.83.174:3333",
+      "link": "https://threatfox.abuse.ch/ioc/2037773/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_4.png",
+      "published": "2026-11-21T07:19:34Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Coinminer. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#coinminer"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "8f86b59cd573ffcfec909e843d84d76f",
+          "title": "[Threat IOC] Coinminer ip:port: 50.114.102.251:3333"
+        },
+        {
+          "id": "5a3f24d4b77f2f2b4c30b82247a19bc3",
+          "title": "[Threat IOC] Coinminer ip:port: 185.121.15.175:3333"
+        }
+      ]
+    },
+    {
+      "id": "8f86b59cd573ffcfec909e843d84d76f",
+      "title": "[Threat IOC] Coinminer ip:port: 50.114.102.251:3333",
+      "link": "https://threatfox.abuse.ch/ioc/2037774/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
+      "published": "2026-11-21T07:19:34Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Coinminer. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#coinminer"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "6e1046a3f8e016001ebd1fc2048c5dc9",
+          "title": "[Threat IOC] Coinminer ip:port: 46.21.83.174:3333"
+        },
+        {
+          "id": "5a3f24d4b77f2f2b4c30b82247a19bc3",
+          "title": "[Threat IOC] Coinminer ip:port: 185.121.15.175:3333"
+        }
+      ]
+    },
+    {
+      "id": "5a3f24d4b77f2f2b4c30b82247a19bc3",
+      "title": "[Threat IOC] Coinminer ip:port: 185.121.15.175:3333",
+      "link": "https://threatfox.abuse.ch/ioc/2037775/",
+      "source": "ThreatFox",
+      "source_icon": "📡",
+      "image": "images/malware_2.png",
+      "published": "2026-11-21T07:19:34Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Coinminer. Type: ip:port. Threat Category: botnet_cc. Reporter: anonymous.",
+      "deep_lore": "",
+      "category_tag": "IOC Feed",
+      "tags": [
+        "#ioc",
+        "#threat-intel",
+        "#threatfox",
+        "#coinminer"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 80,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "6e1046a3f8e016001ebd1fc2048c5dc9",
+          "title": "[Threat IOC] Coinminer ip:port: 46.21.83.174:3333"
+        },
+        {
+          "id": "8f86b59cd573ffcfec909e843d84d76f",
+          "title": "[Threat IOC] Coinminer ip:port: 50.114.102.251:3333"
+        }
+      ]
+    },
+    {
+      "id": "20c5f3ddc4a02e76dffd24bdd2d265a7",
+      "title": "[Threat IOC] Unknown malware sha256_hash: d4ec31ed44698baae338d55ba1ed0f45ba959b1d84a1ff17ca1dbdc5ba439f3a",
+      "link": "https://threatfox.abuse.ch/ioc/2037767/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-      "published": "2026-11-20T07:28:27Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown Loader. Type: domain. Threat Category: botnet_cc. Reporter: CyanoTex.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownloader"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
-        },
-        {
-          "id": "cfbfe79ce4398bac628b583b53401c5f",
-          "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787"
-        }
-      ]
-    },
-    {
-      "id": "989380cf25db1384e26f6b62c13bc213",
-      "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787",
-      "link": "https://threatfox.abuse.ch/ioc/2035671/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=600&q=80",
-      "published": "2026-11-20T07:28:26Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: 0xJustme.",
+      "published": "2026-11-21T07:05:40Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -535,28 +606,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "cfbfe79ce4398bac628b583b53401c5f",
-          "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787"
+          "id": "611338ecf315730076c5521238408927",
+          "title": "[Threat IOC] Unknown malware sha256_hash: e6c4954796b5efee464583ac52fad6b03e19d2d9792e960ecbcf1bfcc7635f59"
         },
         {
-          "id": "8427d5ed1852d7c79e5beed1cfb32bca",
-          "title": "[Threat IOC] Unknown malware ip:port: 140.210.15.208:8787"
+          "id": "607b62234a474f257fef2b4df1034011",
+          "title": "[Threat IOC] Unknown malware sha256_hash: 1467a95824a3ea48eadc43ca152218af2f6d2ef9880f391a1f7add91450bff1e"
         }
       ]
     },
     {
-      "id": "cfbfe79ce4398bac628b583b53401c5f",
-      "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787",
-      "link": "https://threatfox.abuse.ch/ioc/2035670/",
+      "id": "611338ecf315730076c5521238408927",
+      "title": "[Threat IOC] Unknown malware sha256_hash: e6c4954796b5efee464583ac52fad6b03e19d2d9792e960ecbcf1bfcc7635f59",
+      "link": "https://threatfox.abuse.ch/ioc/2037768/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-11-20T07:28:26Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: 0xJustme.",
+      "image": "images/malware_5.png",
+      "published": "2026-11-21T07:05:40Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -567,60 +638,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
+          "id": "20c5f3ddc4a02e76dffd24bdd2d265a7",
+          "title": "[Threat IOC] Unknown malware sha256_hash: d4ec31ed44698baae338d55ba1ed0f45ba959b1d84a1ff17ca1dbdc5ba439f3a"
         },
         {
-          "id": "8427d5ed1852d7c79e5beed1cfb32bca",
-          "title": "[Threat IOC] Unknown malware ip:port: 140.210.15.208:8787"
+          "id": "607b62234a474f257fef2b4df1034011",
+          "title": "[Threat IOC] Unknown malware sha256_hash: 1467a95824a3ea48eadc43ca152218af2f6d2ef9880f391a1f7add91450bff1e"
         }
       ]
     },
     {
-      "id": "8427d5ed1852d7c79e5beed1cfb32bca",
-      "title": "[Threat IOC] Unknown malware ip:port: 140.210.15.208:8787",
-      "link": "https://threatfox.abuse.ch/ioc/2035683/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&q=80",
-      "published": "2026-11-20T07:28:25Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: 0xJustme.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownmalware"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
-        },
-        {
-          "id": "cfbfe79ce4398bac628b583b53401c5f",
-          "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787"
-        }
-      ]
-    },
-    {
-      "id": "9db55ba3d28815accab52f120ff53aef",
-      "title": "[Threat IOC] Unknown malware ip:port: 117.72.26.79:8787",
-      "link": "https://threatfox.abuse.ch/ioc/2035682/",
+      "id": "607b62234a474f257fef2b4df1034011",
+      "title": "[Threat IOC] Unknown malware sha256_hash: 1467a95824a3ea48eadc43ca152218af2f6d2ef9880f391a1f7add91450bff1e",
+      "link": "https://threatfox.abuse.ch/ioc/2037769/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_1.png",
-      "published": "2026-11-20T07:28:25Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: 0xJustme.",
+      "published": "2026-11-21T07:05:40Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -631,28 +670,28 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
+          "id": "20c5f3ddc4a02e76dffd24bdd2d265a7",
+          "title": "[Threat IOC] Unknown malware sha256_hash: d4ec31ed44698baae338d55ba1ed0f45ba959b1d84a1ff17ca1dbdc5ba439f3a"
         },
         {
-          "id": "cfbfe79ce4398bac628b583b53401c5f",
-          "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787"
+          "id": "611338ecf315730076c5521238408927",
+          "title": "[Threat IOC] Unknown malware sha256_hash: e6c4954796b5efee464583ac52fad6b03e19d2d9792e960ecbcf1bfcc7635f59"
         }
       ]
     },
     {
-      "id": "d3ba7fbfba38c9fd7578834e9296c038",
-      "title": "[Threat IOC] Unknown malware ip:port: 144.172.99.150:80",
-      "link": "https://threatfox.abuse.ch/ioc/2035684/",
+      "id": "1511f9a26c63efc60fdc7f1cddfa7a84",
+      "title": "[Threat IOC] Unknown malware sha256_hash: d4c8ec37ca836f0f01d1c1e1f34f549a37a09a251538f6e56a99cadc37e496fc",
+      "link": "https://threatfox.abuse.ch/ioc/2037770/",
       "source": "ThreatFox",
       "source_icon": "📡",
-      "image": "images/malware_2.png",
-      "published": "2026-11-20T07:28:24Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: ip:port. Threat Category: botnet_cc. Reporter: 0xJustme.",
+      "image": "images/malware_5.png",
+      "published": "2026-11-21T07:05:40Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
@@ -663,216 +702,60 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
+          "id": "20c5f3ddc4a02e76dffd24bdd2d265a7",
+          "title": "[Threat IOC] Unknown malware sha256_hash: d4ec31ed44698baae338d55ba1ed0f45ba959b1d84a1ff17ca1dbdc5ba439f3a"
         },
         {
-          "id": "cfbfe79ce4398bac628b583b53401c5f",
-          "title": "[Threat IOC] Unknown malware ip:port: 106.12.35.83:8787"
+          "id": "611338ecf315730076c5521238408927",
+          "title": "[Threat IOC] Unknown malware sha256_hash: e6c4954796b5efee464583ac52fad6b03e19d2d9792e960ecbcf1bfcc7635f59"
         }
       ]
     },
     {
-      "id": "3911e85bf9a48ff8d91e517aacbf84ca",
-      "title": "[Threat IOC] Unknown RAT sha256_hash: f8813823c64b6221268a2a8941523a9809172a926126136248c5d4bc726e7274",
-      "link": "https://threatfox.abuse.ch/ioc/2035686/",
+      "id": "13f7006140401b8c6dbd74cbb0adc472",
+      "title": "[Threat IOC] Unknown malware sha256_hash: ea2a034979d021746346218c75a41f5ac5cd5dea93ed756698a6edfe5a04d66f",
+      "link": "https://threatfox.abuse.ch/ioc/2037771/",
       "source": "ThreatFox",
       "source_icon": "📡",
       "image": "images/malware_1.png",
-      "published": "2026-11-20T07:28:23Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown RAT. Type: sha256_hash. Threat Category: payload. Reporter: DENNISAROSS.",
+      "published": "2026-11-21T07:05:40Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown malware. Type: sha256_hash. Threat Category: payload. Reporter: Tuxxin.",
       "deep_lore": "",
       "category_tag": "IOC Feed",
       "tags": [
         "#ioc",
         "#threat-intel",
         "#threatfox",
-        "#unknownrat"
+        "#unknownmalware"
       ],
       "read_time": "2 min read",
       "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "e79bcf1605c9881a22c4adb7eebd4438",
-          "title": "[Threat IOC] Unknown RAT ip:port: 102.220.160.24:443"
+          "id": "20c5f3ddc4a02e76dffd24bdd2d265a7",
+          "title": "[Threat IOC] Unknown malware sha256_hash: d4ec31ed44698baae338d55ba1ed0f45ba959b1d84a1ff17ca1dbdc5ba439f3a"
         },
         {
-          "id": "76b719526e9c17a324361690d2a85b67",
-          "title": "[Threat IOC] Unknown Loader domain: zhfa.zhwkr.co.uk"
+          "id": "611338ecf315730076c5521238408927",
+          "title": "[Threat IOC] Unknown malware sha256_hash: e6c4954796b5efee464583ac52fad6b03e19d2d9792e960ecbcf1bfcc7635f59"
         }
       ]
     },
     {
-      "id": "e79bcf1605c9881a22c4adb7eebd4438",
-      "title": "[Threat IOC] Unknown RAT ip:port: 102.220.160.24:443",
-      "link": "https://threatfox.abuse.ch/ioc/2035687/",
-      "source": "ThreatFox",
-      "source_icon": "📡",
-      "image": "images/malware_1.png",
-      "published": "2026-11-20T07:28:22Z",
-      "published_fmt": "20 Nov 2026",
-      "plain_summary": "ThreatFox reported a new active indicator of compromise (IOC) for Unknown RAT. Type: ip:port. Threat Category: payload_delivery. Reporter: DENNISAROSS.",
-      "deep_lore": "",
-      "category_tag": "IOC Feed",
-      "tags": [
-        "#ioc",
-        "#threat-intel",
-        "#threatfox",
-        "#unknownrat"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 80,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "3911e85bf9a48ff8d91e517aacbf84ca",
-          "title": "[Threat IOC] Unknown RAT sha256_hash: f8813823c64b6221268a2a8941523a9809172a926126136248c5d4bc726e7274"
-        },
-        {
-          "id": "989380cf25db1384e26f6b62c13bc213",
-          "title": "[Threat IOC] Unknown malware ip:port: 117.55.229.137:8787"
-        }
-      ]
-    },
-    {
-      "id": "6dfd5a049e963c9bf7a132866b750352",
-      "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111338",
+      "id": "e91413faf40eb03d72efa6ff1e9edeeb",
+      "title": "[CRITICAL CVE] CVE-2026-124539 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124539",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_5.png",
-      "published": "2026-11-13T08:17:16Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Sensitive authentication material written to a log file in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "d90a57520204afa54af0a2731ac30554",
-          "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems"
-        },
-        {
-          "id": "9a411d45064b90a475878a6907ece631",
-          "title": "[MEDIUM CVE] CVE-2026-116432 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "d90a57520204afa54af0a2731ac30554",
-      "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111339",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
-      "published": "2026-11-13T08:17:16Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Memory overflow in Application Firewall data decompression/inspection can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
-        },
-        {
-          "id": "9a411d45064b90a475878a6907ece631",
-          "title": "[MEDIUM CVE] CVE-2026-116432 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "9a411d45064b90a475878a6907ece631",
-      "title": "[MEDIUM CVE] CVE-2026-116432 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116432",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80",
-      "published": "2026-11-13T08:17:16Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Dell PowerScale InsightIQ, versions 6.3.0 through 6.4.0, contains an Insertion of Sensitive Information into Log File vulnerability.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
-        },
-        {
-          "id": "d90a57520204afa54af0a2731ac30554",
-          "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "b389460271e7ef5dcdf04481146093f2",
-      "title": "[MEDIUM CVE] CVE-2026-111333 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111333",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
-      "published": "2026-11-13T08:17:15Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Memory overflow in an authentication request can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#nvd",
-        "#medium-severity"
-      ],
-      "read_time": "2 min read",
-      "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
-        },
-        {
-          "id": "d90a57520204afa54af0a2731ac30554",
-          "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems"
-        }
-      ]
-    },
-    {
-      "id": "aeec33d2591922198953c2350d6c80a6",
-      "title": "[CRITICAL CVE] CVE-2026-111334 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111334",
-      "source": "NVD API",
-      "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
-      "published": "2026-11-13T08:17:15Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Memory overflow in Endpoint Analysis (EPA/EPAS) can lead to unpredictable or erroneous behavior or a Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&q=80",
+      "published": "2026-11-14T12:17:43Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "JSON::XS versions before 4.05 for Perl leak the decoded key of an object rejected for a missing colon in decode_hv. Unless it is short plain ASCII, a quoted key is decoded into a new scalar.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -882,28 +765,121 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
+          "id": "f0ddbc35de53915ff0a20681f9073464",
+          "title": "[HIGH CVE] CVE-2026-124540 in Various Systems"
         },
         {
-          "id": "d90a57520204afa54af0a2731ac30554",
-          "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems"
+          "id": "1d3589c235f990d6799248c5ab137b96",
+          "title": "[HIGH CVE] CVE-2026-124541 in Various Systems"
         }
       ]
     },
     {
-      "id": "3041e4c70cabf64ba97ea877d9872b80",
-      "title": "[MEDIUM CVE] CVE-2026-111335 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111335",
+      "id": "f0ddbc35de53915ff0a20681f9073464",
+      "title": "[HIGH CVE] CVE-2026-124540 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124540",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&q=80",
-      "published": "2026-11-13T08:17:15Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Improper request handling can lead to a denial-of-service / reboot-loop condition in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+      "image": "images/cve_5.png",
+      "published": "2026-11-14T12:17:43Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "JSON::XS versions before 4.05 for Perl allow stack exhaustion via nested tagged values under allow_tags in decode_tag. With allow_tags, \"(\" starts a tagged value.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "1d3589c235f990d6799248c5ab137b96",
+          "title": "[HIGH CVE] CVE-2026-124541 in Various Systems"
+        },
+        {
+          "id": "21e620952d9ea7f4abbc8f6a4fbf4976",
+          "title": "[HIGH CVE] CVE-2026-124536 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "1d3589c235f990d6799248c5ab137b96",
+      "title": "[HIGH CVE] CVE-2026-124541 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124541",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "images/cve_5.png",
+      "published": "2026-11-14T12:17:43Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "JSON::XS versions before 4.05 for Perl leak the decoded part of a rejected long string in decode_str. A string is decoded through a fixed-size buffer (16 KiB in 4.04), and each time the buffer fills its contents move into a new scalar.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "f0ddbc35de53915ff0a20681f9073464",
+          "title": "[HIGH CVE] CVE-2026-124540 in Various Systems"
+        },
+        {
+          "id": "21e620952d9ea7f4abbc8f6a4fbf4976",
+          "title": "[HIGH CVE] CVE-2026-124536 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "21e620952d9ea7f4abbc8f6a4fbf4976",
+      "title": "[HIGH CVE] CVE-2026-124536 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124536",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&q=80",
+      "published": "2026-11-14T12:17:42Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "JSON::XS versions before 4.05 for Perl allow memory exhaustion by buffering incremental input past max_size after a NUL byte in incr_parse.",
+      "deep_lore": "",
+      "category_tag": "CVE & Vulnerabilities",
+      "tags": [
+        "#cve",
+        "#nvd",
+        "#high-severity"
+      ],
+      "read_time": "2 min read",
+      "forensic_score": 75,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "f0ddbc35de53915ff0a20681f9073464",
+          "title": "[HIGH CVE] CVE-2026-124540 in Various Systems"
+        },
+        {
+          "id": "1d3589c235f990d6799248c5ab137b96",
+          "title": "[HIGH CVE] CVE-2026-124541 in Various Systems"
+        }
+      ]
+    },
+    {
+      "id": "a096fda5859b6d77c756800add2bb8ee",
+      "title": "[MEDIUM CVE] CVE-2026-129248 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129248",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=600&q=80",
+      "published": "2026-11-14T11:17:07Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "A weakness has been identified in Akaunting up to 3.3.0. The affected element is the function calculation_to_quantity of the file helpers.php of the component Invoice Item Validation.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -913,184 +889,181 @@
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
+          "id": "d9102ce0bd760c31baf0c0c134066335",
+          "title": "[MEDIUM CVE] CVE-2026-129247 in Various Systems"
         },
         {
-          "id": "d90a57520204afa54af0a2731ac30554",
-          "title": "[MEDIUM CVE] CVE-2026-111339 in Various Systems"
+          "id": "154f81044bb1725af43ab57981044f09",
+          "title": "[MEDIUM CVE] CVE-2026-18742 in Various Systems"
         }
       ]
     },
     {
-      "id": "dd360a87ce435f6345abf6c119b14410",
-      "title": "[HIGH CVE] CVE-2026-111336 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111336",
+      "id": "d9102ce0bd760c31baf0c0c134066335",
+      "title": "[MEDIUM CVE] CVE-2026-129247 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129247",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "images/cve_2.png",
-      "published": "2026-11-13T08:17:15Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Memory overflow in HTTP/2 handling can lead to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&q=80",
+      "published": "2026-11-14T11:17:06Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "A security flaw has been discovered in yangzongzhuan RuoYi up to 4.8.3. Impacted is the function VelocityUtils.getFileName of the file VelocityUtils.java of the component Code Generator.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#medium-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "6cf428387bae6c4a43d5cbdd5d84c26f",
-          "title": "[HIGH CVE] CVE-2026-111337 in Various Systems"
+          "id": "a096fda5859b6d77c756800add2bb8ee",
+          "title": "[MEDIUM CVE] CVE-2026-129248 in Various Systems"
         },
         {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
+          "id": "154f81044bb1725af43ab57981044f09",
+          "title": "[MEDIUM CVE] CVE-2026-18742 in Various Systems"
         }
       ]
     },
     {
-      "id": "6cf428387bae6c4a43d5cbdd5d84c26f",
-      "title": "[HIGH CVE] CVE-2026-111337 in Various Systems",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111337",
+      "id": "154f81044bb1725af43ab57981044f09",
+      "title": "[MEDIUM CVE] CVE-2026-18742 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18742",
       "source": "NVD API",
       "source_icon": "🛡️",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&q=80",
-      "published": "2026-11-13T08:17:15Z",
-      "published_fmt": "13 Nov 2026",
-      "plain_summary": "Memory overflow in Base64 decoding in advanced policy expressions leading to unpredictable or erroneous behavior or Denial of Service in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
+      "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=600&q=80",
+      "published": "2026-11-14T09:16:47Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "The Flatsome theme for WordPress is vulnerable to Stored Cross-Site Scripting via 'data-text-sec', 'data-title', and 'title' Attributes via Custom HTML Block in all versions up to, and including, 3.20.12 due to insufficient input sanitization and output escaping.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
         "#cve",
         "#nvd",
-        "#high-severity"
+        "#medium-severity"
       ],
       "read_time": "2 min read",
       "forensic_score": 75,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "dd360a87ce435f6345abf6c119b14410",
-          "title": "[HIGH CVE] CVE-2026-111336 in Various Systems"
+          "id": "a096fda5859b6d77c756800add2bb8ee",
+          "title": "[MEDIUM CVE] CVE-2026-129248 in Various Systems"
         },
         {
-          "id": "6dfd5a049e963c9bf7a132866b750352",
-          "title": "[MEDIUM CVE] CVE-2026-111338 in Various Systems"
+          "id": "d9102ce0bd760c31baf0c0c134066335",
+          "title": "[MEDIUM CVE] CVE-2026-129247 in Various Systems"
         }
       ]
     },
     {
-      "id": "4f45c3f2918e19c660609aacfe66b20f",
-      "title": "Research Paper: TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
-      "link": "https://arxiv.org/abs/2611.25935v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_4.png",
-      "published": "2026-11-19T11:20:39Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending.",
+      "id": "94f4284bd1d85c7c008db2e58beb4694",
+      "title": "[MEDIUM CVE] CVE-2026-129181 in Various Systems",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129181",
+      "source": "NVD API",
+      "source_icon": "🛡️",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&q=80",
+      "published": "2026-11-14T08:17:18Z",
+      "published_fmt": "14 Nov 2026",
+      "plain_summary": "A vulnerability has been found in projectworlds Visitor Management System 1.0. This issue affects the function mysqli_query of the file /img/user%20page.php of the component Login Endpoint.",
       "deep_lore": "",
-      "category_tag": "Research Papers",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
+        "#cve",
+        "#nvd",
+        "#medium-severity"
       ],
       "read_time": "2 min read",
-      "forensic_score": 40,
-      "collected_date": "20 Nov 2026",
+      "forensic_score": 75,
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "5e6c2ddcdff70c7913c4ed4cceb03d54",
-          "title": "Research Paper: Decision Boundaries Matter: Graph-Regularized Residual Adaptation for Cross-Domain Fake Image Detection"
+          "id": "a096fda5859b6d77c756800add2bb8ee",
+          "title": "[MEDIUM CVE] CVE-2026-129248 in Various Systems"
         },
         {
-          "id": "6da40c5caa63e178659cb26241a98f6d",
-          "title": "Research Paper: Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study"
+          "id": "d9102ce0bd760c31baf0c0c134066335",
+          "title": "[MEDIUM CVE] CVE-2026-129247 in Various Systems"
         }
       ]
     },
     {
-      "id": "c5d554be000bbbb1472beb6b11175477",
-      "title": "InfoSec News Nuggets – 11/19/2026",
-      "link": "https://aboutdfir.com/infosec-news-nuggets-11-19-2026/",
+      "id": "5e6da20d451a8e4528ce8492a597b10a",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "Krebs on Security",
+      "source_icon": "🕵️",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/11/ransomwarehelp.png",
+      "published": "2026-11-21T00:36:39Z",
+      "published_fmt": "21 Nov 2026",
+      "plain_summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 10,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "9ab8a41daf1f07ec54253f75f40480ae",
+          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
+        },
+        {
+          "id": "caddf882a612e194fb895ae494479d81",
+          "title": "US launches center to disrupt scams and warn victims sooner - Malwarebytes"
+        }
+      ]
+    },
+    {
+      "id": "805da7b1c44ce41ce8e5a7f816cc3bf3",
+      "title": "InfoSec News Nuggets – 11/20/2026",
+      "link": "https://aboutdfir.com/infosec-news-nuggets-11-20-2026/",
       "source": "AboutDFIR",
       "source_icon": "📋",
-      "image": "images/malware_4.png",
-      "published": "2026-11-19T12:42:46Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands On November 16, an attacker abused a flaw in the account signup flow of Optimizely’s Web Experimentation platform to plant malicious code in the optional Project JavaScript field of customer projects, which Optimizely’s own CDN then served to visitors of 178 organizations including the BBC, CNN, […] The post InfoSec News Nuggets – 11/19/2026 appeared first on AboutDFIR - The Definitive Compendium Project .",
+      "image": "images/cve_4.png",
+      "published": "2026-11-20T11:36:24Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT Broadcom has patched CVE-2026-123890, a CVSS 9.8 authentication bypass in the VMware Directory Service that lets remote, unauthenticated attackers obtain an administrator session on vCenter, and Google’s Mandiant says a suspected Chinese espionage group it tracks as Armory Castle (formerly UNC5221, also known as […] The post InfoSec News Nuggets – 11/20/2026 appeared first on AboutDFIR - The Definitive Compendium Project .",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
       "forensic_score": 10,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "18c8f3fb68f9f2ccb76bdef581aa0456",
-          "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories"
+          "id": "58eefaa33e7ec3d8c02b1e141d28b90d",
+          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams"
         },
         {
-          "id": "28596d73e6d5840c37a6b41e5b26c70f",
-          "title": "Five warning signs of ransomware breach before encryption or data theft"
+          "id": "bbf2c3f2ae6ac357de33f84c1ba33612",
+          "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server"
         }
       ]
     },
     {
-      "id": "5e6c2ddcdff70c7913c4ed4cceb03d54",
-      "title": "Research Paper: Decision Boundaries Matter: Graph-Regularized Residual Adaptation for Cross-Domain Fake Image Detection",
-      "link": "https://arxiv.org/abs/2611.25406v1",
-      "source": "arXiv",
-      "source_icon": "🏆",
-      "image": "images/research_5.png",
-      "published": "2026-11-19T02:48:25Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Despite learning transferable features, fake image detectors may struggle on unseen domains due to mismatched decision boundaries.",
-      "deep_lore": "",
-      "category_tag": "Research Papers",
-      "tags": [
-        "#research",
-        "#arxiv",
-        "#ai",
-        "#digital-forensics"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 10,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "4f45c3f2918e19c660609aacfe66b20f",
-          "title": "Research Paper: TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis"
-        },
-        {
-          "id": "6da40c5caa63e178659cb26241a98f6d",
-          "title": "Research Paper: Measuring Hallucination in Large Language Models for Cyber Threat Intelligence: An Exploratory Study"
-        }
-      ]
-    },
-    {
-      "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "id": "58eefaa33e7ec3d8c02b1e141d28b90d",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
-      "published": "2026-11-20T06:33:31Z",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSbYUJJkBlZsaH90SXIaxYAv5iJN7ZEus7Q24A_Z9fDNNlnOjFnNZ3SnA6er-iuMgQnE6k73nwVwAEPPk1AjRT12N9o8cJft3_dPqMZKeJbpq6QIcGbN1z1UbE_Q3fXTyp1c0XmqynQu2lJPeIYoraqXFcgM-wQH4b1rIBrOKF221CIKLldJIZVJ4g7cr/s1600/whatsapp.jpg",
+      "published": "2026-11-20T17:57:20Z",
       "published_fmt": "20 Nov 2026",
-      "plain_summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026.",
+      "plain_summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1099,28 +1072,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "21f62923abce367fd8cf0e23441c6f20",
-          "title": "VMware patches vCenter zero-day exploited in attacks since September"
+          "id": "bbf2c3f2ae6ac357de33f84c1ba33612",
+          "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server"
         },
         {
-          "id": "299fae081fb4066b508e7e6db8559e1a",
-          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution"
+          "id": "805da7b1c44ce41ce8e5a7f816cc3bf3",
+          "title": "InfoSec News Nuggets – 11/20/2026"
         }
       ]
     },
     {
-      "id": "21f62923abce367fd8cf0e23441c6f20",
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "id": "bbf2c3f2ae6ac357de33f84c1ba33612",
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
-      "image": "images/cve_5.png",
-      "published": "2026-11-20T00:26:25Z",
+      "image": "images/cve_3.png",
+      "published": "2026-11-20T17:30:00Z",
       "published_fmt": "20 Nov 2026",
-      "plain_summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+      "plain_summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1129,58 +1102,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
-          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
+          "id": "58eefaa33e7ec3d8c02b1e141d28b90d",
+          "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams"
         },
         {
-          "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
+          "id": "2c70ac04df1b40abf9c18ff81924d63a",
+          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
         }
       ]
     },
     {
-      "id": "b40523b9208dc1902323534d48f265ce",
-      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-      "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/github_2.png",
-      "published": "2026-11-19T21:15:59Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-      "deep_lore": "",
-      "category_tag": "GitHub Releases",
-      "tags": [
-        "#github",
-        "#release"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "18306cc167b8fd22b7d9c1bd7151dc0d",
-          "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication"
-        },
-        {
-          "id": "a4027385edbb2b26bde6ea8a79e1bb1c",
-          "title": "PHP security updates fix 18 flaws, including critical RCE bugs"
-        }
-      ]
-    },
-    {
-      "id": "18c8f3fb68f9f2ccb76bdef581aa0456",
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "id": "9ab8a41daf1f07ec54253f75f40480ae",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1600/td.jpg",
-      "published": "2026-11-19T18:47:58Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1600/android-malware.jpg",
+      "published": "2026-11-20T16:58:16Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1189,28 +1132,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "c5d554be000bbbb1472beb6b11175477",
-          "title": "InfoSec News Nuggets – 11/19/2026"
+          "id": "a2af5d67b2b2a2e5313214fdda6782d1",
+          "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs"
         },
         {
-          "id": "28596d73e6d5840c37a6b41e5b26c70f",
-          "title": "Five warning signs of ransomware breach before encryption or data theft"
+          "id": "5e6da20d451a8e4528ce8492a597b10a",
+          "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud"
         }
       ]
     },
     {
-      "id": "299fae081fb4066b508e7e6db8559e1a",
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "id": "caddf882a612e194fb895ae494479d81",
+      "title": "US launches center to disrupt scams and warn victims sooner - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMFFic1A1OFhXZGxoaDVlN205WXVIX3ppRTY0Vi12eHdsZkdVT2NGOHlUSGNvMmctUzRfTjNBZ0w2UVcwaXJhTlltUkNwNjBlSkd0aXZfOEtDTUVETTYtcTM5UDQ3QjJYQ1JSZnFtMmZPMEc5VFpmcGN5MHpKMDk3c0JHLVRJZDA3cUg4Q3B0SlhDTzRSWi1LY3lJQXZQTXNDLWJPX09LY2djZw?oc=5",
+      "source": "Malwarebytes Labs",
+      "source_icon": "🦠",
+      "image": "images/malware_1.png",
+      "published": "2026-11-20T14:09:57Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "US launches center to disrupt scams and warn victims sooner Malwarebytes",
+      "deep_lore": "",
+      "category_tag": "Malware Intelligence",
+      "tags": [
+        "#malware",
+        "#malware-bazaar"
+      ],
+      "read_time": "1 min read",
+      "forensic_score": 0,
+      "collected_date": "21 Nov 2026",
+      "related": [
+        {
+          "id": "5e6da20d451a8e4528ce8492a597b10a",
+          "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud"
+        },
+        {
+          "id": "9ab8a41daf1f07ec54253f75f40480ae",
+          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
+        }
+      ]
+    },
+    {
+      "id": "bf49fa089ac3b6a30f48efea2db1eaef",
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
-      "published": "2026-11-19T16:59:56Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-jisyf4SWwWYA_RUtOoVqBviv2uNAUl6vEeGjsuBA0aOhfLYw7yHitbRBxAoWcf5ZP0UcGovNmyk-u-320fLFYIyUz7jtR77GiveyLdqsZWJ0DohwBfEFyN0KlNAIpIcpS9B6jHEZJybmTu7nuKM-PhSNPco-Z1QmacaSfwWyOWLXzT2WqaEdbZ810M/s1600/vms.jpg",
+      "published": "2026-11-20T12:20:00Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1219,28 +1192,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "2aa68bdd4ec1318430d1a063c9e1fefc",
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
+          "id": "2c70ac04df1b40abf9c18ff81924d63a",
+          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network"
         },
         {
-          "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
+          "id": "805da7b1c44ce41ce8e5a7f816cc3bf3",
+          "title": "InfoSec News Nuggets – 11/20/2026"
         }
       ]
     },
     {
-      "id": "a4027385edbb2b26bde6ea8a79e1bb1c",
-      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-      "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "id": "020cc916168672222488212597574187",
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
       "source": "BleepingComputer",
       "source_icon": "🚨",
       "image": "images/github_1.png",
-      "published": "2026-11-19T16:28:23Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "published": "2026-11-20T10:57:43Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -1249,28 +1222,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "b40523b9208dc1902323534d48f265ce",
-          "title": "ASUS warns of critical hard-coded key flaw in Control Center Express"
+          "id": "a7a67812faf6d6b11f7fa395b8c93000",
+          "title": "Windows 11 KB5132057 update released with 28 changes and fixes"
         },
         {
-          "id": "2aa68bdd4ec1318430d1a063c9e1fefc",
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
+          "id": "ad718c0cc3d82317989206a7413d8aa3",
+          "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws"
         }
       ]
     },
     {
-      "id": "2aa68bdd4ec1318430d1a063c9e1fefc",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "id": "2c70ac04df1b40abf9c18ff81924d63a",
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s1600/php-flawss.jpg",
-      "published": "2026-11-19T15:18:07Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrMm7M_HyuVDt9NknngHSgyfGKu0DR8VTc_GYL-tr_hMhTmi3EAZnM8x5byJQRYEqcUAZlDTR_Xi4RcMm4lidmk9UR_iyTWpDa5Mn6xRBoNwAf3auen2u6guKxnvoIrcQOfq7Mm1clmsyBMYVcjaOqVFYiN4mXgYSyR5_DUSrmVOLDK5mQeAS8BBB3X5-5/s1600/cisco-cyberattacks.jpg",
+      "published": "2026-11-20T10:32:50Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit.",
       "deep_lore": "",
       "category_tag": "CVE & Vulnerabilities",
       "tags": [
@@ -1279,28 +1252,28 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "299fae081fb4066b508e7e6db8559e1a",
-          "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution"
+          "id": "bbf2c3f2ae6ac357de33f84c1ba33612",
+          "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server"
         },
         {
-          "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
+          "id": "bf49fa089ac3b6a30f48efea2db1eaef",
+          "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts"
         }
       ]
     },
     {
-      "id": "18306cc167b8fd22b7d9c1bd7151dc0d",
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
-      "published": "2026-11-19T15:11:06Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.",
+      "id": "a7a67812faf6d6b11f7fa395b8c93000",
+      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "source_icon": "🚨",
+      "image": "images/github_2.png",
+      "published": "2026-11-20T09:25:35Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
       "deep_lore": "",
       "category_tag": "GitHub Releases",
       "tags": [
@@ -1309,148 +1282,58 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "b40523b9208dc1902323534d48f265ce",
-          "title": "ASUS warns of critical hard-coded key flaw in Control Center Express"
+          "id": "020cc916168672222488212597574187",
+          "title": "F5 releases emergency patches for critical BIG-IP RCE flaws"
         },
         {
-          "id": "a4027385edbb2b26bde6ea8a79e1bb1c",
-          "title": "PHP security updates fix 18 flaws, including critical RCE bugs"
+          "id": "591bae00358714f1c8858d1d4efaa38e",
+          "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices"
         }
       ]
     },
     {
-      "id": "28596d73e6d5840c37a6b41e5b26c70f",
-      "title": "Five warning signs of ransomware breach before encryption or data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/malware_5.png",
-      "published": "2026-11-19T15:00:10Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins.",
+      "id": "b68f2d27ca556257a93f033dbcf8b526",
+      "title": "NVD-CVE-2026-126714 - National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96bjFWSDFxTTdqT2ZZYW9tby04ZDFGS1F2NTR1YmpDYmUtYXVGaU41Z1dtaHFhWUgxQjA5S0pxdmhzOV9IRlhrV2dBTWVBVFdYN3NvcFNQOExueEhR?oc=5",
+      "source": "NIST Cybersecurity",
+      "source_icon": "🏢",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "published": "2026-11-20T08:12:03Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "NVD-CVE-2026-126714 National Institute of Standards and Technology (.gov)",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "c5d554be000bbbb1472beb6b11175477",
-          "title": "InfoSec News Nuggets – 11/19/2026"
+          "id": "ed90c6005b6e876d431977b1be0a72d9",
+          "title": "NVD-CVE-2026-123890 - National Institute of Standards and Technology (.gov)"
         },
         {
-          "id": "18c8f3fb68f9f2ccb76bdef581aa0456",
-          "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories"
+          "id": "805da7b1c44ce41ce8e5a7f816cc3bf3",
+          "title": "InfoSec News Nuggets – 11/20/2026"
         }
       ]
     },
     {
-      "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "id": "a2af5d67b2b2a2e5313214fdda6782d1",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
       "source": "The Hacker News",
       "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4kxIzi1B-GPdS7pbaOI823BHxteL-8FbODKnAoDkr8tGhhjGYuRU9KIEAvOQ6kBZFQPCly3BIhQo6vkjxJy13zL7CxlRXsez_G_otFVaja2H5ObmzNMMilbewaweqqO5Paa0H49yaZdWB09xAIqeo7YLG0uyd05qjdbh2aLIRZd73_jwVGH26YexA3l8/s1600/drupal-flaws.jpg",
-      "published": "2026-11-19T14:33:06Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "589942e72f1924f2f69d5b4cbb58c025",
-          "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly"
-        },
-        {
-          "id": "2aa68bdd4ec1318430d1a063c9e1fefc",
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
-        }
-      ]
-    },
-    {
-      "id": "589942e72f1924f2f69d5b4cbb58c025",
-      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
-      "source": "BleepingComputer",
-      "source_icon": "🚨",
-      "image": "images/cve_2.png",
-      "published": "2026-11-19T13:08:08Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "9bb7a0fdd0f7a3ac57a673991ba46463",
-          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites"
-        },
-        {
-          "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
-          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
-        }
-      ]
-    },
-    {
-      "id": "790246065cf7ca7610dd0353d0c496a0",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "source": "The Hacker News",
-      "source_icon": "💻",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC0roCfV92el2-gLSGwmumyjXgCjHookzwGjft2a6UWPZA1QvyrazDNLTvlZrF1F5iagg74JxnPEXbnK60OEeJuFNo2Fc2xcNSnJCeNw9BLu_y-lsRhrpO6s1End2gdDDlRU_r4wysTiiJS4ZKPDTmWK152psFdhxRizlSJZFCjnYr6nnamRsUciEJui4/s1600/php-app.jpg",
-      "published": "2026-11-19T11:52:23Z",
-      "published_fmt": "19 Nov 2026",
-      "plain_summary": "One of the early targets of PHP2Shell exploitation was the firewall.",
-      "deep_lore": "",
-      "category_tag": "CVE & Vulnerabilities",
-      "tags": [
-        "#cve",
-        "#vulnerability"
-      ],
-      "read_time": "1 min read",
-      "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
-      "related": [
-        {
-          "id": "2aa68bdd4ec1318430d1a063c9e1fefc",
-          "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution"
-        },
-        {
-          "id": "c179de6fc560a3d5460ff93dfd5aa9d1",
-          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data"
-        }
-      ]
-    },
-    {
-      "id": "e5d83a51309e53815187bf1dda67998f",
-      "title": "GTA 6 scams could cost you your account, money, or crypto - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnhZVkdWbC1tM1JzUGxOczJpWkg5eFdrbW95dlU0UGVPRDlPZ1VwbmFMd04xXzZSYVc2UGM2U2l1a1B2VGFpbWJpX0FEblpsSUhrd0NLVGw3WG9fMmc5QWswcThUakNsSUJqVjFMMXVjdF9OenhkWTRjQ0xLSDA5QnV2dzh5RlZNNEllM3RiSlU2VnNwQUhRajAwM3RyNnJlODJNS2xB?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_5.png",
-      "published": "2026-11-18T22:31:48Z",
-      "published_fmt": "18 Nov 2026",
-      "plain_summary": "GTA 6 scams could cost you your account, money, or crypto Malwarebytes",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s1600/cf.jpg",
+      "published": "2026-11-20T07:11:39Z",
+      "published_fmt": "20 Nov 2026",
+      "plain_summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS.",
       "deep_lore": "",
       "category_tag": "Malware Intelligence",
       "tags": [
@@ -1459,45 +1342,45 @@
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "ed54d5fbff20dc781e02b566aae836fc",
-          "title": "OpenAI lost control of AI agents over 80 times, California alleges - Malwarebytes"
+          "id": "9ab8a41daf1f07ec54253f75f40480ae",
+          "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control"
         },
         {
-          "id": "c5d554be000bbbb1472beb6b11175477",
-          "title": "InfoSec News Nuggets – 11/19/2026"
+          "id": "5e6da20d451a8e4528ce8492a597b10a",
+          "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud"
         }
       ]
     },
     {
-      "id": "ed54d5fbff20dc781e02b566aae836fc",
-      "title": "OpenAI lost control of AI agents over 80 times, California alleges - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUk1aWUZSUWRYcllKN0Z2VktCWWhBVVFlaUxfQl9WVTNONGxxcFptelNzTXZfckdlNkd3VFNDamllc3BxLU1TM2dpd2ZySkdpUGgyaVFtRjFXRVhCTmkybHd1azlWN3BVV1phbXdvbWJHYjBsbnFibnZSSVBkWGw0aW44RzJUSjdhU0N2VWJqNW45UzdQM2pmbFB4WDZBZmh1VTNhLVZSWk1uSTVmQ09B?oc=5",
-      "source": "Malwarebytes Labs",
-      "source_icon": "🦠",
-      "image": "images/malware_3.png",
-      "published": "2026-11-17T18:36:12Z",
-      "published_fmt": "17 Nov 2026",
-      "plain_summary": "OpenAI lost control of AI agents over 80 times, California alleges Malwarebytes",
+      "id": "ed90c6005b6e876d431977b1be0a72d9",
+      "title": "NVD-CVE-2026-123890 - National Institute of Standards and Technology (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51Uzh2Zkh5b25kcjNGS1R5YjhQY1lGSXhRcjJFVTJxaEtyN29jMUE2RjlQRS1FUFhGM05XaERRVThNZnRNVVItakhZRUtLVTRQR0gtTFVQQUs3Tzh6?oc=5",
+      "source": "NIST Cybersecurity",
+      "source_icon": "🏢",
+      "image": "images/cve_3.png",
+      "published": "2026-11-19T16:52:16Z",
+      "published_fmt": "19 Nov 2026",
+      "plain_summary": "NVD-CVE-2026-123890 National Institute of Standards and Technology (.gov)",
       "deep_lore": "",
-      "category_tag": "Malware Intelligence",
+      "category_tag": "CVE & Vulnerabilities",
       "tags": [
-        "#malware",
-        "#malware-bazaar"
+        "#cve",
+        "#vulnerability"
       ],
       "read_time": "1 min read",
       "forensic_score": 0,
-      "collected_date": "20 Nov 2026",
+      "collected_date": "21 Nov 2026",
       "related": [
         {
-          "id": "e5d83a51309e53815187bf1dda67998f",
-          "title": "GTA 6 scams could cost you your account, money, or crypto - Malwarebytes"
+          "id": "b68f2d27ca556257a93f033dbcf8b526",
+          "title": "NVD-CVE-2026-126714 - National Institute of Standards and Technology (.gov)"
         },
         {
-          "id": "c5d554be000bbbb1472beb6b11175477",
-          "title": "InfoSec News Nuggets – 11/19/2026"
+          "id": "805da7b1c44ce41ce8e5a7f816cc3bf3",
+          "title": "InfoSec News Nuggets – 11/20/2026"
         }
       ]
     }
