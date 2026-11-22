@@ -1,60 +1,5 @@
 [
   {
-    "timestamp": "2026-08-14T03:07:15.869548+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 65,
-    "sources_failed": 9,
-    "new_articles_count": 214,
-    "total_articles": 8459,
-    "runtime": "2 min 29 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "Forensic Focus",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "DFRWS",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "SANS Stormcast",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Malwarebytes Labs",
-        "error": "<unknown>:2:0: syntax error"
-      },
-      {
-        "name": "MSAB Blog",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ESET Research",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Journal of Forensic Sciences",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "WIREs Forensic Science",
-        "error": "403 Forbidden - WAF Block"
-      },
-      {
-        "name": "ScienceDaily Forensics",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-15T01:58:59.524892+00:00",
     "sources_checked": 62,
     "sources_healthy": 67,
@@ -2909,6 +2854,29 @@
       "CISA": "✔",
       "GitHub": "✔",
       "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:2: not well-formed (invalid token)"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-22T07:11:10.713273+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 28,
+    "total_articles": 15356,
+    "runtime": "49 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✖",
       "arXiv": "✔",
       "MalwareBazaar": "✔"
     },

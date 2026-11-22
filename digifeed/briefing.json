@@ -1,29 +1,29 @@
 {
   "sources_checked": 80,
-  "new_articles": 42,
-  "critical_cves": 2,
-  "known_exploited": 4,
-  "new_tool_releases": 2,
-  "threat_reports": 12,
-  "top_story": "Beyond the phone: where confidence in evidence access drops",
-  "top_story_link": "https://www.magnetforensics.com/blog/beyond-the-phone-where-confidence-in-evidence-access-drops/",
+  "new_articles": 20,
+  "critical_cves": 3,
+  "known_exploited": 0,
+  "new_tool_releases": 1,
+  "threat_reports": 1,
+  "top_story": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+  "top_story_link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
   "trending_topics": [
-    "CVE-2026-123890",
     "Vulnerability",
-    "Unknownmalware"
+    "CVE-2026-114452",
+    "CVE-2026-116559"
   ],
   "recommended_reads": [
     {
-      "title": "Beyond the phone: where confidence in evidence access drops",
-      "link": "https://www.magnetforensics.com/blog/beyond-the-phone-where-confidence-in-evidence-access-drops/"
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
     },
     {
-      "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
-      "link": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/"
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
     },
     {
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
     }
   ]
 }
