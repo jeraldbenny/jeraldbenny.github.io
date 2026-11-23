@@ -745,17 +745,17 @@
   },
   {
     "name": "Velociraptor",
-    "version": "0.77.3",
-    "released": "05 October 2026",
+    "version": "0.77.4",
+    "released": "23 November 2026",
     "category": "Timeline & Decryption",
     "github_repo": "Velocidex/velociraptor",
     "features": [
-      "Detailed change log below (AI generated).",
       "Artifact changes",
-      "Added `Azure.Monitor.Upload`, which uploads server-side artifact results to an Azure Monitor Log Analytics workspace. Takes a table name, a Data Collection Rule id, and either a client secret or a managed identity. (4974, 2026-09-04)"
+      "Added Windows.Forensics.BitLocker, Windows.Forensics.BITS and Windows.Forensics.MPLog for BitLocker state, BITS job databases and Defender support logs. (5145, 2026-11-19) (5124, 2026-11-10) (5121, 2026-11-04)",
+      "Added Windows.Forensics.Recall, Windows.Forensics.CBS and Windows.Applications.WinGet for Windows 11 Recall, servicing logs and WinGet logs. (5130, 2026-11-08) (5125, 2026-11-11)"
     ],
     "bugs": [
-      "Resolved minor stability and performance issues"
+      "General bug fixes and code optimizations"
     ]
   },
   {

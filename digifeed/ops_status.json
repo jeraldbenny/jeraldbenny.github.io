@@ -1,11 +1,11 @@
 {
-  "last_update": "22 Nov 2026, 12:41 IST",
-  "sources_healthy": 73,
-  "sources_failed": 1,
+  "last_update": "23 Nov 2026, 13:27 IST",
+  "sources_healthy": 72,
+  "sources_failed": 2,
   "articles_today": 23,
-  "duplicates_discarded": 5,
-  "articles_total": 15356,
-  "runtime": "49 sec",
+  "duplicates_discarded": 6,
+  "articles_total": 15379,
+  "runtime": "52 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -15,6 +15,10 @@
     "MalwareBazaar": "✔"
   },
   "errors_list": [
+    {
+      "name": "Malwarebytes Labs",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:malwarebytes.com/blog&hl=en-US&gl=US&ceid=US:en"
+    },
     {
       "name": "CrowdStrike Blog",
       "error": "<unknown>:2:2: not well-formed (invalid token)"
