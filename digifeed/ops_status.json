@@ -1,11 +1,11 @@
 {
-  "last_update": "24 Nov 2026, 15:41 IST",
-  "sources_healthy": 73,
-  "sources_failed": 1,
-  "articles_today": 61,
-  "duplicates_discarded": 1,
-  "articles_total": 15440,
-  "runtime": "1 min 13 sec",
+  "last_update": "25 Nov 2026, 14:26 IST",
+  "sources_healthy": 69,
+  "sources_failed": 5,
+  "articles_today": 48,
+  "duplicates_discarded": 2,
+  "articles_total": 15488,
+  "runtime": "1 min 6 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -16,8 +16,24 @@
   },
   "errors_list": [
     {
+      "name": "Mandiant Blog",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Mandiant%22+cybersecurity&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
       "name": "CrowdStrike Blog",
-      "error": "<unknown>:2:2: not well-formed (invalid token)"
+      "error": "<unknown>:2:0: not well-formed (invalid token)"
+    },
+    {
+      "name": "Howard Oakley",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:eclecticlight.co&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "ScienceDaily Forensics",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=site:sciencedaily.com+forensics&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News: DNA Profiling",
+      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22dna+profiling%22&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }
