@@ -1,52 +1,5 @@
 [
   {
-    "timestamp": "2026-08-19T02:00:47.403977+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 67,
-    "sources_failed": 7,
-    "new_articles_count": 229,
-    "total_articles": 9176,
-    "runtime": "2 min 58 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "Forensic Focus",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "DFRWS",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "SANS Stormcast",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Malwarebytes Labs",
-        "error": "<unknown>:2:1: not well-formed (invalid token)"
-      },
-      {
-        "name": "MSAB Blog",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ESET Research",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ScienceDaily Forensics",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-20T02:00:16.535191+00:00",
     "sources_checked": 62,
     "sources_healthy": 67,
@@ -2944,6 +2897,37 @@
       {
         "name": "MDPI – Forensic Sciences",
         "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=site:mdpi.com/journal/forensicsci+OR+%22MDPI+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-27T08:53:08.646636+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 71,
+    "sources_failed": 3,
+    "new_articles_count": 42,
+    "total_articles": 15571,
+    "runtime": "56 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
+      },
+      {
+        "name": "FS, Medicine and Pathology",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en"
+      },
+      {
+        "name": "Egyptian Journal of FS",
+        "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
       }
     ]
   }
