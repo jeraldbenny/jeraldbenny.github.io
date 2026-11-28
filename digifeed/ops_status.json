@@ -1,11 +1,11 @@
 {
-  "last_update": "27 Nov 2026, 14:23 IST",
-  "sources_healthy": 71,
-  "sources_failed": 3,
-  "articles_today": 40,
-  "duplicates_discarded": 2,
-  "articles_total": 15571,
-  "runtime": "56 sec",
+  "last_update": "28 Nov 2026, 13:42 IST",
+  "sources_healthy": 73,
+  "sources_failed": 1,
+  "articles_today": 38,
+  "duplicates_discarded": 3,
+  "articles_total": 15609,
+  "runtime": "49 sec",
   "api_status": {
     "NVD": "✔",
     "CISA": "✔",
@@ -18,14 +18,6 @@
     {
       "name": "CrowdStrike Blog",
       "error": "<unknown>:2:0: not well-formed (invalid token)"
-    },
-    {
-      "name": "FS, Medicine and Pathology",
-      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Forensic+Science,+Medicine+and+Pathology%22&hl=en-US&gl=US&ceid=US:en"
-    },
-    {
-      "name": "Egyptian Journal of FS",
-      "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }

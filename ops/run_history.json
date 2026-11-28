@@ -1,52 +1,5 @@
 [
   {
-    "timestamp": "2026-08-20T02:00:16.535191+00:00",
-    "sources_checked": 62,
-    "sources_healthy": 67,
-    "sources_failed": 7,
-    "new_articles_count": 236,
-    "total_articles": 9348,
-    "runtime": "3 min 29 sec",
-    "api_status": {
-      "NVD": "✔",
-      "CISA": "✔",
-      "GitHub": "✔",
-      "ThreatFox": "✔",
-      "arXiv": "✔",
-      "MalwareBazaar": "✔"
-    },
-    "errors": [
-      {
-        "name": "Forensic Focus",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "DFRWS",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "SANS Stormcast",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "Malwarebytes Labs",
-        "error": "<unknown>:2:1: not well-formed (invalid token)"
-      },
-      {
-        "name": "MSAB Blog",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ESET Research",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      },
-      {
-        "name": "ScienceDaily Forensics",
-        "error": "<unknown>:2:0: not well-formed (invalid token)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-21T02:08:11.888229+00:00",
     "sources_checked": 62,
     "sources_healthy": 67,
@@ -2928,6 +2881,29 @@
       {
         "name": "Egyptian Journal of FS",
         "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22Egyptian+Journal+of+Forensic+Sciences%22&hl=en-US&gl=US&ceid=US:en"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-28T08:12:40.452204+00:00",
+    "sources_checked": 62,
+    "sources_healthy": 73,
+    "sources_failed": 1,
+    "new_articles_count": 41,
+    "total_articles": 15609,
+    "runtime": "49 sec",
+    "api_status": {
+      "NVD": "✔",
+      "CISA": "✔",
+      "GitHub": "✔",
+      "ThreatFox": "✔",
+      "arXiv": "✔",
+      "MalwareBazaar": "✔"
+    },
+    "errors": [
+      {
+        "name": "CrowdStrike Blog",
+        "error": "<unknown>:2:0: not well-formed (invalid token)"
       }
     ]
   }
